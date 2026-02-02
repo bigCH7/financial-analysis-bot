@@ -2,13 +2,13 @@
   {
     "asset": "bitcoin",
     "type": "market",
-    "price": 77836,
-    "pct24": -0.41
+    "price": 78294,
+    "pct24": 1.39
   },
   {
     "asset": "ethereum",
     "type": "market",
-    "price": 2331.54,
-    "pct24": -1.58
+    "price": 2352.73,
+    "pct24": 1.37
   }
 ]
