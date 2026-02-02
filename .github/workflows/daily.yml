@@ -15,7 +15,10 @@ jobs:
     steps:
           
       - name: Run long-term analysis
-        run: python analysis_longterm.py
+        run: |
+            pwd
+             ls
+             python ./analysis_longterm.py
 
       - name: Checkout repo
         uses: actions/checkout@v4
