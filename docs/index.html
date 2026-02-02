@@ -36,7 +36,7 @@
   <div id="content">Loading report...</div>
 
   <script>
-    fetch("../data/report_latest.md")
+   fetch("report_latest.md")
       .then(r => r.text())
       .then(text => {
         document.getElementById("content").innerText = text;
