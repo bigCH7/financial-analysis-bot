@@ -14,8 +14,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
           
-      - name: Run short analysis (existing)
-        run: python analysis.py
       - name: Run long-term analysis
         run: python analysis_longterm.py
 
