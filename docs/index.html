@@ -3,50 +3,97 @@
 <head>
   <meta charset="UTF-8" />
   <title>Daily Financial Report</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Markdown renderer -->
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
   <style>
     body {
+      background: #0f172a;
+      color: #e5e7eb;
       font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
       max-width: 900px;
-      margin: 40px auto;
-      padding: 0 20px;
-      background: #0d1117;
-      color: #e6edf3;
+      margin: 0 auto;
+      padding: 40px 24px;
     }
-    h1, h2 {
-      border-bottom: 1px solid #30363d;
-      padding-bottom: 6px;
+
+    h1, h2, h3 {
+      color: #f8fafc;
+      margin-top: 1.6em;
     }
-    a { color: #58a6ff; }
-    pre {
-      background: #161b22;
-      padding: 16px;
-      overflow-x: auto;
+
+    h1 {
+      font-size: 2.2rem;
+      border-bottom: 2px solid #334155;
+      padding-bottom: 10px;
     }
-    .updated {
-      opacity: 0.7;
-      font-size: 0.9em;
+
+    h2 {
+      font-size: 1.5rem;
+      border-left: 4px solid #38bdf8;
+      padding-left: 12px;
+    }
+
+    ul {
+      margin-left: 20px;
+    }
+
+    li {
+      margin: 6px 0;
+    }
+
+    em {
+      color: #94a3b8;
+    }
+
+    strong {
+      color: #facc15;
+    }
+
+    .timestamp {
+      color: #94a3b8;
+      font-size: 0.9rem;
       margin-bottom: 20px;
+    }
+
+    footer {
+      margin-top: 60px;
+      font-size: 0.8rem;
+      color: #64748b;
+      text-align: center;
     }
   </style>
 </head>
+
 <body>
-  <h1>📊 Daily Financial Report</h1>
-  <div class="updated" id="updated">Loading...</div>
-  <div id="content">Loading report...</div>
+  <div class="container">
+    <h1>📊 Daily Financial Report</h1>
+    <div class="timestamp" id="updated"></div>
+    <div id="content">Loading report…</div>
+
+    <footer>
+      Automatically generated • Not financial advice
+    </footer>
+  </div>
 
   <script>
-   fetch("report_latest.md")
-      .then(r => r.text())
-      .then(text => {
-        document.getElementById("content").innerText = text;
+    fetch("report_latest.md")
+      .then(res => res.text())
+      .then(md => {
+        document.getElementById("content").innerHTML = marked.parse(md);
         document.getElementById("updated").innerText =
           "Last updated: " + new Date().toUTCString();
       })
-      .catch(() => {
+      .catch(err => {
         document.getElementById("content").innerText =
-          "Report not available yet. Run the workflow first.";
+          "Failed to load report.";
       });
   </script>
 </body>
 </html>
+
