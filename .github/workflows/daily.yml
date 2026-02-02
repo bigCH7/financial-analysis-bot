@@ -31,6 +31,10 @@ jobs:
 
       - name: Run analysis
         run: python analysis.py
+      - name: Copy report to docs for Pages
+        run: |
+          mkdir -p docs
+          cp data/report_latest.md docs/report_latest.md
 
       - name: Commit report to repo
         run: |
