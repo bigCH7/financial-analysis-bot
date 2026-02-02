@@ -1,61 +1,23 @@
 name: Daily Financial Bot
 
-# allow the workflow to push commits back into the repo
-permissions:
-  contents: write
-
 on:
-  schedule:
-    - cron: '0 12 * * *'   # daily at 12:00 UTC
   workflow_dispatch:
 
 jobs:
   run-bot:
     runs-on: ubuntu-latest
-    steps:
-          
-      - name: Run long-term analysis
-        run: python analysis_longterm.py
 
-      - name: Checkout repo
+    steps:
+      - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
-          python-version: '3.10'
+          python-version: '3.11'
 
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
+      - name: Show files (debug)
+        run: ls -la
 
-      - name: Fetch data
-        run: python fetch_data.py
-
-      - name: Run analysis
-        run: python analysis.py
-      - name: Copy report to docs for Pages
-        run: |
-          mkdir -p docs
-          cp data/report_latest.md docs/report_latest.md
-     
-      - name: Commit report to repo
-        run: |
-          ls -la
-          ls -la docs || true
-
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-
-          git add docs/report_latest.md
-          git status
-
-          git commit -m "Update daily financial report" || echo "Nothing to commit"
-          git push
-        
-      - name: Upload data artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: financial-data-${{ github.run_id }}
-          path: data/
+      - name: Run long-term analysis
+        run: python analysis_longterm.py
