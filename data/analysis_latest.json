@@ -1,0 +1,14 @@
+[
+  {
+    "asset": "bitcoin",
+    "type": "market",
+    "price": 77836,
+    "pct24": -0.41
+  },
+  {
+    "asset": "ethereum",
+    "type": "market",
+    "price": 2331.54,
+    "pct24": -1.58
+  }
+]
