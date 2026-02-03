@@ -1,43 +1,48 @@
-# Long-Term Crypto Valuation Report
+# Long-Term Crypto Valuation & Risk Report
 
-_Generated automatically — 2026-02-03 16:31 UTC_
+_Generated automatically — 2026-02-03 16:37 UTC_
 
 ---
-## BTC — Long-Term Valuation
+## Macro Market Context
 
-- Current price: **$76,690.00**
-- Market cap: **$1.54T**
-- 30d performance: **-18.36%**
-- 1y performance: **-21.85%**
+- Bitcoin dominance: **57.40%**
+- Ethereum dominance: **10.16%**
+- Interpretation: **Risk-off environment. Capital consolidating into Bitcoin.**
+
+---
+## BTC — Long-Term Analysis
+
+- Current price: **$76,692.00**
+- Market cap: **$1.53T**
+- Annualized volatility: **0.42**
+- Max drawdown (1y): **-38.53%**
 
 ### Valuation Model: Store of Value (Digital Gold)
 
-**Implied long-term valuation ranges:**
-
+**Implied valuation ranges:**
 - Conservative: **$238,095**
 - Base case: **$476,190**
 - Bull case: **$952,381**
 
-**Interpretation:**
-- Asset appears **deeply undervalued** relative to long-term fundamentals.
+### Risk Assessment: **Low**
+- Environment favorable for long-term accumulation.
 
 ---
-## ETH — Long-Term Valuation
+## ETH — Long-Term Analysis
 
-- Current price: **$2,248.18**
+- Current price: **$2,248.24**
 - Market cap: **$0.27T**
-- 30d performance: **-30.36%**
-- 1y performance: **-17.96%**
+- Annualized volatility: **0.75**
+- Max drawdown (1y): **-53.45%**
 
 ### Valuation Model: Network Utility & Settlement Layer
 
-**Implied long-term valuation ranges:**
+**Implied valuation ranges:**
+- Conservative: **$41,432**
+- Base case: **$82,865**
+- Bull case: **$165,729**
 
-- Conservative: **$41,395**
-- Base case: **$82,791**
-- Bull case: **$165,581**
-
-**Interpretation:**
-- Asset appears **deeply undervalued** relative to long-term fundamentals.
+### Risk Assessment: **Moderate**
+- Balanced risk. Position sizing and patience recommended.
 
 ---
