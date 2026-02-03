@@ -1,139 +1,137 @@
 import requests
-import time
-import statistics
 from datetime import datetime
-
-COINGECKO_BASE = "https://api.coingecko.com/api/v3"
-HEADERS = {"Accept": "application/json"}
+from pathlib import Path
 
 # -----------------------------
-# Utility: safe API request
+# Configuration
 # -----------------------------
-def safe_get(url, params=None, retries=3, backoff=5):
-    for attempt in range(retries):
-        try:
-            r = requests.get(url, params=params, headers=HEADERS, timeout=20)
-            if r.status_code == 429:
-                time.sleep(backoff * (attempt + 1))
-                continue
-            r.raise_for_status()
-            return r.json()
-        except Exception as e:
-            if attempt == retries - 1:
-                print(f"[WARN] API failed after retries: {e}")
-                return None
-            time.sleep(backoff * (attempt + 1))
-    return None
+COINGECKO_API = "https://api.coingecko.com/api/v3"
+VS_CURRENCY = "usd"
 
+ASSETS = {
+    "bitcoin": "BTC",
+    "ethereum": "ETH"
+}
+
+REPORT_DIR = Path("reports")
+REPORT_DIR.mkdir(exist_ok=True)
 
 # -----------------------------
-# Market Data
+# Data Fetching
 # -----------------------------
-def get_market_data(asset_id, days=365):
-    url = f"{COINGECKO_BASE}/coins/{asset_id}/market_chart"
-    params = {
-        "vs_currency": "usd",
-        "days": days,
-        "interval": "daily"
-    }
-    data = safe_get(url, params)
-    if not data or "prices" not in data:
-        return []
+def get_global_data():
+    r = requests.get(f"{COINGECKO_API}/global")
+    r.raise_for_status()
+    return r.json()["data"]
 
-    return [p[1] for p in data["prices"]]
-
-
-def get_dominance():
-    url = f"{COINGECKO_BASE}/global"
-    data = safe_get(url)
-    if not data:
-        return {}
-
-    mkt = data.get("data", {}).get("market_cap_percentage", {})
-    return {
-        "btc": round(mkt.get("btc", 0), 2),
-        "eth": round(mkt.get("eth", 0), 2)
-    }
-
-
-# -----------------------------
-# Analytics
-# -----------------------------
-def percent_change(prices):
-    if len(prices) < 2:
-        return 0.0
-    return round((prices[-1] - prices[0]) / prices[0] * 100, 2)
-
-
-def volatility(prices):
-    if len(prices) < 10:
-        return 0.0
-    returns = [(prices[i] - prices[i - 1]) / prices[i - 1] for i in range(1, len(prices))]
-    return round(statistics.stdev(returns) * 100, 2)
-
-
-def risk_assessment(asset_id):
-    prices = get_market_data(asset_id)
-    if not prices:
-        return {
-            "30d": 0,
-            "volatility": 0,
-            "status": "Data unavailable"
+def get_market_chart(asset_id, days=30):
+    r = requests.get(
+        f"{COINGECKO_API}/coins/{asset_id}/market_chart",
+        params={
+            "vs_currency": VS_CURRENCY,
+            "days": days,
+            "interval": "daily"
         }
+    )
+    r.raise_for_status()
+    return r.json()["prices"]
 
-    last_30 = prices[-30:]
+# -----------------------------
+# Calculations
+# -----------------------------
+def performance_30d(prices):
+    start = prices[0][1]
+    end = prices[-1][1]
+    return ((end - start) / start) * 100
+
+# -----------------------------
+# Analysis Logic
+# -----------------------------
+def macro_analysis():
+    global_data = get_global_data()
+
+    btc_dom = global_data["market_cap_percentage"]["btc"]
+    eth_dom = global_data["market_cap_percentage"]["eth"]
+
+    btc_prices = get_market_chart("bitcoin", 30)
+    eth_prices = get_market_chart("ethereum", 30)
+
+    btc_perf = performance_30d(btc_prices)
+    eth_perf = performance_30d(eth_prices)
+    eth_vs_btc = eth_perf - btc_perf
+
+    if btc_dom > 55 and eth_vs_btc < 0:
+        interpretation = (
+            "Risk-off environment. Capital consolidating into Bitcoin. "
+            "Bitcoin dominance elevated — defensive positioning."
+        )
+    else:
+        interpretation = (
+            "Risk-on or neutral environment. Capital rotating toward higher beta assets."
+        )
+
     return {
-        "30d": percent_change(last_30),
-        "volatility": volatility(last_30),
-        "status": "OK"
+        "btc_dominance": btc_dom,
+        "eth_dominance": eth_dom,
+        "btc_30d": btc_perf,
+        "eth_30d": eth_perf,
+        "eth_vs_btc": eth_vs_btc,
+        "interpretation": interpretation
     }
 
+# -----------------------------
+# Reporting
+# -----------------------------
+def generate_report(data):
+    timestamp = datetime.utcnow()
+    filename = REPORT_DIR / f"long_term_report_{timestamp.date()}.md"
+
+    report = f"""# Long-Term Crypto Macro Analysis
+
+**Generated:** {timestamp.strftime('%Y-%m-%d %H:%M UTC')}
+
+## Macro & Capital Flow Context
+
+- **Bitcoin dominance:** {data['btc_dominance']:.2f}%
+- **Ethereum dominance:** {data['eth_dominance']:.2f}%
+- **BTC 30d performance:** {data['btc_30d']:.2f}%
+- **ETH 30d performance:** {data['eth_30d']:.2f}%
+- **ETH vs BTC (30d):** {data['eth_vs_btc']:.2f}%
+
+## Interpretation
+
+{data['interpretation']}
+
+---
+
+*Automatically generated. Not financial advice.*
+"""
+
+    filename.write_text(report, encoding="utf-8")
+    return filename
 
 # -----------------------------
-# Macro Interpretation
-# -----------------------------
-def interpret(btc, eth, dom):
-    lines = []
-
-    if btc["30d"] < 0 and eth["30d"] < btc["30d"]:
-        lines.append("Risk-off environment. Capital consolidating into Bitcoin.")
-    elif eth["30d"] > btc["30d"]:
-        lines.append("Risk-on environment. Capital rotating into higher beta assets.")
-    else:
-        lines.append("Mixed signals. Market indecision.")
-
-    if dom["btc"] > 55:
-        lines.append("Bitcoin dominance elevated — defensive positioning.")
-    else:
-        lines.append("Lower BTC dominance — speculative appetite present.")
-
-    return " ".join(lines)
-
-
-# -----------------------------
-# Main Report
+# Main
 # -----------------------------
 def main():
     print("=" * 30)
     print("LONG-TERM CRYPTO MACRO ANALYSIS")
     print("=" * 30)
-    print()
 
-    dom = get_dominance()
-    btc = risk_assessment("bitcoin")
-    eth = risk_assessment("ethereum")
+    data = macro_analysis()
 
-    print("Macro & Capital Flow Context")
-    print(f"- Bitcoin dominance: {dom.get('btc', 0)}%")
-    print(f"- Ethereum dominance: {dom.get('eth', 0)}%")
-    print(f"- BTC 30d performance: {btc['30d']}%")
-    print(f"- ETH 30d performance: {eth['30d']}%")
-    print(f"- ETH vs BTC (30d): {round(eth['30d'] - btc['30d'], 2)}%")
-    print()
-    print("Interpretation:", interpret(btc, eth, dom))
-    print()
-    print(f"Generated: {datetime.utcnow().isoformat()} UTC")
+    print("\nMacro & Capital Flow Context")
+    print(f"- Bitcoin dominance: {data['btc_dominance']:.2f}%")
+    print(f"- Ethereum dominance: {data['eth_dominance']:.2f}%")
+    print(f"- BTC 30d performance: {data['btc_30d']:.2f}%")
+    print(f"- ETH 30d performance: {data['eth_30d']:.2f}%")
+    print(f"- ETH vs BTC (30d): {data['eth_vs_btc']:.2f}%")
 
+    print(f"\nInterpretation: {data['interpretation']}")
+
+    report_path = generate_report(data)
+    print(f"\nReport saved to: {report_path}")
 
 if __name__ == "__main__":
     main()
+
