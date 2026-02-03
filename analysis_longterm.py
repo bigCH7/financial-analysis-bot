@@ -33,7 +33,7 @@ def safe_get(url, params=None, key=None):
                 CACHE[key] = data
             return data
         if r.status_code == 429:
-            time.sleep(15 + i * 10)
+            time.sleep(20 + i * 10)
             continue
         r.raise_for_status()
     raise RuntimeError("API rate limit")
@@ -62,9 +62,11 @@ def get_global():
 # =========================
 # METRICS
 # =========================
-def volatility(prices):
-    returns = [(prices[i] - prices[i-1]) / prices[i-1] for i in range(1, len(prices))]
-    return statistics.stdev(returns) * (365 ** 0.5)
+def moving_avg(prices, window):
+    return sum(prices[-window:]) / window
+
+def trend(prices):
+    return (prices[-1] - prices[-200]) / prices[-200] * 100
 
 def drawdown(prices):
     peak = prices[0]
@@ -73,28 +75,6 @@ def drawdown(prices):
         peak = max(peak, p)
         max_dd = min(max_dd, (p - peak) / peak)
     return max_dd * 100
-
-def moving_avg(prices, window):
-    return sum(prices[-window:]) / window
-
-def trend(prices):
-    return (prices[-1] - prices[-200]) / prices[-200] * 100
-
-# =========================
-# REGIME
-# =========================
-def risk_regime(prices):
-    vol = volatility(prices)
-    dd = drawdown(prices)
-    tr = trend(prices)
-
-    if dd < -40 and vol > 0.9:
-        return "Panic"
-    if tr > 30 and vol < 0.6:
-        return "Expansion"
-    if tr > 0 and vol > 0.8:
-        return "Distribution"
-    return "Accumulation"
 
 # =========================
 # ON-CHAIN PROXIES
@@ -114,13 +94,12 @@ def onchain_metrics(coin):
 # =========================
 # VALUATION ENGINE
 # =========================
-def valuation_band(prices, coin, onchain):
+def valuation_band(prices, onchain):
     price = prices[-1]
     ma200 = moving_avg(prices, 200)
     ma365 = moving_avg(prices, 365)
 
     score = 0
-
     score += -2 if price < ma365 * 0.7 else 0
     score += -1 if price < ma200 * 0.9 else 0
     score += 1 if price > ma200 * 1.3 else 0
@@ -137,17 +116,31 @@ def valuation_band(prices, coin, onchain):
         score -= 1
 
     if score <= -3:
-        band = "Deeply Undervalued"
-    elif score == -2:
-        band = "Undervalued"
-    elif -1 <= score <= 1:
-        band = "Fair Value"
-    elif score == 2:
-        band = "Overvalued"
-    else:
-        band = "Extremely Overvalued"
+        return "Deeply Undervalued", score
+    if score == -2:
+        return "Undervalued", score
+    if -1 <= score <= 1:
+        return "Fair Value", score
+    if score == 2:
+        return "Overvalued", score
+    return "Extremely Overvalued", score
 
-    return band, score
+# =========================
+# DECISION ENGINE (9+10+11)
+# =========================
+def decision_engine(prices, band):
+    tr = trend(prices)
+    dd = drawdown(prices)
+
+    if band == "Deeply Undervalued" and dd < -30:
+        return "Strong Buy", 0.40, "Historically strong long-term entry zone"
+    if band == "Undervalued":
+        return "Buy", 0.25, "Historically favorable accumulation range"
+    if band == "Fair Value":
+        return "Hold", 0.15, "Neutral historical expectancy"
+    if band == "Overvalued":
+        return "Reduce", 0.05, "Historically poor risk-reward"
+    return "Avoid", 0.00, "Historically high drawdown risk"
 
 # =========================
 # REPORT
@@ -155,7 +148,7 @@ def valuation_band(prices, coin, onchain):
 def generate_report():
     now = datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")
     lines = [
-        "# Long-Term Crypto Valuation Report",
+        "# Long-Term Crypto Investment Report",
         "",
         f"_Generated automatically — {now}_",
         "",
@@ -164,10 +157,9 @@ def generate_report():
 
     global_data = get_global()
     lines += [
-        "## Macro Overview",
-        "",
-        f"- Bitcoin dominance: **{global_data['data']['market_cap_percentage']['btc']:.2f}%**",
-        f"- Ethereum dominance: **{global_data['data']['market_cap_percentage']['eth']:.2f}%**",
+        "## Macro Context",
+        f"- BTC dominance: **{global_data['data']['market_cap_percentage']['btc']:.2f}%**",
+        f"- ETH dominance: **{global_data['data']['market_cap_percentage']['eth']:.2f}%**",
         "",
         "---",
     ]
@@ -177,18 +169,22 @@ def generate_report():
         coin = get_coin(asset)
         onchain = onchain_metrics(coin)
 
-        band, score = valuation_band(prices, coin, onchain)
+        band, score = valuation_band(prices, onchain)
+        rec, max_alloc, history = decision_engine(prices, band)
 
         lines += [
-            f"## {cfg['symbol']} — Valuation Assessment",
+            f"## {cfg['symbol']} Investment Assessment",
             "",
             f"- Price: **${coin['market_data']['current_price']['usd']:,.2f}**",
             f"- Valuation band: **{band}**",
             f"- Valuation score: **{score}**",
+            f"- Recommendation: **{rec}**",
+            f"- Max portfolio allocation: **{int(max_alloc*100)}%**",
+            f"- Historical context: *{history}*",
             "",
-            "### Supporting Metrics",
-            f"- Price / 200-day MA: **{prices[-1] / moving_avg(prices,200):.2f}**",
-            f"- Price / 365-day MA: **{prices[-1] / moving_avg(prices,365):.2f}**",
+            "### Key Metrics",
+            f"- Price / 200d MA: **{prices[-1] / moving_avg(prices,200):.2f}**",
+            f"- Price / 365d MA: **{prices[-1] / moving_avg(prices,365):.2f}**",
             f"- Market Cap / FDV: **{onchain['mcap_fdv']:.2f}**",
             f"- Volume / Market Cap: **{onchain['volume_ratio']:.3f}**",
             f"- Developer commits (4w): **{onchain['commits']}**",
@@ -199,11 +195,10 @@ def generate_report():
         time.sleep(6)
 
     REPORT_DIR.joinpath("long_term_report.md").write_text("\n".join(lines), encoding="utf-8")
-    print("Long-term valuation report generated.")
+    print("Long-term investment report generated.")
 
 # =========================
 # ENTRY
 # =========================
 if __name__ == "__main__":
     generate_report()
-
