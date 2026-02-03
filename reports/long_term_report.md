@@ -1,47 +1,39 @@
-# Long-Term Crypto Portfolio Allocation Report
+# Long-Term Crypto Valuation Report
 
-_Generated automatically — 2026-02-03 17:23 UTC_
+_Generated automatically — 2026-02-03 17:28 UTC_
 
 ---
 ## Macro Overview
 
-- Bitcoin dominance: **57.24%**
-- Ethereum dominance: **10.15%**
+- Bitcoin dominance: **57.28%**
+- Ethereum dominance: **10.16%**
 
 ---
-## BTC — Valuation & Network Health
+## BTC — Valuation Assessment
 
-- Price: **$75,856.00**
-- Volatility (annualized): **0.42**
-- Max drawdown (1y): **-39.20%**
-- 200d trend: **-35.66%**
-- Risk regime: **Accumulation**
+- Price: **$75,859.00**
+- Valuation band: **Undervalued**
+- Valuation score: **-2**
 
-### On-Chain Proxy Metrics
+### Supporting Metrics
+- Price / 200-day MA: **0.73**
+- Price / 365-day MA: **0.75**
 - Market Cap / FDV: **1.00**
 - Volume / Market Cap: **0.036**
 - Developer commits (4w): **108**
-- Composite on-chain score: **0.65**
-
-### Suggested Portfolio Weight
-- **60.2%** of crypto allocation
 
 ---
-## ETH — Valuation & Network Health
+## ETH — Valuation Assessment
 
-- Price: **$2,228.57**
-- Volatility (annualized): **0.76**
-- Max drawdown (1y): **-53.86%**
-- 200d trend: **-38.01%**
-- Risk regime: **Accumulation**
+- Price: **$2,225.73**
+- Valuation band: **Fair Value**
+- Valuation score: **-1**
 
-### On-Chain Proxy Metrics
+### Supporting Metrics
+- Price / 200-day MA: **0.61**
+- Price / 365-day MA: **0.73**
 - Market Cap / FDV: **1.00**
-- Volume / Market Cap: **0.123**
+- Volume / Market Cap: **0.124**
 - Developer commits (4w): **41**
-- Composite on-chain score: **0.93**
-
-### Suggested Portfolio Weight
-- **39.8%** of crypto allocation
 
 ---
