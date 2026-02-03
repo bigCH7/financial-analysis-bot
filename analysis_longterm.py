@@ -2,19 +2,63 @@ import requests
 import pandas as pd
 import numpy as np
 from datetime import datetime
-def get_macro_context():
-    """
-    Temporary macro analysis stub.
-    Will be replaced with real logic later.
-    """
-    return {
-        "btc_dominance": "N/A",
-        "eth_dominance": "N/A",
-        "btc_30d": "N/A",
-        "eth_30d": "N/A",
-        "eth_vs_btc_30d": "N/A",
-        "macro_interpretation": "Macro module not yet connected."
+import requests
+from datetime import datetime, timedelta
+
+
+def get_price_30d_change(coin_id):
+    url = f"https://api.coingecko.com/api/v3/coins/{coin_id}/market_chart"
+    params = {
+        "vs_currency": "usd",
+        "days": 30,
+        "interval": "daily"
     }
+    data = requests.get(url, params=params, timeout=20).json()
+    prices = data["prices"]
+
+    start_price = prices[0][1]
+    end_price = prices[-1][1]
+
+    return round(((end_price - start_price) / start_price) * 100, 2)
+
+
+def get_market_dominance():
+    url = "https://api.coingecko.com/api/v3/global"
+    data = requests.get(url, timeout=20).json()
+    market = data["data"]["market_cap_percentage"]
+
+    return round(market["btc"], 2), round(market["eth"], 2)
+
+
+def get_macro_context():
+    btc_dom, eth_dom = get_market_dominance()
+    btc_30d = get_price_30d_change("bitcoin")
+    eth_30d = get_price_30d_change("ethereum")
+    eth_vs_btc = round(eth_30d - btc_30d, 2)
+
+    if btc_dom > 50 and eth_vs_btc < 0:
+        interpretation = (
+            "Risk-off environment. Capital consolidating into Bitcoin. "
+            "Investors favor store-of-value over growth."
+        )
+    elif eth_vs_btc > 0:
+        interpretation = (
+            "Risk-on signals emerging. Capital rotating into Ethereum and higher-beta assets."
+        )
+    else:
+        interpretation = (
+            "Neutral macro regime. No strong long-term capital preference."
+        )
+
+    return {
+        "btc_dominance": btc_dom,
+        "eth_dominance": eth_dom,
+        "btc_30d": btc_30d,
+        "eth_30d": eth_30d,
+        "eth_vs_btc_30d": eth_vs_btc,
+        "macro_interpretation": interpretation
+    }
+
 
 # -----------------------------
 # Configuration
