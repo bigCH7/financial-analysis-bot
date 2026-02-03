@@ -145,3 +145,50 @@ def main():
 if __name__ == "__main__":
     main()
 
+# =========================
+# MACRO & DOMINANCE CONTEXT
+# =========================
+
+def get_macro_context():
+    """
+    Institutional-style macro context using BTC & ETH dominance
+    """
+    import requests
+
+    # Global crypto market data
+    global_url = "https://api.coingecko.com/api/v3/global"
+    global_data = requests.get(global_url, timeout=20).json()
+
+    total_mcap = global_data["data"]["total_market_cap"]["usd"]
+    btc_dominance = global_data["data"]["market_cap_percentage"]["btc"]
+    eth_dominance = global_data["data"]["market_cap_percentage"]["eth"]
+
+    # BTC & ETH prices (for relative performance)
+    prices_url = (
+        "https://api.coingecko.com/api/v3/coins/markets"
+        "?vs_currency=usd&ids=bitcoin,ethereum&price_change_percentage=30d"
+    )
+    prices = requests.get(prices_url, timeout=20).json()
+
+    btc_30d = next(x for x in prices if x["id"] == "bitcoin")["price_change_percentage_30d_in_currency"]
+    eth_30d = next(x for x in prices if x["id"] == "ethereum")["price_change_percentage_30d_in_currency"]
+
+    # Relative strength
+    relative_strength = eth_30d - btc_30d
+
+    # Interpretation logic (institutional, not hype)
+    if btc_dominance > 50 and relative_strength < 0:
+        macro_view = "Defensive positioning. Capital consolidating into Bitcoin."
+    elif btc_dominance < 50 and relative_strength > 0:
+        macro_view = "Risk-on environment. Capital rotating toward Ethereum."
+    else:
+        macro_view = "Transitional phase. No clear capital flow dominance."
+
+    return {
+        "btc_dominance": round(btc_dominance, 2),
+        "eth_dominance": round(eth_dominance, 2),
+        "btc_30d": round(btc_30d, 2),
+        "eth_30d": round(eth_30d, 2),
+        "eth_vs_btc_30d": round(relative_strength, 2),
+        "macro_interpretation": macro_view
+    }
