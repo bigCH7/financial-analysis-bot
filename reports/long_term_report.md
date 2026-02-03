@@ -1,6 +1,6 @@
 # Long-Term Crypto Portfolio Allocation Report
 
-_Generated automatically — 2026-02-03 17:19 UTC_
+_Generated automatically — 2026-02-03 17:23 UTC_
 
 ---
 ## Macro Overview
@@ -9,27 +9,39 @@ _Generated automatically — 2026-02-03 17:19 UTC_
 - Ethereum dominance: **10.15%**
 
 ---
-## BTC — Position Analysis
+## BTC — Valuation & Network Health
 
-- Price: **$75,730.00**
+- Price: **$75,856.00**
 - Volatility (annualized): **0.42**
-- Max drawdown (1y): **-39.31%**
-- 200d trend: **-35.77%**
+- Max drawdown (1y): **-39.20%**
+- 200d trend: **-35.66%**
 - Risk regime: **Accumulation**
 
+### On-Chain Proxy Metrics
+- Market Cap / FDV: **1.00**
+- Volume / Market Cap: **0.036**
+- Developer commits (4w): **108**
+- Composite on-chain score: **0.65**
+
 ### Suggested Portfolio Weight
-- **64.4%** of crypto allocation
+- **60.2%** of crypto allocation
 
 ---
-## ETH — Position Analysis
+## ETH — Valuation & Network Health
 
-- Price: **$2,219.35**
+- Price: **$2,228.57**
 - Volatility (annualized): **0.76**
-- Max drawdown (1y): **-54.04%**
-- 200d trend: **-38.25%**
+- Max drawdown (1y): **-53.86%**
+- 200d trend: **-38.01%**
 - Risk regime: **Accumulation**
 
+### On-Chain Proxy Metrics
+- Market Cap / FDV: **1.00**
+- Volume / Market Cap: **0.123**
+- Developer commits (4w): **41**
+- Composite on-chain score: **0.93**
+
 ### Suggested Portfolio Weight
-- **35.6%** of crypto allocation
+- **39.8%** of crypto allocation
 
 ---
