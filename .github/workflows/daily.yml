@@ -16,8 +16,23 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Show files (debug)
-        run: ls -la
+      - name: Install dependencies
+        run: |
+          pip install requests pandas
+
+      - name: Create data folder
+        run: mkdir -p data
+
+      - name: Run long-term analysis
+        run: python analysis_longterm.py
+
+      - name: Commit report
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add data/analysis_longterm.md
+          git commit -m "Update long-term regime analysis" || echo "No changes"
+          git push
 
       - name: Run long-term analysis
         run: python analysis_longterm.py
