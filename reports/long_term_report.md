@@ -1,48 +1,39 @@
-# Long-Term Crypto Valuation & Risk Report
+# Long-Term Crypto Macro, Valuation & Growth Report
 
-_Generated automatically — 2026-02-03 16:37 UTC_
-
----
-## Macro Market Context
-
-- Bitcoin dominance: **57.40%**
-- Ethereum dominance: **10.16%**
-- Interpretation: **Risk-off environment. Capital consolidating into Bitcoin.**
+_Generated automatically — 2026-02-03 16:54 UTC_
 
 ---
-## BTC — Long-Term Analysis
+## Macro Context
 
-- Current price: **$76,692.00**
+- Bitcoin dominance: **57.39%**
+- Ethereum dominance: **10.14%**
+
+---
+## BTC — Long-Term Outlook
+
+- Price: **$76,570.00**
 - Market cap: **$1.53T**
-- Annualized volatility: **0.42**
-- Max drawdown (1y): **-38.53%**
+- Volatility (annualized): **0.42**
+- Max drawdown: **-38.63%**
+- 30d change: **-18.47%**
 
-### Valuation Model: Store of Value (Digital Gold)
-
-**Implied valuation ranges:**
+### Valuation Model — Digital Store of Value
 - Conservative: **$238,095**
-- Base case: **$476,190**
-- Bull case: **$952,381**
-
-### Risk Assessment: **Low**
-- Environment favorable for long-term accumulation.
+- Base: **$476,190**
+- Bull: **$952,381**
 
 ---
-## ETH — Long-Term Analysis
+## ETH — Long-Term Outlook
 
-- Current price: **$2,248.24**
+- Price: **$2,240.18**
 - Market cap: **$0.27T**
-- Annualized volatility: **0.75**
-- Max drawdown (1y): **-53.45%**
+- Volatility (annualized): **0.75**
+- Max drawdown: **-53.59%**
+- 30d change: **-30.58%**
 
-### Valuation Model: Network Utility & Settlement Layer
-
-**Implied valuation ranges:**
-- Conservative: **$41,432**
-- Base case: **$82,865**
-- Bull case: **$165,729**
-
-### Risk Assessment: **Moderate**
-- Balanced risk. Position sizing and patience recommended.
+### Valuation Model — Programmable Settlement Layer
+- Conservative: **$41,464**
+- Base: **$82,928**
+- Bull: **$165,856**
 
 ---
