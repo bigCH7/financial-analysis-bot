@@ -1,15 +1,12 @@
 import requests
 import datetime
 import statistics
+import math
 
 # -----------------------------
 # CONFIG
 # -----------------------------
-ASSETS = {
-    "bitcoin": "btc",
-    "ethereum": "eth"
-}
-
+ASSETS = ["bitcoin", "ethereum"]
 COINGECKO_API = "https://api.coingecko.com/api/v3"
 
 
@@ -36,6 +33,35 @@ def get_global_data():
 
 
 # -----------------------------
+# HELPERS
+# -----------------------------
+def performance_pct(price_data, days):
+    start = price_data[-days][1]
+    end = price_data[-1][1]
+    return round(((end - start) / start) * 100, 2)
+
+
+def daily_returns(prices):
+    returns = []
+    for i in range(1, len(prices)):
+        prev = prices[i - 1]
+        curr = prices[i]
+        returns.append((curr - prev) / prev)
+    return returns
+
+
+def max_drawdown(prices):
+    peak = prices[0]
+    max_dd = 0
+    for p in prices:
+        if p > peak:
+            peak = p
+        drawdown = (p - peak) / peak
+        max_dd = min(max_dd, drawdown)
+    return round(max_dd * 100, 2)
+
+
+# -----------------------------
 # MACRO ANALYSIS
 # -----------------------------
 def get_macro_context():
@@ -54,11 +80,11 @@ def get_macro_context():
     if btc_dom > 55 and eth_vs_btc < 0:
         interpretation = (
             "Risk-off environment. Capital consolidating into Bitcoin. "
-            "Investors favor store-of-value over growth."
+            "Investors prioritize capital preservation."
         )
     else:
         interpretation = (
-            "Risk-on or neutral environment. Capital rotating into higher-beta assets."
+            "Neutral or risk-on environment. Capital rotating into higher-beta assets."
         )
 
     return {
@@ -72,52 +98,68 @@ def get_macro_context():
 
 
 # -----------------------------
-# VALUATION ANALYSIS (CRYPTO-ADAPTED)
+# VALUATION (MEAN REVERSION)
 # -----------------------------
 def valuation_assessment(asset_id):
     prices = get_market_data(asset_id)
     closes = [p[1] for p in prices]
 
-    current_price = closes[-1]
-    avg_200d = statistics.mean(closes[-200:])
+    current = closes[-1]
+    avg_200 = statistics.mean(closes[-200:])
+    deviation = round(((current - avg_200) / avg_200) * 100, 2)
 
-    deviation_pct = round(((current_price - avg_200d) / avg_200d) * 100, 2)
-
-    # Crypto valuation logic (relative, not absolute like P/E)
-    if deviation_pct < -20:
-        label = "Deeply Undervalued"
-        score = 80
-    elif deviation_pct < -10:
-        label = "Undervalued"
-        score = 70
-    elif deviation_pct < 10:
-        label = "Fairly Valued"
-        score = 50
-    elif deviation_pct < 25:
-        label = "Overvalued"
-        score = 35
+    if deviation < -20:
+        label, score = "Deeply Undervalued", 80
+    elif deviation < -10:
+        label, score = "Undervalued", 70
+    elif deviation < 10:
+        label, score = "Fairly Valued", 50
+    elif deviation < 25:
+        label, score = "Overvalued", 35
     else:
-        label = "Highly Overvalued"
-        score = 20
+        label, score = "Highly Overvalued", 20
 
     return {
-        "current_price": round(current_price, 2),
-        "avg_200d": round(avg_200d, 2),
-        "deviation_pct": deviation_pct,
-        "valuation_label": label,
-        "valuation_score": score
+        "current_price": round(current, 2),
+        "avg_200d": round(avg_200, 2),
+        "deviation_pct": deviation,
+        "label": label,
+        "score": score
     }
 
 
 # -----------------------------
-# HELPERS
+# RISK & DRAWDOWN ANALYSIS
 # -----------------------------
-def performance_pct(price_data, days):
-    if len(price_data) < days:
-        return 0.0
-    start = price_data[-days][1]
-    end = price_data[-1][1]
-    return round(((end - start) / start) * 100, 2)
+def risk_assessment(asset_id):
+    prices_raw = get_market_data(asset_id)
+    prices = [p[1] for p in prices_raw]
+
+    returns = daily_returns(prices)
+    volatility = statistics.stdev(returns) * math.sqrt(365) * 100
+    volatility = round(volatility, 2)
+
+    dd = max_drawdown(prices)
+
+    if volatility > 90 or dd < -70:
+        regime = "Extreme Risk"
+        risk_score = 20
+    elif volatility > 70 or dd < -55:
+        regime = "High Risk"
+        risk_score = 35
+    elif volatility > 50 or dd < -40:
+        regime = "Moderate Risk"
+        risk_score = 55
+    else:
+        regime = "Lower Risk (Crypto-relative)"
+        risk_score = 75
+
+    return {
+        "volatility": volatility,
+        "max_drawdown": dd,
+        "regime": regime,
+        "risk_score": risk_score
+    }
 
 
 # -----------------------------
@@ -127,39 +169,61 @@ def main():
     now = datetime.datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")
 
     macro = get_macro_context()
+
     btc_val = valuation_assessment("bitcoin")
     eth_val = valuation_assessment("ethereum")
 
+    btc_risk = risk_assessment("bitcoin")
+    eth_risk = risk_assessment("ethereum")
+
     report = ""
     report += "==============================\n"
-    report += "LONG-TERM CRYPTO MACRO ANALYSIS\n"
+    report += "LONG-TERM CRYPTO ANALYSIS\n"
     report += "==============================\n\n"
 
-    report += "Macro & Capital Flow Context\n"
+    report += "MACRO CONTEXT\n"
     report += f"- Bitcoin dominance: {macro['btc_dominance']}%\n"
     report += f"- Ethereum dominance: {macro['eth_dominance']}%\n"
     report += f"- BTC 30d performance: {macro['btc_30d']}%\n"
     report += f"- ETH 30d performance: {macro['eth_30d']}%\n"
-    report += f"- ETH vs BTC (30d): {macro['eth_vs_btc_30d']}%\n\n"
+    report += f"- ETH vs BTC (30d): {macro['eth_vs_btc_30d']}%\n"
     report += f"Interpretation: {macro['interpretation']}\n\n"
 
     report += "==============================\n"
-    report += "VALUATION ANALYSIS (LONG TERM)\n"
+    report += "VALUATION (LONG TERM)\n"
     report += "==============================\n\n"
 
-    report += "Bitcoin\n"
-    report += f"- Current price: ${btc_val['current_price']}\n"
-    report += f"- 200d average: ${btc_val['avg_200d']}\n"
-    report += f"- Deviation: {btc_val['deviation_pct']}%\n"
-    report += f"- Valuation: {btc_val['valuation_label']}\n"
-    report += f"- Valuation score: {btc_val['valuation_score']}/100\n\n"
+    report += (
+        f"Bitcoin: {btc_val['label']} | "
+        f"Deviation: {btc_val['deviation_pct']}% | "
+        f"Score: {btc_val['score']}/100\n"
+    )
 
-    report += "Ethereum\n"
-    report += f"- Current price: ${eth_val['current_price']}\n"
-    report += f"- 200d average: ${eth_val['avg_200d']}\n"
-    report += f"- Deviation: {eth_val['deviation_pct']}%\n"
-    report += f"- Valuation: {eth_val['valuation_label']}\n"
-    report += f"- Valuation score: {eth_val['valuation_score']}/100\n\n"
+    report += (
+        f"Ethereum: {eth_val['label']} | "
+        f"Deviation: {eth_val['deviation_pct']}% | "
+        f"Score: {eth_val['score']}/100\n\n"
+    )
+
+    report += "==============================\n"
+    report += "RISK & DRAWDOWNS\n"
+    report += "==============================\n\n"
+
+    report += (
+        f"Bitcoin:\n"
+        f"- Annualized volatility: {btc_risk['volatility']}%\n"
+        f"- Max drawdown (1y): {btc_risk['max_drawdown']}%\n"
+        f"- Risk regime: {btc_risk['regime']}\n"
+        f"- Risk score: {btc_risk['risk_score']}/100\n\n"
+    )
+
+    report += (
+        f"Ethereum:\n"
+        f"- Annualized volatility: {eth_risk['volatility']}%\n"
+        f"- Max drawdown (1y): {eth_risk['max_drawdown']}%\n"
+        f"- Risk regime: {eth_risk['regime']}\n"
+        f"- Risk score: {eth_risk['risk_score']}/100\n\n"
+    )
 
     report += f"Report generated: {now}\n"
     report += "_Automatically generated. Not financial advice._\n"
