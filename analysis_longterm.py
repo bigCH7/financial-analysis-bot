@@ -41,11 +41,10 @@ def safe_get(url, params=None, cache_key=None):
 
         r.raise_for_status()
 
-    print("API unavailable. Using fallback.")
     return None
 
 # =========================
-# DATA FETCHERS
+# DATA
 # =========================
 def get_global():
     return safe_get(f"{COINGECKO}/global", cache_key="global")
@@ -87,24 +86,60 @@ def drawdown(prices):
         max_dd = min(max_dd, dd)
     return max_dd * 100
 
-def pct_change(prices):
-    if len(prices) < 30:
-        return None
-    return (prices[-1] - prices[-30]) / prices[-30] * 100
-
 # =========================
 # VALUATION
 # =========================
 def btc_valuation():
-    bands = {"Conservative": 5e12, "Base": 10e12, "Bull": 20e12}
-    return {k: v / 21_000_000 for k, v in bands.items()}
+    return {
+        "Bear": 3e12 / 21_000_000,
+        "Base": 10e12 / 21_000_000,
+        "Bull": 20e12 / 21_000_000,
+    }
 
 def eth_valuation(price, mcap):
     if not price or not mcap:
         return None
     supply = mcap / price
-    bands = {"Conservative": 5e12, "Base": 10e12, "Bull": 20e12}
-    return {k: v / supply for k, v in bands.items()}
+    return {
+        "Bear": 4e12 / supply,
+        "Base": 10e12 / supply,
+        "Bull": 20e12 / supply,
+    }
+
+# =========================
+# SCENARIOS
+# =========================
+def scenarios(asset, valuation):
+    if asset == "bitcoin":
+        return {
+            "Bear": (
+                valuation["Bear"],
+                "Global liquidity contraction, regulatory pressure, BTC treated purely as risk asset."
+            ),
+            "Base": (
+                valuation["Base"],
+                "Gradual institutional adoption, ETF flows offset volatility, BTC as digital gold."
+            ),
+            "Bull": (
+                valuation["Bull"],
+                "Monetary debasement, sovereign accumulation, BTC becomes global reserve hedge."
+            ),
+        }
+    else:
+        return {
+            "Bear": (
+                valuation["Bear"],
+                "Layer-2 fragmentation, regulatory uncertainty, fee compression."
+            ),
+            "Base": (
+                valuation["Base"],
+                "ETH remains dominant settlement layer for DeFi, RWAs, rollups mature."
+            ),
+            "Bull": (
+                valuation["Bull"],
+                "ETH captures global financial rails, staking yield + fee burn shock supply."
+            ),
+        }
 
 # =========================
 # REPORT
@@ -113,7 +148,7 @@ def generate_report():
     now = datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")
     lines = []
 
-    lines.append("# Long-Term Crypto Macro, Valuation & Growth Report")
+    lines.append("# Long-Term Crypto Valuation & Scenario Report")
     lines.append("")
     lines.append(f"_Generated automatically — {now}_")
     lines.append("")
@@ -123,7 +158,7 @@ def generate_report():
     btc_dom = global_data["data"]["market_cap_percentage"]["btc"] if global_data else None
     eth_dom = global_data["data"]["market_cap_percentage"]["eth"] if global_data else None
 
-    lines.append("## Macro Context")
+    lines.append("## Macro Backdrop")
     lines.append("")
     lines.append(f"- Bitcoin dominance: **{btc_dom:.2f}%**" if btc_dom else "- Bitcoin dominance: N/A")
     lines.append(f"- Ethereum dominance: **{eth_dom:.2f}%**" if eth_dom else "- Ethereum dominance: N/A")
@@ -139,32 +174,30 @@ def generate_report():
 
         vol = volatility(prices)
         dd = drawdown(prices)
-        change_30d = pct_change(prices)
 
         if asset == "bitcoin":
             valuation = btc_valuation()
-            model = "Digital Store of Value"
         else:
             valuation = eth_valuation(price, mcap)
-            model = "Programmable Settlement Layer"
 
-        lines.append(f"## {cfg['symbol']} — Long-Term Outlook")
+        lines.append(f"## {cfg['symbol']} — Valuation & Scenarios")
         lines.append("")
-        lines.append(f"- Price: **${price:,.2f}**" if price else "- Price: N/A")
+        lines.append(f"- Current price: **${price:,.2f}**" if price else "- Price: N/A")
         lines.append(f"- Market cap: **${mcap/1e12:.2f}T**" if mcap else "- Market cap: N/A")
         lines.append(f"- Volatility (annualized): **{vol:.2f}**" if vol else "- Volatility: N/A")
-        lines.append(f"- Max drawdown: **{dd:.2f}%**" if dd else "- Max drawdown: N/A")
-        lines.append(f"- 30d change: **{change_30d:.2f}%**" if change_30d else "- 30d change: N/A")
+        lines.append(f"- Max drawdown (1y): **{dd:.2f}%**" if dd else "- Max drawdown: N/A")
         lines.append("")
-        lines.append(f"### Valuation Model — {model}")
-        if valuation:
-            for k, v in valuation.items():
-                lines.append(f"- {k}: **${v:,.0f}**")
-        else:
-            lines.append("- Valuation unavailable (API limited)")
-        lines.append("")
-        lines.append("---")
 
+        lines.append("### Scenario Analysis")
+        scenario_data = scenarios(asset, valuation)
+
+        for name, (price_target, narrative) in scenario_data.items():
+            lines.append(f"**{name} Case**")
+            lines.append(f"- Implied price: **${price_target:,.0f}**")
+            lines.append(f"- Thesis: {narrative}")
+            lines.append("")
+
+        lines.append("---")
         time.sleep(8)
 
     report_path = REPORT_DIR / "long_term_report.md"
@@ -176,4 +209,3 @@ def generate_report():
 # =========================
 if __name__ == "__main__":
     generate_report()
-
