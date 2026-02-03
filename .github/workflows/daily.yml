@@ -1,5 +1,8 @@
 name: Daily Financial Bot
 
+permissions:
+  contents: write
+
 on:
   workflow_dispatch:
 
@@ -34,5 +37,3 @@ jobs:
           git commit -m "Update long-term regime analysis" || echo "No changes"
           git push
 
-      - name: Run long-term analysis
-        run: python analysis_longterm.py
