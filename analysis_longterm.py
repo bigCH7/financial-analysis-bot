@@ -65,8 +65,6 @@ def get_prices(asset, days=365):
 # METRICS
 # =========================
 def volatility(prices):
-    if len(prices) < 2:
-        return None
     returns = [(prices[i] - prices[i-1]) / prices[i-1] for i in range(1, len(prices))]
     return statistics.stdev(returns) * (365 ** 0.5)
 
@@ -80,28 +78,54 @@ def drawdown(prices):
     return max_dd * 100
 
 def trend(prices):
-    if len(prices) < 200:
-        return None
     return (prices[-1] - prices[-200]) / prices[-200] * 100
 
 # =========================
 # RISK REGIME
 # =========================
 def risk_regime(prices):
-    if len(prices) < 200:
-        return "Unknown", "Insufficient data"
-
     vol = volatility(prices)
     dd = drawdown(prices)
     tr = trend(prices)
 
     if dd < -40 and vol > 0.9:
-        return "Panic / Capitulation", "Forced selling, liquidity stress, long-term opportunity forming."
+        return "Panic / Capitulation"
     if tr > 30 and vol < 0.6:
-        return "Expansion", "Uptrend intact, momentum favored."
+        return "Expansion"
     if tr > 0 and vol > 0.8:
-        return "Distribution", "Volatility rising near highs, risk of reversal."
-    return "Accumulation", "Depressed prices, volatility compressing, patient capital favored."
+        return "Distribution"
+    return "Accumulation"
+
+# =========================
+# ALLOCATION ENGINE
+# =========================
+def allocation_guidance(asset, regime, vol, dd):
+    if regime == "Panic / Capitulation":
+        return {
+            "posture": "Aggressive",
+            "allocation": "High conviction accumulation",
+            "deployment": "Staggered DCA, increase on drawdowns",
+        }
+
+    if regime == "Expansion":
+        return {
+            "posture": "Neutral",
+            "allocation": "Trend participation",
+            "deployment": "Periodic rebalancing",
+        }
+
+    if regime == "Distribution":
+        return {
+            "posture": "Defensive",
+            "allocation": "Reduce exposure",
+            "deployment": "Trim into strength",
+        }
+
+    return {
+        "posture": "Neutral",
+        "allocation": "Gradual accumulation",
+        "deployment": "Slow DCA",
+    }
 
 # =========================
 # VALUATION
@@ -114,8 +138,6 @@ def btc_valuation():
     }
 
 def eth_valuation(price, mcap):
-    if not price or not mcap:
-        return None
     supply = mcap / price
     return {
         "Bear": 4e12 / supply,
@@ -124,28 +146,12 @@ def eth_valuation(price, mcap):
     }
 
 # =========================
-# SCENARIOS
-# =========================
-def scenarios(asset, valuation):
-    if asset == "bitcoin":
-        return {
-            "Bear": (valuation["Bear"], "Liquidity contraction, BTC treated as risk asset."),
-            "Base": (valuation["Base"], "ETF flows, gradual institutional adoption."),
-            "Bull": (valuation["Bull"], "Monetary debasement, sovereign demand."),
-        }
-    return {
-        "Bear": (valuation["Bear"], "Regulatory pressure, fee compression."),
-        "Base": (valuation["Base"], "ETH as dominant settlement layer."),
-        "Bull": (valuation["Bull"], "Global financial rails migrate on-chain."),
-    }
-
-# =========================
 # REPORT
 # =========================
 def generate_report():
     now = datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")
     lines = [
-        "# Long-Term Crypto Valuation, Risk & Scenario Report",
+        "# Long-Term Crypto Portfolio Allocation Report",
         "",
         f"_Generated automatically — {now}_",
         "",
@@ -167,39 +173,36 @@ def generate_report():
         coin = get_coin(asset)
         prices = get_prices(asset)
 
-        price = coin["market_data"]["current_price"]["usd"] if coin else None
-        mcap = coin["market_data"]["market_cap"]["usd"] if coin else None
+        price = coin["market_data"]["current_price"]["usd"]
+        mcap = coin["market_data"]["market_cap"]["usd"]
 
         vol = volatility(prices)
         dd = drawdown(prices)
         tr = trend(prices)
+        regime = risk_regime(prices)
 
-        regime, regime_note = risk_regime(prices)
-
+        guidance = allocation_guidance(asset, regime, vol, dd)
         valuation = btc_valuation() if asset == "bitcoin" else eth_valuation(price, mcap)
 
         lines += [
-            f"## {cfg['symbol']} — Long-Term Assessment",
+            f"## {cfg['symbol']} — Portfolio Guidance",
             "",
-            f"- Price: **${price:,.2f}**" if price else "- Price: N/A",
-            f"- Market cap: **${mcap/1e12:.2f}T**" if mcap else "- Market cap: N/A",
-            f"- Volatility (annualized): **{vol:.2f}**" if vol else "- Volatility: N/A",
+            f"- Price: **${price:,.2f}**",
+            f"- Volatility (annualized): **{vol:.2f}**",
             f"- Max drawdown (1y): **{dd:.2f}%**",
             f"- 200d trend: **{tr:.2f}%**",
             "",
             f"### Risk Regime: **{regime}**",
-            f"- Interpretation: {regime_note}",
             "",
-            "### Scenario Analysis",
+            f"### Allocation Posture: **{guidance['posture']}**",
+            f"- Allocation stance: {guidance['allocation']}",
+            f"- Capital deployment: {guidance['deployment']}",
+            "",
+            "### Valuation Scenarios",
         ]
 
-        for name, (target, thesis) in scenarios(asset, valuation).items():
-            lines += [
-                f"**{name} Case**",
-                f"- Implied price: **${target:,.0f}**",
-                f"- Thesis: {thesis}",
-                "",
-            ]
+        for k, v in valuation.items():
+            lines.append(f"- **{k} case**: ${v:,.0f}")
 
         lines.append("---")
         time.sleep(8)
