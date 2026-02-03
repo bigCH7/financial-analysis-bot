@@ -19,7 +19,7 @@ COINGECKO = "https://api.coingecko.com/api/v3"
 SESSION_CACHE = {}
 
 # =========================
-# SAFE API LAYER
+# SAFE API
 # =========================
 def safe_get(url, params=None, cache_key=None):
     if cache_key and cache_key in SESSION_CACHE:
@@ -32,15 +32,10 @@ def safe_get(url, params=None, cache_key=None):
             if cache_key:
                 SESSION_CACHE[cache_key] = data
             return data
-
         if r.status_code == 429:
-            sleep_time = 15 + attempt * 10
-            print(f"Rate limited. Sleeping {sleep_time}s…")
-            time.sleep(sleep_time)
+            time.sleep(15 + attempt * 10)
             continue
-
         r.raise_for_status()
-
     return None
 
 # =========================
@@ -76,8 +71,6 @@ def volatility(prices):
     return statistics.stdev(returns) * (365 ** 0.5)
 
 def drawdown(prices):
-    if not prices:
-        return None
     peak = prices[0]
     max_dd = 0
     for p in prices:
@@ -85,6 +78,30 @@ def drawdown(prices):
         dd = (p - peak) / peak
         max_dd = min(max_dd, dd)
     return max_dd * 100
+
+def trend(prices):
+    if len(prices) < 200:
+        return None
+    return (prices[-1] - prices[-200]) / prices[-200] * 100
+
+# =========================
+# RISK REGIME
+# =========================
+def risk_regime(prices):
+    if len(prices) < 200:
+        return "Unknown", "Insufficient data"
+
+    vol = volatility(prices)
+    dd = drawdown(prices)
+    tr = trend(prices)
+
+    if dd < -40 and vol > 0.9:
+        return "Panic / Capitulation", "Forced selling, liquidity stress, long-term opportunity forming."
+    if tr > 30 and vol < 0.6:
+        return "Expansion", "Uptrend intact, momentum favored."
+    if tr > 0 and vol > 0.8:
+        return "Distribution", "Volatility rising near highs, risk of reversal."
+    return "Accumulation", "Depressed prices, volatility compressing, patient capital favored."
 
 # =========================
 # VALUATION
@@ -112,58 +129,39 @@ def eth_valuation(price, mcap):
 def scenarios(asset, valuation):
     if asset == "bitcoin":
         return {
-            "Bear": (
-                valuation["Bear"],
-                "Global liquidity contraction, regulatory pressure, BTC treated purely as risk asset."
-            ),
-            "Base": (
-                valuation["Base"],
-                "Gradual institutional adoption, ETF flows offset volatility, BTC as digital gold."
-            ),
-            "Bull": (
-                valuation["Bull"],
-                "Monetary debasement, sovereign accumulation, BTC becomes global reserve hedge."
-            ),
+            "Bear": (valuation["Bear"], "Liquidity contraction, BTC treated as risk asset."),
+            "Base": (valuation["Base"], "ETF flows, gradual institutional adoption."),
+            "Bull": (valuation["Bull"], "Monetary debasement, sovereign demand."),
         }
-    else:
-        return {
-            "Bear": (
-                valuation["Bear"],
-                "Layer-2 fragmentation, regulatory uncertainty, fee compression."
-            ),
-            "Base": (
-                valuation["Base"],
-                "ETH remains dominant settlement layer for DeFi, RWAs, rollups mature."
-            ),
-            "Bull": (
-                valuation["Bull"],
-                "ETH captures global financial rails, staking yield + fee burn shock supply."
-            ),
-        }
+    return {
+        "Bear": (valuation["Bear"], "Regulatory pressure, fee compression."),
+        "Base": (valuation["Base"], "ETH as dominant settlement layer."),
+        "Bull": (valuation["Bull"], "Global financial rails migrate on-chain."),
+    }
 
 # =========================
 # REPORT
 # =========================
 def generate_report():
     now = datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")
-    lines = []
-
-    lines.append("# Long-Term Crypto Valuation & Scenario Report")
-    lines.append("")
-    lines.append(f"_Generated automatically — {now}_")
-    lines.append("")
-    lines.append("---")
+    lines = [
+        "# Long-Term Crypto Valuation, Risk & Scenario Report",
+        "",
+        f"_Generated automatically — {now}_",
+        "",
+        "---",
+    ]
 
     global_data = get_global()
-    btc_dom = global_data["data"]["market_cap_percentage"]["btc"] if global_data else None
-    eth_dom = global_data["data"]["market_cap_percentage"]["eth"] if global_data else None
-
-    lines.append("## Macro Backdrop")
-    lines.append("")
-    lines.append(f"- Bitcoin dominance: **{btc_dom:.2f}%**" if btc_dom else "- Bitcoin dominance: N/A")
-    lines.append(f"- Ethereum dominance: **{eth_dom:.2f}%**" if eth_dom else "- Ethereum dominance: N/A")
-    lines.append("")
-    lines.append("---")
+    if global_data:
+        lines += [
+            "## Macro Context",
+            "",
+            f"- Bitcoin dominance: **{global_data['data']['market_cap_percentage']['btc']:.2f}%**",
+            f"- Ethereum dominance: **{global_data['data']['market_cap_percentage']['eth']:.2f}%**",
+            "",
+            "---",
+        ]
 
     for asset, cfg in ASSETS.items():
         coin = get_coin(asset)
@@ -174,35 +172,40 @@ def generate_report():
 
         vol = volatility(prices)
         dd = drawdown(prices)
+        tr = trend(prices)
 
-        if asset == "bitcoin":
-            valuation = btc_valuation()
-        else:
-            valuation = eth_valuation(price, mcap)
+        regime, regime_note = risk_regime(prices)
 
-        lines.append(f"## {cfg['symbol']} — Valuation & Scenarios")
-        lines.append("")
-        lines.append(f"- Current price: **${price:,.2f}**" if price else "- Price: N/A")
-        lines.append(f"- Market cap: **${mcap/1e12:.2f}T**" if mcap else "- Market cap: N/A")
-        lines.append(f"- Volatility (annualized): **{vol:.2f}**" if vol else "- Volatility: N/A")
-        lines.append(f"- Max drawdown (1y): **{dd:.2f}%**" if dd else "- Max drawdown: N/A")
-        lines.append("")
+        valuation = btc_valuation() if asset == "bitcoin" else eth_valuation(price, mcap)
 
-        lines.append("### Scenario Analysis")
-        scenario_data = scenarios(asset, valuation)
+        lines += [
+            f"## {cfg['symbol']} — Long-Term Assessment",
+            "",
+            f"- Price: **${price:,.2f}**" if price else "- Price: N/A",
+            f"- Market cap: **${mcap/1e12:.2f}T**" if mcap else "- Market cap: N/A",
+            f"- Volatility (annualized): **{vol:.2f}**" if vol else "- Volatility: N/A",
+            f"- Max drawdown (1y): **{dd:.2f}%**",
+            f"- 200d trend: **{tr:.2f}%**",
+            "",
+            f"### Risk Regime: **{regime}**",
+            f"- Interpretation: {regime_note}",
+            "",
+            "### Scenario Analysis",
+        ]
 
-        for name, (price_target, narrative) in scenario_data.items():
-            lines.append(f"**{name} Case**")
-            lines.append(f"- Implied price: **${price_target:,.0f}**")
-            lines.append(f"- Thesis: {narrative}")
-            lines.append("")
+        for name, (target, thesis) in scenarios(asset, valuation).items():
+            lines += [
+                f"**{name} Case**",
+                f"- Implied price: **${target:,.0f}**",
+                f"- Thesis: {thesis}",
+                "",
+            ]
 
         lines.append("---")
         time.sleep(8)
 
-    report_path = REPORT_DIR / "long_term_report.md"
-    report_path.write_text("\n".join(lines), encoding="utf-8")
-    print(f"Report written to {report_path}")
+    REPORT_DIR.joinpath("long_term_report.md").write_text("\n".join(lines), encoding="utf-8")
+    print("Report generated successfully.")
 
 # =========================
 # ENTRY
