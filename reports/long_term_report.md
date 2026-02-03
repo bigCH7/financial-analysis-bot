@@ -1,53 +1,61 @@
-# Long-Term Crypto Valuation & Scenario Report
+# Long-Term Crypto Valuation, Risk & Scenario Report
 
-_Generated automatically — 2026-02-03 16:59 UTC_
-
----
-## Macro Backdrop
-
-- Bitcoin dominance: **57.40%**
-- Ethereum dominance: **10.15%**
+_Generated automatically — 2026-02-03 17:04 UTC_
 
 ---
-## BTC — Valuation & Scenarios
+## Macro Context
 
-- Current price: **$76,600.00**
+- Bitcoin dominance: **57.34%**
+- Ethereum dominance: **10.16%**
+
+---
+## BTC — Long-Term Assessment
+
+- Price: **$76,353.00**
 - Market cap: **$1.53T**
 - Volatility (annualized): **0.42**
-- Max drawdown (1y): **-38.60%**
+- Max drawdown (1y): **-38.80%**
+- 200d trend: **-35.23%**
+
+### Risk Regime: **Accumulation**
+- Interpretation: Depressed prices, volatility compressing, patient capital favored.
 
 ### Scenario Analysis
 **Bear Case**
 - Implied price: **$142,857**
-- Thesis: Global liquidity contraction, regulatory pressure, BTC treated purely as risk asset.
+- Thesis: Liquidity contraction, BTC treated as risk asset.
 
 **Base Case**
 - Implied price: **$476,190**
-- Thesis: Gradual institutional adoption, ETF flows offset volatility, BTC as digital gold.
+- Thesis: ETF flows, gradual institutional adoption.
 
 **Bull Case**
 - Implied price: **$952,381**
-- Thesis: Monetary debasement, sovereign accumulation, BTC becomes global reserve hedge.
+- Thesis: Monetary debasement, sovereign demand.
 
 ---
-## ETH — Valuation & Scenarios
+## ETH — Long-Term Assessment
 
-- Current price: **$2,243.38**
+- Price: **$2,240.66**
 - Market cap: **$0.27T**
 - Volatility (annualized): **0.75**
-- Max drawdown (1y): **-53.54%**
+- Max drawdown (1y): **-53.60%**
+- 200d trend: **-37.66%**
+
+### Risk Regime: **Accumulation**
+- Interpretation: Depressed prices, volatility compressing, patient capital favored.
 
 ### Scenario Analysis
 **Bear Case**
 - Implied price: **$33,142**
-- Thesis: Layer-2 fragmentation, regulatory uncertainty, fee compression.
+- Thesis: Regulatory pressure, fee compression.
 
 **Base Case**
 - Implied price: **$82,854**
-- Thesis: ETH remains dominant settlement layer for DeFi, RWAs, rollups mature.
+- Thesis: ETH as dominant settlement layer.
 
 **Bull Case**
-- Implied price: **$165,709**
-- Thesis: ETH captures global financial rails, staking yield + fee burn shock supply.
+- Implied price: **$165,708**
+- Thesis: Global financial rails migrate on-chain.
 
 ---
