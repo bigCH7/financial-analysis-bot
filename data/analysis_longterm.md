@@ -1,19 +1,31 @@
-# Long-Term Market Regime Report
+# Long-Term Market Analysis
 
-_Generated: 2026-02-03 01:03 UTC_
+_Generated: 2026-02-03 01:11 UTC_
 
-_Methodology: 200-day trend, slope, and relative positioning._
+_Methodology: Trend regime + volatility + drawdown analysis._
 
 ## Bitcoin
-- Current price: **$79011.75**
-- 200-day average: **$103540.12**
+### Market Regime
+- Current price: **$78777.41**
+- 200-day average: **$103538.95**
 - Trend slope (30d): **-2.90%**
-- Distance from trend: **-23.69%**
+- Distance from trend: **-23.92%**
 - **Long-term regime:** **Bearish**
 
+### Risk Profile
+- Annualized volatility: **41.63%**
+- Max drawdown (1y): **-38.34%**
+- **Professional risk class:** **Low**
+
 ## Ethereum
-- Current price: **$2353.29**
-- 200-day average: **$3648.46**
-- Trend slope (30d): **1.19%**
-- Distance from trend: **-35.50%**
+### Market Regime
+- Current price: **$2343.83**
+- 200-day average: **$3648.41**
+- Trend slope (30d): **1.18%**
+- Distance from trend: **-35.76%**
 - **Long-term regime:** **Neutral / Transition**
+
+### Risk Profile
+- Annualized volatility: **75.35%**
+- Max drawdown (1y): **-53.01%**
+- **Professional risk class:** **Medium**
