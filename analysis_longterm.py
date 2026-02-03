@@ -53,6 +53,13 @@ def get_prices(asset, days=365):
     )
     return [p[1] for p in data["prices"]]
 
+def get_transactions(asset):
+    data = safe_get(
+        f"{COINGECKO}/coins/{asset}",
+        params={"localization": "false", "tickers": "false", "community_data": "false"}
+    )
+    return data.get("developer_data", {}).get("commit_count_4_weeks")
+
 def pct_change(prices, days):
     if len(prices) < days:
         return None
@@ -61,7 +68,7 @@ def pct_change(prices, days):
 # =========================
 # VALUATION MODELS
 # =========================
-def btc_valuation(price, supply):
+def btc_valuation(supply):
     bands = {
         "conservative": 5e12,
         "base_case": 10e12,
@@ -79,7 +86,7 @@ def eth_valuation(price, market_cap):
     return {k: v / float_supply for k, v in bands.items()}
 
 # =========================
-# RISK & MACRO OVERLAY
+# RISK & MACRO
 # =========================
 def volatility(prices):
     returns = [(prices[i] - prices[i-1]) / prices[i-1] for i in range(1, len(prices))]
@@ -116,13 +123,35 @@ def risk_score(vol, dd, dominance):
     return "High"
 
 # =========================
+# GROWTH & ADOPTION
+# =========================
+def adoption_trend(mcap_change, tx_proxy):
+    score = 0
+
+    if mcap_change > 20:
+        score += 2
+    elif mcap_change > 0:
+        score += 1
+
+    if tx_proxy and tx_proxy > 50:
+        score += 1
+
+    if score >= 3:
+        return "Strong growth"
+    if score == 2:
+        return "Moderate growth"
+    if score == 1:
+        return "Stagnant"
+    return "Weak"
+
+# =========================
 # REPORT
 # =========================
 def generate_report():
     now = datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")
     lines = []
 
-    lines.append("# Long-Term Crypto Valuation & Risk Report")
+    lines.append("# Long-Term Crypto Valuation, Risk & Growth Report")
     lines.append("")
     lines.append(f"_Generated automatically — {now}_")
     lines.append("")
@@ -138,9 +167,9 @@ def generate_report():
     lines.append(f"- Ethereum dominance: **{eth_dom:.2f}%**")
 
     if btc_dom > 55:
-        lines.append("- Interpretation: **Risk-off environment. Capital consolidating into Bitcoin.**")
+        lines.append("- Interpretation: **Risk-off environment. Capital favors Bitcoin.**")
     else:
-        lines.append("- Interpretation: **Risk-on environment. Capital rotating into higher beta assets.**")
+        lines.append("- Interpretation: **Risk-on environment. Capital rotating outward.**")
 
     lines.append("")
     lines.append("---")
@@ -154,40 +183,38 @@ def generate_report():
 
         vol = volatility(prices)
         dd = drawdown(prices)
+        mcap_1y = pct_change(prices, 365)
+        tx_proxy = get_transactions(asset)
 
         if asset == "bitcoin":
-            valuation = btc_valuation(price, cfg["max_supply"])
-            dom = btc_dom
-            model = "Store of Value (Digital Gold)"
+            valuation = btc_valuation(cfg["max_supply"])
+            model = "Monetary Store of Value"
         else:
             valuation = eth_valuation(price, market_cap)
-            dom = eth_dom
-            model = "Network Utility & Settlement Layer"
+            model = "Programmable Settlement Network"
 
         risk = risk_score(vol, dd, btc_dom)
+        adoption = adoption_trend(mcap_1y or 0, tx_proxy)
 
-        lines.append(f"## {cfg['symbol']} — Long-Term Analysis")
+        lines.append(f"## {cfg['symbol']} — Long-Term Outlook")
         lines.append("")
         lines.append(f"- Current price: **${price:,.2f}**")
         lines.append(f"- Market cap: **${market_cap/1e12:.2f}T**")
         lines.append(f"- Annualized volatility: **{vol:.2f}**")
         lines.append(f"- Max drawdown (1y): **{dd:.2f}%**")
+        lines.append(f"- 1y price change: **{mcap_1y:.2f}%**")
         lines.append("")
-        lines.append(f"### Valuation Model: {model}")
+        lines.append(f"### Valuation Framework: {model}")
         lines.append("")
-        lines.append("**Implied valuation ranges:**")
         lines.append(f"- Conservative: **${valuation['conservative']:,.0f}**")
         lines.append(f"- Base case: **${valuation['base_case']:,.0f}**")
         lines.append(f"- Bull case: **${valuation['bull_case']:,.0f}**")
         lines.append("")
+        lines.append(f"### Growth & Adoption")
+        lines.append(f"- Network activity proxy: **{tx_proxy or 'N/A'}**")
+        lines.append(f"- Adoption trend: **{adoption}**")
+        lines.append("")
         lines.append(f"### Risk Assessment: **{risk}**")
-
-        if risk == "Low":
-            lines.append("- Environment favorable for long-term accumulation.")
-        elif risk == "Moderate":
-            lines.append("- Balanced risk. Position sizing and patience recommended.")
-        else:
-            lines.append("- Elevated systemic risk. Long-term thesis intact, but volatility likely.")
 
         lines.append("")
         lines.append("---")
@@ -203,5 +230,4 @@ def generate_report():
 # =========================
 if __name__ == "__main__":
     generate_report()
-
 
