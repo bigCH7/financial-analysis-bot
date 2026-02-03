@@ -1,47 +1,35 @@
 # Long-Term Crypto Portfolio Allocation Report
 
-_Generated automatically — 2026-02-03 17:10 UTC_
+_Generated automatically — 2026-02-03 17:19 UTC_
 
 ---
-## Macro Context
+## Macro Overview
 
-- Bitcoin dominance: **57.30%**
-- Ethereum dominance: **10.16%**
+- Bitcoin dominance: **57.24%**
+- Ethereum dominance: **10.15%**
 
 ---
-## BTC — Portfolio Guidance
+## BTC — Position Analysis
 
-- Price: **$76,084.00**
+- Price: **$75,730.00**
 - Volatility (annualized): **0.42**
-- Max drawdown (1y): **-39.01%**
-- 200d trend: **-35.46%**
+- Max drawdown (1y): **-39.31%**
+- 200d trend: **-35.77%**
+- Risk regime: **Accumulation**
 
-### Risk Regime: **Accumulation**
+### Suggested Portfolio Weight
+- **64.4%** of crypto allocation
 
-### Allocation Posture: **Neutral**
-- Allocation stance: Gradual accumulation
-- Capital deployment: Slow DCA
-
-### Valuation Scenarios
-- **Bear case**: $142,857
-- **Base case**: $476,190
-- **Bull case**: $952,381
 ---
-## ETH — Portfolio Guidance
+## ETH — Position Analysis
 
-- Price: **$2,228.47**
+- Price: **$2,219.35**
 - Volatility (annualized): **0.76**
-- Max drawdown (1y): **-53.85%**
-- 200d trend: **-38.00%**
+- Max drawdown (1y): **-54.04%**
+- 200d trend: **-38.25%**
+- Risk regime: **Accumulation**
 
-### Risk Regime: **Accumulation**
+### Suggested Portfolio Weight
+- **35.6%** of crypto allocation
 
-### Allocation Posture: **Neutral**
-- Allocation stance: Gradual accumulation
-- Capital deployment: Slow DCA
-
-### Valuation Scenarios
-- **Bear case**: $33,035
-- **Base case**: $82,588
-- **Bull case**: $165,175
 ---
