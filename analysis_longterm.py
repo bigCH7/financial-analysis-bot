@@ -3,202 +3,152 @@ import time
 from pathlib import Path
 from datetime import datetime
 import statistics
-
-# =========================
-# CONFIG
-# =========================
-ASSETS = {
-    "bitcoin": {"symbol": "BTC"},
-    "ethereum": {"symbol": "ETH"},
-}
+import sys
 
 REPORT_DIR = Path("reports")
 REPORT_DIR.mkdir(exist_ok=True)
 
-COINGECKO = "https://api.coingecko.com/api/v3"
-CACHE = {}
+COINGECKO_BASE = "https://api.coingecko.com/api/v3"
 
-# =========================
-# SAFE API
-# =========================
-def safe_get(url, params=None, key=None):
-    if key and key in CACHE:
-        return CACHE[key]
 
-    for i in range(5):
-        r = requests.get(url, params=params, timeout=20)
+def safe_get(url, params=None, retries=5, delay=10):
+    for attempt in range(retries):
+        r = requests.get(url, params=params, timeout=30)
         if r.status_code == 200:
-            data = r.json()
-            if key:
-                CACHE[key] = data
-            return data
+            return r.json()
         if r.status_code == 429:
-            time.sleep(20 + i * 10)
+            print("Rate limited. Sleeping...")
+            time.sleep(delay * (attempt + 1))
             continue
         r.raise_for_status()
-    raise RuntimeError("API rate limit")
+    raise RuntimeError("API rate limit exceeded")
 
-# =========================
-# DATA
-# =========================
-def get_prices(asset, days=365):
+
+def get_prices(asset_id, days=365):
     data = safe_get(
-        f"{COINGECKO}/coins/{asset}/market_chart",
-        params={"vs_currency": "usd", "days": days},
-        key=f"prices_{asset}",
+        f"{COINGECKO_BASE}/coins/{asset_id}/market_chart",
+        params={"vs_currency": "usd", "days": days, "interval": "daily"},
     )
     return [p[1] for p in data["prices"]]
 
-def get_coin(asset):
-    return safe_get(
-        f"{COINGECKO}/coins/{asset}",
-        params={"market_data": "true", "developer_data": "true"},
-        key=f"coin_{asset}",
-    )
 
-def get_global():
-    return safe_get(f"{COINGECKO}/global", key="global")
+def valuation_summary(asset, prices):
+    current = prices[-1]
+    avg = statistics.mean(prices)
+    low = min(prices)
+    high = max(prices)
 
-# =========================
-# METRICS
-# =========================
-def moving_avg(prices, window):
-    return sum(prices[-window:]) / window
-
-def trend(prices):
-    return (prices[-1] - prices[-200]) / prices[-200] * 100
-
-def drawdown(prices):
-    peak = prices[0]
-    max_dd = 0
-    for p in prices:
-        peak = max(peak, p)
-        max_dd = min(max_dd, (p - peak) / peak)
-    return max_dd * 100
-
-# =========================
-# ON-CHAIN PROXIES
-# =========================
-def onchain_metrics(coin):
-    mcap = coin["market_data"]["market_cap"]["usd"]
-    fdv = coin["market_data"]["fully_diluted_valuation"]["usd"] or mcap
-    volume = coin["market_data"]["total_volume"]["usd"]
-    commits = coin["developer_data"]["commit_count_4_weeks"] or 0
+    valuation = "FAIR"
+    if current < avg * 0.8:
+        valuation = "UNDERVALUED"
+    elif current > avg * 1.2:
+        valuation = "OVERVALUED"
 
     return {
-        "mcap_fdv": mcap / fdv if fdv else 1,
-        "volume_ratio": volume / mcap if mcap else 0,
-        "commits": commits,
+        "asset": asset.upper(),
+        "current": current,
+        "average": avg,
+        "low": low,
+        "high": high,
+        "valuation": valuation,
     }
 
-# =========================
-# VALUATION ENGINE
-# =========================
-def valuation_band(prices, onchain):
-    price = prices[-1]
-    ma200 = moving_avg(prices, 200)
-    ma365 = moving_avg(prices, 365)
 
-    score = 0
-    score += -2 if price < ma365 * 0.7 else 0
-    score += -1 if price < ma200 * 0.9 else 0
-    score += 1 if price > ma200 * 1.3 else 0
-    score += 2 if price > ma365 * 1.6 else 0
-
-    if onchain["mcap_fdv"] < 0.8:
-        score -= 1
-    elif onchain["mcap_fdv"] > 1.05:
-        score += 1
-
-    if onchain["volume_ratio"] > 0.15:
-        score += 1
-    elif onchain["volume_ratio"] < 0.04:
-        score -= 1
-
-    if score <= -3:
-        return "Deeply Undervalued", score
-    if score == -2:
-        return "Undervalued", score
-    if -1 <= score <= 1:
-        return "Fair Value", score
-    if score == 2:
-        return "Overvalued", score
-    return "Extremely Overvalued", score
-
-# =========================
-# DECISION ENGINE (9+10+11)
-# =========================
-def decision_engine(prices, band):
-    tr = trend(prices)
-    dd = drawdown(prices)
-
-    if band == "Deeply Undervalued" and dd < -30:
-        return "Strong Buy", 0.40, "Historically strong long-term entry zone"
-    if band == "Undervalued":
-        return "Buy", 0.25, "Historically favorable accumulation range"
-    if band == "Fair Value":
-        return "Hold", 0.15, "Neutral historical expectancy"
-    if band == "Overvalued":
-        return "Reduce", 0.05, "Historically poor risk-reward"
-    return "Avoid", 0.00, "Historically high drawdown risk"
-
-# =========================
-# REPORT
-# =========================
-def generate_report():
+def generate_markdown(btc, eth):
     now = datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")
-    lines = [
-        "# Long-Term Crypto Investment Report",
-        "",
-        f"_Generated automatically — {now}_",
-        "",
-        "---",
-    ]
 
-    global_data = get_global()
-    lines += [
-        "## Macro Context",
-        f"- BTC dominance: **{global_data['data']['market_cap_percentage']['btc']:.2f}%**",
-        f"- ETH dominance: **{global_data['data']['market_cap_percentage']['eth']:.2f}%**",
-        "",
-        "---",
-    ]
+    return f"""# Long-Term Crypto Valuation Report
 
-    for asset, cfg in ASSETS.items():
-        prices = get_prices(asset)
-        coin = get_coin(asset)
-        onchain = onchain_metrics(coin)
+_Last updated: {now}_
 
-        band, score = valuation_band(prices, onchain)
-        rec, max_alloc, history = decision_engine(prices, band)
+---
 
-        lines += [
-            f"## {cfg['symbol']} Investment Assessment",
-            "",
-            f"- Price: **${coin['market_data']['current_price']['usd']:,.2f}**",
-            f"- Valuation band: **{band}**",
-            f"- Valuation score: **{score}**",
-            f"- Recommendation: **{rec}**",
-            f"- Max portfolio allocation: **{int(max_alloc*100)}%**",
-            f"- Historical context: *{history}*",
-            "",
-            "### Key Metrics",
-            f"- Price / 200d MA: **{prices[-1] / moving_avg(prices,200):.2f}**",
-            f"- Price / 365d MA: **{prices[-1] / moving_avg(prices,365):.2f}**",
-            f"- Market Cap / FDV: **{onchain['mcap_fdv']:.2f}**",
-            f"- Volume / Market Cap: **{onchain['volume_ratio']:.3f}**",
-            f"- Developer commits (4w): **{onchain['commits']}**",
-            "",
-            "---",
-        ]
+## Bitcoin (BTC)
 
-        time.sleep(6)
+- Current price: ${btc['current']:,.0f}
+- 1Y average price: ${btc['average']:,.0f}
+- 1Y low / high: ${btc['low']:,.0f} / ${btc['high']:,.0f}
+- **Valuation:** **{btc['valuation']}**
 
-    REPORT_DIR.joinpath("long_term_report.md").write_text("\n".join(lines), encoding="utf-8")
-    print("Long-term investment report generated.")
+---
 
-# =========================
-# ENTRY
-# =========================
+## Ethereum (ETH)
+
+- Current price: ${eth['current']:,.0f}
+- 1Y average price: ${eth['average']:,.0f}
+- 1Y low / high: ${eth['low']:,.0f} / ${eth['high']:,.0f}
+- **Valuation:** **{eth['valuation']}**
+
+---
+
+## Interpretation
+
+This valuation compares current price to long-term averages.
+It is **not** a trading signal.
+
+- UNDERVALUED → price significantly below long-term mean
+- FAIR → within normal historical range
+- OVERVALUED → price stretched vs long-term history
+"""
+
+
+def markdown_to_html(md_text):
+    html = md_text
+    html = html.replace("# ", "<h1>").replace("\n", "</h1>\n", 1)
+    html = html.replace("## ", "<h2>").replace("\n", "</h2>\n")
+    html = html.replace("- ", "<li>").replace("\n", "</li>\n")
+    html = html.replace("**", "<strong>").replace("<strong>", "</strong>", 1)
+    html = html.replace("\n\n", "<br><br>")
+
+    return f"""<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Long-Term Crypto Valuation</title>
+<style>
+body {{
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: auto;
+  padding: 40px;
+}}
+h1, h2 {{
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 5px;
+}}
+</style>
+</head>
+<body>
+{html}
+</body>
+</html>
+"""
+
+
+def main():
+    print("Running long-term valuation...")
+
+    btc_prices = get_prices("bitcoin")
+    eth_prices = get_prices("ethereum")
+
+    btc = valuation_summary("btc", btc_prices)
+    eth = valuation_summary("eth", eth_prices)
+
+    md = generate_markdown(btc, eth)
+    html = markdown_to_html(md)
+
+    md_path = REPORT_DIR / "long_term_report.md"
+    html_path = REPORT_DIR / "long_term_report.html"
+
+    md_path.write_text(md, encoding="utf-8")
+    html_path.write_text(html, encoding="utf-8")
+
+    print("Report generated successfully.")
+
+
 if __name__ == "__main__":
-    generate_report()
+    try:
+        main()
+    except Exception as e:
+        print("Fatal error:", e)
+        sys.exit(1)
