@@ -36,6 +36,50 @@ def get_macro_context():
     eth_30d = get_price_30d_change("ethereum")
     eth_vs_btc = round(eth_30d - btc_30d, 2)
 
+def get_price_history(coin_id, days=200):
+    url = f"https://api.coingecko.com/api/v3/coins/{coin_id}/market_chart"
+    params = {
+        "vs_currency": "usd",
+        "days": days,
+        "interval": "daily"
+    }
+    data = requests.get(url, params=params, timeout=20).json()
+    prices = [p[1] for p in data["prices"]]
+    return prices
+
+
+def valuation_assessment(coin_id, relative_strength=0):
+    prices = get_price_history(coin_id, days=200)
+    current_price = prices[-1]
+    long_term_avg = sum(prices) / len(prices)
+
+    deviation_pct = ((current_price - long_term_avg) / long_term_avg) * 100
+
+    score = 50  # neutral base
+
+    # Price deviation logic
+    if deviation_pct < -15:
+        score += 20
+        label = "Undervalued"
+    elif deviation_pct > 20:
+        score -= 20
+        label = "Overextended"
+    else:
+        label = "Neutral"
+
+    # Relative strength adjustment (ETH vs BTC)
+    score += int(relative_strength / 2)
+
+    score = max(0, min(100, score))
+
+    return {
+        "current_price": round(current_price, 2),
+        "long_term_avg": round(long_term_avg, 2),
+        "deviation_pct": round(deviation_pct, 2),
+        "valuation_label": label,
+        "valuation_score": score
+    }
+
     if btc_dom > 50 and eth_vs_btc < 0:
         interpretation = (
             "Risk-off environment. Capital consolidating into Bitcoin. "
@@ -224,4 +268,24 @@ def main():
 
 
 if __name__ == "__main__":
+     btc_val = valuation_assessment("bitcoin")
+    eth_val = valuation_assessment("ethereum", macro["eth_vs_btc_30d"])
+
+    report += "\nVALUATION ANALYSIS\n"
+    report += "------------------\n"
+
+    report += (
+        f"Bitcoin:\n"
+        f"- Price vs 200d avg: {btc_val['deviation_pct']}%\n"
+        f"- Valuation: {btc_val['valuation_label']}\n"
+        f"- Valuation score: {btc_val['valuation_score']}/100\n\n"
+    )
+
+    report += (
+        f"Ethereum:\n"
+        f"- Price vs 200d avg: {eth_val['deviation_pct']}%\n"
+        f"- Valuation: {eth_val['valuation_label']}\n"
+        f"- Valuation score: {eth_val['valuation_score']}/100\n"
+    )
+
     main()
