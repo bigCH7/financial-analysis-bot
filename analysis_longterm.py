@@ -2,6 +2,19 @@ import requests
 import pandas as pd
 import numpy as np
 from datetime import datetime
+def get_macro_context():
+    """
+    Temporary macro analysis stub.
+    Will be replaced with real logic later.
+    """
+    return {
+        "btc_dominance": "N/A",
+        "eth_dominance": "N/A",
+        "btc_30d": "N/A",
+        "eth_30d": "N/A",
+        "eth_vs_btc_30d": "N/A",
+        "macro_interpretation": "Macro module not yet connected."
+    }
 
 # -----------------------------
 # Configuration
