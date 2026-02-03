@@ -1,37 +1,43 @@
-# Long-Term Crypto Investment Report
+# Long-Term Crypto Valuation Report
 
-_Generated automatically on 2026-02-03 16:23 UTC_
-
----
-
-## Macro & Capital Flow Context
-- Bitcoin dominance: **57.41%**
-- Ethereum dominance: **10.18%**
-
-**Interpretation:** Risk-off environment. Capital concentrating in Bitcoin as defensive positioning.
+_Generated automatically — 2026-02-03 16:31 UTC_
 
 ---
+## BTC — Long-Term Valuation
 
-## BTC Long-Term Valuation
-- Current price: **$77,104.76**
-- 30-day performance: **-17.91%**
-- Price percentile (1Y): **0.82%**
-- 200-day average: **$103,530.58**
-- Trend position: **Below long-term average (bearish bias)**
-- Valuation signal: **Historically cheap relative to last year**
+- Current price: **$76,690.00**
+- Market cap: **$1.54T**
+- 30d performance: **-18.36%**
+- 1y performance: **-21.85%**
 
-_Note: Crypto valuation is relative and regime-dependent, not based on cash flows._
+### Valuation Model: Store of Value (Digital Gold)
+
+**Implied long-term valuation ranges:**
+
+- Conservative: **$238,095**
+- Base case: **$476,190**
+- Bull case: **$952,381**
+
+**Interpretation:**
+- Asset appears **deeply undervalued** relative to long-term fundamentals.
 
 ---
+## ETH — Long-Term Valuation
 
-## ETH Long-Term Valuation
-- Current price: **$2,262.70**
-- 30-day performance: **-29.91%**
-- Price percentile (1Y): **19.4%**
-- 200-day average: **$3,648.01**
-- Trend position: **Below long-term average (bearish bias)**
-- Valuation signal: **Historically cheap relative to last year**
+- Current price: **$2,248.18**
+- Market cap: **$0.27T**
+- 30d performance: **-30.36%**
+- 1y performance: **-17.96%**
 
-_Note: Crypto valuation is relative and regime-dependent, not based on cash flows._
+### Valuation Model: Network Utility & Settlement Layer
+
+**Implied long-term valuation ranges:**
+
+- Conservative: **$41,395**
+- Base case: **$82,791**
+- Bull case: **$165,581**
+
+**Interpretation:**
+- Asset appears **deeply undervalued** relative to long-term fundamentals.
 
 ---
