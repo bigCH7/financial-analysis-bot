@@ -2,153 +2,123 @@ import requests
 import time
 from pathlib import Path
 from datetime import datetime
-import statistics
-import sys
+
+# =========================
+# Configuration
+# =========================
+
+ASSETS = {
+    "bitcoin": "Bitcoin (BTC)",
+    "ethereum": "Ethereum (ETH)"
+}
+
+VS_CURRENCY = "usd"
+DAYS = 365
+API_DELAY = 2.5  # seconds between API calls (rate-limit safety)
 
 REPORT_DIR = Path("reports")
-REPORT_DIR.mkdir(exist_ok=True)
+REPORT_FILE = REPORT_DIR / "index.md"
 
-COINGECKO_BASE = "https://api.coingecko.com/api/v3"
+# =========================
+# Helpers
+# =========================
 
-
-def safe_get(url, params=None, retries=5, delay=10):
+def safe_get(url, params=None, retries=3):
     for attempt in range(retries):
-        r = requests.get(url, params=params, timeout=30)
-        if r.status_code == 200:
+        try:
+            r = requests.get(url, params=params, timeout=20)
+            if r.status_code == 429:
+                time.sleep(10)
+                continue
+            r.raise_for_status()
             return r.json()
-        if r.status_code == 429:
-            print("Rate limited. Sleeping...")
-            time.sleep(delay * (attempt + 1))
-            continue
-        r.raise_for_status()
-    raise RuntimeError("API rate limit exceeded")
+        except Exception:
+            if attempt == retries - 1:
+                return None
+            time.sleep(5)
 
+def get_price_history(asset_id):
+    url = f"https://api.coingecko.com/api/v3/coins/{asset_id}/market_chart"
+    params = {
+        "vs_currency": VS_CURRENCY,
+        "days": DAYS,
+        "interval": "daily"
+    }
+    return safe_get(url, params)
 
-def get_prices(asset_id, days=365):
-    data = safe_get(
-        f"{COINGECKO_BASE}/coins/{asset_id}/market_chart",
-        params={"vs_currency": "usd", "days": days, "interval": "daily"},
-    )
-    return [p[1] for p in data["prices"]]
+def analyze_valuation(prices):
+    values = [p[1] for p in prices]
 
+    current = values[-1]
+    avg_1y = sum(values) / len(values)
+    low_1y = min(values)
+    high_1y = max(values)
 
-def valuation_summary(asset, prices):
-    current = prices[-1]
-    avg = statistics.mean(prices)
-    low = min(prices)
-    high = max(prices)
+    ratio = current / avg_1y
 
-    valuation = "FAIR"
-    if current < avg * 0.8:
-        valuation = "UNDERVALUED"
-    elif current > avg * 1.2:
-        valuation = "OVERVALUED"
+    if ratio < 0.8:
+        band = "UNDERVALUED"
+        score = -2
+    elif ratio < 0.95:
+        band = "SLIGHTLY UNDERVALUED"
+        score = -1
+    elif ratio <= 1.05:
+        band = "FAIR VALUE"
+        score = 0
+    elif ratio <= 1.2:
+        band = "SLIGHTLY OVERVALUED"
+        score = 1
+    else:
+        band = "OVERVALUED"
+        score = 2
 
     return {
-        "asset": asset.upper(),
         "current": current,
-        "average": avg,
-        "low": low,
-        "high": high,
-        "valuation": valuation,
+        "avg_1y": avg_1y,
+        "low_1y": low_1y,
+        "high_1y": high_1y,
+        "band": band,
+        "score": score
     }
 
+# =========================
+# Report Generation
+# =========================
 
-def generate_markdown(btc, eth):
+def generate_report():
+    REPORT_DIR.mkdir(exist_ok=True)
+
+    lines = []
     now = datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")
 
-    return f"""# Long-Term Crypto Valuation Report
+    lines.append("# Long-Term Crypto Valuation Report\n")
+    lines.append(f"_Generated automatically — {now}_\n")
 
-_Last updated: {now}_
+    for asset_id, name in ASSETS.items():
+        time.sleep(API_DELAY)
 
----
+        data = get_price_history(asset_id)
+        if not data or "prices" not in data:
+            lines.append(f"## {name}\n")
+            lines.append("Data unavailable due to API limits.\n")
+            continue
 
-## Bitcoin (BTC)
+        valuation = analyze_valuation(data["prices"])
 
-- Current price: ${btc['current']:,.0f}
-- 1Y average price: ${btc['average']:,.0f}
-- 1Y low / high: ${btc['low']:,.0f} / ${btc['high']:,.0f}
-- **Valuation:** **{btc['valuation']}**
+        lines.append(f"## {name}\n")
+        lines.append(f"- **Current price:** ${valuation['current']:,.0f}")
+        lines.append(f"- **1Y average price:** ${valuation['avg_1y']:,.0f}")
+        lines.append(
+            f"- **1Y low / high:** "
+            f"${valuation['low_1y']:,.0f} / ${valuation['high_1y']:,.0f}"
+        )
+        lines.append(f"- **Valuation:** **{valuation['band']}**\n")
 
----
+    REPORT_FILE.write_text("\n".join(lines), encoding="utf-8")
 
-## Ethereum (ETH)
-
-- Current price: ${eth['current']:,.0f}
-- 1Y average price: ${eth['average']:,.0f}
-- 1Y low / high: ${eth['low']:,.0f} / ${eth['high']:,.0f}
-- **Valuation:** **{eth['valuation']}**
-
----
-
-## Interpretation
-
-This valuation compares current price to long-term averages.
-It is **not** a trading signal.
-
-- UNDERVALUED → price significantly below long-term mean
-- FAIR → within normal historical range
-- OVERVALUED → price stretched vs long-term history
-"""
-
-
-def markdown_to_html(md_text):
-    html = md_text
-    html = html.replace("# ", "<h1>").replace("\n", "</h1>\n", 1)
-    html = html.replace("## ", "<h2>").replace("\n", "</h2>\n")
-    html = html.replace("- ", "<li>").replace("\n", "</li>\n")
-    html = html.replace("**", "<strong>").replace("<strong>", "</strong>", 1)
-    html = html.replace("\n\n", "<br><br>")
-
-    return f"""<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Long-Term Crypto Valuation</title>
-<style>
-body {{
-  font-family: Arial, sans-serif;
-  max-width: 800px;
-  margin: auto;
-  padding: 40px;
-}}
-h1, h2 {{
-  border-bottom: 1px solid #ddd;
-  padding-bottom: 5px;
-}}
-</style>
-</head>
-<body>
-{html}
-</body>
-</html>
-"""
-
-
-def main():
-    print("Running long-term valuation...")
-
-    btc_prices = get_prices("bitcoin")
-    eth_prices = get_prices("ethereum")
-
-    btc = valuation_summary("btc", btc_prices)
-    eth = valuation_summary("eth", eth_prices)
-
-    md = generate_markdown(btc, eth)
-    html = markdown_to_html(md)
-
-    md_path = REPORT_DIR / "long_term_report.md"
-    html_path = REPORT_DIR / "long_term_report.html"
-
-    md_path.write_text(md, encoding="utf-8")
-    html_path.write_text(html, encoding="utf-8")
-
-    print("Report generated successfully.")
-
+# =========================
+# Entry Point
+# =========================
 
 if __name__ == "__main__":
-    try:
-        main()
-    except Exception as e:
-        print("Fatal error:", e)
-        sys.exit(1)
+    generate_report()
