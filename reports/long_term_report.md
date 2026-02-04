@@ -1,32 +1,31 @@
-# Long-Term Crypto Valuation Report
-
-_Last updated: 2026-02-03 19:36 UTC_
-
----
-
-## Bitcoin (BTC)
-
-- Current price: $74,940
-- 1Y average price: $100,637
-- 1Y low / high: $74,940 / $124,774
-- **Valuation:** **UNDERVALUED**
+# Long-Term Crypto Analysis
+_Last updated: 2026-02-04 02:41 UTC_
 
 ---
 
-## Ethereum (ETH)
+## Macro & Capital Flow
+- Bitcoin dominance: **57.26%**
+- Ethereum dominance: **10.26%**
 
-- Current price: $2,203
-- 1Y average price: $3,038
-- 1Y low / high: $1,471 / $4,829
-- **Valuation:** **UNDERVALUED**
+**Interpretation:**  
+Risk-off environment. Capital consolidating into Bitcoin.
 
 ---
 
-## Interpretation
+## Valuation Analysis
 
-This valuation compares current price to long-term averages.
-It is **not** a trading signal.
+### Bitcoin (BTC)
+- Current price: **$75953.7**
+- 365d average price: **$100569.6**
+- Price / Average ratio: **0.76**
+- Valuation: **Undervalued**
 
-- UNDERVALUED → price significantly below long-term mean
-- FAIR → within normal historical range
-- OVERVALUED → price stretched vs long-term history
+### Ethereum (ETH)
+- Current price: **$2257.42**
+- 365d average price: **$3036.51**
+- Price / Average ratio: **0.74**
+- Valuation: **Undervalued**
+
+---
+
+_Disclaimer: Educational analysis only. Not financial advice._
