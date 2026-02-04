@@ -1,112 +1,96 @@
 import requests
-import time
 from pathlib import Path
 from datetime import datetime
+import statistics
 
 REPORT_DIR = Path("reports")
 REPORT_DIR.mkdir(exist_ok=True)
 
 COINGECKO = "https://api.coingecko.com/api/v3"
 
+def get_price_history(asset, days=365):
+    url = f"{COINGECKO}/coins/{asset}/market_chart"
+    params = {"vs_currency": "usd", "days": days}
+    r = requests.get(url, params=params, timeout=20)
+    r.raise_for_status()
+    return [p[1] for p in r.json()["prices"]]
 
-def safe_get(url, params=None, retries=3):
-    for i in range(retries):
-        r = requests.get(url, params=params, timeout=20)
-        if r.status_code == 200:
-            return r.json()
-        if r.status_code == 429:
-            time.sleep(10)
-        else:
-            r.raise_for_status()
-    raise RuntimeError("API rate limit")
-
-
-def get_global():
-    return safe_get(f"{COINGECKO}/global")["data"]
-
-
-def get_market(asset):
-    return safe_get(
-        f"{COINGECKO}/coins/{asset}/market_chart",
-        params={"vs_currency": "usd", "days": 365}
-    )
-
-
-def valuation(asset):
-    data = get_market(asset)
-    prices = [p[1] for p in data["prices"]]
-
+def valuation_bitcoin(prices):
     current = prices[-1]
-    avg_365 = sum(prices) / len(prices)
+    ma200 = statistics.mean(prices[-200:])
 
-    ratio = current / avg_365
+    ratio = current / ma200
 
-    if ratio < 0.8:
-        verdict = "Undervalued"
-    elif ratio > 1.2:
-        verdict = "Overvalued"
+    if ratio < 0.9:
+        verdict = "Undervalued (historically cheap)"
+    elif ratio < 1.1:
+        verdict = "Fairly valued (neutral zone)"
     else:
-        verdict = "Fairly valued"
+        verdict = "Overextended (late-cycle risk)"
 
-    return {
-        "current": round(current, 2),
-        "average": round(avg_365, 2),
-        "ratio": round(ratio, 2),
-        "verdict": verdict
-    }
+    return f"""
+Price vs 200D Average:
+- Current price: ${current:,.0f}
+- 200D average: ${ma200:,.0f}
+- Ratio: {ratio:.2f}
 
+Valuation verdict:
+{verdict}
 
-def generate_report():
-    global_data = get_global()
-
-    btc_dom = global_data["market_cap_percentage"]["btc"]
-    eth_dom = global_data["market_cap_percentage"]["eth"]
-
-    btc_val = valuation("bitcoin")
-    eth_val = valuation("ethereum")
-
-    now = datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")
-
-    report = f"""# Long-Term Crypto Analysis
-_Last updated: {now}_
-
----
-
-## Macro & Capital Flow
-- Bitcoin dominance: **{btc_dom:.2f}%**
-- Ethereum dominance: **{eth_dom:.2f}%**
-
-**Interpretation:**  
-{"Risk-off environment. Capital consolidating into Bitcoin."
- if btc_dom > 55 else
- "Risk-on environment. Capital rotating into altcoins."}
-
----
-
-## Valuation Analysis
-
-### Bitcoin (BTC)
-- Current price: **${btc_val['current']}**
-- 365d average price: **${btc_val['average']}**
-- Price / Average ratio: **{btc_val['ratio']}**
-- Valuation: **{btc_val['verdict']}**
-
-### Ethereum (ETH)
-- Current price: **${eth_val['current']}**
-- 365d average price: **${eth_val['average']}**
-- Price / Average ratio: **{eth_val['ratio']}**
-- Valuation: **{eth_val['verdict']}**
-
----
-
-_Disclaimer: Educational analysis only. Not financial advice._
+Interpretation:
+The 200-day average is widely used by long-term investors to judge cycle positioning.
+Prices meaningfully below it historically indicate accumulation zones.
 """
 
-    path = REPORT_DIR / "long_term_report.md"
-    path.write_text(report, encoding="utf-8")
-    print("✅ Long-term valuation report generated")
+def valuation_ethereum(prices, btc_prices):
+    eth_current = prices[-1]
+    btc_current = btc_prices[-1]
+    ratio = eth_current / btc_current
 
+    if ratio < 0.04:
+        verdict = "ETH deeply undervalued vs BTC"
+    elif ratio < 0.055:
+        verdict = "ETH fairly valued vs BTC"
+    else:
+        verdict = "ETH expensive vs BTC"
+
+    return f"""
+ETH/BTC Relative Valuation:
+- ETH price: ${eth_current:,.0f}
+- BTC price: ${btc_current:,.0f}
+- ETH/BTC ratio: {ratio:.4f}
+
+Relative valuation verdict:
+{verdict}
+
+Interpretation:
+ETH/BTC is a key capital-rotation metric.
+Professional investors use it to decide when to rotate between growth (ETH)
+and defensive (BTC) exposure.
+"""
+
+def generate_report():
+    btc_prices = get_price_history("bitcoin")
+    eth_prices = get_price_history("ethereum")
+
+    report = []
+    report.append("# Long-Term Crypto Valuation Report\n")
+    report.append(f"_Updated: {datetime.utcnow().strftime('%Y-%m-%d %H:%M UTC')}_\n")
+
+    report.append("## Bitcoin (BTC)\n")
+    report.append("### Valuation Analysis\n")
+    report.append(valuation_bitcoin(btc_prices))
+
+    report.append("\n---\n")
+
+    report.append("## Ethereum (ETH)\n")
+    report.append("### Valuation Analysis\n")
+    report.append(valuation_ethereum(eth_prices, btc_prices))
+
+    output = REPORT_DIR / "long_term_report.md"
+    output.write_text("\n".join(report), encoding="utf-8")
+
+    print("✔ Long-term valuation report generated")
 
 if __name__ == "__main__":
     generate_report()
-
