@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Bitcoin Analysis</title>
+
   <style>
     body {
       font-family: system-ui, sans-serif;
@@ -12,16 +13,32 @@
       margin: auto;
       padding: 2rem;
     }
+
     nav a {
       margin-right: 1.2rem;
       text-decoration: none;
       font-weight: 600;
       color: #f7931a;
     }
-    pre {
+
+    .card {
       background: white;
       padding: 1.5rem;
-      border-radius: 12px;
+      border-radius: 14px;
+      margin-bottom: 1.5rem;
+    }
+
+    .toggle {
+      cursor: pointer;
+      color: #f7931a;
+      font-weight: 600;
+      margin-top: 1rem;
+    }
+
+    .hidden {
+      display: none;
+      margin-top: 1rem;
+      white-space: pre-wrap;
     }
   </style>
 </head>
@@ -36,17 +53,28 @@
 
 <h1>Bitcoin (BTC)</h1>
 
-<div id="btc">Loading…</div>
+<div class="card">
+  <h3>Long-Term Outlook</h3>
+  <p>Institutional-grade macro & valuation analysis.</p>
+
+  <div class="toggle" onclick="toggle()">+ Show full analysis</div>
+  <div id="analysis" class="hidden">Loading…</div>
+</div>
 
 <script>
+function toggle() {
+  document.getElementById("analysis").classList.toggle("hidden");
+}
+
 fetch("reports/long_term_report.md")
   .then(r => r.text())
   .then(t => {
     const btc = t.split("### Bitcoin (BTC)")[1].split("### Ethereum")[0];
-    document.getElementById("btc").innerHTML =
-      "<pre>### Bitcoin (BTC)" + btc + "</pre>";
+    document.getElementById("analysis").textContent =
+      "### Bitcoin (BTC)\n" + btc.trim();
   });
 </script>
 
 </body>
 </html>
+
