@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bitcoin Analysis</title>
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+      background: #fafafa;
+      color: #222;
+      max-width: 1000px;
+      margin: auto;
+      padding: 2rem;
+    }
+    nav a {
+      margin-right: 1.2rem;
+      text-decoration: none;
+      font-weight: 600;
+      color: #f7931a;
+    }
+    pre {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 12px;
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="index.html">Overview</a>
+  <a href="btc.html">Bitcoin</a>
+  <a href="eth.html">Ethereum</a>
+  <a href="news.html">News</a>
+</nav>
+
+<h1>Bitcoin (BTC)</h1>
+
+<div id="btc">Loading…</div>
+
+<script>
+fetch("reports/long_term_report.md")
+  .then(r => r.text())
+  .then(t => {
+    const btc = t.split("### Bitcoin (BTC)")[1].split("### Ethereum")[0];
+    document.getElementById("btc").innerHTML =
+      "<pre>### Bitcoin (BTC)" + btc + "</pre>";
+  });
+</script>
+
+</body>
+</html>
