@@ -1,32 +1,48 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Crypto Macro Dashboard</title>
+  <title>Crypto Macro & Valuation</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      max-width: 800px;
+      font-family: system-ui, sans-serif;
+      background: #fafafa;
+      color: #222;
+      max-width: 900px;
       margin: auto;
-      padding: 40px;
+      padding: 2rem;
     }
-    a {
-      display: block;
-      margin: 20px 0;
-      font-size: 18px;
+    h1, h2, h3 {
+      color: #6b4eff;
+    }
+    pre {
+      background: #fff;
+      padding: 1.5rem;
+      border-radius: 10px;
+      overflow-x: auto;
     }
   </style>
 </head>
 <body>
 
-<h1>Crypto Macro Dashboard</h1>
+<h1>Crypto Long-Term Analysis</h1>
 
-<p>Automated long-term valuation and macro analysis.</p>
+<div id="report">Loading report…</div>
 
-<a href="reports/long_term_report.html">
-👉 View Latest Long-Term Valuation (BTC + ETH)
-</a>
+<script>
+fetch("reports/long_term_report.md")
+  .then(r => r.text())
+  .then(t => {
+    document.getElementById("report").innerHTML =
+      "<pre>" + t + "</pre>";
+  })
+  .catch(() => {
+    document.getElementById("report").innerText =
+      "Report not found yet. Check back shortly.";
+  });
+</script>
 
 </body>
 </html>
+
 
