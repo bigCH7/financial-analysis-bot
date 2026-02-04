@@ -3,122 +3,110 @@ import time
 from pathlib import Path
 from datetime import datetime
 
-# =========================
-# Configuration
-# =========================
-
-ASSETS = {
-    "bitcoin": "Bitcoin (BTC)",
-    "ethereum": "Ethereum (ETH)"
-}
-
-VS_CURRENCY = "usd"
-DAYS = 365
-API_DELAY = 2.5  # seconds between API calls (rate-limit safety)
-
 REPORT_DIR = Path("reports")
-REPORT_FILE = REPORT_DIR / "index.md"
+REPORT_DIR.mkdir(exist_ok=True)
 
-# =========================
-# Helpers
-# =========================
+COINGECKO = "https://api.coingecko.com/api/v3"
+
 
 def safe_get(url, params=None, retries=3):
-    for attempt in range(retries):
-        try:
-            r = requests.get(url, params=params, timeout=20)
-            if r.status_code == 429:
-                time.sleep(10)
-                continue
-            r.raise_for_status()
+    for i in range(retries):
+        r = requests.get(url, params=params, timeout=20)
+        if r.status_code == 200:
             return r.json()
-        except Exception:
-            if attempt == retries - 1:
-                return None
-            time.sleep(5)
+        if r.status_code == 429:
+            time.sleep(10)
+        else:
+            r.raise_for_status()
+    raise RuntimeError("API rate limit")
 
-def get_price_history(asset_id):
-    url = f"https://api.coingecko.com/api/v3/coins/{asset_id}/market_chart"
-    params = {
-        "vs_currency": VS_CURRENCY,
-        "days": DAYS,
-        "interval": "daily"
-    }
-    return safe_get(url, params)
 
-def analyze_valuation(prices):
-    values = [p[1] for p in prices]
+def get_global():
+    return safe_get(f"{COINGECKO}/global")["data"]
 
-    current = values[-1]
-    avg_1y = sum(values) / len(values)
-    low_1y = min(values)
-    high_1y = max(values)
 
-    ratio = current / avg_1y
+def get_market(asset):
+    return safe_get(
+        f"{COINGECKO}/coins/{asset}/market_chart",
+        params={"vs_currency": "usd", "days": 365}
+    )
+
+
+def valuation(asset):
+    data = get_market(asset)
+    prices = [p[1] for p in data["prices"]]
+
+    current = prices[-1]
+    avg_365 = sum(prices) / len(prices)
+
+    ratio = current / avg_365
 
     if ratio < 0.8:
-        band = "UNDERVALUED"
-        score = -2
-    elif ratio < 0.95:
-        band = "SLIGHTLY UNDERVALUED"
-        score = -1
-    elif ratio <= 1.05:
-        band = "FAIR VALUE"
-        score = 0
-    elif ratio <= 1.2:
-        band = "SLIGHTLY OVERVALUED"
-        score = 1
+        verdict = "Undervalued"
+    elif ratio > 1.2:
+        verdict = "Overvalued"
     else:
-        band = "OVERVALUED"
-        score = 2
+        verdict = "Fairly valued"
 
     return {
-        "current": current,
-        "avg_1y": avg_1y,
-        "low_1y": low_1y,
-        "high_1y": high_1y,
-        "band": band,
-        "score": score
+        "current": round(current, 2),
+        "average": round(avg_365, 2),
+        "ratio": round(ratio, 2),
+        "verdict": verdict
     }
 
-# =========================
-# Report Generation
-# =========================
 
 def generate_report():
-    REPORT_DIR.mkdir(exist_ok=True)
+    global_data = get_global()
 
-    lines = []
+    btc_dom = global_data["market_cap_percentage"]["btc"]
+    eth_dom = global_data["market_cap_percentage"]["eth"]
+
+    btc_val = valuation("bitcoin")
+    eth_val = valuation("ethereum")
+
     now = datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")
 
-    lines.append("# Long-Term Crypto Valuation Report\n")
-    lines.append(f"_Generated automatically — {now}_\n")
+    report = f"""# Long-Term Crypto Analysis
+_Last updated: {now}_
 
-    for asset_id, name in ASSETS.items():
-        time.sleep(API_DELAY)
+---
 
-        data = get_price_history(asset_id)
-        if not data or "prices" not in data:
-            lines.append(f"## {name}\n")
-            lines.append("Data unavailable due to API limits.\n")
-            continue
+## Macro & Capital Flow
+- Bitcoin dominance: **{btc_dom:.2f}%**
+- Ethereum dominance: **{eth_dom:.2f}%**
 
-        valuation = analyze_valuation(data["prices"])
+**Interpretation:**  
+{"Risk-off environment. Capital consolidating into Bitcoin."
+ if btc_dom > 55 else
+ "Risk-on environment. Capital rotating into altcoins."}
 
-        lines.append(f"## {name}\n")
-        lines.append(f"- **Current price:** ${valuation['current']:,.0f}")
-        lines.append(f"- **1Y average price:** ${valuation['avg_1y']:,.0f}")
-        lines.append(
-            f"- **1Y low / high:** "
-            f"${valuation['low_1y']:,.0f} / ${valuation['high_1y']:,.0f}"
-        )
-        lines.append(f"- **Valuation:** **{valuation['band']}**\n")
+---
 
-    REPORT_FILE.write_text("\n".join(lines), encoding="utf-8")
+## Valuation Analysis
 
-# =========================
-# Entry Point
-# =========================
+### Bitcoin (BTC)
+- Current price: **${btc_val['current']}**
+- 365d average price: **${btc_val['average']}**
+- Price / Average ratio: **{btc_val['ratio']}**
+- Valuation: **{btc_val['verdict']}**
+
+### Ethereum (ETH)
+- Current price: **${eth_val['current']}**
+- 365d average price: **${eth_val['average']}**
+- Price / Average ratio: **{eth_val['ratio']}**
+- Valuation: **{eth_val['verdict']}**
+
+---
+
+_Disclaimer: Educational analysis only. Not financial advice._
+"""
+
+    path = REPORT_DIR / "long_term_report.md"
+    path.write_text(report, encoding="utf-8")
+    print("✅ Long-term valuation report generated")
+
 
 if __name__ == "__main__":
     generate_report()
+
