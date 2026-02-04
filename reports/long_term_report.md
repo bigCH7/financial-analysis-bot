@@ -1,31 +1,41 @@
-# Long-Term Crypto Analysis
-_Last updated: 2026-02-04 02:51 UTC_
+# Long-Term Crypto Valuation Report
+
+_Updated: 2026-02-04 17:33 UTC_
+
+## Bitcoin (BTC)
+
+### Valuation Analysis
+
+
+Price vs 200D Average:
+- Current price: $72,529
+- 200D average: $103,296
+- Ratio: 0.70
+
+Valuation verdict:
+Undervalued (historically cheap)
+
+Interpretation:
+The 200-day average is widely used by long-term investors to judge cycle positioning.
+Prices meaningfully below it historically indicate accumulation zones.
+
 
 ---
 
-## Macro & Capital Flow
-- Bitcoin dominance: **57.25%**
-- Ethereum dominance: **10.26%**
+## Ethereum (ETH)
 
-**Interpretation:**  
-Risk-off environment. Capital consolidating into Bitcoin.
+### Valuation Analysis
 
----
 
-## Valuation Analysis
+ETH/BTC Relative Valuation:
+- ETH price: $2,116
+- BTC price: $72,529
+- ETH/BTC ratio: 0.0292
 
-### Bitcoin (BTC)
-- Current price: **$75767.91**
-- 365d average price: **$100569.1**
-- Price / Average ratio: **0.75**
-- Valuation: **Undervalued**
+Relative valuation verdict:
+ETH deeply undervalued vs BTC
 
-### Ethereum (ETH)
-- Current price: **$2244.26**
-- 365d average price: **$3036.48**
-- Price / Average ratio: **0.74**
-- Valuation: **Undervalued**
-
----
-
-_Disclaimer: Educational analysis only. Not financial advice._
+Interpretation:
+ETH/BTC is a key capital-rotation metric.
+Professional investors use it to decide when to rotate between growth (ETH)
+and defensive (BTC) exposure.
