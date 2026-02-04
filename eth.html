@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Ethereum Analysis</title>
+
   <style>
     body {
       font-family: system-ui, sans-serif;
@@ -12,16 +13,32 @@
       margin: auto;
       padding: 2rem;
     }
+
     nav a {
       margin-right: 1.2rem;
       text-decoration: none;
       font-weight: 600;
       color: #627eea;
     }
-    pre {
+
+    .card {
       background: white;
       padding: 1.5rem;
-      border-radius: 12px;
+      border-radius: 14px;
+      margin-bottom: 1.5rem;
+    }
+
+    .toggle {
+      cursor: pointer;
+      color: #627eea;
+      font-weight: 600;
+      margin-top: 1rem;
+    }
+
+    .hidden {
+      display: none;
+      margin-top: 1rem;
+      white-space: pre-wrap;
     }
   </style>
 </head>
@@ -36,15 +53,25 @@
 
 <h1>Ethereum (ETH)</h1>
 
-<div id="eth">Loading…</div>
+<div class="card">
+  <h3>Long-Term Outlook</h3>
+  <p>Growth asset, smart contract dominance, risk-sensitive.</p>
+
+  <div class="toggle" onclick="toggle()">+ Show full analysis</div>
+  <div id="analysis" class="hidden">Loading…</div>
+</div>
 
 <script>
+function toggle() {
+  document.getElementById("analysis").classList.toggle("hidden");
+}
+
 fetch("reports/long_term_report.md")
   .then(r => r.text())
   .then(t => {
     const eth = t.split("### Ethereum (ETH)")[1];
-    document.getElementById("eth").innerHTML =
-      "<pre>### Ethereum (ETH)" + eth + "</pre>";
+    document.getElementById("analysis").textContent =
+      "### Ethereum (ETH)\n" + eth.trim();
   });
 </script>
 
