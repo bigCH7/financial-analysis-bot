@@ -2,43 +2,52 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Crypto Macro & Valuation</title>
+  <title>Crypto Dashboard</title>
   <style>
     body {
       font-family: system-ui, sans-serif;
       background: #fafafa;
       color: #222;
-      max-width: 900px;
+      max-width: 1000px;
       margin: auto;
       padding: 2rem;
     }
-    h1, h2, h3 {
+    nav a {
+      margin-right: 1.2rem;
+      text-decoration: none;
+      font-weight: 600;
       color: #6b4eff;
     }
+    nav {
+      margin-bottom: 2rem;
+    }
     pre {
-      background: #fff;
+      background: white;
       padding: 1.5rem;
-      border-radius: 10px;
-      overflow-x: auto;
+      border-radius: 12px;
     }
   </style>
 </head>
 <body>
 
-<h1>Crypto Long-Term Analysis</h1>
+<nav>
+  <a href="index.html">Overview</a>
+  <a href="btc.html">Bitcoin</a>
+  <a href="eth.html">Ethereum</a>
+  <a href="news.html">News</a>
+</nav>
 
-<div id="report">Loading report…</div>
+<h1>Macro Overview</h1>
+
+<div id="macro">Loading…</div>
 
 <script>
 fetch("reports/long_term_report.md")
   .then(r => r.text())
   .then(t => {
-    document.getElementById("report").innerHTML =
-      "<pre>" + t + "</pre>";
-  })
-  .catch(() => {
-    document.getElementById("report").innerText =
-      "Report not found yet. Check back shortly.";
+    const macro = t.split("## Valuation Analysis")[0];
+    document.getElementById("macro").innerHTML =
+      "<pre>" + macro + "</pre>";
   });
 </script>
 
