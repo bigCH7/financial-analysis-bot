@@ -1,21 +1,21 @@
 # Short-Term Market Context
 
-_Generated automatically — 2026-02-04 17:33 UTC_
+_Generated automatically — 2026-02-05 17:35 UTC_
 
 ## Bitcoin (BTC)
 
-- **Current price:** $72,528
-- **7D change:** -18.66%
-- **30D change:** -22.78%
+- **Current price:** $66,711
+- **7D change:** -21.12%
+- **30D change:** -28.78%
 - **Trend:** **DOWNTREND**
 - **Momentum:** **STRONG**
 - **Volatility:** **NORMAL**
 
 ## Ethereum (ETH)
 
-- **Current price:** $2,113
-- **7D change:** -29.72%
-- **30D change:** -34.54%
+- **Current price:** $1,957
+- **7D change:** -30.57%
+- **30D change:** -40.60%
 - **Trend:** **DOWNTREND**
 - **Momentum:** **STRONG**
 - **Volatility:** **NORMAL**
