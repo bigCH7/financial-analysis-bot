@@ -1,5 +1,5 @@
-import statistics
-from datetime import datetime
+﻿import statistics
+from datetime import UTC, datetime
 from pathlib import Path
 
 from api_utils import fetch_json_with_cache
@@ -85,7 +85,7 @@ def generate_report():
 
     report = []
     report.append("# Long-Term Crypto Valuation Report\n")
-    report.append(f"_Updated: {datetime.utcnow().strftime('%Y-%m-%d %H:%M UTC')}_\n")
+    report.append(f"_Updated: {datetime.now(UTC).strftime('%Y-%m-%d %H:%M UTC')}_\n")
 
     report.append("## Bitcoin (BTC)\n")
     report.append(f"_Data source: {btc_source}_\n")
@@ -107,3 +107,4 @@ def generate_report():
 
 if __name__ == "__main__":
     generate_report()
+

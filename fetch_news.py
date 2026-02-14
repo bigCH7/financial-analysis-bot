@@ -1,5 +1,5 @@
-import json
-from datetime import datetime
+﻿import json
+from datetime import UTC, datetime
 from pathlib import Path
 from xml.etree import ElementTree
 
@@ -57,7 +57,7 @@ def generate_news_snapshot():
             print(f"News feed error for {feed['name']}: {exc}")
 
     output = {
-        "generated_at": datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC"),
+        "generated_at": datetime.now(UTC).strftime("%Y-%m-%d %H:%M UTC"),
         "count": len(all_items),
         "items": all_items[:40],
     }
@@ -69,3 +69,4 @@ def generate_news_snapshot():
 
 if __name__ == "__main__":
     generate_news_snapshot()
+

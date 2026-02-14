@@ -1,4 +1,4 @@
-"""
+﻿"""
 analysis.py
 Generates:
  - data/analysis_latest.json  (machine-friendly)
@@ -7,13 +7,13 @@ Generates:
 
 import json
 from pathlib import Path
-from datetime import datetime
+from datetime import UTC, datetime
 import pandas as pd
 import numpy as np
 
 DATA_DIR = Path("data")
 DATA_DIR.mkdir(exist_ok=True)
-TODAY = datetime.utcnow().strftime("%Y%m%d")
+TODAY = datetime.now(UTC).strftime("%Y%m%d")
 
 def rsi(series, period=14):
     delta = series.diff()
@@ -47,7 +47,7 @@ with open(latest_raw) as f:
 
 analysis_results = []
 md_lines = []
-md_lines.append(f"# Daily Financial Report — {datetime.utcnow().strftime('%Y-%m-%d %H:%M UTC')}\n")
+md_lines.append(f"# Daily Financial Report â€” {datetime.now(UTC).strftime('%Y-%m-%d %H:%M UTC')}\n")
 md_lines.append("_Automatically generated. Not financial advice._\n")
 
 for asset in raw:
@@ -109,7 +109,7 @@ for asset in raw:
             md_lines.append(f"## {asset_id}")
             md_lines.append(f"- Current price: **{format_currency(price)}**")
             md_lines.append(f"- Long-term (MA50 vs MA200): **{long_term}** (MA50={format_currency(ma50)}, MA200={format_currency(ma200)}, gap={gap_pct:.2f}%)")
-            md_lines.append(f"- Short-term (RSI): **{last_rsi:.2f}** → *{rsi_label}*")
+            md_lines.append(f"- Short-term (RSI): **{last_rsi:.2f}** â†’ *{rsi_label}*")
             md_lines.append(f"- Quick suggestion: **{suggestion}**")
             md_lines.append("")  # blank line
 
@@ -119,7 +119,7 @@ for asset in raw:
             md_lines.append(f"- Error parsing historical data: {e}")
             md_lines.append("")
     else:
-        # No history — attempt to use market_data (likely crypto)
+        # No history â€” attempt to use market_data (likely crypto)
         md_lines.append(f"## {asset_id} (market-data only)")
         market = asset.get("market_data", {}) or {}
         # Try to fetch usd price
@@ -176,4 +176,5 @@ with open(out_md, "w", encoding="utf-8") as f:
 print("Analysis JSON saved:", out_json)
 print("Report saved:", out_md)
 print("Report latest saved:", latest_md)
+
 

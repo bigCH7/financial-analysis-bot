@@ -1,6 +1,6 @@
-import json
+﻿import json
 import time
-from datetime import datetime
+from datetime import UTC, datetime
 from pathlib import Path
 
 import yfinance as yf
@@ -10,7 +10,7 @@ from api_utils import fetch_json_with_cache
 DATA_DIR = Path("data")
 DATA_DIR.mkdir(exist_ok=True)
 
-NOW = datetime.utcnow().isoformat()
+NOW = datetime.now(UTC).isoformat()
 
 STOCKS = ["AAPL", "MSFT", "TSLA"]
 CRYPTO = ["bitcoin", "ethereum"]
@@ -71,8 +71,10 @@ for com in COMMODITIES:
     except Exception as e:
         print("Commodity error:", com, e)
 
-filename = DATA_DIR / f"raw_{datetime.utcnow().strftime('%Y%m%d')}.json"
+filename = DATA_DIR / f"raw_{datetime.now(UTC).strftime('%Y%m%d')}.json"
 with open(filename, "w", encoding="utf-8") as f:
     json.dump(results, f, indent=2)
 
 print("Saved", filename)
+
+

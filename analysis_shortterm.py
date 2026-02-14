@@ -1,5 +1,5 @@
-import statistics
-from datetime import datetime
+﻿import statistics
+from datetime import UTC, datetime
 from pathlib import Path
 
 from api_utils import fetch_json_with_cache
@@ -75,7 +75,7 @@ def generate_report():
     REPORT_DIR.mkdir(exist_ok=True)
 
     lines = []
-    now = datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")
+    now = datetime.now(UTC).strftime("%Y-%m-%d %H:%M UTC")
 
     lines.append("# Short-Term Market Context\n")
     lines.append(f"_Generated automatically - {now}_\n")
@@ -109,3 +109,4 @@ def generate_report():
 
 if __name__ == "__main__":
     generate_report()
+
