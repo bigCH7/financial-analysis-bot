@@ -2,79 +2,56 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Crypto Dashboard</title>
-  <style>
-    body {
-      font-family: system-ui, sans-serif;
-      background: #fafafa;
-      color: #222;
-      max-width: 1000px;
-      margin: auto;
-      padding: 2rem;
-    }
-    nav a {
-      margin-right: 1.2rem;
-      text-decoration: none;
-      font-weight: 600;
-      color: #6b4eff;
-    }
-    nav {
-      margin-bottom: 2rem;
-    }
-    pre {
-      background: white;
-      padding: 1.5rem;
-      border-radius: 12px;
-      white-space: pre-wrap;
-    }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Asset Desk | Overview</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="app.css">
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </head>
-<body>
+<body data-page="overview">
+  <header class="topbar">
+    <div class="topbar-inner">
+      <div class="brand">Asset Desk</div>
+      <nav class="tabs" aria-label="Main navigation">
+        <a class="tab" data-page="overview" href="index.html">Overview</a>
+        <a class="tab" data-page="btc" href="btc.html">Bitcoin</a>
+        <a class="tab" data-page="eth" href="eth.html">Ethereum</a>
+        <a class="tab" data-page="news" href="news.html">News</a>
+      </nav>
+    </div>
+  </header>
 
-<nav>
-  <a href="index.html">Overview</a>
-  <a href="btc.html">Bitcoin</a>
-  <a href="eth.html">Ethereum</a>
-  <a href="news.html">News</a>
-</nav>
+  <main class="page">
+    <section class="hero">
+      <div>
+        <h1>Market Overview</h1>
+        <p class="subtitle">Clean, direct crypto analytics with zero fluff.</p>
+      </div>
+    </section>
 
-<h1>Macro Overview</h1>
+    <section class="grid grid-2">
+      <article class="card">
+        <h2>Macro Snapshot</h2>
+        <div id="macro-content" class="analysis" data-error-target>Loading macro analysis...</div>
+      </article>
+      <article class="card">
+        <h2>Latest Headlines</h2>
+        <ul id="overview-news" class="news-list" data-error-target>
+          <li class="news-item">Loading news...</li>
+        </ul>
+      </article>
+    </section>
 
-<div id="macro">Loading...</div>
+    <section style="margin-top: 16px;">
+      <h2>Assets</h2>
+      <div id="asset-cards" class="grid grid-2" data-error-target>
+        <article class="card">Loading assets...</article>
+      </div>
+    </section>
+  </main>
 
-<script>
-async function fetchLongTermReport() {
-  const candidates = [
-    "reports/long_term_report.md",
-    "../reports/long_term_report.md",
-    "long_term_report.md"
-  ];
-
-  for (const path of candidates) {
-    try {
-      const res = await fetch(path, { cache: "no-store" });
-      if (res.ok) return await res.text();
-    } catch (_) {}
-  }
-
-  throw new Error("Long-term report not found.");
-}
-
-fetchLongTermReport()
-  .then((text) => {
-    const firstAssetIndex = text.indexOf("\n## ");
-    const macro = firstAssetIndex > 0
-      ? text.slice(0, firstAssetIndex).trim()
-      : text.trim();
-    document.getElementById("macro").innerHTML = "<pre></pre>";
-    document.querySelector("#macro pre").textContent =
-      macro || "No long-term summary available.";
-  })
-  .catch(() => {
-    document.getElementById("macro").textContent =
-      "Failed to load long-term analysis.";
-  });
-</script>
-
+  <script src="app.js"></script>
 </body>
 </html>

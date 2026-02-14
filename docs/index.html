@@ -1,99 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <title>Daily Financial Report</title>
-
-  <!-- Markdown renderer -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Asset Desk | Overview</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="app.css">
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-
-  <style>
-    body {
-      background: #0f172a;
-      color: #e5e7eb;
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
-      margin: 0;
-      padding: 0;
-    }
-
-    .container {
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 40px 24px;
-    }
-
-    h1, h2, h3 {
-      color: #f8fafc;
-      margin-top: 1.6em;
-    }
-
-    h1 {
-      font-size: 2.2rem;
-      border-bottom: 2px solid #334155;
-      padding-bottom: 10px;
-    }
-
-    h2 {
-      font-size: 1.5rem;
-      border-left: 4px solid #38bdf8;
-      padding-left: 12px;
-    }
-
-    ul {
-      margin-left: 20px;
-    }
-
-    li {
-      margin: 6px 0;
-    }
-
-    em {
-      color: #94a3b8;
-    }
-
-    strong {
-      color: #facc15;
-    }
-
-    .timestamp {
-      color: #94a3b8;
-      font-size: 0.9rem;
-      margin-bottom: 20px;
-    }
-
-    footer {
-      margin-top: 60px;
-      font-size: 0.8rem;
-      color: #64748b;
-      text-align: center;
-    }
-  </style>
 </head>
+<body data-page="overview">
+  <header class="topbar">
+    <div class="topbar-inner">
+      <div class="brand">Asset Desk</div>
+      <nav class="tabs" aria-label="Main navigation">
+        <a class="tab" data-page="overview" href="index.html">Overview</a>
+        <a class="tab" data-page="btc" href="btc.html">Bitcoin</a>
+        <a class="tab" data-page="eth" href="eth.html">Ethereum</a>
+        <a class="tab" data-page="news" href="news.html">News</a>
+      </nav>
+    </div>
+  </header>
 
-<body>
-  <div class="container">
-    <h1>📊 Daily Financial Report</h1>
-    <div class="timestamp" id="updated"></div>
-    <div id="content">Loading report…</div>
+  <main class="page">
+    <section class="hero">
+      <div>
+        <h1>Market Overview</h1>
+        <p class="subtitle">Clean, direct crypto analytics with zero fluff.</p>
+      </div>
+    </section>
 
-    <footer>
-      Automatically generated • Not financial advice
-    </footer>
-  </div>
+    <section class="grid grid-2">
+      <article class="card">
+        <h2>Macro Snapshot</h2>
+        <div id="macro-content" class="analysis" data-error-target>Loading macro analysis...</div>
+      </article>
+      <article class="card">
+        <h2>Latest Headlines</h2>
+        <ul id="overview-news" class="news-list" data-error-target>
+          <li class="news-item">Loading news...</li>
+        </ul>
+      </article>
+    </section>
 
-  <script>
-    fetch("report_latest.md")
-      .then(res => res.text())
-      .then(md => {
-        document.getElementById("content").innerHTML = marked.parse(md);
-        document.getElementById("updated").innerText =
-          "Last updated: " + new Date().toUTCString();
-      })
-      .catch(err => {
-        document.getElementById("content").innerText =
-          "Failed to load report.";
-      });
-  </script>
+    <section style="margin-top: 16px;">
+      <h2>Assets</h2>
+      <div id="asset-cards" class="grid grid-2" data-error-target>
+        <article class="card">Loading assets...</article>
+      </div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
 </body>
 </html>
-
