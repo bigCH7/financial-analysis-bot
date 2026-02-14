@@ -11,10 +11,31 @@ SHORT_REPORT = Path("reports/short_term.md")
 LONG_REPORT = Path("reports/long_term_report.md")
 NEWS_FILE = DATA_DIR / "news_latest.json"
 ANALYSIS_FILE = DATA_DIR / "analysis_latest.json"
+WATCHLIST_FILE = DATA_DIR / "watchlist_quotes.json"
 
-ASSETS = {
-    "bitcoin": {"name": "Bitcoin", "symbol": "BTC", "heading": "Bitcoin (BTC)"},
-    "ethereum": {"name": "Ethereum", "symbol": "ETH", "heading": "Ethereum (ETH)"},
+CRYPTO_ASSETS = {
+    "bitcoin": {
+        "name": "Bitcoin",
+        "symbol": "BTC",
+        "heading": "Bitcoin (BTC)",
+        "news_keyword": "bitcoin",
+        "details_page": "btc.html",
+    },
+    "ethereum": {
+        "name": "Ethereum",
+        "symbol": "ETH",
+        "heading": "Ethereum (ETH)",
+        "news_keyword": "ethereum",
+        "details_page": "eth.html",
+    },
+}
+
+WATCHLIST_ASSETS = {
+    "spy": {"name": "S&P 500 ETF", "symbol": "SPY", "news_keyword": "s&p 500", "details_page": None},
+    "qqq": {"name": "Nasdaq 100 ETF", "symbol": "QQQ", "news_keyword": "nasdaq", "details_page": None},
+    "nvda": {"name": "NVIDIA", "symbol": "NVDA", "news_keyword": "nvidia", "details_page": None},
+    "gold": {"name": "Gold Futures", "symbol": "GC=F", "news_keyword": "gold", "details_page": None},
+    "oil": {"name": "Crude Oil Futures", "symbol": "CL=F", "news_keyword": "oil", "details_page": None},
 }
 
 
@@ -22,6 +43,12 @@ def read_text(path: Path) -> str:
     if not path.exists():
         return ""
     return path.read_text(encoding="utf-8")
+
+
+def read_json(path: Path, default):
+    if not path.exists():
+        return default
+    return json.loads(path.read_text(encoding="utf-8"))
 
 
 def extract_section(markdown: str, heading: str) -> str:
@@ -78,9 +105,7 @@ def infer_verdict(long_section: str):
 
 
 def load_news():
-    if not NEWS_FILE.exists():
-        return {"generated_at": "", "items": []}
-    payload = json.loads(NEWS_FILE.read_text(encoding="utf-8"))
+    payload = read_json(NEWS_FILE, {"generated_at": "", "items": []})
     return {
         "generated_at": payload.get("generated_at", ""),
         "items": payload.get("items", []),
@@ -88,14 +113,21 @@ def load_news():
 
 
 def load_analysis_map():
-    if not ANALYSIS_FILE.exists():
-        return {}
-    rows = json.loads(ANALYSIS_FILE.read_text(encoding="utf-8"))
+    rows = read_json(ANALYSIS_FILE, [])
     return {row.get("asset"): row for row in rows if row.get("asset")}
 
 
+def load_watchlist_quotes():
+    payload = read_json(WATCHLIST_FILE, {"generated_at": "", "source": "unknown", "quotes": {}})
+    return {
+        "generated_at": payload.get("generated_at", ""),
+        "source": payload.get("source", "unknown"),
+        "quotes": payload.get("quotes", {}),
+    }
+
+
 def filter_news(items, keyword):
-    key = keyword.lower()
+    key = (keyword or "").lower()
     out = []
     for item in items:
         title = (item.get("title") or "").strip()
@@ -113,77 +145,148 @@ def filter_news(items, keyword):
     return out[:12]
 
 
+def build_crypto_payload(asset_id, meta, short_md, long_md, analysis_map, news):
+    heading = meta["heading"]
+    short_section = clean_section(extract_section(short_md, heading))
+    long_section = clean_section(extract_section(long_md, heading))
+
+    current_price = parse_money(line_value(short_section, "Current price"))
+    change_7d = parse_percent(line_value(short_section, "7D change"))
+    change_30d = parse_percent(line_value(short_section, "30D change"))
+    trend = line_value(short_section, "Trend").replace("**", "")
+    momentum = line_value(short_section, "Momentum").replace("**", "")
+    volatility = line_value(short_section, "Volatility").replace("**", "")
+    data_source = line_value(short_section, "Data source")
+
+    analysis_row = analysis_map.get(asset_id, {})
+    change_24h = analysis_row.get("pct24")
+
+    return {
+        "asset": asset_id,
+        "name": meta["name"],
+        "symbol": meta["symbol"],
+        "market_type": "crypto",
+        "details_page": meta.get("details_page"),
+        "updated_at": datetime.now(UTC).isoformat(),
+        "source": {
+            "short_term": data_source or "unknown",
+            "news_generated_at": news.get("generated_at", ""),
+        },
+        "price": {
+            "current_usd": current_price,
+            "change_24h_pct": change_24h,
+            "change_7d_pct": change_7d,
+            "change_30d_pct": change_30d,
+        },
+        "indicators": {
+            "trend": trend,
+            "momentum": momentum,
+            "volatility": volatility,
+        },
+        "valuation": {
+            "verdict": infer_verdict(long_section),
+            "long_term_markdown": long_section,
+        },
+        "analysis_markdown": f"{long_section}\n\n---\n\n### Short-Term Context\n\n{short_section}",
+        "news": filter_news(news.get("items", []), meta.get("news_keyword", asset_id)),
+    }
+
+
+def classify_move(pct):
+    if pct is None:
+        return "SIDEWAYS"
+    if pct > 1.0:
+        return "UPTREND"
+    if pct < -1.0:
+        return "DOWNTREND"
+    return "SIDEWAYS"
+
+
+def build_watchlist_payload(asset_id, meta, quotes, news):
+    q = quotes.get(asset_id, {})
+    change_24h = q.get("change_24h_pct")
+    trend = classify_move(change_24h)
+
+    summary_lines = [
+        f"## {meta['name']} ({meta['symbol']})",
+        "",
+        "### Snapshot",
+        "",
+        f"- **Current price:** ${q.get('price') if q.get('price') is not None else 'N/A'}",
+        f"- **24H change:** {change_24h:.2f}%" if isinstance(change_24h, (int, float)) else "- **24H change:** N/A",
+        f"- **Trend:** **{trend}**",
+        "- **Coverage:** quote snapshot only (expanded analytics pending)",
+    ]
+
+    return {
+        "asset": asset_id,
+        "name": meta["name"],
+        "symbol": meta["symbol"],
+        "market_type": "traditional",
+        "details_page": meta.get("details_page"),
+        "updated_at": datetime.now(UTC).isoformat(),
+        "source": {
+            "short_term": quotes.get("_source", "unknown"),
+            "news_generated_at": news.get("generated_at", ""),
+        },
+        "price": {
+            "current_usd": q.get("price"),
+            "change_24h_pct": change_24h,
+            "change_7d_pct": None,
+            "change_30d_pct": None,
+        },
+        "indicators": {
+            "trend": trend,
+            "momentum": "N/A",
+            "volatility": "N/A",
+        },
+        "valuation": {
+            "verdict": "Snapshot only",
+            "long_term_markdown": "",
+        },
+        "analysis_markdown": "\n".join(summary_lines),
+        "news": filter_news(news.get("items", []), meta.get("news_keyword", meta["name"])),
+    }
+
+
+def index_entry(payload):
+    return {
+        "asset": payload["asset"],
+        "name": payload["name"],
+        "symbol": payload["symbol"],
+        "market_type": payload.get("market_type", "unknown"),
+        "details_page": payload.get("details_page"),
+        "price": payload["price"],
+        "indicators": payload["indicators"],
+        "valuation": {"verdict": payload.get("valuation", {}).get("verdict", "")},
+        "updated_at": payload["updated_at"],
+        "source": {"short_term": payload.get("source", {}).get("short_term", "unknown")},
+    }
+
+
 def build_assets():
     short_md = read_text(SHORT_REPORT)
     long_md = read_text(LONG_REPORT)
     news = load_news()
     analysis_map = load_analysis_map()
+    watchlist = load_watchlist_quotes()
+    watchlist_quotes = watchlist.get("quotes", {})
+    watchlist_quotes["_source"] = watchlist.get("source", "unknown")
 
     first_asset_pos = long_md.find("\n## ")
     macro_markdown = long_md[:first_asset_pos].strip() if first_asset_pos > 0 else ""
 
     assets_for_index = []
 
-    for asset_id, meta in ASSETS.items():
-        heading = meta["heading"]
-        short_section = clean_section(extract_section(short_md, heading))
-        long_section = clean_section(extract_section(long_md, heading))
+    for asset_id, meta in CRYPTO_ASSETS.items():
+        payload = build_crypto_payload(asset_id, meta, short_md, long_md, analysis_map, news)
+        (ASSETS_DIR / f"{asset_id}.json").write_text(json.dumps(payload, indent=2), encoding="utf-8")
+        assets_for_index.append(index_entry(payload))
 
-        current_price = parse_money(line_value(short_section, "Current price"))
-        change_7d = parse_percent(line_value(short_section, "7D change"))
-        change_30d = parse_percent(line_value(short_section, "30D change"))
-        trend = line_value(short_section, "Trend").replace("**", "")
-        momentum = line_value(short_section, "Momentum").replace("**", "")
-        volatility = line_value(short_section, "Volatility").replace("**", "")
-        data_source = line_value(short_section, "Data source")
-
-        analysis_row = analysis_map.get(asset_id, {})
-        change_24h = analysis_row.get("pct24")
-
-        asset_payload = {
-            "asset": asset_id,
-            "name": meta["name"],
-            "symbol": meta["symbol"],
-            "updated_at": datetime.now(UTC).isoformat(),
-            "source": {
-                "short_term": data_source or "unknown",
-                "news_generated_at": news.get("generated_at", ""),
-            },
-            "price": {
-                "current_usd": current_price,
-                "change_24h_pct": change_24h,
-                "change_7d_pct": change_7d,
-                "change_30d_pct": change_30d,
-            },
-            "indicators": {
-                "trend": trend,
-                "momentum": momentum,
-                "volatility": volatility,
-            },
-            "valuation": {
-                "verdict": infer_verdict(long_section),
-                "long_term_markdown": long_section,
-            },
-            "analysis_markdown": f"{long_section}\n\n---\n\n### Short-Term Context\n\n{short_section}",
-            "news": filter_news(news.get("items", []), asset_id),
-        }
-
-        (ASSETS_DIR / f"{asset_id}.json").write_text(
-            json.dumps(asset_payload, indent=2), encoding="utf-8"
-        )
-
-        assets_for_index.append(
-            {
-                "asset": asset_id,
-                "name": meta["name"],
-                "symbol": meta["symbol"],
-                "price": asset_payload["price"],
-                "indicators": asset_payload["indicators"],
-                "valuation": {"verdict": asset_payload["valuation"]["verdict"]},
-                "updated_at": asset_payload["updated_at"],
-                "source": {"short_term": asset_payload["source"]["short_term"]},
-            }
-        )
+    for asset_id, meta in WATCHLIST_ASSETS.items():
+        payload = build_watchlist_payload(asset_id, meta, watchlist_quotes, news)
+        (ASSETS_DIR / f"{asset_id}.json").write_text(json.dumps(payload, indent=2), encoding="utf-8")
+        assets_for_index.append(index_entry(payload))
 
     overview_news = filter_news(news.get("items", []), "")[:10]
 

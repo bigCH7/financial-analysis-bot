@@ -2,7 +2,9 @@
   "asset": "ethereum",
   "name": "Ethereum",
   "symbol": "ETH",
-  "updated_at": "2026-02-14T17:14:17.820247+00:00",
+  "market_type": "crypto",
+  "details_page": "eth.html",
+  "updated_at": "2026-02-14T17:32:07.400837+00:00",
   "source": {
     "short_term": "live",
     "news_generated_at": "2026-02-14 16:53 UTC"

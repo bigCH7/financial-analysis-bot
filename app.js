@@ -285,16 +285,21 @@ function setupAccordion(buttonId, sectionId) {
 
 function renderAssetCards(assets) {
   return assets.map((asset) => {
-    const href = asset.asset === "bitcoin" ? "btc.html" : "eth.html";
+    const href = asset.details_page || "";
     const p7 = asset.price?.change_7d_pct;
     const source = asset.source?.short_term || "snapshot";
     const updated = fmtDateTime(asset.updated_at);
+    const openAction = href
+      ? `<p><a class="tab" href="${href}">Open ${asset.symbol}</a></p>`
+      : `<p class="muted">Details page: coming soon</p>`;
+    const periodLabel = p7 == null ? "24H change" : "7D change";
+    const periodValue = p7 == null ? asset.price?.change_24h_pct : p7;
 
     return `
       <article class="card">
         <h3>${asset.name} (${asset.symbol})</h3>
         <div class="metric">${fmtPrice(asset.price?.current_usd)}</div>
-        <p class="muted">7D change: <span class="${pctClass(p7)}">${fmtPct(p7)}</span></p>
+        <p class="muted">${periodLabel}: <span class="${pctClass(periodValue)}">${fmtPct(periodValue)}</span></p>
         <div class="pill-row">
           ${renderMetricPill(asset.indicators?.trend || "")}
           ${renderMetricPill(asset.indicators?.momentum || "")}
@@ -304,7 +309,7 @@ function renderAssetCards(assets) {
           <span class="meta-chip"><strong>Source:</strong> ${source}</span>
           <span class="meta-chip"><strong>Updated:</strong> ${updated}</span>
         </div>
-        <p><a class="tab" href="${href}">Open ${asset.symbol}</a></p>
+        ${openAction}
       </article>
     `;
   }).join("");
@@ -449,3 +454,4 @@ async function boot() {
 }
 
 document.addEventListener("DOMContentLoaded", boot);
+

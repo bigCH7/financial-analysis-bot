@@ -1,0 +1,37 @@
+{
+  "asset": "gold",
+  "name": "Gold Futures",
+  "symbol": "GC=F",
+  "market_type": "traditional",
+  "details_page": null,
+  "updated_at": "2026-02-14T17:32:07.404443+00:00",
+  "source": {
+    "short_term": "unavailable",
+    "news_generated_at": "2026-02-14 16:53 UTC"
+  },
+  "price": {
+    "current_usd": null,
+    "change_24h_pct": null,
+    "change_7d_pct": null,
+    "change_30d_pct": null
+  },
+  "indicators": {
+    "trend": "SIDEWAYS",
+    "momentum": "N/A",
+    "volatility": "N/A"
+  },
+  "valuation": {
+    "verdict": "Snapshot only",
+    "long_term_markdown": ""
+  },
+  "analysis_markdown": "## Gold Futures (GC=F)\n\n### Snapshot\n\n- **Current price:** $N/A\n- **24H change:** N/A\n- **Trend:** **SIDEWAYS**\n- **Coverage:** quote snapshot only (expanded analytics pending)",
+  "news": [
+    {
+      "title": "Digital gold or tech stock? Bitcoin\u2019s identity crisis deepens",
+      "url": "https://cointelegraph.com/news/digital-gold-or-tech-stock-bitcoin-s-identity-crisis-deepens?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "Fri, 13 Feb 2026 20:00:00 +0000",
+      "source": "Cointelegraph",
+      "fetch_source": "live"
+    }
+  ]
+}

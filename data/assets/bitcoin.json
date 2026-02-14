@@ -2,7 +2,9 @@
   "asset": "bitcoin",
   "name": "Bitcoin",
   "symbol": "BTC",
-  "updated_at": "2026-02-14T17:14:17.819131+00:00",
+  "market_type": "crypto",
+  "details_page": "btc.html",
+  "updated_at": "2026-02-14T17:32:07.399403+00:00",
   "source": {
     "short_term": "live",
     "news_generated_at": "2026-02-14 16:53 UTC"

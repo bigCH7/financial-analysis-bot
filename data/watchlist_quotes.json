@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-02-14T17:31:24.777878+00:00",
+  "source": "unavailable",
+  "quotes": {
+    "spy": {
+      "asset": "spy",
+      "symbol": "SPY",
+      "name": "S&P 500 ETF",
+      "price": null,
+      "change_24h_pct": null,
+      "currency": "USD",
+      "market_time": null
+    },
+    "qqq": {
+      "asset": "qqq",
+      "symbol": "QQQ",
+      "name": "Nasdaq 100 ETF",
+      "price": null,
+      "change_24h_pct": null,
+      "currency": "USD",
+      "market_time": null
+    },
+    "nvda": {
+      "asset": "nvda",
+      "symbol": "NVDA",
+      "name": "NVIDIA",
+      "price": null,
+      "change_24h_pct": null,
+      "currency": "USD",
+      "market_time": null
+    },
+    "gold": {
+      "asset": "gold",
+      "symbol": "GC=F",
+      "name": "Gold Futures",
+      "price": null,
+      "change_24h_pct": null,
+      "currency": "USD",
+      "market_time": null
+    },
+    "oil": {
+      "asset": "oil",
+      "symbol": "CL=F",
+      "name": "Crude Oil Futures",
+      "price": null,
+      "change_24h_pct": null,
+      "currency": "USD",
+      "market_time": null
+    }
+  }
+}

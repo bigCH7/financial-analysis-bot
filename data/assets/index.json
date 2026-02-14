@@ -1,11 +1,13 @@
 {
-  "generated_at": "2026-02-14T17:14:17.821378+00:00",
+  "generated_at": "2026-02-14T17:32:07.406454+00:00",
   "macro_markdown": "# Long-Term Crypto Valuation Report\n\n_Updated: 2026-02-14 16:53 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
       "name": "Bitcoin",
       "symbol": "BTC",
+      "market_type": "crypto",
+      "details_page": "btc.html",
       "price": {
         "current_usd": 69600.0,
         "change_24h_pct": 1.39,
@@ -20,7 +22,7 @@
       "valuation": {
         "verdict": "Undervalued (historically cheap)"
       },
-      "updated_at": "2026-02-14T17:14:17.819131+00:00",
+      "updated_at": "2026-02-14T17:32:07.399403+00:00",
       "source": {
         "short_term": "live"
       }
@@ -29,6 +31,8 @@
       "asset": "ethereum",
       "name": "Ethereum",
       "symbol": "ETH",
+      "market_type": "crypto",
+      "details_page": "eth.html",
       "price": {
         "current_usd": 2079.0,
         "change_24h_pct": 1.37,
@@ -43,9 +47,134 @@
       "valuation": {
         "verdict": "ETH deeply undervalued vs BTC"
       },
-      "updated_at": "2026-02-14T17:14:17.820247+00:00",
+      "updated_at": "2026-02-14T17:32:07.400837+00:00",
       "source": {
         "short_term": "live"
+      }
+    },
+    {
+      "asset": "spy",
+      "name": "S&P 500 ETF",
+      "symbol": "SPY",
+      "market_type": "traditional",
+      "details_page": null,
+      "price": {
+        "current_usd": null,
+        "change_24h_pct": null,
+        "change_7d_pct": null,
+        "change_30d_pct": null
+      },
+      "indicators": {
+        "trend": "SIDEWAYS",
+        "momentum": "N/A",
+        "volatility": "N/A"
+      },
+      "valuation": {
+        "verdict": "Snapshot only"
+      },
+      "updated_at": "2026-02-14T17:32:07.401971+00:00",
+      "source": {
+        "short_term": "unavailable"
+      }
+    },
+    {
+      "asset": "qqq",
+      "name": "Nasdaq 100 ETF",
+      "symbol": "QQQ",
+      "market_type": "traditional",
+      "details_page": null,
+      "price": {
+        "current_usd": null,
+        "change_24h_pct": null,
+        "change_7d_pct": null,
+        "change_30d_pct": null
+      },
+      "indicators": {
+        "trend": "SIDEWAYS",
+        "momentum": "N/A",
+        "volatility": "N/A"
+      },
+      "valuation": {
+        "verdict": "Snapshot only"
+      },
+      "updated_at": "2026-02-14T17:32:07.402828+00:00",
+      "source": {
+        "short_term": "unavailable"
+      }
+    },
+    {
+      "asset": "nvda",
+      "name": "NVIDIA",
+      "symbol": "NVDA",
+      "market_type": "traditional",
+      "details_page": null,
+      "price": {
+        "current_usd": null,
+        "change_24h_pct": null,
+        "change_7d_pct": null,
+        "change_30d_pct": null
+      },
+      "indicators": {
+        "trend": "SIDEWAYS",
+        "momentum": "N/A",
+        "volatility": "N/A"
+      },
+      "valuation": {
+        "verdict": "Snapshot only"
+      },
+      "updated_at": "2026-02-14T17:32:07.403643+00:00",
+      "source": {
+        "short_term": "unavailable"
+      }
+    },
+    {
+      "asset": "gold",
+      "name": "Gold Futures",
+      "symbol": "GC=F",
+      "market_type": "traditional",
+      "details_page": null,
+      "price": {
+        "current_usd": null,
+        "change_24h_pct": null,
+        "change_7d_pct": null,
+        "change_30d_pct": null
+      },
+      "indicators": {
+        "trend": "SIDEWAYS",
+        "momentum": "N/A",
+        "volatility": "N/A"
+      },
+      "valuation": {
+        "verdict": "Snapshot only"
+      },
+      "updated_at": "2026-02-14T17:32:07.404443+00:00",
+      "source": {
+        "short_term": "unavailable"
+      }
+    },
+    {
+      "asset": "oil",
+      "name": "Crude Oil Futures",
+      "symbol": "CL=F",
+      "market_type": "traditional",
+      "details_page": null,
+      "price": {
+        "current_usd": null,
+        "change_24h_pct": null,
+        "change_7d_pct": null,
+        "change_30d_pct": null
+      },
+      "indicators": {
+        "trend": "SIDEWAYS",
+        "momentum": "N/A",
+        "volatility": "N/A"
+      },
+      "valuation": {
+        "verdict": "Snapshot only"
+      },
+      "updated_at": "2026-02-14T17:32:07.405380+00:00",
+      "source": {
+        "short_term": "unavailable"
       }
     }
   ],

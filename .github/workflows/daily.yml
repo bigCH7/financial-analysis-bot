@@ -30,6 +30,9 @@ jobs:
       - name: Fetch cached news snapshot
         run: python fetch_news.py
 
+      - name: Fetch watchlist quotes
+        run: python fetch_watchlist_quotes.py
+
       - name: Build normalized asset snapshots
         run: python build_asset_snapshots.py
 
@@ -39,6 +42,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add reports/
           git add data/news_latest.json
+          git add data/watchlist_quotes.json
           git add data/assets/
           git commit -m "Update analysis reports" || echo "No changes to commit"
           git push
