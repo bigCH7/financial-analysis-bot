@@ -13,7 +13,22 @@
   "overbought": "Momentum is very strong and short-term reversal risk can rise.",
   "oversold": "Momentum is very weak and rebound potential can increase.",
   "support": "A level where buying has often slowed declines.",
-  "resistance": "A level where selling has often slowed advances."
+  "resistance": "A level where selling has often slowed advances.",
+  "decentralized": "Not controlled by a single central authority; decisions and validation are distributed across many participants.",
+  "public blockchain": "A ledger that anyone can inspect, verify, and in many cases participate in validating.",
+  "global participants": "Users, validators, miners, and developers from multiple regions who interact with the same network.",
+  "native asset": "The core token of a blockchain network used for fees, security incentives, and value transfer.",
+  "smart contracts": "Self-executing code on blockchain that runs automatically when preset conditions are met.",
+  "DeFi rails": "Decentralized finance infrastructure for trading, borrowing, lending, and payments without traditional intermediaries.",
+  "on-chain applications": "Apps whose key logic and state transitions are executed or recorded directly on blockchain.",
+  "proof-of-stake": "A consensus method where validators secure the network by staking tokens instead of using mining hardware.",
+  "proof-of-work": "A consensus method where miners use computational work to validate transactions and secure the network.",
+  "validator": "A network participant that confirms transactions and helps produce new blocks in proof-of-stake systems.",
+  "liquidity": "How easily an asset can be bought or sold without causing a large price move.",
+  "drawdown": "The percentage decline from a prior peak to a subsequent trough.",
+  "ETF": "Exchange-traded fund: a tradable basket that tracks an index, sector, or strategy.",
+  "futures contract": "A derivative agreement to buy or sell an asset at a specified future date and price.",
+  "risk premium": "Extra expected return investors demand for taking additional risk."
 };
 
 function escapeRegExp(text) {
@@ -356,6 +371,7 @@ async function initOverviewPage() {
   ]);
 
   document.getElementById("asset-cards").innerHTML = renderAssetCards(payload.assets || []);
+  highlightTerms(document.getElementById("asset-cards"));
   renderNewsList("overview-news", payload.overview_news || [], "asset market");
 
   setMetaRow("overview-news-meta", [
@@ -396,6 +412,7 @@ async function initAssetPage(assetId) {
         ${payload.valuation?.verdict ? `<span class="pill">${payload.valuation.verdict}</span>` : ""}
       </div>
     `;
+    highlightTerms(summary);
   }
 
   setMetaRow("asset-summary-meta", [
@@ -494,3 +511,5 @@ async function boot() {
 }
 
 document.addEventListener("DOMContentLoaded", boot);
+
+
