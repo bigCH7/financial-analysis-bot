@@ -1,6 +1,7 @@
 ﻿import csv
 import io
 import math
+import os
 import statistics
 from datetime import UTC, datetime
 from pathlib import Path
@@ -14,6 +15,7 @@ COINGECKO = "https://api.coingecko.com/api/v3"
 YAHOO_SUMMARY = "https://query2.finance.yahoo.com/v10/finance/quoteSummary"
 YAHOO_CHART = "https://query1.finance.yahoo.com/v8/finance/chart"
 YAHOO_QUOTE = "https://query1.finance.yahoo.com/v7/finance/quote"
+ALPHA_OVERVIEW = "https://www.alphavantage.co/query"
 STOOQ_SYMBOLS = {
     "spy": "spy.us",
     "qqq": "qqq.us",
@@ -93,6 +95,14 @@ def to_float(value):
         return float(value)
     except (TypeError, ValueError):
         return None
+
+
+def normalize_fraction(value):
+    if value is None:
+        return None
+    if value > 1.5 and value <= 1000:
+        return value / 100.0
+    return value
 
 
 def mean_or_none(values):
@@ -360,6 +370,27 @@ def get_yahoo_quote(symbol):
         return {}, "unavailable"
 
 
+
+def get_alpha_overview(symbol):
+    api_key = os.getenv("ALPHAVANTAGE_API_KEY", "").strip()
+    if not api_key:
+        return {}, "disabled"
+
+    try:
+        payload, source = fetch_json_with_cache(
+            ALPHA_OVERVIEW,
+            params={"function": "OVERVIEW", "symbol": symbol, "apikey": api_key},
+            namespace="alpha_overview",
+            cache_key=f"alpha_overview_{symbol}",
+            retries=3,
+        )
+        if payload.get("Note") or payload.get("Information"):
+            return {}, "rate_limited"
+        if payload.get("Symbol"):
+            return payload, source
+        return {}, "unavailable"
+    except Exception:
+        return {}, "unavailable"
 def parse_float(text):
     if text in (None, "", "N/D", "-"):
         return None
@@ -586,6 +617,7 @@ def score_traditional(asset_id, meta):
     symbol = meta["symbol"]
     summary, summary_source = get_yahoo_summary(symbol)
     quote_row, quote_source = get_yahoo_quote(symbol)
+    alpha_overview, alpha_source = get_alpha_overview(symbol)
     prices, history_source = get_yahoo_history(symbol)
     if not prices:
         stooq_prices, stooq_source = get_stooq_history(asset_id)
@@ -620,7 +652,10 @@ def score_traditional(asset_id, meta):
         to_float(stats_mod.get("priceToBook")),
         to_float(quote_row.get("priceToBook")),
     )
-    ev_ebitda = to_float(stats_mod.get("enterpriseToEbitda"))
+    ev_ebitda = first_not_none(
+        to_float(stats_mod.get("enterpriseToEbitda")),
+        parse_float(alpha_overview.get("EVToEBITDA")),
+    )
     ps = first_not_none(
         to_float(stats_mod.get("priceToSalesTrailing12Months")),
         to_float(quote_row.get("priceToSalesTrailing12Months")),
@@ -630,20 +665,53 @@ def score_traditional(asset_id, meta):
         to_float(quote_row.get("pegRatio")),
     )
 
-    gross_margin = to_float(fin_mod.get("grossMargins"))
-    op_margin = to_float(fin_mod.get("operatingMargins"))
-    net_margin = to_float(fin_mod.get("profitMargins"))
-    roe = to_float(fin_mod.get("returnOnEquity"))
+    gross_margin = first_not_none(
+        to_float(fin_mod.get("grossMargins")),
+        normalize_fraction(parse_float(alpha_overview.get("GrossProfitTTM")) / parse_float(alpha_overview.get("RevenueTTM")) if parse_float(alpha_overview.get("GrossProfitTTM")) is not None and parse_float(alpha_overview.get("RevenueTTM")) not in (None, 0) else None),
+    )
+    op_margin = first_not_none(
+        to_float(fin_mod.get("operatingMargins")),
+        normalize_fraction(parse_float(alpha_overview.get("OperatingMarginTTM"))),
+    )
+    net_margin = first_not_none(
+        to_float(fin_mod.get("profitMargins")),
+        normalize_fraction(parse_float(alpha_overview.get("ProfitMargin"))),
+    )
+    roe = first_not_none(
+        to_float(fin_mod.get("returnOnEquity")),
+        normalize_fraction(parse_float(alpha_overview.get("ReturnOnEquityTTM"))),
+    )
 
-    rev_growth = to_float(fin_mod.get("revenueGrowth"))
-    eps_growth = to_float(fin_mod.get("earningsGrowth"))
+    rev_growth = first_not_none(
+        to_float(fin_mod.get("revenueGrowth")),
+        normalize_fraction(parse_float(alpha_overview.get("QuarterlyRevenueGrowthYOY"))),
+    )
+    eps_growth = first_not_none(
+        to_float(fin_mod.get("earningsGrowth")),
+        normalize_fraction(parse_float(alpha_overview.get("QuarterlyEarningsGrowthYOY"))),
+    )
 
-    debt_to_equity = to_float(fin_mod.get("debtToEquity"))
-    current_ratio = to_float(fin_mod.get("currentRatio"))
-    quick_ratio = to_float(fin_mod.get("quickRatio"))
+    debt_to_equity = first_not_none(
+        to_float(fin_mod.get("debtToEquity")),
+        parse_float(alpha_overview.get("DebtToEquity")),
+    )
+    current_ratio = first_not_none(
+        to_float(fin_mod.get("currentRatio")),
+        parse_float(alpha_overview.get("CurrentRatio")),
+    )
+    quick_ratio = first_not_none(
+        to_float(fin_mod.get("quickRatio")),
+        parse_float(alpha_overview.get("CurrentRatio")),
+    )
 
-    free_cashflow = to_float(fin_mod.get("freeCashflow"))
-    operating_cashflow = to_float(fin_mod.get("operatingCashflow"))
+    free_cashflow = first_not_none(
+        to_float(fin_mod.get("freeCashflow")),
+        parse_float(alpha_overview.get("FreeCashFlowTTM")),
+    )
+    operating_cashflow = first_not_none(
+        to_float(fin_mod.get("operatingCashflow")),
+        parse_float(alpha_overview.get("OperatingCashflowTTM")),
+    )
     payout_ratio = first_not_none(
         to_float(detail_mod.get("payoutRatio")),
         to_float(quote_row.get("payoutRatio")),
@@ -759,14 +827,14 @@ def score_traditional(asset_id, meta):
     }
 
     composite, used_weight = weighted_score(score_map, weights)
-    confidence = confidence_score(used_weight, len(prices) * 21, [summary_source, quote_source, history_source])
+    confidence = confidence_score(used_weight, len(prices) * 21, [summary_source, quote_source, alpha_source, history_source])
     verdict = label_from_score(composite)
     scenarios = build_scenarios(current, prices)
 
     lines = []
     lines.append(f"## {meta['name']} ({symbol})")
     lines.append("")
-    lines.append(f"_Data sources: Yahoo summary ({summary_source}), Yahoo quote ({quote_source}), Price history ({history_source})_")
+    lines.append(f"_Data sources: Yahoo summary ({summary_source}), Yahoo quote ({quote_source}), Alpha overview ({alpha_source}), Price history ({history_source})_")
     lines.append("")
     lines.append("### One-line Long-Term Summary")
     lines.append("")
@@ -891,6 +959,15 @@ def generate_report():
 
 if __name__ == "__main__":
     generate_report()
+
+
+
+
+
+
+
+
+
 
 
 

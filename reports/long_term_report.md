@@ -1,6 +1,6 @@
 # Long-Term Multi-Asset Analysis Report
 
-_Updated: 2026-02-14 23:04 UTC_
+_Updated: 2026-02-14 23:38 UTC_
 
 ## Framework
 
@@ -38,9 +38,9 @@ Long-term: **Neutral / fair-value zone** - Digital monetary network with fixed-s
 - **Composite score:** 57.9/100
 - **Confidence:** 100.0/100
 - **Supply/issuance & tokenomics (20%):** 100.0
-- **Network usage activity (25%):** 60.9
+- **Network usage activity (25%):** 61.0
 - **Developer & security (20%):** 68.4
-- **Liquidity & market structure (15%):** 35.2
+- **Liquidity & market structure (15%):** 35.3
 - **Macro/regulatory & narrative (20%):** 18.4
 
 ### Supply & Issuance
@@ -53,10 +53,10 @@ Long-term: **Neutral / fair-value zone** - Digital monetary network with fixed-s
 
 ### Network Activity & Economics
 
-- **Market cap:** $1,397,716,003,510
-- **24H volume:** $38,680,271,285
-- **Turnover (Vol/Cap):** +2.77%
-- **NVT proxy (Cap/Volume):** 36.14
+- **Market cap:** $1,394,989,590,619
+- **24H volume:** $38,794,606,115
+- **Turnover (Vol/Cap):** +2.78%
+- **NVT proxy (Cap/Volume):** 35.96
 - **30d vs 180d volume trend proxy:** 1.03
 
 ### Developer & Protocol Health
@@ -67,7 +67,7 @@ Long-term: **Neutral / fair-value zone** - Digital monetary network with fixed-s
 
 ### Cross-Asset Risk
 
-- **Annualized volatility (1y):** +38.21%
+- **Annualized volatility (1y):** +38.20%
 - **Max drawdown (1y):** -49.63%
 - **Drawdown recovery time estimate:** N/A trading days
 - **Price vs 200d average:** 0.69
@@ -77,9 +77,9 @@ Long-term: **Neutral / fair-value zone** - Digital monetary network with fixed-s
 
 | Case | Implied Price | Move vs Current | Core Assumption |
 |---|---:|---:|---|
-| Bear | $87,157 | +24.59% | Multiple compression / weaker demand and tighter liquidity. |
-| Base | $101,651 | +45.31% | Mean reversion toward cycle-normal valuation and usage trends. |
-| Bull | $112,950 | +61.47% | Sustained growth, stable macro backdrop, and expanding risk appetite. |
+| Bear | $87,157 | +24.89% | Multiple compression / weaker demand and tighter liquidity. |
+| Base | $101,651 | +45.66% | Mean reversion toward cycle-normal valuation and usage trends. |
+| Bull | $112,950 | +61.86% | Sustained growth, stable macro backdrop, and expanding risk appetite. |
 
 Valuation verdict:
 Neutral / fair-value zone
@@ -103,12 +103,12 @@ Long-term: **Constructive long-term setup** - Programmable settlement layer wher
 
 ### Composite Scorecard
 
-- **Composite score:** 64.1/100
+- **Composite score:** 64.2/100
 - **Confidence:** 100.0/100
 - **Supply/issuance & tokenomics (20%):** 100.0
 - **Network usage activity (25%):** 89.5
 - **Developer & security (20%):** 53.6
-- **Liquidity & market structure (15%):** 59.3
+- **Liquidity & market structure (15%):** 59.5
 - **Macro/regulatory & narrative (20%):** 10.7
 
 ### Supply & Issuance
@@ -121,10 +121,10 @@ Long-term: **Constructive long-term setup** - Programmable settlement layer wher
 
 ### Network Activity & Economics
 
-- **Market cap:** $252,210,778,070
-- **24H volume:** $23,678,891,727
-- **Turnover (Vol/Cap):** +9.39%
-- **NVT proxy (Cap/Volume):** 10.65
+- **Market cap:** $251,828,372,811
+- **24H volume:** $23,738,536,091
+- **Turnover (Vol/Cap):** +9.43%
+- **NVT proxy (Cap/Volume):** 10.61
 - **30d vs 180d volume trend proxy:** 1.02
 
 ### Developer & Protocol Health
@@ -145,9 +145,9 @@ Long-term: **Constructive long-term setup** - Programmable settlement layer wher
 
 | Case | Implied Price | Move vs Current | Core Assumption |
 |---|---:|---:|---|
-| Bear | $2,171 | +3.86% | Multiple compression / weaker demand and tighter liquidity. |
-| Base | $2,949 | +41.06% | Mean reversion toward cycle-normal valuation and usage trends. |
-| Bull | $3,911 | +87.07% | Sustained growth, stable macro backdrop, and expanding risk appetite. |
+| Bear | $2,171 | +4.10% | Multiple compression / weaker demand and tighter liquidity. |
+| Base | $2,949 | +41.38% | Mean reversion toward cycle-normal valuation and usage trends. |
+| Bull | $3,911 | +87.50% | Sustained growth, stable macro backdrop, and expanding risk appetite. |
 
 Valuation verdict:
 Constructive long-term setup
@@ -163,7 +163,7 @@ Constructive long-term setup
 ---
 ## S&P 500 ETF (SPY)
 
-_Data sources: Yahoo summary (unavailable), Yahoo quote (unavailable), Price history (stooq_live)_
+_Data sources: Yahoo summary (unavailable), Yahoo quote (unavailable), Alpha overview (disabled), Price history (stooq_live)_
 
 ### One-line Long-Term Summary
 
@@ -240,7 +240,7 @@ Caution / risk-reward mixed
 ---
 ## Nasdaq 100 ETF (QQQ)
 
-_Data sources: Yahoo summary (unavailable), Yahoo quote (unavailable), Price history (stooq_live)_
+_Data sources: Yahoo summary (unavailable), Yahoo quote (unavailable), Alpha overview (disabled), Price history (stooq_live)_
 
 ### One-line Long-Term Summary
 
@@ -317,7 +317,7 @@ Caution / risk-reward mixed
 ---
 ## NVIDIA (NVDA)
 
-_Data sources: Yahoo summary (unavailable), Yahoo quote (unavailable), Price history (stooq_live)_
+_Data sources: Yahoo summary (unavailable), Yahoo quote (unavailable), Alpha overview (disabled), Price history (stooq_live)_
 
 ### One-line Long-Term Summary
 
@@ -394,7 +394,7 @@ High risk / weak long-term setup
 ---
 ## Gold Futures (GC=F)
 
-_Data sources: Yahoo summary (unavailable), Yahoo quote (unavailable), Price history (stooq_live)_
+_Data sources: Yahoo summary (unavailable), Yahoo quote (unavailable), Alpha overview (disabled), Price history (stooq_live)_
 
 ### One-line Long-Term Summary
 
@@ -471,7 +471,7 @@ Caution / risk-reward mixed
 ---
 ## Crude Oil Futures (CL=F)
 
-_Data sources: Yahoo summary (unavailable), Yahoo quote (unavailable), Price history (unavailable)_
+_Data sources: Yahoo summary (unavailable), Yahoo quote (unavailable), Alpha overview (disabled), Price history (unavailable)_
 
 ### One-line Long-Term Summary
 
