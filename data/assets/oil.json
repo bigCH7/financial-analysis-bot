@@ -3,15 +3,21 @@
   "name": "Crude Oil Futures",
   "symbol": "CL=F",
   "market_type": "traditional",
-  "details_page": null,
-  "updated_at": "2026-02-14T18:06:25.678846+00:00",
+  "details_page": "asset.html?asset=oil",
+  "updated_at": "2026-02-14T19:09:55.223286+00:00",
+  "about": {
+    "what_it_is": "CL=F tracks front-month WTI crude oil futures pricing.",
+    "what_it_represents": "It represents global energy demand, supply constraints, and geopolitical risk premiums.",
+    "who_or_what": "It is a commodity futures contract, not a company.",
+    "how_it_works": "Futures react to inventory data, production policy, transport bottlenecks, and macro growth expectations."
+  },
   "source": {
-    "short_term": "unavailable",
+    "short_term": "stooq_live",
     "news_generated_at": "2026-02-14 16:53 UTC"
   },
   "price": {
-    "current_usd": null,
-    "change_24h_pct": null,
+    "current_usd": 62.89,
+    "change_24h_pct": -0.1587553579933343,
     "change_7d_pct": null,
     "change_30d_pct": null
   },
@@ -24,6 +30,6 @@
     "verdict": "Snapshot only",
     "long_term_markdown": ""
   },
-  "analysis_markdown": "## Crude Oil Futures (CL=F)\n\n### Snapshot\n\n- **Current price:** $N/A\n- **24H change:** N/A\n- **Trend:** **SIDEWAYS**\n- **Coverage:** quote snapshot only (expanded analytics pending)",
+  "analysis_markdown": "## Crude Oil Futures (CL=F)\n\n### Snapshot\n\n- **Current price:** $62.89\n- **24H change:** -0.16%\n- **Trend:** **SIDEWAYS**\n- **Coverage:** quote snapshot only (expanded analytics pending)",
   "news": []
 }

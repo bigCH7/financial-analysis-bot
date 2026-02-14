@@ -176,7 +176,7 @@ function renderNewsList(targetId, items, fallbackAsset) {
   if (!target) return;
 
   if (!items || !items.length) {
-    const query = fallbackAsset ? `${fallbackAsset} crypto` : "bitcoin ethereum crypto";
+    const query = fallbackAsset ? `${fallbackAsset} asset` : "finance markets";
     target.innerHTML = `
       <li class="news-item">
         <p class="muted">News snapshot unavailable right now.</p>
@@ -192,6 +192,24 @@ function renderNewsList(targetId, items, fallbackAsset) {
       <div class="timestamp">${item.source || "Unknown"}${(item.published_at || item.pubDate) ? ` • ${new Date(item.published_at || item.pubDate).toUTCString()}` : ""}</div>
     </li>
   `).join("");
+}
+
+function renderAbout(id, about) {
+  const el = document.getElementById(id);
+  if (!el) return;
+
+  if (!about || Object.keys(about).length === 0) {
+    el.innerHTML = "<p class='muted'>No asset background available yet.</p>";
+    return;
+  }
+
+  el.innerHTML = `
+    <p><strong>What it is:</strong> ${about.what_it_is || "N/A"}</p>
+    <p><strong>What it represents:</strong> ${about.what_it_represents || "N/A"}</p>
+    <p><strong>Who or what it belongs to:</strong> ${about.who_or_what || "N/A"}</p>
+    <p><strong>How it works:</strong> ${about.how_it_works || "N/A"}</p>
+  `;
+  highlightTerms(el);
 }
 
 async function drawAssetChart(assetId, canvasId) {
@@ -285,13 +303,10 @@ function setupAccordion(buttonId, sectionId) {
 
 function renderAssetCards(assets) {
   return assets.map((asset) => {
-    const href = asset.details_page || "";
+    const href = asset.details_page || `asset.html?asset=${asset.asset}`;
     const p7 = asset.price?.change_7d_pct;
     const source = asset.source?.short_term || "snapshot";
     const updated = fmtDateTime(asset.updated_at);
-    const openAction = href
-      ? `<p><a class="tab" href="${href}">Open ${asset.symbol}</a></p>`
-      : `<p class="muted">Details page: coming soon</p>`;
     const periodLabel = p7 == null ? "24H change" : "7D change";
     const periodValue = p7 == null ? asset.price?.change_24h_pct : p7;
 
@@ -309,7 +324,7 @@ function renderAssetCards(assets) {
           <span class="meta-chip"><strong>Source:</strong> ${source}</span>
           <span class="meta-chip"><strong>Updated:</strong> ${updated}</span>
         </div>
-        ${openAction}
+        <p><a class="tab" href="${href}">Open ${asset.symbol}</a></p>
       </article>
     `;
   }).join("");
@@ -341,7 +356,7 @@ async function initOverviewPage() {
   ]);
 
   document.getElementById("asset-cards").innerHTML = renderAssetCards(payload.assets || []);
-  renderNewsList("overview-news", payload.overview_news || [], "crypto market");
+  renderNewsList("overview-news", payload.overview_news || [], "asset market");
 
   setMetaRow("overview-news-meta", [
     { label: "News updated", value: fmtDateTime(payload.generated_at) },
@@ -352,22 +367,36 @@ async function initOverviewPage() {
 async function initAssetPage(assetId) {
   const payload = await getAssetPayload(assetId);
 
+  const title = document.getElementById("asset-title");
+  if (title) title.textContent = `${payload.name} (${payload.symbol})`;
+
+  const subtitle = document.getElementById("asset-subtitle");
+  if (subtitle) subtitle.textContent = payload.market_type === "crypto"
+    ? "Crypto asset profile, analysis, and news."
+    : "Traditional asset profile, snapshot, and news.";
+
+  renderAbout("asset-about", payload.about);
+
   const summary = document.getElementById("asset-summary");
   const p7 = payload.price?.change_7d_pct;
   const p30 = payload.price?.change_30d_pct;
+  const p24 = payload.price?.change_24h_pct;
   const updated = fmtDateTime(payload.updated_at);
   const source = payload.source?.short_term || "unknown";
+  const sideWindow = p7 == null ? `24H: <span class="${pctClass(p24)}">${fmtPct(p24)}</span>` : `7D: <span class="${pctClass(p7)}">${fmtPct(p7)}</span> | 30D: <span class="${pctClass(p30)}">${fmtPct(p30)}</span>`;
 
-  summary.innerHTML = `
-    <p class="metric" id="live-price">${fmtPrice(payload.price?.current_usd)}</p>
-    <p class="muted">7D: <span class="${pctClass(p7)}">${fmtPct(p7)}</span> | 30D: <span class="${pctClass(p30)}">${fmtPct(p30)}</span></p>
-    <div class="pill-row">
-      ${renderMetricPill(payload.indicators?.trend || "")}
-      ${renderMetricPill(payload.indicators?.momentum || "")}
-      ${renderMetricPill(payload.indicators?.volatility || "")}
-      ${payload.valuation?.verdict ? `<span class="pill">${payload.valuation.verdict}</span>` : ""}
-    </div>
-  `;
+  if (summary) {
+    summary.innerHTML = `
+      <p class="metric" id="live-price">${fmtPrice(payload.price?.current_usd)}</p>
+      <p class="muted">${sideWindow}</p>
+      <div class="pill-row">
+        ${renderMetricPill(payload.indicators?.trend || "")}
+        ${renderMetricPill(payload.indicators?.momentum || "")}
+        ${renderMetricPill(payload.indicators?.volatility || "")}
+        ${payload.valuation?.verdict ? `<span class="pill">${payload.valuation.verdict}</span>` : ""}
+      </div>
+    `;
+  }
 
   setMetaRow("asset-summary-meta", [
     { label: "Updated", value: updated },
@@ -375,8 +404,10 @@ async function initAssetPage(assetId) {
   ]);
 
   const analysis = document.getElementById("analysis-content");
-  analysis.innerHTML = markdownToHtml(payload.analysis_markdown || "No analysis available.");
-  highlightTerms(analysis);
+  if (analysis) {
+    analysis.innerHTML = markdownToHtml(payload.analysis_markdown || "No analysis available.");
+    highlightTerms(analysis);
+  }
 
   setMetaRow("asset-analysis-meta", [
     { label: "Updated", value: updated },
@@ -384,14 +415,17 @@ async function initAssetPage(assetId) {
   ]);
 
   setMetaRow("asset-chart-meta", [
-    { label: "Window", value: "30D live" },
-    { label: "Price source", value: "CoinGecko" }
+    { label: "Window", value: payload.market_type === "crypto" ? "30D live" : "snapshot" },
+    { label: "Price source", value: source }
   ]);
 
   setupAccordion("analysis-toggle", "analysis-content");
-  await drawAssetChart(assetId, "price-chart");
-  await setLivePrice(assetId, "live-price");
-  setInterval(() => setLivePrice(assetId, "live-price"), 60000);
+
+  if (payload.market_type === "crypto") {
+    await drawAssetChart(assetId, "price-chart");
+    await setLivePrice(assetId, "live-price");
+    setInterval(() => setLivePrice(assetId, "live-price"), 60000);
+  }
 
   renderNewsList("asset-news", payload.news || [], assetId);
   setMetaRow("asset-news-meta", [
@@ -400,11 +434,16 @@ async function initAssetPage(assetId) {
   ]);
 }
 
+function getAssetFromQuery() {
+  const params = new URLSearchParams(window.location.search);
+  return params.get("asset") || "bitcoin";
+}
+
 async function initNewsPage() {
   try {
     const payload = await getIndexPayload();
     const all = payload.overview_news || [];
-    renderNewsList("news-results", all, "crypto market");
+    renderNewsList("news-results", all, "asset market");
 
     setMetaRow("news-feed-meta", [
       { label: "Updated", value: fmtDateTime(payload.generated_at) },
@@ -419,7 +458,7 @@ async function initNewsPage() {
         const filter = btn.dataset.filter;
 
         if (filter === "all") {
-          renderNewsList("news-results", all, "crypto market");
+          renderNewsList("news-results", all, "asset market");
           return;
         }
 
@@ -432,7 +471,7 @@ async function initNewsPage() {
       });
     });
   } catch (_) {
-    renderNewsList("news-results", [], "crypto market");
+    renderNewsList("news-results", [], "asset market");
   }
 }
 
@@ -445,6 +484,7 @@ async function boot() {
     if (page === "overview") await initOverviewPage();
     if (page === "btc") await initAssetPage("bitcoin");
     if (page === "eth") await initAssetPage("ethereum");
+    if (page === "asset") await initAssetPage(getAssetFromQuery());
     if (page === "news") await initNewsPage();
   } catch (_) {
     document.querySelectorAll("[data-error-target]").forEach((el) => {
@@ -454,4 +494,3 @@ async function boot() {
 }
 
 document.addEventListener("DOMContentLoaded", boot);
-

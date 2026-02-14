@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-14T18:06:25.679902+00:00",
+  "generated_at": "2026-02-14T19:09:55.224419+00:00",
   "macro_markdown": "# Long-Term Crypto Valuation Report\n\n_Updated: 2026-02-14 16:53 UTC_",
   "assets": [
     {
@@ -22,7 +22,7 @@
       "valuation": {
         "verdict": "Undervalued (historically cheap)"
       },
-      "updated_at": "2026-02-14T18:06:25.672553+00:00",
+      "updated_at": "2026-02-14T19:09:55.197410+00:00",
       "source": {
         "short_term": "live"
       }
@@ -47,7 +47,7 @@
       "valuation": {
         "verdict": "ETH deeply undervalued vs BTC"
       },
-      "updated_at": "2026-02-14T18:06:25.673900+00:00",
+      "updated_at": "2026-02-14T19:09:55.216734+00:00",
       "source": {
         "short_term": "live"
       }
@@ -57,10 +57,10 @@
       "name": "S&P 500 ETF",
       "symbol": "SPY",
       "market_type": "traditional",
-      "details_page": null,
+      "details_page": "asset.html?asset=spy",
       "price": {
-        "current_usd": null,
-        "change_24h_pct": null,
+        "current_usd": 681.75,
+        "change_24h_pct": 0.00880165471108807,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
@@ -72,9 +72,9 @@
       "valuation": {
         "verdict": "Snapshot only"
       },
-      "updated_at": "2026-02-14T18:06:25.675217+00:00",
+      "updated_at": "2026-02-14T19:09:55.218521+00:00",
       "source": {
-        "short_term": "unavailable"
+        "short_term": "stooq_live"
       }
     },
     {
@@ -82,10 +82,10 @@
       "name": "Nasdaq 100 ETF",
       "symbol": "QQQ",
       "market_type": "traditional",
-      "details_page": null,
+      "details_page": "asset.html?asset=qqq",
       "price": {
-        "current_usd": null,
-        "change_24h_pct": null,
+        "current_usd": 601.92,
+        "change_24h_pct": 0.24815548856653713,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
@@ -97,9 +97,9 @@
       "valuation": {
         "verdict": "Snapshot only"
       },
-      "updated_at": "2026-02-14T18:06:25.676099+00:00",
+      "updated_at": "2026-02-14T19:09:55.219857+00:00",
       "source": {
-        "short_term": "unavailable"
+        "short_term": "stooq_live"
       }
     },
     {
@@ -107,24 +107,24 @@
       "name": "NVIDIA",
       "symbol": "NVDA",
       "market_type": "traditional",
-      "details_page": null,
+      "details_page": "asset.html?asset=nvda",
       "price": {
-        "current_usd": null,
-        "change_24h_pct": null,
+        "current_usd": 182.81,
+        "change_24h_pct": -2.4883317775703406,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
       "indicators": {
-        "trend": "SIDEWAYS",
+        "trend": "DOWNTREND",
         "momentum": "N/A",
         "volatility": "N/A"
       },
       "valuation": {
         "verdict": "Snapshot only"
       },
-      "updated_at": "2026-02-14T18:06:25.676971+00:00",
+      "updated_at": "2026-02-14T19:09:55.221033+00:00",
       "source": {
-        "short_term": "unavailable"
+        "short_term": "stooq_live"
       }
     },
     {
@@ -132,24 +132,24 @@
       "name": "Gold Futures",
       "symbol": "GC=F",
       "market_type": "traditional",
-      "details_page": null,
+      "details_page": "asset.html?asset=gold",
       "price": {
-        "current_usd": null,
-        "change_24h_pct": null,
+        "current_usd": 5032.915,
+        "change_24h_pct": 2.1059582764434204,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
       "indicators": {
-        "trend": "SIDEWAYS",
+        "trend": "UPTREND",
         "momentum": "N/A",
         "volatility": "N/A"
       },
       "valuation": {
         "verdict": "Snapshot only"
       },
-      "updated_at": "2026-02-14T18:06:25.677920+00:00",
+      "updated_at": "2026-02-14T19:09:55.222212+00:00",
       "source": {
-        "short_term": "unavailable"
+        "short_term": "stooq_live"
       }
     },
     {
@@ -157,10 +157,10 @@
       "name": "Crude Oil Futures",
       "symbol": "CL=F",
       "market_type": "traditional",
-      "details_page": null,
+      "details_page": "asset.html?asset=oil",
       "price": {
-        "current_usd": null,
-        "change_24h_pct": null,
+        "current_usd": 62.89,
+        "change_24h_pct": -0.1587553579933343,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
@@ -172,9 +172,9 @@
       "valuation": {
         "verdict": "Snapshot only"
       },
-      "updated_at": "2026-02-14T18:06:25.678846+00:00",
+      "updated_at": "2026-02-14T19:09:55.223286+00:00",
       "source": {
-        "short_term": "unavailable"
+        "short_term": "stooq_live"
       }
     }
   ],

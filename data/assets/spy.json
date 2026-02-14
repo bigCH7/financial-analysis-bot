@@ -3,15 +3,21 @@
   "name": "S&P 500 ETF",
   "symbol": "SPY",
   "market_type": "traditional",
-  "details_page": null,
-  "updated_at": "2026-02-14T18:06:25.675217+00:00",
+  "details_page": "asset.html?asset=spy",
+  "updated_at": "2026-02-14T19:09:55.218521+00:00",
+  "about": {
+    "what_it_is": "SPY is an exchange-traded fund designed to track the S&P 500 Index.",
+    "what_it_represents": "It represents broad large-cap U.S. equity market exposure.",
+    "who_or_what": "Issued by State Street, it holds a basket of U.S. large-cap stocks.",
+    "how_it_works": "Its price follows the index through a portfolio that mirrors S&P 500 constituents."
+  },
   "source": {
-    "short_term": "unavailable",
+    "short_term": "stooq_live",
     "news_generated_at": "2026-02-14 16:53 UTC"
   },
   "price": {
-    "current_usd": null,
-    "change_24h_pct": null,
+    "current_usd": 681.75,
+    "change_24h_pct": 0.00880165471108807,
     "change_7d_pct": null,
     "change_30d_pct": null
   },
@@ -24,6 +30,6 @@
     "verdict": "Snapshot only",
     "long_term_markdown": ""
   },
-  "analysis_markdown": "## S&P 500 ETF (SPY)\n\n### Snapshot\n\n- **Current price:** $N/A\n- **24H change:** N/A\n- **Trend:** **SIDEWAYS**\n- **Coverage:** quote snapshot only (expanded analytics pending)",
+  "analysis_markdown": "## S&P 500 ETF (SPY)\n\n### Snapshot\n\n- **Current price:** $681.75\n- **24H change:** 0.01%\n- **Trend:** **SIDEWAYS**\n- **Coverage:** quote snapshot only (expanded analytics pending)",
   "news": []
 }

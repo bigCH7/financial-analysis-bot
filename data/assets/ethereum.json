@@ -4,7 +4,13 @@
   "symbol": "ETH",
   "market_type": "crypto",
   "details_page": "eth.html",
-  "updated_at": "2026-02-14T18:06:25.673900+00:00",
+  "updated_at": "2026-02-14T19:09:55.216734+00:00",
+  "about": {
+    "what_it_is": "Ethereum is a programmable blockchain platform and the native asset is ETH.",
+    "what_it_represents": "It represents usage of smart contracts, DeFi rails, and on-chain applications.",
+    "who_or_what": "It is not a company. It is an open protocol supported by developers, validators, and users.",
+    "how_it_works": "It runs smart contracts on-chain and secures consensus through proof-of-stake validators."
+  },
   "source": {
     "short_term": "live",
     "news_generated_at": "2026-02-14 16:53 UTC"

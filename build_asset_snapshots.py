@@ -20,6 +20,12 @@ CRYPTO_ASSETS = {
         "heading": "Bitcoin (BTC)",
         "news_keyword": "bitcoin",
         "details_page": "btc.html",
+        "about": {
+            "what_it_is": "Bitcoin is a decentralized digital currency with no central issuer.",
+            "what_it_represents": "It is often treated as a scarce monetary asset and macro risk barometer.",
+            "who_or_what": "It is not a company. It is an open-source network maintained by global participants.",
+            "how_it_works": "Transactions are validated by proof-of-work mining and stored on a public blockchain."
+        },
     },
     "ethereum": {
         "name": "Ethereum",
@@ -27,15 +33,76 @@ CRYPTO_ASSETS = {
         "heading": "Ethereum (ETH)",
         "news_keyword": "ethereum",
         "details_page": "eth.html",
+        "about": {
+            "what_it_is": "Ethereum is a programmable blockchain platform and the native asset is ETH.",
+            "what_it_represents": "It represents usage of smart contracts, DeFi rails, and on-chain applications.",
+            "who_or_what": "It is not a company. It is an open protocol supported by developers, validators, and users.",
+            "how_it_works": "It runs smart contracts on-chain and secures consensus through proof-of-stake validators."
+        },
     },
 }
 
 WATCHLIST_ASSETS = {
-    "spy": {"name": "S&P 500 ETF", "symbol": "SPY", "news_keyword": "s&p 500", "details_page": None},
-    "qqq": {"name": "Nasdaq 100 ETF", "symbol": "QQQ", "news_keyword": "nasdaq", "details_page": None},
-    "nvda": {"name": "NVIDIA", "symbol": "NVDA", "news_keyword": "nvidia", "details_page": None},
-    "gold": {"name": "Gold Futures", "symbol": "GC=F", "news_keyword": "gold", "details_page": None},
-    "oil": {"name": "Crude Oil Futures", "symbol": "CL=F", "news_keyword": "oil", "details_page": None},
+    "spy": {
+        "name": "S&P 500 ETF",
+        "symbol": "SPY",
+        "news_keyword": "s&p 500",
+        "details_page": "asset.html?asset=spy",
+        "about": {
+            "what_it_is": "SPY is an exchange-traded fund designed to track the S&P 500 Index.",
+            "what_it_represents": "It represents broad large-cap U.S. equity market exposure.",
+            "who_or_what": "Issued by State Street, it holds a basket of U.S. large-cap stocks.",
+            "how_it_works": "Its price follows the index through a portfolio that mirrors S&P 500 constituents."
+        },
+    },
+    "qqq": {
+        "name": "Nasdaq 100 ETF",
+        "symbol": "QQQ",
+        "news_keyword": "nasdaq",
+        "details_page": "asset.html?asset=qqq",
+        "about": {
+            "what_it_is": "QQQ is an ETF that tracks the Nasdaq-100 Index.",
+            "what_it_represents": "It represents large non-financial growth companies, especially technology-heavy exposure.",
+            "who_or_what": "Issued by Invesco, it holds Nasdaq-100 component stocks.",
+            "how_it_works": "Its holdings are rebalanced to follow index methodology and sector concentration rules."
+        },
+    },
+    "nvda": {
+        "name": "NVIDIA",
+        "symbol": "NVDA",
+        "news_keyword": "nvidia",
+        "details_page": "asset.html?asset=nvda",
+        "about": {
+            "what_it_is": "NVIDIA is a semiconductor and computing company focused on GPUs and AI platforms.",
+            "what_it_represents": "It represents demand for AI infrastructure, data center compute, and advanced chips.",
+            "who_or_what": "Publicly traded U.S. company: NVIDIA Corporation.",
+            "how_it_works": "Revenue is driven by GPU hardware and software ecosystems used in AI, gaming, and enterprise compute."
+        },
+    },
+    "gold": {
+        "name": "Gold Futures",
+        "symbol": "GC=F",
+        "news_keyword": "gold",
+        "details_page": "asset.html?asset=gold",
+        "about": {
+            "what_it_is": "GC=F tracks front-month COMEX gold futures pricing.",
+            "what_it_represents": "It represents market expectations for gold as a store-of-value and macro hedge.",
+            "who_or_what": "It is a commodity futures contract, not a company.",
+            "how_it_works": "Futures prices reflect supply-demand, rates, dollar strength, and geopolitical risk sentiment."
+        },
+    },
+    "oil": {
+        "name": "Crude Oil Futures",
+        "symbol": "CL=F",
+        "news_keyword": "oil",
+        "details_page": "asset.html?asset=oil",
+        "about": {
+            "what_it_is": "CL=F tracks front-month WTI crude oil futures pricing.",
+            "what_it_represents": "It represents global energy demand, supply constraints, and geopolitical risk premiums.",
+            "who_or_what": "It is a commodity futures contract, not a company.",
+            "how_it_works": "Futures react to inventory data, production policy, transport bottlenecks, and macro growth expectations."
+        },
+    },
 }
 
 
@@ -168,6 +235,7 @@ def build_crypto_payload(asset_id, meta, short_md, long_md, analysis_map, news):
         "market_type": "crypto",
         "details_page": meta.get("details_page"),
         "updated_at": datetime.now(UTC).isoformat(),
+        "about": meta.get("about", {}),
         "source": {
             "short_term": data_source or "unknown",
             "news_generated_at": news.get("generated_at", ""),
@@ -225,6 +293,7 @@ def build_watchlist_payload(asset_id, meta, quotes, news):
         "market_type": "traditional",
         "details_page": meta.get("details_page"),
         "updated_at": datetime.now(UTC).isoformat(),
+        "about": meta.get("about", {}),
         "source": {
             "short_term": q.get("fetch_source") or "unknown",
             "news_generated_at": news.get("generated_at", ""),
@@ -302,5 +371,3 @@ def build_assets():
 
 if __name__ == "__main__":
     build_assets()
-
-

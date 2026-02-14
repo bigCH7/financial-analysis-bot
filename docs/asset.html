@@ -3,14 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Asset Desk | Bitcoin</title>
+  <title>Asset Desk | Asset Detail</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="app.css">
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </head>
-<body data-page="btc">
+<body data-page="asset">
   <header class="topbar">
     <div class="topbar-inner">
       <div class="brand">Asset Desk</div>
@@ -26,35 +26,32 @@
   <main class="page">
     <section class="hero">
       <div>
-        <h1>Bitcoin (BTC)</h1>
-        <p class="subtitle">Long-term valuation, short-term trend, live price pulse, and relevant headlines.</p>
+        <h1 id="asset-title">Asset</h1>
+        <p id="asset-subtitle" class="subtitle">Detailed snapshot and context.</p>
       </div>
     </section>
 
     <section class="grid grid-2">
       <article class="card">
-        <h2>Technical Snapshot</h2>
-        <div id="asset-summary-meta" class="meta-row"></div>
-        <div id="asset-summary" data-error-target>Loading BTC metrics...</div>
+        <h2>What Is This Asset?</h2>
+        <div id="asset-about" class="analysis" data-error-target>Loading asset explanation...</div>
       </article>
       <article class="card">
-        <h2>30-Day Price Trend</h2>
-        <div id="asset-chart-meta" class="meta-row"></div>
-        <div class="chart-wrap">
-          <canvas id="price-chart"></canvas>
-        </div>
+        <h2>Technical Snapshot</h2>
+        <div id="asset-summary-meta" class="meta-row"></div>
+        <div id="asset-summary" data-error-target>Loading metrics...</div>
       </article>
     </section>
 
     <section class="grid grid-2" style="margin-top: 16px;">
       <article class="card">
-        <h2>Long + Short Analysis</h2>
+        <h2>Analysis</h2>
         <div id="asset-analysis-meta" class="meta-row"></div>
         <button id="analysis-toggle" class="accordion-toggle" type="button">+ Show full analysis</button>
         <div id="analysis-content" class="accordion-content analysis hidden" data-error-target>Loading analysis...</div>
       </article>
       <article class="card">
-        <h2>Bitcoin News</h2>
+        <h2>Asset News</h2>
         <div id="asset-news-meta" class="meta-row"></div>
         <ul id="asset-news" class="news-list" data-error-target>
           <li class="news-item">Loading news...</li>
@@ -66,6 +63,3 @@
   <script src="app.js"></script>
 </body>
 </html>
-
-
-

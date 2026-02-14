@@ -3,20 +3,26 @@
   "name": "Gold Futures",
   "symbol": "GC=F",
   "market_type": "traditional",
-  "details_page": null,
-  "updated_at": "2026-02-14T18:06:25.677920+00:00",
+  "details_page": "asset.html?asset=gold",
+  "updated_at": "2026-02-14T19:09:55.222212+00:00",
+  "about": {
+    "what_it_is": "GC=F tracks front-month COMEX gold futures pricing.",
+    "what_it_represents": "It represents market expectations for gold as a store-of-value and macro hedge.",
+    "who_or_what": "It is a commodity futures contract, not a company.",
+    "how_it_works": "Futures prices reflect supply-demand, rates, dollar strength, and geopolitical risk sentiment."
+  },
   "source": {
-    "short_term": "unavailable",
+    "short_term": "stooq_live",
     "news_generated_at": "2026-02-14 16:53 UTC"
   },
   "price": {
-    "current_usd": null,
-    "change_24h_pct": null,
+    "current_usd": 5032.915,
+    "change_24h_pct": 2.1059582764434204,
     "change_7d_pct": null,
     "change_30d_pct": null
   },
   "indicators": {
-    "trend": "SIDEWAYS",
+    "trend": "UPTREND",
     "momentum": "N/A",
     "volatility": "N/A"
   },
@@ -24,7 +30,7 @@
     "verdict": "Snapshot only",
     "long_term_markdown": ""
   },
-  "analysis_markdown": "## Gold Futures (GC=F)\n\n### Snapshot\n\n- **Current price:** $N/A\n- **24H change:** N/A\n- **Trend:** **SIDEWAYS**\n- **Coverage:** quote snapshot only (expanded analytics pending)",
+  "analysis_markdown": "## Gold Futures (GC=F)\n\n### Snapshot\n\n- **Current price:** $5032.915\n- **24H change:** 2.11%\n- **Trend:** **UPTREND**\n- **Coverage:** quote snapshot only (expanded analytics pending)",
   "news": [
     {
       "title": "Digital gold or tech stock? Bitcoin\u2019s identity crisis deepens",

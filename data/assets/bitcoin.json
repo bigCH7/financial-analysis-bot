@@ -4,7 +4,13 @@
   "symbol": "BTC",
   "market_type": "crypto",
   "details_page": "btc.html",
-  "updated_at": "2026-02-14T18:06:25.672553+00:00",
+  "updated_at": "2026-02-14T19:09:55.197410+00:00",
+  "about": {
+    "what_it_is": "Bitcoin is a decentralized digital currency with no central issuer.",
+    "what_it_represents": "It is often treated as a scarce monetary asset and macro risk barometer.",
+    "who_or_what": "It is not a company. It is an open-source network maintained by global participants.",
+    "how_it_works": "Transactions are validated by proof-of-work mining and stored on a public blockchain."
+  },
   "source": {
     "short_term": "live",
     "news_generated_at": "2026-02-14 16:53 UTC"
