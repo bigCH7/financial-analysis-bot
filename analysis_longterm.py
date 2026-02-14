@@ -1,10 +1,11 @@
-﻿
+﻿import csv
+import io
 import math
 import statistics
 from datetime import UTC, datetime
 from pathlib import Path
 
-from api_utils import fetch_json_with_cache
+from api_utils import fetch_json_with_cache, fetch_text_with_cache
 
 REPORT_DIR = Path("reports")
 REPORT_DIR.mkdir(exist_ok=True)
@@ -12,6 +13,14 @@ REPORT_DIR.mkdir(exist_ok=True)
 COINGECKO = "https://api.coingecko.com/api/v3"
 YAHOO_SUMMARY = "https://query2.finance.yahoo.com/v10/finance/quoteSummary"
 YAHOO_CHART = "https://query1.finance.yahoo.com/v8/finance/chart"
+YAHOO_QUOTE = "https://query1.finance.yahoo.com/v7/finance/quote"
+STOOQ_SYMBOLS = {
+    "spy": "spy.us",
+    "qqq": "qqq.us",
+    "nvda": "nvda.us",
+    "gold": "xauusd",
+    "oil": "cl.f",
+}
 
 CRYPTO_ASSETS = {
     "bitcoin": {
@@ -90,6 +99,12 @@ def mean_or_none(values):
     clean = [v for v in values if v is not None]
     return statistics.mean(clean) if clean else None
 
+
+def first_not_none(*values):
+    for value in values:
+        if value is not None:
+            return value
+    return None
 
 def fmt_num(value, digits=2):
     if value is None or (isinstance(value, float) and math.isnan(value)):
@@ -328,6 +343,54 @@ def get_yahoo_summary(symbol):
         return {}, "unavailable"
 
 
+
+def get_yahoo_quote(symbol):
+    try:
+        payload, source = fetch_json_with_cache(
+            YAHOO_QUOTE,
+            params={"symbols": symbol},
+            namespace="yahoo_quote_single",
+            cache_key=f"quote_single_{symbol}",
+            retries=4,
+        )
+        rows = payload.get("quoteResponse", {}).get("result", [])
+        row = rows[0] if rows else {}
+        return row, source
+    except Exception:
+        return {}, "unavailable"
+
+
+def parse_float(text):
+    if text in (None, "", "N/D", "-"):
+        return None
+    try:
+        return float(text)
+    except ValueError:
+        return None
+
+
+def get_stooq_history(asset_id):
+    symbol = STOOQ_SYMBOLS.get(asset_id)
+    if not symbol:
+        return [], "unavailable"
+
+    try:
+        url = f"https://stooq.com/q/d/l/?s={symbol}&i=m"
+        text, source = fetch_text_with_cache(
+            url,
+            namespace="stooq_history",
+            cache_key=f"stooq_hist_{symbol}",
+            retries=3,
+        )
+        reader = csv.DictReader(io.StringIO(text))
+        prices = []
+        for row in reader:
+            close = parse_float(row.get("Close"))
+            if close is not None:
+                prices.append(close)
+        return prices, f"stooq_{source}"
+    except Exception:
+        return [], "unavailable"
 def get_yahoo_history(symbol):
     try:
         payload, source = fetch_json_with_cache(
@@ -522,22 +585,50 @@ def extract_module(summary, name):
 def score_traditional(asset_id, meta):
     symbol = meta["symbol"]
     summary, summary_source = get_yahoo_summary(symbol)
+    quote_row, quote_source = get_yahoo_quote(symbol)
     prices, history_source = get_yahoo_history(symbol)
+    if not prices:
+        stooq_prices, stooq_source = get_stooq_history(asset_id)
+        if stooq_prices:
+            prices = stooq_prices
+            history_source = stooq_source
 
     price_mod = extract_module(summary, "price")
     detail_mod = extract_module(summary, "summaryDetail")
     stats_mod = extract_module(summary, "defaultKeyStatistics")
     fin_mod = extract_module(summary, "financialData")
 
-    current = to_float(price_mod.get("regularMarketPrice"))
-    market_cap = to_float(price_mod.get("marketCap"))
+    current = first_not_none(
+        to_float(price_mod.get("regularMarketPrice")),
+        to_float(quote_row.get("regularMarketPrice")),
+        prices[-1] if prices else None,
+    )
+    market_cap = first_not_none(
+        to_float(price_mod.get("marketCap")),
+        to_float(quote_row.get("marketCap")),
+    )
 
-    trailing_pe = to_float(stats_mod.get("trailingPE"))
-    forward_pe = to_float(stats_mod.get("forwardPE"))
-    pb = to_float(stats_mod.get("priceToBook"))
+    trailing_pe = first_not_none(
+        to_float(stats_mod.get("trailingPE")),
+        to_float(quote_row.get("trailingPE")),
+    )
+    forward_pe = first_not_none(
+        to_float(stats_mod.get("forwardPE")),
+        to_float(quote_row.get("forwardPE")),
+    )
+    pb = first_not_none(
+        to_float(stats_mod.get("priceToBook")),
+        to_float(quote_row.get("priceToBook")),
+    )
     ev_ebitda = to_float(stats_mod.get("enterpriseToEbitda"))
-    ps = to_float(stats_mod.get("priceToSalesTrailing12Months"))
-    peg = to_float(stats_mod.get("pegRatio"))
+    ps = first_not_none(
+        to_float(stats_mod.get("priceToSalesTrailing12Months")),
+        to_float(quote_row.get("priceToSalesTrailing12Months")),
+    )
+    peg = first_not_none(
+        to_float(stats_mod.get("pegRatio")),
+        to_float(quote_row.get("pegRatio")),
+    )
 
     gross_margin = to_float(fin_mod.get("grossMargins"))
     op_margin = to_float(fin_mod.get("operatingMargins"))
@@ -553,10 +644,19 @@ def score_traditional(asset_id, meta):
 
     free_cashflow = to_float(fin_mod.get("freeCashflow"))
     operating_cashflow = to_float(fin_mod.get("operatingCashflow"))
-    payout_ratio = to_float(detail_mod.get("payoutRatio"))
-    dividend_yield = to_float(detail_mod.get("dividendYield"))
+    payout_ratio = first_not_none(
+        to_float(detail_mod.get("payoutRatio")),
+        to_float(quote_row.get("payoutRatio")),
+    )
+    dividend_yield = first_not_none(
+        to_float(detail_mod.get("dividendYield")),
+        to_float(quote_row.get("trailingAnnualDividendYield")),
+    )
 
-    beta = to_float(stats_mod.get("beta"))
+    beta = first_not_none(
+        to_float(stats_mod.get("beta")),
+        to_float(quote_row.get("beta")),
+    )
     insider = to_float(stats_mod.get("heldPercentInsiders"))
     institution = to_float(stats_mod.get("heldPercentInstitutions"))
 
@@ -659,14 +759,14 @@ def score_traditional(asset_id, meta):
     }
 
     composite, used_weight = weighted_score(score_map, weights)
-    confidence = confidence_score(used_weight, len(prices) * 21, [summary_source, history_source])
+    confidence = confidence_score(used_weight, len(prices) * 21, [summary_source, quote_source, history_source])
     verdict = label_from_score(composite)
     scenarios = build_scenarios(current, prices)
 
     lines = []
     lines.append(f"## {meta['name']} ({symbol})")
     lines.append("")
-    lines.append(f"_Data sources: Yahoo summary ({summary_source}), Yahoo history ({history_source})_")
+    lines.append(f"_Data sources: Yahoo summary ({summary_source}), Yahoo quote ({quote_source}), Price history ({history_source})_")
     lines.append("")
     lines.append("### One-line Long-Term Summary")
     lines.append("")
@@ -791,4 +891,11 @@ def generate_report():
 
 if __name__ == "__main__":
     generate_report()
+
+
+
+
+
+
+
 

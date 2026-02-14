@@ -1,6 +1,6 @@
 # Long-Term Multi-Asset Analysis Report
 
-_Updated: 2026-02-14 22:49 UTC_
+_Updated: 2026-02-14 23:04 UTC_
 
 ## Framework
 
@@ -35,17 +35,17 @@ Long-term: **Neutral / fair-value zone** - Digital monetary network with fixed-s
 
 ### Composite Scorecard
 
-- **Composite score:** 58.0/100
+- **Composite score:** 57.9/100
 - **Confidence:** 100.0/100
 - **Supply/issuance & tokenomics (20%):** 100.0
-- **Network usage activity (25%):** 61.1
+- **Network usage activity (25%):** 60.9
 - **Developer & security (20%):** 68.4
-- **Liquidity & market structure (15%):** 35.4
+- **Liquidity & market structure (15%):** 35.2
 - **Macro/regulatory & narrative (20%):** 18.4
 
 ### Supply & Issuance
 
-- **Circulating supply:** 19,989,353
+- **Circulating supply:** 19,989,378
 - **Total supply:** 19,989,378
 - **Max supply:** 21,000,000
 - **Circulating/Total:** +100.00%
@@ -53,10 +53,10 @@ Long-term: **Neutral / fair-value zone** - Digital monetary network with fixed-s
 
 ### Network Activity & Economics
 
-- **Market cap:** $1,398,667,737,674
-- **24H volume:** $39,147,205,833
-- **Turnover (Vol/Cap):** +2.80%
-- **NVT proxy (Cap/Volume):** 35.73
+- **Market cap:** $1,397,716,003,510
+- **24H volume:** $38,680,271,285
+- **Turnover (Vol/Cap):** +2.77%
+- **NVT proxy (Cap/Volume):** 36.14
 - **30d vs 180d volume trend proxy:** 1.03
 
 ### Developer & Protocol Health
@@ -77,9 +77,9 @@ Long-term: **Neutral / fair-value zone** - Digital monetary network with fixed-s
 
 | Case | Implied Price | Move vs Current | Core Assumption |
 |---|---:|---:|---|
-| Bear | $87,157 | +24.58% | Multiple compression / weaker demand and tighter liquidity. |
-| Base | $101,651 | +45.30% | Mean reversion toward cycle-normal valuation and usage trends. |
-| Bull | $112,950 | +61.45% | Sustained growth, stable macro backdrop, and expanding risk appetite. |
+| Bear | $87,157 | +24.59% | Multiple compression / weaker demand and tighter liquidity. |
+| Base | $101,651 | +45.31% | Mean reversion toward cycle-normal valuation and usage trends. |
+| Bull | $112,950 | +61.47% | Sustained growth, stable macro backdrop, and expanding risk appetite. |
 
 Valuation verdict:
 Neutral / fair-value zone
@@ -103,12 +103,12 @@ Long-term: **Constructive long-term setup** - Programmable settlement layer wher
 
 ### Composite Scorecard
 
-- **Composite score:** 64.4/100
+- **Composite score:** 64.1/100
 - **Confidence:** 100.0/100
 - **Supply/issuance & tokenomics (20%):** 100.0
 - **Network usage activity (25%):** 89.5
 - **Developer & security (20%):** 53.6
-- **Liquidity & market structure (15%):** 61.4
+- **Liquidity & market structure (15%):** 59.3
 - **Macro/regulatory & narrative (20%):** 10.7
 
 ### Supply & Issuance
@@ -121,10 +121,10 @@ Long-term: **Constructive long-term setup** - Programmable settlement layer wher
 
 ### Network Activity & Economics
 
-- **Market cap:** $252,431,955,655
-- **24H volume:** $24,636,422,489
-- **Turnover (Vol/Cap):** +9.76%
-- **NVT proxy (Cap/Volume):** 10.25
+- **Market cap:** $252,210,778,070
+- **24H volume:** $23,678,891,727
+- **Turnover (Vol/Cap):** +9.39%
+- **NVT proxy (Cap/Volume):** 10.65
 - **30d vs 180d volume trend proxy:** 1.02
 
 ### Developer & Protocol Health
@@ -139,15 +139,15 @@ Long-term: **Constructive long-term setup** - Programmable settlement layer wher
 - **Max drawdown (1y):** -62.30%
 - **Drawdown recovery time estimate:** N/A trading days
 - **Price vs 200d average:** 0.59
-- **Price percentile (1y):** +18.58%
+- **Price percentile (1y):** +18.31%
 
 ### Scenario Analysis (Base / Bull / Bear)
 
 | Case | Implied Price | Move vs Current | Core Assumption |
 |---|---:|---:|---|
-| Bear | $2,171 | +3.80% | Multiple compression / weaker demand and tighter liquidity. |
-| Base | $2,949 | +40.98% | Mean reversion toward cycle-normal valuation and usage trends. |
-| Bull | $3,911 | +86.97% | Sustained growth, stable macro backdrop, and expanding risk appetite. |
+| Bear | $2,171 | +3.86% | Multiple compression / weaker demand and tighter liquidity. |
+| Base | $2,949 | +41.06% | Mean reversion toward cycle-normal valuation and usage trends. |
+| Bull | $3,911 | +87.07% | Sustained growth, stable macro backdrop, and expanding risk appetite. |
 
 Valuation verdict:
 Constructive long-term setup
@@ -163,21 +163,21 @@ Constructive long-term setup
 ---
 ## S&P 500 ETF (SPY)
 
-_Data sources: Yahoo summary (unavailable), Yahoo history (unavailable)_
+_Data sources: Yahoo summary (unavailable), Yahoo quote (unavailable), Price history (stooq_live)_
 
 ### One-line Long-Term Summary
 
-Long-term: **Insufficient data** - High sensitivity to U.S. growth, real rates, and broad equity risk appetite.
+Long-term: **Caution / risk-reward mixed** - High sensitivity to U.S. growth, real rates, and broad equity risk appetite.
 
 ### Composite Scorecard
 
-- **Composite score:** N/A/100
-- **Confidence:** 13.5/100
-- **Valuation (25%):** N/A
-- **Growth & profitability (25%):** N/A
+- **Composite score:** 40.7/100
+- **Confidence:** 67.8/100
+- **Valuation (25%):** 0.0
+- **Growth & profitability (25%):** 100.0
 - **Balance sheet & cash flow (20%):** N/A
 - **Competitive position & management (15%):** N/A
-- **Macro/regulatory (15%):** N/A
+- **Macro/regulatory (15%):** 9.8
 
 ### Valuation
 
@@ -187,7 +187,7 @@ Long-term: **Insufficient data** - High sensitivity to U.S. growth, real rates, 
 - **EV/EBITDA:** N/A
 - **Price/Sales:** N/A
 - **PEG:** N/A
-- **Price percentile vs 10y history:** N/A
+- **Price percentile vs 10y history:** +98.42%
 
 ### Profitability, Growth, and Balance-Sheet Health
 
@@ -212,20 +212,24 @@ Long-term: **Insufficient data** - High sensitivity to U.S. growth, real rates, 
 
 ### Volatility, Drawdown, and Macro Sensitivity
 
-- **Annualized volatility:** N/A
-- **Max drawdown (history window):** N/A
+- **Annualized volatility:** +67.67%
+- **Max drawdown (history window):** -52.19%
 - **Recovery time estimate:** N/A monthly bars
 - **Beta:** N/A
 - **Macro/cycle note:** High sensitivity to U.S. growth, real rates, and broad equity risk appetite.
 
 ### Scenario Analysis (Base / Bull / Bear)
 
-Scenario model unavailable due to insufficient history.
+| Case | Implied Price | Move vs Current | Core Assumption |
+|---|---:|---:|---|
+| Bear | $98.92 | -85.49% | Multiple compression / weaker demand and tighter liquidity. |
+| Base | $174.30 | -74.43% | Mean reversion toward cycle-normal valuation and usage trends. |
+| Bull | $394.14 | -42.19% | Sustained growth, stable macro backdrop, and expanding risk appetite. |
 
 Valuation verdict:
-Insufficient data
+Caution / risk-reward mixed
 
-**Long-term verdict:** Insufficient data
+**Long-term verdict:** Caution / risk-reward mixed
 
 ### Method Notes
 
@@ -236,21 +240,21 @@ Insufficient data
 ---
 ## Nasdaq 100 ETF (QQQ)
 
-_Data sources: Yahoo summary (unavailable), Yahoo history (unavailable)_
+_Data sources: Yahoo summary (unavailable), Yahoo quote (unavailable), Price history (stooq_live)_
 
 ### One-line Long-Term Summary
 
-Long-term: **Insufficient data** - Higher duration/growth sensitivity and concentration in mega-cap technology.
+Long-term: **Caution / risk-reward mixed** - Higher duration/growth sensitivity and concentration in mega-cap technology.
 
 ### Composite Scorecard
 
-- **Composite score:** N/A/100
-- **Confidence:** 13.5/100
-- **Valuation (25%):** N/A
-- **Growth & profitability (25%):** N/A
+- **Composite score:** 38.5/100
+- **Confidence:** 67.8/100
+- **Valuation (25%):** 0.0
+- **Growth & profitability (25%):** 100.0
 - **Balance sheet & cash flow (20%):** N/A
 - **Competitive position & management (15%):** N/A
-- **Macro/regulatory (15%):** N/A
+- **Macro/regulatory (15%):** 0.0
 
 ### Valuation
 
@@ -260,7 +264,7 @@ Long-term: **Insufficient data** - Higher duration/growth sensitivity and concen
 - **EV/EBITDA:** N/A
 - **Price/Sales:** N/A
 - **PEG:** N/A
-- **Price percentile vs 10y history:** N/A
+- **Price percentile vs 10y history:** +98.77%
 
 ### Profitability, Growth, and Balance-Sheet Health
 
@@ -285,20 +289,24 @@ Long-term: **Insufficient data** - Higher duration/growth sensitivity and concen
 
 ### Volatility, Drawdown, and Macro Sensitivity
 
-- **Annualized volatility:** N/A
-- **Max drawdown (history window):** N/A
+- **Annualized volatility:** +106.10%
+- **Max drawdown (history window):** -81.08%
 - **Recovery time estimate:** N/A monthly bars
 - **Beta:** N/A
 - **Macro/cycle note:** Higher duration/growth sensitivity and concentration in mega-cap technology.
 
 ### Scenario Analysis (Base / Bull / Bear)
 
-Scenario model unavailable due to insufficient history.
+| Case | Implied Price | Move vs Current | Core Assumption |
+|---|---:|---:|---|
+| Bear | $33.92 | -94.36% | Multiple compression / weaker demand and tighter liquidity. |
+| Base | $68.19 | -88.67% | Mean reversion toward cycle-normal valuation and usage trends. |
+| Bull | $262.64 | -56.37% | Sustained growth, stable macro backdrop, and expanding risk appetite. |
 
 Valuation verdict:
-Insufficient data
+Caution / risk-reward mixed
 
-**Long-term verdict:** Insufficient data
+**Long-term verdict:** Caution / risk-reward mixed
 
 ### Method Notes
 
@@ -309,21 +317,21 @@ Insufficient data
 ---
 ## NVIDIA (NVDA)
 
-_Data sources: Yahoo summary (unavailable), Yahoo history (unavailable)_
+_Data sources: Yahoo summary (unavailable), Yahoo quote (unavailable), Price history (stooq_live)_
 
 ### One-line Long-Term Summary
 
-Long-term: **Insufficient data** - Cyclical semiconductor exposure with AI capex dependence and valuation sensitivity to rates.
+Long-term: **High risk / weak long-term setup** - Cyclical semiconductor exposure with AI capex dependence and valuation sensitivity to rates.
 
 ### Composite Scorecard
 
-- **Composite score:** N/A/100
-- **Confidence:** 13.5/100
-- **Valuation (25%):** N/A
+- **Composite score:** 0.0/100
+- **Confidence:** 56.5/100
+- **Valuation (25%):** 0.0
 - **Growth & profitability (25%):** N/A
 - **Balance sheet & cash flow (20%):** N/A
 - **Competitive position & management (15%):** N/A
-- **Macro/regulatory (15%):** N/A
+- **Macro/regulatory (15%):** 0.0
 
 ### Valuation
 
@@ -333,7 +341,7 @@ Long-term: **Insufficient data** - Cyclical semiconductor exposure with AI capex
 - **EV/EBITDA:** N/A
 - **Price/Sales:** N/A
 - **PEG:** N/A
-- **Price percentile vs 10y history:** N/A
+- **Price percentile vs 10y history:** +98.77%
 
 ### Profitability, Growth, and Balance-Sheet Health
 
@@ -358,20 +366,24 @@ Long-term: **Insufficient data** - Cyclical semiconductor exposure with AI capex
 
 ### Volatility, Drawdown, and Macro Sensitivity
 
-- **Annualized volatility:** N/A
-- **Max drawdown (history window):** N/A
+- **Annualized volatility:** +275.86%
+- **Max drawdown (history window):** -87.22%
 - **Recovery time estimate:** N/A monthly bars
 - **Beta:** N/A
 - **Macro/cycle note:** Cyclical semiconductor exposure with AI capex dependence and valuation sensitivity to rates.
 
 ### Scenario Analysis (Base / Bull / Bear)
 
-Scenario model unavailable due to insufficient history.
+| Case | Implied Price | Move vs Current | Core Assumption |
+|---|---:|---:|---|
+| Bear | $0.22 | -99.88% | Multiple compression / weaker demand and tighter liquidity. |
+| Base | $0.45 | -99.75% | Mean reversion toward cycle-normal valuation and usage trends. |
+| Bull | $12.50 | -93.16% | Sustained growth, stable macro backdrop, and expanding risk appetite. |
 
 Valuation verdict:
-Insufficient data
+High risk / weak long-term setup
 
-**Long-term verdict:** Insufficient data
+**Long-term verdict:** High risk / weak long-term setup
 
 ### Method Notes
 
@@ -382,21 +394,21 @@ Insufficient data
 ---
 ## Gold Futures (GC=F)
 
-_Data sources: Yahoo summary (unavailable), Yahoo history (unavailable)_
+_Data sources: Yahoo summary (unavailable), Yahoo quote (unavailable), Price history (stooq_live)_
 
 ### One-line Long-Term Summary
 
-Long-term: **Insufficient data** - Sensitive to real yields, USD direction, and geopolitical hedging demand.
+Long-term: **Caution / risk-reward mixed** - Sensitive to real yields, USD direction, and geopolitical hedging demand.
 
 ### Composite Scorecard
 
-- **Composite score:** N/A/100
-- **Confidence:** 13.5/100
-- **Valuation (25%):** N/A
-- **Growth & profitability (25%):** N/A
+- **Composite score:** 38.5/100
+- **Confidence:** 67.8/100
+- **Valuation (25%):** 0.0
+- **Growth & profitability (25%):** 100.0
 - **Balance sheet & cash flow (20%):** N/A
 - **Competitive position & management (15%):** N/A
-- **Macro/regulatory (15%):** N/A
+- **Macro/regulatory (15%):** 0.0
 
 ### Valuation
 
@@ -406,7 +418,7 @@ Long-term: **Insufficient data** - Sensitive to real yields, USD direction, and 
 - **EV/EBITDA:** N/A
 - **Price/Sales:** N/A
 - **PEG:** N/A
-- **Price percentile vs 10y history:** N/A
+- **Price percentile vs 10y history:** +100.00%
 
 ### Profitability, Growth, and Balance-Sheet Health
 
@@ -431,20 +443,24 @@ Long-term: **Insufficient data** - Sensitive to real yields, USD direction, and 
 
 ### Volatility, Drawdown, and Macro Sensitivity
 
-- **Annualized volatility:** N/A
-- **Max drawdown (history window):** N/A
+- **Annualized volatility:** +86.75%
+- **Max drawdown (history window):** -63.77%
 - **Recovery time estimate:** N/A monthly bars
 - **Beta:** N/A
 - **Macro/cycle note:** Sensitive to real yields, USD direction, and geopolitical hedging demand.
 
 ### Scenario Analysis (Base / Bull / Bear)
 
-Scenario model unavailable due to insufficient history.
+| Case | Implied Price | Move vs Current | Core Assumption |
+|---|---:|---:|---|
+| Bear | $20.67 | -99.59% | Multiple compression / weaker demand and tighter liquidity. |
+| Base | $39.40 | -99.22% | Mean reversion toward cycle-normal valuation and usage trends. |
+| Bull | $449.00 | -91.08% | Sustained growth, stable macro backdrop, and expanding risk appetite. |
 
 Valuation verdict:
-Insufficient data
+Caution / risk-reward mixed
 
-**Long-term verdict:** Insufficient data
+**Long-term verdict:** Caution / risk-reward mixed
 
 ### Method Notes
 
@@ -455,7 +471,7 @@ Insufficient data
 ---
 ## Crude Oil Futures (CL=F)
 
-_Data sources: Yahoo summary (unavailable), Yahoo history (unavailable)_
+_Data sources: Yahoo summary (unavailable), Yahoo quote (unavailable), Price history (unavailable)_
 
 ### One-line Long-Term Summary
 

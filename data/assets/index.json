@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-02-14T22:54:12.729580+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-02-14 22:49 UTC_",
+  "generated_at": "2026-02-14T23:11:06.359087+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-02-14 23:04 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -22,7 +22,7 @@
       "valuation": {
         "verdict": "Neutral / fair-value zone"
       },
-      "updated_at": "2026-02-14T22:54:12.695376+00:00",
+      "updated_at": "2026-02-14T23:11:06.349659+00:00",
       "source": {
         "short_term": "live"
       }
@@ -47,7 +47,7 @@
       "valuation": {
         "verdict": "Constructive long-term setup"
       },
-      "updated_at": "2026-02-14T22:54:12.700554+00:00",
+      "updated_at": "2026-02-14T23:11:06.351082+00:00",
       "source": {
         "short_term": "live"
       }
@@ -70,9 +70,9 @@
         "volatility": "N/A"
       },
       "valuation": {
-        "verdict": "Insufficient data"
+        "verdict": "Caution / risk-reward mixed"
       },
-      "updated_at": "2026-02-14T22:54:12.701672+00:00",
+      "updated_at": "2026-02-14T23:11:06.352318+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -95,9 +95,9 @@
         "volatility": "N/A"
       },
       "valuation": {
-        "verdict": "Insufficient data"
+        "verdict": "Caution / risk-reward mixed"
       },
-      "updated_at": "2026-02-14T22:54:12.719528+00:00",
+      "updated_at": "2026-02-14T23:11:06.353461+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -120,9 +120,9 @@
         "volatility": "N/A"
       },
       "valuation": {
-        "verdict": "Insufficient data"
+        "verdict": "High risk / weak long-term setup"
       },
-      "updated_at": "2026-02-14T22:54:12.725896+00:00",
+      "updated_at": "2026-02-14T23:11:06.354643+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -145,9 +145,9 @@
         "volatility": "N/A"
       },
       "valuation": {
-        "verdict": "Insufficient data"
+        "verdict": "Caution / risk-reward mixed"
       },
-      "updated_at": "2026-02-14T22:54:12.726909+00:00",
+      "updated_at": "2026-02-14T23:11:06.355809+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -172,7 +172,7 @@
       "valuation": {
         "verdict": "Insufficient data"
       },
-      "updated_at": "2026-02-14T22:54:12.728489+00:00",
+      "updated_at": "2026-02-14T23:11:06.357583+00:00",
       "source": {
         "short_term": "stooq_live"
       }
