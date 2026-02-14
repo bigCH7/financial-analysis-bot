@@ -162,6 +162,9 @@ def line_value(section: str, label: str):
 
 
 def infer_verdict(long_section: str):
+    match = re.search(r"\*\*Long-term verdict:\*\*\s*([^\n]+)", long_section)
+    if match:
+        return match.group(1).strip()
     match = re.search(r"Valuation verdict:\s*\n([^\n]+)", long_section)
     if match:
         return match.group(1).strip()
@@ -169,7 +172,6 @@ def infer_verdict(long_section: str):
     if match:
         return match.group(1).strip()
     return ""
-
 
 def load_news():
     payload = read_json(NEWS_FILE, {"generated_at": "", "items": []})
@@ -270,21 +272,30 @@ def classify_move(pct):
     return "SIDEWAYS"
 
 
-def build_watchlist_payload(asset_id, meta, quotes, news):
+def build_watchlist_payload(asset_id, meta, quotes, news, long_md):
     q = quotes.get(asset_id, {})
     change_24h = q.get("change_24h_pct")
     trend = classify_move(change_24h)
 
+    heading = f"{meta['name']} ({meta['symbol']})"
+    long_section = clean_section(extract_section(long_md, heading))
+    verdict = infer_verdict(long_section)
+
     summary_lines = [
         f"## {meta['name']} ({meta['symbol']})",
         "",
-        "### Snapshot",
+        "### Short-Term Context",
         "",
         f"- **Current price:** ${q.get('price') if q.get('price') is not None else 'N/A'}",
         f"- **24H change:** {change_24h:.2f}%" if isinstance(change_24h, (int, float)) else "- **24H change:** N/A",
         f"- **Trend:** **{trend}**",
-        "- **Coverage:** quote snapshot only (expanded analytics pending)",
+        f"- **Data source:** {q.get('fetch_source') or 'unknown'}",
     ]
+
+    if long_section:
+        analysis_markdown = f"{long_section}\n\n---\n\n" + "\n".join(summary_lines)
+    else:
+        analysis_markdown = "\n".join(summary_lines + ["- **Coverage:** long-term model unavailable in latest run"]) 
 
     return {
         "asset": asset_id,
@@ -310,13 +321,12 @@ def build_watchlist_payload(asset_id, meta, quotes, news):
             "volatility": "N/A",
         },
         "valuation": {
-            "verdict": "Snapshot only",
-            "long_term_markdown": "",
+            "verdict": verdict or "Snapshot only",
+            "long_term_markdown": long_section,
         },
-        "analysis_markdown": "\n".join(summary_lines),
+        "analysis_markdown": analysis_markdown,
         "news": filter_news(news.get("items", []), meta.get("news_keyword", meta["name"])),
     }
-
 
 def index_entry(payload):
     return {
@@ -352,7 +362,7 @@ def build_assets():
         assets_for_index.append(index_entry(payload))
 
     for asset_id, meta in WATCHLIST_ASSETS.items():
-        payload = build_watchlist_payload(asset_id, meta, watchlist_quotes, news)
+        payload = build_watchlist_payload(asset_id, meta, watchlist_quotes, news, long_md)
         (ASSETS_DIR / f"{asset_id}.json").write_text(json.dumps(payload, indent=2), encoding="utf-8")
         assets_for_index.append(index_entry(payload))
 
@@ -371,3 +381,4 @@ def build_assets():
 
 if __name__ == "__main__":
     build_assets()
+

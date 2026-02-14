@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-02-14T19:09:55.224419+00:00",
-  "macro_markdown": "# Long-Term Crypto Valuation Report\n\n_Updated: 2026-02-14 16:53 UTC_",
+  "generated_at": "2026-02-14T22:54:12.729580+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-02-14 22:49 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -20,9 +20,9 @@
         "volatility": "ELEVATED"
       },
       "valuation": {
-        "verdict": "Undervalued (historically cheap)"
+        "verdict": "Neutral / fair-value zone"
       },
-      "updated_at": "2026-02-14T19:09:55.197410+00:00",
+      "updated_at": "2026-02-14T22:54:12.695376+00:00",
       "source": {
         "short_term": "live"
       }
@@ -45,9 +45,9 @@
         "volatility": "ELEVATED"
       },
       "valuation": {
-        "verdict": "ETH deeply undervalued vs BTC"
+        "verdict": "Constructive long-term setup"
       },
-      "updated_at": "2026-02-14T19:09:55.216734+00:00",
+      "updated_at": "2026-02-14T22:54:12.700554+00:00",
       "source": {
         "short_term": "live"
       }
@@ -70,9 +70,9 @@
         "volatility": "N/A"
       },
       "valuation": {
-        "verdict": "Snapshot only"
+        "verdict": "Insufficient data"
       },
-      "updated_at": "2026-02-14T19:09:55.218521+00:00",
+      "updated_at": "2026-02-14T22:54:12.701672+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -95,9 +95,9 @@
         "volatility": "N/A"
       },
       "valuation": {
-        "verdict": "Snapshot only"
+        "verdict": "Insufficient data"
       },
-      "updated_at": "2026-02-14T19:09:55.219857+00:00",
+      "updated_at": "2026-02-14T22:54:12.719528+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -120,9 +120,9 @@
         "volatility": "N/A"
       },
       "valuation": {
-        "verdict": "Snapshot only"
+        "verdict": "Insufficient data"
       },
-      "updated_at": "2026-02-14T19:09:55.221033+00:00",
+      "updated_at": "2026-02-14T22:54:12.725896+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -145,9 +145,9 @@
         "volatility": "N/A"
       },
       "valuation": {
-        "verdict": "Snapshot only"
+        "verdict": "Insufficient data"
       },
-      "updated_at": "2026-02-14T19:09:55.222212+00:00",
+      "updated_at": "2026-02-14T22:54:12.726909+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -170,9 +170,9 @@
         "volatility": "N/A"
       },
       "valuation": {
-        "verdict": "Snapshot only"
+        "verdict": "Insufficient data"
       },
-      "updated_at": "2026-02-14T19:09:55.223286+00:00",
+      "updated_at": "2026-02-14T22:54:12.728489+00:00",
       "source": {
         "short_term": "stooq_live"
       }
