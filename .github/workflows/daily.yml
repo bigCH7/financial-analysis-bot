@@ -1,4 +1,4 @@
-name: Daily Analysis Bot
+﻿name: Daily Analysis Bot
 
 on:
   workflow_dispatch:
@@ -27,10 +27,14 @@ jobs:
       - name: Run short-term analysis
         run: python analysis_shortterm.py
 
+      - name: Fetch cached news snapshot
+        run: python fetch_news.py
+
       - name: Commit reports
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add reports/
+          git add data/news_latest.json
           git commit -m "Update analysis reports" || echo "No changes to commit"
           git push

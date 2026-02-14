@@ -1,9 +1,11 @@
 import json
-import requests
+import time
 from datetime import datetime
 from pathlib import Path
+
 import yfinance as yf
-import time
+
+from api_utils import fetch_json_with_cache
 
 DATA_DIR = Path("data")
 DATA_DIR.mkdir(exist_ok=True)
@@ -14,6 +16,7 @@ STOCKS = ["AAPL", "MSFT", "TSLA"]
 CRYPTO = ["bitcoin", "ethereum"]
 COMMODITIES = ["GC=F", "CL=F"]  # Gold, Oil
 
+
 def fetch_stock(ticker):
     t = yf.Ticker(ticker)
     hist = t.history(period="1y")
@@ -23,20 +26,27 @@ def fetch_stock(ticker):
         "ticker": ticker,
         "info": info,
         "history": hist.reset_index().to_dict("records"),
-        "fetched_at": NOW
+        "fetched_at": NOW,
     }
+
 
 def fetch_crypto(coin):
     url = f"https://api.coingecko.com/api/v3/coins/{coin}"
-    r = requests.get(url, timeout=20)
-    data = r.json()
+    payload, source = fetch_json_with_cache(
+        url,
+        namespace="coingecko_coin",
+        cache_key=f"coin_{coin}",
+        retries=5,
+    )
     return {
         "type": "crypto",
         "id": coin,
-        "symbol": data.get("symbol"),
-        "market_data": data.get("market_data"),
-        "fetched_at": NOW
+        "symbol": payload.get("symbol"),
+        "market_data": payload.get("market_data"),
+        "fetch_source": source,
+        "fetched_at": NOW,
     }
+
 
 results = []
 
@@ -62,7 +72,7 @@ for com in COMMODITIES:
         print("Commodity error:", com, e)
 
 filename = DATA_DIR / f"raw_{datetime.utcnow().strftime('%Y%m%d')}.json"
-with open(filename, "w") as f:
+with open(filename, "w", encoding="utf-8") as f:
     json.dump(results, f, indent=2)
 
 print("Saved", filename)

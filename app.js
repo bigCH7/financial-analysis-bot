@@ -1,4 +1,4 @@
-const GLOSSARY = {
+﻿const GLOSSARY = {
   "RSI": "Relative Strength Index, a momentum indicator from 0 to 100. Above 70 is often called overbought, below 30 oversold.",
   "MA50": "50-day moving average. It smooths price data to show medium-term trend direction.",
   "MA200": "200-day moving average. A widely used long-term trend baseline.",
@@ -242,6 +242,29 @@ function renderMarketCards(shortMd, analysisLatest) {
 }
 
 async function fetchFeedItems(assetKeyword) {
+  try {
+    const snapshot = await fetchJsonWithFallback([
+      "data/news_latest.json",
+      "../data/news_latest.json"
+    ]);
+    const localItems = Array.isArray(snapshot.items) ? snapshot.items : [];
+    const normalized = localItems.map((item) => ({
+      title: item.title || "Untitled",
+      link: item.link || "#",
+      pubDate: item.pub_date || "",
+      source: item.source || "Local snapshot"
+    }));
+    const keyword = (assetKeyword || "").toLowerCase();
+    const filteredLocal = keyword
+      ? normalized.filter((item) => item.title.toLowerCase().includes(keyword))
+      : normalized;
+
+    if (filteredLocal.length) {
+      filteredLocal.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
+      return filteredLocal.slice(0, 10);
+    }
+  } catch (_) {}
+
   const items = [];
 
   for (const feed of FEED_SOURCES) {
@@ -291,7 +314,7 @@ function renderNewsList(targetId, items, fallbackAsset) {
   target.innerHTML = items.map((item) => `
     <li class="news-item">
       <a href="${item.link}" target="_blank" rel="noopener noreferrer">${item.title}</a>
-      <div class="timestamp">${item.source}${item.pubDate ? ` � ${new Date(item.pubDate).toUTCString()}` : ""}</div>
+      <div class="timestamp">${item.source}${item.pubDate ? ` • ${new Date(item.pubDate).toUTCString()}` : ""}</div>
     </li>
   `).join("");
 }
@@ -502,3 +525,4 @@ async function boot() {
 }
 
 document.addEventListener("DOMContentLoaded", boot);
+

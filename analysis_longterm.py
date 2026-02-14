@@ -1,19 +1,27 @@
-import requests
-from pathlib import Path
-from datetime import datetime
 import statistics
+from datetime import datetime
+from pathlib import Path
+
+from api_utils import fetch_json_with_cache
 
 REPORT_DIR = Path("reports")
 REPORT_DIR.mkdir(exist_ok=True)
 
 COINGECKO = "https://api.coingecko.com/api/v3"
 
+
 def get_price_history(asset, days=365):
     url = f"{COINGECKO}/coins/{asset}/market_chart"
     params = {"vs_currency": "usd", "days": days}
-    r = requests.get(url, params=params, timeout=20)
-    r.raise_for_status()
-    return [p[1] for p in r.json()["prices"]]
+    payload, source = fetch_json_with_cache(
+        url,
+        params=params,
+        namespace="coingecko_market_chart",
+        cache_key=f"{asset}_usd_{days}",
+        retries=5,
+    )
+    return [p[1] for p in payload["prices"]], source
+
 
 def valuation_bitcoin(prices):
     current = prices[-1]
@@ -42,6 +50,7 @@ The 200-day average is widely used by long-term investors to judge cycle positio
 Prices meaningfully below it historically indicate accumulation zones.
 """
 
+
 def valuation_ethereum(prices, btc_prices):
     eth_current = prices[-1]
     btc_current = btc_prices[-1]
@@ -69,28 +78,32 @@ Professional investors use it to decide when to rotate between growth (ETH)
 and defensive (BTC) exposure.
 """
 
+
 def generate_report():
-    btc_prices = get_price_history("bitcoin")
-    eth_prices = get_price_history("ethereum")
+    btc_prices, btc_source = get_price_history("bitcoin")
+    eth_prices, eth_source = get_price_history("ethereum")
 
     report = []
     report.append("# Long-Term Crypto Valuation Report\n")
     report.append(f"_Updated: {datetime.utcnow().strftime('%Y-%m-%d %H:%M UTC')}_\n")
 
     report.append("## Bitcoin (BTC)\n")
+    report.append(f"_Data source: {btc_source}_\n")
     report.append("### Valuation Analysis\n")
     report.append(valuation_bitcoin(btc_prices))
 
     report.append("\n---\n")
 
     report.append("## Ethereum (ETH)\n")
+    report.append(f"_Data source: {eth_source}_\n")
     report.append("### Valuation Analysis\n")
     report.append(valuation_ethereum(eth_prices, btc_prices))
 
     output = REPORT_DIR / "long_term_report.md"
     output.write_text("\n".join(report), encoding="utf-8")
 
-    print("✔ Long-term valuation report generated")
+    print("Long-term valuation report generated")
+
 
 if __name__ == "__main__":
     generate_report()
