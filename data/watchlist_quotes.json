@@ -1,56 +1,56 @@
 {
-  "generated_at": "2026-02-14T17:56:11.853245+00:00",
-  "source": "unavailable",
+  "generated_at": "2026-02-14T18:06:27.102602+00:00",
+  "source": "stooq_live",
   "quotes": {
     "spy": {
       "asset": "spy",
       "symbol": "SPY",
       "name": "S&P 500 ETF",
-      "price": null,
-      "change_24h_pct": null,
+      "price": 681.75,
+      "change_24h_pct": 0.00880165471108807,
       "currency": "USD",
-      "market_time": null,
-      "fetch_source": "unavailable"
+      "market_time": "2026-02-13 22:00:20",
+      "fetch_source": "stooq_live"
     },
     "qqq": {
       "asset": "qqq",
       "symbol": "QQQ",
       "name": "Nasdaq 100 ETF",
-      "price": null,
-      "change_24h_pct": null,
+      "price": 601.92,
+      "change_24h_pct": 0.24815548856653713,
       "currency": "USD",
-      "market_time": null,
-      "fetch_source": "unavailable"
+      "market_time": "2026-02-13 22:00:19",
+      "fetch_source": "stooq_live"
     },
     "nvda": {
       "asset": "nvda",
       "symbol": "NVDA",
       "name": "NVIDIA",
-      "price": null,
-      "change_24h_pct": null,
+      "price": 182.81,
+      "change_24h_pct": -2.4883317775703406,
       "currency": "USD",
-      "market_time": null,
-      "fetch_source": "unavailable"
+      "market_time": "2026-02-13 22:00:20",
+      "fetch_source": "stooq_live"
     },
     "gold": {
       "asset": "gold",
       "symbol": "GC=F",
       "name": "Gold Futures",
-      "price": null,
-      "change_24h_pct": null,
+      "price": 5032.915,
+      "change_24h_pct": 2.1059582764434204,
       "currency": "USD",
-      "market_time": null,
-      "fetch_source": "unavailable"
+      "market_time": "2026-02-13 22:00:32",
+      "fetch_source": "stooq_live"
     },
     "oil": {
       "asset": "oil",
       "symbol": "CL=F",
       "name": "Crude Oil Futures",
-      "price": null,
-      "change_24h_pct": null,
+      "price": 62.89,
+      "change_24h_pct": -0.1587553579933343,
       "currency": "USD",
-      "market_time": null,
-      "fetch_source": "unavailable"
+      "market_time": "2026-02-13 23:00:00",
+      "fetch_source": "stooq_live"
     }
   }
 }

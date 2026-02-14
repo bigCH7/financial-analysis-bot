@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-14T17:58:05.221956+00:00",
+  "generated_at": "2026-02-14T18:06:25.679902+00:00",
   "macro_markdown": "# Long-Term Crypto Valuation Report\n\n_Updated: 2026-02-14 16:53 UTC_",
   "assets": [
     {
@@ -22,7 +22,7 @@
       "valuation": {
         "verdict": "Undervalued (historically cheap)"
       },
-      "updated_at": "2026-02-14T17:58:05.211764+00:00",
+      "updated_at": "2026-02-14T18:06:25.672553+00:00",
       "source": {
         "short_term": "live"
       }
@@ -47,7 +47,7 @@
       "valuation": {
         "verdict": "ETH deeply undervalued vs BTC"
       },
-      "updated_at": "2026-02-14T17:58:05.213719+00:00",
+      "updated_at": "2026-02-14T18:06:25.673900+00:00",
       "source": {
         "short_term": "live"
       }
@@ -72,7 +72,7 @@
       "valuation": {
         "verdict": "Snapshot only"
       },
-      "updated_at": "2026-02-14T17:58:05.215707+00:00",
+      "updated_at": "2026-02-14T18:06:25.675217+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -97,7 +97,7 @@
       "valuation": {
         "verdict": "Snapshot only"
       },
-      "updated_at": "2026-02-14T17:58:05.217603+00:00",
+      "updated_at": "2026-02-14T18:06:25.676099+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -122,7 +122,7 @@
       "valuation": {
         "verdict": "Snapshot only"
       },
-      "updated_at": "2026-02-14T17:58:05.218716+00:00",
+      "updated_at": "2026-02-14T18:06:25.676971+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -147,7 +147,7 @@
       "valuation": {
         "verdict": "Snapshot only"
       },
-      "updated_at": "2026-02-14T17:58:05.219749+00:00",
+      "updated_at": "2026-02-14T18:06:25.677920+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -172,7 +172,7 @@
       "valuation": {
         "verdict": "Snapshot only"
       },
-      "updated_at": "2026-02-14T17:58:05.220839+00:00",
+      "updated_at": "2026-02-14T18:06:25.678846+00:00",
       "source": {
         "short_term": "unavailable"
       }
