@@ -226,7 +226,7 @@ def build_watchlist_payload(asset_id, meta, quotes, news):
         "details_page": meta.get("details_page"),
         "updated_at": datetime.now(UTC).isoformat(),
         "source": {
-            "short_term": quotes.get("_source", "unknown"),
+            "short_term": q.get("fetch_source") or "unknown",
             "news_generated_at": news.get("generated_at", ""),
         },
         "price": {
@@ -271,7 +271,6 @@ def build_assets():
     analysis_map = load_analysis_map()
     watchlist = load_watchlist_quotes()
     watchlist_quotes = watchlist.get("quotes", {})
-    watchlist_quotes["_source"] = watchlist.get("source", "unknown")
 
     first_asset_pos = long_md.find("\n## ")
     macro_markdown = long_md[:first_asset_pos].strip() if first_asset_pos > 0 else ""
@@ -303,3 +302,5 @@ def build_assets():
 
 if __name__ == "__main__":
     build_assets()
+
+

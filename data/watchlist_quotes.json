@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-14T17:31:24.777878+00:00",
+  "generated_at": "2026-02-14T17:56:11.853245+00:00",
   "source": "unavailable",
   "quotes": {
     "spy": {
@@ -9,7 +9,8 @@
       "price": null,
       "change_24h_pct": null,
       "currency": "USD",
-      "market_time": null
+      "market_time": null,
+      "fetch_source": "unavailable"
     },
     "qqq": {
       "asset": "qqq",
@@ -18,7 +19,8 @@
       "price": null,
       "change_24h_pct": null,
       "currency": "USD",
-      "market_time": null
+      "market_time": null,
+      "fetch_source": "unavailable"
     },
     "nvda": {
       "asset": "nvda",
@@ -27,7 +29,8 @@
       "price": null,
       "change_24h_pct": null,
       "currency": "USD",
-      "market_time": null
+      "market_time": null,
+      "fetch_source": "unavailable"
     },
     "gold": {
       "asset": "gold",
@@ -36,7 +39,8 @@
       "price": null,
       "change_24h_pct": null,
       "currency": "USD",
-      "market_time": null
+      "market_time": null,
+      "fetch_source": "unavailable"
     },
     "oil": {
       "asset": "oil",
@@ -45,7 +49,8 @@
       "price": null,
       "change_24h_pct": null,
       "currency": "USD",
-      "market_time": null
+      "market_time": null,
+      "fetch_source": "unavailable"
     }
   }
 }
