@@ -1,0 +1,118 @@
+{
+  "generated_at": "2026-02-14T17:07:19.356261+00:00",
+  "macro_markdown": "# Long-Term Crypto Valuation Report\n\n_Updated: 2026-02-14 16:53 UTC_",
+  "assets": [
+    {
+      "asset": "bitcoin",
+      "name": "Bitcoin",
+      "symbol": "BTC",
+      "price": {
+        "current_usd": 69600.0,
+        "change_24h_pct": 1.39,
+        "change_7d_pct": 0.44,
+        "change_30d_pct": -27.19
+      },
+      "indicators": {
+        "trend": "DOWNTREND",
+        "momentum": "WEAK",
+        "volatility": "ELEVATED"
+      },
+      "valuation": {
+        "verdict": "Undervalued (historically cheap)"
+      },
+      "updated_at": "2026-02-14T17:07:19.353792+00:00"
+    },
+    {
+      "asset": "ethereum",
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "price": {
+        "current_usd": 2079.0,
+        "change_24h_pct": 1.37,
+        "change_7d_pct": -0.56,
+        "change_30d_pct": -37.34
+      },
+      "indicators": {
+        "trend": "DOWNTREND",
+        "momentum": "WEAK",
+        "volatility": "ELEVATED"
+      },
+      "valuation": {
+        "verdict": "ETH deeply undervalued vs BTC"
+      },
+      "updated_at": "2026-02-14T17:07:19.355029+00:00"
+    }
+  ],
+  "overview_news": [
+    {
+      "title": "Galaxy\u2019s Steve Kurz sees \u2018great convergence\u2019 driving crypto\u2019s long-term outlook",
+      "url": "https://www.coindesk.com/business/2026/02/14/galaxy-s-steve-kurz-sees-great-convergence-driving-crypto-s-long-term-outlook",
+      "published_at": "Sat, 14 Feb 2026 16:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Bitcoin claws back to $70,000 on cooling inflation after $8.7 billion wipeout",
+      "url": "https://www.coindesk.com/markets/2026/02/14/bitcoin-claws-back-to-usd70-000-on-cooling-inflation-after-usd8-7-billion-wipeout",
+      "published_at": "Sat, 14 Feb 2026 12:04:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Trump-linked Truth Social seeks SEC approval for two crypto ETFs",
+      "url": "https://www.coindesk.com/markets/2026/02/13/trump-linked-truth-social-seeks-sec-approval-for-two-crypto-etfs",
+      "published_at": "Fri, 13 Feb 2026 20:45:28 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Crypto group counters Wall Street bankers with its own stablecoin principles for bill",
+      "url": "https://www.coindesk.com/policy/2026/02/13/crypto-group-counters-wall-street-bankers-with-its-own-stablecoin-principles-for-bill",
+      "published_at": "Fri, 13 Feb 2026 19:25:19 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Wall Street analysts slash Coinbase price targets after Q4 miss \u2014 but shares rally",
+      "url": "https://www.coindesk.com/markets/2026/02/13/wall-street-analysts-slash-coinbase-price-targets-after-q4-miss-but-shares-still-rally",
+      "published_at": "Fri, 13 Feb 2026 16:22:43 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "U.S.-based DeFi group urges UK FCA to anchor crypto rules to 'unilateral control'",
+      "url": "https://www.coindesk.com/policy/2026/02/13/u-s-based-defi-advocacy-group-urges-uk-fca-to-anchor-crypto-rules-to-unilateral-control",
+      "published_at": "Fri, 13 Feb 2026 15:19:34 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Ethereum Foundation leadership shake-up: Tomasz Sta\u0144czak out as co-executive director",
+      "url": "https://www.coindesk.com/tech/2026/02/13/ethereum-foundation-leadership-shake-up-tomasz-stanczak-out-as-co-executive-director",
+      "published_at": "Fri, 13 Feb 2026 15:07:59 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "CoinDesk 20 performance update: Uniswap (UNI) jumps 5.4%, leading index higher",
+      "url": "https://www.coindesk.com/coindesk-indices/2026/02/13/coindesk-20-performance-update-uniswap-uni-jumps-5-4-leading-index-higher",
+      "published_at": "Fri, 13 Feb 2026 14:21:31 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Crypto market wobbles as investors ignore good news, look for \u2018exit ramp\u2019",
+      "url": "https://www.coindesk.com/daybook-us/2026/02/13/crypto-market-wobbles-as-investors-ignore-good-news-look-for-the-exit-ramp",
+      "published_at": "Fri, 13 Feb 2026 12:38:13 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Ark Invest buys $18 million of crypto stocks including 10th consecutive Bullish purchase",
+      "url": "https://www.coindesk.com/markets/2026/02/13/ark-invest-buys-usd18-million-of-crypto-stocks-including-10th-consecutive-bullish-purchase",
+      "published_at": "Fri, 13 Feb 2026 12:13:07 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "asset": "ethereum",
+  "name": "Ethereum",
+  "symbol": "ETH",
+  "updated_at": "2026-02-14T17:07:19.355029+00:00",
+  "source": {
+    "short_term": "live",
+    "news_generated_at": "2026-02-14 16:53 UTC"
+  },
+  "price": {
+    "current_usd": 2079.0,
+    "change_24h_pct": 1.37,
+    "change_7d_pct": -0.56,
+    "change_30d_pct": -37.34
+  },
+  "indicators": {
+    "trend": "DOWNTREND",
+    "momentum": "WEAK",
+    "volatility": "ELEVATED"
+  },
+  "valuation": {
+    "verdict": "ETH deeply undervalued vs BTC",
+    "long_term_markdown": "## Ethereum (ETH)\n\n_Data source: live_\n\n### Valuation Analysis\n\n\nETH/BTC Relative Valuation:\n- ETH price: $2,079\n- BTC price: $69,600\n- ETH/BTC ratio: 0.0299\n\nRelative valuation verdict:\nETH deeply undervalued vs BTC\n\nInterpretation:\nETH/BTC is a key capital-rotation metric.\nProfessional investors use it to decide when to rotate between growth (ETH)\nand defensive (BTC) exposure."
+  },
+  "analysis_markdown": "## Ethereum (ETH)\n\n_Data source: live_\n\n### Valuation Analysis\n\n\nETH/BTC Relative Valuation:\n- ETH price: $2,079\n- BTC price: $69,600\n- ETH/BTC ratio: 0.0299\n\nRelative valuation verdict:\nETH deeply undervalued vs BTC\n\nInterpretation:\nETH/BTC is a key capital-rotation metric.\nProfessional investors use it to decide when to rotate between growth (ETH)\nand defensive (BTC) exposure.\n\n---\n\n### Short-Term Context\n\n## Ethereum (ETH)\n\n- **Current price:** $2,079\n- **7D change:** -0.56%\n- **30D change:** -37.34%\n- **Trend:** **DOWNTREND**\n- **Momentum:** **WEAK**\n- **Volatility:** **ELEVATED**\n- **Data source:** live",
+  "news": [
+    {
+      "title": "Ethereum Foundation leadership shake-up: Tomasz Sta\u0144czak out as co-executive director",
+      "url": "https://www.coindesk.com/tech/2026/02/13/ethereum-foundation-leadership-shake-up-tomasz-stanczak-out-as-co-executive-director",
+      "published_at": "Fri, 13 Feb 2026 15:07:59 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    }
+  ]
+}

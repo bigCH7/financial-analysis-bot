@@ -1,0 +1,105 @@
+{
+  "asset": "bitcoin",
+  "name": "Bitcoin",
+  "symbol": "BTC",
+  "updated_at": "2026-02-14T17:07:19.353792+00:00",
+  "source": {
+    "short_term": "live",
+    "news_generated_at": "2026-02-14 16:53 UTC"
+  },
+  "price": {
+    "current_usd": 69600.0,
+    "change_24h_pct": 1.39,
+    "change_7d_pct": 0.44,
+    "change_30d_pct": -27.19
+  },
+  "indicators": {
+    "trend": "DOWNTREND",
+    "momentum": "WEAK",
+    "volatility": "ELEVATED"
+  },
+  "valuation": {
+    "verdict": "Undervalued (historically cheap)",
+    "long_term_markdown": "## Bitcoin (BTC)\n\n_Data source: live_\n\n### Valuation Analysis\n\n\nPrice vs 200D Average:\n- Current price: $69,600\n- 200D average: $100,806\n- Ratio: 0.69\n\nValuation verdict:\nUndervalued (historically cheap)\n\nInterpretation:\nThe 200-day average is widely used by long-term investors to judge cycle positioning.\nPrices meaningfully below it historically indicate accumulation zones."
+  },
+  "analysis_markdown": "## Bitcoin (BTC)\n\n_Data source: live_\n\n### Valuation Analysis\n\n\nPrice vs 200D Average:\n- Current price: $69,600\n- 200D average: $100,806\n- Ratio: 0.69\n\nValuation verdict:\nUndervalued (historically cheap)\n\nInterpretation:\nThe 200-day average is widely used by long-term investors to judge cycle positioning.\nPrices meaningfully below it historically indicate accumulation zones.\n\n---\n\n### Short-Term Context\n\n## Bitcoin (BTC)\n\n- **Current price:** $69,600\n- **7D change:** 0.44%\n- **30D change:** -27.19%\n- **Trend:** **DOWNTREND**\n- **Momentum:** **WEAK**\n- **Volatility:** **ELEVATED**\n- **Data source:** live",
+  "news": [
+    {
+      "title": "Bitcoin claws back to $70,000 on cooling inflation after $8.7 billion wipeout",
+      "url": "https://www.coindesk.com/markets/2026/02/14/bitcoin-claws-back-to-usd70-000-on-cooling-inflation-after-usd8-7-billion-wipeout",
+      "published_at": "Sat, 14 Feb 2026 12:04:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Bitcoin, ether little changed before U.S. inflation report",
+      "url": "https://www.coindesk.com/markets/2026/02/13/bitcoin-ether-little-changed-before-u-s-inflation-report",
+      "published_at": "Fri, 13 Feb 2026 11:51:20 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "PGI Global CEO handed 20-year sentence for $200 million bitcoin, forex Ponzi scheme",
+      "url": "https://www.coindesk.com/policy/2026/02/13/pgi-global-ceo-gets-20-years-sentence-over-usd200-million-bitcoin-ponzi-scheme",
+      "published_at": "Fri, 13 Feb 2026 10:59:32 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Bitcoin\u2019s long-term rally is \u2018broken\u2019 until it reclaims $85,000, Deribit executive says",
+      "url": "https://www.coindesk.com/markets/2026/02/13/bitcoin-s-long-term-rally-is-broken-until-it-reclaims-usd85-000-deribit-executive-says",
+      "published_at": "Fri, 13 Feb 2026 10:19:13 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Bitcoin tumbles back near last week's lows as AI fears crush tech and precious metals plunge",
+      "url": "https://www.coindesk.com/markets/2026/02/12/bitcoin-tumbles-back-near-last-week-s-lows-as-ai-fears-crush-tech-and-precious-metals-plunge",
+      "published_at": "Thu, 12 Feb 2026 20:54:39 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Ark Invest's Cathie Wood says bitcoin will thrive amid \u2018deflationary chaos\u2019 created by AI and innovation",
+      "url": "https://www.coindesk.com/markets/2026/02/12/ark-invest-s-cathie-wood-says-bitcoin-will-thrive-amid-deflationary-chaos-created-by-ai-and-innovation",
+      "published_at": "Thu, 12 Feb 2026 17:42:28 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Bitcoin sinks below $66,000 as crypto prices follow U.S. stocks lower",
+      "url": "https://www.coindesk.com/markets/2026/02/12/bitcoin-sinks-below-usd67-000-with-crypto-prices-following-u-s-stocks-lower",
+      "published_at": "Thu, 12 Feb 2026 16:45:52 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Trump Media files for two new crypto ETFs tied to Bitcoin, Ether, Cronos",
+      "url": "https://cointelegraph.com/news/trump-media-files-crypto-etfs-bitcoin-ether-cronos-sec?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "Sat, 14 Feb 2026 07:47:53 +0000",
+      "source": "Cointelegraph",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Bitcoin holders are being tested as inflation eases: Pompliano",
+      "url": "https://cointelegraph.com/news/bitcoin-holders-inflation-data-valuation-us-dollar-anthony-pompliano?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "Sat, 14 Feb 2026 03:38:20 +0000",
+      "source": "Cointelegraph",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Digital gold or tech stock? Bitcoin\u2019s identity crisis deepens",
+      "url": "https://cointelegraph.com/news/digital-gold-or-tech-stock-bitcoin-s-identity-crisis-deepens?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "Fri, 13 Feb 2026 20:00:00 +0000",
+      "source": "Cointelegraph",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Bitcoin bulls blitz $69K as retail traders pressure short positioning",
+      "url": "https://cointelegraph.com/news/bitcoin-bulls-blitz-dollar69k-as-retail-traders-pressure-short-positioning?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "Fri, 13 Feb 2026 19:21:46 +0000",
+      "source": "Cointelegraph",
+      "fetch_source": "live"
+    }
+  ]
+}

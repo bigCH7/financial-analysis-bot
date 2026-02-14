@@ -1,6 +1,6 @@
 # Long-Term Crypto Valuation Report
 
-_Updated: 2026-02-14 16:47 UTC_
+_Updated: 2026-02-14 16:53 UTC_
 
 ## Bitcoin (BTC)
 
@@ -10,8 +10,8 @@ _Data source: live_
 
 
 Price vs 200D Average:
-- Current price: $69,574
-- 200D average: $100,805
+- Current price: $69,600
+- 200D average: $100,806
 - Ratio: 0.69
 
 Valuation verdict:
@@ -32,8 +32,8 @@ _Data source: live_
 
 
 ETH/BTC Relative Valuation:
-- ETH price: $2,077
-- BTC price: $69,574
+- ETH price: $2,079
+- BTC price: $69,600
 - ETH/BTC ratio: 0.0299
 
 Relative valuation verdict:

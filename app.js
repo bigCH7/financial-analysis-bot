@@ -2,90 +2,69 @@
   "RSI": "Relative Strength Index, a momentum indicator from 0 to 100. Above 70 is often called overbought, below 30 oversold.",
   "MA50": "50-day moving average. It smooths price data to show medium-term trend direction.",
   "MA200": "200-day moving average. A widely used long-term trend baseline.",
-  "200-day average": "Average closing price over the last 200 days. Often used to judge long-cycle valuation.",
-  "ETH/BTC ratio": "Ethereum price divided by Bitcoin price. It tracks whether ETH is outperforming or underperforming BTC.",
-  "market cap": "Total value of an asset supply at current price. Formula: price x circulating supply.",
-  "volatility": "How fast and how far price moves over time. Higher volatility means larger swings.",
-  "Bullish": "Expectation that price trend is likely to continue upward.",
-  "Bearish": "Expectation that price trend is likely to continue downward.",
-  "Undervalued": "Price appears low relative to selected valuation benchmarks.",
-  "Overextended": "Price has moved far above trend or valuation norms and may be at higher pullback risk.",
-  "overbought": "A condition where momentum is very strong and price may be stretched in the short term.",
-  "oversold": "A condition where momentum is very weak and price may be stretched to the downside.",
-  "support": "A price area where buying has historically been strong enough to slow declines.",
-  "resistance": "A price area where selling has historically been strong enough to slow advances."
+  "200-day average": "Average closing price over the last 200 days. Often used to judge cycle positioning.",
+  "ETH/BTC ratio": "Ethereum price divided by Bitcoin price. It tracks ETH strength relative to BTC.",
+  "market cap": "Total value of an asset supply at current price.",
+  "volatility": "How fast and how far price moves over time.",
+  "Bullish": "Expectation that trend is likely upward.",
+  "Bearish": "Expectation that trend is likely downward.",
+  "Undervalued": "Price appears low relative to chosen benchmarks.",
+  "Overextended": "Price appears stretched versus trend and may face pullback risk.",
+  "overbought": "Momentum is very strong and short-term reversal risk can rise.",
+  "oversold": "Momentum is very weak and rebound potential can increase.",
+  "support": "A level where buying has often slowed declines.",
+  "resistance": "A level where selling has often slowed advances."
 };
-
-const FEED_SOURCES = [
-  { name: "CoinDesk", url: "https://www.coindesk.com/arc/outboundfeeds/rss/" },
-  { name: "Cointelegraph", url: "https://cointelegraph.com/rss" }
-];
 
 function escapeRegExp(text) {
   return text.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-}
-
-async function fetchTextWithFallback(paths) {
-  for (const path of paths) {
-    try {
-      const res = await fetch(path, { cache: "no-store" });
-      if (res.ok) {
-        return await res.text();
-      }
-    } catch (_) {}
-  }
-  throw new Error("Unable to load text from fallback paths.");
 }
 
 async function fetchJsonWithFallback(paths) {
   for (const path of paths) {
     try {
       const res = await fetch(path, { cache: "no-store" });
-      if (res.ok) {
-        return await res.json();
-      }
+      if (res.ok) return await res.json();
     } catch (_) {}
   }
   throw new Error("Unable to load JSON from fallback paths.");
 }
 
-function extractSection(markdown, heading) {
-  const marker = `## ${heading}`;
-  const start = markdown.indexOf(marker);
-  if (start === -1) {
-    return "";
-  }
-
-  const rest = markdown.slice(start);
-  const next = rest.indexOf("\n## ", marker.length);
-  return (next === -1 ? rest : rest.slice(0, next)).trim();
-}
-
-function getLineValue(section, label) {
-  const pattern = new RegExp(`- \\*\\*${escapeRegExp(label)}:\\*\\*\\s*([^\\n]+)`, "i");
-  const match = section.match(pattern);
-  return match ? match[1].trim() : "N/A";
-}
-
-function formatPctClass(valueText) {
-  if (valueText.startsWith("-")) return "metric-negative";
-  if (valueText.startsWith("+")) return "metric-positive";
-  if (valueText.startsWith("0") || valueText.startsWith("N")) return "";
-  return "metric-positive";
-}
-
 function markdownToHtml(markdown) {
   if (window.marked && typeof window.marked.parse === "function") {
-    return window.marked.parse(markdown);
+    return window.marked.parse(markdown || "");
   }
-  return `<pre>${markdown}</pre>`;
+  return `<pre>${markdown || ""}</pre>`;
+}
+
+function pctClass(value) {
+  if (value == null || Number.isNaN(value)) return "";
+  if (value < 0) return "metric-negative";
+  if (value > 0) return "metric-positive";
+  return "";
+}
+
+function fmtPct(value) {
+  if (value == null || Number.isNaN(value)) return "N/A";
+  return `${value > 0 ? "+" : ""}${value.toFixed(2)}%`;
+}
+
+function fmtPrice(value) {
+  if (value == null || Number.isNaN(value)) return "N/A";
+  return `$${Number(value).toLocaleString(undefined, { maximumFractionDigits: 2 })}`;
+}
+
+function setActiveTab() {
+  const page = document.body.dataset.page;
+  document.querySelectorAll(".tab").forEach((tab) => {
+    if (tab.dataset.page === page) tab.classList.add("active");
+  });
 }
 
 function showGlossary(term, definition) {
-  const modal = document.getElementById("glossary-modal");
   document.getElementById("glossary-title").textContent = term;
   document.getElementById("glossary-body").textContent = definition;
-  modal.classList.remove("hidden");
+  document.getElementById("glossary-modal").classList.remove("hidden");
 }
 
 function initGlossary() {
@@ -98,7 +77,6 @@ function initGlossary() {
       </div>
     </div>
   `;
-
   document.body.insertAdjacentHTML("beforeend", modalHtml);
 
   document.addEventListener("click", (event) => {
@@ -117,6 +95,8 @@ function initGlossary() {
 
 function highlightTerms(container) {
   const terms = Object.keys(GLOSSARY).sort((a, b) => b.length - a.length);
+  if (!terms.length) return;
+
   const lowerToCanonical = new Map(terms.map((term) => [term.toLowerCase(), term]));
   const pattern = new RegExp(`\\b(${terms.map(escapeRegExp).join("|")})\\b`, "gi");
 
@@ -132,9 +112,7 @@ function highlightTerms(container) {
   });
 
   const textNodes = [];
-  while (walker.nextNode()) {
-    textNodes.push(walker.currentNode);
-  }
+  while (walker.nextNode()) textNodes.push(walker.currentNode);
 
   for (const node of textNodes) {
     const text = node.nodeValue;
@@ -148,9 +126,7 @@ function highlightTerms(container) {
     while (match) {
       const found = match[0];
       const start = match.index;
-      if (start > cursor) {
-        frag.appendChild(document.createTextNode(text.slice(cursor, start)));
-      }
+      if (start > cursor) frag.appendChild(document.createTextNode(text.slice(cursor, start)));
 
       const canonical = lowerToCanonical.get(found.toLowerCase()) || found;
       const btn = document.createElement("button");
@@ -164,148 +140,32 @@ function highlightTerms(container) {
       match = pattern.exec(text);
     }
 
-    if (cursor < text.length) {
-      frag.appendChild(document.createTextNode(text.slice(cursor)));
-    }
-
+    if (cursor < text.length) frag.appendChild(document.createTextNode(text.slice(cursor)));
     node.parentNode.replaceChild(frag, node);
   }
 }
 
-function setActiveTab() {
-  const page = document.body.dataset.page;
-  document.querySelectorAll(".tab").forEach((tab) => {
-    if (tab.dataset.page === page) {
-      tab.classList.add("active");
-    }
-  });
-}
-
 function renderMetricPill(text) {
-  const cls = text.includes("UP") || text.includes("BULL") || text.includes("POSITIVE")
+  if (!text) return "";
+  const upper = text.toUpperCase();
+  const cls = upper.includes("UP") || upper.includes("STRONG")
     ? "pill good"
-    : text.includes("DOWN") || text.includes("WEAK") || text.includes("ELEVATED")
+    : upper.includes("DOWN") || upper.includes("WEAK") || upper.includes("ELEVATED")
       ? "pill warning"
       : "pill";
   return `<span class="${cls}">${text}</span>`;
-}
-
-function renderMarketCards(shortMd, analysisLatest) {
-  const btcSection = extractSection(shortMd, "Bitcoin (BTC)");
-  const ethSection = extractSection(shortMd, "Ethereum (ETH)");
-
-  const btc = analysisLatest.find((row) => row.asset === "bitcoin") || {};
-  const eth = analysisLatest.find((row) => row.asset === "ethereum") || {};
-
-  const cards = [
-    {
-      id: "bitcoin",
-      title: "Bitcoin",
-      symbol: "BTC",
-      section: btcSection,
-      fallbackPrice: btc.price
-    },
-    {
-      id: "ethereum",
-      title: "Ethereum",
-      symbol: "ETH",
-      section: ethSection,
-      fallbackPrice: eth.price
-    }
-  ];
-
-  return cards.map((card) => {
-    const price = getLineValue(card.section, "Current price");
-    const change7 = getLineValue(card.section, "7D change");
-    const trend = getLineValue(card.section, "Trend");
-    const momentum = getLineValue(card.section, "Momentum");
-    const volatility = getLineValue(card.section, "Volatility");
-
-    const priceView = price === "N/A" && card.fallbackPrice
-      ? `$${Number(card.fallbackPrice).toLocaleString()}`
-      : price;
-
-    return `
-      <article class="card">
-        <h3>${card.title} (${card.symbol})</h3>
-        <div class="metric">${priceView}</div>
-        <p class="muted">7D change: <span class="${formatPctClass(change7)}">${change7}</span></p>
-        <div class="pill-row">
-          ${renderMetricPill(trend)}
-          ${renderMetricPill(momentum)}
-          ${renderMetricPill(volatility)}
-        </div>
-        <p><a class="tab" href="${card.id === "bitcoin" ? "btc.html" : "eth.html"}">Open ${card.symbol}</a></p>
-      </article>
-    `;
-  }).join("");
-}
-
-async function fetchFeedItems(assetKeyword) {
-  try {
-    const snapshot = await fetchJsonWithFallback([
-      "data/news_latest.json",
-      "../data/news_latest.json"
-    ]);
-    const localItems = Array.isArray(snapshot.items) ? snapshot.items : [];
-    const normalized = localItems.map((item) => ({
-      title: item.title || "Untitled",
-      link: item.link || "#",
-      pubDate: item.pub_date || "",
-      source: item.source || "Local snapshot"
-    }));
-    const keyword = (assetKeyword || "").toLowerCase();
-    const filteredLocal = keyword
-      ? normalized.filter((item) => item.title.toLowerCase().includes(keyword))
-      : normalized;
-
-    if (filteredLocal.length) {
-      filteredLocal.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
-      return filteredLocal.slice(0, 10);
-    }
-  } catch (_) {}
-
-  const items = [];
-
-  for (const feed of FEED_SOURCES) {
-    const endpoint = `https://api.allorigins.win/raw?url=${encodeURIComponent(feed.url)}`;
-
-    try {
-      const response = await fetch(endpoint, { cache: "no-store" });
-      if (!response.ok) continue;
-      const xml = await response.text();
-      const doc = new DOMParser().parseFromString(xml, "application/xml");
-      const rows = Array.from(doc.querySelectorAll("item"));
-
-      for (const row of rows) {
-        const title = row.querySelector("title")?.textContent?.trim() || "Untitled";
-        const link = row.querySelector("link")?.textContent?.trim() || "#";
-        const pubDate = row.querySelector("pubDate")?.textContent?.trim() || "";
-        const lower = `${title}`.toLowerCase();
-
-        if (assetKeyword && !lower.includes(assetKeyword)) {
-          continue;
-        }
-
-        items.push({ title, link, pubDate, source: feed.name });
-      }
-    } catch (_) {}
-  }
-
-  items.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
-  return items.slice(0, 10);
 }
 
 function renderNewsList(targetId, items, fallbackAsset) {
   const target = document.getElementById(targetId);
   if (!target) return;
 
-  if (!items.length) {
+  if (!items || !items.length) {
     const query = fallbackAsset ? `${fallbackAsset} crypto` : "bitcoin ethereum crypto";
     target.innerHTML = `
       <li class="news-item">
-        <p class="muted">Live feeds unavailable right now.</p>
-        <a href="https://news.google.com/search?q=${encodeURIComponent(query)}" target="_blank" rel="noopener noreferrer">Open live search on Google News</a>
+        <p class="muted">News snapshot unavailable right now.</p>
+        <a href="https://news.google.com/search?q=${encodeURIComponent(query)}" target="_blank" rel="noopener noreferrer">Open Google News search</a>
       </li>
     `;
     return;
@@ -313,8 +173,8 @@ function renderNewsList(targetId, items, fallbackAsset) {
 
   target.innerHTML = items.map((item) => `
     <li class="news-item">
-      <a href="${item.link}" target="_blank" rel="noopener noreferrer">${item.title}</a>
-      <div class="timestamp">${item.source}${item.pubDate ? ` • ${new Date(item.pubDate).toUTCString()}` : ""}</div>
+      <a href="${item.url || item.link || '#'}" target="_blank" rel="noopener noreferrer">${item.title || "Untitled"}</a>
+      <div class="timestamp">${item.source || "Unknown"}${(item.published_at || item.pubDate) ? ` • ${new Date(item.published_at || item.pubDate).toUTCString()}` : ""}</div>
     </li>
   `).join("");
 }
@@ -378,28 +238,21 @@ async function drawAssetChart(assetId, canvasId) {
   ctx.lineWidth = 2.5;
   ctx.strokeStyle = "#7655d9";
   ctx.stroke();
-
-  ctx.fillStyle = "#6d6480";
-  ctx.font = "12px Poppins, sans-serif";
-  ctx.fillText(`30D range: $${min.toLocaleString(undefined, { maximumFractionDigits: 0 })} - $${max.toLocaleString(undefined, { maximumFractionDigits: 0 })}`, pad, 18);
 }
 
 async function setLivePrice(assetId, targetId) {
   const target = document.getElementById(targetId);
   if (!target) return;
 
-  const url = `https://api.coingecko.com/api/v3/simple/price?ids=${assetId}&vs_currencies=usd&include_24hr_change=true`;
-
   try {
+    const url = `https://api.coingecko.com/api/v3/simple/price?ids=${assetId}&vs_currencies=usd&include_24hr_change=true`;
     const res = await fetch(url, { cache: "no-store" });
     if (!res.ok) return;
     const data = await res.json();
     const row = data[assetId];
     if (!row) return;
-    const price = Number(row.usd || 0).toLocaleString();
     const pct = Number(row.usd_24h_change || 0);
-    const pctText = `${pct >= 0 ? "+" : ""}${pct.toFixed(2)}%`;
-    target.innerHTML = `$${price} <span class="${pct >= 0 ? "metric-positive" : "metric-negative"}">(${pctText} 24h)</span>`;
+    target.innerHTML = `${fmtPrice(row.usd)} <span class="${pctClass(pct)}">(${fmtPct(pct)} 24h)</span>`;
   } catch (_) {}
 }
 
@@ -415,83 +268,106 @@ function setupAccordion(buttonId, sectionId) {
   });
 }
 
-async function initOverviewPage() {
-  const [longTerm, shortTerm, latestJson] = await Promise.all([
-    fetchTextWithFallback(["reports/long_term_report.md", "../reports/long_term_report.md"]),
-    fetchTextWithFallback(["reports/short_term.md", "../reports/short_term.md"]),
-    fetchJsonWithFallback(["data/analysis_latest.json", "../data/analysis_latest.json"])
-  ]);
-
-  const firstAsset = longTerm.indexOf("\n## ");
-  const macro = firstAsset > 0 ? longTerm.slice(0, firstAsset) : longTerm;
-
-  const macroContainer = document.getElementById("macro-content");
-  macroContainer.innerHTML = markdownToHtml(macro.trim());
-  highlightTerms(macroContainer);
-
-  document.getElementById("asset-cards").innerHTML = renderMarketCards(shortTerm, latestJson);
-
-  const newsItems = await fetchFeedItems("");
-  renderNewsList("overview-news", newsItems, "crypto market");
+function renderAssetCards(assets) {
+  return assets.map((asset) => {
+    const href = asset.asset === "bitcoin" ? "btc.html" : "eth.html";
+    const price = fmtPrice(asset.price?.current_usd);
+    const p7 = asset.price?.change_7d_pct;
+    return `
+      <article class="card">
+        <h3>${asset.name} (${asset.symbol})</h3>
+        <div class="metric">${price}</div>
+        <p class="muted">7D change: <span class="${pctClass(p7)}">${fmtPct(p7)}</span></p>
+        <div class="pill-row">
+          ${renderMetricPill(asset.indicators?.trend || "")}
+          ${renderMetricPill(asset.indicators?.momentum || "")}
+          ${renderMetricPill(asset.indicators?.volatility || "")}
+        </div>
+        <p><a class="tab" href="${href}">Open ${asset.symbol}</a></p>
+      </article>
+    `;
+  }).join("");
 }
 
-async function initAssetPage(assetId, heading) {
-  const [longTerm, shortTerm] = await Promise.all([
-    fetchTextWithFallback(["reports/long_term_report.md", "../reports/long_term_report.md"]),
-    fetchTextWithFallback(["reports/short_term.md", "../reports/short_term.md"])
+async function getIndexPayload() {
+  return fetchJsonWithFallback([
+    "data/assets/index.json",
+    "../data/assets/index.json"
   ]);
+}
 
-  const longSection = extractSection(longTerm, heading);
-  const shortSection = extractSection(shortTerm, heading);
+async function getAssetPayload(assetId) {
+  return fetchJsonWithFallback([
+    `data/assets/${assetId}.json`,
+    `../data/assets/${assetId}.json`
+  ]);
+}
+
+async function initOverviewPage() {
+  const payload = await getIndexPayload();
+  const macroContainer = document.getElementById("macro-content");
+  macroContainer.innerHTML = markdownToHtml(payload.macro_markdown || "");
+  highlightTerms(macroContainer);
+
+  document.getElementById("asset-cards").innerHTML = renderAssetCards(payload.assets || []);
+  renderNewsList("overview-news", payload.overview_news || [], "crypto market");
+}
+
+async function initAssetPage(assetId) {
+  const payload = await getAssetPayload(assetId);
 
   const summary = document.getElementById("asset-summary");
-  const price = getLineValue(shortSection, "Current price");
-  const change7 = getLineValue(shortSection, "7D change");
-  const change30 = getLineValue(shortSection, "30D change");
-  const trend = getLineValue(shortSection, "Trend");
-  const momentum = getLineValue(shortSection, "Momentum");
-  const volatility = getLineValue(shortSection, "Volatility");
+  const p7 = payload.price?.change_7d_pct;
+  const p30 = payload.price?.change_30d_pct;
 
   summary.innerHTML = `
-    <p class="metric" id="live-price">${price}</p>
-    <p class="muted">7D: <span class="${formatPctClass(change7)}">${change7}</span> | 30D: <span class="${formatPctClass(change30)}">${change30}</span></p>
+    <p class="metric" id="live-price">${fmtPrice(payload.price?.current_usd)}</p>
+    <p class="muted">7D: <span class="${pctClass(p7)}">${fmtPct(p7)}</span> | 30D: <span class="${pctClass(p30)}">${fmtPct(p30)}</span></p>
     <div class="pill-row">
-      ${renderMetricPill(trend)}
-      ${renderMetricPill(momentum)}
-      ${renderMetricPill(volatility)}
+      ${renderMetricPill(payload.indicators?.trend || "")}
+      ${renderMetricPill(payload.indicators?.momentum || "")}
+      ${renderMetricPill(payload.indicators?.volatility || "")}
+      ${payload.valuation?.verdict ? `<span class="pill">${payload.valuation.verdict}</span>` : ""}
     </div>
   `;
 
-  const analysisContainer = document.getElementById("analysis-content");
-  const merged = `${longSection}\n\n---\n\n### Short-Term Context\n\n${shortSection}`;
-  analysisContainer.innerHTML = markdownToHtml(merged);
-  highlightTerms(analysisContainer);
+  const analysis = document.getElementById("analysis-content");
+  analysis.innerHTML = markdownToHtml(payload.analysis_markdown || "No analysis available.");
+  highlightTerms(analysis);
 
   setupAccordion("analysis-toggle", "analysis-content");
   await drawAssetChart(assetId, "price-chart");
   await setLivePrice(assetId, "live-price");
   setInterval(() => setLivePrice(assetId, "live-price"), 60000);
 
-  const keyword = assetId === "bitcoin" ? "bitcoin" : "ethereum";
-  const newsItems = await fetchFeedItems(keyword);
-  renderNewsList("asset-news", newsItems, keyword);
+  renderNewsList("asset-news", payload.news || [], assetId);
 }
 
 async function initNewsPage() {
-  const allNews = await fetchFeedItems("");
-  renderNewsList("news-results", allNews, "crypto market");
+  try {
+    const payload = await getIndexPayload();
+    const all = payload.overview_news || [];
+    renderNewsList("news-results", all, "crypto market");
 
-  const buttons = document.querySelectorAll("[data-filter]");
-  buttons.forEach((btn) => {
-    btn.addEventListener("click", async () => {
-      buttons.forEach((b) => b.classList.remove("active"));
-      btn.classList.add("active");
-      const filter = btn.dataset.filter;
-      const keyword = filter === "all" ? "" : filter;
-      const filtered = await fetchFeedItems(keyword);
-      renderNewsList("news-results", filtered, keyword || "crypto market");
+    const buttons = document.querySelectorAll("[data-filter]");
+    buttons.forEach((btn) => {
+      btn.addEventListener("click", async () => {
+        buttons.forEach((b) => b.classList.remove("active"));
+        btn.classList.add("active");
+        const filter = btn.dataset.filter;
+
+        if (filter === "all") {
+          renderNewsList("news-results", all, "crypto market");
+          return;
+        }
+
+        const asset = await getAssetPayload(filter);
+        renderNewsList("news-results", asset.news || [], filter);
+      });
     });
-  });
+  } catch (_) {
+    renderNewsList("news-results", [], "crypto market");
+  }
 }
 
 async function boot() {
@@ -499,30 +375,16 @@ async function boot() {
   initGlossary();
 
   const page = document.body.dataset.page;
-
   try {
-    if (page === "overview") {
-      await initOverviewPage();
-    }
-
-    if (page === "btc") {
-      await initAssetPage("bitcoin", "Bitcoin (BTC)");
-    }
-
-    if (page === "eth") {
-      await initAssetPage("ethereum", "Ethereum (ETH)");
-    }
-
-    if (page === "news") {
-      await initNewsPage();
-    }
-  } catch (error) {
-    const errorTargets = document.querySelectorAll("[data-error-target]");
-    errorTargets.forEach((el) => {
-      el.textContent = "Unable to load fresh data right now. Please refresh in a minute.";
+    if (page === "overview") await initOverviewPage();
+    if (page === "btc") await initAssetPage("bitcoin");
+    if (page === "eth") await initAssetPage("ethereum");
+    if (page === "news") await initNewsPage();
+  } catch (_) {
+    document.querySelectorAll("[data-error-target]").forEach((el) => {
+      el.textContent = "Unable to load normalized data snapshot. Please refresh soon.";
     });
   }
 }
 
 document.addEventListener("DOMContentLoaded", boot);
-
