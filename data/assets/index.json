@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-14T17:07:19.356261+00:00",
+  "generated_at": "2026-02-14T17:14:17.821378+00:00",
   "macro_markdown": "# Long-Term Crypto Valuation Report\n\n_Updated: 2026-02-14 16:53 UTC_",
   "assets": [
     {
@@ -20,7 +20,10 @@
       "valuation": {
         "verdict": "Undervalued (historically cheap)"
       },
-      "updated_at": "2026-02-14T17:07:19.353792+00:00"
+      "updated_at": "2026-02-14T17:14:17.819131+00:00",
+      "source": {
+        "short_term": "live"
+      }
     },
     {
       "asset": "ethereum",
@@ -40,7 +43,10 @@
       "valuation": {
         "verdict": "ETH deeply undervalued vs BTC"
       },
-      "updated_at": "2026-02-14T17:07:19.355029+00:00"
+      "updated_at": "2026-02-14T17:14:17.820247+00:00",
+      "source": {
+        "short_term": "live"
+      }
     }
   ],
   "overview_news": [

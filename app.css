@@ -318,3 +318,22 @@ a {
     font-size: 1.6rem;
   }
 }
+.meta-row {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.meta-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 9px;
+  border-radius: 999px;
+  background: #f9f4ff;
+  border: 1px solid #e6dafd;
+  color: var(--muted);
+  font-size: 0.78rem;
+  line-height: 1;
+}

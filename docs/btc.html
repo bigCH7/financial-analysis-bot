@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -34,10 +34,12 @@
     <section class="grid grid-2">
       <article class="card">
         <h2>Technical Snapshot</h2>
+        <div id="asset-summary-meta" class="meta-row"></div>
         <div id="asset-summary" data-error-target>Loading BTC metrics...</div>
       </article>
       <article class="card">
         <h2>30-Day Price Trend</h2>
+        <div id="asset-chart-meta" class="meta-row"></div>
         <div class="chart-wrap">
           <canvas id="price-chart"></canvas>
         </div>
@@ -47,11 +49,13 @@
     <section class="grid grid-2" style="margin-top: 16px;">
       <article class="card">
         <h2>Long + Short Analysis</h2>
+        <div id="asset-analysis-meta" class="meta-row"></div>
         <button id="analysis-toggle" class="accordion-toggle" type="button">+ Show full analysis</button>
         <div id="analysis-content" class="accordion-content analysis hidden" data-error-target>Loading analysis...</div>
       </article>
       <article class="card">
         <h2>Bitcoin News</h2>
+        <div id="asset-news-meta" class="meta-row"></div>
         <ul id="asset-news" class="news-list" data-error-target>
           <li class="news-item">Loading news...</li>
         </ul>
@@ -62,3 +66,5 @@
   <script src="app.js"></script>
 </body>
 </html>
+
+

@@ -181,6 +181,7 @@ def build_assets():
                 "indicators": asset_payload["indicators"],
                 "valuation": {"verdict": asset_payload["valuation"]["verdict"]},
                 "updated_at": asset_payload["updated_at"],
+                "source": {"short_term": asset_payload["source"]["short_term"]},
             }
         )
 

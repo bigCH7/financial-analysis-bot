@@ -54,6 +54,21 @@ function fmtPrice(value) {
   return `$${Number(value).toLocaleString(undefined, { maximumFractionDigits: 2 })}`;
 }
 
+function fmtDateTime(value) {
+  if (!value) return "N/A";
+  const d = new Date(value);
+  return Number.isNaN(d.getTime()) ? value : d.toUTCString();
+}
+
+function setMetaRow(id, chips) {
+  const row = document.getElementById(id);
+  if (!row) return;
+  const safe = (chips || []).filter((chip) => chip && chip.value && chip.value !== "N/A");
+  row.innerHTML = safe
+    .map((chip) => `<span class="meta-chip"><strong>${chip.label}:</strong> ${chip.value}</span>`)
+    .join("");
+}
+
 function setActiveTab() {
   const page = document.body.dataset.page;
   document.querySelectorAll(".tab").forEach((tab) => {
@@ -271,17 +286,23 @@ function setupAccordion(buttonId, sectionId) {
 function renderAssetCards(assets) {
   return assets.map((asset) => {
     const href = asset.asset === "bitcoin" ? "btc.html" : "eth.html";
-    const price = fmtPrice(asset.price?.current_usd);
     const p7 = asset.price?.change_7d_pct;
+    const source = asset.source?.short_term || "snapshot";
+    const updated = fmtDateTime(asset.updated_at);
+
     return `
       <article class="card">
         <h3>${asset.name} (${asset.symbol})</h3>
-        <div class="metric">${price}</div>
+        <div class="metric">${fmtPrice(asset.price?.current_usd)}</div>
         <p class="muted">7D change: <span class="${pctClass(p7)}">${fmtPct(p7)}</span></p>
         <div class="pill-row">
           ${renderMetricPill(asset.indicators?.trend || "")}
           ${renderMetricPill(asset.indicators?.momentum || "")}
           ${renderMetricPill(asset.indicators?.volatility || "")}
+        </div>
+        <div class="meta-row">
+          <span class="meta-chip"><strong>Source:</strong> ${source}</span>
+          <span class="meta-chip"><strong>Updated:</strong> ${updated}</span>
         </div>
         <p><a class="tab" href="${href}">Open ${asset.symbol}</a></p>
       </article>
@@ -309,8 +330,18 @@ async function initOverviewPage() {
   macroContainer.innerHTML = markdownToHtml(payload.macro_markdown || "");
   highlightTerms(macroContainer);
 
+  setMetaRow("overview-macro-meta", [
+    { label: "Updated", value: fmtDateTime(payload.generated_at) },
+    { label: "Source", value: "normalized snapshot" }
+  ]);
+
   document.getElementById("asset-cards").innerHTML = renderAssetCards(payload.assets || []);
   renderNewsList("overview-news", payload.overview_news || [], "crypto market");
+
+  setMetaRow("overview-news-meta", [
+    { label: "News updated", value: fmtDateTime(payload.generated_at) },
+    { label: "Feed", value: "cached RSS" }
+  ]);
 }
 
 async function initAssetPage(assetId) {
@@ -319,6 +350,8 @@ async function initAssetPage(assetId) {
   const summary = document.getElementById("asset-summary");
   const p7 = payload.price?.change_7d_pct;
   const p30 = payload.price?.change_30d_pct;
+  const updated = fmtDateTime(payload.updated_at);
+  const source = payload.source?.short_term || "unknown";
 
   summary.innerHTML = `
     <p class="metric" id="live-price">${fmtPrice(payload.price?.current_usd)}</p>
@@ -331,9 +364,24 @@ async function initAssetPage(assetId) {
     </div>
   `;
 
+  setMetaRow("asset-summary-meta", [
+    { label: "Updated", value: updated },
+    { label: "Source", value: source }
+  ]);
+
   const analysis = document.getElementById("analysis-content");
   analysis.innerHTML = markdownToHtml(payload.analysis_markdown || "No analysis available.");
   highlightTerms(analysis);
+
+  setMetaRow("asset-analysis-meta", [
+    { label: "Updated", value: updated },
+    { label: "Source", value: source }
+  ]);
+
+  setMetaRow("asset-chart-meta", [
+    { label: "Window", value: "30D live" },
+    { label: "Price source", value: "CoinGecko" }
+  ]);
 
   setupAccordion("analysis-toggle", "analysis-content");
   await drawAssetChart(assetId, "price-chart");
@@ -341,6 +389,10 @@ async function initAssetPage(assetId) {
   setInterval(() => setLivePrice(assetId, "live-price"), 60000);
 
   renderNewsList("asset-news", payload.news || [], assetId);
+  setMetaRow("asset-news-meta", [
+    { label: "News updated", value: fmtDateTime(payload.source?.news_generated_at) },
+    { label: "Feed", value: "cached RSS" }
+  ]);
 }
 
 async function initNewsPage() {
@@ -348,6 +400,11 @@ async function initNewsPage() {
     const payload = await getIndexPayload();
     const all = payload.overview_news || [];
     renderNewsList("news-results", all, "crypto market");
+
+    setMetaRow("news-feed-meta", [
+      { label: "Updated", value: fmtDateTime(payload.generated_at) },
+      { label: "Source", value: "normalized snapshot" }
+    ]);
 
     const buttons = document.querySelectorAll("[data-filter]");
     buttons.forEach((btn) => {
@@ -363,6 +420,10 @@ async function initNewsPage() {
 
         const asset = await getAssetPayload(filter);
         renderNewsList("news-results", asset.news || [], filter);
+        setMetaRow("news-feed-meta", [
+          { label: "Updated", value: fmtDateTime(asset.source?.news_generated_at) },
+          { label: "Source", value: "asset snapshot" }
+        ]);
       });
     });
   } catch (_) {
