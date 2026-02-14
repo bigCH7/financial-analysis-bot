@@ -25,6 +25,7 @@
       background: white;
       padding: 1.5rem;
       border-radius: 12px;
+      white-space: pre-wrap;
     }
   </style>
 </head>
@@ -39,19 +40,41 @@
 
 <h1>Macro Overview</h1>
 
-<div id="macro">Loading…</div>
+<div id="macro">Loading...</div>
 
 <script>
-fetch("reports/long_term_report.md")
-  .then(r => r.text())
-  .then(t => {
-    const macro = t.split("## Valuation Analysis")[0];
-    document.getElementById("macro").innerHTML =
-      "<pre>" + macro + "</pre>";
+async function fetchLongTermReport() {
+  const candidates = [
+    "reports/long_term_report.md",
+    "../reports/long_term_report.md",
+    "long_term_report.md"
+  ];
+
+  for (const path of candidates) {
+    try {
+      const res = await fetch(path, { cache: "no-store" });
+      if (res.ok) return await res.text();
+    } catch (_) {}
+  }
+
+  throw new Error("Long-term report not found.");
+}
+
+fetchLongTermReport()
+  .then((text) => {
+    const firstAssetIndex = text.indexOf("\n## ");
+    const macro = firstAssetIndex > 0
+      ? text.slice(0, firstAssetIndex).trim()
+      : text.trim();
+    document.getElementById("macro").innerHTML = "<pre></pre>";
+    document.querySelector("#macro pre").textContent =
+      macro || "No long-term summary available.";
+  })
+  .catch(() => {
+    document.getElementById("macro").textContent =
+      "Failed to load long-term analysis.";
   });
 </script>
 
 </body>
 </html>
-
-

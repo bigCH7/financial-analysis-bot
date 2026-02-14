@@ -58,7 +58,7 @@
   <p>Institutional-grade macro & valuation analysis.</p>
 
   <div class="toggle" onclick="toggle()">+ Show full analysis</div>
-  <div id="analysis" class="hidden">Loading…</div>
+  <div id="analysis" class="hidden">Loading...</div>
 </div>
 
 <script>
@@ -66,15 +66,43 @@ function toggle() {
   document.getElementById("analysis").classList.toggle("hidden");
 }
 
-fetch("reports/long_term_report.md")
-  .then(r => r.text())
-  .then(t => {
-    const btc = t.split("### Bitcoin (BTC)")[1].split("### Ethereum")[0];
+async function fetchLongTermReport() {
+  const candidates = [
+    "reports/long_term_report.md",
+    "../reports/long_term_report.md",
+    "long_term_report.md"
+  ];
+
+  for (const path of candidates) {
+    try {
+      const res = await fetch(path, { cache: "no-store" });
+      if (res.ok) return await res.text();
+    } catch (_) {}
+  }
+
+  throw new Error("Long-term report not found.");
+}
+
+function extractSection(text, heading) {
+  const marker = `## ${heading}`;
+  const start = text.indexOf(marker);
+  if (start === -1) return null;
+  const afterStart = text.slice(start);
+  const nextHeading = afterStart.indexOf("\n## ", marker.length);
+  return (nextHeading === -1 ? afterStart : afterStart.slice(0, nextHeading)).trim();
+}
+
+fetchLongTermReport()
+  .then((text) => {
+    const section = extractSection(text, "Bitcoin (BTC)");
     document.getElementById("analysis").textContent =
-      "### Bitcoin (BTC)\n" + btc.trim();
+      section || "Bitcoin section not found in long-term report.";
+  })
+  .catch(() => {
+    document.getElementById("analysis").textContent =
+      "Failed to load long-term analysis.";
   });
 </script>
 
 </body>
 </html>
-
