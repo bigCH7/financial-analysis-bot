@@ -94,6 +94,29 @@
   "Dark Pool": "Private trading venue where large orders can be executed with limited pre-trade transparency."
 };
 
+const SECTION_GUIDE = {
+  "Executive Summary": "Fast context for this asset: what it is, current stance, and the core market idea driving the report.",
+  "One-line Summary": "Single-sentence takeaway combining valuation, growth quality, and risk so you can orient quickly.",
+  "TL;DR": "Short decision snapshot with valuation pill, composite score, confidence, and immediate read of conditions.",
+  "Investment Thesis": "The core argument for why this asset could create long-term value if key assumptions hold.",
+  "Valuation Band": "Classifies the asset as undervalued, fair, or overvalued based on the scoring model and history context.",
+  "Quantitative Scorecard": "Structured scoring table that compresses many indicators into investor lenses for quick comparison.",
+  "Key Metrics (Insight Blocks)": "Plain-language interpretation of critical metrics; not just values, but what they mean for positioning.",
+  "Technical Momentum & Entry Profile": "Shows trend position and percentile context to judge whether entry timing is stretched or cooling.",
+  "Network Utility vs Price (NVT Proxy)": "Compares network usage and valuation to detect when price may be outrunning real activity.",
+  "Market Temperature (MVRV Proxy)": "Cycle heat gauge comparing market price to trend/cost-basis proxy to flag euphoria vs capitulation.",
+  "Liquidity & Drawdown Profile": "Measures tradability and downside pain so you can size risk and holding expectations realistically.",
+  "Growth & Profit Quality": "Checks whether growth is durable and supported by margins instead of low-quality one-off effects.",
+  "Balance Sheet & Cash Returns": "Assesses leverage, liquidity, and cash generation to evaluate financial resilience.",
+  "Volatility & Drawdown Profile": "Shows sensitivity and historical drawdowns to set realistic risk tolerance requirements.",
+  "What Must Be True": "Key assumptions that must remain valid for the thesis to stay intact.",
+  "Scenario Table": "Bull/base/bear pathways with targets and catalysts, so projections are tied to explicit conditions.",
+  "Disconfirming Evidence": "Signals that would weaken or invalidate the thesis and require re-evaluation.",
+  "Monitoring Checklist": "Actionable weekly/monthly/quarterly checks to track which market regime is winning.",
+  "Final Verdict": "Current long-term stance and practical positioning guidance based on the full analysis.",
+  "Method Notes": "Transparency on data sources, approximations, and how confidence/scoring are computed."
+};
+
 function escapeRegExp(text) {
   return text.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 }
@@ -236,6 +259,27 @@ function highlightTerms(container) {
     if (cursor < text.length) frag.appendChild(document.createTextNode(text.slice(cursor)));
     node.parentNode.replaceChild(frag, node);
   }
+}
+
+function attachSectionGuides(container) {
+  if (!container) return;
+  container.querySelectorAll("h2, h3, h4").forEach((heading) => {
+    const title = (heading.textContent || "").trim();
+    const guide = SECTION_GUIDE[title];
+    if (!guide || heading.querySelector(".section-info-btn")) return;
+
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "section-info-btn";
+    button.setAttribute("aria-label", `What is ${title}?`);
+    button.textContent = "i";
+    button.addEventListener("click", () => {
+      showGlossary(`${title} - Guide`, guide);
+    });
+
+    heading.appendChild(document.createTextNode(" "));
+    heading.appendChild(button);
+  });
 }
 
 function renderMetricPill(text) {
@@ -544,6 +588,7 @@ async function initAssetPage(assetId) {
   const analysis = document.getElementById("analysis-content");
   if (analysis) {
     analysis.innerHTML = markdownToHtml(payload.analysis_markdown || "No analysis available.");
+    attachSectionGuides(analysis);
     highlightTerms(analysis);
   }
 

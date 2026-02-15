@@ -271,6 +271,25 @@ a {
   box-shadow: 0 0 0 1px rgba(226, 235, 0, 0.8), 0 0 14px rgba(233, 255, 46, 0.55);
 }
 
+.section-info-btn {
+  width: 20px;
+  height: 20px;
+  border-radius: 999px;
+  border: 1px solid #d6c7ff;
+  background: #f4edff;
+  color: #5f43bf;
+  font-weight: 700;
+  font-size: 0.75rem;
+  line-height: 1;
+  cursor: pointer;
+  vertical-align: middle;
+  padding: 0;
+}
+
+.section-info-btn:hover {
+  background: #eadfff;
+}
+
 .modal {
   position: fixed;
   inset: 0;
