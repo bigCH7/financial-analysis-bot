@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-02-14T23:45:27.536665+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-02-14 23:38 UTC_",
+  "generated_at": "2026-02-15T00:31:01.006740+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-02-15 00:23 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -20,9 +20,11 @@
         "volatility": "ELEVATED"
       },
       "valuation": {
-        "verdict": "Neutral / fair-value zone"
+        "verdict": "Neutral / fair-value zone",
+        "band": "undervalued",
+        "summary_line": "Undervalued - Balanced growth profile - Elevated regulatory risk."
       },
-      "updated_at": "2026-02-14T23:45:27.528149+00:00",
+      "updated_at": "2026-02-15T00:31:00.998927+00:00",
       "source": {
         "short_term": "live"
       }
@@ -45,9 +47,11 @@
         "volatility": "ELEVATED"
       },
       "valuation": {
-        "verdict": "Constructive long-term setup"
+        "verdict": "Neutral / fair-value zone",
+        "band": "undervalued",
+        "summary_line": "Undervalued - Strong growth profile - Elevated regulatory risk."
       },
-      "updated_at": "2026-02-14T23:45:27.529563+00:00",
+      "updated_at": "2026-02-15T00:31:01.000507+00:00",
       "source": {
         "short_term": "live"
       }
@@ -70,9 +74,11 @@
         "volatility": "N/A"
       },
       "valuation": {
-        "verdict": "Caution / risk-reward mixed"
+        "verdict": "Caution / risk-reward mixed",
+        "band": "overvalued",
+        "summary_line": "Overvalued - Strong growth profile - Elevated regulatory risk."
       },
-      "updated_at": "2026-02-14T23:45:27.530672+00:00",
+      "updated_at": "2026-02-15T00:31:01.001653+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -95,9 +101,11 @@
         "volatility": "N/A"
       },
       "valuation": {
-        "verdict": "Caution / risk-reward mixed"
+        "verdict": "Caution / risk-reward mixed",
+        "band": "overvalued",
+        "summary_line": "Overvalued - Strong growth profile - Elevated regulatory risk."
       },
-      "updated_at": "2026-02-14T23:45:27.531775+00:00",
+      "updated_at": "2026-02-15T00:31:01.002681+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -120,9 +128,11 @@
         "volatility": "N/A"
       },
       "valuation": {
-        "verdict": "High risk / weak long-term setup"
+        "verdict": "High risk / weak long-term setup",
+        "band": "overvalued",
+        "summary_line": "Overvalued - Mixed growth profile - Elevated regulatory risk."
       },
-      "updated_at": "2026-02-14T23:45:27.533038+00:00",
+      "updated_at": "2026-02-15T00:31:01.003637+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -145,9 +155,11 @@
         "volatility": "N/A"
       },
       "valuation": {
-        "verdict": "Caution / risk-reward mixed"
+        "verdict": "Caution / risk-reward mixed",
+        "band": "overvalued",
+        "summary_line": "Overvalued - Strong growth profile - Elevated regulatory risk."
       },
-      "updated_at": "2026-02-14T23:45:27.534339+00:00",
+      "updated_at": "2026-02-15T00:31:01.004560+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -170,9 +182,11 @@
         "volatility": "N/A"
       },
       "valuation": {
-        "verdict": "Insufficient data"
+        "verdict": "Insufficient data",
+        "band": "fair",
+        "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk."
       },
-      "updated_at": "2026-02-14T23:45:27.535535+00:00",
+      "updated_at": "2026-02-15T00:31:01.005597+00:00",
       "source": {
         "short_term": "stooq_live"
       }

@@ -341,3 +341,35 @@ a {
   line-height: 1;
 }
 
+
+
+.longterm-line {
+  margin: 8px 0 10px;
+  color: #3b2f57;
+}
+
+.valuation-pill {
+  border-radius: 999px;
+  padding: 6px 10px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  border: 1px solid transparent;
+}
+
+.valuation-undervalued {
+  background: #e7f8ee;
+  color: #1f7a4c;
+  border-color: #bde8cf;
+}
+
+.valuation-fair {
+  background: #f1f1f5;
+  color: #5d6270;
+  border-color: #dbdce5;
+}
+
+.valuation-overvalued {
+  background: #fdeaea;
+  color: #9a2f2f;
+  border-color: #f6c2c2;
+}

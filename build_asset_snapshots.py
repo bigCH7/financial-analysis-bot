@@ -173,6 +173,17 @@ def infer_verdict(long_section: str):
         return match.group(1).strip()
     return ""
 
+
+def infer_summary_line(long_section: str):
+    match = re.search(r"Long-term:\s*([^\n]+)", long_section)
+    return match.group(1).strip() if match else ""
+
+
+def infer_valuation_band(long_section: str):
+    match = re.search(r"- \*\*Valuation band:\*\*\s*([^\n]+)", long_section)
+    if not match:
+        return ""
+    return match.group(1).strip().lower()
 def load_news():
     payload = read_json(NEWS_FILE, {"generated_at": "", "items": []})
     return {
@@ -255,6 +266,8 @@ def build_crypto_payload(asset_id, meta, short_md, long_md, analysis_map, news):
         },
         "valuation": {
             "verdict": infer_verdict(long_section),
+            "band": infer_valuation_band(long_section),
+            "summary_line": infer_summary_line(long_section),
             "long_term_markdown": long_section,
         },
         "analysis_markdown": f"{long_section}\n\n---\n\n### Short-Term Context\n\n{short_section}",
@@ -322,6 +335,8 @@ def build_watchlist_payload(asset_id, meta, quotes, news, long_md):
         },
         "valuation": {
             "verdict": verdict or "Snapshot only",
+            "band": infer_valuation_band(long_section),
+            "summary_line": infer_summary_line(long_section),
             "long_term_markdown": long_section,
         },
         "analysis_markdown": analysis_markdown,
@@ -337,7 +352,11 @@ def index_entry(payload):
         "details_page": payload.get("details_page"),
         "price": payload["price"],
         "indicators": payload["indicators"],
-        "valuation": {"verdict": payload.get("valuation", {}).get("verdict", "")},
+        "valuation": {
+            "verdict": payload.get("valuation", {}).get("verdict", ""),
+            "band": payload.get("valuation", {}).get("band", ""),
+            "summary_line": payload.get("valuation", {}).get("summary_line", ""),
+        },
         "updated_at": payload["updated_at"],
         "source": {"short_term": payload.get("source", {}).get("short_term", "unknown")},
     }
@@ -381,4 +400,5 @@ def build_assets():
 
 if __name__ == "__main__":
     build_assets()
+
 

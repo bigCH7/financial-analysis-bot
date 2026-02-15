@@ -1,6 +1,6 @@
 # Long-Term Multi-Asset Analysis Report
 
-_Updated: 2026-02-14 23:38 UTC_
+_Updated: 2026-02-15 00:23 UTC_
 
 ## Framework
 
@@ -31,33 +31,43 @@ _Data sources: CoinGecko history (live), CoinGecko fundamentals (live)_
 
 ### One-line Long-Term Summary
 
-Long-term: **Neutral / fair-value zone** - Digital monetary network with fixed-supply narrative and highest liquidity depth in crypto. Key narrative: Store-of-value and collateral asset in crypto market structure..
+Long-term: Undervalued - Balanced growth profile - Elevated regulatory risk.
+
+### Investment Thesis
+
+- **Core thesis:** Digital monetary network with fixed-supply narrative and highest liquidity depth in crypto.
+- **Narrative durability:** Store-of-value and collateral asset in crypto market structure.
+
+### Valuation Band
+
+- **Valuation band:** undervalued
+- **Valuation pill:** GREEN Undervalued
 
 ### Composite Scorecard
 
-- **Composite score:** 57.9/100
+- **Composite score:** 58.0/100
 - **Confidence:** 100.0/100
 - **Supply/issuance & tokenomics (20%):** 100.0
-- **Network usage activity (25%):** 61.0
+- **Network usage activity (25%):** 61.4
 - **Developer & security (20%):** 68.4
-- **Liquidity & market structure (15%):** 35.3
+- **Liquidity & market structure (15%):** 35.4
 - **Macro/regulatory & narrative (20%):** 18.4
 
 ### Supply & Issuance
 
-- **Circulating supply:** 19,989,378
-- **Total supply:** 19,989,378
+- **Circulating supply:** 19,989,393
+- **Total supply:** 19,989,393
 - **Max supply:** 21,000,000
 - **Circulating/Total:** +100.00%
 - **FDV / Market Cap:** 1.00
 
 ### Network Activity & Economics
 
-- **Market cap:** $1,394,989,590,619
-- **24H volume:** $38,794,606,115
-- **Turnover (Vol/Cap):** +2.78%
-- **NVT proxy (Cap/Volume):** 35.96
-- **30d vs 180d volume trend proxy:** 1.03
+- **Market cap:** $1,393,444,731,696
+- **24H volume:** $39,187,985,997
+- **Turnover (Vol/Cap):** +2.81%
+- **NVT proxy (Cap/Volume):** 35.56
+- **30d vs 180d volume trend proxy:** 1.04
 
 ### Developer & Protocol Health
 
@@ -73,13 +83,30 @@ Long-term: **Neutral / fair-value zone** - Digital monetary network with fixed-s
 - **Price vs 200d average:** 0.69
 - **Price percentile (1y):** +1.91%
 
+### What Must Be True
+
+- Adoption and on-chain utility need to stay durable through the cycle.
+- Liquidity depth must remain sufficient during risk-off periods.
+- Protocol governance and upgrades must avoid security regressions.
+
 ### Scenario Analysis (Base / Bull / Bear)
 
 | Case | Implied Price | Move vs Current | Core Assumption |
 |---|---:|---:|---|
-| Bear | $87,157 | +24.89% | Multiple compression / weaker demand and tighter liquidity. |
-| Base | $101,651 | +45.66% | Mean reversion toward cycle-normal valuation and usage trends. |
-| Bull | $112,950 | +61.86% | Sustained growth, stable macro backdrop, and expanding risk appetite. |
+| Bear | $86,961 | +24.76% | Multiple compression / weaker demand and tighter liquidity. |
+| Base | $101,651 | +45.83% | Mean reversion toward cycle-normal valuation and usage trends. |
+| Bull | $112,950 | +62.04% | Sustained growth, stable macro backdrop, and expanding risk appetite. |
+
+### Disconfirming Evidence
+
+- Sustained decline in usage/volume trends while market cap expands.
+- Material security events or repeated failed upgrades.
+- Structural liquidity deterioration across major venues.
+
+### Monitoring Checklist
+
+- Track weekly: turnover, usage trend proxy, and developer activity.
+- Track monthly: drawdown depth, recovery profile, and narrative drift.
 
 Valuation verdict:
 Neutral / fair-value zone
@@ -99,16 +126,26 @@ _Data sources: CoinGecko history (live), CoinGecko fundamentals (live)_
 
 ### One-line Long-Term Summary
 
-Long-term: **Constructive long-term setup** - Programmable settlement layer where utility depends on smart-contract activity and fee demand. Key narrative: Compute and settlement network for on-chain applications..
+Long-term: Undervalued - Strong growth profile - Elevated regulatory risk.
+
+### Investment Thesis
+
+- **Core thesis:** Programmable settlement layer where utility depends on smart-contract activity and fee demand.
+- **Narrative durability:** Compute and settlement network for on-chain applications.
+
+### Valuation Band
+
+- **Valuation band:** undervalued
+- **Valuation pill:** GREEN Undervalued
 
 ### Composite Scorecard
 
-- **Composite score:** 64.2/100
+- **Composite score:** 59.7/100
 - **Confidence:** 100.0/100
 - **Supply/issuance & tokenomics (20%):** 100.0
-- **Network usage activity (25%):** 89.5
+- **Network usage activity (25%):** 81.4
 - **Developer & security (20%):** 53.6
-- **Liquidity & market structure (15%):** 59.5
+- **Liquidity & market structure (15%):** 43.2
 - **Macro/regulatory & narrative (20%):** 10.7
 
 ### Supply & Issuance
@@ -121,11 +158,11 @@ Long-term: **Constructive long-term setup** - Programmable settlement layer wher
 
 ### Network Activity & Economics
 
-- **Market cap:** $251,828,372,811
-- **24H volume:** $23,738,536,091
-- **Turnover (Vol/Cap):** +9.43%
-- **NVT proxy (Cap/Volume):** 10.61
-- **30d vs 180d volume trend proxy:** 1.02
+- **Market cap:** $251,292,015,193
+- **24H volume:** $16,297,567,840
+- **Turnover (Vol/Cap):** +6.49%
+- **NVT proxy (Cap/Volume):** 15.42
+- **30d vs 180d volume trend proxy:** 1.01
 
 ### Developer & Protocol Health
 
@@ -135,24 +172,41 @@ Long-term: **Constructive long-term setup** - Programmable settlement layer wher
 
 ### Cross-Asset Risk
 
-- **Annualized volatility (1y):** +64.84%
+- **Annualized volatility (1y):** +64.83%
 - **Max drawdown (1y):** -62.30%
 - **Drawdown recovery time estimate:** N/A trading days
 - **Price vs 200d average:** 0.59
 - **Price percentile (1y):** +18.31%
 
+### What Must Be True
+
+- Adoption and on-chain utility need to stay durable through the cycle.
+- Liquidity depth must remain sufficient during risk-off periods.
+- Protocol governance and upgrades must avoid security regressions.
+
 ### Scenario Analysis (Base / Bull / Bear)
 
 | Case | Implied Price | Move vs Current | Core Assumption |
 |---|---:|---:|---|
-| Bear | $2,171 | +4.10% | Multiple compression / weaker demand and tighter liquidity. |
-| Base | $2,949 | +41.38% | Mean reversion toward cycle-normal valuation and usage trends. |
-| Bull | $3,911 | +87.50% | Sustained growth, stable macro backdrop, and expanding risk appetite. |
+| Bear | $2,152 | +3.21% | Multiple compression / weaker demand and tighter liquidity. |
+| Base | $2,949 | +41.43% | Mean reversion toward cycle-normal valuation and usage trends. |
+| Bull | $3,911 | +87.57% | Sustained growth, stable macro backdrop, and expanding risk appetite. |
+
+### Disconfirming Evidence
+
+- Sustained decline in usage/volume trends while market cap expands.
+- Material security events or repeated failed upgrades.
+- Structural liquidity deterioration across major venues.
+
+### Monitoring Checklist
+
+- Track weekly: turnover, usage trend proxy, and developer activity.
+- Track monthly: drawdown depth, recovery profile, and narrative drift.
 
 Valuation verdict:
-Constructive long-term setup
+Neutral / fair-value zone
 
-**Long-term verdict:** Constructive long-term setup
+**Long-term verdict:** Neutral / fair-value zone
 
 ### Method Notes
 
@@ -167,7 +221,17 @@ _Data sources: Yahoo summary (unavailable), Yahoo quote (unavailable), Alpha ove
 
 ### One-line Long-Term Summary
 
-Long-term: **Caution / risk-reward mixed** - High sensitivity to U.S. growth, real rates, and broad equity risk appetite.
+Long-term: Overvalued - Strong growth profile - Elevated regulatory risk.
+
+### Investment Thesis
+
+- **Core thesis:** High sensitivity to U.S. growth, real rates, and broad equity risk appetite.
+- **Decision context:** Assess valuation versus cycle risk rather than single-period momentum.
+
+### Valuation Band
+
+- **Valuation band:** overvalued
+- **Valuation pill:** RED Overvalued
 
 ### Composite Scorecard
 
@@ -218,6 +282,12 @@ Long-term: **Caution / risk-reward mixed** - High sensitivity to U.S. growth, re
 - **Beta:** N/A
 - **Macro/cycle note:** High sensitivity to U.S. growth, real rates, and broad equity risk appetite.
 
+### What Must Be True
+
+- Adoption and on-chain utility need to stay durable through the cycle.
+- Liquidity depth must remain sufficient during risk-off periods.
+- Protocol governance and upgrades must avoid security regressions.
+
 ### Scenario Analysis (Base / Bull / Bear)
 
 | Case | Implied Price | Move vs Current | Core Assumption |
@@ -225,6 +295,17 @@ Long-term: **Caution / risk-reward mixed** - High sensitivity to U.S. growth, re
 | Bear | $98.92 | -85.49% | Multiple compression / weaker demand and tighter liquidity. |
 | Base | $174.30 | -74.43% | Mean reversion toward cycle-normal valuation and usage trends. |
 | Bull | $394.14 | -42.19% | Sustained growth, stable macro backdrop, and expanding risk appetite. |
+
+### Disconfirming Evidence
+
+- Sustained decline in usage/volume trends while market cap expands.
+- Material security events or repeated failed upgrades.
+- Structural liquidity deterioration across major venues.
+
+### Monitoring Checklist
+
+- Track weekly: turnover, usage trend proxy, and developer activity.
+- Track monthly: drawdown depth, recovery profile, and narrative drift.
 
 Valuation verdict:
 Caution / risk-reward mixed
@@ -244,7 +325,17 @@ _Data sources: Yahoo summary (unavailable), Yahoo quote (unavailable), Alpha ove
 
 ### One-line Long-Term Summary
 
-Long-term: **Caution / risk-reward mixed** - Higher duration/growth sensitivity and concentration in mega-cap technology.
+Long-term: Overvalued - Strong growth profile - Elevated regulatory risk.
+
+### Investment Thesis
+
+- **Core thesis:** Higher duration/growth sensitivity and concentration in mega-cap technology.
+- **Decision context:** Assess valuation versus cycle risk rather than single-period momentum.
+
+### Valuation Band
+
+- **Valuation band:** overvalued
+- **Valuation pill:** RED Overvalued
 
 ### Composite Scorecard
 
@@ -295,6 +386,12 @@ Long-term: **Caution / risk-reward mixed** - Higher duration/growth sensitivity 
 - **Beta:** N/A
 - **Macro/cycle note:** Higher duration/growth sensitivity and concentration in mega-cap technology.
 
+### What Must Be True
+
+- Adoption and on-chain utility need to stay durable through the cycle.
+- Liquidity depth must remain sufficient during risk-off periods.
+- Protocol governance and upgrades must avoid security regressions.
+
 ### Scenario Analysis (Base / Bull / Bear)
 
 | Case | Implied Price | Move vs Current | Core Assumption |
@@ -302,6 +399,17 @@ Long-term: **Caution / risk-reward mixed** - Higher duration/growth sensitivity 
 | Bear | $33.92 | -94.36% | Multiple compression / weaker demand and tighter liquidity. |
 | Base | $68.19 | -88.67% | Mean reversion toward cycle-normal valuation and usage trends. |
 | Bull | $262.64 | -56.37% | Sustained growth, stable macro backdrop, and expanding risk appetite. |
+
+### Disconfirming Evidence
+
+- Sustained decline in usage/volume trends while market cap expands.
+- Material security events or repeated failed upgrades.
+- Structural liquidity deterioration across major venues.
+
+### Monitoring Checklist
+
+- Track weekly: turnover, usage trend proxy, and developer activity.
+- Track monthly: drawdown depth, recovery profile, and narrative drift.
 
 Valuation verdict:
 Caution / risk-reward mixed
@@ -321,7 +429,17 @@ _Data sources: Yahoo summary (unavailable), Yahoo quote (unavailable), Alpha ove
 
 ### One-line Long-Term Summary
 
-Long-term: **High risk / weak long-term setup** - Cyclical semiconductor exposure with AI capex dependence and valuation sensitivity to rates.
+Long-term: Overvalued - Mixed growth profile - Elevated regulatory risk.
+
+### Investment Thesis
+
+- **Core thesis:** Cyclical semiconductor exposure with AI capex dependence and valuation sensitivity to rates.
+- **Decision context:** Assess valuation versus cycle risk rather than single-period momentum.
+
+### Valuation Band
+
+- **Valuation band:** overvalued
+- **Valuation pill:** RED Overvalued
 
 ### Composite Scorecard
 
@@ -372,6 +490,12 @@ Long-term: **High risk / weak long-term setup** - Cyclical semiconductor exposur
 - **Beta:** N/A
 - **Macro/cycle note:** Cyclical semiconductor exposure with AI capex dependence and valuation sensitivity to rates.
 
+### What Must Be True
+
+- Adoption and on-chain utility need to stay durable through the cycle.
+- Liquidity depth must remain sufficient during risk-off periods.
+- Protocol governance and upgrades must avoid security regressions.
+
 ### Scenario Analysis (Base / Bull / Bear)
 
 | Case | Implied Price | Move vs Current | Core Assumption |
@@ -379,6 +503,17 @@ Long-term: **High risk / weak long-term setup** - Cyclical semiconductor exposur
 | Bear | $0.22 | -99.88% | Multiple compression / weaker demand and tighter liquidity. |
 | Base | $0.45 | -99.75% | Mean reversion toward cycle-normal valuation and usage trends. |
 | Bull | $12.50 | -93.16% | Sustained growth, stable macro backdrop, and expanding risk appetite. |
+
+### Disconfirming Evidence
+
+- Sustained decline in usage/volume trends while market cap expands.
+- Material security events or repeated failed upgrades.
+- Structural liquidity deterioration across major venues.
+
+### Monitoring Checklist
+
+- Track weekly: turnover, usage trend proxy, and developer activity.
+- Track monthly: drawdown depth, recovery profile, and narrative drift.
 
 Valuation verdict:
 High risk / weak long-term setup
@@ -398,7 +533,17 @@ _Data sources: Yahoo summary (unavailable), Yahoo quote (unavailable), Alpha ove
 
 ### One-line Long-Term Summary
 
-Long-term: **Caution / risk-reward mixed** - Sensitive to real yields, USD direction, and geopolitical hedging demand.
+Long-term: Overvalued - Strong growth profile - Elevated regulatory risk.
+
+### Investment Thesis
+
+- **Core thesis:** Sensitive to real yields, USD direction, and geopolitical hedging demand.
+- **Decision context:** Assess valuation versus cycle risk rather than single-period momentum.
+
+### Valuation Band
+
+- **Valuation band:** overvalued
+- **Valuation pill:** RED Overvalued
 
 ### Composite Scorecard
 
@@ -449,6 +594,12 @@ Long-term: **Caution / risk-reward mixed** - Sensitive to real yields, USD direc
 - **Beta:** N/A
 - **Macro/cycle note:** Sensitive to real yields, USD direction, and geopolitical hedging demand.
 
+### What Must Be True
+
+- Adoption and on-chain utility need to stay durable through the cycle.
+- Liquidity depth must remain sufficient during risk-off periods.
+- Protocol governance and upgrades must avoid security regressions.
+
 ### Scenario Analysis (Base / Bull / Bear)
 
 | Case | Implied Price | Move vs Current | Core Assumption |
@@ -456,6 +607,17 @@ Long-term: **Caution / risk-reward mixed** - Sensitive to real yields, USD direc
 | Bear | $20.67 | -99.59% | Multiple compression / weaker demand and tighter liquidity. |
 | Base | $39.40 | -99.22% | Mean reversion toward cycle-normal valuation and usage trends. |
 | Bull | $449.00 | -91.08% | Sustained growth, stable macro backdrop, and expanding risk appetite. |
+
+### Disconfirming Evidence
+
+- Sustained decline in usage/volume trends while market cap expands.
+- Material security events or repeated failed upgrades.
+- Structural liquidity deterioration across major venues.
+
+### Monitoring Checklist
+
+- Track weekly: turnover, usage trend proxy, and developer activity.
+- Track monthly: drawdown depth, recovery profile, and narrative drift.
 
 Valuation verdict:
 Caution / risk-reward mixed
@@ -475,7 +637,17 @@ _Data sources: Yahoo summary (unavailable), Yahoo quote (unavailable), Alpha ove
 
 ### One-line Long-Term Summary
 
-Long-term: **Insufficient data** - Driven by global growth, OPEC+ policy, inventories, and geopolitical supply shocks.
+Long-term: Fair - Mixed growth profile - Moderate regulatory risk.
+
+### Investment Thesis
+
+- **Core thesis:** Driven by global growth, OPEC+ policy, inventories, and geopolitical supply shocks.
+- **Decision context:** Assess valuation versus cycle risk rather than single-period momentum.
+
+### Valuation Band
+
+- **Valuation band:** fair
+- **Valuation pill:** GRAY Fair
 
 ### Composite Scorecard
 
@@ -526,9 +698,26 @@ Long-term: **Insufficient data** - Driven by global growth, OPEC+ policy, invent
 - **Beta:** N/A
 - **Macro/cycle note:** Driven by global growth, OPEC+ policy, inventories, and geopolitical supply shocks.
 
+### What Must Be True
+
+- Adoption and on-chain utility need to stay durable through the cycle.
+- Liquidity depth must remain sufficient during risk-off periods.
+- Protocol governance and upgrades must avoid security regressions.
+
 ### Scenario Analysis (Base / Bull / Bear)
 
 Scenario model unavailable due to insufficient history.
+
+### Disconfirming Evidence
+
+- Sustained decline in usage/volume trends while market cap expands.
+- Material security events or repeated failed upgrades.
+- Structural liquidity deterioration across major venues.
+
+### Monitoring Checklist
+
+- Track weekly: turnover, usage trend proxy, and developer activity.
+- Track monthly: drawdown depth, recovery profile, and narrative drift.
 
 Valuation verdict:
 Insufficient data

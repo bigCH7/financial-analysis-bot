@@ -243,6 +243,35 @@ def label_from_score(score):
     return "High risk / weak long-term setup"
 
 
+
+def valuation_band_from_percentile(percentile):
+    if percentile is None:
+        return "fair"
+    if percentile <= 35:
+        return "undervalued"
+    if percentile >= 70:
+        return "overvalued"
+    return "fair"
+
+
+def growth_label(score):
+    if score is None:
+        return "Mixed growth profile"
+    if score >= 65:
+        return "Strong growth profile"
+    if score >= 45:
+        return "Balanced growth profile"
+    return "Weak growth profile"
+
+
+def risk_label(score):
+    if score is None:
+        return "Moderate regulatory risk"
+    if score >= 65:
+        return "Lower regulatory risk"
+    if score >= 45:
+        return "Moderate regulatory risk"
+    return "Elevated regulatory risk"
 def confidence_score(used_weight, data_points, source_labels):
     coverage = clamp(used_weight)
     sample = clamp(data_points / 365.0 * 100.0)
@@ -534,6 +563,9 @@ def score_crypto(asset_id, meta):
     verdict = label_from_score(composite)
     scenarios = build_scenarios(current, prices)
 
+    valuation_band = valuation_band_from_percentile(price_percentile)
+    summary_line = f"Long-term: {valuation_band.title()} - {growth_label(network_score)} - {risk_label(macro_narrative_score)}."
+
     lines = []
     lines.append(f"## {meta['name']} ({meta['symbol']})")
     lines.append("")
@@ -541,7 +573,17 @@ def score_crypto(asset_id, meta):
     lines.append("")
     lines.append("### One-line Long-Term Summary")
     lines.append("")
-    lines.append(f"Long-term: **{verdict}** - {meta['thesis']} Key narrative: {meta['narrative']}.")
+    lines.append(summary_line)
+    lines.append("")
+    lines.append("### Investment Thesis")
+    lines.append("")
+    lines.append(f"- **Core thesis:** {meta['thesis']}")
+    lines.append(f"- **Narrative durability:** {meta['narrative']}")
+    lines.append("")
+    lines.append("### Valuation Band")
+    lines.append("")
+    lines.append(f"- **Valuation band:** {valuation_band}")
+    lines.append(f"- **Valuation pill:** {'GREEN' if valuation_band == 'undervalued' else ('RED' if valuation_band == 'overvalued' else 'GRAY')} {valuation_band.title()}")
     lines.append("")
     lines.append("### Composite Scorecard")
     lines.append("")
@@ -583,6 +625,12 @@ def score_crypto(asset_id, meta):
     lines.append(f"- **Price vs 200d average:** {fmt_num(price_to_ma, 2)}")
     lines.append(f"- **Price percentile (1y):** {fmt_pct(price_percentile)}")
     lines.append("")
+    lines.append("### What Must Be True")
+    lines.append("")
+    lines.append("- Adoption and on-chain utility need to stay durable through the cycle.")
+    lines.append("- Liquidity depth must remain sufficient during risk-off periods.")
+    lines.append("- Protocol governance and upgrades must avoid security regressions.")
+    lines.append("")
     lines.append("### Scenario Analysis (Base / Bull / Bear)")
     lines.append("")
     if scenarios:
@@ -593,6 +641,17 @@ def score_crypto(asset_id, meta):
         lines.append(f"| Bull | {fmt_money(scenarios['bull']['target'], 0)} | {fmt_pct(scenarios['bull']['delta_pct'])} | {scenarios['bull']['assumption']} |")
     else:
         lines.append("Scenario model unavailable due to insufficient history.")
+    lines.append("")
+    lines.append("### Disconfirming Evidence")
+    lines.append("")
+    lines.append("- Sustained decline in usage/volume trends while market cap expands.")
+    lines.append("- Material security events or repeated failed upgrades.")
+    lines.append("- Structural liquidity deterioration across major venues.")
+    lines.append("")
+    lines.append("### Monitoring Checklist")
+    lines.append("")
+    lines.append("- Track weekly: turnover, usage trend proxy, and developer activity.")
+    lines.append("- Track monthly: drawdown depth, recovery profile, and narrative drift.")
     lines.append("")
     lines.append("Valuation verdict:")
     lines.append(verdict)
@@ -831,6 +890,9 @@ def score_traditional(asset_id, meta):
     verdict = label_from_score(composite)
     scenarios = build_scenarios(current, prices)
 
+    valuation_band = valuation_band_from_percentile(price_percentile)
+    summary_line = f"Long-term: {valuation_band.title()} - {growth_label(growth_profit_score)} - {risk_label(macro_reg_score)}."
+
     lines = []
     lines.append(f"## {meta['name']} ({symbol})")
     lines.append("")
@@ -838,7 +900,17 @@ def score_traditional(asset_id, meta):
     lines.append("")
     lines.append("### One-line Long-Term Summary")
     lines.append("")
-    lines.append(f"Long-term: **{verdict}** - {meta['macro_note']}")
+    lines.append(summary_line)
+    lines.append("")
+    lines.append("### Investment Thesis")
+    lines.append("")
+    lines.append(f"- **Core thesis:** {meta['macro_note']}")
+    lines.append("- **Decision context:** Assess valuation versus cycle risk rather than single-period momentum.")
+    lines.append("")
+    lines.append("### Valuation Band")
+    lines.append("")
+    lines.append(f"- **Valuation band:** {valuation_band}")
+    lines.append(f"- **Valuation pill:** {'GREEN' if valuation_band == 'undervalued' else ('RED' if valuation_band == 'overvalued' else 'GRAY')} {valuation_band.title()}")
     lines.append("")
     lines.append("### Composite Scorecard")
     lines.append("")
@@ -889,6 +961,12 @@ def score_traditional(asset_id, meta):
     lines.append(f"- **Beta:** {fmt_num(beta, 2)}")
     lines.append("- **Macro/cycle note:** " + meta["macro_note"])
     lines.append("")
+    lines.append("### What Must Be True")
+    lines.append("")
+    lines.append("- Adoption and on-chain utility need to stay durable through the cycle.")
+    lines.append("- Liquidity depth must remain sufficient during risk-off periods.")
+    lines.append("- Protocol governance and upgrades must avoid security regressions.")
+    lines.append("")
     lines.append("### Scenario Analysis (Base / Bull / Bear)")
     lines.append("")
     if scenarios:
@@ -899,6 +977,17 @@ def score_traditional(asset_id, meta):
         lines.append(f"| Bull | {fmt_money(scenarios['bull']['target'], 2)} | {fmt_pct(scenarios['bull']['delta_pct'])} | {scenarios['bull']['assumption']} |")
     else:
         lines.append("Scenario model unavailable due to insufficient history.")
+    lines.append("")
+    lines.append("### Disconfirming Evidence")
+    lines.append("")
+    lines.append("- Sustained decline in usage/volume trends while market cap expands.")
+    lines.append("- Material security events or repeated failed upgrades.")
+    lines.append("- Structural liquidity deterioration across major venues.")
+    lines.append("")
+    lines.append("### Monitoring Checklist")
+    lines.append("")
+    lines.append("- Track weekly: turnover, usage trend proxy, and developer activity.")
+    lines.append("- Track monthly: drawdown depth, recovery profile, and narrative drift.")
     lines.append("")
     lines.append("Valuation verdict:")
     lines.append(verdict)
@@ -959,6 +1048,12 @@ def generate_report():
 
 if __name__ == "__main__":
     generate_report()
+
+
+
+
+
+
 
 
 

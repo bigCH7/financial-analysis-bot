@@ -249,6 +249,13 @@ function renderMetricPill(text) {
   return `<span class="${cls}">${text}</span>`;
 }
 
+function valuationBandClass(band) {
+  const key = (band || "").toLowerCase();
+  if (key.includes("under")) return "valuation-pill valuation-undervalued";
+  if (key.includes("over")) return "valuation-pill valuation-overvalued";
+  return "valuation-pill valuation-fair";
+}
+
 function renderNewsList(targetId, items, fallbackAsset) {
   const target = document.getElementById(targetId);
   if (!target) return;
@@ -296,7 +303,7 @@ async function drawAssetChart(assetId, canvasId) {
 
   let payload;
   try {
-    const url = `https://api.coingecko.com/api/v3/coins/${assetId}/market_chart?vs_currency=usd&days=30&interval=daily`;
+    const url = `https://api.coingecko.com/api/v3/coins/${assetId}/market_chart?vs_currency=usd&days=365&interval=daily`;
     const res = await fetch(url, { cache: "no-store" });
     if (!res.ok) throw new Error("chart fetch failed");
     payload = await res.json();
@@ -309,8 +316,20 @@ async function drawAssetChart(assetId, canvasId) {
     return;
   }
 
-  const points = (payload.prices || []).map((row) => Number(row[1])).filter(Number.isFinite);
-  if (!points.length) return;
+  const raw = (payload.prices || []).map((row) => Number(row[1])).filter(Number.isFinite);
+  if (!raw.length) return;
+  const points = raw.length > 180 ? raw.slice(-180) : raw;
+
+  const ma = points.map((_, idx) => {
+    if (idx < 199) return null;
+    const win = points.slice(idx - 199, idx + 1);
+    return win.reduce((sum, v) => sum + v, 0) / win.length;
+  });
+
+  const allValues = points.concat(ma.filter((v) => v != null));
+  const min = Math.min(...allValues);
+  const max = Math.max(...allValues);
+  const span = max - min || 1;
 
   const ctx = canvas.getContext("2d");
   const dpr = window.devicePixelRatio || 1;
@@ -323,9 +342,6 @@ async function drawAssetChart(assetId, canvasId) {
   const pad = 28;
   const width = cssWidth;
   const height = cssHeight;
-  const min = Math.min(...points);
-  const max = Math.max(...points);
-  const span = max - min || 1;
 
   ctx.clearRect(0, 0, width, height);
 
@@ -339,16 +355,42 @@ async function drawAssetChart(assetId, canvasId) {
     ctx.stroke();
   }
 
+  const xFor = (index) => pad + ((width - pad * 2) * index) / Math.max(points.length - 1, 1);
+  const yFor = (value) => height - pad - ((value - min) / span) * (height - pad * 2);
+
   ctx.beginPath();
   points.forEach((value, index) => {
-    const x = pad + ((width - pad * 2) * index) / (points.length - 1);
-    const y = height - pad - ((value - min) / span) * (height - pad * 2);
+    const x = xFor(index);
+    const y = yFor(value);
     if (index === 0) ctx.moveTo(x, y);
     else ctx.lineTo(x, y);
   });
-  ctx.lineWidth = 2.5;
+  ctx.lineWidth = 2.6;
   ctx.strokeStyle = "#7655d9";
   ctx.stroke();
+
+  ctx.beginPath();
+  let started = false;
+  ma.forEach((value, index) => {
+    if (value == null) return;
+    const x = xFor(index);
+    const y = yFor(value);
+    if (!started) {
+      ctx.moveTo(x, y);
+      started = true;
+    } else {
+      ctx.lineTo(x, y);
+    }
+  });
+  ctx.lineWidth = 2;
+  ctx.strokeStyle = "#f2a66f";
+  ctx.stroke();
+
+  ctx.fillStyle = "#7655d9";
+  ctx.font = "12px Poppins, sans-serif";
+  ctx.fillText("Price", width - 110, 20);
+  ctx.fillStyle = "#f2a66f";
+  ctx.fillText("200D MA", width - 56, 20);
 }
 
 async function setLivePrice(assetId, targetId) {
@@ -465,14 +507,18 @@ async function initAssetPage(assetId) {
   const sideWindow = p7 == null ? `24H: <span class="${pctClass(p24)}">${fmtPct(p24)}</span>` : `7D: <span class="${pctClass(p7)}">${fmtPct(p7)}</span> | 30D: <span class="${pctClass(p30)}">${fmtPct(p30)}</span>`;
 
   if (summary) {
+    const band = payload.valuation?.band || "fair";
+    const summaryLine = payload.valuation?.summary_line || "";
     summary.innerHTML = `
       <p class="metric" id="live-price">${fmtPrice(payload.price?.current_usd)}</p>
       <p class="muted">${sideWindow}</p>
+      ${summaryLine ? `<p class="longterm-line"><strong>${summaryLine}</strong></p>` : ""}
       <div class="pill-row">
         ${renderMetricPill(payload.indicators?.trend || "")}
         ${renderMetricPill(payload.indicators?.momentum || "")}
         ${renderMetricPill(payload.indicators?.volatility || "")}
         ${payload.valuation?.verdict ? `<span class="pill">${payload.valuation.verdict}</span>` : ""}
+        <span class="${valuationBandClass(band)}">${band.toUpperCase()}</span>
       </div>
     `;
     highlightTerms(summary);
@@ -495,7 +541,7 @@ async function initAssetPage(assetId) {
   ]);
 
   setMetaRow("asset-chart-meta", [
-    { label: "Window", value: payload.market_type === "crypto" ? "30D live" : "snapshot" },
+    { label: "Window", value: payload.market_type === "crypto" ? "1Y sparkline + 200D MA" : "snapshot" },
     { label: "Price source", value: source }
   ]);
 
