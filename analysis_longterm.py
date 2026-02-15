@@ -244,6 +244,17 @@ def label_from_score(score):
 
 
 
+def valuation_band_from_verdict(verdict, percentile=None):
+    v = (verdict or "").lower()
+    if "undervalued" in v or "high-conviction" in v:
+        return "undervalued"
+    if "fair" in v or "neutral" in v:
+        return "fair"
+    if "overvalued" in v or "high risk" in v or "caution" in v:
+        return "overvalued"
+    return valuation_band_from_percentile(percentile)
+
+
 def valuation_band_from_percentile(percentile):
     if percentile is None:
         return "fair"
@@ -563,7 +574,7 @@ def score_crypto(asset_id, meta):
     verdict = label_from_score(composite)
     scenarios = build_scenarios(current, prices)
 
-    valuation_band = valuation_band_from_percentile(price_percentile)
+    valuation_band = valuation_band_from_verdict(verdict, price_percentile)
     summary_line = f"Long-term: {valuation_band.title()} - {growth_label(network_score)} - {risk_label(macro_narrative_score)}."
 
     lines = []
@@ -890,7 +901,7 @@ def score_traditional(asset_id, meta):
     verdict = label_from_score(composite)
     scenarios = build_scenarios(current, prices)
 
-    valuation_band = valuation_band_from_percentile(price_percentile)
+    valuation_band = valuation_band_from_verdict(verdict, price_percentile)
     summary_line = f"Long-term: {valuation_band.title()} - {growth_label(growth_profit_score)} - {risk_label(macro_reg_score)}."
 
     lines = []

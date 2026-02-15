@@ -1,6 +1,6 @@
 # Long-Term Multi-Asset Analysis Report
 
-_Updated: 2026-02-15 00:23 UTC_
+_Updated: 2026-02-15 00:52 UTC_
 
 ## Framework
 
@@ -31,7 +31,7 @@ _Data sources: CoinGecko history (live), CoinGecko fundamentals (live)_
 
 ### One-line Long-Term Summary
 
-Long-term: Undervalued - Balanced growth profile - Elevated regulatory risk.
+Long-term: Fair - Balanced growth profile - Elevated regulatory risk.
 
 ### Investment Thesis
 
@@ -40,34 +40,34 @@ Long-term: Undervalued - Balanced growth profile - Elevated regulatory risk.
 
 ### Valuation Band
 
-- **Valuation band:** undervalued
-- **Valuation pill:** GREEN Undervalued
+- **Valuation band:** fair
+- **Valuation pill:** GRAY Fair
 
 ### Composite Scorecard
 
 - **Composite score:** 58.0/100
 - **Confidence:** 100.0/100
 - **Supply/issuance & tokenomics (20%):** 100.0
-- **Network usage activity (25%):** 61.4
+- **Network usage activity (25%):** 61.2
 - **Developer & security (20%):** 68.4
-- **Liquidity & market structure (15%):** 35.4
+- **Liquidity & market structure (15%):** 35.3
 - **Macro/regulatory & narrative (20%):** 18.4
 
 ### Supply & Issuance
 
 - **Circulating supply:** 19,989,393
-- **Total supply:** 19,989,393
+- **Total supply:** 19,989,409
 - **Max supply:** 21,000,000
 - **Circulating/Total:** +100.00%
 - **FDV / Market Cap:** 1.00
 
 ### Network Activity & Economics
 
-- **Market cap:** $1,393,444,731,696
-- **24H volume:** $39,187,985,997
-- **Turnover (Vol/Cap):** +2.81%
-- **NVT proxy (Cap/Volume):** 35.56
-- **30d vs 180d volume trend proxy:** 1.04
+- **Market cap:** $1,391,976,728,929
+- **24H volume:** $38,774,434,731
+- **Turnover (Vol/Cap):** +2.79%
+- **NVT proxy (Cap/Volume):** 35.90
+- **30d vs 180d volume trend proxy:** 1.03
 
 ### Developer & Protocol Health
 
@@ -93,9 +93,9 @@ Long-term: Undervalued - Balanced growth profile - Elevated regulatory risk.
 
 | Case | Implied Price | Move vs Current | Core Assumption |
 |---|---:|---:|---|
-| Bear | $86,961 | +24.76% | Multiple compression / weaker demand and tighter liquidity. |
-| Base | $101,651 | +45.83% | Mean reversion toward cycle-normal valuation and usage trends. |
-| Bull | $112,950 | +62.04% | Sustained growth, stable macro backdrop, and expanding risk appetite. |
+| Bear | $86,961 | +24.88% | Multiple compression / weaker demand and tighter liquidity. |
+| Base | $101,651 | +45.97% | Mean reversion toward cycle-normal valuation and usage trends. |
+| Bull | $112,950 | +62.20% | Sustained growth, stable macro backdrop, and expanding risk appetite. |
 
 ### Disconfirming Evidence
 
@@ -126,7 +126,7 @@ _Data sources: CoinGecko history (live), CoinGecko fundamentals (live)_
 
 ### One-line Long-Term Summary
 
-Long-term: Undervalued - Strong growth profile - Elevated regulatory risk.
+Long-term: Fair - Strong growth profile - Elevated regulatory risk.
 
 ### Investment Thesis
 
@@ -135,17 +135,17 @@ Long-term: Undervalued - Strong growth profile - Elevated regulatory risk.
 
 ### Valuation Band
 
-- **Valuation band:** undervalued
-- **Valuation pill:** GREEN Undervalued
+- **Valuation band:** fair
+- **Valuation pill:** GRAY Fair
 
 ### Composite Scorecard
 
-- **Composite score:** 59.7/100
+- **Composite score:** 58.7/100
 - **Confidence:** 100.0/100
 - **Supply/issuance & tokenomics (20%):** 100.0
-- **Network usage activity (25%):** 81.4
+- **Network usage activity (25%):** 79.1
 - **Developer & security (20%):** 53.6
-- **Liquidity & market structure (15%):** 43.2
+- **Liquidity & market structure (15%):** 40.4
 - **Macro/regulatory & narrative (20%):** 10.7
 
 ### Supply & Issuance
@@ -158,10 +158,10 @@ Long-term: Undervalued - Strong growth profile - Elevated regulatory risk.
 
 ### Network Activity & Economics
 
-- **Market cap:** $251,292,015,193
-- **24H volume:** $16,297,567,840
-- **Turnover (Vol/Cap):** +6.49%
-- **NVT proxy (Cap/Volume):** 15.42
+- **Market cap:** $250,505,367,585
+- **24H volume:** $15,014,799,295
+- **Turnover (Vol/Cap):** +5.99%
+- **NVT proxy (Cap/Volume):** 16.68
 - **30d vs 180d volume trend proxy:** 1.01
 
 ### Developer & Protocol Health
@@ -175,8 +175,8 @@ Long-term: Undervalued - Strong growth profile - Elevated regulatory risk.
 - **Annualized volatility (1y):** +64.83%
 - **Max drawdown (1y):** -62.30%
 - **Drawdown recovery time estimate:** N/A trading days
-- **Price vs 200d average:** 0.59
-- **Price percentile (1y):** +18.31%
+- **Price vs 200d average:** 0.58
+- **Price percentile (1y):** +18.03%
 
 ### What Must Be True
 
@@ -188,9 +188,9 @@ Long-term: Undervalued - Strong growth profile - Elevated regulatory risk.
 
 | Case | Implied Price | Move vs Current | Core Assumption |
 |---|---:|---:|---|
-| Bear | $2,152 | +3.21% | Multiple compression / weaker demand and tighter liquidity. |
-| Base | $2,949 | +41.43% | Mean reversion toward cycle-normal valuation and usage trends. |
-| Bull | $3,911 | +87.57% | Sustained growth, stable macro backdrop, and expanding risk appetite. |
+| Bear | $2,152 | +3.77% | Multiple compression / weaker demand and tighter liquidity. |
+| Base | $2,949 | +42.21% | Mean reversion toward cycle-normal valuation and usage trends. |
+| Bull | $3,911 | +88.60% | Sustained growth, stable macro backdrop, and expanding risk appetite. |
 
 ### Disconfirming Evidence
 
