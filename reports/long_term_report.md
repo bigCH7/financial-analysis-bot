@@ -1,6 +1,6 @@
 # Long-Term Multi-Asset Analysis Report
 
-_Updated: 2026-02-15 00:52 UTC_
+_Updated: 2026-02-15 01:55 UTC_
 
 ## Framework
 
@@ -29,14 +29,21 @@ Scoring is normalized to 0-100, then mapped to human labels and a confidence sco
 
 _Data sources: CoinGecko history (live), CoinGecko fundamentals (live)_
 
-### One-line Long-Term Summary
+### One-line Summary
 
 Long-term: Fair - Balanced growth profile - Elevated regulatory risk.
 
+### TL;DR
+
+- **Pill:** GRAY Fair (58.1)
+- **Composite score:** 58.1/100 | **Confidence:** 100.0/100
+- **Fast read:** Network and supply are solid; key watch item is to watch macro sensitivity and narrative durability.
+
 ### Investment Thesis
 
-- **Core thesis:** Digital monetary network with fixed-supply narrative and highest liquidity depth in crypto.
-- **Narrative durability:** Store-of-value and collateral asset in crypto market structure.
+- Digital monetary network with fixed-supply narrative and highest liquidity depth in crypto.
+- Store-of-value and collateral asset in crypto market structure.
+- Long-term edge depends on durable usage, not short-term price spikes.
 
 ### Valuation Band
 
@@ -45,188 +52,174 @@ Long-term: Fair - Balanced growth profile - Elevated regulatory risk.
 
 ### Composite Scorecard
 
-- **Composite score:** 58.0/100
-- **Confidence:** 100.0/100
-- **Supply/issuance & tokenomics (20%):** 100.0
-- **Network usage activity (25%):** 61.2
-- **Developer & security (20%):** 68.4
-- **Liquidity & market structure (15%):** 35.3
-- **Macro/regulatory & narrative (20%):** 18.4
+| Pillar | Score |
+|---|---:|
+| Composite | 58.1 |
+| Confidence | 100.0 |
+| Supply/issuance | 100.0 |
+| Network usage | 61.6 |
+| Dev & security | 68.4 |
+| Liquidity | 35.6 |
+| Macro/regulatory | 18.4 |
 
-### Supply & Issuance
+### Key Drivers
 
-- **Circulating supply:** 19,989,393
-- **Total supply:** 19,989,409
-- **Max supply:** 21,000,000
-- **Circulating/Total:** +100.00%
-- **FDV / Market Cap:** 1.00
+- Supply and issuance
+- Real network activity
+- Liquidity resilience
 
-### Network Activity & Economics
+### Metrics (concise)
 
-- **Market cap:** $1,391,976,728,929
-- **24H volume:** $38,774,434,731
-- **Turnover (Vol/Cap):** +2.79%
-- **NVT proxy (Cap/Volume):** 35.90
-- **30d vs 180d volume trend proxy:** 1.03
-
-### Developer & Protocol Health
-
-- **GitHub commits (4w):** 108
-- **GitHub stars:** 73,168
-- **Security / upgrade risk:** No exploit database integrated yet; treat as manual diligence item.
-
-### Cross-Asset Risk
-
-- **Annualized volatility (1y):** +38.20%
-- **Max drawdown (1y):** -49.63%
-- **Drawdown recovery time estimate:** N/A trading days
-- **Price vs 200d average:** 0.69
-- **Price percentile (1y):** +1.91%
+- Price percentile (1y) - +1.91% - Why it matters: cheap vs 1y history.
+- Price vs 200d average - 0.69 - Why it matters: below 1.00 often means weak trend but better long-term entry.
+- Turnover (Vol/Cap) - +2.83% - Why it matters: higher turnover usually means easier entry/exit.
+- NVT proxy - 35.31 - Why it matters: very high values can mean price is running ahead of usage.
+- Max drawdown (1y) - -49.63% - Why it matters: shows pain tolerance needed to hold long term.
 
 ### What Must Be True
 
-- Adoption and on-chain utility need to stay durable through the cycle.
-- Liquidity depth must remain sufficient during risk-off periods.
-- Protocol governance and upgrades must avoid security regressions.
+- Usage and volume trend must stay stable or improve.
+- Liquidity must remain healthy during risk-off periods.
+- No major security or governance failure.
 
-### Scenario Analysis (Base / Bull / Bear)
+### Scenario Table
 
-| Case | Implied Price | Move vs Current | Core Assumption |
+| Case | Implied Price | Move vs Current | Core assumption |
 |---|---:|---:|---|
-| Bear | $86,961 | +24.88% | Multiple compression / weaker demand and tighter liquidity. |
-| Base | $101,651 | +45.97% | Mean reversion toward cycle-normal valuation and usage trends. |
-| Bull | $112,950 | +62.20% | Sustained growth, stable macro backdrop, and expanding risk appetite. |
+| Bear | $86,961 | +25.06% | Slower usage and tighter liquidity. |
+| Base | $101,651 | +46.19% | Gradual mean reversion. |
+| Bull | $112,950 | +62.44% | Strong adoption with stable macro. |
 
 ### Disconfirming Evidence
 
-- Sustained decline in usage/volume trends while market cap expands.
-- Material security events or repeated failed upgrades.
-- Structural liquidity deterioration across major venues.
+- Falling activity while market cap rises.
+- Repeated security events.
+- Persistent drop in liquidity depth.
 
 ### Monitoring Checklist
 
-- Track weekly: turnover, usage trend proxy, and developer activity.
-- Track monthly: drawdown depth, recovery profile, and narrative drift.
+- Weekly: turnover, usage trend, and risk headlines.
+- Monthly: drawdown profile and trend vs 200d average.
+- Quarterly: developer cadence and ecosystem traction.
 
-Valuation verdict:
-Neutral / fair-value zone
+### Final Verdict
 
-**Long-term verdict:** Neutral / fair-value zone
+Long-term stance: Neutral / fair-value zone. Near-term plan: accumulate on weakness and watch macro sensitivity and narrative durability.
 
 ### Method Notes
 
-- NVT/MVRV are approximated with available market-cap and volume feeds; direct realized-cap not integrated yet.
-- Percentile-based interpretation is preferred over hard static thresholds where history is available.
-- Not investment advice; use with independent risk management.
+- Scores use normalized pillars (0-100) and weighted sum.
+- Some metrics are approximations (for example NVT proxy).
+- Confidence reflects data coverage, freshness, and sample size.
 
 ---
 ## Ethereum (ETH)
 
 _Data sources: CoinGecko history (live), CoinGecko fundamentals (live)_
 
-### One-line Long-Term Summary
+### One-line Summary
 
-Long-term: Fair - Strong growth profile - Elevated regulatory risk.
+Long-term: Undervalued - Strong growth profile - Elevated regulatory risk.
+
+### TL;DR
+
+- **Pill:** GREEN Undervalued (60.3)
+- **Composite score:** 60.3/100 | **Confidence:** 100.0/100
+- **Fast read:** Network and supply are solid; key watch item is to watch macro sensitivity and narrative durability.
 
 ### Investment Thesis
 
-- **Core thesis:** Programmable settlement layer where utility depends on smart-contract activity and fee demand.
-- **Narrative durability:** Compute and settlement network for on-chain applications.
+- Programmable settlement layer where utility depends on smart-contract activity and fee demand.
+- Compute and settlement network for on-chain applications.
+- Long-term edge depends on durable usage, not short-term price spikes.
 
 ### Valuation Band
 
-- **Valuation band:** fair
-- **Valuation pill:** GRAY Fair
+- **Valuation band:** undervalued
+- **Valuation pill:** GREEN Undervalued
 
 ### Composite Scorecard
 
-- **Composite score:** 58.7/100
-- **Confidence:** 100.0/100
-- **Supply/issuance & tokenomics (20%):** 100.0
-- **Network usage activity (25%):** 79.1
-- **Developer & security (20%):** 53.6
-- **Liquidity & market structure (15%):** 40.4
-- **Macro/regulatory & narrative (20%):** 10.7
+| Pillar | Score |
+|---|---:|
+| Composite | 60.3 |
+| Confidence | 100.0 |
+| Supply/issuance | 100.0 |
+| Network usage | 82.9 |
+| Dev & security | 53.6 |
+| Liquidity | 44.8 |
+| Macro/regulatory | 10.7 |
 
-### Supply & Issuance
+### Key Drivers
 
-- **Circulating supply:** 120,692,468
-- **Total supply:** 120,692,468
-- **Max supply:** N/A
-- **Circulating/Total:** +100.00%
-- **FDV / Market Cap:** 1.00
+- Supply and issuance
+- Real network activity
+- Liquidity resilience
 
-### Network Activity & Economics
+### Metrics (concise)
 
-- **Market cap:** $250,505,367,585
-- **24H volume:** $15,014,799,295
-- **Turnover (Vol/Cap):** +5.99%
-- **NVT proxy (Cap/Volume):** 16.68
-- **30d vs 180d volume trend proxy:** 1.01
-
-### Developer & Protocol Health
-
-- **GitHub commits (4w):** 41
-- **GitHub stars:** 44,422
-- **Security / upgrade risk:** No exploit database integrated yet; treat as manual diligence item.
-
-### Cross-Asset Risk
-
-- **Annualized volatility (1y):** +64.83%
-- **Max drawdown (1y):** -62.30%
-- **Drawdown recovery time estimate:** N/A trading days
-- **Price vs 200d average:** 0.58
-- **Price percentile (1y):** +18.03%
+- Price percentile (1y) - +17.21% - Why it matters: cheap vs 1y history.
+- Price vs 200d average - 0.58 - Why it matters: below 1.00 often means weak trend but better long-term entry.
+- Turnover (Vol/Cap) - +6.78% - Why it matters: higher turnover usually means easier entry/exit.
+- NVT proxy - 14.74 - Why it matters: very high values can mean price is running ahead of usage.
+- Max drawdown (1y) - -62.30% - Why it matters: shows pain tolerance needed to hold long term.
 
 ### What Must Be True
 
-- Adoption and on-chain utility need to stay durable through the cycle.
-- Liquidity depth must remain sufficient during risk-off periods.
-- Protocol governance and upgrades must avoid security regressions.
+- Usage and volume trend must stay stable or improve.
+- Liquidity must remain healthy during risk-off periods.
+- No major security or governance failure.
 
-### Scenario Analysis (Base / Bull / Bear)
+### Scenario Table
 
-| Case | Implied Price | Move vs Current | Core Assumption |
+| Case | Implied Price | Move vs Current | Core assumption |
 |---|---:|---:|---|
-| Bear | $2,152 | +3.77% | Multiple compression / weaker demand and tighter liquidity. |
-| Base | $2,949 | +42.21% | Mean reversion toward cycle-normal valuation and usage trends. |
-| Bull | $3,911 | +88.60% | Sustained growth, stable macro backdrop, and expanding risk appetite. |
+| Bear | $2,152 | +4.51% | Slower usage and tighter liquidity. |
+| Base | $2,949 | +43.22% | Gradual mean reversion. |
+| Bull | $3,911 | +89.95% | Strong adoption with stable macro. |
 
 ### Disconfirming Evidence
 
-- Sustained decline in usage/volume trends while market cap expands.
-- Material security events or repeated failed upgrades.
-- Structural liquidity deterioration across major venues.
+- Falling activity while market cap rises.
+- Repeated security events.
+- Persistent drop in liquidity depth.
 
 ### Monitoring Checklist
 
-- Track weekly: turnover, usage trend proxy, and developer activity.
-- Track monthly: drawdown depth, recovery profile, and narrative drift.
+- Weekly: turnover, usage trend, and risk headlines.
+- Monthly: drawdown profile and trend vs 200d average.
+- Quarterly: developer cadence and ecosystem traction.
 
-Valuation verdict:
-Neutral / fair-value zone
+### Final Verdict
 
-**Long-term verdict:** Neutral / fair-value zone
+Long-term stance: Constructive long-term setup. Near-term plan: accumulate on weakness and watch macro sensitivity and narrative durability.
 
 ### Method Notes
 
-- NVT/MVRV are approximated with available market-cap and volume feeds; direct realized-cap not integrated yet.
-- Percentile-based interpretation is preferred over hard static thresholds where history is available.
-- Not investment advice; use with independent risk management.
+- Scores use normalized pillars (0-100) and weighted sum.
+- Some metrics are approximations (for example NVT proxy).
+- Confidence reflects data coverage, freshness, and sample size.
 
 ---
 ## S&P 500 ETF (SPY)
 
 _Data sources: Yahoo summary (unavailable), Yahoo quote (unavailable), Alpha overview (disabled), Price history (stooq_live)_
 
-### One-line Long-Term Summary
+### One-line Summary
 
 Long-term: Overvalued - Strong growth profile - Elevated regulatory risk.
 
+### TL;DR
+
+- **Pill:** RED Overvalued (40.7)
+- **Composite score:** 40.7/100 | **Confidence:** 67.8/100
+- **Fast read:** Setup is driven by valuation + macro balance; key watch item is to watch valuation stretch versus history.
+
 ### Investment Thesis
 
-- **Core thesis:** High sensitivity to U.S. growth, real rates, and broad equity risk appetite.
-- **Decision context:** Assess valuation versus cycle risk rather than single-period momentum.
+- High sensitivity to U.S. growth, real rates, and broad equity risk appetite.
+- Long-term returns depend more on entry valuation and cycle path than daily news.
+- Focus on downside control first, upside second.
 
 ### Valuation Band
 
@@ -235,102 +228,86 @@ Long-term: Overvalued - Strong growth profile - Elevated regulatory risk.
 
 ### Composite Scorecard
 
-- **Composite score:** 40.7/100
-- **Confidence:** 67.8/100
-- **Valuation (25%):** 0.0
-- **Growth & profitability (25%):** 100.0
-- **Balance sheet & cash flow (20%):** N/A
-- **Competitive position & management (15%):** N/A
-- **Macro/regulatory (15%):** 9.8
+| Pillar | Score |
+|---|---:|
+| Composite | 40.7 |
+| Confidence | 67.8 |
+| Valuation | 0.0 |
+| Growth & profitability | 100.0 |
+| Balance sheet & cash flow | N/A |
+| Competitive position & management | N/A |
+| Macro/regulatory | 9.8 |
 
-### Valuation
+### Key Drivers
 
-- **P/E:** N/A
-- **Forward P/E:** N/A
-- **P/B:** N/A
-- **EV/EBITDA:** N/A
-- **Price/Sales:** N/A
-- **PEG:** N/A
-- **Price percentile vs 10y history:** +98.42%
+- Valuation versus history
+- Quality of growth and margins
+- Macro and cycle sensitivity
 
-### Profitability, Growth, and Balance-Sheet Health
+### Metrics (concise)
 
-- **Revenue growth:** N/A
-- **EPS growth:** N/A
-- **Gross margin:** N/A
-- **Operating margin:** N/A
-- **Net margin:** N/A
-- **Debt/Equity:** N/A
-- **Current ratio:** N/A
-- **Quick ratio:** N/A
-
-### Cash Flow, Shareholder Returns, and Governance
-
-- **Free cash flow:** N/A
-- **Operating cash flow:** N/A
-- **FCF yield:** N/A
-- **Dividend yield:** N/A
-- **Payout ratio:** N/A
-- **Insider ownership:** N/A
-- **Institutional ownership:** N/A
-
-### Volatility, Drawdown, and Macro Sensitivity
-
-- **Annualized volatility:** +67.67%
-- **Max drawdown (history window):** -52.19%
-- **Recovery time estimate:** N/A monthly bars
-- **Beta:** N/A
-- **Macro/cycle note:** High sensitivity to U.S. growth, real rates, and broad equity risk appetite.
+- Price percentile (10y) - +98.42% - Why it matters: expensive vs 1y history.
+- P/E - N/A - Why it matters: lower multiples can improve long-term entry odds.
+- FCF yield - N/A - Why it matters: higher cash yield supports downside resilience.
+- Debt/Equity - N/A - Why it matters: higher leverage increases cycle risk.
+- Max drawdown - -52.19% - Why it matters: shows historical pain before recovery.
 
 ### What Must Be True
 
-- Adoption and on-chain utility need to stay durable through the cycle.
-- Liquidity depth must remain sufficient during risk-off periods.
-- Protocol governance and upgrades must avoid security regressions.
+- Earnings quality must hold if growth slows.
+- Liquidity and balance-sheet risk must remain contained.
+- Macro backdrop should not tighten beyond model assumptions.
 
-### Scenario Analysis (Base / Bull / Bear)
+### Scenario Table
 
-| Case | Implied Price | Move vs Current | Core Assumption |
+| Case | Implied Price | Move vs Current | Core assumption |
 |---|---:|---:|---|
-| Bear | $98.92 | -85.49% | Multiple compression / weaker demand and tighter liquidity. |
-| Base | $174.30 | -74.43% | Mean reversion toward cycle-normal valuation and usage trends. |
-| Bull | $394.14 | -42.19% | Sustained growth, stable macro backdrop, and expanding risk appetite. |
+| Bear | $98.92 | -85.49% | Slower growth and lower multiples. |
+| Base | $174.30 | -74.43% | Normalized growth and valuation. |
+| Bull | $394.14 | -42.19% | Strong growth with stable rates. |
 
 ### Disconfirming Evidence
 
-- Sustained decline in usage/volume trends while market cap expands.
-- Material security events or repeated failed upgrades.
-- Structural liquidity deterioration across major venues.
+- Persistent margin erosion.
+- Cash flow weakens while leverage rises.
+- Macro regime shifts against the asset profile.
 
 ### Monitoring Checklist
 
-- Track weekly: turnover, usage trend proxy, and developer activity.
-- Track monthly: drawdown depth, recovery profile, and narrative drift.
+- Weekly: trend vs 200d-equivalent and risk headlines.
+- Monthly: valuation stretch and drawdown profile.
+- Quarterly: earnings quality, cash flow, and balance-sheet change.
 
-Valuation verdict:
-Caution / risk-reward mixed
+### Final Verdict
 
-**Long-term verdict:** Caution / risk-reward mixed
+Long-term stance: Caution / risk-reward mixed. Near-term plan: stay selective, accumulate on weakness, and watch valuation stretch versus history.
 
 ### Method Notes
 
-- Where fields are unavailable (especially ETFs/futures), scoring automatically reduces confidence and re-weights available evidence.
-- Percentile framing is based on available 10-year monthly history from Yahoo chart data.
-- Not investment advice; this is a decision-support framework.
+- Scores use normalized pillars (0-100) and weighted sum.
+- If a feed is unavailable, confidence drops and available data is used.
+- Confidence reflects data coverage, freshness, and sample size.
 
 ---
 ## Nasdaq 100 ETF (QQQ)
 
 _Data sources: Yahoo summary (unavailable), Yahoo quote (unavailable), Alpha overview (disabled), Price history (stooq_live)_
 
-### One-line Long-Term Summary
+### One-line Summary
 
 Long-term: Overvalued - Strong growth profile - Elevated regulatory risk.
 
+### TL;DR
+
+- **Pill:** RED Overvalued (38.5)
+- **Composite score:** 38.5/100 | **Confidence:** 67.8/100
+- **Fast read:** Setup is driven by valuation + macro balance; key watch item is to watch valuation stretch versus history.
+
 ### Investment Thesis
 
-- **Core thesis:** Higher duration/growth sensitivity and concentration in mega-cap technology.
-- **Decision context:** Assess valuation versus cycle risk rather than single-period momentum.
+- Higher duration/growth sensitivity and concentration in mega-cap technology.
+- Long-term returns depend more on entry valuation and cycle path than daily news.
+- Focus on downside control first, upside second.
 
 ### Valuation Band
 
@@ -339,102 +316,86 @@ Long-term: Overvalued - Strong growth profile - Elevated regulatory risk.
 
 ### Composite Scorecard
 
-- **Composite score:** 38.5/100
-- **Confidence:** 67.8/100
-- **Valuation (25%):** 0.0
-- **Growth & profitability (25%):** 100.0
-- **Balance sheet & cash flow (20%):** N/A
-- **Competitive position & management (15%):** N/A
-- **Macro/regulatory (15%):** 0.0
+| Pillar | Score |
+|---|---:|
+| Composite | 38.5 |
+| Confidence | 67.8 |
+| Valuation | 0.0 |
+| Growth & profitability | 100.0 |
+| Balance sheet & cash flow | N/A |
+| Competitive position & management | N/A |
+| Macro/regulatory | 0.0 |
 
-### Valuation
+### Key Drivers
 
-- **P/E:** N/A
-- **Forward P/E:** N/A
-- **P/B:** N/A
-- **EV/EBITDA:** N/A
-- **Price/Sales:** N/A
-- **PEG:** N/A
-- **Price percentile vs 10y history:** +98.77%
+- Valuation versus history
+- Quality of growth and margins
+- Macro and cycle sensitivity
 
-### Profitability, Growth, and Balance-Sheet Health
+### Metrics (concise)
 
-- **Revenue growth:** N/A
-- **EPS growth:** N/A
-- **Gross margin:** N/A
-- **Operating margin:** N/A
-- **Net margin:** N/A
-- **Debt/Equity:** N/A
-- **Current ratio:** N/A
-- **Quick ratio:** N/A
-
-### Cash Flow, Shareholder Returns, and Governance
-
-- **Free cash flow:** N/A
-- **Operating cash flow:** N/A
-- **FCF yield:** N/A
-- **Dividend yield:** N/A
-- **Payout ratio:** N/A
-- **Insider ownership:** N/A
-- **Institutional ownership:** N/A
-
-### Volatility, Drawdown, and Macro Sensitivity
-
-- **Annualized volatility:** +106.10%
-- **Max drawdown (history window):** -81.08%
-- **Recovery time estimate:** N/A monthly bars
-- **Beta:** N/A
-- **Macro/cycle note:** Higher duration/growth sensitivity and concentration in mega-cap technology.
+- Price percentile (10y) - +98.77% - Why it matters: expensive vs 1y history.
+- P/E - N/A - Why it matters: lower multiples can improve long-term entry odds.
+- FCF yield - N/A - Why it matters: higher cash yield supports downside resilience.
+- Debt/Equity - N/A - Why it matters: higher leverage increases cycle risk.
+- Max drawdown - -81.08% - Why it matters: shows historical pain before recovery.
 
 ### What Must Be True
 
-- Adoption and on-chain utility need to stay durable through the cycle.
-- Liquidity depth must remain sufficient during risk-off periods.
-- Protocol governance and upgrades must avoid security regressions.
+- Earnings quality must hold if growth slows.
+- Liquidity and balance-sheet risk must remain contained.
+- Macro backdrop should not tighten beyond model assumptions.
 
-### Scenario Analysis (Base / Bull / Bear)
+### Scenario Table
 
-| Case | Implied Price | Move vs Current | Core Assumption |
+| Case | Implied Price | Move vs Current | Core assumption |
 |---|---:|---:|---|
-| Bear | $33.92 | -94.36% | Multiple compression / weaker demand and tighter liquidity. |
-| Base | $68.19 | -88.67% | Mean reversion toward cycle-normal valuation and usage trends. |
-| Bull | $262.64 | -56.37% | Sustained growth, stable macro backdrop, and expanding risk appetite. |
+| Bear | $33.92 | -94.36% | Slower growth and lower multiples. |
+| Base | $68.19 | -88.67% | Normalized growth and valuation. |
+| Bull | $262.64 | -56.37% | Strong growth with stable rates. |
 
 ### Disconfirming Evidence
 
-- Sustained decline in usage/volume trends while market cap expands.
-- Material security events or repeated failed upgrades.
-- Structural liquidity deterioration across major venues.
+- Persistent margin erosion.
+- Cash flow weakens while leverage rises.
+- Macro regime shifts against the asset profile.
 
 ### Monitoring Checklist
 
-- Track weekly: turnover, usage trend proxy, and developer activity.
-- Track monthly: drawdown depth, recovery profile, and narrative drift.
+- Weekly: trend vs 200d-equivalent and risk headlines.
+- Monthly: valuation stretch and drawdown profile.
+- Quarterly: earnings quality, cash flow, and balance-sheet change.
 
-Valuation verdict:
-Caution / risk-reward mixed
+### Final Verdict
 
-**Long-term verdict:** Caution / risk-reward mixed
+Long-term stance: Caution / risk-reward mixed. Near-term plan: stay selective, accumulate on weakness, and watch valuation stretch versus history.
 
 ### Method Notes
 
-- Where fields are unavailable (especially ETFs/futures), scoring automatically reduces confidence and re-weights available evidence.
-- Percentile framing is based on available 10-year monthly history from Yahoo chart data.
-- Not investment advice; this is a decision-support framework.
+- Scores use normalized pillars (0-100) and weighted sum.
+- If a feed is unavailable, confidence drops and available data is used.
+- Confidence reflects data coverage, freshness, and sample size.
 
 ---
 ## NVIDIA (NVDA)
 
 _Data sources: Yahoo summary (unavailable), Yahoo quote (unavailable), Alpha overview (disabled), Price history (stooq_live)_
 
-### One-line Long-Term Summary
+### One-line Summary
 
 Long-term: Overvalued - Mixed growth profile - Elevated regulatory risk.
 
+### TL;DR
+
+- **Pill:** RED Overvalued (0.0)
+- **Composite score:** 0.0/100 | **Confidence:** 56.5/100
+- **Fast read:** Setup is driven by valuation + macro balance; key watch item is to watch valuation stretch versus history.
+
 ### Investment Thesis
 
-- **Core thesis:** Cyclical semiconductor exposure with AI capex dependence and valuation sensitivity to rates.
-- **Decision context:** Assess valuation versus cycle risk rather than single-period momentum.
+- Cyclical semiconductor exposure with AI capex dependence and valuation sensitivity to rates.
+- Long-term returns depend more on entry valuation and cycle path than daily news.
+- Focus on downside control first, upside second.
 
 ### Valuation Band
 
@@ -443,102 +404,86 @@ Long-term: Overvalued - Mixed growth profile - Elevated regulatory risk.
 
 ### Composite Scorecard
 
-- **Composite score:** 0.0/100
-- **Confidence:** 56.5/100
-- **Valuation (25%):** 0.0
-- **Growth & profitability (25%):** N/A
-- **Balance sheet & cash flow (20%):** N/A
-- **Competitive position & management (15%):** N/A
-- **Macro/regulatory (15%):** 0.0
+| Pillar | Score |
+|---|---:|
+| Composite | 0.0 |
+| Confidence | 56.5 |
+| Valuation | 0.0 |
+| Growth & profitability | N/A |
+| Balance sheet & cash flow | N/A |
+| Competitive position & management | N/A |
+| Macro/regulatory | 0.0 |
 
-### Valuation
+### Key Drivers
 
-- **P/E:** N/A
-- **Forward P/E:** N/A
-- **P/B:** N/A
-- **EV/EBITDA:** N/A
-- **Price/Sales:** N/A
-- **PEG:** N/A
-- **Price percentile vs 10y history:** +98.77%
+- Valuation versus history
+- Quality of growth and margins
+- Macro and cycle sensitivity
 
-### Profitability, Growth, and Balance-Sheet Health
+### Metrics (concise)
 
-- **Revenue growth:** N/A
-- **EPS growth:** N/A
-- **Gross margin:** N/A
-- **Operating margin:** N/A
-- **Net margin:** N/A
-- **Debt/Equity:** N/A
-- **Current ratio:** N/A
-- **Quick ratio:** N/A
-
-### Cash Flow, Shareholder Returns, and Governance
-
-- **Free cash flow:** N/A
-- **Operating cash flow:** N/A
-- **FCF yield:** N/A
-- **Dividend yield:** N/A
-- **Payout ratio:** N/A
-- **Insider ownership:** N/A
-- **Institutional ownership:** N/A
-
-### Volatility, Drawdown, and Macro Sensitivity
-
-- **Annualized volatility:** +275.86%
-- **Max drawdown (history window):** -87.22%
-- **Recovery time estimate:** N/A monthly bars
-- **Beta:** N/A
-- **Macro/cycle note:** Cyclical semiconductor exposure with AI capex dependence and valuation sensitivity to rates.
+- Price percentile (10y) - +98.77% - Why it matters: expensive vs 1y history.
+- P/E - N/A - Why it matters: lower multiples can improve long-term entry odds.
+- FCF yield - N/A - Why it matters: higher cash yield supports downside resilience.
+- Debt/Equity - N/A - Why it matters: higher leverage increases cycle risk.
+- Max drawdown - -87.22% - Why it matters: shows historical pain before recovery.
 
 ### What Must Be True
 
-- Adoption and on-chain utility need to stay durable through the cycle.
-- Liquidity depth must remain sufficient during risk-off periods.
-- Protocol governance and upgrades must avoid security regressions.
+- Earnings quality must hold if growth slows.
+- Liquidity and balance-sheet risk must remain contained.
+- Macro backdrop should not tighten beyond model assumptions.
 
-### Scenario Analysis (Base / Bull / Bear)
+### Scenario Table
 
-| Case | Implied Price | Move vs Current | Core Assumption |
+| Case | Implied Price | Move vs Current | Core assumption |
 |---|---:|---:|---|
-| Bear | $0.22 | -99.88% | Multiple compression / weaker demand and tighter liquidity. |
-| Base | $0.45 | -99.75% | Mean reversion toward cycle-normal valuation and usage trends. |
-| Bull | $12.50 | -93.16% | Sustained growth, stable macro backdrop, and expanding risk appetite. |
+| Bear | $0.22 | -99.88% | Slower growth and lower multiples. |
+| Base | $0.45 | -99.75% | Normalized growth and valuation. |
+| Bull | $12.50 | -93.16% | Strong growth with stable rates. |
 
 ### Disconfirming Evidence
 
-- Sustained decline in usage/volume trends while market cap expands.
-- Material security events or repeated failed upgrades.
-- Structural liquidity deterioration across major venues.
+- Persistent margin erosion.
+- Cash flow weakens while leverage rises.
+- Macro regime shifts against the asset profile.
 
 ### Monitoring Checklist
 
-- Track weekly: turnover, usage trend proxy, and developer activity.
-- Track monthly: drawdown depth, recovery profile, and narrative drift.
+- Weekly: trend vs 200d-equivalent and risk headlines.
+- Monthly: valuation stretch and drawdown profile.
+- Quarterly: earnings quality, cash flow, and balance-sheet change.
 
-Valuation verdict:
-High risk / weak long-term setup
+### Final Verdict
 
-**Long-term verdict:** High risk / weak long-term setup
+Long-term stance: High risk / weak long-term setup. Near-term plan: stay selective, accumulate on weakness, and watch valuation stretch versus history.
 
 ### Method Notes
 
-- Where fields are unavailable (especially ETFs/futures), scoring automatically reduces confidence and re-weights available evidence.
-- Percentile framing is based on available 10-year monthly history from Yahoo chart data.
-- Not investment advice; this is a decision-support framework.
+- Scores use normalized pillars (0-100) and weighted sum.
+- If a feed is unavailable, confidence drops and available data is used.
+- Confidence reflects data coverage, freshness, and sample size.
 
 ---
 ## Gold Futures (GC=F)
 
 _Data sources: Yahoo summary (unavailable), Yahoo quote (unavailable), Alpha overview (disabled), Price history (stooq_live)_
 
-### One-line Long-Term Summary
+### One-line Summary
 
 Long-term: Overvalued - Strong growth profile - Elevated regulatory risk.
 
+### TL;DR
+
+- **Pill:** RED Overvalued (38.5)
+- **Composite score:** 38.5/100 | **Confidence:** 67.8/100
+- **Fast read:** Setup is driven by valuation + macro balance; key watch item is to watch valuation stretch versus history.
+
 ### Investment Thesis
 
-- **Core thesis:** Sensitive to real yields, USD direction, and geopolitical hedging demand.
-- **Decision context:** Assess valuation versus cycle risk rather than single-period momentum.
+- Sensitive to real yields, USD direction, and geopolitical hedging demand.
+- Long-term returns depend more on entry valuation and cycle path than daily news.
+- Focus on downside control first, upside second.
 
 ### Valuation Band
 
@@ -547,102 +492,86 @@ Long-term: Overvalued - Strong growth profile - Elevated regulatory risk.
 
 ### Composite Scorecard
 
-- **Composite score:** 38.5/100
-- **Confidence:** 67.8/100
-- **Valuation (25%):** 0.0
-- **Growth & profitability (25%):** 100.0
-- **Balance sheet & cash flow (20%):** N/A
-- **Competitive position & management (15%):** N/A
-- **Macro/regulatory (15%):** 0.0
+| Pillar | Score |
+|---|---:|
+| Composite | 38.5 |
+| Confidence | 67.8 |
+| Valuation | 0.0 |
+| Growth & profitability | 100.0 |
+| Balance sheet & cash flow | N/A |
+| Competitive position & management | N/A |
+| Macro/regulatory | 0.0 |
 
-### Valuation
+### Key Drivers
 
-- **P/E:** N/A
-- **Forward P/E:** N/A
-- **P/B:** N/A
-- **EV/EBITDA:** N/A
-- **Price/Sales:** N/A
-- **PEG:** N/A
-- **Price percentile vs 10y history:** +100.00%
+- Valuation versus history
+- Quality of growth and margins
+- Macro and cycle sensitivity
 
-### Profitability, Growth, and Balance-Sheet Health
+### Metrics (concise)
 
-- **Revenue growth:** N/A
-- **EPS growth:** N/A
-- **Gross margin:** N/A
-- **Operating margin:** N/A
-- **Net margin:** N/A
-- **Debt/Equity:** N/A
-- **Current ratio:** N/A
-- **Quick ratio:** N/A
-
-### Cash Flow, Shareholder Returns, and Governance
-
-- **Free cash flow:** N/A
-- **Operating cash flow:** N/A
-- **FCF yield:** N/A
-- **Dividend yield:** N/A
-- **Payout ratio:** N/A
-- **Insider ownership:** N/A
-- **Institutional ownership:** N/A
-
-### Volatility, Drawdown, and Macro Sensitivity
-
-- **Annualized volatility:** +86.75%
-- **Max drawdown (history window):** -63.77%
-- **Recovery time estimate:** N/A monthly bars
-- **Beta:** N/A
-- **Macro/cycle note:** Sensitive to real yields, USD direction, and geopolitical hedging demand.
+- Price percentile (10y) - +100.00% - Why it matters: expensive vs 1y history.
+- P/E - N/A - Why it matters: lower multiples can improve long-term entry odds.
+- FCF yield - N/A - Why it matters: higher cash yield supports downside resilience.
+- Debt/Equity - N/A - Why it matters: higher leverage increases cycle risk.
+- Max drawdown - -63.77% - Why it matters: shows historical pain before recovery.
 
 ### What Must Be True
 
-- Adoption and on-chain utility need to stay durable through the cycle.
-- Liquidity depth must remain sufficient during risk-off periods.
-- Protocol governance and upgrades must avoid security regressions.
+- Earnings quality must hold if growth slows.
+- Liquidity and balance-sheet risk must remain contained.
+- Macro backdrop should not tighten beyond model assumptions.
 
-### Scenario Analysis (Base / Bull / Bear)
+### Scenario Table
 
-| Case | Implied Price | Move vs Current | Core Assumption |
+| Case | Implied Price | Move vs Current | Core assumption |
 |---|---:|---:|---|
-| Bear | $20.67 | -99.59% | Multiple compression / weaker demand and tighter liquidity. |
-| Base | $39.40 | -99.22% | Mean reversion toward cycle-normal valuation and usage trends. |
-| Bull | $449.00 | -91.08% | Sustained growth, stable macro backdrop, and expanding risk appetite. |
+| Bear | $20.67 | -99.59% | Slower growth and lower multiples. |
+| Base | $39.40 | -99.22% | Normalized growth and valuation. |
+| Bull | $449.00 | -91.08% | Strong growth with stable rates. |
 
 ### Disconfirming Evidence
 
-- Sustained decline in usage/volume trends while market cap expands.
-- Material security events or repeated failed upgrades.
-- Structural liquidity deterioration across major venues.
+- Persistent margin erosion.
+- Cash flow weakens while leverage rises.
+- Macro regime shifts against the asset profile.
 
 ### Monitoring Checklist
 
-- Track weekly: turnover, usage trend proxy, and developer activity.
-- Track monthly: drawdown depth, recovery profile, and narrative drift.
+- Weekly: trend vs 200d-equivalent and risk headlines.
+- Monthly: valuation stretch and drawdown profile.
+- Quarterly: earnings quality, cash flow, and balance-sheet change.
 
-Valuation verdict:
-Caution / risk-reward mixed
+### Final Verdict
 
-**Long-term verdict:** Caution / risk-reward mixed
+Long-term stance: Caution / risk-reward mixed. Near-term plan: stay selective, accumulate on weakness, and watch valuation stretch versus history.
 
 ### Method Notes
 
-- Where fields are unavailable (especially ETFs/futures), scoring automatically reduces confidence and re-weights available evidence.
-- Percentile framing is based on available 10-year monthly history from Yahoo chart data.
-- Not investment advice; this is a decision-support framework.
+- Scores use normalized pillars (0-100) and weighted sum.
+- If a feed is unavailable, confidence drops and available data is used.
+- Confidence reflects data coverage, freshness, and sample size.
 
 ---
 ## Crude Oil Futures (CL=F)
 
 _Data sources: Yahoo summary (unavailable), Yahoo quote (unavailable), Alpha overview (disabled), Price history (unavailable)_
 
-### One-line Long-Term Summary
+### One-line Summary
 
 Long-term: Fair - Mixed growth profile - Moderate regulatory risk.
 
+### TL;DR
+
+- **Pill:** GRAY Fair (N/A)
+- **Composite score:** N/A/100 | **Confidence:** 13.5/100
+- **Fast read:** Setup is driven by valuation + macro balance; key watch item is to watch liquidity.
+
 ### Investment Thesis
 
-- **Core thesis:** Driven by global growth, OPEC+ policy, inventories, and geopolitical supply shocks.
-- **Decision context:** Assess valuation versus cycle risk rather than single-period momentum.
+- Driven by global growth, OPEC+ policy, inventories, and geopolitical supply shocks.
+- Long-term returns depend more on entry valuation and cycle path than daily news.
+- Focus on downside control first, upside second.
 
 ### Valuation Band
 
@@ -651,83 +580,60 @@ Long-term: Fair - Mixed growth profile - Moderate regulatory risk.
 
 ### Composite Scorecard
 
-- **Composite score:** N/A/100
-- **Confidence:** 13.5/100
-- **Valuation (25%):** N/A
-- **Growth & profitability (25%):** N/A
-- **Balance sheet & cash flow (20%):** N/A
-- **Competitive position & management (15%):** N/A
-- **Macro/regulatory (15%):** N/A
+| Pillar | Score |
+|---|---:|
+| Composite | N/A |
+| Confidence | 13.5 |
+| Valuation | N/A |
+| Growth & profitability | N/A |
+| Balance sheet & cash flow | N/A |
+| Competitive position & management | N/A |
+| Macro/regulatory | N/A |
 
-### Valuation
+### Key Drivers
 
-- **P/E:** N/A
-- **Forward P/E:** N/A
-- **P/B:** N/A
-- **EV/EBITDA:** N/A
-- **Price/Sales:** N/A
-- **PEG:** N/A
-- **Price percentile vs 10y history:** N/A
+- Valuation versus history
+- Quality of growth and margins
+- Macro and cycle sensitivity
 
-### Profitability, Growth, and Balance-Sheet Health
+### Metrics (concise)
 
-- **Revenue growth:** N/A
-- **EPS growth:** N/A
-- **Gross margin:** N/A
-- **Operating margin:** N/A
-- **Net margin:** N/A
-- **Debt/Equity:** N/A
-- **Current ratio:** N/A
-- **Quick ratio:** N/A
-
-### Cash Flow, Shareholder Returns, and Governance
-
-- **Free cash flow:** N/A
-- **Operating cash flow:** N/A
-- **FCF yield:** N/A
-- **Dividend yield:** N/A
-- **Payout ratio:** N/A
-- **Insider ownership:** N/A
-- **Institutional ownership:** N/A
-
-### Volatility, Drawdown, and Macro Sensitivity
-
-- **Annualized volatility:** N/A
-- **Max drawdown (history window):** N/A
-- **Recovery time estimate:** N/A monthly bars
-- **Beta:** N/A
-- **Macro/cycle note:** Driven by global growth, OPEC+ policy, inventories, and geopolitical supply shocks.
+- Price percentile (10y) - N/A - Why it matters: no percentile signal.
+- P/E - N/A - Why it matters: lower multiples can improve long-term entry odds.
+- FCF yield - N/A - Why it matters: higher cash yield supports downside resilience.
+- Debt/Equity - N/A - Why it matters: higher leverage increases cycle risk.
+- Max drawdown - N/A - Why it matters: shows historical pain before recovery.
 
 ### What Must Be True
 
-- Adoption and on-chain utility need to stay durable through the cycle.
-- Liquidity depth must remain sufficient during risk-off periods.
-- Protocol governance and upgrades must avoid security regressions.
+- Earnings quality must hold if growth slows.
+- Liquidity and balance-sheet risk must remain contained.
+- Macro backdrop should not tighten beyond model assumptions.
 
-### Scenario Analysis (Base / Bull / Bear)
+### Scenario Table
 
-Scenario model unavailable due to insufficient history.
+Scenario table unavailable (insufficient history).
 
 ### Disconfirming Evidence
 
-- Sustained decline in usage/volume trends while market cap expands.
-- Material security events or repeated failed upgrades.
-- Structural liquidity deterioration across major venues.
+- Persistent margin erosion.
+- Cash flow weakens while leverage rises.
+- Macro regime shifts against the asset profile.
 
 ### Monitoring Checklist
 
-- Track weekly: turnover, usage trend proxy, and developer activity.
-- Track monthly: drawdown depth, recovery profile, and narrative drift.
+- Weekly: trend vs 200d-equivalent and risk headlines.
+- Monthly: valuation stretch and drawdown profile.
+- Quarterly: earnings quality, cash flow, and balance-sheet change.
 
-Valuation verdict:
-Insufficient data
+### Final Verdict
 
-**Long-term verdict:** Insufficient data
+Long-term stance: Insufficient data. Near-term plan: stay selective, accumulate on weakness, and watch liquidity.
 
 ### Method Notes
 
-- Where fields are unavailable (especially ETFs/futures), scoring automatically reduces confidence and re-weights available evidence.
-- Percentile framing is based on available 10-year monthly history from Yahoo chart data.
-- Not investment advice; this is a decision-support framework.
+- Scores use normalized pillars (0-100) and weighted sum.
+- If a feed is unavailable, confidence drops and available data is used.
+- Confidence reflects data coverage, freshness, and sample size.
 
 ---

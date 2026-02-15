@@ -283,6 +283,52 @@ def risk_label(score):
     if score >= 45:
         return "Moderate regulatory risk"
     return "Elevated regulatory risk"
+
+
+def band_emoji(band):
+    key = (band or "").lower()
+    if key == "undervalued":
+        return "GREEN"
+    if key == "overvalued":
+        return "RED"
+    return "GRAY"
+
+
+def percentile_label(percentile):
+    if percentile is None:
+        return "no percentile signal"
+    if percentile <= 35:
+        return "cheap vs 1y history"
+    if percentile >= 70:
+        return "expensive vs 1y history"
+    return "middle of 1y range"
+
+
+def pick_next_watch(score_map):
+    if not score_map:
+        return "watch liquidity"
+    ranked = sorted(
+        ((k, v) for k, v in score_map.items() if v is not None),
+        key=lambda x: x[1],
+    )
+    if not ranked:
+        return "watch liquidity"
+    key = ranked[0][0]
+    labels = {
+        "tokenomics": "watch supply dilution and unlock dynamics",
+        "usage": "watch network usage trend and activity",
+        "dev_security": "watch developer cadence and protocol security",
+        "liquidity": "watch liquidity and turnover",
+        "macro_narrative": "watch macro sensitivity and narrative durability",
+        "valuation": "watch valuation stretch versus history",
+        "growth_profit": "watch growth and margin quality",
+        "balance_cashflow": "watch cash flow quality and leverage",
+        "comp_mgmt": "watch management execution quality",
+        "macro_reg": "watch macro and regulatory risk",
+    }
+    return labels.get(key, "watch liquidity")
+
+
 def confidence_score(used_weight, data_points, source_labels):
     coverage = clamp(used_weight)
     sample = clamp(data_points / 365.0 * 100.0)
@@ -512,47 +558,32 @@ def score_crypto(asset_id, meta):
 
     ann_vol = annualized_volatility(prices)
     mdd = max_drawdown(prices)
-    recovery = recovery_days_after_drawdown(prices)
 
     price_percentile = percentile_rank(prices, current)
 
-    tokenomics_score = mean_or_none(
-        [
-            score_threshold(circulating_ratio, good=0.90, bad=0.45, higher_is_better=True),
-            score_threshold(fdv_ratio, good=1.15, bad=2.5, higher_is_better=False),
-            score_threshold(max_supply_ratio, good=0.80, bad=0.35, higher_is_better=True),
-        ]
-    )
-
-    network_score = mean_or_none(
-        [
-            score_threshold(usage_growth_proxy, good=1.15, bad=0.75, higher_is_better=True),
-            score_threshold(nvt_proxy, good=20, bad=140, higher_is_better=False),
-            score_threshold(turnover, good=0.08, bad=0.01, higher_is_better=True),
-        ]
-    )
-
-    dev_score = mean_or_none(
-        [
-            score_threshold(commit_4w, good=250, bad=25, higher_is_better=True),
-            score_threshold(stars, good=30000, bad=2000, higher_is_better=True),
-        ]
-    )
-
-    liquidity_score = mean_or_none(
-        [
-            score_threshold(turnover, good=0.10, bad=0.01, higher_is_better=True),
-            score_threshold(abs(mdd) if mdd is not None else None, good=25, bad=75, higher_is_better=False),
-        ]
-    )
-
-    macro_narrative_score = mean_or_none(
-        [
-            score_threshold(price_to_ma, good=1.05, bad=0.70, higher_is_better=True),
-            score_threshold(price_percentile, good=65, bad=20, higher_is_better=True),
-            score_threshold(abs(mdd) if mdd is not None else None, good=25, bad=80, higher_is_better=False),
-        ]
-    )
+    tokenomics_score = mean_or_none([
+        score_threshold(circulating_ratio, good=0.90, bad=0.45, higher_is_better=True),
+        score_threshold(fdv_ratio, good=1.15, bad=2.5, higher_is_better=False),
+        score_threshold(max_supply_ratio, good=0.80, bad=0.35, higher_is_better=True),
+    ])
+    network_score = mean_or_none([
+        score_threshold(usage_growth_proxy, good=1.15, bad=0.75, higher_is_better=True),
+        score_threshold(nvt_proxy, good=20, bad=140, higher_is_better=False),
+        score_threshold(turnover, good=0.08, bad=0.01, higher_is_better=True),
+    ])
+    dev_score = mean_or_none([
+        score_threshold(commit_4w, good=250, bad=25, higher_is_better=True),
+        score_threshold(stars, good=30000, bad=2000, higher_is_better=True),
+    ])
+    liquidity_score = mean_or_none([
+        score_threshold(turnover, good=0.10, bad=0.01, higher_is_better=True),
+        score_threshold(abs(mdd) if mdd is not None else None, good=25, bad=75, higher_is_better=False),
+    ])
+    macro_narrative_score = mean_or_none([
+        score_threshold(price_to_ma, good=1.05, bad=0.70, higher_is_better=True),
+        score_threshold(price_percentile, good=65, bad=20, higher_is_better=True),
+        score_threshold(abs(mdd) if mdd is not None else None, good=25, bad=80, higher_is_better=False),
+    ])
 
     score_map = {
         "tokenomics": tokenomics_score,
@@ -576,104 +607,99 @@ def score_crypto(asset_id, meta):
 
     valuation_band = valuation_band_from_verdict(verdict, price_percentile)
     summary_line = f"Long-term: {valuation_band.title()} - {growth_label(network_score)} - {risk_label(macro_narrative_score)}."
+    tldr_pill = f"{band_emoji(valuation_band)} {valuation_band.title()} ({fmt_num(composite, 1)})"
+    next_watch = pick_next_watch(score_map)
 
     lines = []
     lines.append(f"## {meta['name']} ({meta['symbol']})")
     lines.append("")
     lines.append(f"_Data sources: CoinGecko history ({history_source}), CoinGecko fundamentals ({details_source})_")
     lines.append("")
-    lines.append("### One-line Long-Term Summary")
+    lines.append("### One-line Summary")
     lines.append("")
     lines.append(summary_line)
     lines.append("")
+    lines.append("### TL;DR")
+    lines.append("")
+    lines.append(f"- **Pill:** {tldr_pill}")
+    lines.append(f"- **Composite score:** {fmt_num(composite, 1)}/100 | **Confidence:** {fmt_num(confidence, 1)}/100")
+    lines.append(f"- **Fast read:** Network and supply are solid; key watch item is to {next_watch}.")
+    lines.append("")
     lines.append("### Investment Thesis")
     lines.append("")
-    lines.append(f"- **Core thesis:** {meta['thesis']}")
-    lines.append(f"- **Narrative durability:** {meta['narrative']}")
+    lines.append(f"- {meta['thesis']}")
+    lines.append(f"- {meta['narrative']}")
+    lines.append("- Long-term edge depends on durable usage, not short-term price spikes.")
     lines.append("")
     lines.append("### Valuation Band")
     lines.append("")
     lines.append(f"- **Valuation band:** {valuation_band}")
-    lines.append(f"- **Valuation pill:** {'GREEN' if valuation_band == 'undervalued' else ('RED' if valuation_band == 'overvalued' else 'GRAY')} {valuation_band.title()}")
+    lines.append(f"- **Valuation pill:** {('GREEN' if valuation_band == 'undervalued' else ('RED' if valuation_band == 'overvalued' else 'GRAY'))} {valuation_band.title()}")
     lines.append("")
     lines.append("### Composite Scorecard")
     lines.append("")
-    lines.append(f"- **Composite score:** {fmt_num(composite, 1)}/100")
-    lines.append(f"- **Confidence:** {fmt_num(confidence, 1)}/100")
-    lines.append(f"- **Supply/issuance & tokenomics (20%):** {fmt_num(tokenomics_score, 1)}")
-    lines.append(f"- **Network usage activity (25%):** {fmt_num(network_score, 1)}")
-    lines.append(f"- **Developer & security (20%):** {fmt_num(dev_score, 1)}")
-    lines.append(f"- **Liquidity & market structure (15%):** {fmt_num(liquidity_score, 1)}")
-    lines.append(f"- **Macro/regulatory & narrative (20%):** {fmt_num(macro_narrative_score, 1)}")
+    lines.append("| Pillar | Score |")
+    lines.append("|---|---:|")
+    lines.append(f"| Composite | {fmt_num(composite, 1)} |")
+    lines.append(f"| Confidence | {fmt_num(confidence, 1)} |")
+    lines.append(f"| Supply/issuance | {fmt_num(tokenomics_score, 1)} |")
+    lines.append(f"| Network usage | {fmt_num(network_score, 1)} |")
+    lines.append(f"| Dev & security | {fmt_num(dev_score, 1)} |")
+    lines.append(f"| Liquidity | {fmt_num(liquidity_score, 1)} |")
+    lines.append(f"| Macro/regulatory | {fmt_num(macro_narrative_score, 1)} |")
     lines.append("")
-    lines.append("### Supply & Issuance")
+    lines.append("### Key Drivers")
     lines.append("")
-    lines.append(f"- **Circulating supply:** {fmt_num(circulating, 0)}")
-    lines.append(f"- **Total supply:** {fmt_num(total_supply, 0)}")
-    lines.append(f"- **Max supply:** {fmt_num(max_supply, 0)}")
-    lines.append(f"- **Circulating/Total:** {fmt_pct(circulating_ratio * 100 if circulating_ratio is not None else None)}")
-    lines.append(f"- **FDV / Market Cap:** {fmt_num(fdv_ratio, 2)}")
+    lines.append("- Supply and issuance")
+    lines.append("- Real network activity")
+    lines.append("- Liquidity resilience")
     lines.append("")
-    lines.append("### Network Activity & Economics")
+    lines.append("### Metrics (concise)")
     lines.append("")
-    lines.append(f"- **Market cap:** {fmt_money(market_cap, 0)}")
-    lines.append(f"- **24H volume:** {fmt_money(vol_24h, 0)}")
-    lines.append(f"- **Turnover (Vol/Cap):** {fmt_pct(turnover * 100 if turnover is not None else None)}")
-    lines.append(f"- **NVT proxy (Cap/Volume):** {fmt_num(nvt_proxy, 2)}")
-    lines.append(f"- **30d vs 180d volume trend proxy:** {fmt_num(usage_growth_proxy, 2)}")
-    lines.append("")
-    lines.append("### Developer & Protocol Health")
-    lines.append("")
-    lines.append(f"- **GitHub commits (4w):** {fmt_num(commit_4w, 0)}")
-    lines.append(f"- **GitHub stars:** {fmt_num(stars, 0)}")
-    lines.append("- **Security / upgrade risk:** No exploit database integrated yet; treat as manual diligence item.")
-    lines.append("")
-    lines.append("### Cross-Asset Risk")
-    lines.append("")
-    lines.append(f"- **Annualized volatility (1y):** {fmt_pct(ann_vol)}")
-    lines.append(f"- **Max drawdown (1y):** {fmt_pct(mdd)}")
-    lines.append(f"- **Drawdown recovery time estimate:** {fmt_num(recovery, 0)} trading days")
-    lines.append(f"- **Price vs 200d average:** {fmt_num(price_to_ma, 2)}")
-    lines.append(f"- **Price percentile (1y):** {fmt_pct(price_percentile)}")
+    lines.append(f"- Price percentile (1y) - {fmt_pct(price_percentile)} - Why it matters: {percentile_label(price_percentile)}.")
+    lines.append(f"- Price vs 200d average - {fmt_num(price_to_ma, 2)} - Why it matters: below 1.00 often means weak trend but better long-term entry.")
+    lines.append(f"- Turnover (Vol/Cap) - {fmt_pct(turnover * 100 if turnover is not None else None)} - Why it matters: higher turnover usually means easier entry/exit.")
+    lines.append(f"- NVT proxy - {fmt_num(nvt_proxy, 2)} - Why it matters: very high values can mean price is running ahead of usage.")
+    lines.append(f"- Max drawdown (1y) - {fmt_pct(mdd)} - Why it matters: shows pain tolerance needed to hold long term.")
     lines.append("")
     lines.append("### What Must Be True")
     lines.append("")
-    lines.append("- Adoption and on-chain utility need to stay durable through the cycle.")
-    lines.append("- Liquidity depth must remain sufficient during risk-off periods.")
-    lines.append("- Protocol governance and upgrades must avoid security regressions.")
+    lines.append("- Usage and volume trend must stay stable or improve.")
+    lines.append("- Liquidity must remain healthy during risk-off periods.")
+    lines.append("- No major security or governance failure.")
     lines.append("")
-    lines.append("### Scenario Analysis (Base / Bull / Bear)")
+    lines.append("### Scenario Table")
     lines.append("")
     if scenarios:
-        lines.append("| Case | Implied Price | Move vs Current | Core Assumption |")
+        lines.append("| Case | Implied Price | Move vs Current | Core assumption |")
         lines.append("|---|---:|---:|---|")
-        lines.append(f"| Bear | {fmt_money(scenarios['bear']['target'], 0)} | {fmt_pct(scenarios['bear']['delta_pct'])} | {scenarios['bear']['assumption']} |")
-        lines.append(f"| Base | {fmt_money(scenarios['base']['target'], 0)} | {fmt_pct(scenarios['base']['delta_pct'])} | {scenarios['base']['assumption']} |")
-        lines.append(f"| Bull | {fmt_money(scenarios['bull']['target'], 0)} | {fmt_pct(scenarios['bull']['delta_pct'])} | {scenarios['bull']['assumption']} |")
+        lines.append(f"| Bear | {fmt_money(scenarios['bear']['target'], 0)} | {fmt_pct(scenarios['bear']['delta_pct'])} | Slower usage and tighter liquidity. |")
+        lines.append(f"| Base | {fmt_money(scenarios['base']['target'], 0)} | {fmt_pct(scenarios['base']['delta_pct'])} | Gradual mean reversion. |")
+        lines.append(f"| Bull | {fmt_money(scenarios['bull']['target'], 0)} | {fmt_pct(scenarios['bull']['delta_pct'])} | Strong adoption with stable macro. |")
     else:
-        lines.append("Scenario model unavailable due to insufficient history.")
+        lines.append("Scenario table unavailable (insufficient history).")
     lines.append("")
     lines.append("### Disconfirming Evidence")
     lines.append("")
-    lines.append("- Sustained decline in usage/volume trends while market cap expands.")
-    lines.append("- Material security events or repeated failed upgrades.")
-    lines.append("- Structural liquidity deterioration across major venues.")
+    lines.append("- Falling activity while market cap rises.")
+    lines.append("- Repeated security events.")
+    lines.append("- Persistent drop in liquidity depth.")
     lines.append("")
     lines.append("### Monitoring Checklist")
     lines.append("")
-    lines.append("- Track weekly: turnover, usage trend proxy, and developer activity.")
-    lines.append("- Track monthly: drawdown depth, recovery profile, and narrative drift.")
+    lines.append("- Weekly: turnover, usage trend, and risk headlines.")
+    lines.append("- Monthly: drawdown profile and trend vs 200d average.")
+    lines.append("- Quarterly: developer cadence and ecosystem traction.")
     lines.append("")
-    lines.append("Valuation verdict:")
-    lines.append(verdict)
+    lines.append("### Final Verdict")
     lines.append("")
-    lines.append("**Long-term verdict:** " + verdict)
+    lines.append(f"Long-term stance: {verdict}. Near-term plan: accumulate on weakness and {next_watch}.")
     lines.append("")
     lines.append("### Method Notes")
     lines.append("")
-    lines.append("- NVT/MVRV are approximated with available market-cap and volume feeds; direct realized-cap not integrated yet.")
-    lines.append("- Percentile-based interpretation is preferred over hard static thresholds where history is available.")
-    lines.append("- Not investment advice; use with independent risk management.")
+    lines.append("- Scores use normalized pillars (0-100) and weighted sum.")
+    lines.append("- Some metrics are approximations (for example NVT proxy).")
+    lines.append("- Confidence reflects data coverage, freshness, and sample size.")
     lines.append("")
     lines.append("---")
 
@@ -682,6 +708,7 @@ def score_crypto(asset_id, meta):
 
 def extract_module(summary, name):
     return summary.get(name, {}) if isinstance(summary, dict) else {}
+
 
 def score_traditional(asset_id, meta):
     symbol = meta["symbol"]
@@ -700,186 +727,95 @@ def score_traditional(asset_id, meta):
     stats_mod = extract_module(summary, "defaultKeyStatistics")
     fin_mod = extract_module(summary, "financialData")
 
-    current = first_not_none(
-        to_float(price_mod.get("regularMarketPrice")),
-        to_float(quote_row.get("regularMarketPrice")),
-        prices[-1] if prices else None,
-    )
-    market_cap = first_not_none(
-        to_float(price_mod.get("marketCap")),
-        to_float(quote_row.get("marketCap")),
-    )
+    current = first_not_none(to_float(price_mod.get("regularMarketPrice")), to_float(quote_row.get("regularMarketPrice")), prices[-1] if prices else None)
+    market_cap = first_not_none(to_float(price_mod.get("marketCap")), to_float(quote_row.get("marketCap")), parse_float(alpha_overview.get("MarketCapitalization")))
 
-    trailing_pe = first_not_none(
-        to_float(stats_mod.get("trailingPE")),
-        to_float(quote_row.get("trailingPE")),
-    )
-    forward_pe = first_not_none(
-        to_float(stats_mod.get("forwardPE")),
-        to_float(quote_row.get("forwardPE")),
-    )
-    pb = first_not_none(
-        to_float(stats_mod.get("priceToBook")),
-        to_float(quote_row.get("priceToBook")),
-    )
-    ev_ebitda = first_not_none(
-        to_float(stats_mod.get("enterpriseToEbitda")),
-        parse_float(alpha_overview.get("EVToEBITDA")),
-    )
-    ps = first_not_none(
-        to_float(stats_mod.get("priceToSalesTrailing12Months")),
-        to_float(quote_row.get("priceToSalesTrailing12Months")),
-    )
-    peg = first_not_none(
-        to_float(stats_mod.get("pegRatio")),
-        to_float(quote_row.get("pegRatio")),
-    )
+    trailing_pe = first_not_none(to_float(stats_mod.get("trailingPE")), to_float(quote_row.get("trailingPE")), parse_float(alpha_overview.get("PERatio")))
+    forward_pe = first_not_none(to_float(stats_mod.get("forwardPE")), to_float(quote_row.get("forwardPE")), parse_float(alpha_overview.get("ForwardPE")))
+    pb = first_not_none(to_float(stats_mod.get("priceToBook")), to_float(quote_row.get("priceToBook")), parse_float(alpha_overview.get("PriceToBookRatio")))
+    ev_ebitda = first_not_none(to_float(stats_mod.get("enterpriseToEbitda")), parse_float(alpha_overview.get("EVToEBITDA")))
+    ps = first_not_none(to_float(stats_mod.get("priceToSalesTrailing12Months")), to_float(quote_row.get("priceToSalesTrailing12Months")), parse_float(alpha_overview.get("PriceToSalesRatioTTM")))
+    peg = first_not_none(to_float(stats_mod.get("pegRatio")), to_float(quote_row.get("pegRatio")), parse_float(alpha_overview.get("PEGRatio")))
 
-    gross_margin = first_not_none(
-        to_float(fin_mod.get("grossMargins")),
-        normalize_fraction(parse_float(alpha_overview.get("GrossProfitTTM")) / parse_float(alpha_overview.get("RevenueTTM")) if parse_float(alpha_overview.get("GrossProfitTTM")) is not None and parse_float(alpha_overview.get("RevenueTTM")) not in (None, 0) else None),
-    )
-    op_margin = first_not_none(
-        to_float(fin_mod.get("operatingMargins")),
-        normalize_fraction(parse_float(alpha_overview.get("OperatingMarginTTM"))),
-    )
-    net_margin = first_not_none(
-        to_float(fin_mod.get("profitMargins")),
-        normalize_fraction(parse_float(alpha_overview.get("ProfitMargin"))),
-    )
-    roe = first_not_none(
-        to_float(fin_mod.get("returnOnEquity")),
-        normalize_fraction(parse_float(alpha_overview.get("ReturnOnEquityTTM"))),
-    )
+    gross_margin = first_not_none(to_float(fin_mod.get("grossMargins")), normalize_fraction(parse_float(alpha_overview.get("GrossProfitTTM")) / parse_float(alpha_overview.get("RevenueTTM")) if parse_float(alpha_overview.get("GrossProfitTTM")) is not None and parse_float(alpha_overview.get("RevenueTTM")) not in (None, 0) else None))
+    op_margin = first_not_none(to_float(fin_mod.get("operatingMargins")), normalize_fraction(parse_float(alpha_overview.get("OperatingMarginTTM"))))
+    net_margin = first_not_none(to_float(fin_mod.get("profitMargins")), normalize_fraction(parse_float(alpha_overview.get("ProfitMargin"))))
+    roe = first_not_none(to_float(fin_mod.get("returnOnEquity")), normalize_fraction(parse_float(alpha_overview.get("ReturnOnEquityTTM"))))
 
-    rev_growth = first_not_none(
-        to_float(fin_mod.get("revenueGrowth")),
-        normalize_fraction(parse_float(alpha_overview.get("QuarterlyRevenueGrowthYOY"))),
-    )
-    eps_growth = first_not_none(
-        to_float(fin_mod.get("earningsGrowth")),
-        normalize_fraction(parse_float(alpha_overview.get("QuarterlyEarningsGrowthYOY"))),
-    )
+    rev_growth = first_not_none(to_float(fin_mod.get("revenueGrowth")), normalize_fraction(parse_float(alpha_overview.get("QuarterlyRevenueGrowthYOY"))))
+    eps_growth = first_not_none(to_float(fin_mod.get("earningsGrowth")), normalize_fraction(parse_float(alpha_overview.get("QuarterlyEarningsGrowthYOY"))))
 
-    debt_to_equity = first_not_none(
-        to_float(fin_mod.get("debtToEquity")),
-        parse_float(alpha_overview.get("DebtToEquity")),
-    )
-    current_ratio = first_not_none(
-        to_float(fin_mod.get("currentRatio")),
-        parse_float(alpha_overview.get("CurrentRatio")),
-    )
-    quick_ratio = first_not_none(
-        to_float(fin_mod.get("quickRatio")),
-        parse_float(alpha_overview.get("CurrentRatio")),
-    )
+    debt_to_equity = first_not_none(to_float(fin_mod.get("debtToEquity")), parse_float(alpha_overview.get("DebtToEquity")))
+    current_ratio = first_not_none(to_float(fin_mod.get("currentRatio")), parse_float(alpha_overview.get("CurrentRatio")))
+    quick_ratio = first_not_none(to_float(fin_mod.get("quickRatio")), parse_float(alpha_overview.get("CurrentRatio")))
 
-    free_cashflow = first_not_none(
-        to_float(fin_mod.get("freeCashflow")),
-        parse_float(alpha_overview.get("FreeCashFlowTTM")),
-    )
-    operating_cashflow = first_not_none(
-        to_float(fin_mod.get("operatingCashflow")),
-        parse_float(alpha_overview.get("OperatingCashflowTTM")),
-    )
-    payout_ratio = first_not_none(
-        to_float(detail_mod.get("payoutRatio")),
-        to_float(quote_row.get("payoutRatio")),
-    )
-    dividend_yield = first_not_none(
-        to_float(detail_mod.get("dividendYield")),
-        to_float(quote_row.get("trailingAnnualDividendYield")),
-    )
+    free_cashflow = first_not_none(to_float(fin_mod.get("freeCashflow")), parse_float(alpha_overview.get("FreeCashFlowTTM")))
+    operating_cashflow = first_not_none(to_float(fin_mod.get("operatingCashflow")), parse_float(alpha_overview.get("OperatingCashflowTTM")))
+    payout_ratio = first_not_none(to_float(detail_mod.get("payoutRatio")), to_float(quote_row.get("payoutRatio")), normalize_fraction(parse_float(alpha_overview.get("PayoutRatio"))))
+    dividend_yield = first_not_none(to_float(detail_mod.get("dividendYield")), to_float(quote_row.get("trailingAnnualDividendYield")), normalize_fraction(parse_float(alpha_overview.get("DividendYield"))))
 
-    beta = first_not_none(
-        to_float(stats_mod.get("beta")),
-        to_float(quote_row.get("beta")),
-    )
+    beta = first_not_none(to_float(stats_mod.get("beta")), to_float(quote_row.get("beta")), parse_float(alpha_overview.get("Beta")))
     insider = to_float(stats_mod.get("heldPercentInsiders"))
     institution = to_float(stats_mod.get("heldPercentInstitutions"))
-
     expense_ratio = to_float(detail_mod.get("annualReportExpenseRatio"))
 
     fcf_yield = safe_div(free_cashflow, market_cap)
-
     ma_24m = statistics.mean(prices[-24:]) if len(prices) >= 24 else None
     price_to_ma = safe_div(current, ma_24m)
     price_percentile = percentile_rank(prices, current)
-
     ann_vol = annualized_volatility(prices)
     mdd = max_drawdown(prices)
-    recovery = recovery_days_after_drawdown(prices)
+    scenarios = build_scenarios(current, prices)
 
     asset_type = meta.get("asset_type")
-
     if asset_type == "equity":
-        valuation_score = mean_or_none(
-            [
-                score_threshold(trailing_pe, good=16, bad=45, higher_is_better=False),
-                score_threshold(pb, good=3, bad=18, higher_is_better=False),
-                score_threshold(peg, good=1.4, bad=3.0, higher_is_better=False),
-                score_threshold(price_percentile, good=55, bad=90, higher_is_better=False),
-            ]
-        )
-        growth_profit_score = mean_or_none(
-            [
-                score_threshold((rev_growth or 0) * 100 if rev_growth is not None else None, good=12, bad=-5, higher_is_better=True),
-                score_threshold((eps_growth or 0) * 100 if eps_growth is not None else None, good=15, bad=-8, higher_is_better=True),
-                score_threshold((gross_margin or 0) * 100 if gross_margin is not None else None, good=45, bad=20, higher_is_better=True),
-                score_threshold((net_margin or 0) * 100 if net_margin is not None else None, good=18, bad=4, higher_is_better=True),
-            ]
-        )
+        valuation_score = mean_or_none([
+            score_threshold(trailing_pe, good=16, bad=45, higher_is_better=False),
+            score_threshold(pb, good=3, bad=18, higher_is_better=False),
+            score_threshold(peg, good=1.4, bad=3.0, higher_is_better=False),
+            score_threshold(price_percentile, good=55, bad=90, higher_is_better=False),
+        ])
+        growth_profit_score = mean_or_none([
+            score_threshold((rev_growth or 0) * 100 if rev_growth is not None else None, good=12, bad=-5, higher_is_better=True),
+            score_threshold((eps_growth or 0) * 100 if eps_growth is not None else None, good=15, bad=-8, higher_is_better=True),
+            score_threshold((gross_margin or 0) * 100 if gross_margin is not None else None, good=45, bad=20, higher_is_better=True),
+            score_threshold((net_margin or 0) * 100 if net_margin is not None else None, good=18, bad=4, higher_is_better=True),
+        ])
     elif asset_type == "etf":
-        valuation_score = mean_or_none(
-            [
-                score_threshold(price_percentile, good=50, bad=90, higher_is_better=False),
-                score_threshold((expense_ratio or 0) * 100 if expense_ratio is not None else None, good=0.10, bad=0.95, higher_is_better=False),
-                score_threshold((dividend_yield or 0) * 100 if dividend_yield is not None else None, good=1.5, bad=0.0, higher_is_better=True),
-            ]
-        )
-        growth_profit_score = mean_or_none(
-            [
-                score_threshold(price_to_ma, good=1.05, bad=0.80, higher_is_better=True),
-                score_threshold((dividend_yield or 0) * 100 if dividend_yield is not None else None, good=2.0, bad=0.0, higher_is_better=True),
-            ]
-        )
+        valuation_score = mean_or_none([
+            score_threshold(price_percentile, good=50, bad=90, higher_is_better=False),
+            score_threshold((expense_ratio or 0) * 100 if expense_ratio is not None else None, good=0.10, bad=0.95, higher_is_better=False),
+            score_threshold((dividend_yield or 0) * 100 if dividend_yield is not None else None, good=1.5, bad=0.0, higher_is_better=True),
+        ])
+        growth_profit_score = mean_or_none([
+            score_threshold(price_to_ma, good=1.05, bad=0.80, higher_is_better=True),
+            score_threshold((dividend_yield or 0) * 100 if dividend_yield is not None else None, good=2.0, bad=0.0, higher_is_better=True),
+        ])
     else:
-        valuation_score = mean_or_none(
-            [
-                score_threshold(price_percentile, good=45, bad=90, higher_is_better=False),
-                score_threshold(price_to_ma, good=1.00, bad=1.35, higher_is_better=False),
-            ]
-        )
-        growth_profit_score = mean_or_none(
-            [
-                score_threshold(price_to_ma, good=1.08, bad=0.80, higher_is_better=True),
-            ]
-        )
+        valuation_score = mean_or_none([
+            score_threshold(price_percentile, good=45, bad=90, higher_is_better=False),
+            score_threshold(price_to_ma, good=1.00, bad=1.35, higher_is_better=False),
+        ])
+        growth_profit_score = mean_or_none([
+            score_threshold(price_to_ma, good=1.08, bad=0.80, higher_is_better=True),
+        ])
 
-    balance_cashflow_score = mean_or_none(
-        [
-            score_threshold(debt_to_equity, good=40, bad=220, higher_is_better=False),
-            score_threshold(current_ratio, good=1.8, bad=0.8, higher_is_better=True),
-            score_threshold((fcf_yield or 0) * 100 if fcf_yield is not None else None, good=8, bad=0, higher_is_better=True),
-            score_threshold((payout_ratio or 0) * 100 if payout_ratio is not None else None, good=45, bad=120, higher_is_better=False),
-        ]
-    )
-
-    comp_mgmt_score = mean_or_none(
-        [
-            score_threshold((roe or 0) * 100 if roe is not None else None, good=18, bad=6, higher_is_better=True),
-            score_threshold((insider or 0) * 100 if insider is not None else None, good=8, bad=0.2, higher_is_better=True),
-            score_threshold((institution or 0) * 100 if institution is not None else None, good=75, bad=20, higher_is_better=True),
-        ]
-    )
-
-    macro_reg_score = mean_or_none(
-        [
-            score_threshold(beta, good=0.9, bad=1.8, higher_is_better=False),
-            score_threshold(abs(mdd) if mdd is not None else None, good=20, bad=60, higher_is_better=False),
-            score_threshold(abs(ann_vol) if ann_vol is not None else None, good=12, bad=45, higher_is_better=False),
-        ]
-    )
+    balance_cashflow_score = mean_or_none([
+        score_threshold(debt_to_equity, good=40, bad=220, higher_is_better=False),
+        score_threshold(current_ratio, good=1.8, bad=0.8, higher_is_better=True),
+        score_threshold((fcf_yield or 0) * 100 if fcf_yield is not None else None, good=8, bad=0, higher_is_better=True),
+        score_threshold((payout_ratio or 0) * 100 if payout_ratio is not None else None, good=45, bad=120, higher_is_better=False),
+    ])
+    comp_mgmt_score = mean_or_none([
+        score_threshold((roe or 0) * 100 if roe is not None else None, good=18, bad=6, higher_is_better=True),
+        score_threshold((insider or 0) * 100 if insider is not None else None, good=8, bad=0.2, higher_is_better=True),
+        score_threshold((institution or 0) * 100 if institution is not None else None, good=75, bad=20, higher_is_better=True),
+    ])
+    macro_reg_score = mean_or_none([
+        score_threshold(beta, good=0.9, bad=1.8, higher_is_better=False),
+        score_threshold(abs(mdd) if mdd is not None else None, good=20, bad=60, higher_is_better=False),
+        score_threshold(abs(ann_vol) if ann_vol is not None else None, good=12, bad=45, higher_is_better=False),
+    ])
 
     score_map = {
         "valuation": valuation_score,
@@ -888,128 +824,106 @@ def score_traditional(asset_id, meta):
         "comp_mgmt": comp_mgmt_score,
         "macro_reg": macro_reg_score,
     }
-    weights = {
-        "valuation": 25,
-        "growth_profit": 25,
-        "balance_cashflow": 20,
-        "comp_mgmt": 15,
-        "macro_reg": 15,
-    }
+    weights = {"valuation": 25, "growth_profit": 25, "balance_cashflow": 20, "comp_mgmt": 15, "macro_reg": 15}
 
     composite, used_weight = weighted_score(score_map, weights)
     confidence = confidence_score(used_weight, len(prices) * 21, [summary_source, quote_source, alpha_source, history_source])
     verdict = label_from_score(composite)
-    scenarios = build_scenarios(current, prices)
-
     valuation_band = valuation_band_from_verdict(verdict, price_percentile)
     summary_line = f"Long-term: {valuation_band.title()} - {growth_label(growth_profit_score)} - {risk_label(macro_reg_score)}."
+    tldr_pill = f"{band_emoji(valuation_band)} {valuation_band.title()} ({fmt_num(composite, 1)})"
+    next_watch = pick_next_watch(score_map)
 
     lines = []
     lines.append(f"## {meta['name']} ({symbol})")
     lines.append("")
     lines.append(f"_Data sources: Yahoo summary ({summary_source}), Yahoo quote ({quote_source}), Alpha overview ({alpha_source}), Price history ({history_source})_")
     lines.append("")
-    lines.append("### One-line Long-Term Summary")
+    lines.append("### One-line Summary")
     lines.append("")
     lines.append(summary_line)
     lines.append("")
+    lines.append("### TL;DR")
+    lines.append("")
+    lines.append(f"- **Pill:** {tldr_pill}")
+    lines.append(f"- **Composite score:** {fmt_num(composite, 1)}/100 | **Confidence:** {fmt_num(confidence, 1)}/100")
+    lines.append(f"- **Fast read:** Setup is driven by valuation + macro balance; key watch item is to {next_watch}.")
+    lines.append("")
     lines.append("### Investment Thesis")
     lines.append("")
-    lines.append(f"- **Core thesis:** {meta['macro_note']}")
-    lines.append("- **Decision context:** Assess valuation versus cycle risk rather than single-period momentum.")
+    lines.append(f"- {meta['macro_note']}")
+    lines.append("- Long-term returns depend more on entry valuation and cycle path than daily news.")
+    lines.append("- Focus on downside control first, upside second.")
     lines.append("")
     lines.append("### Valuation Band")
     lines.append("")
     lines.append(f"- **Valuation band:** {valuation_band}")
-    lines.append(f"- **Valuation pill:** {'GREEN' if valuation_band == 'undervalued' else ('RED' if valuation_band == 'overvalued' else 'GRAY')} {valuation_band.title()}")
+    lines.append(f"- **Valuation pill:** {('GREEN' if valuation_band == 'undervalued' else ('RED' if valuation_band == 'overvalued' else 'GRAY'))} {valuation_band.title()}")
     lines.append("")
     lines.append("### Composite Scorecard")
     lines.append("")
-    lines.append(f"- **Composite score:** {fmt_num(composite, 1)}/100")
-    lines.append(f"- **Confidence:** {fmt_num(confidence, 1)}/100")
-    lines.append(f"- **Valuation (25%):** {fmt_num(valuation_score, 1)}")
-    lines.append(f"- **Growth & profitability (25%):** {fmt_num(growth_profit_score, 1)}")
-    lines.append(f"- **Balance sheet & cash flow (20%):** {fmt_num(balance_cashflow_score, 1)}")
-    lines.append(f"- **Competitive position & management (15%):** {fmt_num(comp_mgmt_score, 1)}")
-    lines.append(f"- **Macro/regulatory (15%):** {fmt_num(macro_reg_score, 1)}")
+    lines.append("| Pillar | Score |")
+    lines.append("|---|---:|")
+    lines.append(f"| Composite | {fmt_num(composite, 1)} |")
+    lines.append(f"| Confidence | {fmt_num(confidence, 1)} |")
+    lines.append(f"| Valuation | {fmt_num(valuation_score, 1)} |")
+    lines.append(f"| Growth & profitability | {fmt_num(growth_profit_score, 1)} |")
+    lines.append(f"| Balance sheet & cash flow | {fmt_num(balance_cashflow_score, 1)} |")
+    lines.append(f"| Competitive position & management | {fmt_num(comp_mgmt_score, 1)} |")
+    lines.append(f"| Macro/regulatory | {fmt_num(macro_reg_score, 1)} |")
     lines.append("")
-    lines.append("### Valuation")
+    lines.append("### Key Drivers")
     lines.append("")
-    lines.append(f"- **P/E:** {fmt_num(trailing_pe, 2)}")
-    lines.append(f"- **Forward P/E:** {fmt_num(forward_pe, 2)}")
-    lines.append(f"- **P/B:** {fmt_num(pb, 2)}")
-    lines.append(f"- **EV/EBITDA:** {fmt_num(ev_ebitda, 2)}")
-    lines.append(f"- **Price/Sales:** {fmt_num(ps, 2)}")
-    lines.append(f"- **PEG:** {fmt_num(peg, 2)}")
-    lines.append(f"- **Price percentile vs 10y history:** {fmt_pct(price_percentile)}")
+    lines.append("- Valuation versus history")
+    lines.append("- Quality of growth and margins")
+    lines.append("- Macro and cycle sensitivity")
     lines.append("")
-    lines.append("### Profitability, Growth, and Balance-Sheet Health")
+    lines.append("### Metrics (concise)")
     lines.append("")
-    lines.append(f"- **Revenue growth:** {fmt_pct((rev_growth * 100) if rev_growth is not None else None)}")
-    lines.append(f"- **EPS growth:** {fmt_pct((eps_growth * 100) if eps_growth is not None else None)}")
-    lines.append(f"- **Gross margin:** {fmt_pct((gross_margin * 100) if gross_margin is not None else None)}")
-    lines.append(f"- **Operating margin:** {fmt_pct((op_margin * 100) if op_margin is not None else None)}")
-    lines.append(f"- **Net margin:** {fmt_pct((net_margin * 100) if net_margin is not None else None)}")
-    lines.append(f"- **Debt/Equity:** {fmt_num(debt_to_equity, 2)}")
-    lines.append(f"- **Current ratio:** {fmt_num(current_ratio, 2)}")
-    lines.append(f"- **Quick ratio:** {fmt_num(quick_ratio, 2)}")
-    lines.append("")
-    lines.append("### Cash Flow, Shareholder Returns, and Governance")
-    lines.append("")
-    lines.append(f"- **Free cash flow:** {fmt_money(free_cashflow, 0)}")
-    lines.append(f"- **Operating cash flow:** {fmt_money(operating_cashflow, 0)}")
-    lines.append(f"- **FCF yield:** {fmt_pct((fcf_yield * 100) if fcf_yield is not None else None)}")
-    lines.append(f"- **Dividend yield:** {fmt_pct((dividend_yield * 100) if dividend_yield is not None else None)}")
-    lines.append(f"- **Payout ratio:** {fmt_pct((payout_ratio * 100) if payout_ratio is not None else None)}")
-    lines.append(f"- **Insider ownership:** {fmt_pct((insider * 100) if insider is not None else None)}")
-    lines.append(f"- **Institutional ownership:** {fmt_pct((institution * 100) if institution is not None else None)}")
-    lines.append("")
-    lines.append("### Volatility, Drawdown, and Macro Sensitivity")
-    lines.append("")
-    lines.append(f"- **Annualized volatility:** {fmt_pct(ann_vol)}")
-    lines.append(f"- **Max drawdown (history window):** {fmt_pct(mdd)}")
-    lines.append(f"- **Recovery time estimate:** {fmt_num(recovery, 0)} monthly bars")
-    lines.append(f"- **Beta:** {fmt_num(beta, 2)}")
-    lines.append("- **Macro/cycle note:** " + meta["macro_note"])
+    lines.append(f"- Price percentile (10y) - {fmt_pct(price_percentile)} - Why it matters: {percentile_label(price_percentile)}.")
+    lines.append(f"- P/E - {fmt_num(trailing_pe, 2)} - Why it matters: lower multiples can improve long-term entry odds.")
+    lines.append(f"- FCF yield - {fmt_pct((fcf_yield * 100) if fcf_yield is not None else None)} - Why it matters: higher cash yield supports downside resilience.")
+    lines.append(f"- Debt/Equity - {fmt_num(debt_to_equity, 2)} - Why it matters: higher leverage increases cycle risk.")
+    lines.append(f"- Max drawdown - {fmt_pct(mdd)} - Why it matters: shows historical pain before recovery.")
     lines.append("")
     lines.append("### What Must Be True")
     lines.append("")
-    lines.append("- Adoption and on-chain utility need to stay durable through the cycle.")
-    lines.append("- Liquidity depth must remain sufficient during risk-off periods.")
-    lines.append("- Protocol governance and upgrades must avoid security regressions.")
+    lines.append("- Earnings quality must hold if growth slows.")
+    lines.append("- Liquidity and balance-sheet risk must remain contained.")
+    lines.append("- Macro backdrop should not tighten beyond model assumptions.")
     lines.append("")
-    lines.append("### Scenario Analysis (Base / Bull / Bear)")
+    lines.append("### Scenario Table")
     lines.append("")
     if scenarios:
-        lines.append("| Case | Implied Price | Move vs Current | Core Assumption |")
+        lines.append("| Case | Implied Price | Move vs Current | Core assumption |")
         lines.append("|---|---:|---:|---|")
-        lines.append(f"| Bear | {fmt_money(scenarios['bear']['target'], 2)} | {fmt_pct(scenarios['bear']['delta_pct'])} | {scenarios['bear']['assumption']} |")
-        lines.append(f"| Base | {fmt_money(scenarios['base']['target'], 2)} | {fmt_pct(scenarios['base']['delta_pct'])} | {scenarios['base']['assumption']} |")
-        lines.append(f"| Bull | {fmt_money(scenarios['bull']['target'], 2)} | {fmt_pct(scenarios['bull']['delta_pct'])} | {scenarios['bull']['assumption']} |")
+        lines.append(f"| Bear | {fmt_money(scenarios['bear']['target'], 2)} | {fmt_pct(scenarios['bear']['delta_pct'])} | Slower growth and lower multiples. |")
+        lines.append(f"| Base | {fmt_money(scenarios['base']['target'], 2)} | {fmt_pct(scenarios['base']['delta_pct'])} | Normalized growth and valuation. |")
+        lines.append(f"| Bull | {fmt_money(scenarios['bull']['target'], 2)} | {fmt_pct(scenarios['bull']['delta_pct'])} | Strong growth with stable rates. |")
     else:
-        lines.append("Scenario model unavailable due to insufficient history.")
+        lines.append("Scenario table unavailable (insufficient history).")
     lines.append("")
     lines.append("### Disconfirming Evidence")
     lines.append("")
-    lines.append("- Sustained decline in usage/volume trends while market cap expands.")
-    lines.append("- Material security events or repeated failed upgrades.")
-    lines.append("- Structural liquidity deterioration across major venues.")
+    lines.append("- Persistent margin erosion.")
+    lines.append("- Cash flow weakens while leverage rises.")
+    lines.append("- Macro regime shifts against the asset profile.")
     lines.append("")
     lines.append("### Monitoring Checklist")
     lines.append("")
-    lines.append("- Track weekly: turnover, usage trend proxy, and developer activity.")
-    lines.append("- Track monthly: drawdown depth, recovery profile, and narrative drift.")
+    lines.append("- Weekly: trend vs 200d-equivalent and risk headlines.")
+    lines.append("- Monthly: valuation stretch and drawdown profile.")
+    lines.append("- Quarterly: earnings quality, cash flow, and balance-sheet change.")
     lines.append("")
-    lines.append("Valuation verdict:")
-    lines.append(verdict)
+    lines.append("### Final Verdict")
     lines.append("")
-    lines.append("**Long-term verdict:** " + verdict)
+    lines.append(f"Long-term stance: {verdict}. Near-term plan: stay selective, accumulate on weakness, and {next_watch}.")
     lines.append("")
     lines.append("### Method Notes")
     lines.append("")
-    lines.append("- Where fields are unavailable (especially ETFs/futures), scoring automatically reduces confidence and re-weights available evidence.")
-    lines.append("- Percentile framing is based on available 10-year monthly history from Yahoo chart data.")
-    lines.append("- Not investment advice; this is a decision-support framework.")
+    lines.append("- Scores use normalized pillars (0-100) and weighted sum.")
+    lines.append("- If a feed is unavailable, confidence drops and available data is used.")
+    lines.append("- Confidence reflects data coverage, freshness, and sample size.")
     lines.append("")
     lines.append("---")
 

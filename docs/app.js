@@ -256,6 +256,14 @@ function valuationBandClass(band) {
   return "valuation-pill valuation-fair";
 }
 
+function renderValuationBadge(band, score) {
+  const key = (band || "fair").toLowerCase();
+  const emoji = key.includes("under") ? "??" : key.includes("over") ? "??" : "?";
+  const cls = valuationBandClass(key);
+  const scoreText = (typeof score === "number" && !Number.isNaN(score)) ? ` (${score.toFixed(1)})` : "";
+  return `<span class="${cls}">${emoji} ${key.toUpperCase()}${scoreText}</span>`;
+}
+
 function renderNewsList(targetId, items, fallbackAsset) {
   const target = document.getElementById(targetId);
   if (!target) return;
@@ -509,16 +517,16 @@ async function initAssetPage(assetId) {
   if (summary) {
     const band = payload.valuation?.band || "fair";
     const summaryLine = payload.valuation?.summary_line || "";
+    const score = payload.valuation?.score;
     summary.innerHTML = `
       <p class="metric" id="live-price">${fmtPrice(payload.price?.current_usd)}</p>
       <p class="muted">${sideWindow}</p>
       ${summaryLine ? `<p class="longterm-line"><strong>${summaryLine}</strong></p>` : ""}
       <div class="pill-row">
+        ${renderValuationBadge(band, score)}
         ${renderMetricPill(payload.indicators?.trend || "")}
         ${renderMetricPill(payload.indicators?.momentum || "")}
         ${renderMetricPill(payload.indicators?.volatility || "")}
-        ${payload.valuation?.verdict ? `<span class="pill">${payload.valuation.verdict}</span>` : ""}
-        <span class="${valuationBandClass(band)}">${band.toUpperCase()}</span>
       </div>
     `;
     highlightTerms(summary);
