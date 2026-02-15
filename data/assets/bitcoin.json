@@ -4,7 +4,7 @@
   "symbol": "BTC",
   "market_type": "crypto",
   "details_page": "btc.html",
-  "updated_at": "2026-02-15T01:55:38.721092+00:00",
+  "updated_at": "2026-02-15T15:56:16.280437+00:00",
   "about": {
     "what_it_is": "Bitcoin is a decentralized digital currency with no central issuer.",
     "what_it_represents": "It is often treated as a scarce monetary asset and macro risk barometer.",
@@ -13,13 +13,13 @@
   },
   "source": {
     "short_term": "live",
-    "news_generated_at": "2026-02-14 16:53 UTC"
+    "news_generated_at": "2026-02-15 15:55 UTC"
   },
   "price": {
-    "current_usd": 69600.0,
+    "current_usd": 68961.0,
     "change_24h_pct": 1.39,
-    "change_7d_pct": 0.44,
-    "change_30d_pct": -27.19
+    "change_7d_pct": -2.24,
+    "change_30d_pct": -27.8
   },
   "indicators": {
     "trend": "DOWNTREND",
@@ -30,11 +30,32 @@
     "verdict": "Neutral / fair-value zone",
     "band": "fair",
     "summary_line": "Fair - Balanced growth profile - Elevated regulatory risk.",
-    "score": 57.8,
-    "long_term_markdown": "## Bitcoin (BTC)\n\n_Data sources: CoinGecko history (live), CoinGecko fundamentals (live)_\n\n### One-line Summary\n\nLong-term: Fair - Balanced growth profile - Elevated regulatory risk.\n\n### TL;DR\n\n- **Pill:** ? Fair (57.8)\n- **Composite score:** 57.8/100 | **Confidence:** 100.0/100\n- **Fast read:** Network and supply are solid; key watch item is to watch macro sensitivity and narrative durability.\n\n### Investment Thesis\n\n- Digital monetary network with fixed-supply narrative and highest liquidity depth in crypto.\n- Store-of-value and collateral asset in crypto market structure.\n- Long-term edge depends on durable usage, not short-term price spikes.\n\n### Valuation Band\n\n- **Valuation band:** fair\n- **Valuation pill:** GRAY Fair\n\n### Composite Scorecard\n\n| Pillar | Score |\n|---|---:|\n| Composite | 57.8 |\n| Confidence | 100.0 |\n| Supply/issuance | 100.0 |\n| Network usage | 60.7 |\n| Dev & security | 68.4 |\n| Liquidity | 35.0 |\n| Macro/regulatory | 18.4 |\n\n### Key Drivers\n\n- Supply and issuance\n- Real network activity\n- Liquidity resilience\n\n### Metrics (concise)\n\n- Price percentile (1y) ? +1.91% ? Why it matters: cheap vs 1y history.\n- Price vs 200d average ? 0.69 ? Why it matters: below 1.00 often means weak trend but better long-term entry.\n- Turnover (Vol/Cap) ? +2.72% ? Why it matters: higher turnover usually means easier entry/exit.\n- NVT proxy ? 36.70 ? Why it matters: very high values can mean price is running ahead of usage.\n- Max drawdown (1y) ? -49.63% ? Why it matters: shows pain tolerance needed to hold long term.\n\n### What Must Be True\n\n- Usage and volume trend must stay stable or improve.\n- Liquidity must remain healthy during risk-off periods.\n- No major security or governance failure.\n\n### Scenario Table\n\n| Case | Implied Price | Move vs Current | Core assumption |\n|---|---:|---:|---|\n| Bear | $86,961 | +25.35% | Slower usage and tighter liquidity. |\n| Base | $101,651 | +46.53% | Gradual mean reversion. |\n| Bull | $112,950 | +62.82% | Strong adoption with stable macro. |\n\n### Disconfirming Evidence\n\n- Falling activity while market cap rises.\n- Repeated security events.\n- Persistent drop in liquidity depth.\n\n### Monitoring Checklist\n\n- Weekly: turnover, usage trend, and risk headlines.\n- Monthly: drawdown profile and trend vs 200d average.\n- Quarterly: developer cadence and ecosystem traction.\n\n### Final Verdict\n\nLong-term stance: Neutral / fair-value zone. Near-term plan: accumulate on weakness and watch macro sensitivity and narrative durability.\n\n### Method Notes\n\n- Scores use normalized pillars (0-100) and weighted sum.\n- Some metrics are approximations (for example NVT proxy).\n- Confidence reflects data coverage, freshness, and sample size."
+    "score": 58.1,
+    "long_term_markdown": "## Bitcoin (BTC)\n\n_Data sources: CoinGecko history (live), CoinGecko fundamentals (live)_\n\n### One-line Summary\n\nLong-term: Fair - Balanced growth profile - Elevated regulatory risk.\n\n### TL;DR\n\n- **Pill:** GRAY Fair (58.1)\n- **Composite score:** 58.1/100 | **Confidence:** 100.0/100\n- **Fast read:** Network and supply are solid; key watch item is to watch macro sensitivity and narrative durability.\n\n### Investment Thesis\n\n- Digital monetary network with fixed-supply narrative and highest liquidity depth in crypto.\n- Store-of-value and collateral asset in crypto market structure.\n- Long-term edge depends on durable usage, not short-term price spikes.\n\n### Valuation Band\n\n- **Valuation band:** fair\n- **Valuation pill:** GRAY Fair\n\n### Composite Scorecard\n\n| Pillar | Score |\n|---|---:|\n| Composite | 58.1 |\n| Confidence | 100.0 |\n| Supply/issuance | 100.0 |\n| Network usage | 61.5 |\n| Dev & security | 68.4 |\n| Liquidity | 35.5 |\n| Macro/regulatory | 18.4 |\n\n### Key Drivers\n\n- Supply and issuance\n- Real network activity\n- Liquidity resilience\n\n### Metrics (concise)\n\n- Price percentile (1y) - +1.64% - Why it matters: cheap vs 1y history.\n- Price vs 200d average - 0.69 - Why it matters: below 1.00 often means weak trend but better long-term entry.\n- Turnover (Vol/Cap) - +2.83% - Why it matters: higher turnover usually means easier entry/exit.\n- NVT proxy - 35.35 - Why it matters: very high values can mean price is running ahead of usage.\n- Max drawdown (1y) - -49.63% - Why it matters: shows pain tolerance needed to hold long term.\n\n### What Must Be True\n\n- Usage and volume trend must stay stable or improve.\n- Liquidity must remain healthy during risk-off periods.\n- No major security or governance failure.\n\n### Scenario Table\n\n| Case | Implied Price | Move vs Current | Core assumption |\n|---|---:|---:|---|\n| Bear | $86,961 | +25.99% | Slower usage and tighter liquidity. |\n| Base | $101,651 | +47.27% | Gradual mean reversion. |\n| Bull | $112,950 | +63.64% | Strong adoption with stable macro. |\n\n### Disconfirming Evidence\n\n- Falling activity while market cap rises.\n- Repeated security events.\n- Persistent drop in liquidity depth.\n\n### Monitoring Checklist\n\n- Weekly: turnover, usage trend, and risk headlines.\n- Monthly: drawdown profile and trend vs 200d average.\n- Quarterly: developer cadence and ecosystem traction.\n\n### Final Verdict\n\nLong-term stance: Neutral / fair-value zone. Near-term plan: accumulate on weakness and watch macro sensitivity and narrative durability.\n\n### Method Notes\n\n- Scores use normalized pillars (0-100) and weighted sum.\n- Some metrics are approximations (for example NVT proxy).\n- Confidence reflects data coverage, freshness, and sample size."
   },
-  "analysis_markdown": "## Bitcoin (BTC)\n\n_Data sources: CoinGecko history (live), CoinGecko fundamentals (live)_\n\n### One-line Summary\n\nLong-term: Fair - Balanced growth profile - Elevated regulatory risk.\n\n### TL;DR\n\n- **Pill:** ? Fair (57.8)\n- **Composite score:** 57.8/100 | **Confidence:** 100.0/100\n- **Fast read:** Network and supply are solid; key watch item is to watch macro sensitivity and narrative durability.\n\n### Investment Thesis\n\n- Digital monetary network with fixed-supply narrative and highest liquidity depth in crypto.\n- Store-of-value and collateral asset in crypto market structure.\n- Long-term edge depends on durable usage, not short-term price spikes.\n\n### Valuation Band\n\n- **Valuation band:** fair\n- **Valuation pill:** GRAY Fair\n\n### Composite Scorecard\n\n| Pillar | Score |\n|---|---:|\n| Composite | 57.8 |\n| Confidence | 100.0 |\n| Supply/issuance | 100.0 |\n| Network usage | 60.7 |\n| Dev & security | 68.4 |\n| Liquidity | 35.0 |\n| Macro/regulatory | 18.4 |\n\n### Key Drivers\n\n- Supply and issuance\n- Real network activity\n- Liquidity resilience\n\n### Metrics (concise)\n\n- Price percentile (1y) ? +1.91% ? Why it matters: cheap vs 1y history.\n- Price vs 200d average ? 0.69 ? Why it matters: below 1.00 often means weak trend but better long-term entry.\n- Turnover (Vol/Cap) ? +2.72% ? Why it matters: higher turnover usually means easier entry/exit.\n- NVT proxy ? 36.70 ? Why it matters: very high values can mean price is running ahead of usage.\n- Max drawdown (1y) ? -49.63% ? Why it matters: shows pain tolerance needed to hold long term.\n\n### What Must Be True\n\n- Usage and volume trend must stay stable or improve.\n- Liquidity must remain healthy during risk-off periods.\n- No major security or governance failure.\n\n### Scenario Table\n\n| Case | Implied Price | Move vs Current | Core assumption |\n|---|---:|---:|---|\n| Bear | $86,961 | +25.35% | Slower usage and tighter liquidity. |\n| Base | $101,651 | +46.53% | Gradual mean reversion. |\n| Bull | $112,950 | +62.82% | Strong adoption with stable macro. |\n\n### Disconfirming Evidence\n\n- Falling activity while market cap rises.\n- Repeated security events.\n- Persistent drop in liquidity depth.\n\n### Monitoring Checklist\n\n- Weekly: turnover, usage trend, and risk headlines.\n- Monthly: drawdown profile and trend vs 200d average.\n- Quarterly: developer cadence and ecosystem traction.\n\n### Final Verdict\n\nLong-term stance: Neutral / fair-value zone. Near-term plan: accumulate on weakness and watch macro sensitivity and narrative durability.\n\n### Method Notes\n\n- Scores use normalized pillars (0-100) and weighted sum.\n- Some metrics are approximations (for example NVT proxy).\n- Confidence reflects data coverage, freshness, and sample size.\n\n---\n\n### Short-Term Context\n\n## Bitcoin (BTC)\n\n- **Current price:** $69,600\n- **7D change:** 0.44%\n- **30D change:** -27.19%\n- **Trend:** **DOWNTREND**\n- **Momentum:** **WEAK**\n- **Volatility:** **ELEVATED**\n- **Data source:** live",
+  "analysis_markdown": "## Bitcoin (BTC)\n\n_Data sources: CoinGecko history (live), CoinGecko fundamentals (live)_\n\n### One-line Summary\n\nLong-term: Fair - Balanced growth profile - Elevated regulatory risk.\n\n### TL;DR\n\n- **Pill:** GRAY Fair (58.1)\n- **Composite score:** 58.1/100 | **Confidence:** 100.0/100\n- **Fast read:** Network and supply are solid; key watch item is to watch macro sensitivity and narrative durability.\n\n### Investment Thesis\n\n- Digital monetary network with fixed-supply narrative and highest liquidity depth in crypto.\n- Store-of-value and collateral asset in crypto market structure.\n- Long-term edge depends on durable usage, not short-term price spikes.\n\n### Valuation Band\n\n- **Valuation band:** fair\n- **Valuation pill:** GRAY Fair\n\n### Composite Scorecard\n\n| Pillar | Score |\n|---|---:|\n| Composite | 58.1 |\n| Confidence | 100.0 |\n| Supply/issuance | 100.0 |\n| Network usage | 61.5 |\n| Dev & security | 68.4 |\n| Liquidity | 35.5 |\n| Macro/regulatory | 18.4 |\n\n### Key Drivers\n\n- Supply and issuance\n- Real network activity\n- Liquidity resilience\n\n### Metrics (concise)\n\n- Price percentile (1y) - +1.64% - Why it matters: cheap vs 1y history.\n- Price vs 200d average - 0.69 - Why it matters: below 1.00 often means weak trend but better long-term entry.\n- Turnover (Vol/Cap) - +2.83% - Why it matters: higher turnover usually means easier entry/exit.\n- NVT proxy - 35.35 - Why it matters: very high values can mean price is running ahead of usage.\n- Max drawdown (1y) - -49.63% - Why it matters: shows pain tolerance needed to hold long term.\n\n### What Must Be True\n\n- Usage and volume trend must stay stable or improve.\n- Liquidity must remain healthy during risk-off periods.\n- No major security or governance failure.\n\n### Scenario Table\n\n| Case | Implied Price | Move vs Current | Core assumption |\n|---|---:|---:|---|\n| Bear | $86,961 | +25.99% | Slower usage and tighter liquidity. |\n| Base | $101,651 | +47.27% | Gradual mean reversion. |\n| Bull | $112,950 | +63.64% | Strong adoption with stable macro. |\n\n### Disconfirming Evidence\n\n- Falling activity while market cap rises.\n- Repeated security events.\n- Persistent drop in liquidity depth.\n\n### Monitoring Checklist\n\n- Weekly: turnover, usage trend, and risk headlines.\n- Monthly: drawdown profile and trend vs 200d average.\n- Quarterly: developer cadence and ecosystem traction.\n\n### Final Verdict\n\nLong-term stance: Neutral / fair-value zone. Near-term plan: accumulate on weakness and watch macro sensitivity and narrative durability.\n\n### Method Notes\n\n- Scores use normalized pillars (0-100) and weighted sum.\n- Some metrics are approximations (for example NVT proxy).\n- Confidence reflects data coverage, freshness, and sample size.\n\n---\n\n### Short-Term Context\n\n## Bitcoin (BTC)\n\n- **Current price:** $68,961\n- **7D change:** -2.24%\n- **30D change:** -27.80%\n- **Trend:** **DOWNTREND**\n- **Momentum:** **WEAK**\n- **Volatility:** **ELEVATED**\n- **Data source:** live",
   "news": [
+    {
+      "title": "BlackRock's digital assets head: Leverage-driven volatility threatens bitcoin\u2019s narrative",
+      "url": "https://www.coindesk.com/markets/2026/02/13/blackrock-s-head-of-digital-assets-warns-leverage-driven-volatility-risks-undermine-bitcoin-s-institutional-narrative",
+      "published_at": "Sun, 15 Feb 2026 14:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "XRP outruns bitcoin, ether after investors piled into the recent crash",
+      "url": "https://www.coindesk.com/markets/2026/02/15/xrp-is-outrunning-bitcoin-and-ether-after-investors-piled-into-the-recent-crash",
+      "published_at": "Sun, 15 Feb 2026 13:39:18 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Wall Street remains bullish on bitcoin while offshore traders retreat",
+      "url": "https://www.coindesk.com/markets/2026/02/15/wall-street-remains-bullish-on-bitcoin-while-offshore-traders-retreat",
+      "published_at": "Sun, 15 Feb 2026 12:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
     {
       "title": "Bitcoin claws back to $70,000 on cooling inflation after $8.7 billion wipeout",
       "url": "https://www.coindesk.com/markets/2026/02/14/bitcoin-claws-back-to-usd70-000-on-cooling-inflation-after-usd8-7-billion-wipeout",
@@ -71,17 +92,10 @@
       "fetch_source": "live"
     },
     {
-      "title": "Ark Invest's Cathie Wood says bitcoin will thrive amid \u2018deflationary chaos\u2019 created by AI and innovation",
-      "url": "https://www.coindesk.com/markets/2026/02/12/ark-invest-s-cathie-wood-says-bitcoin-will-thrive-amid-deflationary-chaos-created-by-ai-and-innovation",
-      "published_at": "Thu, 12 Feb 2026 17:42:28 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitcoin sinks below $66,000 as crypto prices follow U.S. stocks lower",
-      "url": "https://www.coindesk.com/markets/2026/02/12/bitcoin-sinks-below-usd67-000-with-crypto-prices-following-u-s-stocks-lower",
-      "published_at": "Thu, 12 Feb 2026 16:45:52 +0000",
-      "source": "CoinDesk",
+      "title": "Institutions may get 'fed up' and fire Bitcoin devs over quantum: VC",
+      "url": "https://cointelegraph.com/news/bitcoin-quantum-computing-risk-institutions-developers?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "Sun, 15 Feb 2026 06:17:48 +0000",
+      "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
@@ -95,20 +109,6 @@
       "title": "Bitcoin holders are being tested as inflation eases: Pompliano",
       "url": "https://cointelegraph.com/news/bitcoin-holders-inflation-data-valuation-us-dollar-anthony-pompliano?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "published_at": "Sat, 14 Feb 2026 03:38:20 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Digital gold or tech stock? Bitcoin\u2019s identity crisis deepens",
-      "url": "https://cointelegraph.com/news/digital-gold-or-tech-stock-bitcoin-s-identity-crisis-deepens?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "Fri, 13 Feb 2026 20:00:00 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitcoin bulls blitz $69K as retail traders pressure short positioning",
-      "url": "https://cointelegraph.com/news/bitcoin-bulls-blitz-dollar69k-as-retail-traders-pressure-short-positioning?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "Fri, 13 Feb 2026 19:21:46 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     }

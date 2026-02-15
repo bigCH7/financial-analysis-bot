@@ -1,7 +1,42 @@
 {
-  "generated_at": "2026-02-14 16:53 UTC",
+  "generated_at": "2026-02-15 15:55 UTC",
   "count": 55,
   "items": [
+    {
+      "title": "BlackRock's digital assets head: Leverage-driven volatility threatens bitcoin\u2019s narrative",
+      "link": "https://www.coindesk.com/markets/2026/02/13/blackrock-s-head-of-digital-assets-warns-leverage-driven-volatility-risks-undermine-bitcoin-s-institutional-narrative",
+      "pub_date": "Sun, 15 Feb 2026 14:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "XRP outruns bitcoin, ether after investors piled into the recent crash",
+      "link": "https://www.coindesk.com/markets/2026/02/15/xrp-is-outrunning-bitcoin-and-ether-after-investors-piled-into-the-recent-crash",
+      "pub_date": "Sun, 15 Feb 2026 13:39:18 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Wall Street remains bullish on bitcoin while offshore traders retreat",
+      "link": "https://www.coindesk.com/markets/2026/02/15/wall-street-remains-bullish-on-bitcoin-while-offshore-traders-retreat",
+      "pub_date": "Sun, 15 Feb 2026 12:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "The Genius Act ripple effect: Sui executives say institutional demand has never been higher",
+      "link": "https://www.coindesk.com/business/2026/02/13/the-genius-act-ripple-effect-sui-executives-say-institutional-demand-has-never-been-higher",
+      "pub_date": "Sat, 14 Feb 2026 18:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Elon Musk's X to launch crypto and stock trading in \u2018couple weeks\u2019",
+      "link": "https://www.coindesk.com/business/2026/02/14/elon-musk-s-x-to-launch-crypto-and-stock-trading-in-couple-weeks",
+      "pub_date": "Sat, 14 Feb 2026 17:33:54 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
     {
       "title": "Galaxy\u2019s Steve Kurz sees \u2018great convergence\u2019 driving crypto\u2019s long-term outlook",
       "link": "https://www.coindesk.com/business/2026/02/14/galaxy-s-steve-kurz-sees-great-convergence-driving-crypto-s-long-term-outlook",
@@ -143,44 +178,65 @@
       "fetch_source": "live"
     },
     {
-      "title": "Aave labs proposes \u2018Aave Will Win\u2019 plan to send 100% of product revenue to DAO",
-      "link": "https://www.coindesk.com/business/2026/02/12/aave-labs-proposes-aave-will-win-plan-to-send-100-of-product-revenue-to-dao",
-      "pub_date": "Thu, 12 Feb 2026 19:12:04 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Key Senate Democrat wants U.S. crypto bill to move, and SEC chief reveals danger of defeat",
-      "link": "https://www.coindesk.com/policy/2026/02/12/key-senate-democrat-wants-u-s-crypto-bill-to-move-and-sec-chief-reveals-danger-of-defeat",
-      "pub_date": "Thu, 12 Feb 2026 18:00:16 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Ark Invest's Cathie Wood says bitcoin will thrive amid \u2018deflationary chaos\u2019 created by AI and innovation",
-      "link": "https://www.coindesk.com/markets/2026/02/12/ark-invest-s-cathie-wood-says-bitcoin-will-thrive-amid-deflationary-chaos-created-by-ai-and-innovation",
-      "pub_date": "Thu, 12 Feb 2026 17:42:28 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "From FTX debris to global finance: Solana\u2019s 2026 plan is all about the application layer",
-      "link": "https://www.coindesk.com/business/2026/02/12/solana-s-og-builders-say-the-next-chapter-is-bigger-than-memecoins-and-bigger-than-ftx",
-      "pub_date": "Thu, 12 Feb 2026 16:49:02 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitcoin sinks below $66,000 as crypto prices follow U.S. stocks lower",
-      "link": "https://www.coindesk.com/markets/2026/02/12/bitcoin-sinks-below-usd67-000-with-crypto-prices-following-u-s-stocks-lower",
-      "pub_date": "Thu, 12 Feb 2026 16:45:52 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
       "title": "Here\u2019s what happened in crypto today",
       "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Sat, 14 Feb 2026 13:04:42 +0000",
+      "pub_date": "Sun, 15 Feb 2026 13:19:54 +0000",
+      "source": "Cointelegraph",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Study suggests WLFI could act as an \u2018early warning signal\u2019 in crypto",
+      "link": "https://cointelegraph.com/news/wlfi-early-warning-signal-crypto-amberdata-study?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sun, 15 Feb 2026 13:04:28 +0000",
+      "source": "Cointelegraph",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Mirae Asset agrees to buy 92% stake in Korean exchange Korbit for $93M",
+      "link": "https://cointelegraph.com/news/mirae-asset-buy-92-percent-korbit-korea-crypto-exchange?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sun, 15 Feb 2026 10:04:27 +0000",
+      "source": "Cointelegraph",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Senators ask Bessent to probe $500M UAE stake in Trump-linked WLFI",
+      "link": "https://cointelegraph.com/news/senators-urge-cfius-probe-uae-stake-trump-linked-wlfi?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sun, 15 Feb 2026 07:15:57 +0000",
+      "source": "Cointelegraph",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Institutions may get 'fed up' and fire Bitcoin devs over quantum: VC",
+      "link": "https://cointelegraph.com/news/bitcoin-quantum-computing-risk-institutions-developers?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sun, 15 Feb 2026 06:17:48 +0000",
+      "source": "Cointelegraph",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Roundhill\u2019s election prediction ETFs are \u2018potentially groundbreaking': Analyst",
+      "link": "https://cointelegraph.com/news/roundhill-investments-event-contracts-prediction-markets-etf-united-states-election?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sun, 15 Feb 2026 03:04:18 +0000",
+      "source": "Cointelegraph",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Prediction markets should become hedging platforms, says Buterin",
+      "link": "https://cointelegraph.com/news/prediction-markets-hedging-buterin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sat, 14 Feb 2026 22:16:34 +0000",
+      "source": "Cointelegraph",
+      "fetch_source": "live"
+    },
+    {
+      "title": "X exec Nikita Bier says in-app trading coming in a 'couple' of weeks",
+      "link": "https://cointelegraph.com/news/x-nikita-bier-in-app-trading-couple-weeks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sat, 14 Feb 2026 21:00:30 +0000",
+      "source": "Cointelegraph",
+      "fetch_source": "live"
+    },
+    {
+      "title": "All social program benefits can be distributed onchain: Compliance exec",
+      "link": "https://cointelegraph.com/news/all-social-benefit-programs-onchain?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sat, 14 Feb 2026 18:20:21 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
@@ -223,62 +279,6 @@
       "title": "Ether holds $2K, but will $242M spot ETH ETF outflow reignite price downside?",
       "link": "https://cointelegraph.com/news/ether-holds-dollar2k-but-will-dollar242m-spot-eth-etf-outflow-reignite-price-downside?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "pub_date": "Fri, 13 Feb 2026 23:37:49 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "White House crypto adviser says banks shouldn't fear stablecoin yield",
-      "link": "https://cointelegraph.com/news/white-house-banks-shouldnt-fear-stablecoin-yield?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 13 Feb 2026 21:54:56 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "ETH open interest falls to 3-year low: What does it mean for Ether price?",
-      "link": "https://cointelegraph.com/news/eth-open-interest-falls-to-3-year-low-what-does-it-mean-for-ether-price?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 13 Feb 2026 21:30:00 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Price predictions 2/13: BTC, ETH, BNB, XRP, SOL, DOGE, BCH, HYPE, ADA, XMR",
-      "link": "https://cointelegraph.com/news/price-predictions-2-13-btc-eth-bnb-xrp-sol-doge-bch-hype-ada-xmr?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 13 Feb 2026 20:30:00 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Dutch House of Representatives advances controversial 36% tax law",
-      "link": "https://cointelegraph.com/news/dutch-house-advances-36-tax-law?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 13 Feb 2026 20:05:40 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Digital gold or tech stock? Bitcoin\u2019s identity crisis deepens",
-      "link": "https://cointelegraph.com/news/digital-gold-or-tech-stock-bitcoin-s-identity-crisis-deepens?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 13 Feb 2026 20:00:00 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitcoin bulls blitz $69K as retail traders pressure short positioning",
-      "link": "https://cointelegraph.com/news/bitcoin-bulls-blitz-dollar69k-as-retail-traders-pressure-short-positioning?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 13 Feb 2026 19:21:46 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "BlackRock enters DeFi as institutional crypto push accelerates: Finance Redefined",
-      "link": "https://cointelegraph.com/news/blackrock-enters-defi-institutional-crypto-push-finance-redefined?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 13 Feb 2026 19:00:00 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Anchorage, Kamino let institutions borrow against SOL without moving custody",
-      "link": "https://cointelegraph.com/news/anchorage-kamino-institutions-borrow-against-sol-without-moving-custody?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 13 Feb 2026 17:37:15 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     }

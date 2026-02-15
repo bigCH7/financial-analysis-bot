@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-02-15T01:55:38.730323+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-02-15 01:47 UTC_",
+  "generated_at": "2026-02-15T15:56:16.282631+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-02-15 15:50 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,10 +9,10 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 69600.0,
+        "current_usd": 68961.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": 0.44,
-        "change_30d_pct": -27.19
+        "change_7d_pct": -2.24,
+        "change_30d_pct": -27.8
       },
       "indicators": {
         "trend": "DOWNTREND",
@@ -23,9 +23,9 @@
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
         "summary_line": "Fair - Balanced growth profile - Elevated regulatory risk.",
-        "score": 57.8
+        "score": 58.1
       },
-      "updated_at": "2026-02-15T01:55:38.721092+00:00",
+      "updated_at": "2026-02-15T15:56:16.280437+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,10 +37,10 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 2079.0,
+        "current_usd": 2006.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": -0.56,
-        "change_30d_pct": -37.34
+        "change_7d_pct": -4.26,
+        "change_30d_pct": -39.14
       },
       "indicators": {
         "trend": "DOWNTREND",
@@ -51,9 +51,9 @@
         "verdict": "Constructive long-term setup",
         "band": "undervalued",
         "summary_line": "Undervalued - Strong growth profile - Elevated regulatory risk.",
-        "score": 60.3
+        "score": 64.6
       },
-      "updated_at": "2026-02-15T01:55:38.723166+00:00",
+      "updated_at": "2026-02-15T15:56:16.281162+00:00",
       "source": {
         "short_term": "live"
       }
@@ -81,7 +81,7 @@
         "summary_line": "Overvalued - Strong growth profile - Elevated regulatory risk.",
         "score": 40.7
       },
-      "updated_at": "2026-02-15T01:55:38.724227+00:00",
+      "updated_at": "2026-02-15T15:56:16.281437+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Strong growth profile - Elevated regulatory risk.",
         "score": 38.5
       },
-      "updated_at": "2026-02-15T01:55:38.725253+00:00",
+      "updated_at": "2026-02-15T15:56:16.281675+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -137,7 +137,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Elevated regulatory risk.",
         "score": 0.0
       },
-      "updated_at": "2026-02-15T01:55:38.726399+00:00",
+      "updated_at": "2026-02-15T15:56:16.281913+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -165,7 +165,7 @@
         "summary_line": "Overvalued - Strong growth profile - Elevated regulatory risk.",
         "score": 38.5
       },
-      "updated_at": "2026-02-15T01:55:38.727326+00:00",
+      "updated_at": "2026-02-15T15:56:16.282139+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -193,13 +193,48 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-02-15T01:55:38.728782+00:00",
+      "updated_at": "2026-02-15T15:56:16.282404+00:00",
       "source": {
         "short_term": "stooq_live"
       }
     }
   ],
   "overview_news": [
+    {
+      "title": "BlackRock's digital assets head: Leverage-driven volatility threatens bitcoin\u2019s narrative",
+      "url": "https://www.coindesk.com/markets/2026/02/13/blackrock-s-head-of-digital-assets-warns-leverage-driven-volatility-risks-undermine-bitcoin-s-institutional-narrative",
+      "published_at": "Sun, 15 Feb 2026 14:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "XRP outruns bitcoin, ether after investors piled into the recent crash",
+      "url": "https://www.coindesk.com/markets/2026/02/15/xrp-is-outrunning-bitcoin-and-ether-after-investors-piled-into-the-recent-crash",
+      "published_at": "Sun, 15 Feb 2026 13:39:18 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Wall Street remains bullish on bitcoin while offshore traders retreat",
+      "url": "https://www.coindesk.com/markets/2026/02/15/wall-street-remains-bullish-on-bitcoin-while-offshore-traders-retreat",
+      "published_at": "Sun, 15 Feb 2026 12:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "The Genius Act ripple effect: Sui executives say institutional demand has never been higher",
+      "url": "https://www.coindesk.com/business/2026/02/13/the-genius-act-ripple-effect-sui-executives-say-institutional-demand-has-never-been-higher",
+      "published_at": "Sat, 14 Feb 2026 18:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Elon Musk's X to launch crypto and stock trading in \u2018couple weeks\u2019",
+      "url": "https://www.coindesk.com/business/2026/02/14/elon-musk-s-x-to-launch-crypto-and-stock-trading-in-couple-weeks",
+      "published_at": "Sat, 14 Feb 2026 17:33:54 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
     {
       "title": "Galaxy\u2019s Steve Kurz sees \u2018great convergence\u2019 driving crypto\u2019s long-term outlook",
       "url": "https://www.coindesk.com/business/2026/02/14/galaxy-s-steve-kurz-sees-great-convergence-driving-crypto-s-long-term-outlook",
@@ -232,41 +267,6 @@
       "title": "Wall Street analysts slash Coinbase price targets after Q4 miss \u2014 but shares rally",
       "url": "https://www.coindesk.com/markets/2026/02/13/wall-street-analysts-slash-coinbase-price-targets-after-q4-miss-but-shares-still-rally",
       "published_at": "Fri, 13 Feb 2026 16:22:43 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "U.S.-based DeFi group urges UK FCA to anchor crypto rules to 'unilateral control'",
-      "url": "https://www.coindesk.com/policy/2026/02/13/u-s-based-defi-advocacy-group-urges-uk-fca-to-anchor-crypto-rules-to-unilateral-control",
-      "published_at": "Fri, 13 Feb 2026 15:19:34 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Ethereum Foundation leadership shake-up: Tomasz Sta\u0144czak out as co-executive director",
-      "url": "https://www.coindesk.com/tech/2026/02/13/ethereum-foundation-leadership-shake-up-tomasz-stanczak-out-as-co-executive-director",
-      "published_at": "Fri, 13 Feb 2026 15:07:59 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "CoinDesk 20 performance update: Uniswap (UNI) jumps 5.4%, leading index higher",
-      "url": "https://www.coindesk.com/coindesk-indices/2026/02/13/coindesk-20-performance-update-uniswap-uni-jumps-5-4-leading-index-higher",
-      "published_at": "Fri, 13 Feb 2026 14:21:31 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Crypto market wobbles as investors ignore good news, look for \u2018exit ramp\u2019",
-      "url": "https://www.coindesk.com/daybook-us/2026/02/13/crypto-market-wobbles-as-investors-ignore-good-news-look-for-the-exit-ramp",
-      "published_at": "Fri, 13 Feb 2026 12:38:13 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Ark Invest buys $18 million of crypto stocks including 10th consecutive Bullish purchase",
-      "url": "https://www.coindesk.com/markets/2026/02/13/ark-invest-buys-usd18-million-of-crypto-stocks-including-10th-consecutive-bullish-purchase",
-      "published_at": "Fri, 13 Feb 2026 12:13:07 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }

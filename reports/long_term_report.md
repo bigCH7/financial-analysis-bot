@@ -1,6 +1,6 @@
 # Long-Term Multi-Asset Analysis Report
 
-_Updated: 2026-02-15 01:55 UTC_
+_Updated: 2026-02-15 15:50 UTC_
 
 ## Framework
 
@@ -57,9 +57,9 @@ Long-term: Fair - Balanced growth profile - Elevated regulatory risk.
 | Composite | 58.1 |
 | Confidence | 100.0 |
 | Supply/issuance | 100.0 |
-| Network usage | 61.6 |
+| Network usage | 61.5 |
 | Dev & security | 68.4 |
-| Liquidity | 35.6 |
+| Liquidity | 35.5 |
 | Macro/regulatory | 18.4 |
 
 ### Key Drivers
@@ -70,10 +70,10 @@ Long-term: Fair - Balanced growth profile - Elevated regulatory risk.
 
 ### Metrics (concise)
 
-- Price percentile (1y) - +1.91% - Why it matters: cheap vs 1y history.
+- Price percentile (1y) - +1.64% - Why it matters: cheap vs 1y history.
 - Price vs 200d average - 0.69 - Why it matters: below 1.00 often means weak trend but better long-term entry.
 - Turnover (Vol/Cap) - +2.83% - Why it matters: higher turnover usually means easier entry/exit.
-- NVT proxy - 35.31 - Why it matters: very high values can mean price is running ahead of usage.
+- NVT proxy - 35.35 - Why it matters: very high values can mean price is running ahead of usage.
 - Max drawdown (1y) - -49.63% - Why it matters: shows pain tolerance needed to hold long term.
 
 ### What Must Be True
@@ -86,9 +86,9 @@ Long-term: Fair - Balanced growth profile - Elevated regulatory risk.
 
 | Case | Implied Price | Move vs Current | Core assumption |
 |---|---:|---:|---|
-| Bear | $86,961 | +25.06% | Slower usage and tighter liquidity. |
-| Base | $101,651 | +46.19% | Gradual mean reversion. |
-| Bull | $112,950 | +62.44% | Strong adoption with stable macro. |
+| Bear | $86,961 | +25.99% | Slower usage and tighter liquidity. |
+| Base | $101,651 | +47.27% | Gradual mean reversion. |
+| Bull | $112,950 | +63.64% | Strong adoption with stable macro. |
 
 ### Disconfirming Evidence
 
@@ -123,8 +123,8 @@ Long-term: Undervalued - Strong growth profile - Elevated regulatory risk.
 
 ### TL;DR
 
-- **Pill:** GREEN Undervalued (60.3)
-- **Composite score:** 60.3/100 | **Confidence:** 100.0/100
+- **Pill:** GREEN Undervalued (64.6)
+- **Composite score:** 64.6/100 | **Confidence:** 100.0/100
 - **Fast read:** Network and supply are solid; key watch item is to watch macro sensitivity and narrative durability.
 
 ### Investment Thesis
@@ -142,12 +142,12 @@ Long-term: Undervalued - Strong growth profile - Elevated regulatory risk.
 
 | Pillar | Score |
 |---|---:|
-| Composite | 60.3 |
+| Composite | 64.6 |
 | Confidence | 100.0 |
 | Supply/issuance | 100.0 |
-| Network usage | 82.9 |
+| Network usage | 89.3 |
 | Dev & security | 53.6 |
-| Liquidity | 44.8 |
+| Liquidity | 62.7 |
 | Macro/regulatory | 10.7 |
 
 ### Key Drivers
@@ -158,10 +158,10 @@ Long-term: Undervalued - Strong growth profile - Elevated regulatory risk.
 
 ### Metrics (concise)
 
-- Price percentile (1y) - +17.21% - Why it matters: cheap vs 1y history.
-- Price vs 200d average - 0.58 - Why it matters: below 1.00 often means weak trend but better long-term entry.
-- Turnover (Vol/Cap) - +6.78% - Why it matters: higher turnover usually means easier entry/exit.
-- NVT proxy - 14.74 - Why it matters: very high values can mean price is running ahead of usage.
+- Price percentile (1y) - +16.12% - Why it matters: cheap vs 1y history.
+- Price vs 200d average - 0.57 - Why it matters: below 1.00 often means weak trend but better long-term entry.
+- Turnover (Vol/Cap) - +10.27% - Why it matters: higher turnover usually means easier entry/exit.
+- NVT proxy - 9.73 - Why it matters: very high values can mean price is running ahead of usage.
 - Max drawdown (1y) - -62.30% - Why it matters: shows pain tolerance needed to hold long term.
 
 ### What Must Be True
@@ -174,9 +174,9 @@ Long-term: Undervalued - Strong growth profile - Elevated regulatory risk.
 
 | Case | Implied Price | Move vs Current | Core assumption |
 |---|---:|---:|---|
-| Bear | $2,152 | +4.51% | Slower usage and tighter liquidity. |
-| Base | $2,949 | +43.22% | Gradual mean reversion. |
-| Bull | $3,911 | +89.95% | Strong adoption with stable macro. |
+| Bear | $2,152 | +7.19% | Slower usage and tighter liquidity. |
+| Base | $2,949 | +46.89% | Gradual mean reversion. |
+| Bull | $3,911 | +94.81% | Strong adoption with stable macro. |
 
 ### Disconfirming Evidence
 
