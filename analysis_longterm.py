@@ -304,6 +304,62 @@ def percentile_label(percentile):
     return "middle of 1y range"
 
 
+def outlook_label(score):
+    if score is None:
+        return "Neutral"
+    if score >= 67:
+        return "Bullish"
+    if score >= 45:
+        return "Neutral"
+    return "Bearish"
+
+
+def crypto_lens_insight(lens_name, score):
+    outlook = outlook_label(score)
+    if lens_name == "Market Value":
+        if outlook == "Bullish":
+            return "Supply discipline and valuation are supportive."
+        if outlook == "Neutral":
+            return "Scarcity is intact, but valuation is near fair value."
+        return "Price is stretched relative to value signals."
+
+    if lens_name == "Network Vitality":
+        if outlook == "Bullish":
+            return "Usage and developer activity support the long-term case."
+        if outlook == "Neutral":
+            return "Network activity is stable but not accelerating."
+        return "Activity is weak versus price, reducing conviction."
+
+    if outlook == "Bullish":
+        return "Liquidity and macro backdrop are manageable."
+    if outlook == "Neutral":
+        return "Risk conditions are mixed and require active monitoring."
+    return "Macro and liquidity risks are elevated."
+
+
+def traditional_lens_insight(lens_name, score):
+    outlook = outlook_label(score)
+    if lens_name == "Market Value":
+        if outlook == "Bullish":
+            return "Valuation supports long-term entry."
+        if outlook == "Neutral":
+            return "Valuation is close to fair value."
+        return "Valuation looks stretched versus history."
+
+    if lens_name == "Network Vitality":
+        if outlook == "Bullish":
+            return "Growth quality and execution look strong."
+        if outlook == "Neutral":
+            return "Business momentum is steady but not exceptional."
+        return "Growth quality is weakening."
+
+    if outlook == "Bullish":
+        return "Balance-sheet and macro risk are well contained."
+    if outlook == "Neutral":
+        return "Risk profile is acceptable but not low-risk."
+    return "Downside risk is elevated in this regime."
+
+
 def pick_next_watch(score_map):
     if not score_map:
         return "watch liquidity"
@@ -558,7 +614,7 @@ def score_crypto(asset_id, meta):
 
     ann_vol = annualized_volatility(prices)
     mdd = max_drawdown(prices)
-
+    recovery_days = recovery_days_after_drawdown(prices)
     price_percentile = percentile_rank(prices, current)
 
     tokenomics_score = mean_or_none([
@@ -610,10 +666,68 @@ def score_crypto(asset_id, meta):
     tldr_pill = f"{band_emoji(valuation_band)} {valuation_band.title()} ({fmt_num(composite, 1)})"
     next_watch = pick_next_watch(score_map)
 
+    market_value_lens = mean_or_none([
+        tokenomics_score,
+        score_threshold(price_percentile, good=30, bad=75, higher_is_better=False),
+        score_threshold(price_to_ma, good=0.90, bad=1.35, higher_is_better=False),
+    ])
+    network_vitality_lens = mean_or_none([network_score, dev_score])
+    risk_arch_lens = mean_or_none([liquidity_score, macro_narrative_score])
+
+    market_stance = {
+        "undervalued": "Constructive / Undervalued",
+        "fair": "Neutral / Fair Value",
+        "overvalued": "Cautious / Overextended",
+    }.get(valuation_band, "Neutral / Fair Value")
+
+    big_idea = {
+        "bitcoin": "BTC is behaving like a maturing monetary network: scarcity is the anchor, while macro liquidity drives most regime shifts.",
+        "ethereum": "ETH is priced as a utility network: adoption and application demand matter more than short-term headlines.",
+    }.get(asset_id, "This asset needs durable adoption and stable liquidity to compound long term.")
+
+    if risk_arch_lens is not None and risk_arch_lens < 45:
+        fast_read = "Supply and usage are solid, but the main drag is the risk backdrop."
+    elif network_vitality_lens is not None and network_vitality_lens < 45:
+        fast_read = "Valuation may look reasonable, but network activity is not strong enough yet."
+    else:
+        fast_read = "Core structure is stable; watch confirmation from liquidity and macro trends."
+
+    percentile_text = f"{fmt_num(price_percentile, 1)}%" if price_percentile is not None else "N/A"
+    recovery_text = f"{fmt_num(recovery_days, 0)} days" if recovery_days is not None else "N/A"
+
+    if asset_id == "bitcoin":
+        scenario_names = {
+            "bull": "Bull: Hyper-Institutionalization (Prob 25%)",
+            "base": "Base: Cycle Maturity (Prob 50%)",
+            "bear": "Bear: Liquidity Vacuum (Prob 25%)",
+        }
+        scenario_catalysts = {
+            "bull": "Global easing + stronger sovereign and ETF demand reduce liquid float.",
+            "base": "Steady institutional inflows with no retail mania phase.",
+            "bear": "High real rates + tighter regulation + persistent ETF outflows.",
+        }
+    else:
+        scenario_names = {
+            "bull": "Bull: Utility Expansion (Prob 25%)",
+            "base": "Base: Adoption Grind (Prob 50%)",
+            "bear": "Bear: Risk-Off Deleveraging (Prob 25%)",
+        }
+        scenario_catalysts = {
+            "bull": "On-chain adoption accelerates while macro stays supportive.",
+            "base": "Usage growth continues gradually without euphoric leverage.",
+            "bear": "Risk-off regime reduces activity and compresses multiples.",
+        }
+
     lines = []
     lines.append(f"## {meta['name']} ({meta['symbol']})")
     lines.append("")
     lines.append(f"_Data sources: CoinGecko history ({history_source}), CoinGecko fundamentals ({details_source})_")
+    lines.append("")
+    lines.append("### Executive Summary")
+    lines.append("")
+    lines.append(f"- **Asset:** {meta['name']} ({meta['symbol']})")
+    lines.append(f"- **Market stance:** {market_stance}")
+    lines.append(f"- **The Big Idea:** {big_idea}")
     lines.append("")
     lines.append("### One-line Summary")
     lines.append("")
@@ -623,83 +737,83 @@ def score_crypto(asset_id, meta):
     lines.append("")
     lines.append(f"- **Pill:** {tldr_pill}")
     lines.append(f"- **Composite score:** {fmt_num(composite, 1)}/100 | **Confidence:** {fmt_num(confidence, 1)}/100")
-    lines.append(f"- **Fast read:** Network and supply are solid; key watch item is to {next_watch}.")
+    lines.append(f"- **Fast read:** {fast_read}")
     lines.append("")
     lines.append("### Investment Thesis")
     lines.append("")
     lines.append(f"- {meta['thesis']}")
     lines.append(f"- {meta['narrative']}")
-    lines.append("- Long-term edge depends on durable usage, not short-term price spikes.")
+    lines.append("- The long-term edge comes from staying in high-conviction zones, not chasing short spikes.")
     lines.append("")
     lines.append("### Valuation Band")
     lines.append("")
     lines.append(f"- **Valuation band:** {valuation_band}")
-    lines.append(f"- **Valuation pill:** {('GREEN' if valuation_band == 'undervalued' else ('RED' if valuation_band == 'overvalued' else 'GRAY'))} {valuation_band.title()}")
+    lines.append(f"- **Valuation pill:** {tldr_pill}")
     lines.append("")
-    lines.append("### Composite Scorecard")
+    lines.append("### Quantitative Scorecard")
     lines.append("")
-    lines.append("| Pillar | Score |")
-    lines.append("|---|---:|")
-    lines.append(f"| Composite | {fmt_num(composite, 1)} |")
-    lines.append(f"| Confidence | {fmt_num(confidence, 1)} |")
-    lines.append(f"| Supply/issuance | {fmt_num(tokenomics_score, 1)} |")
-    lines.append(f"| Network usage | {fmt_num(network_score, 1)} |")
-    lines.append(f"| Dev & security | {fmt_num(dev_score, 1)} |")
-    lines.append(f"| Liquidity | {fmt_num(liquidity_score, 1)} |")
-    lines.append(f"| Macro/regulatory | {fmt_num(macro_narrative_score, 1)} |")
+    lines.append("| Pillar | Score | Outlook | Key Insight |")
+    lines.append("|---|---:|---|---|")
+    lines.append(f"| Market Value | {fmt_num(market_value_lens, 1)} | {outlook_label(market_value_lens)} | {crypto_lens_insight('Market Value', market_value_lens)} |")
+    lines.append(f"| Network Vitality | {fmt_num(network_vitality_lens, 1)} | {outlook_label(network_vitality_lens)} | {crypto_lens_insight('Network Vitality', network_vitality_lens)} |")
+    lines.append(f"| Risk Architecture | {fmt_num(risk_arch_lens, 1)} | {outlook_label(risk_arch_lens)} | {crypto_lens_insight('Risk Architecture', risk_arch_lens)} |")
+    lines.append(f"| Composite | {fmt_num(composite, 1)} | {outlook_label(composite)} | Weighted blend of the three investor lenses. |")
+    lines.append(f"| Confidence | {fmt_num(confidence, 1)} | {outlook_label(confidence)} | Data freshness and coverage quality. |")
     lines.append("")
-    lines.append("### Key Drivers")
+    lines.append("### Key Metrics (Insight Blocks)")
     lines.append("")
-    lines.append("- Supply and issuance")
-    lines.append("- Real network activity")
-    lines.append("- Liquidity resilience")
+    lines.append("#### Technical Momentum & Entry Profile")
+    lines.append(f"{meta['symbol']} is trading at **{fmt_num(price_to_ma, 2)}x** its 200-day average and at the **{percentile_text}** price percentile (1y). This usually indicates a cooling phase where patient long-term entries are statistically better than breakout chasing.")
     lines.append("")
-    lines.append("### Metrics (concise)")
+    lines.append("#### Network Utility vs Price (NVT Proxy)")
+    lines.append(f"NVT proxy is **{fmt_num(nvt_proxy, 2)}** and turnover is **{fmt_pct(turnover * 100 if turnover is not None else None)}**. When NVT rises while activity is flat, price can be running ahead of real usage.")
     lines.append("")
-    lines.append(f"- Price percentile (1y) - {fmt_pct(price_percentile)} - Why it matters: {percentile_label(price_percentile)}.")
-    lines.append(f"- Price vs 200d average - {fmt_num(price_to_ma, 2)} - Why it matters: below 1.00 often means weak trend but better long-term entry.")
-    lines.append(f"- Turnover (Vol/Cap) - {fmt_pct(turnover * 100 if turnover is not None else None)} - Why it matters: higher turnover usually means easier entry/exit.")
-    lines.append(f"- NVT proxy - {fmt_num(nvt_proxy, 2)} - Why it matters: very high values can mean price is running ahead of usage.")
-    lines.append(f"- Max drawdown (1y) - {fmt_pct(mdd)} - Why it matters: shows pain tolerance needed to hold long term.")
+    lines.append("#### Market Temperature (MVRV Proxy)")
+    lines.append(f"MVRV proxy (price/200d average) is **{fmt_num(price_to_ma, 2)}x**. Below **1.00x** often means the market is below trend cost basis; above **1.20x** can signal overheating.")
+    lines.append("")
+    lines.append("#### Liquidity & Drawdown Profile")
+    lines.append(f"Max drawdown over 1y is **{fmt_pct(mdd)}**, annualized volatility is **{fmt_pct(ann_vol)}**, and recovery time after major drawdown is **{recovery_text}**. This sets realistic holding-period risk expectations.")
     lines.append("")
     lines.append("### What Must Be True")
     lines.append("")
-    lines.append("- Usage and volume trend must stay stable or improve.")
-    lines.append("- Liquidity must remain healthy during risk-off periods.")
-    lines.append("- No major security or governance failure.")
+    lines.append("- Active usage and value transfer trend must remain stable or improve.")
+    lines.append("- Liquidity conditions should avoid prolonged exchange outflow stress.")
+    lines.append("- Protocol security and upgrade cadence must stay credible.")
     lines.append("")
     lines.append("### Scenario Table")
     lines.append("")
     if scenarios:
-        lines.append("| Case | Implied Price | Move vs Current | Core assumption |")
-        lines.append("|---|---:|---:|---|")
-        lines.append(f"| Bear | {fmt_money(scenarios['bear']['target'], 0)} | {fmt_pct(scenarios['bear']['delta_pct'])} | Slower usage and tighter liquidity. |")
-        lines.append(f"| Base | {fmt_money(scenarios['base']['target'], 0)} | {fmt_pct(scenarios['base']['delta_pct'])} | Gradual mean reversion. |")
-        lines.append(f"| Bull | {fmt_money(scenarios['bull']['target'], 0)} | {fmt_pct(scenarios['bull']['delta_pct'])} | Strong adoption with stable macro. |")
+        ma_ref = ma200 if ma200 is not None else (statistics.mean(prices) if prices else None)
+        lines.append("| Scenario | Target (12M) | Implied Delta | Key Catalyst | Invalidation |")
+        lines.append("|---|---:|---:|---|---|")
+        lines.append(f"| {scenario_names['bull']} | {fmt_money(scenarios['bull']['target'], 0)} | {fmt_pct(scenarios['bull']['delta_pct'])} | {scenario_catalysts['bull']} | If price fails to reclaim and hold trend near {fmt_money(ma_ref, 0)}. |")
+        lines.append(f"| {scenario_names['base']} | {fmt_money(scenarios['base']['target'], 0)} | {fmt_pct(scenarios['base']['delta_pct'])} | {scenario_catalysts['base']} | If usage momentum turns negative for multiple months. |")
+        lines.append(f"| {scenario_names['bear']} | {fmt_money(scenarios['bear']['target'], 0)} | {fmt_pct(scenarios['bear']['delta_pct'])} | {scenario_catalysts['bear']} | If liquidity and activity rebound quickly, this case weakens. |")
     else:
         lines.append("Scenario table unavailable (insufficient history).")
     lines.append("")
     lines.append("### Disconfirming Evidence")
     lines.append("")
-    lines.append("- Falling activity while market cap rises.")
-    lines.append("- Repeated security events.")
-    lines.append("- Persistent drop in liquidity depth.")
+    lines.append("- The Hollow Network effect: market cap rises while active usage falls.")
+    lines.append("- Security decay: repeated incidents or governance instability.")
+    lines.append("- Persistent liquidity deterioration despite stable headline price.")
     lines.append("")
     lines.append("### Monitoring Checklist")
     lines.append("")
-    lines.append("- Weekly: turnover, usage trend, and risk headlines.")
-    lines.append("- Monthly: drawdown profile and trend vs 200d average.")
-    lines.append("- Quarterly: developer cadence and ecosystem traction.")
+    lines.append("- [ ] Weekly: ETF/ETP net flows, exchange reserves, and turnover trend.")
+    lines.append("- [ ] Monthly: price vs 200d average, NVT direction, and drawdown depth.")
+    lines.append("- [ ] Quarterly: protocol roadmap execution, developer activity, and regulatory signals.")
     lines.append("")
     lines.append("### Final Verdict")
     lines.append("")
-    lines.append(f"Long-term stance: {verdict}. Near-term plan: accumulate on weakness and {next_watch}.")
+    lines.append(f"Long-term stance: {verdict}. Build gradually on weakness while you {next_watch}.")
+    lines.append(f"- **Pill check:** {tldr_pill}")
     lines.append("")
     lines.append("### Method Notes")
     lines.append("")
-    lines.append("- Scores use normalized pillars (0-100) and weighted sum.")
-    lines.append("- Some metrics are approximations (for example NVT proxy).")
-    lines.append("- Confidence reflects data coverage, freshness, and sample size.")
+    lines.append("- Scores are normalized to 0-100 and combined with fixed lens weights.")
+    lines.append("- NVT and MVRV are proxy versions using available public data endpoints.")
+    lines.append("- Confidence blends data freshness, sample size, and API coverage.")
     lines.append("")
     lines.append("---")
 
@@ -750,7 +864,6 @@ def score_traditional(asset_id, meta):
     quick_ratio = first_not_none(to_float(fin_mod.get("quickRatio")), parse_float(alpha_overview.get("CurrentRatio")))
 
     free_cashflow = first_not_none(to_float(fin_mod.get("freeCashflow")), parse_float(alpha_overview.get("FreeCashFlowTTM")))
-    operating_cashflow = first_not_none(to_float(fin_mod.get("operatingCashflow")), parse_float(alpha_overview.get("OperatingCashflowTTM")))
     payout_ratio = first_not_none(to_float(detail_mod.get("payoutRatio")), to_float(quote_row.get("payoutRatio")), normalize_fraction(parse_float(alpha_overview.get("PayoutRatio"))))
     dividend_yield = first_not_none(to_float(detail_mod.get("dividendYield")), to_float(quote_row.get("trailingAnnualDividendYield")), normalize_fraction(parse_float(alpha_overview.get("DividendYield"))))
 
@@ -765,6 +878,7 @@ def score_traditional(asset_id, meta):
     price_percentile = percentile_rank(prices, current)
     ann_vol = annualized_volatility(prices)
     mdd = max_drawdown(prices)
+    recovery_days = recovery_days_after_drawdown(prices)
     scenarios = build_scenarios(current, prices)
 
     asset_type = meta.get("asset_type")
@@ -834,10 +948,70 @@ def score_traditional(asset_id, meta):
     tldr_pill = f"{band_emoji(valuation_band)} {valuation_band.title()} ({fmt_num(composite, 1)})"
     next_watch = pick_next_watch(score_map)
 
+    market_value_lens = valuation_score
+    network_vitality_lens = mean_or_none([growth_profit_score, comp_mgmt_score])
+    risk_arch_lens = mean_or_none([balance_cashflow_score, macro_reg_score])
+
+    market_stance = {
+        "undervalued": "Constructive / Undervalued",
+        "fair": "Neutral / Fair Value",
+        "overvalued": "Cautious / Overextended",
+    }.get(valuation_band, "Neutral / Fair Value")
+
+    if risk_arch_lens is not None and risk_arch_lens < 45:
+        fast_read = "Valuation is not the only issue: risk architecture is the key constraint right now."
+    elif market_value_lens is not None and market_value_lens < 45:
+        fast_read = "Quality may be acceptable, but entry valuation is still demanding."
+    else:
+        fast_read = "The setup is balanced; prioritize disciplined entries and risk control."
+
+    percentile_text = f"{fmt_num(price_percentile, 1)}%" if price_percentile is not None else "N/A"
+    recovery_text = f"{fmt_num(recovery_days, 0)} days" if recovery_days is not None else "N/A"
+
+    if asset_type == "equity":
+        scenario_names = {
+            "bull": "Bull: Earnings Supercycle (Prob 25%)",
+            "base": "Base: Normalized Growth (Prob 50%)",
+            "bear": "Bear: De-rating Cycle (Prob 25%)",
+        }
+        scenario_catalysts = {
+            "bull": "Margins expand while growth stays above trend and rates ease.",
+            "base": "Growth normalizes with stable valuation multiples.",
+            "bear": "Earnings miss cycle with higher discount rates.",
+        }
+    elif asset_type == "etf":
+        scenario_names = {
+            "bull": "Bull: Broad Risk-On Expansion (Prob 25%)",
+            "base": "Base: Mid-Cycle Grind (Prob 50%)",
+            "bear": "Bear: Macro De-Leveraging (Prob 25%)",
+        }
+        scenario_catalysts = {
+            "bull": "Growth holds and policy turns more accommodative.",
+            "base": "Range-bound macro with steady earnings delivery.",
+            "bear": "Liquidity tightens and risk premium reprices higher.",
+        }
+    else:
+        scenario_names = {
+            "bull": "Bull: Tight-Supply Upswing (Prob 25%)",
+            "base": "Base: Balanced Market (Prob 50%)",
+            "bear": "Bear: Demand Shock (Prob 25%)",
+        }
+        scenario_catalysts = {
+            "bull": "Supply constraints and supportive macro keep inventories tight.",
+            "base": "Supply-demand remains balanced without major shocks.",
+            "bear": "Growth slowdown reduces demand while risk assets de-rate.",
+        }
+
     lines = []
     lines.append(f"## {meta['name']} ({symbol})")
     lines.append("")
     lines.append(f"_Data sources: Yahoo summary ({summary_source}), Yahoo quote ({quote_source}), Alpha overview ({alpha_source}), Price history ({history_source})_")
+    lines.append("")
+    lines.append("### Executive Summary")
+    lines.append("")
+    lines.append(f"- **Asset:** {meta['name']} ({symbol})")
+    lines.append(f"- **Market stance:** {market_stance}")
+    lines.append(f"- **The Big Idea:** {meta['macro_note']}")
     lines.append("")
     lines.append("### One-line Summary")
     lines.append("")
@@ -847,83 +1021,83 @@ def score_traditional(asset_id, meta):
     lines.append("")
     lines.append(f"- **Pill:** {tldr_pill}")
     lines.append(f"- **Composite score:** {fmt_num(composite, 1)}/100 | **Confidence:** {fmt_num(confidence, 1)}/100")
-    lines.append(f"- **Fast read:** Setup is driven by valuation + macro balance; key watch item is to {next_watch}.")
+    lines.append(f"- **Fast read:** {fast_read}")
     lines.append("")
     lines.append("### Investment Thesis")
     lines.append("")
     lines.append(f"- {meta['macro_note']}")
-    lines.append("- Long-term returns depend more on entry valuation and cycle path than daily news.")
-    lines.append("- Focus on downside control first, upside second.")
+    lines.append("- Long-term outcomes are mostly driven by valuation entry plus cycle path.")
+    lines.append("- Keep focus on downside control and cash-flow durability.")
     lines.append("")
     lines.append("### Valuation Band")
     lines.append("")
     lines.append(f"- **Valuation band:** {valuation_band}")
-    lines.append(f"- **Valuation pill:** {('GREEN' if valuation_band == 'undervalued' else ('RED' if valuation_band == 'overvalued' else 'GRAY'))} {valuation_band.title()}")
+    lines.append(f"- **Valuation pill:** {tldr_pill}")
     lines.append("")
-    lines.append("### Composite Scorecard")
+    lines.append("### Quantitative Scorecard")
     lines.append("")
-    lines.append("| Pillar | Score |")
-    lines.append("|---|---:|")
-    lines.append(f"| Composite | {fmt_num(composite, 1)} |")
-    lines.append(f"| Confidence | {fmt_num(confidence, 1)} |")
-    lines.append(f"| Valuation | {fmt_num(valuation_score, 1)} |")
-    lines.append(f"| Growth & profitability | {fmt_num(growth_profit_score, 1)} |")
-    lines.append(f"| Balance sheet & cash flow | {fmt_num(balance_cashflow_score, 1)} |")
-    lines.append(f"| Competitive position & management | {fmt_num(comp_mgmt_score, 1)} |")
-    lines.append(f"| Macro/regulatory | {fmt_num(macro_reg_score, 1)} |")
+    lines.append("| Pillar | Score | Outlook | Key Insight |")
+    lines.append("|---|---:|---|---|")
+    lines.append(f"| Market Value | {fmt_num(market_value_lens, 1)} | {outlook_label(market_value_lens)} | {traditional_lens_insight('Market Value', market_value_lens)} |")
+    lines.append(f"| Network Vitality | {fmt_num(network_vitality_lens, 1)} | {outlook_label(network_vitality_lens)} | {traditional_lens_insight('Network Vitality', network_vitality_lens)} |")
+    lines.append(f"| Risk Architecture | {fmt_num(risk_arch_lens, 1)} | {outlook_label(risk_arch_lens)} | {traditional_lens_insight('Risk Architecture', risk_arch_lens)} |")
+    lines.append(f"| Composite | {fmt_num(composite, 1)} | {outlook_label(composite)} | Weighted blend of the three investor lenses. |")
+    lines.append(f"| Confidence | {fmt_num(confidence, 1)} | {outlook_label(confidence)} | Data freshness and coverage quality. |")
     lines.append("")
-    lines.append("### Key Drivers")
+    lines.append("### Key Metrics (Insight Blocks)")
     lines.append("")
-    lines.append("- Valuation versus history")
-    lines.append("- Quality of growth and margins")
-    lines.append("- Macro and cycle sensitivity")
+    lines.append("#### Valuation & Entry Profile")
+    lines.append(f"Price percentile is **{percentile_text}** and P/E is **{fmt_num(trailing_pe, 2)}** (forward P/E **{fmt_num(forward_pe, 2)}**). Lower percentile with reasonable multiples usually improves long-term entry quality.")
     lines.append("")
-    lines.append("### Metrics (concise)")
+    lines.append("#### Growth & Profit Quality")
+    lines.append(f"Revenue growth is **{fmt_pct((rev_growth * 100) if rev_growth is not None else None)}**, EPS growth is **{fmt_pct((eps_growth * 100) if eps_growth is not None else None)}**, and net margin is **{fmt_pct((net_margin * 100) if net_margin is not None else None)}**. The goal is steady growth without margin erosion.")
     lines.append("")
-    lines.append(f"- Price percentile (10y) - {fmt_pct(price_percentile)} - Why it matters: {percentile_label(price_percentile)}.")
-    lines.append(f"- P/E - {fmt_num(trailing_pe, 2)} - Why it matters: lower multiples can improve long-term entry odds.")
-    lines.append(f"- FCF yield - {fmt_pct((fcf_yield * 100) if fcf_yield is not None else None)} - Why it matters: higher cash yield supports downside resilience.")
-    lines.append(f"- Debt/Equity - {fmt_num(debt_to_equity, 2)} - Why it matters: higher leverage increases cycle risk.")
-    lines.append(f"- Max drawdown - {fmt_pct(mdd)} - Why it matters: shows historical pain before recovery.")
+    lines.append("#### Balance Sheet & Cash Returns")
+    lines.append(f"Debt/Equity is **{fmt_num(debt_to_equity, 2)}**, current ratio is **{fmt_num(current_ratio, 2)}**, and FCF yield is **{fmt_pct((fcf_yield * 100) if fcf_yield is not None else None)}**. Strong free cash flow and manageable leverage reduce downside risk.")
+    lines.append("")
+    lines.append("#### Volatility & Drawdown Profile")
+    lines.append(f"Beta is **{fmt_num(beta, 2)}**, annualized volatility is **{fmt_pct(ann_vol)}**, max drawdown is **{fmt_pct(mdd)}**, and recovery time is **{recovery_text}**. This defines how much volatility you must tolerate to hold long term.")
     lines.append("")
     lines.append("### What Must Be True")
     lines.append("")
-    lines.append("- Earnings quality must hold if growth slows.")
-    lines.append("- Liquidity and balance-sheet risk must remain contained.")
-    lines.append("- Macro backdrop should not tighten beyond model assumptions.")
+    lines.append("- Growth quality must stay intact if macro slows.")
+    lines.append("- Balance-sheet stress should remain contained.")
+    lines.append("- Valuation should not drift far above fundamentals.")
     lines.append("")
     lines.append("### Scenario Table")
     lines.append("")
     if scenarios:
-        lines.append("| Case | Implied Price | Move vs Current | Core assumption |")
-        lines.append("|---|---:|---:|---|")
-        lines.append(f"| Bear | {fmt_money(scenarios['bear']['target'], 2)} | {fmt_pct(scenarios['bear']['delta_pct'])} | Slower growth and lower multiples. |")
-        lines.append(f"| Base | {fmt_money(scenarios['base']['target'], 2)} | {fmt_pct(scenarios['base']['delta_pct'])} | Normalized growth and valuation. |")
-        lines.append(f"| Bull | {fmt_money(scenarios['bull']['target'], 2)} | {fmt_pct(scenarios['bull']['delta_pct'])} | Strong growth with stable rates. |")
+        ma_ref = ma_24m if ma_24m is not None else (statistics.mean(prices) if prices else None)
+        lines.append("| Scenario | Target (12M) | Implied Delta | Key Catalyst | Invalidation |")
+        lines.append("|---|---:|---:|---|---|")
+        lines.append(f"| {scenario_names['bull']} | {fmt_money(scenarios['bull']['target'], 2)} | {fmt_pct(scenarios['bull']['delta_pct'])} | {scenario_catalysts['bull']} | If price fails to hold trend near {fmt_money(ma_ref, 2)}. |")
+        lines.append(f"| {scenario_names['base']} | {fmt_money(scenarios['base']['target'], 2)} | {fmt_pct(scenarios['base']['delta_pct'])} | {scenario_catalysts['base']} | If earnings and cash flow diverge from consensus. |")
+        lines.append(f"| {scenario_names['bear']} | {fmt_money(scenarios['bear']['target'], 2)} | {fmt_pct(scenarios['bear']['delta_pct'])} | {scenario_catalysts['bear']} | If policy eases quickly and flows re-accelerate, this weakens. |")
     else:
         lines.append("Scenario table unavailable (insufficient history).")
     lines.append("")
     lines.append("### Disconfirming Evidence")
     lines.append("")
-    lines.append("- Persistent margin erosion.")
+    lines.append("- Margins fall while revenue growth decelerates.")
     lines.append("- Cash flow weakens while leverage rises.")
-    lines.append("- Macro regime shifts against the asset profile.")
+    lines.append("- Price keeps rising without supporting fundamentals.")
     lines.append("")
     lines.append("### Monitoring Checklist")
     lines.append("")
-    lines.append("- Weekly: trend vs 200d-equivalent and risk headlines.")
-    lines.append("- Monthly: valuation stretch and drawdown profile.")
-    lines.append("- Quarterly: earnings quality, cash flow, and balance-sheet change.")
+    lines.append("- [ ] Weekly: trend health, market breadth, and macro headlines.")
+    lines.append("- [ ] Monthly: valuation percentile, drawdown depth, and volatility regime.")
+    lines.append("- [ ] Quarterly: earnings quality, free cash flow, and balance-sheet changes.")
     lines.append("")
     lines.append("### Final Verdict")
     lines.append("")
-    lines.append(f"Long-term stance: {verdict}. Near-term plan: stay selective, accumulate on weakness, and {next_watch}.")
+    lines.append(f"Long-term stance: {verdict}. Stay selective, accumulate on weakness, and {next_watch}.")
+    lines.append(f"- **Pill check:** {tldr_pill}")
     lines.append("")
     lines.append("### Method Notes")
     lines.append("")
-    lines.append("- Scores use normalized pillars (0-100) and weighted sum.")
-    lines.append("- If a feed is unavailable, confidence drops and available data is used.")
-    lines.append("- Confidence reflects data coverage, freshness, and sample size.")
+    lines.append("- Scores are normalized to 0-100 and combined with fixed lens weights.")
+    lines.append("- Missing feeds lower confidence and default to available data only.")
+    lines.append("- Confidence blends data freshness, sample size, and API coverage.")
     lines.append("")
     lines.append("---")
 

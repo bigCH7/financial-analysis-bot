@@ -349,11 +349,33 @@ a {
 }
 
 .valuation-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
   border-radius: 999px;
   padding: 6px 10px;
   font-size: 0.8rem;
   font-weight: 700;
   border: 1px solid transparent;
+}
+
+.valuation-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 999px;
+  display: inline-block;
+}
+
+.valuation-dot-green {
+  background: #26a269;
+}
+
+.valuation-dot-gray {
+  background: #7d8191;
+}
+
+.valuation-dot-red {
+  background: #ca4444;
 }
 
 .valuation-undervalued {

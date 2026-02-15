@@ -258,10 +258,14 @@ function valuationBandClass(band) {
 
 function renderValuationBadge(band, score) {
   const key = (band || "fair").toLowerCase();
-  const emoji = key.includes("under") ? "??" : key.includes("over") ? "??" : "?";
   const cls = valuationBandClass(key);
+  const dotCls = key.includes("under")
+    ? "valuation-dot valuation-dot-green"
+    : key.includes("over")
+      ? "valuation-dot valuation-dot-red"
+      : "valuation-dot valuation-dot-gray";
   const scoreText = (typeof score === "number" && !Number.isNaN(score)) ? ` (${score.toFixed(1)})` : "";
-  return `<span class="${cls}">${emoji} ${key.toUpperCase()}${scoreText}</span>`;
+  return `<span class="${cls}"><span class="${dotCls}"></span>${key.toUpperCase()}${scoreText}</span>`;
 }
 
 function renderNewsList(targetId, items, fallbackAsset) {
