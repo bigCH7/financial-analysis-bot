@@ -72,6 +72,11 @@ TRADITIONAL_ASSETS = {
     },
 }
 
+ETF_TOP5_CONCENTRATION = {
+    "qqq": 47.0,
+    "spy": 26.0,
+}
+
 
 def clamp(value, low=0.0, high=100.0):
     return max(low, min(high, value))
@@ -483,6 +488,34 @@ def build_scenarios(current_price, history):
     }
 
 
+def build_traditional_scenarios(current_price, asset_type, mdd):
+    if current_price is None:
+        return None
+
+    if asset_type == "etf":
+        bear_cap = 50
+        base_pct = 8.0
+        bull_pct = 22.0
+    elif asset_type == "equity":
+        bear_cap = 60
+        base_pct = 10.0
+        bull_pct = 30.0
+    else:
+        bear_cap = 55
+        base_pct = 7.0
+        bull_pct = 18.0
+
+    draw_ref = abs(mdd) if mdd is not None else 28.0
+    bear_draw = min(max(draw_ref * 0.6, 20.0), float(bear_cap))
+    bear_pct = -bear_draw
+
+    return {
+        "bear": {"target": current_price * (1.0 + bear_pct / 100.0), "delta_pct": bear_pct},
+        "base": {"target": current_price * (1.0 + base_pct / 100.0), "delta_pct": base_pct},
+        "bull": {"target": current_price * (1.0 + bull_pct / 100.0), "delta_pct": bull_pct},
+    }
+
+
 def get_crypto_history(asset, days=365):
     try:
         url = f"{COINGECKO}/coins/{asset}/market_chart"
@@ -585,6 +618,13 @@ def get_yahoo_quote(symbol):
     except Exception:
         return {}, "unavailable"
 
+
+def get_us10y_yield():
+    row, source = get_yahoo_quote("^TNX")
+    raw = to_float(row.get("regularMarketPrice"))
+    if raw is None:
+        return None, source
+    return (raw / 10.0 if raw > 20 else raw), source
 
 
 def get_alpha_overview(symbol):
@@ -998,7 +1038,8 @@ def score_traditional(asset_id, meta):
     ann_vol = annualized_volatility(prices)
     mdd = max_drawdown(prices)
     recovery_days = recovery_days_after_drawdown(prices)
-    scenarios = build_scenarios(current, prices)
+    us10y, us10y_source = get_us10y_yield()
+    scenarios = build_traditional_scenarios(current, asset_type=meta.get("asset_type"), mdd=mdd)
 
     asset_type = meta.get("asset_type")
     if asset_type == "equity":
@@ -1039,15 +1080,19 @@ def score_traditional(asset_id, meta):
         score_threshold((fcf_yield or 0) * 100 if fcf_yield is not None else None, good=8, bad=0, higher_is_better=True),
         score_threshold((payout_ratio or 0) * 100 if payout_ratio is not None else None, good=45, bad=120, higher_is_better=False),
     ])
-    comp_mgmt_score = mean_or_none([
+    concentration = ETF_TOP5_CONCENTRATION.get(asset_id) if asset_type == "etf" else None
+    concentration_score = score_threshold(concentration, good=20, bad=55, higher_is_better=False)
+    comp_mgmt_raw = mean_or_none([
         score_threshold((roe or 0) * 100 if roe is not None else None, good=18, bad=6, higher_is_better=True),
         score_threshold((insider or 0) * 100 if insider is not None else None, good=8, bad=0.2, higher_is_better=True),
         score_threshold((institution or 0) * 100 if institution is not None else None, good=75, bad=20, higher_is_better=True),
     ])
+    comp_mgmt_score = concentration_score if asset_type == "etf" else comp_mgmt_raw
     macro_reg_score = mean_or_none([
         score_threshold(beta, good=0.9, bad=1.8, higher_is_better=False),
         score_threshold(abs(mdd) if mdd is not None else None, good=20, bad=60, higher_is_better=False),
         score_threshold(abs(ann_vol) if ann_vol is not None else None, good=12, bad=45, higher_is_better=False),
+        score_threshold(us10y, good=2.5, bad=5.5, higher_is_better=False),
     ])
 
     score_map = {
@@ -1086,6 +1131,25 @@ def score_traditional(asset_id, meta):
 
     percentile_text = f"{fmt_num(price_percentile, 1)}%" if price_percentile is not None else "N/A"
     recovery_text = f"{fmt_num(recovery_days, 0)} days" if recovery_days is not None else "N/A"
+    pe_ref = first_not_none(forward_pe, trailing_pe)
+    pe_anchor = 24.0 if asset_type == "etf" else (22.0 if asset_type == "equity" else None)
+    pe_premium_pct = (safe_div(pe_ref, pe_anchor) - 1.0) * 100.0 if pe_ref is not None and pe_anchor else None
+    peg_ref = peg
+    earnings_yield = (100.0 / pe_ref) if pe_ref not in (None, 0) else None
+    equity_vs_bond_spread = (earnings_yield - us10y) if earnings_yield is not None and us10y is not None else None
+    fundamentals_available = any(
+        v is not None for v in [trailing_pe, forward_pe, peg, rev_growth, eps_growth, fcf_yield, debt_to_equity]
+    )
+    rate_light = traffic_light(score_threshold(us10y, good=2.5, bad=5.5, higher_is_better=False))
+    peg_light = traffic_light(score_threshold(peg_ref, good=1.5, bad=3.0, higher_is_better=False))
+    spread_light = traffic_light(score_threshold(equity_vs_bond_spread, good=2.0, bad=-1.0, higher_is_better=True))
+    if pe_ref is not None and pe_anchor is not None:
+        valuation_history_text = (
+            f"{symbol} is at {fmt_num(pe_ref, 1)}x vs historical anchor {fmt_num(pe_anchor, 1)}x "
+            f"({fmt_pct(pe_premium_pct)} innovation premium)."
+        )
+    else:
+        valuation_history_text = "Valuation-vs-history comparison is limited due to missing fundamentals."
 
     if asset_type == "equity":
         scenario_names = {
@@ -1123,7 +1187,10 @@ def score_traditional(asset_id, meta):
 
     mood = market_mood(composite, price_to_ma, risk_arch_lens)
     trend_ref = fmt_money(ma_24m, 2) if ma_24m is not None else "the long-term trend line"
-    conservative_action = safe_action_line(mood, price_to_ma, trend_ref)
+    if mood in ("Defensive", "Overheated"):
+        conservative_action = f"Wait for a pullback and trend stabilization near {trend_ref} before adding."
+    else:
+        conservative_action = f"Dollar-cost average (DCA) in small tranches while trend remains stable around {trend_ref}."
     aggressive_action = aggressive_action_line(mood, next_watch)
     if scenarios:
         forecast_note = (
@@ -1138,6 +1205,8 @@ def score_traditional(asset_id, meta):
         f"{fmt_num(composite, 1)}/100 (confidence {fmt_num(confidence, 1)}/100). "
         f"Scarcity & Supply is {fmt_num(market_value_lens, 1)}, Usage & Popularity is {fmt_num(network_vitality_lens, 1)}, "
         f"and Safety & Rules is {fmt_num(risk_arch_lens, 1)}. "
+        f"Borrowing cost backdrop is {fmt_num(us10y, 2)}% ({rate_light}), earnings-vs-bond spread is {fmt_num(equity_vs_bond_spread, 2)} pts ({spread_light}), "
+        f"and concentration risk is {fmt_num(concentration, 1)}% top-5 weight. "
         f"Valuation sits in the {valuation_band} band, while the key watch item is to {next_watch}; "
         f"{forecast_note}."
     )
@@ -1164,22 +1233,46 @@ def score_traditional(asset_id, meta):
     lines.append(f"- **Valuation band:** {valuation_band}")
     lines.append(f"- **Fast read:** {fast_read}")
     lines.append("")
-    lines.append("### The Three Big Questions")
+    lines.append("### Global Weather (Macro Regime)")
     lines.append("")
-    lines.append("| Big Question | Score | Traffic Light | What It Means |")
-    lines.append("|---|---:|---|---|")
-    lines.append(f"| Scarcity & Supply | {fmt_num(market_value_lens, 1)} | {traffic_light(market_value_lens)} | Is valuation too stretched? Current read: {traditional_lens_insight('Market Value', market_value_lens)} |")
-    lines.append(f"| Usage & Popularity | {fmt_num(network_vitality_lens, 1)} | {traffic_light(network_vitality_lens)} | Is the business/network still delivering? Current read: {traditional_lens_insight('Network Vitality', network_vitality_lens)} |")
-    lines.append(f"| Safety & Rules | {fmt_num(risk_arch_lens, 1)} | {traffic_light(risk_arch_lens)} | Could leverage, policy, or volatility hurt it? Current read: {traditional_lens_insight('Risk Architecture', risk_arch_lens)} |")
+    lines.append(f"- **Borrowing costs (US 10Y):** {fmt_num(us10y, 2)}% (source: {us10y_source}). Traffic light: **{rate_light}**.")
+    lines.append(f"- **Earnings Yield vs Bond Yield:** {fmt_num(earnings_yield, 2)}% vs {fmt_num(us10y, 2)}% => spread **{fmt_num(equity_vs_bond_spread, 2)} pts** ({spread_light}).")
+    lines.append("- Translation: when bond yield is close to or above earnings yield, stocks lose relative attractiveness.")
     lines.append("")
-    lines.append("### Translation Layer (So-What)")
+    lines.append("### Valuation Check (Price Tag vs History)")
     lines.append("")
-    lines.append(f"- **Price percentile:** {percentile_text}. Translation: **{traffic_light(score_threshold(price_percentile, good=40, bad=85, higher_is_better=False))}**. Lower percentile often means better long-term entry odds.")
-    lines.append(f"- **P/E (or proxy):** {fmt_num(trailing_pe, 2)}. Translation: **{traffic_light(score_threshold(trailing_pe, good=16, bad=45, higher_is_better=False))}**. Lower valuation usually reduces downside if growth holds.")
-    lines.append(f"- **FCF yield:** {fmt_pct((fcf_yield * 100) if fcf_yield is not None else None)}. Translation: **{traffic_light(score_threshold((fcf_yield or 0) * 100 if fcf_yield is not None else None, good=8, bad=0, higher_is_better=True))}**. Higher cash yield supports long-term resilience.")
-    lines.append(f"- **Debt/Equity:** {fmt_num(debt_to_equity, 2)}. Translation: **{traffic_light(score_threshold(debt_to_equity, good=40, bad=220, higher_is_better=False))}**. Higher leverage increases drawdown risk in weak macro periods.")
-    lines.append(f"- **Volatility / Drawdown:** {fmt_pct(ann_vol)} / {fmt_pct(mdd)}. Translation: **{traffic_light(score_threshold(abs(mdd) if mdd is not None else None, good=20, bad=60, higher_is_better=False))}**. This tells you how rough the ride can get.")
+    lines.append(f"- **Valuation vs history:** {valuation_history_text}")
+    lines.append(f"- **Forward/Trailing P/E:** {fmt_num(forward_pe, 2)} / {fmt_num(trailing_pe, 2)}")
+    lines.append(f"- **PEG ratio:** {fmt_num(peg_ref, 2)} ({peg_light}).")
+    lines.append(f"- **Price percentile:** {percentile_text} ({traffic_light(score_threshold(price_percentile, good=40, bad=85, higher_is_better=False))}).")
     lines.append("")
+    lines.append("### Engine Room (Earnings & Growth)")
+    lines.append("")
+    lines.append(f"- **Profit momentum (EPS growth):** {fmt_pct((eps_growth * 100) if eps_growth is not None else None)} ({traffic_light(score_threshold((eps_growth or 0) * 100 if eps_growth is not None else None, good=12, bad=-8, higher_is_better=True))}).")
+    lines.append(f"- **Revenue growth:** {fmt_pct((rev_growth * 100) if rev_growth is not None else None)}.")
+    lines.append(f"- **FCF yield / Debt-Equity:** {fmt_pct((fcf_yield * 100) if fcf_yield is not None else None)} / {fmt_num(debt_to_equity, 2)}.")
+    lines.append("- Translation: strong earnings and cash flow support premium valuations; weak earnings make high P/E fragile.")
+    lines.append("")
+    lines.append("### Concentration Risk (Mag 7 Factor)")
+    lines.append("")
+    if concentration is not None:
+        lines.append(f"- **Top-5 concentration:** {fmt_num(concentration, 1)}% ({traffic_light(concentration_score)}).")
+        lines.append("- Translation: when top-5 concentration is high, one mega-cap shock can move the entire ETF.")
+    else:
+        lines.append("- Concentration metric is not ETF-specific for this asset.")
+    lines.append("")
+    lines.append("### Traffic Light Panel")
+    lines.append("")
+    lines.append(f"- **Borrowing Costs:** {rate_light}")
+    lines.append(f"- **Valuation Tag:** {traffic_light(market_value_lens)}")
+    lines.append(f"- **Profit Momentum:** {traffic_light(score_threshold((eps_growth or 0) * 100 if eps_growth is not None else None, good=12, bad=-8, higher_is_better=True))}")
+    lines.append(f"- **Safety & Rules:** {traffic_light(risk_arch_lens)}")
+    lines.append("")
+    if not fundamentals_available:
+        lines.append("### Data Quality Warning")
+        lines.append("")
+        lines.append("Warning: Fundamental data is currently hidden. Analysis is relying strictly on price history and technical trends.")
+        lines.append("")
     lines.append("### Warning Check (What Could Go Wrong Fast)")
     lines.append("")
     lines.append("- Earnings quality drops while valuation stays high.")
@@ -1195,6 +1288,7 @@ def score_traditional(asset_id, meta):
         lines.append(f"| {scenario_names['bull']} | {fmt_money(scenarios['bull']['target'], 2)} | {fmt_pct(scenarios['bull']['delta_pct'])} | {scenario_catalysts['bull']} |")
         lines.append(f"| {scenario_names['base']} | {fmt_money(scenarios['base']['target'], 2)} | {fmt_pct(scenarios['base']['delta_pct'])} | {scenario_catalysts['base']} |")
         lines.append(f"| {scenario_names['bear']} | {fmt_money(scenarios['bear']['target'], 2)} | {fmt_pct(scenarios['bear']['delta_pct'])} | {scenario_catalysts['bear']} |")
+        lines.append("- Scenario limits follow market reality: bear paths are bounded to historical drawdown ranges, not extreme collapse assumptions.")
         lines.append(f"- Invalidation anchor: if price fails to hold trend near **{fmt_money(ma_ref, 2)}**, risk rises.")
     else:
         lines.append("Scenario table unavailable (insufficient history).")
