@@ -101,6 +101,7 @@ const SECTION_GUIDE = {
   "Quick Score Snapshot": "Compact score panel with valuation pill, composite score, confidence, and the immediate read.",
   "TL;DR": "Short decision snapshot with valuation pill, composite score, confidence, and immediate read of conditions.",
   "The Three Big Questions": "Beginner-friendly lens framework: supply, usage, and risk, each translated into practical meaning.",
+  "Advanced Criteria (Tiered)": "Adds beginner, intermediate, and technical views of ownership, liquidity fuel, cost basis, developer health, and holder conviction.",
   "Investment Thesis": "The core argument for why this asset could create long-term value if key assumptions hold.",
   "Valuation Band": "Classifies the asset as undervalued, fair, or overvalued based on the scoring model and history context.",
   "Quantitative Scorecard": "Structured scoring table that compresses many indicators into investor lenses for quick comparison.",

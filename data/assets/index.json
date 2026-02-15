@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-02-15T21:13:51.641136+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-02-15 21:07 UTC_",
+  "generated_at": "2026-02-15T22:05:52.900617+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-02-15 21:57 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -23,9 +23,9 @@
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
         "summary_line": "Fair - Balanced growth profile - Elevated regulatory risk.",
-        "score": 59.2
+        "score": 59.1
       },
-      "updated_at": "2026-02-15T21:13:51.608608+00:00",
+      "updated_at": "2026-02-15T22:05:52.878285+00:00",
       "source": {
         "short_term": "live"
       }
@@ -53,7 +53,7 @@
         "summary_line": "Undervalued - Strong growth profile - Elevated regulatory risk.",
         "score": 64.7
       },
-      "updated_at": "2026-02-15T21:13:51.632893+00:00",
+      "updated_at": "2026-02-15T22:05:52.893433+00:00",
       "source": {
         "short_term": "live"
       }
@@ -81,7 +81,7 @@
         "summary_line": "Overvalued - Strong growth profile - Elevated regulatory risk.",
         "score": 40.7
       },
-      "updated_at": "2026-02-15T21:13:51.634074+00:00",
+      "updated_at": "2026-02-15T22:05:52.894848+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Strong growth profile - Elevated regulatory risk.",
         "score": 38.5
       },
-      "updated_at": "2026-02-15T21:13:51.635134+00:00",
+      "updated_at": "2026-02-15T22:05:52.896066+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Strong growth profile - Elevated regulatory risk.",
         "score": 57.8
       },
-      "updated_at": "2026-02-15T21:13:51.636193+00:00",
+      "updated_at": "2026-02-15T22:05:52.897283+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -165,7 +165,7 @@
         "summary_line": "Overvalued - Strong growth profile - Elevated regulatory risk.",
         "score": 38.5
       },
-      "updated_at": "2026-02-15T21:13:51.637371+00:00",
+      "updated_at": "2026-02-15T22:05:52.898364+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -193,7 +193,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-02-15T21:13:51.638796+00:00",
+      "updated_at": "2026-02-15T22:05:52.899470+00:00",
       "source": {
         "short_term": "stooq_live"
       }

@@ -524,6 +524,34 @@ def get_crypto_details(asset):
         return {}, "unavailable"
 
 
+def get_stablecoin_market_cap():
+    try:
+        payload, source = fetch_json_with_cache(
+            f"{COINGECKO}/coins/markets",
+            params={
+                "vs_currency": "usd",
+                "category": "stablecoins",
+                "order": "market_cap_desc",
+                "per_page": 250,
+                "page": 1,
+                "sparkline": "false",
+            },
+            namespace="coingecko_stablecoins",
+            cache_key="stablecoins_market_cap",
+            retries=4,
+        )
+        if not isinstance(payload, list):
+            return None, "unavailable"
+        total = 0.0
+        for row in payload:
+            cap = to_float(row.get("market_cap")) if isinstance(row, dict) else None
+            if cap is not None:
+                total += cap
+        return (total if total > 0 else None), source
+    except Exception:
+        return None, "unavailable"
+
+
 def get_yahoo_summary(symbol):
     try:
         payload, source = fetch_json_with_cache(
@@ -657,6 +685,23 @@ def score_crypto(asset_id, meta):
     vol_30 = statistics.mean(volumes[-30:]) if len(volumes) >= 30 else None
     vol_180 = statistics.mean(volumes[-180:]) if len(volumes) >= 180 else None
     usage_growth_proxy = safe_div(vol_30, vol_180)
+    stablecoin_cap, stablecoin_source = get_stablecoin_market_cap()
+    ssr = safe_div(market_cap, stablecoin_cap)
+    realized_price_proxy = ma200
+    realized_gap_pct = (safe_div(current, realized_price_proxy) - 1.0) * 100.0 if realized_price_proxy else None
+    hodl_1y_proxy = score_threshold(turnover, good=0.03, bad=0.18, higher_is_better=False)
+    whale_pressure_proxy = mean_or_none([
+        score_threshold(turnover, good=0.03, bad=0.16, higher_is_better=False),
+        score_threshold(fdv_ratio, good=1.2, bad=2.8, higher_is_better=False),
+    ])
+    concentration_risk_proxy = mean_or_none([
+        score_threshold(circulating_ratio, good=0.90, bad=0.45, higher_is_better=True),
+        score_threshold(fdv_ratio, good=1.15, bad=2.5, higher_is_better=False),
+    ])
+    dev_vitality_score = mean_or_none([
+        score_threshold(commit_4w, good=250, bad=25, higher_is_better=True),
+        score_threshold(stars, good=30000, bad=2000, higher_is_better=True),
+    ])
 
     ann_vol = annualized_volatility(prices)
     mdd = max_drawdown(prices)
@@ -781,6 +826,8 @@ def score_crypto(asset_id, meta):
         f"{fmt_num(composite, 1)}/100 (confidence {fmt_num(confidence, 1)}/100). "
         f"Scarcity & Supply is {fmt_num(market_value_lens, 1)}, Usage & Popularity is {fmt_num(network_vitality_lens, 1)}, "
         f"and Safety & Rules is {fmt_num(risk_arch_lens, 1)}. "
+        f"Whale-watch proxy is {fmt_num(whale_pressure_proxy, 1)}, SSR fuel gauge is {fmt_num(ssr, 2)}, "
+        f"developer vitality is {fmt_num(dev_vitality_score, 1)}, and conviction proxy is {fmt_num(hodl_1y_proxy, 1)}. "
         f"Valuation sits in the {valuation_band} band, while the key watch item is to {next_watch}; "
         f"{forecast_note}."
     )
@@ -821,6 +868,35 @@ def score_crypto(asset_id, meta):
     lines.append(f"- **NVT proxy:** {fmt_num(nvt_proxy, 2)}. Translation: **{traffic_light(score_threshold(nvt_proxy, good=20, bad=140, higher_is_better=False))}**. High NVT can mean price is outrunning real network use.")
     lines.append(f"- **Turnover (Vol/Cap):** {fmt_pct(turnover * 100 if turnover is not None else None)}. Translation: **{traffic_light(score_threshold(turnover, good=0.08, bad=0.01, higher_is_better=True))}**. Higher turnover usually means easier entry/exit liquidity.")
     lines.append(f"- **Max drawdown (1y):** {fmt_pct(mdd)}. Translation: **{traffic_light(score_threshold(abs(mdd) if mdd is not None else None, good=25, bad=80, higher_is_better=False))}**. This is the historical pain you had to survive to hold long term.")
+    lines.append(f"- **SSR (Fuel Gauge):** {fmt_num(ssr, 2)} (stablecoin cap source: {stablecoin_source}). Translation: **{traffic_light(score_threshold(ssr, good=6, bad=20, higher_is_better=False))}**. Lower SSR usually means more sidelined buying power exists.")
+    lines.append(f"- **Cost Basis Proxy (Price vs Realized Proxy):** {fmt_pct(realized_gap_pct)}. Translation: **{traffic_light(score_threshold(realized_gap_pct, good=12, bad=-15, higher_is_better=True))}**. Below 0% often means broader holder pain and potential capitulation zones.")
+    lines.append("")
+    lines.append("### Advanced Criteria (Tiered)")
+    lines.append("")
+    lines.append(f"- **Whale Watch (Beginner):** Are big players buying or selling? **Proxy score: {fmt_num(whale_pressure_proxy, 1)} ({traffic_light(whale_pressure_proxy)})**.")
+    lines.append(f"  **Intermediate:** Concentration Risk proxy = **{fmt_num(concentration_risk_proxy, 1)}** based on circulating/FDV structure.")
+    lines.append("  **Technical:** Whale transaction count and true holder concentration need dedicated on-chain feeds (not in this public snapshot).")
+    lines.append("  **12M conclusion:** If whale-pressure proxy improves while price is flat, odds of a silent accumulation phase improve.")
+    lines.append("")
+    lines.append(f"- **Stablecoin Supply Ratio (Beginner Fuel Gauge):** SSR = **{fmt_num(ssr, 2)}**.")
+    lines.append("  **Intermediate:** Lower SSR means more dry powder relative to BTC size.")
+    lines.append("  **Technical:** Stablecoin mint velocity and exchange inflow velocity require dedicated flow datasets.")
+    lines.append("  **12M conclusion:** Lower-to-mid SSR supports rally potential if risk conditions stabilize.")
+    lines.append("")
+    lines.append(f"- **Cost Basis (Beginner):** Current vs realized-price proxy gap = **{fmt_pct(realized_gap_pct)}**.")
+    lines.append("  **Intermediate:** Positive gap suggests market above aggregate cost basis proxy; negative gap suggests pain/capitulation risk.")
+    lines.append("  **Technical:** Full realized cap and MVRV Z-score need realized-cap series from on-chain providers.")
+    lines.append("  **12M conclusion:** Deep negative gaps historically improve long-term entry quality, but timing remains volatile.")
+    lines.append("")
+    lines.append(f"- **Developer Vitality (Beginner):** Is anyone still building this? **Score: {fmt_num(dev_vitality_score, 1)} ({traffic_light(dev_vitality_score)})**.")
+    lines.append(f"  **Intermediate:** 4-week commits = **{fmt_num(commit_4w, 0)}**, GitHub stars = **{fmt_num(stars, 0)}**.")
+    lines.append("  **Technical:** Multi-chain developer retention and grant-quality trends require ecosystem-level datasets.")
+    lines.append("  **12M conclusion:** Sustained dev activity supports innovation moat and lowers zombie-project risk.")
+    lines.append("")
+    lines.append(f"- **HODL Waves / Supply Age (Beginner Conviction Meter):** **Proxy score: {fmt_num(hodl_1y_proxy, 1)} ({traffic_light(hodl_1y_proxy)})**.")
+    lines.append("  **Intermediate:** Lower turnover often aligns with older supply staying locked.")
+    lines.append("  **Technical:** True HODL wave bands and RHODL ratio need UTXO-age datasets.")
+    lines.append("  **12M conclusion:** Rising conviction proxy supports supply tightening; sharp drops can signal old-holder distribution.")
     lines.append("")
     lines.append("### Warning Check (What Could Go Wrong Fast)")
     lines.append("")
