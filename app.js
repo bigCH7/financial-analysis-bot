@@ -95,12 +95,19 @@
 };
 
 const SECTION_GUIDE = {
+  "Status Check (5-Second View)": "The fastest orientation block: market mood, simple action, and plain-English context.",
   "Executive Summary": "Fast context for this asset: what it is, current stance, and the core market idea driving the report.",
   "One-line Summary": "Single-sentence takeaway combining valuation, growth quality, and risk so you can orient quickly.",
+  "Quick Score Snapshot": "Compact score panel with valuation pill, composite score, confidence, and the immediate read.",
   "TL;DR": "Short decision snapshot with valuation pill, composite score, confidence, and immediate read of conditions.",
+  "The Three Big Questions": "Beginner-friendly lens framework: supply, usage, and risk, each translated into practical meaning.",
   "Investment Thesis": "The core argument for why this asset could create long-term value if key assumptions hold.",
   "Valuation Band": "Classifies the asset as undervalued, fair, or overvalued based on the scoring model and history context.",
   "Quantitative Scorecard": "Structured scoring table that compresses many indicators into investor lenses for quick comparison.",
+  "Translation Layer (So-What)": "Converts technical metrics into a traffic-light message so you know what each number means.",
+  "Warning Check (What Could Go Wrong Fast)": "The key failure points that can break the thesis quickly.",
+  "Forecast (Next 6 Months)": "Three scenario paths with targets and narratives so projections are tied to conditions.",
+  "Next Step (What To Do Today)": "Action split by risk style: conservative vs aggressive.",
   "Key Metrics (Insight Blocks)": "Plain-language interpretation of critical metrics; not just values, but what they mean for positioning.",
   "Technical Momentum & Entry Profile": "Shows trend position and percentile context to judge whether entry timing is stretched or cooling.",
   "Network Utility vs Price (NVT Proxy)": "Compares network usage and valuation to detect when price may be outrunning real activity.",
