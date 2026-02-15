@@ -768,6 +768,22 @@ def score_crypto(asset_id, meta):
     trend_ref = fmt_money(ma200, 0) if ma200 is not None else "the long-term trend line"
     conservative_action = safe_action_line(mood, price_to_ma, trend_ref)
     aggressive_action = aggressive_action_line(mood, next_watch)
+    if scenarios:
+        forecast_note = (
+            f"base-case path points to {fmt_money(scenarios['base']['target'], 0)} "
+            f"({fmt_pct(scenarios['base']['delta_pct'])}) with upside to {fmt_money(scenarios['bull']['target'], 0)} "
+            f"and downside to {fmt_money(scenarios['bear']['target'], 0)}"
+        )
+    else:
+        forecast_note = "scenario coverage is limited due to missing history"
+    verdict_summary = (
+        f"Combined read: {meta['symbol']} is in a {mood.lower()} regime with a composite score of "
+        f"{fmt_num(composite, 1)}/100 (confidence {fmt_num(confidence, 1)}/100). "
+        f"Scarcity & Supply is {fmt_num(market_value_lens, 1)}, Usage & Popularity is {fmt_num(network_vitality_lens, 1)}, "
+        f"and Safety & Rules is {fmt_num(risk_arch_lens, 1)}. "
+        f"Valuation sits in the {valuation_band} band, while the key watch item is to {next_watch}; "
+        f"{forecast_note}."
+    )
 
     lines = []
     lines.append(f"## {meta['name']} ({meta['symbol']})")
@@ -839,6 +855,7 @@ def score_crypto(asset_id, meta):
     lines.append("### Final Verdict")
     lines.append("")
     lines.append(f"Long-term stance: {verdict}.")
+    lines.append(verdict_summary)
     lines.append(f"- **Pill check:** {tldr_pill}")
     lines.append("")
     lines.append("---")
@@ -1032,6 +1049,22 @@ def score_traditional(asset_id, meta):
     trend_ref = fmt_money(ma_24m, 2) if ma_24m is not None else "the long-term trend line"
     conservative_action = safe_action_line(mood, price_to_ma, trend_ref)
     aggressive_action = aggressive_action_line(mood, next_watch)
+    if scenarios:
+        forecast_note = (
+            f"base-case path points to {fmt_money(scenarios['base']['target'], 2)} "
+            f"({fmt_pct(scenarios['base']['delta_pct'])}) with upside to {fmt_money(scenarios['bull']['target'], 2)} "
+            f"and downside to {fmt_money(scenarios['bear']['target'], 2)}"
+        )
+    else:
+        forecast_note = "scenario coverage is limited due to missing history"
+    verdict_summary = (
+        f"Combined read: {symbol} is in a {mood.lower()} regime with a composite score of "
+        f"{fmt_num(composite, 1)}/100 (confidence {fmt_num(confidence, 1)}/100). "
+        f"Scarcity & Supply is {fmt_num(market_value_lens, 1)}, Usage & Popularity is {fmt_num(network_vitality_lens, 1)}, "
+        f"and Safety & Rules is {fmt_num(risk_arch_lens, 1)}. "
+        f"Valuation sits in the {valuation_band} band, while the key watch item is to {next_watch}; "
+        f"{forecast_note}."
+    )
 
     lines = []
     lines.append(f"## {meta['name']} ({symbol})")
@@ -1104,6 +1137,7 @@ def score_traditional(asset_id, meta):
     lines.append("### Final Verdict")
     lines.append("")
     lines.append(f"Long-term stance: {verdict}.")
+    lines.append(verdict_summary)
     lines.append(f"- **Pill check:** {tldr_pill}")
     lines.append("")
     lines.append("---")

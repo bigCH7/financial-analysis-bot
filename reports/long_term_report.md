@@ -1,6 +1,6 @@
 # Long-Term Multi-Asset Analysis Report
 
-_Updated: 2026-02-15 19:17 UTC_
+_Updated: 2026-02-15 21:07 UTC_
 
 ## Framework
 
@@ -32,7 +32,7 @@ _Data sources: CoinGecko history (live), CoinGecko fundamentals (live)_
 ### Status Check (5-Second View)
 
 - **Market mood:** Defensive
-- **Simple action right now:** Wait for trend stability near $100,558 before adding size.
+- **Simple action right now:** Wait for trend stability near $100,560 before adding size.
 - **Plain-English read:** Bitcoin is in a caution zone right now: risk is high, so patience matters more than speed.
 
 ### One-line Summary
@@ -41,8 +41,8 @@ Long-term: Fair - Balanced growth profile - Elevated regulatory risk.
 
 ### Quick Score Snapshot
 
-- **Pill:** GRAY Fair (59.1)
-- **Composite score:** 59.1/100 | **Confidence:** 100.0/100
+- **Pill:** GRAY Fair (59.2)
+- **Composite score:** 59.2/100 | **Confidence:** 100.0/100
 - **Valuation band:** fair
 - **Fast read:** Supply and usage are solid, but the main drag is the risk backdrop.
 
@@ -51,14 +51,14 @@ Long-term: Fair - Balanced growth profile - Elevated regulatory risk.
 | Big Question | Score | Traffic Light | What It Means |
 |---|---:|---|---|
 | Scarcity & Supply | 100.0 | GREEN - Healthy | Is there too much being created? Current read: Supply discipline and valuation are supportive. |
-| Usage & Popularity | 66.4 | YELLOW - Caution | Are people actually using it? Current read: Network activity is stable but not accelerating. |
-| Safety & Rules | 27.9 | RED - Warning | Could policy or market stress hurt it? Current read: Macro and liquidity risks are elevated. |
+| Usage & Popularity | 66.6 | YELLOW - Caution | Are people actually using it? Current read: Network activity is stable but not accelerating. |
+| Safety & Rules | 28.0 | RED - Warning | Could policy or market stress hurt it? Current read: Macro and liquidity risks are elevated. |
 
 ### Translation Layer (So-What)
 
 - **Price vs 200-day average:** 0.68x. Translation: **RED - Warning**. Below 1.00 often means a cooling phase and potentially better long-term entries.
-- **NVT proxy:** 31.53. Translation: **GREEN - Healthy**. High NVT can mean price is outrunning real network use.
-- **Turnover (Vol/Cap):** +3.17%. Translation: **RED - Warning**. Higher turnover usually means easier entry/exit liquidity.
+- **NVT proxy:** 31.10. Translation: **GREEN - Healthy**. High NVT can mean price is outrunning real network use.
+- **Turnover (Vol/Cap):** +3.22%. Translation: **RED - Warning**. Higher turnover usually means easier entry/exit liquidity.
 - **Max drawdown (1y):** -49.63%. Translation: **YELLOW - Caution**. This is the historical pain you had to survive to hold long term.
 
 ### Warning Check (What Could Go Wrong Fast)
@@ -71,10 +71,10 @@ Long-term: Fair - Balanced growth profile - Elevated regulatory risk.
 
 | Scenario | Target | Implied Move | Market Narrative |
 |---|---:|---:|---|
-| Bull: Hyper-Institutionalization (Prob 25%) | $112,950 | +65.68% | Global easing + stronger sovereign and ETF demand reduce liquid float. |
-| Base: Cycle Maturity (Prob 50%) | $101,651 | +49.10% | Steady institutional inflows with no retail mania phase. |
-| Bear: Liquidity Vacuum (Prob 25%) | $86,961 | +27.56% | High real rates + tighter regulation + persistent ETF outflows. |
-- Invalidation anchor: if price fails to hold trend near **$100,558**, risk rises.
+| Bull: Hyper-Institutionalization (Prob 25%) | $112,950 | +64.66% | Global easing + stronger sovereign and ETF demand reduce liquid float. |
+| Base: Cycle Maturity (Prob 50%) | $101,651 | +48.18% | Steady institutional inflows with no retail mania phase. |
+| Bear: Liquidity Vacuum (Prob 25%) | $86,961 | +26.77% | High real rates + tighter regulation + persistent ETF outflows. |
+- Invalidation anchor: if price fails to hold trend near **$100,560**, risk rises.
 
 ### Method Notes
 
@@ -84,13 +84,14 @@ Long-term: Fair - Balanced growth profile - Elevated regulatory risk.
 
 ### Next Step (What To Do Today)
 
-- **For the Conservative Investor:** Wait for trend stability near $100,558 before adding size.
+- **For the Conservative Investor:** Wait for trend stability near $100,560 before adding size.
 - **For the Aggressive Investor:** Take only partial entries and wait for confirmation before increasing risk; watch macro sensitivity and narrative durability.
 
 ### Final Verdict
 
 Long-term stance: Neutral / fair-value zone.
-- **Pill check:** GRAY Fair (59.1)
+Combined read: BTC is in a defensive regime with a composite score of 59.2/100 (confidence 100.0/100). Scarcity & Supply is 100.0, Usage & Popularity is 66.6, and Safety & Rules is 28.0. Valuation sits in the fair band, while the key watch item is to watch macro sensitivity and narrative durability; base-case path points to $101,651 (+48.18%) with upside to $112,950 and downside to $86,961.
+- **Pill check:** GRAY Fair (59.2)
 
 ---
 ## Ethereum (ETH)
@@ -125,8 +126,8 @@ Long-term: Undervalued - Strong growth profile - Elevated regulatory risk.
 ### Translation Layer (So-What)
 
 - **Price vs 200-day average:** 0.55x. Translation: **RED - Warning**. Below 1.00 often means a cooling phase and potentially better long-term entries.
-- **NVT proxy:** 7.79. Translation: **GREEN - Healthy**. High NVT can mean price is outrunning real network use.
-- **Turnover (Vol/Cap):** +12.84%. Translation: **GREEN - Healthy**. Higher turnover usually means easier entry/exit liquidity.
+- **NVT proxy:** 7.54. Translation: **GREEN - Healthy**. High NVT can mean price is outrunning real network use.
+- **Turnover (Vol/Cap):** +13.27%. Translation: **GREEN - Healthy**. Higher turnover usually means easier entry/exit liquidity.
 - **Max drawdown (1y):** -62.30%. Translation: **RED - Warning**. This is the historical pain you had to survive to hold long term.
 
 ### Warning Check (What Could Go Wrong Fast)
@@ -139,9 +140,9 @@ Long-term: Undervalued - Strong growth profile - Elevated regulatory risk.
 
 | Scenario | Target | Implied Move | Market Narrative |
 |---|---:|---:|---|
-| Bull: Utility Expansion (Prob 25%) | $3,911 | +101.48% | On-chain adoption accelerates while macro stays supportive. |
-| Base: Adoption Grind (Prob 50%) | $2,949 | +51.92% | Usage growth continues gradually without euphoric leverage. |
-| Bear: Risk-Off Deleveraging (Prob 25%) | $2,152 | +10.86% | Risk-off regime reduces activity and compresses multiples. |
+| Bull: Utility Expansion (Prob 25%) | $3,911 | +100.16% | On-chain adoption accelerates while macro stays supportive. |
+| Base: Adoption Grind (Prob 50%) | $2,949 | +50.92% | Usage growth continues gradually without euphoric leverage. |
+| Bear: Risk-Off Deleveraging (Prob 25%) | $2,152 | +10.13% | Risk-off regime reduces activity and compresses multiples. |
 - Invalidation anchor: if price fails to hold trend near **$3,545**, risk rises.
 
 ### Method Notes
@@ -158,6 +159,7 @@ Long-term: Undervalued - Strong growth profile - Elevated regulatory risk.
 ### Final Verdict
 
 Long-term stance: Constructive long-term setup.
+Combined read: ETH is in a defensive regime with a composite score of 64.7/100 (confidence 100.0/100). Scarcity & Supply is 100.0, Usage & Popularity is 71.6, and Safety & Rules is 36.7. Valuation sits in the undervalued band, while the key watch item is to watch macro sensitivity and narrative durability; base-case path points to $2,949 (+50.92%) with upside to $3,911 and downside to $2,152.
 - **Pill check:** GREEN Undervalued (64.7)
 
 ---
@@ -227,6 +229,7 @@ Long-term: Overvalued - Strong growth profile - Elevated regulatory risk.
 ### Final Verdict
 
 Long-term stance: Caution / risk-reward mixed.
+Combined read: SPY is in a defensive regime with a composite score of 40.7/100 (confidence 67.8/100). Scarcity & Supply is 0.0, Usage & Popularity is 100.0, and Safety & Rules is 9.8. Valuation sits in the overvalued band, while the key watch item is to watch valuation stretch versus history; base-case path points to $174.30 (-74.43%) with upside to $394.14 and downside to $98.92.
 - **Pill check:** RED Overvalued (40.7)
 
 ---
@@ -296,6 +299,7 @@ Long-term: Overvalued - Strong growth profile - Elevated regulatory risk.
 ### Final Verdict
 
 Long-term stance: Caution / risk-reward mixed.
+Combined read: QQQ is in a defensive regime with a composite score of 38.5/100 (confidence 67.8/100). Scarcity & Supply is 0.0, Usage & Popularity is 100.0, and Safety & Rules is 0.0. Valuation sits in the overvalued band, while the key watch item is to watch valuation stretch versus history; base-case path points to $68.19 (-88.67%) with upside to $262.64 and downside to $33.92.
 - **Pill check:** RED Overvalued (38.5)
 
 ---
@@ -365,6 +369,7 @@ Long-term: Fair - Strong growth profile - Elevated regulatory risk.
 ### Final Verdict
 
 Long-term stance: Neutral / fair-value zone.
+Combined read: NVDA is in a defensive regime with a composite score of 57.8/100 (confidence 83.5/100). Scarcity & Supply is 25.0, Usage & Popularity is 100.0, and Safety & Rules is 0.0. Valuation sits in the fair band, while the key watch item is to watch macro and regulatory risk; base-case path points to $0.45 (-99.75%) with upside to $12.50 and downside to $0.22.
 - **Pill check:** GRAY Fair (57.8)
 
 ---
@@ -434,6 +439,7 @@ Long-term: Overvalued - Strong growth profile - Elevated regulatory risk.
 ### Final Verdict
 
 Long-term stance: Caution / risk-reward mixed.
+Combined read: GC=F is in a defensive regime with a composite score of 38.5/100 (confidence 67.8/100). Scarcity & Supply is 0.0, Usage & Popularity is 100.0, and Safety & Rules is 0.0. Valuation sits in the overvalued band, while the key watch item is to watch valuation stretch versus history; base-case path points to $39.40 (-99.22%) with upside to $449.00 and downside to $20.67.
 - **Pill check:** RED Overvalued (38.5)
 
 ---
@@ -498,6 +504,7 @@ Scenario table unavailable (insufficient history).
 ### Final Verdict
 
 Long-term stance: Insufficient data.
+Combined read: CL=F is in a balanced regime with a composite score of N/A/100 (confidence 13.5/100). Scarcity & Supply is N/A, Usage & Popularity is N/A, and Safety & Rules is N/A. Valuation sits in the fair band, while the key watch item is to watch liquidity; scenario coverage is limited due to missing history.
 - **Pill check:** GRAY Fair (N/A)
 
 ---
