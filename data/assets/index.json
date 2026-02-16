@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-02-15T23:39:09.560712+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-02-15 23:10 UTC_",
+  "generated_at": "2026-02-16T17:32:30.326470+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-02-16 17:25 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,23 +9,23 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 68591.0,
+        "current_usd": 67902.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": -2.77,
-        "change_30d_pct": -28.19
+        "change_7d_pct": -3.13,
+        "change_30d_pct": -28.6
       },
       "indicators": {
-        "trend": "UPTREND",
+        "trend": "DOWNTREND",
         "momentum": "WEAK",
         "volatility": "NORMAL"
       },
       "valuation": {
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
-        "summary_line": "Fair - Balanced growth profile - Elevated regulatory risk.",
-        "score": 59.1
+        "summary_line": "Fair - Strong growth profile - Elevated regulatory risk.",
+        "score": 59.3
       },
-      "updated_at": "2026-02-15T23:39:09.548604+00:00",
+      "updated_at": "2026-02-16T17:32:30.324223+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,23 +37,23 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 1960.0,
+        "current_usd": 1976.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": -6.45,
-        "change_30d_pct": -40.53
+        "change_7d_pct": -6.1,
+        "change_30d_pct": -40.25
       },
       "indicators": {
         "trend": "DOWNTREND",
-        "momentum": "STRONG",
+        "momentum": "WEAK",
         "volatility": "NORMAL"
       },
       "valuation": {
         "verdict": "Constructive long-term setup",
         "band": "undervalued",
         "summary_line": "Undervalued - Strong growth profile - Elevated regulatory risk.",
-        "score": 64.6
+        "score": 65.1
       },
-      "updated_at": "2026-02-15T23:39:09.552026+00:00",
+      "updated_at": "2026-02-16T17:32:30.325053+00:00",
       "source": {
         "short_term": "live"
       }
@@ -81,7 +81,7 @@
         "summary_line": "Fair - Strong growth profile - Elevated regulatory risk.",
         "score": 48.6
       },
-      "updated_at": "2026-02-15T23:39:09.554141+00:00",
+      "updated_at": "2026-02-16T17:32:30.325334+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Strong growth profile - Elevated regulatory risk.",
         "score": 35.5
       },
-      "updated_at": "2026-02-15T23:39:09.555377+00:00",
+      "updated_at": "2026-02-16T17:32:30.325559+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -137,7 +137,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Elevated regulatory risk.",
         "score": 0.0
       },
-      "updated_at": "2026-02-15T23:39:09.556596+00:00",
+      "updated_at": "2026-02-16T17:32:30.325809+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -149,13 +149,13 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=gold",
       "price": {
-        "current_usd": 5032.915,
-        "change_24h_pct": 2.1059582764434204,
+        "current_usd": 4995.585,
+        "change_24h_pct": -0.7900122434024048,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
       "indicators": {
-        "trend": "UPTREND",
+        "trend": "SIDEWAYS",
         "momentum": "N/A",
         "volatility": "N/A"
       },
@@ -165,7 +165,7 @@
         "summary_line": "Overvalued - Strong growth profile - Elevated regulatory risk.",
         "score": 38.5
       },
-      "updated_at": "2026-02-15T23:39:09.557779+00:00",
+      "updated_at": "2026-02-16T17:32:30.326034+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -177,13 +177,13 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=oil",
       "price": {
-        "current_usd": 62.89,
-        "change_24h_pct": -0.1587553579933343,
+        "current_usd": 63.36,
+        "change_24h_pct": 1.1010052656773572,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
       "indicators": {
-        "trend": "SIDEWAYS",
+        "trend": "UPTREND",
         "momentum": "N/A",
         "volatility": "N/A"
       },
@@ -193,7 +193,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-02-15T23:39:09.559014+00:00",
+      "updated_at": "2026-02-16T17:32:30.326261+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -201,72 +201,72 @@
   ],
   "overview_news": [
     {
-      "title": "BlackRock's digital assets head: Leverage-driven volatility threatens bitcoin\u2019s narrative",
-      "url": "https://www.coindesk.com/markets/2026/02/13/blackrock-s-head-of-digital-assets-warns-leverage-driven-volatility-risks-undermine-bitcoin-s-institutional-narrative",
-      "published_at": "Sun, 15 Feb 2026 14:00:00 +0000",
+      "title": "Hong Kong regulator approves first crypto company license since June",
+      "url": "https://www.coindesk.com/policy/2026/02/16/hong-kong-regulator-approves-first-crypto-company-license-since-june",
+      "published_at": "Mon, 16 Feb 2026 17:01:02 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "XRP outruns bitcoin, ether after investors piled into the recent crash",
-      "url": "https://www.coindesk.com/markets/2026/02/15/xrp-is-outrunning-bitcoin-and-ether-after-investors-piled-into-the-recent-crash",
-      "published_at": "Sun, 15 Feb 2026 13:39:18 +0000",
+      "title": "Crypto mining can help energy volatility, Paradigm responds to policy onslaught",
+      "url": "https://www.coindesk.com/policy/2026/02/13/crypto-mining-can-help-energy-volatility-paradigm-says-to-u-s-policy-pushback",
+      "published_at": "Mon, 16 Feb 2026 15:50:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Wall Street remains bullish on bitcoin while offshore traders retreat",
-      "url": "https://www.coindesk.com/markets/2026/02/15/wall-street-remains-bullish-on-bitcoin-while-offshore-traders-retreat",
-      "published_at": "Sun, 15 Feb 2026 12:00:00 +0000",
+      "title": "From Wall Street to Web3: This is crypto\u2019s year of integration, Silicon Valley Bank says",
+      "url": "https://www.coindesk.com/business/2026/02/16/from-wall-street-to-web3-this-is-crypto-s-year-of-integration-silicon-valley-bank-says",
+      "published_at": "Mon, 16 Feb 2026 15:00:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "The Genius Act ripple effect: Sui executives say institutional demand has never been higher",
-      "url": "https://www.coindesk.com/business/2026/02/13/the-genius-act-ripple-effect-sui-executives-say-institutional-demand-has-never-been-higher",
-      "published_at": "Sat, 14 Feb 2026 18:00:00 +0000",
+      "title": "Harvard cuts bitcoin exposure by 20%, adds new ether position",
+      "url": "https://www.coindesk.com/business/2026/02/16/harvard-cuts-bitcoin-exposure-by-20-adds-new-ether-position",
+      "published_at": "Mon, 16 Feb 2026 14:34:40 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Elon Musk's X to launch crypto and stock trading in \u2018couple weeks\u2019",
-      "url": "https://www.coindesk.com/business/2026/02/14/elon-musk-s-x-to-launch-crypto-and-stock-trading-in-couple-weeks",
-      "published_at": "Sat, 14 Feb 2026 17:33:54 +0000",
+      "title": "Nexo re-enters the U.S. market three years after exiting due to regulatory issues",
+      "url": "https://www.coindesk.com/business/2026/02/16/nexo-partners-with-bakkt-reenters-the-u-s-with-crypto-yield-lending-and-exchange-services",
+      "published_at": "Mon, 16 Feb 2026 14:30:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Galaxy\u2019s Steve Kurz sees \u2018great convergence\u2019 driving crypto\u2019s long-term outlook",
-      "url": "https://www.coindesk.com/business/2026/02/14/galaxy-s-steve-kurz-sees-great-convergence-driving-crypto-s-long-term-outlook",
-      "published_at": "Sat, 14 Feb 2026 16:00:00 +0000",
+      "title": "Bitcoin could fall to $10,000 as U.S. recession risk builds, Mike McGlone says",
+      "url": "https://www.coindesk.com/markets/2026/02/16/bitcoin-s-slide-may-signal-broader-market-trouble-and-a-u-s-recession-mike-mcglone-says",
+      "published_at": "Mon, 16 Feb 2026 14:06:25 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin claws back to $70,000 on cooling inflation after $8.7 billion wipeout",
-      "url": "https://www.coindesk.com/markets/2026/02/14/bitcoin-claws-back-to-usd70-000-on-cooling-inflation-after-usd8-7-billion-wipeout",
-      "published_at": "Sat, 14 Feb 2026 12:04:00 +0000",
+      "title": "Hive, Riot earnings reports, Fed rate-decision minutes: Crypto Week Ahead",
+      "url": "https://www.coindesk.com/markets/2026/02/14/hive-riot-earnings-reports-fed-rate-decision-minutes-crypto-week-ahead",
+      "published_at": "Mon, 16 Feb 2026 12:09:14 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Trump-linked Truth Social seeks SEC approval for two crypto ETFs",
-      "url": "https://www.coindesk.com/markets/2026/02/13/trump-linked-truth-social-seeks-sec-approval-for-two-crypto-etfs",
-      "published_at": "Fri, 13 Feb 2026 20:45:28 +0000",
+      "title": "Metaplanet operating profit to rise 81% in 2026 after soaring 17-fold last year on options writing",
+      "url": "https://www.coindesk.com/business/2026/02/16/metaplanet-operating-profit-to-rise-81-in-2026-after-soaring-17-fold-last-year-on-options-writing",
+      "published_at": "Mon, 16 Feb 2026 11:55:01 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Crypto group counters Wall Street bankers with its own stablecoin principles for bill",
-      "url": "https://www.coindesk.com/policy/2026/02/13/crypto-group-counters-wall-street-bankers-with-its-own-stablecoin-principles-for-bill",
-      "published_at": "Fri, 13 Feb 2026 19:25:19 +0000",
+      "title": "Animoca Brands clears major regulatory hurdle with new Dubai license",
+      "url": "https://www.coindesk.com/policy/2026/02/16/animoca-brands-clears-a-major-regulatory-hurdle-with-new-dubai-license",
+      "published_at": "Mon, 16 Feb 2026 11:37:46 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Wall Street analysts slash Coinbase price targets after Q4 miss \u2014 but shares rally",
-      "url": "https://www.coindesk.com/markets/2026/02/13/wall-street-analysts-slash-coinbase-price-targets-after-q4-miss-but-shares-still-rally",
-      "published_at": "Fri, 13 Feb 2026 16:22:43 +0000",
+      "title": "Ether steadies after $540 million sell wave to outperform wider crypto market",
+      "url": "https://www.coindesk.com/markets/2026/02/16/ether-steadies-after-usd540-million-sell-wave-to-outperform-crypto-market",
+      "published_at": "Mon, 16 Feb 2026 10:50:31 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }

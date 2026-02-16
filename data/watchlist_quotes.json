@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-15T15:55:17.858661+00:00",
+  "generated_at": "2026-02-16T17:31:33.079848+00:00",
   "source": "stooq_live",
   "quotes": {
     "spy": {
@@ -36,20 +36,20 @@
       "asset": "gold",
       "symbol": "GC=F",
       "name": "Gold Futures",
-      "price": 5032.915,
-      "change_24h_pct": 2.1059582764434204,
+      "price": 4995.585,
+      "change_24h_pct": -0.7900122434024048,
       "currency": "USD",
-      "market_time": "2026-02-13 22:00:32",
+      "market_time": "2026-02-16 18:32:16",
       "fetch_source": "stooq_live"
     },
     "oil": {
       "asset": "oil",
       "symbol": "CL=F",
       "name": "Crude Oil Futures",
-      "price": 62.89,
-      "change_24h_pct": -0.1587553579933343,
+      "price": 63.36,
+      "change_24h_pct": 1.1010052656773572,
       "currency": "USD",
-      "market_time": "2026-02-13 23:00:00",
+      "market_time": "2026-02-16 18:32:27",
       "fetch_source": "stooq_live"
     }
   }
