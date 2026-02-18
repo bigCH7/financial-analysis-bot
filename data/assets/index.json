@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-02-17T18:14:20.353340+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-02-17 18:06 UTC_",
+  "generated_at": "2026-02-18T18:07:15.348235+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-02-18 17:58 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,10 +9,10 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 67238.0,
+        "current_usd": 67126.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": -2.24,
-        "change_30d_pct": -28.28
+        "change_7d_pct": 0.28,
+        "change_30d_pct": -27.48
       },
       "indicators": {
         "trend": "DOWNTREND",
@@ -23,9 +23,9 @@
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
         "summary_line": "Fair - Balanced growth profile - Elevated regulatory risk.",
-        "score": 58.4
+        "score": 57.4
       },
-      "updated_at": "2026-02-17T18:14:20.350964+00:00",
+      "updated_at": "2026-02-18T18:07:15.346096+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,13 +37,13 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 1965.0,
+        "current_usd": 1972.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": -2.67,
-        "change_30d_pct": -40.17
+        "change_7d_pct": 1.7,
+        "change_30d_pct": -38.08
       },
       "indicators": {
-        "trend": "DOWNTREND",
+        "trend": "UPTREND",
         "momentum": "WEAK",
         "volatility": "NORMAL"
       },
@@ -51,9 +51,9 @@
         "verdict": "Constructive long-term setup",
         "band": "undervalued",
         "summary_line": "Undervalued - Strong growth profile - Elevated regulatory risk.",
-        "score": 63.8
+        "score": 63.4
       },
-      "updated_at": "2026-02-17T18:14:20.351783+00:00",
+      "updated_at": "2026-02-18T18:07:15.346827+00:00",
       "source": {
         "short_term": "live"
       }
@@ -65,8 +65,8 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=spy",
       "price": {
-        "current_usd": 680.58,
-        "change_24h_pct": 0.06469256329579842,
+        "current_usd": 688.26,
+        "change_24h_pct": 0.619864916230517,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
@@ -81,7 +81,7 @@
         "summary_line": "Fair - Strong growth profile - Elevated regulatory risk.",
         "score": 48.6
       },
-      "updated_at": "2026-02-17T18:14:20.352126+00:00",
+      "updated_at": "2026-02-18T18:07:15.347126+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -93,13 +93,13 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=qqq",
       "price": {
-        "current_usd": 598.98,
-        "change_24h_pct": 0.10110716523918928,
+        "current_usd": 608.93,
+        "change_24h_pct": 1.1326833967215233,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
       "indicators": {
-        "trend": "SIDEWAYS",
+        "trend": "UPTREND",
         "momentum": "N/A",
         "volatility": "N/A"
       },
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Strong growth profile - Elevated regulatory risk.",
         "score": 35.5
       },
-      "updated_at": "2026-02-17T18:14:20.352374+00:00",
+      "updated_at": "2026-02-18T18:07:15.347349+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -121,13 +121,13 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=nvda",
       "price": {
-        "current_usd": 184.4802,
-        "change_24h_pct": 1.502173314993116,
+        "current_usd": 189.22,
+        "change_24h_pct": 0.24900662251654548,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
       "indicators": {
-        "trend": "UPTREND",
+        "trend": "SIDEWAYS",
         "momentum": "N/A",
         "volatility": "N/A"
       },
@@ -137,7 +137,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Elevated regulatory risk.",
         "score": 0.0
       },
-      "updated_at": "2026-02-17T18:14:20.352621+00:00",
+      "updated_at": "2026-02-18T18:07:15.347570+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -149,13 +149,13 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=gold",
       "price": {
-        "current_usd": 4866.195,
-        "change_24h_pct": -2.528137713048406,
+        "current_usd": 5002.945,
+        "change_24h_pct": 2.5901056773779407,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
       "indicators": {
-        "trend": "DOWNTREND",
+        "trend": "UPTREND",
         "momentum": "N/A",
         "volatility": "N/A"
       },
@@ -165,7 +165,7 @@
         "summary_line": "Overvalued - Strong growth profile - Elevated regulatory risk.",
         "score": 38.5
       },
-      "updated_at": "2026-02-17T18:14:20.352856+00:00",
+      "updated_at": "2026-02-18T18:07:15.347783+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -177,13 +177,13 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=oil",
       "price": {
-        "current_usd": 62.18,
-        "change_24h_pct": -2.1249803242562537,
+        "current_usd": 65.01,
+        "change_24h_pct": 4.50088410223437,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
       "indicators": {
-        "trend": "DOWNTREND",
+        "trend": "UPTREND",
         "momentum": "N/A",
         "volatility": "N/A"
       },
@@ -193,7 +193,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-02-17T18:14:20.353113+00:00",
+      "updated_at": "2026-02-18T18:07:15.348030+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -201,73 +201,73 @@
   ],
   "overview_news": [
     {
-      "title": "Top crypto treasury companies Strategy and Bitmine add to BTC, ETH stacks",
-      "url": "https://cointelegraph.com/news/top-crypto-treasury-companies-strategy-and-bitmine-add-to-btc-eth-stacks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "Tue, 17 Feb 2026 17:46:15 +0000",
-      "source": "Cointelegraph",
+      "title": "The Protocol: Zora moves to Solana",
+      "url": "https://www.coindesk.com/tech/2026/02/18/the-protocol-zora-moves-to-solana",
+      "published_at": "Wed, 18 Feb 2026 17:55:53 +0000",
+      "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Macro headwinds test Bitcoin price as $70K crumbles amid US market volatility",
-      "url": "https://cointelegraph.com/news/macro-headwinds-test-bitcoin-price-as-dollar70k-crumbles-amid-us-market-volatility?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "Tue, 17 Feb 2026 17:15:00 +0000",
-      "source": "Cointelegraph",
+      "title": "Coinbase\u2019s Base moves away from Optimism\u2019s 'OP stack' in major tech shift",
+      "url": "https://www.coindesk.com/business/2026/02/18/coinbase-s-base-moves-away-from-optimism-s-op-stack-in-major-tech-shift",
+      "published_at": "Wed, 18 Feb 2026 17:38:31 +0000",
+      "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Nakamoto to acquire BTC Inc, UTXO in $107M all-stock deal",
-      "url": "https://cointelegraph.com/news/nakamoto-inc-btc-inc-utxo-acquisitions?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "Tue, 17 Feb 2026 16:53:20 +0000",
-      "source": "Cointelegraph",
+      "title": "Ethereum\u2019s 50% staking milestone triggers backlash over 'misleading' supply data",
+      "url": "https://www.coindesk.com/business/2026/02/18/ethereum-s-50-staking-milestone-triggers-backlash-over-misleading-supply-data",
+      "published_at": "Wed, 18 Feb 2026 17:18:00 +0000",
+      "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Gemini post-IPO shakeup sees exit of three top executives",
-      "url": "https://cointelegraph.com/news/gemini-space-station-executives-departing?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "Tue, 17 Feb 2026 16:43:53 +0000",
-      "source": "Cointelegraph",
+      "title": "Bitcoin miner Riot stock jumps nearly 9% as activist Starboard urges AI data center expansion",
+      "url": "https://www.coindesk.com/business/2026/02/18/bitcoin-miner-riot-platforms-stock-jumps-nearly-7-as-starboard-urges-ai-data-center-expansion",
+      "published_at": "Wed, 18 Feb 2026 17:14:43 +0000",
+      "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "South Korea lifts 9-year corporate crypto ban: What the policy change means",
-      "url": "https://cointelegraph.com/news/south-korea-lifts-9-year-corporate-crypto-ban-what-the-policy-change-means?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "Tue, 17 Feb 2026 16:27:57 +0000",
-      "source": "Cointelegraph",
+      "title": "Financial giant with $3.5 trillion asset to pilot Trump-affiliated WLFI stablecoin for tokenized funds",
+      "url": "https://www.coindesk.com/business/2026/02/18/apex-group-to-pilot-trump-affiliated-wlfi-stablecoin-for-tokenized-funds",
+      "published_at": "Wed, 18 Feb 2026 17:00:00 +0000",
+      "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin price ignores $168M Strategy buy, and falls as Iran tensions escalate",
-      "url": "https://cointelegraph.com/news/bitcoin-price-ignores-dollar168m-strategy-buy-and-falls-as-iran-tensions-escalate?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "Tue, 17 Feb 2026 16:13:21 +0000",
-      "source": "Cointelegraph",
+      "title": "Crypto Long & Short: Crypto\u2019s liquidity mirage",
+      "url": "https://www.coindesk.com/coindesk-indices/2026/02/18/crypto-long-and-short-crypto-s-liquidity-mirage",
+      "published_at": "Wed, 18 Feb 2026 17:00:00 +0000",
+      "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Starknet adds EY Nightfall to enable private payments on Ethereum rails",
-      "url": "https://cointelegraph.com/news/starknet-taps-ey-nightfall-institutional-grade-privacy?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "Tue, 17 Feb 2026 15:00:00 +0000",
-      "source": "Cointelegraph",
+      "title": "What happens on prediction platforms can steer traditional markets, NYSE chief says",
+      "url": "https://www.coindesk.com/policy/2026/02/18/what-happens-on-prediction-platforms-can-steer-traditional-markets-nyse-chief-says",
+      "published_at": "Wed, 18 Feb 2026 16:40:18 +0000",
+      "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Here\u2019s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "Tue, 17 Feb 2026 14:29:42 +0000",
-      "source": "Cointelegraph",
+      "title": "Bitcoin volatile, but flat, while crypto stocks bounce amid cooling AI fears",
+      "url": "https://www.coindesk.com/markets/2026/02/18/bitcoin-volatile-but-flat-while-crypto-stocks-bounce-amid-cooling-ai-fears",
+      "published_at": "Wed, 18 Feb 2026 16:35:23 +0000",
+      "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Monad hires former FalconX, BVNK and Optimism executives",
-      "url": "https://cointelegraph.com/news/monad-hires-ex-falconx-bvnk-and-optimism-executives-to-drive-institutional-expansion-post-mainnet-embargo-feb-17?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "Tue, 17 Feb 2026 14:00:00 +0000",
-      "source": "Cointelegraph",
+      "title": "Goldman Sachs' David Solomon says he owns 'very little' bitcoin but watching it closely",
+      "url": "https://www.coindesk.com/markets/2026/02/18/goldman-sachs-david-solomon-says-he-owns-very-little-bitcoin-but-watching-it-closely",
+      "published_at": "Wed, 18 Feb 2026 16:22:37 +0000",
+      "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Binance holds 65% of CEX stablecoin reserves as outflows cool: CryptoQuant",
-      "url": "https://cointelegraph.com/news/stablecoin-outflows-slow-binance-65-cex-usdt-usdc-reserves?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "Tue, 17 Feb 2026 13:55:26 +0000",
-      "source": "Cointelegraph",
+      "title": "Bitwise aims to offer prediction market ETFs for U.S. elections in 2026 and 2028",
+      "url": "https://www.coindesk.com/business/2026/02/18/bitwise-wants-to-list-prediction-markets-etfs-for-u-s-elections-in-2026-and-2028",
+      "published_at": "Wed, 18 Feb 2026 15:59:47 +0000",
+      "source": "CoinDesk",
       "fetch_source": "live"
     }
   ]

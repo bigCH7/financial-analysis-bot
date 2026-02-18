@@ -1,214 +1,284 @@
 {
-  "generated_at": "2026-02-17 18:13 UTC",
-  "count": 30,
+  "generated_at": "2026-02-18 18:06 UTC",
+  "count": 55,
   "items": [
     {
-      "title": "Top crypto treasury companies Strategy and Bitmine add to BTC, ETH stacks",
-      "link": "https://cointelegraph.com/news/top-crypto-treasury-companies-strategy-and-bitmine-add-to-btc-eth-stacks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Tue, 17 Feb 2026 17:46:15 +0000",
+      "title": "The Protocol: Zora moves to Solana",
+      "link": "https://www.coindesk.com/tech/2026/02/18/the-protocol-zora-moves-to-solana",
+      "pub_date": "Wed, 18 Feb 2026 17:55:53 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Coinbase\u2019s Base moves away from Optimism\u2019s 'OP stack' in major tech shift",
+      "link": "https://www.coindesk.com/business/2026/02/18/coinbase-s-base-moves-away-from-optimism-s-op-stack-in-major-tech-shift",
+      "pub_date": "Wed, 18 Feb 2026 17:38:31 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Ethereum\u2019s 50% staking milestone triggers backlash over 'misleading' supply data",
+      "link": "https://www.coindesk.com/business/2026/02/18/ethereum-s-50-staking-milestone-triggers-backlash-over-misleading-supply-data",
+      "pub_date": "Wed, 18 Feb 2026 17:18:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Bitcoin miner Riot stock jumps nearly 9% as activist Starboard urges AI data center expansion",
+      "link": "https://www.coindesk.com/business/2026/02/18/bitcoin-miner-riot-platforms-stock-jumps-nearly-7-as-starboard-urges-ai-data-center-expansion",
+      "pub_date": "Wed, 18 Feb 2026 17:14:43 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Financial giant with $3.5 trillion asset to pilot Trump-affiliated WLFI stablecoin for tokenized funds",
+      "link": "https://www.coindesk.com/business/2026/02/18/apex-group-to-pilot-trump-affiliated-wlfi-stablecoin-for-tokenized-funds",
+      "pub_date": "Wed, 18 Feb 2026 17:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Crypto Long & Short: Crypto\u2019s liquidity mirage",
+      "link": "https://www.coindesk.com/coindesk-indices/2026/02/18/crypto-long-and-short-crypto-s-liquidity-mirage",
+      "pub_date": "Wed, 18 Feb 2026 17:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "What happens on prediction platforms can steer traditional markets, NYSE chief says",
+      "link": "https://www.coindesk.com/policy/2026/02/18/what-happens-on-prediction-platforms-can-steer-traditional-markets-nyse-chief-says",
+      "pub_date": "Wed, 18 Feb 2026 16:40:18 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Bitcoin volatile, but flat, while crypto stocks bounce amid cooling AI fears",
+      "link": "https://www.coindesk.com/markets/2026/02/18/bitcoin-volatile-but-flat-while-crypto-stocks-bounce-amid-cooling-ai-fears",
+      "pub_date": "Wed, 18 Feb 2026 16:35:23 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Goldman Sachs' David Solomon says he owns 'very little' bitcoin but watching it closely",
+      "link": "https://www.coindesk.com/markets/2026/02/18/goldman-sachs-david-solomon-says-he-owns-very-little-bitcoin-but-watching-it-closely",
+      "pub_date": "Wed, 18 Feb 2026 16:22:37 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Bitwise aims to offer prediction market ETFs for U.S. elections in 2026 and 2028",
+      "link": "https://www.coindesk.com/business/2026/02/18/bitwise-wants-to-list-prediction-markets-etfs-for-u-s-elections-in-2026-and-2028",
+      "pub_date": "Wed, 18 Feb 2026 15:59:47 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "NYSE President says exchange felt \u2018responsibility\u2019 to enter tokenization space",
+      "link": "https://www.coindesk.com/business/2026/02/18/nyse-president-says-exchange-felt-responsibility-to-enter-tokenization-space",
+      "pub_date": "Wed, 18 Feb 2026 15:58:36 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Bitcoin's plunge signals coming AI crisis, but massive Fed response will drive new record high: Arthur Hayes",
+      "link": "https://www.coindesk.com/markets/2026/02/18/bitcoin-s-plunge-signals-coming-ai-crisis-but-massive-fed-response-will-drive-new-record-high-arthur-hayes",
+      "pub_date": "Wed, 18 Feb 2026 15:15:02 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Hyperliquid starts DeFi lobbying group with $29 million token backing",
+      "link": "https://www.coindesk.com/policy/2026/02/18/hyperliquid-starts-defi-lobbying-group-with-usd29-million-token-backing",
+      "pub_date": "Wed, 18 Feb 2026 15:07:07 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Tokenized pre-IPO shares topic ignites legal debate at Consensus Hong Kong 2026",
+      "link": "https://www.coindesk.com/business/2026/02/18/tokenized-pre-ipo-shares-topic-ignites-legal-debate-at-consensus-hong-kong-2026",
+      "pub_date": "Wed, 18 Feb 2026 15:06:51 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Canary lists spot SUI ETF with staking rewards",
+      "link": "https://www.coindesk.com/markets/2026/02/18/canary-lists-spot-sui-etf-with-staking-rewards",
+      "pub_date": "Wed, 18 Feb 2026 14:56:36 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "CoinDesk 20 performance update: Aptos (APT) declines 3%, leading index lower",
+      "link": "https://www.coindesk.com/coindesk-indices/2026/02/18/coindesk-20-performance-update-aptos-apt-declines-3-leading-index-lower",
+      "pub_date": "Wed, 18 Feb 2026 14:21:59 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "American crypto holders are scared and confused about this year\u2019s new IRS tax rules",
+      "link": "https://www.coindesk.com/business/2026/02/18/american-crypto-holders-are-scared-and-confused-about-this-year-s-new-irs-tax-rules",
+      "pub_date": "Wed, 18 Feb 2026 13:13:07 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "From 2016 hack to $150M Endowment: the DAO\u2019s second act focuses on Ethereum security",
+      "link": "https://www.coindesk.com/tech/2026/02/18/from-2016-hack-to-usd150m-endowment-the-dao-s-second-act-focuses-on-ethereum-security",
+      "pub_date": "Wed, 18 Feb 2026 13:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "While some big investors cash out of crypto, others double down",
+      "link": "https://www.coindesk.com/daybook-us/2026/02/18/while-some-big-investors-are-cashing-out-others-double-down",
+      "pub_date": "Wed, 18 Feb 2026 12:32:43 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "XRP Ledger rolls out members-only DEX for regulated institutions",
+      "link": "https://www.coindesk.com/tech/2026/02/18/xrp-ledger-rolls-out-members-only-dex-for-regulated-institutions",
+      "pub_date": "Wed, 18 Feb 2026 12:10:46 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Milo tops $100 million in crypto-backed mortgages, closes record $12 million deal",
+      "link": "https://www.coindesk.com/business/2026/02/18/crypto-mortgage-specialist-milo-crosses-usd100m-home-loan-milestone-including-record-usd12m-transaction",
+      "pub_date": "Wed, 18 Feb 2026 12:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Bitcoin holds near $68,000 as volatility cools, WLFI jumps ahead of Mar-a-Lago forum",
+      "link": "https://www.coindesk.com/markets/2026/02/18/bitcoin-holds-near-usd68-000-as-volatility-cools-wlfi-jumps-ahead-of-mar-a-lago-forum",
+      "pub_date": "Wed, 18 Feb 2026 11:30:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Moonwell's $1.12 nightmare: A pricing glitch just let bots seize millions in ETH collateral",
+      "link": "https://www.coindesk.com/tech/2026/02/18/ether-briefly-priced-at-usd1-on-defi-app-moonwell-glitch-triggering-usd1-8m-in-bad-debt",
+      "pub_date": "Wed, 18 Feb 2026 11:03:02 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Brevan Howard's crypto fund said to lose 30% in worst year since inception: FT",
+      "link": "https://www.coindesk.com/business/2026/02/18/brevan-howard-s-crypto-fund-lost-30-in-worst-year-since-inception-ft",
+      "pub_date": "Wed, 18 Feb 2026 10:45:20 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Zora moves onto Solana with 'attention markets' for trading internet trends",
+      "link": "https://www.coindesk.com/tech/2026/02/18/zora-moves-onto-solana-with-attention-markets-for-trading-internet-trends",
+      "pub_date": "Wed, 18 Feb 2026 07:55:27 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Bitcoin 2024 buyers steady BTC price as trader sees $52K 'next week or so'",
+      "link": "https://cointelegraph.com/news/bitcoin-early-2024-buyers-steady-btc-price-as-trader-sees-52k-next-week?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Wed, 18 Feb 2026 17:49:34 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Macro headwinds test Bitcoin price as $70K crumbles amid US market volatility",
-      "link": "https://cointelegraph.com/news/macro-headwinds-test-bitcoin-price-as-dollar70k-crumbles-amid-us-market-volatility?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Tue, 17 Feb 2026 17:15:00 +0000",
+      "title": "SocGen's FORGE expands euro stablecoin to XRP Ledger in multi-chain push",
+      "link": "https://cointelegraph.com/news/societe-generale-forge-expands-euro-stablecoin-to-xrp-ledger-in-multi-chain-push?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Wed, 18 Feb 2026 17:41:42 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Nakamoto to acquire BTC Inc, UTXO in $107M all-stock deal",
-      "link": "https://cointelegraph.com/news/nakamoto-inc-btc-inc-utxo-acquisitions?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Tue, 17 Feb 2026 16:53:20 +0000",
+      "title": "Trump family-backed WLFI token surges 23% ahead of Mar-a-Lago crypto forum",
+      "link": "https://cointelegraph.com/news/wlfi-token-trump-mar-a-lago-crypto-forum?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Wed, 18 Feb 2026 16:51:02 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Gemini post-IPO shakeup sees exit of three top executives",
-      "link": "https://cointelegraph.com/news/gemini-space-station-executives-departing?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Tue, 17 Feb 2026 16:43:53 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "South Korea lifts 9-year corporate crypto ban: What the policy change means",
-      "link": "https://cointelegraph.com/news/south-korea-lifts-9-year-corporate-crypto-ban-what-the-policy-change-means?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Tue, 17 Feb 2026 16:27:57 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitcoin price ignores $168M Strategy buy, and falls as Iran tensions escalate",
-      "link": "https://cointelegraph.com/news/bitcoin-price-ignores-dollar168m-strategy-buy-and-falls-as-iran-tensions-escalate?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Tue, 17 Feb 2026 16:13:21 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Starknet adds EY Nightfall to enable private payments on Ethereum rails",
-      "link": "https://cointelegraph.com/news/starknet-taps-ey-nightfall-institutional-grade-privacy?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Tue, 17 Feb 2026 15:00:00 +0000",
+      "title": "Modern Treasury integrates stablecoin settlement alongside ACH and wires",
+      "link": "https://cointelegraph.com/news/modern-treasury-integrates-stablecoin-settlement-alongside-ach-and-wires?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Wed, 18 Feb 2026 16:36:40 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
       "title": "Here\u2019s what happened in crypto today",
       "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Tue, 17 Feb 2026 14:29:42 +0000",
+      "pub_date": "Wed, 18 Feb 2026 14:17:32 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Monad hires former FalconX, BVNK and Optimism executives",
-      "link": "https://cointelegraph.com/news/monad-hires-ex-falconx-bvnk-and-optimism-executives-to-drive-institutional-expansion-post-mainnet-embargo-feb-17?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Tue, 17 Feb 2026 14:00:00 +0000",
+      "title": "ECB targets 2027 digital euro pilot as provider selection begins in Q1 2026",
+      "link": "https://cointelegraph.com/news/ecb-digital-euro-pilot-2027-psp-selection-2026-cipollone?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Wed, 18 Feb 2026 13:53:24 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Binance holds 65% of CEX stablecoin reserves as outflows cool: CryptoQuant",
-      "link": "https://cointelegraph.com/news/stablecoin-outflows-slow-binance-65-cex-usdt-usdc-reserves?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Tue, 17 Feb 2026 13:55:26 +0000",
+      "title": "How Europe\u2019s blockchain sandbox finds innovation in regulation",
+      "link": "https://cointelegraph.com/news/europe-blockchain-sandbox-innovation-regulation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Wed, 18 Feb 2026 13:51:15 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Africrypt founders back in South Africa years after platform collapse: Report",
-      "link": "https://cointelegraph.com/news/bitcoin-brothers-return-south-africa-africrypt-cajee-carte-blanche?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Tue, 17 Feb 2026 13:29:19 +0000",
+      "title": "Moonwell hit by $1.78M exploit as AI vibe coding debate reaches DeFi",
+      "link": "https://cointelegraph.com/news/moonwell-exploit-cbeth-oracle-misprice-ai-commits-testing-audits?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Wed, 18 Feb 2026 13:04:46 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Poland president vetoes MiCA bill again as crypto companies look to license abroad",
-      "link": "https://cointelegraph.com/news/poland-crypto-bill-second-veto-firms-seek-mica-abroad?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Tue, 17 Feb 2026 11:58:21 +0000",
+      "title": "AMLBot says social engineering drove 65% of crypto cases it probed in 2025",
+      "link": "https://cointelegraph.com/news/amlbot-2025-crypto-incidents-social-engineering-phishing-impersonation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Wed, 18 Feb 2026 12:38:09 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Steak \u2018n Shake says same-store sales rose \u2018dramatically\u2019 after Bitcoin rollout",
-      "link": "https://cointelegraph.com/news/steak-n-shake-says-same-store-sales-risen-dramatically?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Tue, 17 Feb 2026 11:03:35 +0000",
+      "title": "Lagarde early exit report puts ECB succession and digital euro in focus",
+      "link": "https://cointelegraph.com/news/lagarde-early-exit-ecb-digital-euro-mica-stablecoins-successor?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Wed, 18 Feb 2026 11:22:09 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Monero use holds despite delistings as darknet markets shift to XMR",
-      "link": "https://cointelegraph.com/news/monero-demand-delistings-darknet-markets-spy-nodes-trm?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Tue, 17 Feb 2026 10:33:39 +0000",
+      "title": "Wells Fargo sees \u2018YOLO\u2019 trade driving $150B into Bitcoin and risk assets",
+      "link": "https://cointelegraph.com/news/wells-fargo-tax-refunds-yolo-trade-bitcoin-stocks-150b?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Wed, 18 Feb 2026 10:59:50 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "SBI Holdings targets majority stake in Singapore crypto exchange Coinhako",
-      "link": "https://cointelegraph.com/news/sbi-holdings-majority-stake-singapore-crypto-exchange-coinhako?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Tue, 17 Feb 2026 07:45:49 +0000",
+      "title": "Bitcoin ETFs log $105M outflows as mystery IBIT buyer surfaces",
+      "link": "https://cointelegraph.com/news/bitcoin-etfs-105-million-outflows-mystery-ibit-buyer?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Wed, 18 Feb 2026 10:24:49 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Stablecoins gain ground for paychecks and daily spending: BVNK report",
-      "link": "https://cointelegraph.com/news/bvnk-survey-finds-growing-use-of-stablecoins-for-income-and-everyday-payments?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Tue, 17 Feb 2026 07:00:00 +0000",
+      "title": "Peter Thiel\u2019s Founders Fund dumps ETHZilla stake as ETH treasuries face pressure",
+      "link": "https://cointelegraph.com/news/peter-thiel-founders-fund-exits-ethzilla-stake?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Wed, 18 Feb 2026 08:47:40 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Polygon daily fees flip Ethereum amid prediction market boom",
-      "link": "https://cointelegraph.com/news/polygon-flips-ethereum-in-daily-transaction-fees?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Tue, 17 Feb 2026 06:45:00 +0000",
+      "title": "Nevada sues Kalshi after prediction market loses bid to stop state action",
+      "link": "https://cointelegraph.com/news/nevada-sues-kalshi-after-prediction-market-loses-bid-to-stop-state-action?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Wed, 18 Feb 2026 06:16:36 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "DeFi lender ZeroLend shuts down, blames illiquid chains",
-      "link": "https://cointelegraph.com/news/crypto-protocol-zerolend-shuts-down-no-longer-sustainable?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Tue, 17 Feb 2026 06:19:28 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Crypto sentiment hits extreme fear as Matrixport flags possible bottom",
-      "link": "https://cointelegraph.com/news/extreme-fear-sentiment-suggests-market-inflection-point-matrixport?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Tue, 17 Feb 2026 05:16:56 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Kraken sponsors Trump Accounts in Wyoming, citing crypto alignment",
-      "link": "https://cointelegraph.com/news/kraken-sponsors-2026-trump-accounts-in-wyoming-citing-crypto-alignment?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Tue, 17 Feb 2026 04:18:37 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Crypto.com receives ISO/IEC 42001 AI certification as it expands its AI business",
-      "link": "https://cointelegraph.com/news/crypto-com-ai-certification-push-ahead-with-ai-expansion?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Tue, 17 Feb 2026 04:17:56 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Crypto phishers are sending letters to Trezor, Ledger users again",
-      "link": "https://cointelegraph.com/news/scammers-send-physical-letters-trezor-ledger-users-again?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Tue, 17 Feb 2026 03:22:34 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Logan Paul sells Pok\u00e9mon card for $16.5M, years after fractional NFT row",
-      "link": "https://cointelegraph.com/news/logan-paul-sells-pokemon-card-record-16-million?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Tue, 17 Feb 2026 02:04:57 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Germany\u2018s central bank president touts stablecoin and CBDC benefits for EU",
-      "link": "https://cointelegraph.com/news/germany-central-bank-president-stablecoins?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Mon, 16 Feb 2026 21:56:24 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "ETH chart pattern projects rally to $2.5K if key conditions are met: Data",
-      "link": "https://cointelegraph.com/news/eth-chart-pattern-projects-rally-to-dollar2-5k-if-key-conditions-are-met-data?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Mon, 16 Feb 2026 21:30:00 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Paradigm reframes Bitcoin mining as grid asset, not energy drain",
-      "link": "https://cointelegraph.com/news/paradigm-bitcoin-mining-ai-data-centers-grid-demand?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Mon, 16 Feb 2026 20:39:29 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Price predictions 2/16: SPX, DXY, BTC, ETH, BNB, XRP, SOL, DOGE, ADA, BCH",
-      "link": "https://cointelegraph.com/news/price-predictions-2-16-spx-dxy-btc-eth-bnb-xrp-sol-doge-ada-bch?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Mon, 16 Feb 2026 20:20:00 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Hong Kong regulator adds Victory Fintech to list of approved trading platforms",
-      "link": "https://cointelegraph.com/news/victory-fintech-hong-kong-regulatory-approval?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Mon, 16 Feb 2026 20:07:24 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitcoin accumulation wave puts $80K back in play: Analyst",
-      "link": "https://cointelegraph.com/news/bitcoin-accumulation-wave-puts-dollar80k-back-in-play-analyst?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Mon, 16 Feb 2026 19:20:18 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitcoin weekly RSI echoes mid-2022 bear market as BTC plays liquidity games",
-      "link": "https://cointelegraph.com/news/bitcoin-weekly-rsi-echoes-mid-2022-bear-market-as-btc-plays-liquidity-games?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Mon, 16 Feb 2026 18:20:16 +0000",
+      "title": "4 data points suggest XRP price bottomed at $1.12: Are bulls ready to take over?",
+      "link": "https://cointelegraph.com/news/4-data-points-suggest-xrp-price-bottomed-at-dollar1-12-are-bulls-ready-to-take-over?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Wed, 18 Feb 2026 06:10:11 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     }
