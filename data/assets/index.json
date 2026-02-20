@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-02-19T18:09:57.372254+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-02-19 18:01 UTC_",
+  "generated_at": "2026-02-20T17:16:05.328722+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-02-20 17:07 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,13 +9,13 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 66310.0,
+        "current_usd": 67247.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": 0.19,
-        "change_30d_pct": -24.92
+        "change_7d_pct": -2.31,
+        "change_30d_pct": -24.74
       },
       "indicators": {
-        "trend": "DOWNTREND",
+        "trend": "UPTREND",
         "momentum": "WEAK",
         "volatility": "NORMAL"
       },
@@ -23,9 +23,9 @@
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
         "summary_line": "Fair - Balanced growth profile - Elevated regulatory risk.",
-        "score": 58.0
+        "score": 58.9
       },
-      "updated_at": "2026-02-19T18:09:57.370504+00:00",
+      "updated_at": "2026-02-20T17:16:05.326328+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,14 +37,14 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 1924.0,
+        "current_usd": 1953.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": -1.1,
-        "change_30d_pct": -34.45
+        "change_7d_pct": -4.59,
+        "change_30d_pct": -34.36
       },
       "indicators": {
         "trend": "DOWNTREND",
-        "momentum": "STRONG",
+        "momentum": "WEAK",
         "volatility": "NORMAL"
       },
       "valuation": {
@@ -53,7 +53,7 @@
         "summary_line": "Undervalued - Strong growth profile - Elevated regulatory risk.",
         "score": 63.1
       },
-      "updated_at": "2026-02-19T18:09:57.371159+00:00",
+      "updated_at": "2026-02-20T17:16:05.327132+00:00",
       "source": {
         "short_term": "live"
       }
@@ -65,8 +65,8 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=spy",
       "price": {
-        "current_usd": 682.38,
-        "change_24h_pct": -0.2135002339728631,
+        "current_usd": 688.64,
+        "change_24h_pct": 0.926251612146789,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
@@ -81,7 +81,7 @@
         "summary_line": "Fair - Strong growth profile - Elevated regulatory risk.",
         "score": 48.6
       },
-      "updated_at": "2026-02-19T18:09:57.371398+00:00",
+      "updated_at": "2026-02-20T17:16:05.327444+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -93,13 +93,13 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=qqq",
       "price": {
-        "current_usd": 601.48,
-        "change_24h_pct": -0.22063336706423797,
+        "current_usd": 609.5,
+        "change_24h_pct": 1.5630207291875031,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
       "indicators": {
-        "trend": "SIDEWAYS",
+        "trend": "UPTREND",
         "momentum": "N/A",
         "volatility": "N/A"
       },
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Strong growth profile - Elevated regulatory risk.",
         "score": 35.5
       },
-      "updated_at": "2026-02-19T18:09:57.371593+00:00",
+      "updated_at": "2026-02-20T17:16:05.327668+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -121,13 +121,13 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=nvda",
       "price": {
-        "current_usd": 185.9,
-        "change_24h_pct": -0.6174654513378397,
+        "current_usd": 189.83,
+        "change_24h_pct": 1.7664245315892613,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
       "indicators": {
-        "trend": "SIDEWAYS",
+        "trend": "UPTREND",
         "momentum": "N/A",
         "volatility": "N/A"
       },
@@ -137,7 +137,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Elevated regulatory risk.",
         "score": 0.0
       },
-      "updated_at": "2026-02-19T18:09:57.371757+00:00",
+      "updated_at": "2026-02-20T17:16:05.327976+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -149,13 +149,13 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=gold",
       "price": {
-        "current_usd": 4982.495,
-        "change_24h_pct": 0.09502256534810183,
+        "current_usd": 5063.905,
+        "change_24h_pct": 1.3035271853235164,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
       "indicators": {
-        "trend": "SIDEWAYS",
+        "trend": "UPTREND",
         "momentum": "N/A",
         "volatility": "N/A"
       },
@@ -165,7 +165,7 @@
         "summary_line": "Overvalued - Strong growth profile - Elevated regulatory risk.",
         "score": 38.5
       },
-      "updated_at": "2026-02-19T18:09:57.371924+00:00",
+      "updated_at": "2026-02-20T17:16:05.328224+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -177,13 +177,13 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=oil",
       "price": {
-        "current_usd": 66.39,
-        "change_24h_pct": 1.653651814423518,
+        "current_usd": 66.23,
+        "change_24h_pct": -0.3310759969902155,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
       "indicators": {
-        "trend": "UPTREND",
+        "trend": "SIDEWAYS",
         "momentum": "N/A",
         "volatility": "N/A"
       },
@@ -193,7 +193,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-02-19T18:09:57.372078+00:00",
+      "updated_at": "2026-02-20T17:16:05.328487+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -201,72 +201,72 @@
   ],
   "overview_news": [
     {
-      "title": "Eric Trump reitrates claim bitcoin is just getting started on its road to $1 million",
-      "url": "https://www.coindesk.com/markets/2026/02/19/eric-trump-double-downs-on-usd1-million-bitcoin-prediction-during-world-financial-forum",
-      "published_at": "Thu, 19 Feb 2026 18:00:27 +0000",
+      "title": "Dubai takes next step to make real estate flips instant in $16 billion tokenization plan",
+      "url": "https://www.coindesk.com/business/2026/02/20/dubai-unveils-secondary-market-for-usd5-million-tokenized-real-estate-via-xrp-ledger",
+      "published_at": "Fri, 20 Feb 2026 17:09:59 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Susquehanna-backed Blockfills up for sale after $75 million lending loss",
-      "url": "https://www.coindesk.com/business/2026/02/19/susquehanna-backed-blockfills-up-for-sale-after-usd75-million-lending-loss",
-      "published_at": "Thu, 19 Feb 2026 17:39:07 +0000",
+      "title": "RWA issuers prioritize capital formation over liquidity, according to Brickken survey",
+      "url": "https://www.coindesk.com/business/2026/02/20/rwa-issuers-prioritize-capital-formation-over-liquidity-according-to-brickken-survey",
+      "published_at": "Fri, 20 Feb 2026 15:55:33 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "U.S. Federal Reserve researchers sing praises of prediction markets",
-      "url": "https://www.coindesk.com/policy/2026/02/19/u-s-federal-reserve-research-sings-praises-of-prediction-markets",
-      "published_at": "Thu, 19 Feb 2026 17:01:56 +0000",
+      "title": "Bitcoin pops then drops as Supreme Court strikes down Trump tariffs",
+      "url": "https://www.coindesk.com/markets/2026/02/20/bitcoin-pops-then-drops-as-supreme-court-strikes-down-trump-tariffs",
+      "published_at": "Fri, 20 Feb 2026 15:20:45 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Fed's Neel Kashkari calls crypto 'utterly useless,' dismisses stablecoins as 'buzzword salad'",
-      "url": "https://www.coindesk.com/policy/2026/02/19/fed-s-neel-kashkari-calls-crypto-utterly-useless-dismisses-stablecoins-as-buzzword-salad",
-      "published_at": "Thu, 19 Feb 2026 16:39:51 +0000",
+      "title": "Goldman Sachs, Franklin Templeton, and Nicki Minaj: Inside Trump\u2019s surreal Mar-a-Lago crypto summit",
+      "url": "https://www.coindesk.com/business/2026/02/20/goldman-sachs-franklin-templeton-and-nicki-minaj-inside-trump-s-surreal-mar-a-lago-crypto-summit",
+      "published_at": "Fri, 20 Feb 2026 14:59:37 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Robinhood vs. Vitalik: Why the trading app is building it own L2 while Ethereum founder cools on them",
-      "url": "https://www.coindesk.com/tech/2026/02/19/robinhood-testnet-l2-logs-4-million-transactions-following-vitalik-questions-of-ethereum-s-rollup-roadmap",
-      "published_at": "Thu, 19 Feb 2026 16:22:54 +0000",
+      "title": "CoinDesk 20 performance update: AAVE falls 3.3%, leading index lower",
+      "url": "https://www.coindesk.com/coindesk-indices/2026/02/20/coindesk-20-performance-update-aave-falls-3-3-leading-index-lower",
+      "published_at": "Fri, 20 Feb 2026 14:11:46 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Anchorage Digital offers non-U.S. banks a stablecoin stand-in for correspondent banking",
-      "url": "https://www.coindesk.com/business/2026/02/18/anchorage-digital-offers-non-u-s-banks-a-stablecoin-stand-in-for-correspondent-banking",
-      "published_at": "Thu, 19 Feb 2026 16:00:00 +0000",
+      "title": "What next for XRP as volatility sinks to 2024 lows",
+      "url": "https://www.coindesk.com/markets/2026/02/20/what-next-for-xrp-as-volatility-sinks-to-2024-lows",
+      "published_at": "Fri, 20 Feb 2026 13:08:41 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Crypto for Advisors: crypto vaults explained",
-      "url": "https://www.coindesk.com/coindesk-indices/2026/02/18/crypto-for-advisors-crypto-vaults-explained",
-      "published_at": "Thu, 19 Feb 2026 16:00:00 +0000",
+      "title": "Bitcoin gains, is still 'signficantly undervalued,' Bitwise says. 'Extreme fear' dominates.",
+      "url": "https://www.coindesk.com/daybook-us/2026/02/20/bitcoin-gains-is-still-signficantly-undervalued-bitwise-says-extreme-fear-dominates",
+      "published_at": "Fri, 20 Feb 2026 12:15:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Trump-linked World Liberty taps BlackRock-backed Securitize for hotel tokenization",
-      "url": "https://www.coindesk.com/business/2026/02/19/trump-linked-world-liberty-taps-blackrock-backed-securitize-for-hotel-tokenization",
-      "published_at": "Thu, 19 Feb 2026 15:50:03 +0000",
+      "title": "Dual South Korean listings send Ethereum layer-2 token AZTEC surging 82%",
+      "url": "https://www.coindesk.com/markets/2026/02/20/dual-s-korea-listings-send-ethereum-layer-2-token-aztec-surging-82",
+      "published_at": "Fri, 20 Feb 2026 11:42:25 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Mike McGlone softens bitcoin downside target to $28,000 after backlash over $10,000 call",
-      "url": "https://www.coindesk.com/markets/2026/02/19/mike-mcglone-softens-bitcoin-downside-target-to-usd28-000-after-backlash-over-usd10-000-call",
-      "published_at": "Thu, 19 Feb 2026 15:26:46 +0000",
+      "title": "Panic premium lingers in options even as bitcoin recovers from lows",
+      "url": "https://www.coindesk.com/markets/2026/02/20/panic-premium-lingers-in-options-even-as-bitcoin-recovers-from-lows",
+      "published_at": "Fri, 20 Feb 2026 11:35:03 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "UAE sits on $344 million unrealized profit from its bitcoin mining operations",
-      "url": "https://www.coindesk.com/markets/2026/02/19/uae-sits-on-usd344-million-unrealized-profit-from-its-bitcoin-mining-operations",
-      "published_at": "Thu, 19 Feb 2026 14:50:38 +0000",
+      "title": "Ripple's Brad Garlinghouse says CLARITY bill has '90% chance' of passing by April",
+      "url": "https://www.coindesk.com/policy/2026/02/20/ripple-s-brad-garlinghouse-says-clarity-bill-has-90-chance-of-passing-by-april",
+      "published_at": "Fri, 20 Feb 2026 07:05:39 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
