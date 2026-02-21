@@ -1,7 +1,56 @@
 {
-  "generated_at": "2026-02-20 17:15 UTC",
+  "generated_at": "2026-02-21 15:57 UTC",
   "count": 55,
   "items": [
+    {
+      "title": "How AI is helping retail traders exploit prediction market 'glitches' to make easy money",
+      "link": "https://www.coindesk.com/markets/2026/02/21/how-ai-is-helping-retail-traders-exploit-prediction-market-glitches-to-make-easy-money",
+      "pub_date": "Sat, 21 Feb 2026 15:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Blue Owl liquidity crisis has investors bracing for 2008-style fallout \u2014 it could mean bitcoin's next bull run",
+      "link": "https://www.coindesk.com/markets/2026/02/20/how-this-week-s-sign-of-private-credit-stress-could-set-stage-for-next-bitcoin-bull-run",
+      "pub_date": "Sat, 21 Feb 2026 14:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Small investors are buying bitcoin. For a rally to succeed, the whales need to join in.",
+      "link": "https://www.coindesk.com/markets/2026/02/21/small-investors-are-buying-bitcoin-it-now-needs-bigger-players-to-show-up",
+      "pub_date": "Sat, 21 Feb 2026 07:30:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "SEC makes quiet shift to brokers' stablecoin holdings that may pack big results",
+      "link": "https://www.coindesk.com/policy/2026/02/20/sec-makes-quiet-shift-to-brokers-stablecoin-holdings-that-may-pack-big-results",
+      "pub_date": "Fri, 20 Feb 2026 22:15:40 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Bitcoin shrugs off Trump's new tariffs, nears $68,000 as altcoins lead modest bounce",
+      "link": "https://www.coindesk.com/markets/2026/02/20/bitcoin-shrugs-off-trump-s-new-tariffs-nears-usd68-000-as-altcoins-lead-modest-bounce",
+      "pub_date": "Fri, 20 Feb 2026 21:20:51 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Specialized AI detects 92% of real-world DeFi exploits",
+      "link": "https://www.coindesk.com/business/2026/02/20/specialized-ai-detects-92-of-real-world-defi-exploits",
+      "pub_date": "Fri, 20 Feb 2026 19:06:15 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "U.S. Supreme Court's decision on Trump's tariffs may not rock crypto \u2014 yet",
+      "link": "https://www.coindesk.com/news-analysis/2026/02/20/u-s-supreme-court-s-decision-on-trump-s-tariffs-may-not-rock-crypto-yet",
+      "pub_date": "Fri, 20 Feb 2026 18:42:06 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
     {
       "title": "Dubai takes next step to make real estate flips instant in $16 billion tokenization plan",
       "link": "https://www.coindesk.com/business/2026/02/20/dubai-unveils-secondary-market-for-usd5-million-tokenized-real-estate-via-xrp-ledger",
@@ -45,6 +94,13 @@
       "fetch_source": "live"
     },
     {
+      "title": "Bitcoin's weekend selloff may be over with CME's 24/7 crypto trading move",
+      "link": "https://www.coindesk.com/markets/2026/02/21/bitcoin-s-weekend-selloff-may-be-over-with-cme-s-24-7-crypto-trading-move",
+      "pub_date": "Fri, 20 Feb 2026 13:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
       "title": "Bitcoin gains, is still 'signficantly undervalued,' Bitwise says. 'Extreme fear' dominates.",
       "link": "https://www.coindesk.com/daybook-us/2026/02/20/bitcoin-gains-is-still-signficantly-undervalued-bitwise-says-extreme-fear-dominates",
       "pub_date": "Fri, 20 Feb 2026 12:15:00 +0000",
@@ -66,7 +122,7 @@
       "fetch_source": "live"
     },
     {
-      "title": "Ripple's Brad Garlinghouse says CLARITY bill has '90% chance' of passing by April",
+      "title": "Ripple's Brad Garlinghouse says CLARITY bill has '80% chance' of passing by April",
       "link": "https://www.coindesk.com/policy/2026/02/20/ripple-s-brad-garlinghouse-says-clarity-bill-has-90-chance-of-passing-by-april",
       "pub_date": "Fri, 20 Feb 2026 07:05:39 +0000",
       "source": "CoinDesk",
@@ -122,163 +178,107 @@
       "fetch_source": "live"
     },
     {
-      "title": "Eric Trump reitrates claim bitcoin is just getting started on its road to $1 million",
-      "link": "https://www.coindesk.com/markets/2026/02/19/eric-trump-double-downs-on-usd1-million-bitcoin-prediction-during-world-financial-forum",
-      "pub_date": "Thu, 19 Feb 2026 18:00:27 +0000",
-      "source": "CoinDesk",
+      "title": "IoTeX confirms \u2018suspicious activity\u2019 involving token safe, says losses contained",
+      "link": "https://cointelegraph.com/news/iotex-investigates-token-safe-suspicious-activity-4-3m-loss?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sat, 21 Feb 2026 13:11:52 +0000",
+      "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Susquehanna-backed Blockfills up for sale after $75 million lending loss",
-      "link": "https://www.coindesk.com/business/2026/02/19/susquehanna-backed-blockfills-up-for-sale-after-usd75-million-lending-loss",
-      "pub_date": "Thu, 19 Feb 2026 17:39:07 +0000",
-      "source": "CoinDesk",
+      "title": "What\u2019s next for crypto in Europe after Christine Lagarde steps down?",
+      "link": "https://cointelegraph.com/news/what-next-crypto-europe-ecb-christine-lagarde?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sat, 21 Feb 2026 13:00:00 +0000",
+      "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "U.S. Federal Reserve researchers sing praises of prediction markets",
-      "link": "https://www.coindesk.com/policy/2026/02/19/u-s-federal-reserve-research-sings-praises-of-prediction-markets",
-      "pub_date": "Thu, 19 Feb 2026 17:01:56 +0000",
-      "source": "CoinDesk",
+      "title": "Spot Bitcoin ETFs record five weeks of net withdrawals, totaling $3.8B",
+      "link": "https://cointelegraph.com/news/spot-bitcoin-etfs-five-weeks-net-outflows-3-8b?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sat, 21 Feb 2026 09:39:40 +0000",
+      "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Fed's Neel Kashkari calls crypto 'utterly useless,' dismisses stablecoins as 'buzzword salad'",
-      "link": "https://www.coindesk.com/policy/2026/02/19/fed-s-neel-kashkari-calls-crypto-utterly-useless-dismisses-stablecoins-as-buzzword-salad",
-      "pub_date": "Thu, 19 Feb 2026 16:39:51 +0000",
-      "source": "CoinDesk",
+      "title": "Bitcoin $150K price calls are \u2018drying up,\u2019 which is healthy: Santiment",
+      "link": "https://cointelegraph.com/news/bitcoin-price-prediction-retail-user-healthy-crypto-indicator-santiment?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sat, 21 Feb 2026 08:09:56 +0000",
+      "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Robinhood vs. Vitalik: Why the trading app is building it own L2 while Ethereum founder cools on them",
-      "link": "https://www.coindesk.com/tech/2026/02/19/robinhood-testnet-l2-logs-4-million-transactions-following-vitalik-questions-of-ethereum-s-rollup-roadmap",
-      "pub_date": "Thu, 19 Feb 2026 16:22:54 +0000",
-      "source": "CoinDesk",
+      "title": "Bitcoin miner MARA buys majority stake in AI data center firm Exaion",
+      "link": "https://cointelegraph.com/news/mara-majority-stake-exaion-ai-data-centers-bitcoin-miner?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sat, 21 Feb 2026 06:55:45 +0000",
+      "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Anchorage Digital offers non-U.S. banks a stablecoin stand-in for correspondent banking",
-      "link": "https://www.coindesk.com/business/2026/02/18/anchorage-digital-offers-non-u-s-banks-a-stablecoin-stand-in-for-correspondent-banking",
-      "pub_date": "Thu, 19 Feb 2026 16:00:00 +0000",
-      "source": "CoinDesk",
+      "title": "Uniswap founder slams scam crypto ads after victim 'lost everything'",
+      "link": "https://cointelegraph.com/news/uniswap-fake-ads-drain-user-wallets-hayden-adams?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sat, 21 Feb 2026 05:58:48 +0000",
+      "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Crypto for Advisors: crypto vaults explained",
-      "link": "https://www.coindesk.com/coindesk-indices/2026/02/18/crypto-for-advisors-crypto-vaults-explained",
-      "pub_date": "Thu, 19 Feb 2026 16:00:00 +0000",
-      "source": "CoinDesk",
+      "title": "Bitcoin's bull catalyst could be AI stocks turning 'silly big': Lyn Alden",
+      "link": "https://cointelegraph.com/news/bitcoin-price-catalyst-ai-stocks-peak-economist-lyn-alden?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sat, 21 Feb 2026 02:21:04 +0000",
+      "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Trump-linked World Liberty taps BlackRock-backed Securitize for hotel tokenization",
-      "link": "https://www.coindesk.com/business/2026/02/19/trump-linked-world-liberty-taps-blackrock-backed-securitize-for-hotel-tokenization",
-      "pub_date": "Thu, 19 Feb 2026 15:50:03 +0000",
-      "source": "CoinDesk",
+      "title": "Tokenized real estate projects advance in Dubai and Maldives",
+      "link": "https://cointelegraph.com/news/tokenized-real-estate-advance-dubai-maldives?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Fri, 20 Feb 2026 21:31:17 +0000",
+      "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "BTC treasury executives call for reform of 1,250% risk weight in Basel III",
-      "link": "https://cointelegraph.com/news/btc-treasury-reform-1250-percent-risk-basel?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 20 Feb 2026 17:03:46 +0000",
+      "title": "Bitcoin whales participate in V-shaped accumulation, offsetting 230K BTC sell-off",
+      "link": "https://cointelegraph.com/news/bitcoin-whales-participate-in-v-shaped-accumulation-offsetting-230k-btc-sell-off?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Fri, 20 Feb 2026 21:00:00 +0000",
+      "source": "Cointelegraph",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Bitcoin bears at risk of $600M liquidation, raising chance for rally to $70K",
+      "link": "https://cointelegraph.com/news/bitcoin-bears-at-risk-of-600m-liquidation-raising-chance-for-rally-to-70k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Fri, 20 Feb 2026 20:15:00 +0000",
+      "source": "Cointelegraph",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Dutch authorities call on Polymarket arm to cease activities",
+      "link": "https://cointelegraph.com/news/dutch-authorities-call-on-polymarket-arm-to-cease-activities?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Fri, 20 Feb 2026 20:14:25 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
       "title": "Here\u2019s what happened in crypto today",
       "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 20 Feb 2026 14:30:32 +0000",
+      "pub_date": "Fri, 20 Feb 2026 20:07:41 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Tennessee judge issues injunction blocking state move against Kalshi",
-      "link": "https://cointelegraph.com/news/tennessee-judge-blocks-state-crackdown-on-kalshi?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 20 Feb 2026 14:03:44 +0000",
+      "title": "Crypto slides, but tokenized RWAs and VC push ahead",
+      "link": "https://cointelegraph.com/news/crypto-biz-crypto-slides-tokenized-rwa-vc-push-ahead?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Fri, 20 Feb 2026 20:00:00 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Stablecoin A7A5 grows parallel system for sanctioned companies",
-      "link": "https://cointelegraph.com/news/stablecoin-a7a5-parallel-network-sanctioned-companies?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 20 Feb 2026 13:32:33 +0000",
+      "title": "Trump announces 10% global tariff following SCOTUS ruling",
+      "link": "https://cointelegraph.com/news/trump-10-global-tariff-scotus-ruling?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Fri, 20 Feb 2026 19:55:07 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "House Democrats press Treasury on World Liberty bank charter and UAE stake",
-      "link": "https://cointelegraph.com/news/democrats-press-treasury-on-trump-world-liberty-financial?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 20 Feb 2026 12:46:02 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Tether USDT supply set for biggest monthly decline since 2022 FTX collapse",
-      "link": "https://cointelegraph.com/news/tether-usdt-biggest-monthly-decline-ftx-collapse?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 20 Feb 2026 12:33:45 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitcoin ETFs shed $166M as BTC heads for worst start in years",
-      "link": "https://cointelegraph.com/news/bitcoin-etfs-166-million-outflow-btc-worst-yearly-start?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 20 Feb 2026 12:22:44 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Metaplanet CEO rejects claims it hid details of Bitcoin trades",
-      "link": "https://cointelegraph.com/news/metaplanet-ceo-denies-misleading-investors-bitcoin-disclosures?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 20 Feb 2026 09:51:22 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "South Korean authorities under fire over $43B Bithumb Bitcoin error",
-      "link": "https://cointelegraph.com/news/south-korea-fsc-delay-bithumb-probe-bitcoin-error?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 20 Feb 2026 09:43:12 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Parsec shuts down amid ongoing crypto market volatility",
-      "link": "https://cointelegraph.com/news/parsec-defi-nft-analytics-platform-closes-market-volatility?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 20 Feb 2026 06:04:37 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "White House floats limited stablecoin rewards in third crypto, bank meeting",
-      "link": "https://cointelegraph.com/news/crypto-banks-meet-white-house-stablecoin-rewards?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 20 Feb 2026 05:18:23 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Crypto miner Bitdeer tanks 17% after $300M debt offering",
-      "link": "https://cointelegraph.com/news/bitdeer-stock-drops-17-after-convertible-senior-note-offering?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 20 Feb 2026 04:30:29 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Fed\u2019s Kashkari lashes crypto and stablecoins, praises AI",
-      "link": "https://cointelegraph.com/news/fed-neel-kashkari-lashes-crypto-and-stablecoins?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 20 Feb 2026 04:13:29 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Illicit stablecoin activity hit 5-year high of $141B in 2025: TRM Labs",
-      "link": "https://cointelegraph.com/news/illicit-stablecoin-activity-hits-five-year-high-at-141b-trm-labs?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 20 Feb 2026 03:30:38 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Quantum fears aren\u2019t behind Bitcoin\u2019s 46% drop, says developer",
-      "link": "https://cointelegraph.com/news/bitcoin-price-quantum-computing-fears-ethereum-developer?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 20 Feb 2026 02:58:43 +0000",
+      "title": "SCOTUS strikes down Trump tariffs, but 'alternative' plans brewing",
+      "link": "https://cointelegraph.com/news/scotus-strikes-trump-tariffs-alternative-plan?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Fri, 20 Feb 2026 19:27:39 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     }
