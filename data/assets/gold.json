@@ -4,7 +4,7 @@
   "symbol": "GC=F",
   "market_type": "traditional",
   "details_page": "asset.html?asset=gold",
-  "updated_at": "2026-02-21T15:58:23.750886+00:00",
+  "updated_at": "2026-02-22T16:00:02.264897+00:00",
   "about": {
     "what_it_is": "GC=F tracks front-month COMEX gold futures pricing.",
     "what_it_represents": "It represents market expectations for gold as a store-of-value and macro hedge.",
@@ -13,7 +13,7 @@
   },
   "source": {
     "short_term": "stooq_live",
-    "news_generated_at": "2026-02-21 15:57 UTC"
+    "news_generated_at": "2026-02-22 15:59 UTC"
   },
   "price": {
     "current_usd": 5097.435,
@@ -39,13 +39,6 @@
       "title": "Goldman Sachs, Franklin Templeton, and Nicki Minaj: Inside Trump\u2019s surreal Mar-a-Lago crypto summit",
       "url": "https://www.coindesk.com/business/2026/02/20/goldman-sachs-franklin-templeton-and-nicki-minaj-inside-trump-s-surreal-mar-a-lago-crypto-summit",
       "published_at": "Fri, 20 Feb 2026 14:59:37 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitcoin nears $68,000, gold jumps as U.S.-Iran tensions return",
-      "url": "https://www.coindesk.com/markets/2026/02/20/bitcoin-nears-usd68-000-gold-jumps-as-us-iran-tensions-return",
-      "published_at": "Fri, 20 Feb 2026 06:10:21 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
