@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-02-25T18:24:44.302070+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-02-25 18:16 UTC_",
+  "generated_at": "2026-02-26T18:11:50.384493+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-02-26 18:04 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,10 +9,10 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 68890.0,
+        "current_usd": 66646.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": 3.66,
-        "change_30d_pct": -21.99
+        "change_7d_pct": -0.41,
+        "change_30d_pct": -25.29
       },
       "indicators": {
         "trend": "UPTREND",
@@ -23,9 +23,9 @@
         "verdict": "Constructive long-term setup",
         "band": "undervalued",
         "summary_line": "Undervalued - Strong growth profile - Elevated regulatory risk.",
-        "score": 60.2
+        "score": 61.3
       },
-      "updated_at": "2026-02-25T18:24:44.299870+00:00",
+      "updated_at": "2026-02-26T18:11:50.382252+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,10 +37,10 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 2065.0,
+        "current_usd": 1981.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": 5.64,
-        "change_30d_pct": -29.47
+        "change_7d_pct": 1.75,
+        "change_30d_pct": -34.43
       },
       "indicators": {
         "trend": "UPTREND",
@@ -51,9 +51,9 @@
         "verdict": "Constructive long-term setup",
         "band": "undervalued",
         "summary_line": "Undervalued - Strong growth profile - Elevated regulatory risk.",
-        "score": 63.8
+        "score": 64.5
       },
-      "updated_at": "2026-02-25T18:24:44.300672+00:00",
+      "updated_at": "2026-02-26T18:11:50.383043+00:00",
       "source": {
         "short_term": "live"
       }
@@ -65,8 +65,8 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=spy",
       "price": {
-        "current_usd": 692.46,
-        "change_24h_pct": 0.3303486047118165,
+        "current_usd": 685.43,
+        "change_24h_pct": -0.8261712532916632,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
@@ -81,7 +81,7 @@
         "summary_line": "Fair - Strong growth profile - Elevated regulatory risk.",
         "score": 48.6
       },
-      "updated_at": "2026-02-25T18:24:44.300942+00:00",
+      "updated_at": "2026-02-26T18:11:50.383318+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -93,13 +93,13 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=qqq",
       "price": {
-        "current_usd": 615.53,
-        "change_24h_pct": 0.7298672819807672,
+        "current_usd": 605.83,
+        "change_24h_pct": -1.206725046067536,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
       "indicators": {
-        "trend": "SIDEWAYS",
+        "trend": "DOWNTREND",
         "momentum": "N/A",
         "volatility": "N/A"
       },
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Strong growth profile - Elevated regulatory risk.",
         "score": 35.5
       },
-      "updated_at": "2026-02-25T18:24:44.301178+00:00",
+      "updated_at": "2026-02-26T18:11:50.383587+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -121,13 +121,13 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=nvda",
       "price": {
-        "current_usd": 196.785,
-        "change_24h_pct": 1.2008228336333193,
+        "current_usd": 186.585,
+        "change_24h_pct": -1.5174707062176718,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
       "indicators": {
-        "trend": "UPTREND",
+        "trend": "DOWNTREND",
         "momentum": "N/A",
         "volatility": "N/A"
       },
@@ -137,7 +137,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Elevated regulatory risk.",
         "score": 0.0
       },
-      "updated_at": "2026-02-25T18:24:44.301408+00:00",
+      "updated_at": "2026-02-26T18:11:50.383855+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -149,13 +149,13 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=gold",
       "price": {
-        "current_usd": 5207.235,
-        "change_24h_pct": 1.261481827913813,
+        "current_usd": 5170.705,
+        "change_24h_pct": 0.2063931489102222,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
       "indicators": {
-        "trend": "UPTREND",
+        "trend": "SIDEWAYS",
         "momentum": "N/A",
         "volatility": "N/A"
       },
@@ -165,7 +165,7 @@
         "summary_line": "Overvalued - Strong growth profile - Elevated regulatory risk.",
         "score": 38.5
       },
-      "updated_at": "2026-02-25T18:24:44.301628+00:00",
+      "updated_at": "2026-02-26T18:11:50.384077+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -177,13 +177,13 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=oil",
       "price": {
-        "current_usd": 65.72,
-        "change_24h_pct": -0.5447941888619856,
+        "current_usd": 66.36,
+        "change_24h_pct": 1.0353227771010776,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
       "indicators": {
-        "trend": "SIDEWAYS",
+        "trend": "UPTREND",
         "momentum": "N/A",
         "volatility": "N/A"
       },
@@ -193,7 +193,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-02-25T18:24:44.301866+00:00",
+      "updated_at": "2026-02-26T18:11:50.384296+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -201,72 +201,72 @@
   ],
   "overview_news": [
     {
-      "title": "What early Bitcoin architect Adam Back thinks of this cycle",
-      "url": "https://www.coindesk.com/markets/2026/02/25/what-early-bitcoin-architect-adam-back-thinks-of-this-cycle",
-      "published_at": "Wed, 25 Feb 2026 18:05:49 +0000",
+      "title": "Circle's post-earnings surge nears 50% as short squeeze, not strong financials, fuels rally",
+      "url": "https://www.coindesk.com/markets/2026/02/26/circle-s-post-earnings-surge-nears-50-as-short-squeeze-not-strong-financials-fuels-rally",
+      "published_at": "Thu, 26 Feb 2026 17:42:38 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Blockfills co-founder and CEO Nicholas Hammer has stepped down",
-      "url": "https://www.coindesk.com/business/2026/02/25/blockfills-co-founder-and-ceo-nicholas-hammer-has-stepped-down-amid-usd75-million-lending-losses",
-      "published_at": "Wed, 25 Feb 2026 17:50:32 +0000",
+      "title": "Florida man charged with running $328 million crypto Ponzi scheme",
+      "url": "https://www.coindesk.com/business/2026/02/26/florida-man-charged-with-running-usd328-million-crypto-ponzi-scheme",
+      "published_at": "Thu, 26 Feb 2026 17:28:38 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "The UK is picking winners for its digital dollar future while Coinbase CEO cries foul",
-      "url": "https://www.coindesk.com/policy/2026/02/25/the-uk-is-picking-winners-for-its-digital-dollar-future-while-coinbase-ceo-cries-foul",
-      "published_at": "Wed, 25 Feb 2026 17:48:23 +0000",
+      "title": "Flare and Xaman unlock one-click DeFi access for over 2 billion XRP sitting idle in wallets",
+      "url": "https://www.coindesk.com/tech/2026/02/26/flare-and-xaman-unlock-one-click-defi-access-for-over-2-billion-xrp-sitting-idle-in-wallets",
+      "published_at": "Thu, 26 Feb 2026 17:00:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Tether invests $200 million in digital marketplace Whop to expand stablecoin payments",
-      "url": "https://www.coindesk.com/business/2026/02/25/tether-invests-usd200-million-in-digital-marketplace-whop-to-expand-stablecoin-payments",
-      "published_at": "Wed, 25 Feb 2026 17:27:21 +0000",
+      "title": "UK investors have just one month to add crypto ETNs in tax-free wrapper: FT",
+      "url": "https://www.coindesk.com/policy/2026/02/26/uk-investors-only-have-until-april-to-add-crypto-etns-to-their-isas-ft",
+      "published_at": "Thu, 26 Feb 2026 16:18:22 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Crypto Long & Short: When ETF options start driving bitcoin",
-      "url": "https://www.coindesk.com/coindesk-indices/2026/02/25/crypto-long-and-short-when-etf-options-start-driving-bitcoin",
-      "published_at": "Wed, 25 Feb 2026 17:00:41 +0000",
+      "title": "Bitcoin briefly crashes below $48,000 on upstart exchange despite crypto rally",
+      "url": "https://www.coindesk.com/markets/2026/02/26/bitcoin-briefly-crashes-below-usd48-000-on-upstart-exchange-despite-crypto-rally",
+      "published_at": "Thu, 26 Feb 2026 16:08:41 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "A $100 million crypto campaign fund with a pro-Trump vibe so far failed to show up",
-      "url": "https://www.coindesk.com/news-analysis/2026/02/24/a-usd100-million-crypto-campaign-fund-with-a-pro-trump-vibe-has-so-far-failed-to-show-up",
-      "published_at": "Wed, 25 Feb 2026 17:00:00 +0000",
+      "title": "Crypto for Advisors: Crypto\u2019s fixture in 401(k) plans",
+      "url": "https://www.coindesk.com/coindesk-indices/2026/02/25/crypto-for-advisors-crypto-s-fixture-in-401-k-plans",
+      "published_at": "Thu, 26 Feb 2026 16:00:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Billionaire Alan Howard\u2019s crypto incubator WebN closes down",
-      "url": "https://www.coindesk.com/business/2026/02/25/billionaire-alan-howard-s-crypto-incubator-webn-closes-down",
-      "published_at": "Wed, 25 Feb 2026 16:37:38 +0000",
+      "title": "Bitcoin falls back below $67,000, rapidly giving back Wednesday's gains",
+      "url": "https://www.coindesk.com/markets/2026/02/26/bitcoin-falls-back-below-usd67-000-rapidly-giving-back-wednesday-s-gains",
+      "published_at": "Thu, 26 Feb 2026 15:37:58 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin climbs above $68,500, Circle leads crypto stocks higher, as bounce strengthens",
-      "url": "https://www.coindesk.com/markets/2026/02/25/bitcoin-climbs-to-usd67-500-circle-leads-crypto-stocks-higher-as-bounce-strengthens",
-      "published_at": "Wed, 25 Feb 2026 15:52:16 +0000",
+      "title": "The Protocol: Blockchain sleuth ZachXBT alleges Axiom employee conducted insider trading",
+      "url": "https://www.coindesk.com/tech/2026/02/26/the-protocol-blockchain-sleuth-zachxbt-alleges-axiom-employee-conducted-insider-trading",
+      "published_at": "Thu, 26 Feb 2026 15:34:35 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin treasury firm GD Culture set to sell BTC holdings to fund share buybacks",
-      "url": "https://www.coindesk.com/business/2026/02/25/bitcoin-treasury-firm-gd-culture-set-to-sell-btc-holdings-to-fund-share-buybacks",
-      "published_at": "Wed, 25 Feb 2026 15:37:04 +0000",
+      "title": "OCC pitches stablecoin rules as U.S. Senate holds banking hearing in which crypto stars",
+      "url": "https://www.coindesk.com/policy/2026/02/26/senate-hearing-for-u-s-bank-regulators-thrusts-crypto-into-starring-role",
+      "published_at": "Thu, 26 Feb 2026 15:22:08 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "XRP jumps 6% as exchange data points to institutional accumulation",
-      "url": "https://www.coindesk.com/markets/2026/02/25/xrp-jumps-6-as-exchange-data-points-to-institutional-accumulation",
-      "published_at": "Wed, 25 Feb 2026 15:04:00 +0000",
+      "title": "A former Solana exec is taking a page out of Wall Street playbook to make global crypto trades faster",
+      "url": "https://www.coindesk.com/tech/2026/02/25/a-former-solana-exec-is-taking-a-page-out-of-wall-street-playbook-to-make-global-crypto-trades-faster",
+      "published_at": "Thu, 26 Feb 2026 15:00:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
