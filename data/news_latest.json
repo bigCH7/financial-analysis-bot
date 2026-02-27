@@ -1,7 +1,161 @@
 {
-  "generated_at": "2026-02-26 18:10 UTC",
+  "generated_at": "2026-02-27 17:06 UTC",
   "count": 55,
   "items": [
+    {
+      "title": "Vitalik Buterin reveals his bold new plan to fix Ethereum\u2019s scaling problem",
+      "link": "https://www.coindesk.com/tech/2026/02/27/vitalik-buterin-reveals-his-bold-new-plan-to-fix-ethereum-s-scaling-problem",
+      "pub_date": "Fri, 27 Feb 2026 16:32:14 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Barclays looks for tech provider for new blockchain settlement engine: Bloomberg",
+      "link": "https://www.coindesk.com/business/2026/02/27/barclays-explores-blockchain-platform-for-payments-bloomberg",
+      "pub_date": "Fri, 27 Feb 2026 16:25:33 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Punters want crypto: UK Gambling Commission explores how to keep bettors on licensed sites",
+      "link": "https://www.coindesk.com/policy/2026/02/27/uk-s-gambling-watchdog-explores-allowing-gamblers-to-pay-bets-with-crypto",
+      "pub_date": "Fri, 27 Feb 2026 15:15:37 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "CoinDesk 20 performance update: Solana (SOL) falls 4.2%, leading index lower",
+      "link": "https://www.coindesk.com/coindesk-indices/2026/02/27/coindesk-20-performance-update-solana-sol-falls-4-2-leading-index-lower",
+      "pub_date": "Fri, 27 Feb 2026 14:17:41 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "The worst may lie ahead. Bitcoin chart revisits historic pattern.",
+      "link": "https://www.coindesk.com/daybook-us/2026/02/27/the-worst-may-lie-ahead-bitcoin-chart-revisits-historic-pattern",
+      "pub_date": "Fri, 27 Feb 2026 12:23:48 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Bitcoin falls with ether, solana while decred, AI-linked tokens advance",
+      "link": "https://www.coindesk.com/markets/2026/02/27/bitcoin-falls-with-ether-solana-while-decred-ai-linked-tokens-advance",
+      "pub_date": "Fri, 27 Feb 2026 11:49:09 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "MARA and Block jump double digits in pre-market trading while CoreWeave sinks",
+      "link": "https://www.coindesk.com/markets/2026/02/27/mara-and-block-jump-double-digits-in-pre-market-trading-while-coreweave-sinks",
+      "pub_date": "Fri, 27 Feb 2026 10:49:19 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Germany's AllUnity issues regulated stablecoin tied to safe haven Swiss franc",
+      "link": "https://www.coindesk.com/markets/2026/02/27/germany-s-allunity-launches-regulated-stablecoin-tied-to-safe-haven-swiss-franc",
+      "pub_date": "Fri, 27 Feb 2026 10:19:16 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "U.S. spot bitcoin ETFs set for biggest week in 6 after adding $1.1 billion in three days",
+      "link": "https://www.coindesk.com/markets/2026/02/27/u-s-spot-bitcoin-etfs-set-for-biggest-week-in-6-after-adding-usd1-1-billion-in-three-days",
+      "pub_date": "Fri, 27 Feb 2026 10:05:04 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Bitcoin ETF holders and treasury firms stack protection against price crash below $60,000, Deribit says",
+      "link": "https://www.coindesk.com/markets/2026/02/27/bitcoin-etf-holders-and-treasury-firms-stack-protection-against-price-crash-below-usd60-000-deribit-says",
+      "pub_date": "Fri, 27 Feb 2026 06:42:51 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Polymarket bettors appear to have insider-traded on a market designed to catch insider traders",
+      "link": "https://www.coindesk.com/markets/2026/02/27/polymarket-bettors-appear-to-have-insider-traded-on-a-market-designed-to-catch-insider-traders",
+      "pub_date": "Fri, 27 Feb 2026 05:43:17 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Bitcoin slides Friday as risk-off mood persists, but majors hold weekly gains",
+      "link": "https://www.coindesk.com/markets/2026/02/27/bitcoin-slides-friday-as-risk-off-mood-persists-but-majors-hold-weekly-gains",
+      "pub_date": "Fri, 27 Feb 2026 05:05:29 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Analysis: Block\u2019s retreat to 2019 scale could be a hint of deeper shifts in payments economics",
+      "link": "https://www.coindesk.com/markets/2026/02/27/analysis-block-s-retreat-to-2019-scale-underscores-how-stablecoins-are-pressuring-payment-margins",
+      "pub_date": "Fri, 27 Feb 2026 04:44:55 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "World Liberty Financial ties voting power to staking as USD1 supply tops $4.7 Billion",
+      "link": "https://www.coindesk.com/markets/2026/02/26/world-liberty-financial-ties-voting-power-to-staking-as-usd1-supply-tops-usd4-7-billion",
+      "pub_date": "Fri, 27 Feb 2026 04:43:19 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "U.S. regulator's GENIUS pitch casts dark cloud over crypto sector's stablecoin model",
+      "link": "https://www.coindesk.com/policy/2026/02/26/u-s-regulator-s-genius-pitch-puts-dark-cloud-over-crypto-sector-s-stablecoin-model",
+      "pub_date": "Thu, 26 Feb 2026 21:58:27 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Bitcoin Miner MARA jumps 17% after striking a deal with Starwood to build AI data centers",
+      "link": "https://www.coindesk.com/markets/2026/02/26/bitcoin-miner-mara-jumps-17-after-striking-a-deal-with-starwood-to-build-ai-data-centers",
+      "pub_date": "Thu, 26 Feb 2026 21:56:52 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Grant Cardone plans to tokenize his firm's $5 billion real estate portfolio",
+      "link": "https://www.coindesk.com/business/2026/02/26/grant-cardone-plans-to-tokenize-his-firm-s-usd5-billion-real-estate-portfolio",
+      "pub_date": "Thu, 26 Feb 2026 20:52:07 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Here is why Ethereum's bold new plan could make the blockchain giant high-speed 'internet of value' by 2029",
+      "link": "https://www.coindesk.com/news-analysis/2026/02/26/here-is-why-ethereum-s-bold-new-plan-could-make-the-blockchain-giant-high-speed-internet-of-value-by-2029",
+      "pub_date": "Thu, 26 Feb 2026 20:33:02 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "A new bipartisan bill wants to ensure the next century of tech is written in America",
+      "link": "https://www.coindesk.com/opinion/2026/02/26/a-new-bipartisan-bill-wants-to-ensure-the-next-century-of-tech-is-written-in-america",
+      "pub_date": "Thu, 26 Feb 2026 20:00:21 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Crypto social isn\u2019t dead, it\u2019s just changing hands",
+      "link": "https://www.coindesk.com/opinion/2026/02/26/crypto-social-isn-t-dead-it-s-just-changing-hands",
+      "pub_date": "Thu, 26 Feb 2026 19:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "AI rout hits software stocks, but Grayscale says blockchains stand to benefit",
+      "link": "https://www.coindesk.com/tech/2026/02/26/ai-rout-hits-software-stocks-but-grayscale-says-blockchains-stand-to-benefit",
+      "pub_date": "Thu, 26 Feb 2026 18:23:37 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Vitalik Buterin unveils Ethereum roadmap to counter quantum computing threat",
+      "link": "https://www.coindesk.com/tech/2026/02/26/vitalik-buterin-unveils-ethereum-roadmap-to-counter-quantum-computing-threat",
+      "pub_date": "Thu, 26 Feb 2026 18:14:20 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
     {
       "title": "Circle's post-earnings surge nears 50% as short squeeze, not strong financials, fuels rally",
       "link": "https://www.coindesk.com/markets/2026/02/26/circle-s-post-earnings-surge-nears-50-as-short-squeeze-not-strong-financials-fuels-rally",
@@ -24,261 +178,107 @@
       "fetch_source": "live"
     },
     {
-      "title": "UK investors have just one month to add crypto ETNs in tax-free wrapper: FT",
-      "link": "https://www.coindesk.com/policy/2026/02/26/uk-investors-only-have-until-april-to-add-crypto-etns-to-their-isas-ft",
-      "pub_date": "Thu, 26 Feb 2026 16:18:22 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitcoin briefly crashes below $48,000 on upstart exchange despite crypto rally",
-      "link": "https://www.coindesk.com/markets/2026/02/26/bitcoin-briefly-crashes-below-usd48-000-on-upstart-exchange-despite-crypto-rally",
-      "pub_date": "Thu, 26 Feb 2026 16:08:41 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Crypto for Advisors: Crypto\u2019s fixture in 401(k) plans",
-      "link": "https://www.coindesk.com/coindesk-indices/2026/02/25/crypto-for-advisors-crypto-s-fixture-in-401-k-plans",
-      "pub_date": "Thu, 26 Feb 2026 16:00:00 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitcoin falls back below $67,000, rapidly giving back Wednesday's gains",
-      "link": "https://www.coindesk.com/markets/2026/02/26/bitcoin-falls-back-below-usd67-000-rapidly-giving-back-wednesday-s-gains",
-      "pub_date": "Thu, 26 Feb 2026 15:37:58 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "The Protocol: Blockchain sleuth ZachXBT alleges Axiom employee conducted insider trading",
-      "link": "https://www.coindesk.com/tech/2026/02/26/the-protocol-blockchain-sleuth-zachxbt-alleges-axiom-employee-conducted-insider-trading",
-      "pub_date": "Thu, 26 Feb 2026 15:34:35 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "OCC pitches stablecoin rules as U.S. Senate holds banking hearing in which crypto stars",
-      "link": "https://www.coindesk.com/policy/2026/02/26/senate-hearing-for-u-s-bank-regulators-thrusts-crypto-into-starring-role",
-      "pub_date": "Thu, 26 Feb 2026 15:22:08 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "A former Solana exec is taking a page out of Wall Street playbook to make global crypto trades faster",
-      "link": "https://www.coindesk.com/tech/2026/02/25/a-former-solana-exec-is-taking-a-page-out-of-wall-street-playbook-to-make-global-crypto-trades-faster",
-      "pub_date": "Thu, 26 Feb 2026 15:00:00 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Crypto investigator ZachXBT alleges trading platform Axiom's employee conducted insider trading",
-      "link": "https://www.coindesk.com/markets/2026/02/26/zachxbt-alleges-axiom-employee-conducted-insider-trading",
-      "pub_date": "Thu, 26 Feb 2026 14:25:38 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "CoinDesk 20 performance update: index falls 1.4% as all constituents trade lower",
-      "link": "https://www.coindesk.com/coindesk-indices/2026/02/26/coindesk-20-performance-update-index-falls-1-4-as-all-constituents-trade-lower",
-      "pub_date": "Thu, 26 Feb 2026 14:23:49 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "MetaMask expands debit card across U.S. after year-long pilot",
-      "link": "https://www.coindesk.com/business/2026/02/26/metamask-expands-debit-card-across-u-s-after-year-long-pilot",
-      "pub_date": "Thu, 26 Feb 2026 14:00:00 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Decibel goes live on Aptos with a $58 million war chest and a secret weapon from Stripe's Bridge",
-      "link": "https://www.coindesk.com/business/2026/02/25/perpetuals-exchange-decibel-goes-live-on-aptos-following-usd50-million-in-pre-deposits",
-      "pub_date": "Thu, 26 Feb 2026 14:00:00 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Ethereum Foundation drops most ambitious roadmap in years, targets finality in seconds by 2029",
-      "link": "https://www.coindesk.com/tech/2026/02/26/ethereum-foundation-drops-most-ambitious-roadmap-in-years-targets-finality-in-seconds-by-2029",
-      "pub_date": "Thu, 26 Feb 2026 13:34:49 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Indiana prepares to put bitcoin in its public retirement plans",
-      "link": "https://www.coindesk.com/policy/2026/02/26/indiana-joins-seven-other-u-s-states-in-passing-bills-allowing-crypto-in-public-pensions",
-      "pub_date": "Thu, 26 Feb 2026 13:06:23 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Trump family-linked American Bitcoin posts $59 million Q4 loss as bitcoin price slides",
-      "link": "https://www.coindesk.com/business/2026/02/26/trump-family-linked-american-bitcoin-posts-usd59-million-q4-loss-as-bitcoin-price-slides",
-      "pub_date": "Thu, 26 Feb 2026 12:55:48 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "STS Digital raises $30 million to expand crypto options platform",
-      "link": "https://www.coindesk.com/business/2026/02/26/sts-digital-raises-usd30-million-to-expand-crypto-options-platform",
-      "pub_date": "Thu, 26 Feb 2026 12:40:08 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitcoin's bounce fails to convince options traders",
-      "link": "https://www.coindesk.com/daybook-us/2026/02/26/bitcoin-s-bounce-fails-to-convince-options-traders",
-      "pub_date": "Thu, 26 Feb 2026 12:15:00 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitcoin stalls below $70,000 while DOT, UNI lead altcoin surge",
-      "link": "https://www.coindesk.com/markets/2026/02/26/bitcoin-stalls-near-usd70-000-while-dot-uni-lead-altcoin-surge",
-      "pub_date": "Thu, 26 Feb 2026 11:30:00 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Three companies add Strategy's STRC to treasury as shares return to par",
-      "link": "https://www.coindesk.com/markets/2026/02/26/three-companies-add-strategy-s-strc-to-treasury-as-shares-return-to-par",
-      "pub_date": "Thu, 26 Feb 2026 10:48:23 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Here is why the wild accusations of Jane Street rigging bitcoin price may not be true",
-      "link": "https://www.coindesk.com/markets/2026/02/26/why-crypto-x-thinks-jane-street-crashed-bitcoin-and-what-s-actually-behind-the-10-am-slam",
-      "pub_date": "Thu, 26 Feb 2026 10:02:12 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitcoin touches $70,000 before fading as altcoins lead the strongest bounce in weeks",
-      "link": "https://www.coindesk.com/markets/2026/02/26/bitcoin-touches-usd70k-before-fading-as-altcoins-lead-the-strongest-bounce-in-weeks",
-      "pub_date": "Thu, 26 Feb 2026 05:31:19 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Uniswap\u2019s UNI jumps 15% as governance vote to expand fee switch gains momentum",
-      "link": "https://www.coindesk.com/markets/2026/02/26/uniswap-s-uni-jumps-15-as-governance-vote-to-expand-fee-switch-gains-momentum",
-      "pub_date": "Thu, 26 Feb 2026 05:23:18 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitcoin snaps back near $69,000 but analysts warn the market may not be out of the woods yet",
-      "link": "https://www.coindesk.com/markets/2026/02/25/bitcoin-snaps-back-near-usd69-000-but-analysts-warn-the-market-may-not-be-out-of-the-woods-yet",
-      "pub_date": "Wed, 25 Feb 2026 22:30:36 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "REX rolls out income ETF tied to Coinbase, Strategy, tech stocks",
-      "link": "https://cointelegraph.com/news/rex-launches-income-etf-bundling-leveraged-covered-call-exposure-to-coinbase-strategy-and-other-growth-stocks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Thu, 26 Feb 2026 17:22:48 +0000",
+      "title": "How the EU\u2019s crypto tax rules are expected to work for users and platforms",
+      "link": "https://cointelegraph.com/news/how-the-eu-s-crypto-tax-rules-are-expected-to-work-for-users-and-platforms?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Fri, 27 Feb 2026 16:04:50 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "High-yield bond surge signals rising risk, demand in BTC mining, AI infrastructure",
-      "link": "https://cointelegraph.com/news/ai-bitcoin-miners-high-yield-bonds-data-centers?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Thu, 26 Feb 2026 16:57:23 +0000",
+      "title": "Barclays probes blockchain for banking functions like payments, deposits: Report",
+      "link": "https://cointelegraph.com/news/barclays-blockchain-payments-deposits-stablecoins-bloomberg?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Fri, 27 Feb 2026 16:00:05 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Court sets deadline for US to address Bankman-Fried\u2018s new trial motion",
-      "link": "https://cointelegraph.com/news/sam-bankman-fried-trial-court-government-response?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Thu, 26 Feb 2026 16:35:42 +0000",
+      "title": "Bitcoin to $30K? Analysts debate when and at what price BTC will bottom",
+      "link": "https://cointelegraph.com/news/bitcoin-to-30k-analysts-debate-when-what-price-btc-price-will-bottom?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Fri, 27 Feb 2026 15:26:31 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Ethereum reclaims $2K as volatility spike backs ETH price recovery",
-      "link": "https://cointelegraph.com/news/ethereum-reclaims-2k-volatility-spike-backs-eth-price-recovery?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Thu, 26 Feb 2026 15:48:14 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Coin Bureau CEO on Bitcoin in 2026: Cycles, Liquidity and a Divided Market",
-      "link": "https://cointelegraph.com/news/coin-bureau-ceo-on-bitcoin-in-2026-cycles-liquidity-and-a-divided-market?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Thu, 26 Feb 2026 15:32:04 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitcoin bear market not 'over already' as price rejects at $68K trend line",
-      "link": "https://cointelegraph.com/news/bitcoin-bear-market-not-over-already-price-rejects-68k-trend-line?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Thu, 26 Feb 2026 15:25:58 +0000",
+      "title": "Crypto taxes updated, BTC stuck below $70K: Month in charts",
+      "link": "https://cointelegraph.com/news/crypto-taxes-btc-stuck-70k-month-in-charts?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Fri, 27 Feb 2026 15:09:22 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
       "title": "Here\u2019s what happened in crypto today",
       "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Thu, 26 Feb 2026 14:55:37 +0000",
+      "pub_date": "Fri, 27 Feb 2026 14:25:52 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Analysts reject Jane Street \u201810 a.m. dump\u2019 claims, say Bitcoin isn\u2019t easily manipulated",
-      "link": "https://cointelegraph.com/news/bitcoin-10am-dump-theory-jane-street-ibit-13f-terraform-lawsuit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Thu, 26 Feb 2026 14:44:40 +0000",
+      "title": "Bitcoin threatens new breakdown as US PPI sends gold to 1-month high",
+      "link": "https://cointelegraph.com/news/bitcoin-threatens-new-breakdown-us-ppi-gold-1-month-high?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Fri, 27 Feb 2026 14:10:13 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Trump family-backed miner American Bitcoin posts $59M quarterly loss",
-      "link": "https://cointelegraph.com/news/american-bitcoin-trump-nets-59m-quarterly-loss?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Thu, 26 Feb 2026 14:37:18 +0000",
+      "title": "South Korea\u2019s tax office leaks wallet seed and loses $4.8M in seized tokens",
+      "link": "https://cointelegraph.com/news/south-korea-tax-office-leaked-wallet-seed?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Fri, 27 Feb 2026 14:06:16 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Mastercard, MetaMask launch US crypto card, debuting in New York",
-      "link": "https://cointelegraph.com/news/mastercard-metamask-us-crypto-card-new-york-debut?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Thu, 26 Feb 2026 14:00:00 +0000",
+      "title": "PayPal, MoonPay and M0 launch PYUSDx to let devs issue app-specific stablecoins",
+      "link": "https://cointelegraph.com/news/paypal-moonpay-and-m0-launch-pyusdx-to-let-apps-create-their-own-stablecoins?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Fri, 27 Feb 2026 14:00:00 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Grvt integrates Aave so traders can earn yield on perp collateral",
-      "link": "https://cointelegraph.com/news/grvt-aave-composable-yield-perp-collateral?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Thu, 26 Feb 2026 14:00:00 +0000",
+      "title": "UK gambling regulator weighs allowing crypto payments for online betting",
+      "link": "https://cointelegraph.com/news/uk-gambling-watchdog-allow-crypto-payments-fca-framework?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Fri, 27 Feb 2026 13:17:46 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "OKX integrates Chainalysis Alterya for pre-withdrawal scam screening",
-      "link": "https://cointelegraph.com/news/okx-integrates-chainalysis-alterya-for-pre-withdrawal-scam-screening?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Thu, 26 Feb 2026 14:00:00 +0000",
+      "title": "Pantera, Franklin Templeton join Sentient Arena to test AI agents",
+      "link": "https://cointelegraph.com/news/sentient-arena-tests-ai-agents-pantera-franklin-templeton?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Fri, 27 Feb 2026 12:27:18 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "How does Trump influence the price of Bitcoin?",
-      "link": "https://cointelegraph.com/news/how-does-trump-influence-bitcoin-price?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Thu, 26 Feb 2026 13:55:05 +0000",
+      "title": "New York judge blocks Binance bid to force US crypto claims into arbitration",
+      "link": "https://cointelegraph.com/news/new-york-judge-blocks-binance-bid-to-force-us-crypto-claims-into-arbitration?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Fri, 27 Feb 2026 11:46:37 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Telegram\u2019s in-app crypto wallet to offer yield on Bitcoin, Ether and USDt",
-      "link": "https://cointelegraph.com/news/telegram-ton-wallet-vaults-earn-btc-eth-usdt?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Thu, 26 Feb 2026 13:34:43 +0000",
+      "title": "Bitcoin\u2019s five-month losing streak may not end in March as $70K caps price",
+      "link": "https://cointelegraph.com/news/bitcoin-five-month-losing-streak-may-not-end-in-march?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Fri, 27 Feb 2026 11:15:01 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Middle East tensions boost gold as investors seek safe havens",
-      "link": "https://cointelegraph.com/news/rising-middle-east-tensions-safe-haven-demand-gold-investors-flee-equities-bitcoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Thu, 26 Feb 2026 12:15:34 +0000",
+      "title": "Suspected insider wallets rack up $1.2M betting on ZachXBT\u2019s Axiom expos\u00e9",
+      "link": "https://cointelegraph.com/news/suspected-insider-1-2m-zachxbt-axiom-expose?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Fri, 27 Feb 2026 10:19:28 +0000",
+      "source": "Cointelegraph",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Spot Bitcoin ETFs take in $1B in three days as investors buy the dip",
+      "link": "https://cointelegraph.com/news/bitcoin-etfs-1b-inflows-drawdown-dip-buying?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Fri, 27 Feb 2026 09:41:29 +0000",
+      "source": "Cointelegraph",
+      "fetch_source": "live"
+    },
+    {
+      "title": "TeraWulf misses Q4 2025 estimates as Bitcoin mining revenue falls",
+      "link": "https://cointelegraph.com/news/terawulf-q4-2025-miss-estimate-mining-revenue-drop?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Fri, 27 Feb 2026 09:18:53 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     }
