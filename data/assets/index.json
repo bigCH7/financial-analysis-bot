@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-02-27T17:07:24.810678+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-02-27 16:59 UTC_",
+  "generated_at": "2026-02-28T15:49:56.770467+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-02-28 15:41 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,10 +9,10 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 65606.0,
+        "current_usd": 64831.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": -3.48,
-        "change_30d_pct": -26.42
+        "change_7d_pct": -4.63,
+        "change_30d_pct": -23.34
       },
       "indicators": {
         "trend": "DOWNTREND",
@@ -22,10 +22,10 @@
       "valuation": {
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
-        "summary_line": "Fair - Strong growth profile - Elevated regulatory risk.",
-        "score": 59.8
+        "summary_line": "Fair - Balanced growth profile - Elevated regulatory risk.",
+        "score": 59.2
       },
-      "updated_at": "2026-02-27T17:07:24.808306+00:00",
+      "updated_at": "2026-02-28T15:49:56.768322+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,10 +37,10 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 1931.0,
+        "current_usd": 1897.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": -1.89,
-        "change_30d_pct": -35.79
+        "change_7d_pct": -3.9,
+        "change_30d_pct": -32.71
       },
       "indicators": {
         "trend": "DOWNTREND",
@@ -51,9 +51,9 @@
         "verdict": "Constructive long-term setup",
         "band": "undervalued",
         "summary_line": "Undervalued - Strong growth profile - Elevated regulatory risk.",
-        "score": 64.2
+        "score": 63.1
       },
-      "updated_at": "2026-02-27T17:07:24.809116+00:00",
+      "updated_at": "2026-02-28T15:49:56.769092+00:00",
       "source": {
         "short_term": "live"
       }
@@ -65,8 +65,8 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=spy",
       "price": {
-        "current_usd": 685.34,
-        "change_24h_pct": 0.3426061493411403,
+        "current_usd": 685.99,
+        "change_24h_pct": 0.42454142206735934,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
@@ -81,7 +81,7 @@
         "summary_line": "Fair - Strong growth profile - Elevated regulatory risk.",
         "score": 48.6
       },
-      "updated_at": "2026-02-27T17:07:24.809423+00:00",
+      "updated_at": "2026-02-28T15:49:56.769364+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -93,8 +93,8 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=qqq",
       "price": {
-        "current_usd": 606.94,
-        "change_24h_pct": 0.6634159286164509,
+        "current_usd": 607.29,
+        "change_24h_pct": 0.7147832432253143,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Strong growth profile - Elevated regulatory risk.",
         "score": 35.5
       },
-      "updated_at": "2026-02-27T17:07:24.809678+00:00",
+      "updated_at": "2026-02-28T15:49:56.769586+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -121,13 +121,13 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=nvda",
       "price": {
-        "current_usd": 180.56,
-        "change_24h_pct": -0.3696959664514665,
+        "current_usd": 177.19,
+        "change_24h_pct": -2.2399999999999975,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
       "indicators": {
-        "trend": "SIDEWAYS",
+        "trend": "DOWNTREND",
         "momentum": "N/A",
         "volatility": "N/A"
       },
@@ -137,7 +137,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Elevated regulatory risk.",
         "score": 0.0
       },
-      "updated_at": "2026-02-27T17:07:24.809931+00:00",
+      "updated_at": "2026-02-28T15:49:56.769803+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -149,13 +149,13 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=gold",
       "price": {
-        "current_usd": 5232.135,
-        "change_24h_pct": 0.9015724001207204,
+        "current_usd": 5263.825,
+        "change_24h_pct": 1.512713135090249,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
       "indicators": {
-        "trend": "SIDEWAYS",
+        "trend": "UPTREND",
         "momentum": "N/A",
         "volatility": "N/A"
       },
@@ -165,7 +165,7 @@
         "summary_line": "Overvalued - Strong growth profile - Elevated regulatory risk.",
         "score": 38.5
       },
-      "updated_at": "2026-02-27T17:07:24.810168+00:00",
+      "updated_at": "2026-02-28T15:49:56.770040+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -177,8 +177,8 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=oil",
       "price": {
-        "current_usd": 66.65,
-        "change_24h_pct": 2.020511250574031,
+        "current_usd": 67.02,
+        "change_24h_pct": 2.555470543228777,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
@@ -193,7 +193,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-02-27T17:07:24.810446+00:00",
+      "updated_at": "2026-02-28T15:49:56.770259+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -201,72 +201,72 @@
   ],
   "overview_news": [
     {
-      "title": "Vitalik Buterin reveals his bold new plan to fix Ethereum\u2019s scaling problem",
-      "url": "https://www.coindesk.com/tech/2026/02/27/vitalik-buterin-reveals-his-bold-new-plan-to-fix-ethereum-s-scaling-problem",
-      "published_at": "Fri, 27 Feb 2026 16:32:14 +0000",
+      "title": "Crypto community fear of Iran choking oil supply and crashing markets may be overblown",
+      "url": "https://www.coindesk.com/markets/2026/02/28/crypto-community-fears-iran-choking-oil-supply-and-crashing-markets-but-that-may-be-overblown",
+      "published_at": "Sat, 28 Feb 2026 15:36:54 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Barclays looks for tech provider for new blockchain settlement engine: Bloomberg",
-      "url": "https://www.coindesk.com/business/2026/02/27/barclays-explores-blockchain-platform-for-payments-bloomberg",
-      "published_at": "Fri, 27 Feb 2026 16:25:33 +0000",
+      "title": "Former Mt. Gox CEO proposed a rewrite of bitcoin's code to recover $5 billion in stolen funds. Gets quickly shutdown",
+      "url": "https://www.coindesk.com/tech/2026/02/28/former-mt-gox-ceo-proposed-a-rewrite-of-bitcoin-s-code-to-recover-usd5-billion-in-stolen-funds-gets-quickly-shutdown",
+      "published_at": "Sat, 28 Feb 2026 14:51:29 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Punters want crypto: UK Gambling Commission explores how to keep bettors on licensed sites",
-      "url": "https://www.coindesk.com/policy/2026/02/27/uk-s-gambling-watchdog-explores-allowing-gamblers-to-pay-bets-with-crypto",
-      "published_at": "Fri, 27 Feb 2026 15:15:37 +0000",
+      "title": "Suspected insiders make over $1.2 million on Polymarket by betting on U.S.'s Iran strike",
+      "url": "https://www.coindesk.com/markets/2026/02/28/suspected-insiders-make-over-usd1-2-million-on-polymarket-ahead-of-u-s-strike-on-iran",
+      "published_at": "Sat, 28 Feb 2026 14:36:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "CoinDesk 20 performance update: Solana (SOL) falls 4.2%, leading index lower",
-      "url": "https://www.coindesk.com/coindesk-indices/2026/02/27/coindesk-20-performance-update-solana-sol-falls-4-2-leading-index-lower",
-      "published_at": "Fri, 27 Feb 2026 14:17:41 +0000",
+      "title": "XRP tumbles 9% as break below $1.36 wipes out relief rally",
+      "url": "https://www.coindesk.com/markets/2026/02/28/xrp-tumbles-9-as-break-below-usd1-36-wipes-out-relief-rally",
+      "published_at": "Sat, 28 Feb 2026 13:30:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "The worst may lie ahead. Bitcoin chart revisits historic pattern.",
-      "url": "https://www.coindesk.com/daybook-us/2026/02/27/the-worst-may-lie-ahead-bitcoin-chart-revisits-historic-pattern",
-      "published_at": "Fri, 27 Feb 2026 12:23:48 +0000",
+      "title": "Bitcoin's five-month slide: why BTC is set for worst losing streak since 2018",
+      "url": "https://www.coindesk.com/markets/2026/02/27/bitcoin-set-for-worst-5-month-streak-since-2018-as-usd3-8-billion-etf-outflows-mount",
+      "published_at": "Sat, 28 Feb 2026 13:00:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin falls with ether, solana while decred, AI-linked tokens advance",
-      "url": "https://www.coindesk.com/markets/2026/02/27/bitcoin-falls-with-ether-solana-while-decred-ai-linked-tokens-advance",
-      "published_at": "Fri, 27 Feb 2026 11:49:09 +0000",
+      "title": "Bitcoin sets up potential short squeeze as 'funding rate' plunges to three month low",
+      "url": "https://www.coindesk.com/markets/2026/02/28/bitcoin-sets-up-potential-short-squeeze-as-funding-plunges-to-6",
+      "published_at": "Sat, 28 Feb 2026 11:00:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "MARA and Block jump double digits in pre-market trading while CoreWeave sinks",
-      "url": "https://www.coindesk.com/markets/2026/02/27/mara-and-block-jump-double-digits-in-pre-market-trading-while-coreweave-sinks",
-      "published_at": "Fri, 27 Feb 2026 10:49:19 +0000",
+      "title": "Bitcoin could see further downside risks as Iran attacks U.S. bases across Middle East",
+      "url": "https://www.coindesk.com/markets/2026/02/28/bitcoin-could-see-further-downside-risks-as-iran-attacks-u-s-bases-across-middle-east",
+      "published_at": "Sat, 28 Feb 2026 10:26:03 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Germany's AllUnity issues regulated stablecoin tied to safe haven Swiss franc",
-      "url": "https://www.coindesk.com/markets/2026/02/27/germany-s-allunity-launches-regulated-stablecoin-tied-to-safe-haven-swiss-franc",
-      "published_at": "Fri, 27 Feb 2026 10:19:16 +0000",
+      "title": "Oil-linked futures on Hyperliquid surge 5% after U.S.-Israel strike on Iran",
+      "url": "https://www.coindesk.com/markets/2026/02/28/oil-linked-futures-on-hyperliquid-surge-5-after-u-s-israel-strike-on-iran",
+      "published_at": "Sat, 28 Feb 2026 10:15:55 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "U.S. spot bitcoin ETFs set for biggest week in 6 after adding $1.1 billion in three days",
-      "url": "https://www.coindesk.com/markets/2026/02/27/u-s-spot-bitcoin-etfs-set-for-biggest-week-in-6-after-adding-usd1-1-billion-in-three-days",
-      "published_at": "Fri, 27 Feb 2026 10:05:04 +0000",
+      "title": "Bitcoin nears $63,000 as U.S. and Israel launch strikes on Iran",
+      "url": "https://www.coindesk.com/markets/2026/02/28/bitcoin-slides-under-usd64-000-as-u-s-and-israel-launch-strikes-on-iran",
+      "published_at": "Sat, 28 Feb 2026 06:56:30 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin ETF holders and treasury firms stack protection against price crash below $60,000, Deribit says",
-      "url": "https://www.coindesk.com/markets/2026/02/27/bitcoin-etf-holders-and-treasury-firms-stack-protection-against-price-crash-below-usd60-000-deribit-says",
-      "published_at": "Fri, 27 Feb 2026 06:42:51 +0000",
+      "title": "Bitcoin slides to $65,000 in weekend sell-off, with solana, XRP, dogecoin down 6%",
+      "url": "https://www.coindesk.com/markets/2026/02/28/bitcoin-slides-to-usd65-000-in-weekend-sell-off-with-solana-xrp-dogecoin-down-6",
+      "published_at": "Sat, 28 Feb 2026 04:24:51 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
