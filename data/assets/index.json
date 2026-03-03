@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-02T17:40:42.728496+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-03-02 17:32 UTC_",
+  "generated_at": "2026-03-03T17:38:47.746869+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-03-03 17:30 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,23 +9,23 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 69233.0,
+        "current_usd": 67849.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": 7.21,
-        "change_30d_pct": -12.06
+        "change_7d_pct": 5.89,
+        "change_30d_pct": -11.81
       },
       "indicators": {
         "trend": "UPTREND",
-        "momentum": "STRONG",
+        "momentum": "WEAK",
         "volatility": "NORMAL"
       },
       "valuation": {
         "verdict": "Constructive long-term setup",
         "band": "undervalued",
         "summary_line": "Undervalued - Strong growth profile - Elevated regulatory risk.",
-        "score": 61.3
+        "score": 60.3
       },
-      "updated_at": "2026-03-02T17:40:42.726176+00:00",
+      "updated_at": "2026-03-03T17:38:47.744558+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,13 +37,13 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 2047.0,
+        "current_usd": 1963.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": 10.41,
-        "change_30d_pct": -16.25
+        "change_7d_pct": 5.94,
+        "change_30d_pct": -13.51
       },
       "indicators": {
-        "trend": "UPTREND",
+        "trend": "DOWNTREND",
         "momentum": "STRONG",
         "volatility": "NORMAL"
       },
@@ -51,9 +51,9 @@
         "verdict": "Constructive long-term setup",
         "band": "undervalued",
         "summary_line": "Undervalued - Strong growth profile - Elevated regulatory risk.",
-        "score": 63.3
+        "score": 62.7
       },
-      "updated_at": "2026-03-02T17:40:42.726957+00:00",
+      "updated_at": "2026-03-03T17:38:47.745359+00:00",
       "source": {
         "short_term": "live"
       }
@@ -65,13 +65,13 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=spy",
       "price": {
-        "current_usd": 687.03,
-        "change_24h_pct": 1.2273463975246646,
+        "current_usd": 678.03,
+        "change_24h_pct": 0.43996089236513214,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
       "indicators": {
-        "trend": "UPTREND",
+        "trend": "SIDEWAYS",
         "momentum": "N/A",
         "volatility": "N/A"
       },
@@ -81,7 +81,7 @@
         "summary_line": "Fair - Strong growth profile - Elevated regulatory risk.",
         "score": 48.6
       },
-      "updated_at": "2026-03-02T17:40:42.727261+00:00",
+      "updated_at": "2026-03-03T17:38:47.745641+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -93,64 +93,8 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=qqq",
       "price": {
-        "current_usd": 609.04,
-        "change_24h_pct": 1.699896469959583,
-        "change_7d_pct": null,
-        "change_30d_pct": null
-      },
-      "indicators": {
-        "trend": "UPTREND",
-        "momentum": "N/A",
-        "volatility": "N/A"
-      },
-      "valuation": {
-        "verdict": "Caution / risk-reward mixed",
-        "band": "overvalued",
-        "summary_line": "Overvalued - Strong growth profile - Elevated regulatory risk.",
-        "score": 35.5
-      },
-      "updated_at": "2026-03-02T17:40:42.727501+00:00",
-      "source": {
-        "short_term": "stooq_live"
-      }
-    },
-    {
-      "asset": "nvda",
-      "name": "NVIDIA",
-      "symbol": "NVDA",
-      "market_type": "traditional",
-      "details_page": "asset.html?asset=nvda",
-      "price": {
-        "current_usd": 183.252,
-        "change_24h_pct": 4.697480431925971,
-        "change_7d_pct": null,
-        "change_30d_pct": null
-      },
-      "indicators": {
-        "trend": "UPTREND",
-        "momentum": "N/A",
-        "volatility": "N/A"
-      },
-      "valuation": {
-        "verdict": "High risk / weak long-term setup",
-        "band": "overvalued",
-        "summary_line": "Overvalued - Mixed growth profile - Elevated regulatory risk.",
-        "score": 0.0
-      },
-      "updated_at": "2026-03-02T17:40:42.727749+00:00",
-      "source": {
-        "short_term": "stooq_live"
-      }
-    },
-    {
-      "asset": "gold",
-      "name": "Gold Futures",
-      "symbol": "GC=F",
-      "market_type": "traditional",
-      "details_page": "asset.html?asset=gold",
-      "price": {
-        "current_usd": 5310.355,
-        "change_24h_pct": -0.04150541358592941,
+        "current_usd": 600.15,
+        "change_24h_pct": 0.640584911039177,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
@@ -163,9 +107,65 @@
         "verdict": "Caution / risk-reward mixed",
         "band": "overvalued",
         "summary_line": "Overvalued - Strong growth profile - Elevated regulatory risk.",
+        "score": 35.5
+      },
+      "updated_at": "2026-03-03T17:38:47.745892+00:00",
+      "source": {
+        "short_term": "stooq_live"
+      }
+    },
+    {
+      "asset": "nvda",
+      "name": "NVIDIA",
+      "symbol": "NVDA",
+      "market_type": "traditional",
+      "details_page": "asset.html?asset=nvda",
+      "price": {
+        "current_usd": 179.88,
+        "change_24h_pct": 0.7787551123312086,
+        "change_7d_pct": null,
+        "change_30d_pct": null
+      },
+      "indicators": {
+        "trend": "SIDEWAYS",
+        "momentum": "N/A",
+        "volatility": "N/A"
+      },
+      "valuation": {
+        "verdict": "High risk / weak long-term setup",
+        "band": "overvalued",
+        "summary_line": "Overvalued - Mixed growth profile - Elevated regulatory risk.",
+        "score": 0.0
+      },
+      "updated_at": "2026-03-03T17:38:47.746152+00:00",
+      "source": {
+        "short_term": "stooq_live"
+      }
+    },
+    {
+      "asset": "gold",
+      "name": "Gold Futures",
+      "symbol": "GC=F",
+      "market_type": "traditional",
+      "details_page": "asset.html?asset=gold",
+      "price": {
+        "current_usd": 5073.635,
+        "change_24h_pct": -4.718232822366719,
+        "change_7d_pct": null,
+        "change_30d_pct": null
+      },
+      "indicators": {
+        "trend": "DOWNTREND",
+        "momentum": "N/A",
+        "volatility": "N/A"
+      },
+      "valuation": {
+        "verdict": "Caution / risk-reward mixed",
+        "band": "overvalued",
+        "summary_line": "Overvalued - Strong growth profile - Elevated regulatory risk.",
         "score": 38.5
       },
-      "updated_at": "2026-03-02T17:40:42.727986+00:00",
+      "updated_at": "2026-03-03T17:38:47.746378+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -177,13 +177,13 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=oil",
       "price": {
-        "current_usd": 70.76,
-        "change_24h_pct": -5.325127107305317,
+        "current_usd": 75.63,
+        "change_24h_pct": 5.98374439461884,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
       "indicators": {
-        "trend": "DOWNTREND",
+        "trend": "UPTREND",
         "momentum": "N/A",
         "volatility": "N/A"
       },
@@ -193,7 +193,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-03-02T17:40:42.728249+00:00",
+      "updated_at": "2026-03-03T17:38:47.746630+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -201,72 +201,72 @@
   ],
   "overview_news": [
     {
-      "title": "Battle for Bitcoin's soul opens as first block supporting 'clean-up' proposal is mined",
-      "url": "https://www.coindesk.com/tech/2026/03/02/battle-for-bitcoin-s-soul-opens-as-first-block-supporting-clean-up-proposal-is-mined",
-      "published_at": "Mon, 02 Mar 2026 17:15:44 +0000",
+      "title": "AI agents will be primary users of blockchain, NEAR co-founder says",
+      "url": "https://www.coindesk.com/tech/2026/03/03/ai-agents-will-be-primary-users-of-blockchain-near-co-founder-says",
+      "published_at": "Tue, 03 Mar 2026 17:28:48 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Weekend warriors: How HyperLiquid became retail\u2019s bear market playground",
-      "url": "https://www.coindesk.com/business/2026/03/02/weekend-warriors-how-hyperliquid-became-retail-s-bear-market-playground",
-      "published_at": "Mon, 02 Mar 2026 17:04:42 +0000",
+      "title": "Aave governance rift deepens as major governance group exits $26 billion DeFi protocol",
+      "url": "https://www.coindesk.com/web3/2026/03/03/aave-governance-rift-deepens-as-major-governance-group-exits-usd26-billion-defi-protocol",
+      "published_at": "Tue, 03 Mar 2026 17:26:07 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Crypto world faces growing pressure to relent on stablecoin rewards to win bigger prize",
-      "url": "https://www.coindesk.com/news-analysis/2026/03/02/crypto-world-faces-growing-pressure-to-relent-on-stablecoin-rewards-to-win-bigger-prize",
-      "published_at": "Mon, 02 Mar 2026 16:45:11 +0000",
+      "title": "Eric Trump\u2019s American Bitcoin buys 11,298 ASIC miners, increasing mining capacity by 12%",
+      "url": "https://www.coindesk.com/business/2026/03/03/eric-trump-s-american-bitcoin-buys-11-298-asic-miners-increasing-capacity-by-12",
+      "published_at": "Tue, 03 Mar 2026 17:18:21 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Nasdaq follows Cboe joining world of 'binary bets' as prediction market craze hits Wall Street",
-      "url": "https://www.coindesk.com/markets/2026/03/02/nasdaq-follows-cboe-joining-world-of-binary-bets-as-prediction-market-craze-hits-wall-street",
-      "published_at": "Mon, 02 Mar 2026 16:28:16 +0000",
+      "title": "Bank of Japan expands blockchain settlement sandbox and says CBDC efforts are ongoing",
+      "url": "https://www.coindesk.com/business/2026/03/03/bank-of-japan-expands-blockchain-settlement-sandbox-as-2026-cbdc-decision-nears",
+      "published_at": "Tue, 03 Mar 2026 17:09:59 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin surges above $68,000 amid muted stock market reaction to Iran war",
-      "url": "https://www.coindesk.com/markets/2026/03/02/bitcoin-surges-above-usd68-000-amid-muted-stock-market-reaction-to-iran-war",
-      "published_at": "Mon, 02 Mar 2026 15:32:22 +0000",
+      "title": "Bitcoin attempting to make a stand as global stock markets melt down on Iran war",
+      "url": "https://www.coindesk.com/markets/2026/03/03/bitcoin-attempting-to-make-a-stand-as-global-stock-markets-melt-down-on-iran-war",
+      "published_at": "Tue, 03 Mar 2026 16:04:53 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Tom Lee's Bitmine boosts ether holdings to 4.47 million tokens with  $98 million ETH purchase",
-      "url": "https://www.coindesk.com/business/2026/03/02/bitmine-boosts-ether-holdings-to-4-47m-tokens-after-usd98m-eth-purchase",
-      "published_at": "Mon, 02 Mar 2026 15:10:25 +0000",
+      "title": "End of bitcoin 'HODL': public miners going all-in on AI, signaling more BTC selling",
+      "url": "https://www.coindesk.com/markets/2026/03/03/end-of-bitcoin-hodl-public-miners-going-all-in-on-ai-signaling-more-btc-selling",
+      "published_at": "Tue, 03 Mar 2026 15:41:40 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "EU banks\u2019 euro-pegged stablecoin in talks with crypto exchanges to ensure liquidity",
-      "url": "https://www.coindesk.com/business/2026/03/02/eu-banks-euro-pegged-stablecoin-in-talks-with-crypto-exchanges-to-ensure-liquidity",
-      "published_at": "Mon, 02 Mar 2026 14:37:33 +0000",
+      "title": "CFTC chief Selig to clear path for U.S. perpetual futures in coming weeks",
+      "url": "https://www.coindesk.com/policy/2026/03/03/cftc-chief-selig-to-clear-path-for-u-s-perpetual-futures-in-coming-weeks",
+      "published_at": "Tue, 03 Mar 2026 15:38:17 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "CoinDesk 20 performance update: NEAR Protocol (NEAR) jumps 12.4% over weekend",
-      "url": "https://www.coindesk.com/coindesk-indices/2026/03/02/coindesk-20-performance-update-near-protocol-near-jumps-12-4-over-weekend",
-      "published_at": "Mon, 02 Mar 2026 14:15:11 +0000",
+      "title": "Here is why Harvard trimmed bitcoin and bought ether and why the move is bullish for crypto",
+      "url": "https://www.coindesk.com/business/2026/03/03/here-is-why-harvard-trimmed-bitcoin-and-bought-ether-and-why-the-move-is-bullish-for-crypto",
+      "published_at": "Tue, 03 Mar 2026 15:23:08 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Iranian crypto outflows jump 700% minutes after U.S.-Israeli airstrikes, Elliptic says",
-      "url": "https://www.coindesk.com/business/2026/03/02/iranian-crypto-outflows-jump-700-minutes-after-airstrikes-elliptic-says",
-      "published_at": "Mon, 02 Mar 2026 14:13:01 +0000",
+      "title": "CoinDesk 20 performance update: AAVE plunges 10%, leading index lower",
+      "url": "https://www.coindesk.com/coindesk-indices/2026/03/03/coindesk-20-performance-update-aave-plunges-10-leading-index-lower",
+      "published_at": "Tue, 03 Mar 2026 14:14:43 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Turkey's ruling party unveils 10% crypto income tax proposal",
-      "url": "https://www.coindesk.com/policy/2026/03/02/turkey-s-ruling-party-unveils-10-crypto-income-tax-proposal",
-      "published_at": "Mon, 02 Mar 2026 13:36:21 +0000",
+      "title": "Ondo Finance tokenized stocks platform on Binance wins regulatory approval in Abu Dhabi",
+      "url": "https://www.coindesk.com/business/2026/03/03/ondo-finance-tokenized-stocks-platform-on-binance-wins-regulatory-approval-in-abu-dhabi",
+      "published_at": "Tue, 03 Mar 2026 14:00:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
