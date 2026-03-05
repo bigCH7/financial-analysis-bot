@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-04T15:49:00.751590+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-03-04 15:40 UTC_",
+  "generated_at": "2026-03-05T15:58:07.005291+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-03-05 15:50 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,10 +9,10 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 72794.0,
+        "current_usd": 71675.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": 7.13,
-        "change_30d_pct": -7.58
+        "change_7d_pct": 6.23,
+        "change_30d_pct": -5.24
       },
       "indicators": {
         "trend": "UPTREND",
@@ -23,9 +23,9 @@
         "verdict": "Constructive long-term setup",
         "band": "undervalued",
         "summary_line": "Undervalued - Strong growth profile - Elevated regulatory risk.",
-        "score": 63.4
+        "score": 62.0
       },
-      "updated_at": "2026-03-04T15:49:00.749330+00:00",
+      "updated_at": "2026-03-05T15:58:07.002909+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,10 +37,10 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 2132.0,
+        "current_usd": 2086.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": 3.82,
-        "change_30d_pct": -9.08
+        "change_7d_pct": 2.89,
+        "change_30d_pct": -6.33
       },
       "indicators": {
         "trend": "UPTREND",
@@ -51,9 +51,9 @@
         "verdict": "Constructive long-term setup",
         "band": "undervalued",
         "summary_line": "Undervalued - Strong growth profile - Elevated regulatory risk.",
-        "score": 62.8
+        "score": 62.2
       },
-      "updated_at": "2026-03-04T15:49:00.750104+00:00",
+      "updated_at": "2026-03-05T15:58:07.003689+00:00",
       "source": {
         "short_term": "live"
       }
@@ -65,8 +65,8 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=spy",
       "price": {
-        "current_usd": 685.83,
-        "change_24h_pct": 0.6146939733583823,
+        "current_usd": 681.3101,
+        "change_24h_pct": -0.11287532254281585,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
@@ -76,12 +76,12 @@
         "volatility": "N/A"
       },
       "valuation": {
-        "verdict": "Undervalued / High-conviction zone",
-        "band": "undervalued",
-        "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
-        "score": 82.9
+        "verdict": "Neutral / fair-value zone",
+        "band": "fair",
+        "summary_line": "Fair - Strong growth profile - Elevated regulatory risk.",
+        "score": 48.6
       },
-      "updated_at": "2026-03-04T15:49:00.750421+00:00",
+      "updated_at": "2026-03-05T15:58:07.004024+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -93,23 +93,23 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=qqq",
       "price": {
-        "current_usd": 610.49,
-        "change_24h_pct": 1.0477356991525522,
+        "current_usd": 609.16,
+        "change_24h_pct": 0.28975963121500303,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
       "indicators": {
-        "trend": "UPTREND",
+        "trend": "SIDEWAYS",
         "momentum": "N/A",
         "volatility": "N/A"
       },
       "valuation": {
-        "verdict": "High risk / weak long-term setup",
+        "verdict": "Caution / risk-reward mixed",
         "band": "overvalued",
-        "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
-        "score": 22.9
+        "summary_line": "Overvalued - Strong growth profile - Elevated regulatory risk.",
+        "score": 35.5
       },
-      "updated_at": "2026-03-04T15:49:00.750662+00:00",
+      "updated_at": "2026-03-05T15:58:07.004281+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -121,8 +121,64 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=nvda",
       "price": {
-        "current_usd": 183.09,
-        "change_24h_pct": 1.4686322323209877,
+        "current_usd": 182.7274,
+        "change_24h_pct": 0.8596345973395092,
+        "change_7d_pct": null,
+        "change_30d_pct": null
+      },
+      "indicators": {
+        "trend": "SIDEWAYS",
+        "momentum": "N/A",
+        "volatility": "N/A"
+      },
+      "valuation": {
+        "verdict": "High risk / weak long-term setup",
+        "band": "overvalued",
+        "summary_line": "Overvalued - Mixed growth profile - Elevated regulatory risk.",
+        "score": 0.0
+      },
+      "updated_at": "2026-03-05T15:58:07.004525+00:00",
+      "source": {
+        "short_term": "stooq_live"
+      }
+    },
+    {
+      "asset": "gold",
+      "name": "Gold Futures",
+      "symbol": "GC=F",
+      "market_type": "traditional",
+      "details_page": "asset.html?asset=gold",
+      "price": {
+        "current_usd": 5098.185,
+        "change_24h_pct": -0.9442788070610941,
+        "change_7d_pct": null,
+        "change_30d_pct": null
+      },
+      "indicators": {
+        "trend": "SIDEWAYS",
+        "momentum": "N/A",
+        "volatility": "N/A"
+      },
+      "valuation": {
+        "verdict": "Caution / risk-reward mixed",
+        "band": "overvalued",
+        "summary_line": "Overvalued - Strong growth profile - Elevated regulatory risk.",
+        "score": 38.5
+      },
+      "updated_at": "2026-03-05T15:58:07.004800+00:00",
+      "source": {
+        "short_term": "stooq_live"
+      }
+    },
+    {
+      "asset": "oil",
+      "name": "Crude Oil Futures",
+      "symbol": "CL=F",
+      "market_type": "traditional",
+      "details_page": "asset.html?asset=oil",
+      "price": {
+        "current_usd": 78.77,
+        "change_24h_pct": 3.767619549466472,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
@@ -137,63 +193,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-03-04T15:49:00.750874+00:00",
-      "source": {
-        "short_term": "stooq_live"
-      }
-    },
-    {
-      "asset": "gold",
-      "name": "Gold Futures",
-      "symbol": "GC=F",
-      "market_type": "traditional",
-      "details_page": "asset.html?asset=gold",
-      "price": {
-        "current_usd": 5137.105,
-        "change_24h_pct": 0.6475243703290667,
-        "change_7d_pct": null,
-        "change_30d_pct": null
-      },
-      "indicators": {
-        "trend": "SIDEWAYS",
-        "momentum": "N/A",
-        "volatility": "N/A"
-      },
-      "valuation": {
-        "verdict": "Insufficient data",
-        "band": "fair",
-        "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
-        "score": null
-      },
-      "updated_at": "2026-03-04T15:49:00.751111+00:00",
-      "source": {
-        "short_term": "stooq_live"
-      }
-    },
-    {
-      "asset": "oil",
-      "name": "Crude Oil Futures",
-      "symbol": "CL=F",
-      "market_type": "traditional",
-      "details_page": "asset.html?asset=oil",
-      "price": {
-        "current_usd": 74.0,
-        "change_24h_pct": -1.2016021361815787,
-        "change_7d_pct": null,
-        "change_30d_pct": null
-      },
-      "indicators": {
-        "trend": "DOWNTREND",
-        "momentum": "N/A",
-        "volatility": "N/A"
-      },
-      "valuation": {
-        "verdict": "Insufficient data",
-        "band": "fair",
-        "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
-        "score": null
-      },
-      "updated_at": "2026-03-04T15:49:00.751362+00:00",
+      "updated_at": "2026-03-05T15:58:07.005055+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -201,72 +201,72 @@
   ],
   "overview_news": [
     {
-      "title": "Coinbase, Strategy lead crypto stocks higher as bitcoin spikes above $72,000",
-      "url": "https://www.coindesk.com/markets/2026/03/04/coinbase-strategy-lead-crypto-stocks-higher-as-bitcoin-spikes-above-usd72-000",
-      "published_at": "Wed, 04 Mar 2026 15:11:19 +0000",
+      "title": "CoinDesk 20 performance update: Stellar (XLM) drops 3.5% as nearly all assets decline",
+      "url": "https://www.coindesk.com/coindesk-indices/2026/03/05/coindesk-20-performance-update-stellar-xlm-drops-3-5-as-nearly-all-assets-decline",
+      "published_at": "Thu, 05 Mar 2026 14:13:31 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin 'air pocket' above $72,000 could mean quick run to $80,000",
-      "url": "https://www.coindesk.com/markets/2026/03/04/bitcoin-air-pocket-above-usd72-000-could-mean-quick-run-to-usd80-000",
-      "published_at": "Wed, 04 Mar 2026 14:58:25 +0000",
+      "title": "Core Scientific secures up to $1 billion loan facility from Morgan Stanley",
+      "url": "https://www.coindesk.com/markets/2026/03/05/core-scientific-secures-up-to-usd1-billion-loan-facility-from-morgan-stanley",
+      "published_at": "Thu, 05 Mar 2026 13:52:37 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "CoinDesk 20 performance update: Solana (SOL) gains 5.6%, leading index higher",
-      "url": "https://www.coindesk.com/coindesk-indices/2026/03/04/coindesk-20-performance-update-solana-sol-gains-5-6-leading-index-higher",
-      "published_at": "Wed, 04 Mar 2026 14:28:02 +0000",
+      "title": "Bitcoin\u2019s drawdown hasn\u2019t shaken institutional investors yet, says CoinShares",
+      "url": "https://www.coindesk.com/markets/2026/03/05/bitcoin-s-drawdown-hasn-t-shaken-institutional-investors-yet-says-coinshares",
+      "published_at": "Thu, 05 Mar 2026 13:50:50 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Ex-Binance communications lead joins stablecoin specialist KAST",
-      "url": "https://www.coindesk.com/business/2026/03/03/ex-binance-comms-lead-joins-stablecoin-specialist-kast",
-      "published_at": "Wed, 04 Mar 2026 14:00:00 +0000",
+      "title": "Crypto-friendly fintech giant Revolut files for U.S. banking license",
+      "url": "https://www.coindesk.com/policy/2026/03/05/crypto-friendly-fintech-giant-revolut-files-for-u-s-banking-license",
+      "published_at": "Thu, 05 Mar 2026 13:08:44 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Sui\u2019s native stablecoin goes live with promise of Treasury yield going back to the network",
-      "url": "https://www.coindesk.com/business/2026/03/04/sui-s-native-stablecoin-goes-live-with-promise-of-treasury-yield-going-back-to-the-network",
-      "published_at": "Wed, 04 Mar 2026 14:00:00 +0000",
+      "title": "New York Stock Exchange owner values crypto exchange OKX at $25 billion in new partnership",
+      "url": "https://www.coindesk.com/business/2026/03/05/nyse-owner-ice-forges-strategic-partnership-with-crypto-exchange-okx",
+      "published_at": "Thu, 05 Mar 2026 12:40:19 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Stablecoin giant Tether invests $50 million in sleep technology startup Eight Sleep",
-      "url": "https://www.coindesk.com/business/2026/03/04/stablecoin-giant-tether-invests-usd50-million-in-sleep-technology-startup-eight-sleep",
-      "published_at": "Wed, 04 Mar 2026 13:57:03 +0000",
+      "title": "Bitcoin takes aim at $74,000. Surprisingly, the dollar's rallying too.",
+      "url": "https://www.coindesk.com/daybook-us/2026/03/05/bitcoin-takes-aim-at-usd74-000-surprisingly-the-dollar-s-rallying-too",
+      "published_at": "Thu, 05 Mar 2026 12:19:30 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Trump\u2019s crypto adviser rejects Jamie Dimon on treating yield-bearing stablecoins like banks",
-      "url": "https://www.coindesk.com/policy/2026/03/04/trump-s-crypto-adviser-rejects-dimon-on-treating-yield-bearing-stablecoins-like-banks",
-      "published_at": "Wed, 04 Mar 2026 13:16:40 +0000",
+      "title": "Bitcoin holds above $72,000 as crypto market pauses after breakout",
+      "url": "https://www.coindesk.com/markets/2026/03/05/bitcoin-holds-above-usd72-000-as-crypto-market-pauses-after-breakout",
+      "published_at": "Thu, 05 Mar 2026 11:39:38 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Market infrastructure firms warn tokenized securities face higher costs, split liquidity without interoperability",
-      "url": "https://www.coindesk.com/markets/2026/03/04/market-infrastructure-firms-warn-tokenized-securities-face-higher-costs-split-liquidity-without-interoperability",
-      "published_at": "Wed, 04 Mar 2026 13:00:00 +0000",
+      "title": "Trump-backed American Bitcoin board members scoop up stock following earnings",
+      "url": "https://www.coindesk.com/business/2026/03/05/trump-backed-american-bitcoin-board-members-scoop-up-stock-following-earnings",
+      "published_at": "Thu, 05 Mar 2026 11:30:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Here's why bitcoin climbed through $71,000",
-      "url": "https://www.coindesk.com/daybook-us/2026/03/04/here-s-why-bitcoin-climbed-through-usd71-000",
-      "published_at": "Wed, 04 Mar 2026 12:15:00 +0000",
+      "title": "Andreessen Horowitz crypto arm said to seek $2 billion for fifth fund: Fortune",
+      "url": "https://www.coindesk.com/business/2026/03/05/andreessen-horowitz-crypto-arm-said-to-seek-usd2-billion-for-fifth-fund-fortune",
+      "published_at": "Thu, 05 Mar 2026 11:10:56 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Morgan Stanley taps Coinbase and BNY for custody in proposed Bitcoin ETF",
-      "url": "https://www.coindesk.com/markets/2026/03/04/morgan-stanley-taps-coinbase-and-bny-mellon-for-custody-in-proposed-bitcoin-etf",
-      "published_at": "Wed, 04 Mar 2026 11:59:43 +0000",
+      "title": "Chamath Palihapitiya questions bitcoin\u2019s role as central bank reserve asset",
+      "url": "https://www.coindesk.com/markets/2026/03/05/chamath-palihapitiya-questions-bitcoin-s-role-as-central-bank-reserve-asset",
+      "published_at": "Thu, 05 Mar 2026 11:07:03 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
