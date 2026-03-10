@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-09T16:06:27.810902+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-03-09 15:58 UTC_",
+  "generated_at": "2026-03-10T16:07:54.923921+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-03-10 15:59 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,10 +9,10 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 68961.0,
+        "current_usd": 71216.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": 0.14,
-        "change_30d_pct": -0.48
+        "change_7d_pct": 4.24,
+        "change_30d_pct": 0.95
       },
       "indicators": {
         "trend": "UPTREND",
@@ -23,9 +23,9 @@
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
         "summary_line": "Fair - Balanced growth profile - Elevated regulatory risk.",
-        "score": 56.3
+        "score": 57.4
       },
-      "updated_at": "2026-03-09T16:06:27.808299+00:00",
+      "updated_at": "2026-03-10T16:07:54.921633+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,10 +37,10 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 2027.0,
+        "current_usd": 2075.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": -0.14,
-        "change_30d_pct": -3.08
+        "change_7d_pct": 4.65,
+        "change_30d_pct": -0.97
       },
       "indicators": {
         "trend": "UPTREND",
@@ -51,9 +51,9 @@
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
         "summary_line": "Fair - Strong growth profile - Elevated regulatory risk.",
-        "score": 58.7
+        "score": 59.5
       },
-      "updated_at": "2026-03-09T16:06:27.809111+00:00",
+      "updated_at": "2026-03-10T16:07:54.922434+00:00",
       "source": {
         "short_term": "live"
       }
@@ -65,8 +65,8 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=spy",
       "price": {
-        "current_usd": 669.1367,
-        "change_24h_pct": 0.41217605306203,
+        "current_usd": 681.29,
+        "change_24h_pct": 0.5304746235400781,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
@@ -81,7 +81,7 @@
         "summary_line": "Fair - Strong growth profile - Elevated regulatory risk.",
         "score": 48.6
       },
-      "updated_at": "2026-03-09T16:06:27.809439+00:00",
+      "updated_at": "2026-03-10T16:07:54.922720+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -93,8 +93,8 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=qqq",
       "price": {
-        "current_usd": 598.89,
-        "change_24h_pct": 0.7892965331538049,
+        "current_usd": 611.5,
+        "change_24h_pct": 0.6120635756359238,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Strong growth profile - Elevated regulatory risk.",
         "score": 35.5
       },
-      "updated_at": "2026-03-09T16:06:27.809723+00:00",
+      "updated_at": "2026-03-10T16:07:54.922973+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -121,8 +121,8 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=nvda",
       "price": {
-        "current_usd": 179.3251,
-        "change_24h_pct": 1.4110162302776619,
+        "current_usd": 185.69,
+        "change_24h_pct": 1.8037280701754366,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
@@ -137,7 +137,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Elevated regulatory risk.",
         "score": 0.0
       },
-      "updated_at": "2026-03-09T16:06:27.810005+00:00",
+      "updated_at": "2026-03-10T16:07:54.923191+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -149,13 +149,13 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=gold",
       "price": {
-        "current_usd": 5107.38,
-        "change_24h_pct": -0.44986219559259855,
+        "current_usd": 5225.48,
+        "change_24h_pct": 1.4063624949301357,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
       "indicators": {
-        "trend": "SIDEWAYS",
+        "trend": "UPTREND",
         "momentum": "N/A",
         "volatility": "N/A"
       },
@@ -165,7 +165,7 @@
         "summary_line": "Overvalued - Strong growth profile - Elevated regulatory risk.",
         "score": 38.5
       },
-      "updated_at": "2026-03-09T16:06:27.810294+00:00",
+      "updated_at": "2026-03-10T16:07:54.923414+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -177,8 +177,8 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=oil",
       "price": {
-        "current_usd": 96.4,
-        "change_24h_pct": -9.695550351288052,
+        "current_usd": 85.4,
+        "change_24h_pct": -2.82203004096494,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
@@ -193,7 +193,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-03-09T16:06:27.810560+00:00",
+      "updated_at": "2026-03-10T16:07:54.923650+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -201,72 +201,72 @@
   ],
   "overview_news": [
     {
-      "title": "Bitcoin rises to $69,000, stocks reverse big early losses, as crude oil sinks back below $100",
-      "url": "https://www.coindesk.com/markets/2026/03/09/bitcoin-rises-to-usd69-000-stocks-reverse-big-early-losses-as-crude-oil-sinks-back-below-usd100",
-      "published_at": "Mon, 09 Mar 2026 16:02:15 +0000",
+      "title": "Bitcoin climbs past $71,000 as oil shock fears continue to ease",
+      "url": "https://www.coindesk.com/markets/2026/03/10/bitcoin-climbs-past-usd71-000-as-oil-shock-fears-continue-to-ease",
+      "published_at": "Tue, 10 Mar 2026 15:58:46 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Josh Swihart's Zcash Open Development Lab raises $25 million in seed funding",
-      "url": "https://www.coindesk.com/business/2026/03/09/josh-swihart-s-zcash-open-development-lab-raises-usd25-million-in-seed-funding",
-      "published_at": "Mon, 09 Mar 2026 15:26:59 +0000",
+      "title": "CFTC chair highlights wide crypto agenda, including rules on DeFi, prediction markets",
+      "url": "https://www.coindesk.com/policy/2026/03/10/cftc-chair-highlights-wide-crypto-agenda-including-rules-on-defi-prediction-markets",
+      "published_at": "Tue, 10 Mar 2026 15:45:24 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Global insurance broker Aon tests stablecoin payments with Coinbase, Paxos",
-      "url": "https://www.coindesk.com/business/2026/03/09/global-insurance-broker-aon-tests-stablecoin-payments-with-coinbase-paxos",
-      "published_at": "Mon, 09 Mar 2026 15:21:14 +0000",
+      "title": "Vitalik Buterin pushes \u2018DVT-Lite\u2019 to make Ethereum validator setup easier",
+      "url": "https://www.coindesk.com/tech/2026/03/10/vitalik-buterin-pushes-dvt-lite-to-make-ethereum-validator-setup-easier",
+      "published_at": "Tue, 10 Mar 2026 15:30:05 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Stock market volatility hits one-year high, possibly marking bitcoin bottom",
-      "url": "https://www.coindesk.com/markets/2026/03/09/stock-market-volatility-hits-one-year-high-possibly-marking-bitcoin-bottom",
-      "published_at": "Mon, 09 Mar 2026 14:55:27 +0000",
+      "title": "Solana, XRP ETFs take different paths as crypto investors pile in",
+      "url": "https://www.coindesk.com/markets/2026/03/10/solana-etfs-find-institutional-backing-while-xrp-funds-depend-more-on-retail",
+      "published_at": "Tue, 10 Mar 2026 15:20:01 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "'Mini crypto winter' nearly over, says Tom Lee as Bitmine ramps up pace of ether acquisition",
-      "url": "https://www.coindesk.com/business/2026/03/09/mini-crypto-winter-nearly-over-says-tom-lee-as-bitmine-ramps-up-pace-of-ether-acquisition",
-      "published_at": "Mon, 09 Mar 2026 13:51:12 +0000",
+      "title": "Kraken's tokenized stock venue starts points program, hinting at possible ecosystem token",
+      "url": "https://www.coindesk.com/business/2026/03/10/kraken-s-tokenized-stock-venue-starts-points-program-hinting-at-possible-ecosystem-token",
+      "published_at": "Tue, 10 Mar 2026 14:52:08 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "CoinDesk 20 Performance Update: Avalanche (AVAX) Gains 2% as Index Trades Flat",
-      "url": "https://www.coindesk.com/coindesk-indices/2026/03/09/coindesk-20-performance-update-avalanche-avax-gains-2-as-index-trades-flat",
-      "published_at": "Mon, 09 Mar 2026 13:22:43 +0000",
+      "title": "Stablecoin market hits $312 billion as banks, card networks embrace onchain dollars",
+      "url": "https://www.coindesk.com/business/2026/03/10/stablecoins-are-starting-to-reshape-payments-and-banking-macquarie-says",
+      "published_at": "Tue, 10 Mar 2026 14:48:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Crypto doesn\u2019t belong in AI portfolio as it\u2019s \u2018a different animal,\u2019 says tech investor and former Snap exec",
-      "url": "https://www.coindesk.com/markets/2026/03/09/crypto-doesn-t-belong-in-ai-portfolio-as-it-s-a-different-animal-says-tech-investor-and-former-snap-exec",
-      "published_at": "Mon, 09 Mar 2026 13:18:47 +0000",
+      "title": "CoinDesk 20 Performance Update: Stellar (XLM) Gains 5.1%, Leading Index Higher",
+      "url": "https://www.coindesk.com/coindesk-indices/2026/03/10/coindesk-20-performance-update-stellar-xlm-gains-5-1-leading-index-higher",
+      "published_at": "Tue, 10 Mar 2026 13:30:30 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "KAST raises $80 million at $600 million  valuation to expand stablecoin payments platform",
-      "url": "https://www.coindesk.com/business/2026/03/09/kast-raises-usd80-million-at-usd600-million-valuation-to-expand-stablecoin-payments-platform",
-      "published_at": "Mon, 09 Mar 2026 12:43:42 +0000",
+      "title": "Anthropic is suing the U.S. government for allegedly blacklisting its AI",
+      "url": "https://www.coindesk.com/markets/2026/03/10/anthropic-is-suing-the-u-s-government-for-allegedly-blacklisting-its-ai",
+      "published_at": "Tue, 10 Mar 2026 13:10:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bithumb faces proposed 6-month partial ban over South Korea AML breaches",
-      "url": "https://www.coindesk.com/business/2026/03/09/bithumb-faces-proposed-6-month-partial-ban-over-south-korea-aml-breaches",
-      "published_at": "Mon, 09 Mar 2026 12:42:57 +0000",
+      "title": "Slumping Strategy and Strive started with buy ratings at B. Riley",
+      "url": "https://www.coindesk.com/markets/2026/03/10/slumping-strategy-and-strive-started-with-buy-ratings-at-b-riley",
+      "published_at": "Tue, 10 Mar 2026 12:42:03 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "U.S. Treasury signals shift on crypto mixers, acknowledges legitimate privacy uses",
-      "url": "https://www.coindesk.com/policy/2026/03/09/u-s-treasury-signals-shift-on-crypto-mixers-acknowledges-legitimate-privacy-uses",
-      "published_at": "Mon, 09 Mar 2026 12:23:08 +0000",
+      "title": "U.S. requests October retrial for Tornado Cash developer Roman Storm",
+      "url": "https://www.coindesk.com/business/2026/03/10/u-s-requests-october-retrial-for-tornado-cash-developer-roman-storm",
+      "published_at": "Tue, 10 Mar 2026 12:17:06 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }

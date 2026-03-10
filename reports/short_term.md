@@ -1,12 +1,12 @@
 # Short-Term Crypto Tactical Brief
 
-_Generated automatically - 2026-03-09 16:05 UTC_
+_Generated automatically - 2026-03-10 16:06 UTC_
 
 ## Bitcoin (BTC)
 
-- **Current price:** $68,961
-- **7D change:** 0.14%
-- **30D change:** -0.48%
+- **Current price:** $71,216
+- **7D change:** 4.24%
+- **30D change:** 0.95%
 - **Trend:** **UPTREND**
 - **Momentum:** **STRONG**
 - **Volatility:** **NORMAL**
@@ -19,13 +19,13 @@ _Generated automatically - 2026-03-09 16:05 UTC_
 
 ### Momentum Engine
 
-- **Speedometer (EMA20/EMA50):** $67,824 / $67,611.
-- **Velocity (ROC 6h / 24h):** +1.40% / +2.62%.
-- **Stamina meter (RSI 14):** 76.4
+- **Speedometer (EMA20/EMA50):** $70,075 / $69,068.
+- **Velocity (ROC 6h / 24h):** +0.18% / +3.37%.
+- **Stamina meter (RSI 14):** 64.1
 
 ### Truth Layer (Order Flow & Volume)
 
-- **CVD proxy:** -624.46%.
+- **CVD proxy:** -280.04%.
 - **Fakeout warning:** Price is rising but CVD proxy is not confirming (low-liquidity pump risk).
 - **Order-book imbalance (OBI):** unavailable.
 - **Depth note:** Order book unavailable.
@@ -40,7 +40,7 @@ _Generated automatically - 2026-03-09 16:05 UTC_
 
 - **Battle Zone (Support):** $66,036
 - **Target (Resistance):** $72,670
-- **Stop-loss (ATR proxy):** $65,813
+- **Stop-loss (ATR proxy):** $65,728
 
 ### Final Entry Signal
 
@@ -51,9 +51,9 @@ _Generated automatically - 2026-03-09 16:05 UTC_
 
 ## Ethereum (ETH)
 
-- **Current price:** $2,027
-- **7D change:** -0.14%
-- **30D change:** -3.08%
+- **Current price:** $2,075
+- **7D change:** 4.65%
+- **30D change:** -0.97%
 - **Trend:** **UPTREND**
 - **Momentum:** **STRONG**
 - **Volatility:** **NORMAL**
@@ -66,14 +66,14 @@ _Generated automatically - 2026-03-09 16:05 UTC_
 
 ### Momentum Engine
 
-- **Speedometer (EMA20/EMA50):** $1,990 / $1,976.
-- **Velocity (ROC 6h / 24h):** +1.11% / +4.36%.
-- **Stamina meter (RSI 14):** 76.0
+- **Speedometer (EMA20/EMA50):** $2,044 / $2,017.
+- **Velocity (ROC 6h / 24h):** +0.21% / +2.42%.
+- **Stamina meter (RSI 14):** 66.1
 
 ### Truth Layer (Order Flow & Volume)
 
-- **CVD proxy:** -473.38%.
-- **Validation:** Volume proxy is broadly aligned with price direction.
+- **CVD proxy:** -357.51%.
+- **Fakeout warning:** Price is rising but CVD proxy is not confirming (low-liquidity pump risk).
 - **Order-book imbalance (OBI):** unavailable.
 - **Depth note:** Order book unavailable.
 
@@ -87,11 +87,11 @@ _Generated automatically - 2026-03-09 16:05 UTC_
 
 - **Battle Zone (Support):** $1,939
 - **Target (Resistance):** $2,126
-- **Stop-loss (ATR proxy):** $1,931
+- **Stop-loss (ATR proxy):** $1,929
 
 ### Final Entry Signal
 
-- **Action:** Buy pullbacks
+- **Action:** Fakeout warning
 - **Validation chain:** Trend -> CVD -> Order Book -> Leverage trap.
 
 ---

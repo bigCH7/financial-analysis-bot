@@ -1,6 +1,6 @@
 # Long-Term Multi-Asset Analysis Report
 
-_Updated: 2026-03-09 15:58 UTC_
+_Updated: 2026-03-10 15:59 UTC_
 
 ## Framework
 
@@ -32,7 +32,7 @@ _Data sources: CoinGecko history (live), CoinGecko fundamentals (live)_
 ### Status Check (5-Second View)
 
 - **Market mood:** Defensive
-- **Simple action right now:** Wait for trend stability near $95,202 before adding size.
+- **Simple action right now:** Wait for trend stability near $94,971 before adding size.
 - **Plain-English read:** Bitcoin is in a caution zone right now: risk is high, so patience matters more than speed.
 
 ### One-line Summary
@@ -41,8 +41,8 @@ Long-term: Fair - Balanced growth profile - Elevated regulatory risk.
 
 ### Quick Score Snapshot
 
-- **Pill:** GRAY Fair (56.3)
-- **Composite score:** 56.3/100 | **Confidence:** 100.0/100
+- **Pill:** GRAY Fair (57.4)
+- **Composite score:** 57.4/100 | **Confidence:** 100.0/100
 - **Valuation band:** fair
 - **Fast read:** Supply and usage are solid, but the main drag is the risk backdrop.
 
@@ -51,31 +51,31 @@ Long-term: Fair - Balanced growth profile - Elevated regulatory risk.
 | Big Question | Score | Traffic Light | What It Means |
 |---|---:|---|---|
 | Scarcity & Supply | 100.0 | GREEN - Healthy | Is there too much being created? Current read: Supply discipline and valuation are supportive. |
-| Usage & Popularity | 59.0 | YELLOW - Caution | Are people actually using it? Current read: Network activity is stable but not accelerating. |
-| Safety & Rules | 30.7 | RED - Warning | Could policy or market stress hurt it? Current read: Macro and liquidity risks are elevated. |
+| Usage & Popularity | 59.8 | YELLOW - Caution | Are people actually using it? Current read: Network activity is stable but not accelerating. |
+| Safety & Rules | 32.4 | RED - Warning | Could policy or market stress hurt it? Current read: Macro and liquidity risks are elevated. |
 
 ### Translation Layer (So-What)
 
-- **Price vs 200-day average:** 0.72x. Translation: **RED - Warning**. Below 1.00 often means a cooling phase and potentially better long-term entries.
-- **NVT proxy:** 26.62. Translation: **GREEN - Healthy**. High NVT can mean price is outrunning real network use.
-- **Turnover (Vol/Cap):** +3.76%. Translation: **RED - Warning**. Higher turnover usually means easier entry/exit liquidity.
+- **Price vs 200-day average:** 0.75x. Translation: **RED - Warning**. Below 1.00 often means a cooling phase and potentially better long-term entries.
+- **NVT proxy:** 25.48. Translation: **GREEN - Healthy**. High NVT can mean price is outrunning real network use.
+- **Turnover (Vol/Cap):** +3.92%. Translation: **RED - Warning**. Higher turnover usually means easier entry/exit liquidity.
 - **Max drawdown (1y):** -49.63%. Translation: **YELLOW - Caution**. This is the historical pain you had to survive to hold long term.
-- **SSR (Fuel Gauge):** 4.45 (stablecoin cap source: live). Translation: **GREEN - Healthy**. Lower SSR usually means more sidelined buying power exists.
-- **Cost Basis Proxy (Price vs Realized Proxy):** -27.52%. Translation: **RED - Warning**. Below 0% often means broader holder pain and potential capitulation zones.
+- **SSR (Fuel Gauge):** 4.56 (stablecoin cap source: live). Translation: **GREEN - Healthy**. Lower SSR usually means more sidelined buying power exists.
+- **Cost Basis Proxy (Price vs Realized Proxy):** -24.97%. Translation: **RED - Warning**. Below 0% often means broader holder pain and potential capitulation zones.
 
 ### Advanced Criteria (Tiered)
 
-- **Whale Watch (Beginner):** Are big players buying or selling? **Proxy score: 97.1 (GREEN - Healthy)**.
+- **Whale Watch (Beginner):** Are big players buying or selling? **Proxy score: 96.4 (GREEN - Healthy)**.
   **Intermediate:** Concentration Risk proxy = **100.0** based on circulating/FDV structure.
   **Technical:** Whale transaction count and true holder concentration need dedicated on-chain feeds (not in this public snapshot).
   **12M conclusion:** If whale-pressure proxy improves while price is flat, odds of a silent accumulation phase improve.
 
-- **Stablecoin Supply Ratio (Beginner Fuel Gauge):** SSR = **4.45**.
+- **Stablecoin Supply Ratio (Beginner Fuel Gauge):** SSR = **4.56**.
   **Intermediate:** Lower SSR means more dry powder relative to BTC size.
   **Technical:** Stablecoin mint velocity and exchange inflow velocity require dedicated flow datasets.
   **12M conclusion:** Lower-to-mid SSR supports rally potential if risk conditions stabilize.
 
-- **Cost Basis (Beginner):** Current vs realized-price proxy gap = **-27.52%**.
+- **Cost Basis (Beginner):** Current vs realized-price proxy gap = **-24.97%**.
   **Intermediate:** Positive gap suggests market above aggregate cost basis proxy; negative gap suggests pain/capitulation risk.
   **Technical:** Full realized cap and MVRV Z-score need realized-cap series from on-chain providers.
   **12M conclusion:** Deep negative gaps historically improve long-term entry quality, but timing remains volatile.
@@ -85,7 +85,7 @@ Long-term: Fair - Balanced growth profile - Elevated regulatory risk.
   **Technical:** Multi-chain developer retention and grant-quality trends require ecosystem-level datasets.
   **12M conclusion:** Sustained dev activity supports innovation moat and lowers zombie-project risk.
 
-- **HODL Waves / Supply Age (Beginner Conviction Meter):** **Proxy score: 95.0 (GREEN - Healthy)**.
+- **HODL Waves / Supply Age (Beginner Conviction Meter):** **Proxy score: 93.8 (GREEN - Healthy)**.
   **Intermediate:** Lower turnover often aligns with older supply staying locked.
   **Technical:** True HODL wave bands and RHODL ratio need UTXO-age datasets.
   **12M conclusion:** Rising conviction proxy supports supply tightening; sharp drops can signal old-holder distribution.
@@ -100,10 +100,10 @@ Long-term: Fair - Balanced growth profile - Elevated regulatory risk.
 
 | Scenario | Target | Implied Move | Market Narrative |
 |---|---:|---:|---|
-| Bull: Hyper-Institutionalization (Prob 25%) | $112,950 | +63.70% | Global easing + stronger sovereign and ETF demand reduce liquid float. |
-| Base: Cycle Maturity (Prob 50%) | $101,651 | +47.32% | Steady institutional inflows with no retail mania phase. |
-| Bear: Liquidity Vacuum (Prob 25%) | $84,931 | +23.09% | High real rates + tighter regulation + persistent ETF outflows. |
-- Invalidation anchor: if price fails to hold trend near **$95,202**, risk rises.
+| Bull: Hyper-Institutionalization (Prob 25%) | $112,950 | +58.51% | Global easing + stronger sovereign and ETF demand reduce liquid float. |
+| Base: Cycle Maturity (Prob 50%) | $101,651 | +42.66% | Steady institutional inflows with no retail mania phase. |
+| Bear: Liquidity Vacuum (Prob 25%) | $84,931 | +19.19% | High real rates + tighter regulation + persistent ETF outflows. |
+- Invalidation anchor: if price fails to hold trend near **$94,971**, risk rises.
 
 ### Method Notes
 
@@ -113,14 +113,14 @@ Long-term: Fair - Balanced growth profile - Elevated regulatory risk.
 
 ### Next Step (What To Do Today)
 
-- **For the Conservative Investor:** Wait for trend stability near $95,202 before adding size.
+- **For the Conservative Investor:** Wait for trend stability near $94,971 before adding size.
 - **For the Aggressive Investor:** Take only partial entries and wait for confirmation before increasing risk; watch macro sensitivity and narrative durability.
 
 ### Final Verdict
 
 Long-term stance: Neutral / fair-value zone.
-Combined read: BTC is in a defensive regime with a composite score of 56.3/100 (confidence 100.0/100). Scarcity & Supply is 100.0, Usage & Popularity is 59.0, and Safety & Rules is 30.7. Whale-watch proxy is 97.1, SSR fuel gauge is 4.45, developer vitality is 68.4, and conviction proxy is 95.0. Valuation sits in the fair band, while the key watch item is to watch macro sensitivity and narrative durability; base-case path points to $101,651 (+47.32%) with upside to $112,950 and downside to $84,931.
-- **Pill check:** GRAY Fair (56.3)
+Combined read: BTC is in a defensive regime with a composite score of 57.4/100 (confidence 100.0/100). Scarcity & Supply is 100.0, Usage & Popularity is 59.8, and Safety & Rules is 32.4. Whale-watch proxy is 96.4, SSR fuel gauge is 4.56, developer vitality is 68.4, and conviction proxy is 93.8. Valuation sits in the fair band, while the key watch item is to watch macro sensitivity and narrative durability; base-case path points to $101,651 (+42.66%) with upside to $112,950 and downside to $84,931.
+- **Pill check:** GRAY Fair (57.4)
 
 ---
 ## Ethereum (ETH)
@@ -130,7 +130,7 @@ _Data sources: CoinGecko history (live), CoinGecko fundamentals (live)_
 ### Status Check (5-Second View)
 
 - **Market mood:** Defensive
-- **Simple action right now:** Wait for trend stability near $3,313 before adding size.
+- **Simple action right now:** Wait for trend stability near $3,299 before adding size.
 - **Plain-English read:** Ethereum is in a caution zone right now: risk is high, so patience matters more than speed.
 
 ### One-line Summary
@@ -139,8 +139,8 @@ Long-term: Fair - Strong growth profile - Elevated regulatory risk.
 
 ### Quick Score Snapshot
 
-- **Pill:** GRAY Fair (58.7)
-- **Composite score:** 58.7/100 | **Confidence:** 100.0/100
+- **Pill:** GRAY Fair (59.5)
+- **Composite score:** 59.5/100 | **Confidence:** 100.0/100
 - **Valuation band:** fair
 - **Fast read:** Supply and usage are solid, but the main drag is the risk backdrop.
 
@@ -150,30 +150,30 @@ Long-term: Fair - Strong growth profile - Elevated regulatory risk.
 |---|---:|---|---|
 | Scarcity & Supply | 100.0 | GREEN - Healthy | Is there too much being created? Current read: Supply discipline and valuation are supportive. |
 | Usage & Popularity | 60.1 | YELLOW - Caution | Are people actually using it? Current read: Network activity is stable but not accelerating. |
-| Safety & Rules | 35.7 | RED - Warning | Could policy or market stress hurt it? Current read: Macro and liquidity risks are elevated. |
+| Safety & Rules | 38.2 | RED - Warning | Could policy or market stress hurt it? Current read: Macro and liquidity risks are elevated. |
 
 ### Translation Layer (So-What)
 
-- **Price vs 200-day average:** 0.61x. Translation: **RED - Warning**. Below 1.00 often means a cooling phase and potentially better long-term entries.
-- **NVT proxy:** 10.62. Translation: **GREEN - Healthy**. High NVT can mean price is outrunning real network use.
-- **Turnover (Vol/Cap):** +9.42%. Translation: **GREEN - Healthy**. Higher turnover usually means easier entry/exit liquidity.
+- **Price vs 200-day average:** 0.63x. Translation: **RED - Warning**. Below 1.00 often means a cooling phase and potentially better long-term entries.
+- **NVT proxy:** 10.00. Translation: **GREEN - Healthy**. High NVT can mean price is outrunning real network use.
+- **Turnover (Vol/Cap):** +10.00%. Translation: **GREEN - Healthy**. Higher turnover usually means easier entry/exit liquidity.
 - **Max drawdown (1y):** -62.30%. Translation: **RED - Warning**. This is the historical pain you had to survive to hold long term.
-- **SSR (Fuel Gauge):** 0.79 (stablecoin cap source: live). Translation: **GREEN - Healthy**. Lower SSR usually means more sidelined buying power exists.
-- **Cost Basis Proxy (Price vs Realized Proxy):** -38.85%. Translation: **RED - Warning**. Below 0% often means broader holder pain and potential capitulation zones.
+- **SSR (Fuel Gauge):** 0.80 (stablecoin cap source: live). Translation: **GREEN - Healthy**. Lower SSR usually means more sidelined buying power exists.
+- **Cost Basis Proxy (Price vs Realized Proxy):** -37.01%. Translation: **RED - Warning**. Below 0% often means broader holder pain and potential capitulation zones.
 
 ### Advanced Criteria (Tiered)
 
-- **Whale Watch (Beginner):** Are big players buying or selling? **Proxy score: 75.3 (GREEN - Healthy)**.
+- **Whale Watch (Beginner):** Are big players buying or selling? **Proxy score: 73.1 (GREEN - Healthy)**.
   **Intermediate:** Concentration Risk proxy = **100.0** based on circulating/FDV structure.
   **Technical:** Whale transaction count and true holder concentration need dedicated on-chain feeds (not in this public snapshot).
   **12M conclusion:** If whale-pressure proxy improves while price is flat, odds of a silent accumulation phase improve.
 
-- **Stablecoin Supply Ratio (Beginner Fuel Gauge):** SSR = **0.79**.
+- **Stablecoin Supply Ratio (Beginner Fuel Gauge):** SSR = **0.80**.
   **Intermediate:** Lower SSR means more dry powder relative to BTC size.
   **Technical:** Stablecoin mint velocity and exchange inflow velocity require dedicated flow datasets.
   **12M conclusion:** Lower-to-mid SSR supports rally potential if risk conditions stabilize.
 
-- **Cost Basis (Beginner):** Current vs realized-price proxy gap = **-38.85%**.
+- **Cost Basis (Beginner):** Current vs realized-price proxy gap = **-37.01%**.
   **Intermediate:** Positive gap suggests market above aggregate cost basis proxy; negative gap suggests pain/capitulation risk.
   **Technical:** Full realized cap and MVRV Z-score need realized-cap series from on-chain providers.
   **12M conclusion:** Deep negative gaps historically improve long-term entry quality, but timing remains volatile.
@@ -183,7 +183,7 @@ Long-term: Fair - Strong growth profile - Elevated regulatory risk.
   **Technical:** Multi-chain developer retention and grant-quality trends require ecosystem-level datasets.
   **12M conclusion:** Sustained dev activity supports innovation moat and lowers zombie-project risk.
 
-- **HODL Waves / Supply Age (Beginner Conviction Meter):** **Proxy score: 57.2 (YELLOW - Caution)**.
+- **HODL Waves / Supply Age (Beginner Conviction Meter):** **Proxy score: 53.3 (YELLOW - Caution)**.
   **Intermediate:** Lower turnover often aligns with older supply staying locked.
   **Technical:** True HODL wave bands and RHODL ratio need UTXO-age datasets.
   **12M conclusion:** Rising conviction proxy supports supply tightening; sharp drops can signal old-holder distribution.
@@ -198,10 +198,10 @@ Long-term: Fair - Strong growth profile - Elevated regulatory risk.
 
 | Scenario | Target | Implied Move | Market Narrative |
 |---|---:|---:|---|
-| Bull: Utility Expansion (Prob 25%) | $3,911 | +93.07% | On-chain adoption accelerates while macro stays supportive. |
-| Base: Adoption Grind (Prob 50%) | $2,949 | +45.58% | Usage growth continues gradually without euphoric leverage. |
-| Bear: Risk-Off Deleveraging (Prob 25%) | $2,001 | -1.23% | Risk-off regime reduces activity and compresses multiples. |
-- Invalidation anchor: if price fails to hold trend near **$3,313**, risk rises.
+| Bull: Utility Expansion (Prob 25%) | $3,911 | +88.22% | On-chain adoption accelerates while macro stays supportive. |
+| Base: Adoption Grind (Prob 50%) | $2,949 | +41.93% | Usage growth continues gradually without euphoric leverage. |
+| Bear: Risk-Off Deleveraging (Prob 25%) | $2,001 | -3.72% | Risk-off regime reduces activity and compresses multiples. |
+- Invalidation anchor: if price fails to hold trend near **$3,299**, risk rises.
 
 ### Method Notes
 
@@ -211,14 +211,14 @@ Long-term: Fair - Strong growth profile - Elevated regulatory risk.
 
 ### Next Step (What To Do Today)
 
-- **For the Conservative Investor:** Wait for trend stability near $3,313 before adding size.
+- **For the Conservative Investor:** Wait for trend stability near $3,299 before adding size.
 - **For the Aggressive Investor:** Take only partial entries and wait for confirmation before increasing risk; watch macro sensitivity and narrative durability.
 
 ### Final Verdict
 
 Long-term stance: Neutral / fair-value zone.
-Combined read: ETH is in a defensive regime with a composite score of 58.7/100 (confidence 100.0/100). Scarcity & Supply is 100.0, Usage & Popularity is 60.1, and Safety & Rules is 35.7. Whale-watch proxy is 75.3, SSR fuel gauge is 0.79, developer vitality is 53.6, and conviction proxy is 57.2. Valuation sits in the fair band, while the key watch item is to watch macro sensitivity and narrative durability; base-case path points to $2,949 (+45.58%) with upside to $3,911 and downside to $2,001.
-- **Pill check:** GRAY Fair (58.7)
+Combined read: ETH is in a defensive regime with a composite score of 59.5/100 (confidence 100.0/100). Scarcity & Supply is 100.0, Usage & Popularity is 60.1, and Safety & Rules is 38.2. Whale-watch proxy is 73.1, SSR fuel gauge is 0.80, developer vitality is 53.6, and conviction proxy is 53.3. Valuation sits in the fair band, while the key watch item is to watch macro sensitivity and narrative durability; base-case path points to $2,949 (+41.93%) with upside to $3,911 and downside to $2,001.
+- **Pill check:** GRAY Fair (59.5)
 
 ---
 ## S&P 500 ETF (SPY)
@@ -228,7 +228,7 @@ _Data sources: Yahoo summary (unavailable), Yahoo quote (unavailable), Alpha ove
 ### Status Check (5-Second View)
 
 - **Market mood:** Defensive
-- **Simple action right now:** Wait for a pullback and trend stabilization near $605.81 before adding.
+- **Simple action right now:** Wait for a pullback and trend stabilization near $606.06 before adding.
 - **Plain-English read:** S&P 500 ETF is in a caution zone right now: risk is high, so patience matters more than speed.
 
 ### One-line Summary
@@ -288,11 +288,11 @@ Warning: Fundamental data is currently hidden. Analysis is relying strictly on p
 
 | Scenario | Target | Implied Move | Market Narrative |
 |---|---:|---:|---|
-| Bull: Broad Risk-On Expansion (Prob 25%) | $820.30 | +22.00% | Growth holds and policy turns more accommodative. |
-| Base: Mid-Cycle Grind (Prob 50%) | $726.17 | +8.00% | Range-bound macro with steady earnings delivery. |
-| Bear: Macro De-Leveraging (Prob 25%) | $461.82 | -31.32% | Liquidity tightens and risk premium reprices higher. |
+| Bull: Broad Risk-On Expansion (Prob 25%) | $827.49 | +22.00% | Growth holds and policy turns more accommodative. |
+| Base: Mid-Cycle Grind (Prob 50%) | $732.53 | +8.00% | Range-bound macro with steady earnings delivery. |
+| Bear: Macro De-Leveraging (Prob 25%) | $465.86 | -31.32% | Liquidity tightens and risk premium reprices higher. |
 - Scenario limits follow market reality: bear paths are bounded to historical drawdown ranges, not extreme collapse assumptions.
-- Invalidation anchor: if price fails to hold trend near **$605.81**, risk rises.
+- Invalidation anchor: if price fails to hold trend near **$606.06**, risk rises.
 
 ### Method Notes
 
@@ -302,13 +302,13 @@ Warning: Fundamental data is currently hidden. Analysis is relying strictly on p
 
 ### Next Step (What To Do Today)
 
-- **For the Conservative Investor:** Wait for a pullback and trend stabilization near $605.81 before adding.
+- **For the Conservative Investor:** Wait for a pullback and trend stabilization near $606.06 before adding.
 - **For the Aggressive Investor:** Take only partial entries and wait for confirmation before increasing risk; watch valuation stretch versus history.
 
 ### Final Verdict
 
 Long-term stance: Neutral / fair-value zone.
-Combined read: SPY is in a defensive regime with a composite score of 48.6/100 (confidence 74.5/100). Scarcity & Supply is 0.0, Usage & Popularity is 91.4, and Safety & Rules is 9.8. Borrowing cost backdrop is N/A% (GRAY - Limited data), earnings-vs-bond spread is N/A pts (GRAY - Limited data), and concentration risk is 26.0% top-5 weight. Valuation sits in the fair band, while the key watch item is to watch valuation stretch versus history; base-case path points to $726.17 (+8.00%) with upside to $820.30 and downside to $461.82.
+Combined read: SPY is in a defensive regime with a composite score of 48.6/100 (confidence 74.5/100). Scarcity & Supply is 0.0, Usage & Popularity is 91.4, and Safety & Rules is 9.8. Borrowing cost backdrop is N/A% (GRAY - Limited data), earnings-vs-bond spread is N/A pts (GRAY - Limited data), and concentration risk is 26.0% top-5 weight. Valuation sits in the fair band, while the key watch item is to watch valuation stretch versus history; base-case path points to $732.53 (+8.00%) with upside to $827.49 and downside to $465.86.
 - **Pill check:** GRAY Fair (48.6)
 
 ---
@@ -319,7 +319,7 @@ _Data sources: Yahoo summary (unavailable), Yahoo quote (unavailable), Alpha ove
 ### Status Check (5-Second View)
 
 - **Market mood:** Defensive
-- **Simple action right now:** Wait for a pullback and trend stabilization near $531.60 before adding.
+- **Simple action right now:** Wait for a pullback and trend stabilization near $531.93 before adding.
 - **Plain-English read:** Nasdaq 100 ETF is in a caution zone right now: risk is high, so patience matters more than speed.
 
 ### One-line Summary
@@ -344,7 +344,7 @@ Long-term: Overvalued - Strong growth profile - Elevated regulatory risk.
 - **Valuation vs history:** Valuation-vs-history comparison is limited due to missing fundamentals.
 - **Forward/Trailing P/E:** N/A / N/A
 - **PEG ratio:** N/A (GRAY - Limited data).
-- **Price percentile:** 98.2% (RED - Warning).
+- **Price percentile:** 98.5% (RED - Warning).
 
 ### Engine Room (Earnings & Growth)
 
@@ -379,11 +379,11 @@ Warning: Fundamental data is currently hidden. Analysis is relying strictly on p
 
 | Scenario | Target | Implied Move | Market Narrative |
 |---|---:|---:|---|
-| Bull: Broad Risk-On Expansion (Prob 25%) | $731.79 | +22.00% | Growth holds and policy turns more accommodative. |
-| Base: Mid-Cycle Grind (Prob 50%) | $647.82 | +8.00% | Range-bound macro with steady earnings delivery. |
-| Bear: Macro De-Leveraging (Prob 25%) | $308.02 | -48.65% | Liquidity tightens and risk premium reprices higher. |
+| Bull: Broad Risk-On Expansion (Prob 25%) | $741.41 | +22.00% | Growth holds and policy turns more accommodative. |
+| Base: Mid-Cycle Grind (Prob 50%) | $656.33 | +8.00% | Range-bound macro with steady earnings delivery. |
+| Bear: Macro De-Leveraging (Prob 25%) | $312.07 | -48.65% | Liquidity tightens and risk premium reprices higher. |
 - Scenario limits follow market reality: bear paths are bounded to historical drawdown ranges, not extreme collapse assumptions.
-- Invalidation anchor: if price fails to hold trend near **$531.60**, risk rises.
+- Invalidation anchor: if price fails to hold trend near **$531.93**, risk rises.
 
 ### Method Notes
 
@@ -393,13 +393,13 @@ Warning: Fundamental data is currently hidden. Analysis is relying strictly on p
 
 ### Next Step (What To Do Today)
 
-- **For the Conservative Investor:** Wait for a pullback and trend stabilization near $531.60 before adding.
+- **For the Conservative Investor:** Wait for a pullback and trend stabilization near $531.93 before adding.
 - **For the Aggressive Investor:** Take only partial entries and wait for confirmation before increasing risk; watch valuation stretch versus history.
 
 ### Final Verdict
 
 Long-term stance: Caution / risk-reward mixed.
-Combined read: QQQ is in a defensive regime with a composite score of 35.5/100 (confidence 74.5/100). Scarcity & Supply is 0.0, Usage & Popularity is 61.4, and Safety & Rules is 0.0. Borrowing cost backdrop is N/A% (GRAY - Limited data), earnings-vs-bond spread is N/A pts (GRAY - Limited data), and concentration risk is 47.0% top-5 weight. Valuation sits in the overvalued band, while the key watch item is to watch valuation stretch versus history; base-case path points to $647.82 (+8.00%) with upside to $731.79 and downside to $308.02.
+Combined read: QQQ is in a defensive regime with a composite score of 35.5/100 (confidence 74.5/100). Scarcity & Supply is 0.0, Usage & Popularity is 61.4, and Safety & Rules is 0.0. Borrowing cost backdrop is N/A% (GRAY - Limited data), earnings-vs-bond spread is N/A pts (GRAY - Limited data), and concentration risk is 47.0% top-5 weight. Valuation sits in the overvalued band, while the key watch item is to watch valuation stretch versus history; base-case path points to $656.33 (+8.00%) with upside to $741.41 and downside to $312.07.
 - **Pill check:** RED Overvalued (35.5)
 
 ---
@@ -410,7 +410,7 @@ _Data sources: Yahoo summary (unavailable), Yahoo quote (unavailable), Alpha ove
 ### Status Check (5-Second View)
 
 - **Market mood:** Defensive
-- **Simple action right now:** Wait for a pullback and trend stabilization near $146.12 before adding.
+- **Simple action right now:** Wait for a pullback and trend stabilization near $146.33 before adding.
 - **Plain-English read:** NVIDIA is in a caution zone right now: risk is high, so patience matters more than speed.
 
 ### One-line Summary
@@ -435,7 +435,7 @@ Long-term: Overvalued - Mixed growth profile - Elevated regulatory risk.
 - **Valuation vs history:** Valuation-vs-history comparison is limited due to missing fundamentals.
 - **Forward/Trailing P/E:** N/A / N/A
 - **PEG ratio:** N/A (GRAY - Limited data).
-- **Price percentile:** 98.2% (RED - Warning).
+- **Price percentile:** 98.5% (RED - Warning).
 
 ### Engine Room (Earnings & Growth)
 
@@ -469,11 +469,11 @@ Warning: Fundamental data is currently hidden. Analysis is relying strictly on p
 
 | Scenario | Target | Implied Move | Market Narrative |
 |---|---:|---:|---|
-| Bull: Earnings Supercycle (Prob 25%) | $231.00 | +30.00% | Margins expand while growth stays above trend and rates ease. |
-| Base: Normalized Growth (Prob 50%) | $195.46 | +10.00% | Growth normalizes with stable valuation multiples. |
-| Bear: De-rating Cycle (Prob 25%) | $84.70 | -52.33% | Earnings miss cycle with higher discount rates. |
+| Bull: Earnings Supercycle (Prob 25%) | $237.43 | +30.00% | Margins expand while growth stays above trend and rates ease. |
+| Base: Normalized Growth (Prob 50%) | $200.90 | +10.00% | Growth normalizes with stable valuation multiples. |
+| Bear: De-rating Cycle (Prob 25%) | $87.06 | -52.33% | Earnings miss cycle with higher discount rates. |
 - Scenario limits follow market reality: bear paths are bounded to historical drawdown ranges, not extreme collapse assumptions.
-- Invalidation anchor: if price fails to hold trend near **$146.12**, risk rises.
+- Invalidation anchor: if price fails to hold trend near **$146.33**, risk rises.
 
 ### Method Notes
 
@@ -483,13 +483,13 @@ Warning: Fundamental data is currently hidden. Analysis is relying strictly on p
 
 ### Next Step (What To Do Today)
 
-- **For the Conservative Investor:** Wait for a pullback and trend stabilization near $146.12 before adding.
+- **For the Conservative Investor:** Wait for a pullback and trend stabilization near $146.33 before adding.
 - **For the Aggressive Investor:** Take only partial entries and wait for confirmation before increasing risk; watch valuation stretch versus history.
 
 ### Final Verdict
 
 Long-term stance: High risk / weak long-term setup.
-Combined read: NVDA is in a defensive regime with a composite score of 0.0/100 (confidence 56.5/100). Scarcity & Supply is 0.0, Usage & Popularity is N/A, and Safety & Rules is 0.0. Borrowing cost backdrop is N/A% (GRAY - Limited data), earnings-vs-bond spread is N/A pts (GRAY - Limited data), and concentration risk is N/A% top-5 weight. Valuation sits in the overvalued band, while the key watch item is to watch valuation stretch versus history; base-case path points to $195.46 (+10.00%) with upside to $231.00 and downside to $84.70.
+Combined read: NVDA is in a defensive regime with a composite score of 0.0/100 (confidence 56.5/100). Scarcity & Supply is 0.0, Usage & Popularity is N/A, and Safety & Rules is 0.0. Borrowing cost backdrop is N/A% (GRAY - Limited data), earnings-vs-bond spread is N/A pts (GRAY - Limited data), and concentration risk is N/A% top-5 weight. Valuation sits in the overvalued band, while the key watch item is to watch valuation stretch versus history; base-case path points to $200.90 (+10.00%) with upside to $237.43 and downside to $87.06.
 - **Pill check:** RED Overvalued (0.0)
 
 ---
@@ -500,7 +500,7 @@ _Data sources: Yahoo summary (unavailable), Yahoo quote (unavailable), Alpha ove
 ### Status Check (5-Second View)
 
 - **Market mood:** Defensive
-- **Simple action right now:** Wait for a pullback and trend stabilization near $3,318.77 before adding.
+- **Simple action right now:** Wait for a pullback and trend stabilization near $3,317.96 before adding.
 - **Plain-English read:** Gold Futures is in a caution zone right now: risk is high, so patience matters more than speed.
 
 ### One-line Summary
@@ -559,11 +559,11 @@ Warning: Fundamental data is currently hidden. Analysis is relying strictly on p
 
 | Scenario | Target | Implied Move | Market Narrative |
 |---|---:|---:|---|
-| Bull: Tight-Supply Upswing (Prob 25%) | $6,080.85 | +18.00% | Supply constraints and supportive macro keep inventories tight. |
-| Base: Balanced Market (Prob 50%) | $5,513.99 | +7.00% | Supply-demand remains balanced without major shocks. |
-| Bear: Demand Shock (Prob 25%) | $3,181.57 | -38.26% | Growth slowdown reduces demand while risk assets de-rate. |
+| Bull: Tight-Supply Upswing (Prob 25%) | $6,058.08 | +18.00% | Supply constraints and supportive macro keep inventories tight. |
+| Base: Balanced Market (Prob 50%) | $5,493.35 | +7.00% | Supply-demand remains balanced without major shocks. |
+| Bear: Demand Shock (Prob 25%) | $3,169.65 | -38.26% | Growth slowdown reduces demand while risk assets de-rate. |
 - Scenario limits follow market reality: bear paths are bounded to historical drawdown ranges, not extreme collapse assumptions.
-- Invalidation anchor: if price fails to hold trend near **$3,318.77**, risk rises.
+- Invalidation anchor: if price fails to hold trend near **$3,317.96**, risk rises.
 
 ### Method Notes
 
@@ -573,13 +573,13 @@ Warning: Fundamental data is currently hidden. Analysis is relying strictly on p
 
 ### Next Step (What To Do Today)
 
-- **For the Conservative Investor:** Wait for a pullback and trend stabilization near $3,318.77 before adding.
+- **For the Conservative Investor:** Wait for a pullback and trend stabilization near $3,317.96 before adding.
 - **For the Aggressive Investor:** Take only partial entries and wait for confirmation before increasing risk; watch valuation stretch versus history.
 
 ### Final Verdict
 
 Long-term stance: Caution / risk-reward mixed.
-Combined read: GC=F is in a defensive regime with a composite score of 38.5/100 (confidence 67.8/100). Scarcity & Supply is 0.0, Usage & Popularity is 100.0, and Safety & Rules is 0.0. Borrowing cost backdrop is N/A% (GRAY - Limited data), earnings-vs-bond spread is N/A pts (GRAY - Limited data), and concentration risk is N/A% top-5 weight. Valuation sits in the overvalued band, while the key watch item is to watch valuation stretch versus history; base-case path points to $5,513.99 (+7.00%) with upside to $6,080.85 and downside to $3,181.57.
+Combined read: GC=F is in a defensive regime with a composite score of 38.5/100 (confidence 67.8/100). Scarcity & Supply is 0.0, Usage & Popularity is 100.0, and Safety & Rules is 0.0. Borrowing cost backdrop is N/A% (GRAY - Limited data), earnings-vs-bond spread is N/A pts (GRAY - Limited data), and concentration risk is N/A% top-5 weight. Valuation sits in the overvalued band, while the key watch item is to watch valuation stretch versus history; base-case path points to $5,493.35 (+7.00%) with upside to $6,058.08 and downside to $3,169.65.
 - **Pill check:** RED Overvalued (38.5)
 
 ---
