@@ -4,7 +4,7 @@
   "symbol": "CL=F",
   "market_type": "traditional",
   "details_page": "asset.html?asset=oil",
-  "updated_at": "2026-03-10T16:07:54.923650+00:00",
+  "updated_at": "2026-03-11T15:57:45.153736+00:00",
   "about": {
     "what_it_is": "CL=F tracks front-month WTI crude oil futures pricing.",
     "what_it_represents": "It represents global energy demand, supply constraints, and geopolitical risk premiums.",
@@ -13,16 +13,16 @@
   },
   "source": {
     "short_term": "stooq_live",
-    "news_generated_at": "2026-03-10 16:06 UTC"
+    "news_generated_at": "2026-03-11 15:56 UTC"
   },
   "price": {
-    "current_usd": 85.4,
-    "change_24h_pct": -2.82203004096494,
+    "current_usd": 87.38,
+    "change_24h_pct": 1.0757663389242333,
     "change_7d_pct": null,
     "change_30d_pct": null
   },
   "indicators": {
-    "trend": "DOWNTREND",
+    "trend": "UPTREND",
     "momentum": "N/A",
     "volatility": "N/A"
   },
@@ -33,34 +33,27 @@
     "score": null,
     "long_term_markdown": "## Crude Oil Futures (CL=F)\n\n_Data sources: Yahoo summary (unavailable), Yahoo quote (unavailable), Alpha overview (disabled), Price history (unavailable)_\n\n### Status Check (5-Second View)\n\n- **Market mood:** Balanced\n- **Simple action right now:** Dollar-cost average (DCA) in small tranches while trend remains stable around the long-term trend line.\n- **Plain-English read:** Crude Oil Futures is in a balanced phase: no major euphoria, no major panic.\n\n### One-line Summary\n\nLong-term: Fair - Mixed growth profile - Moderate regulatory risk.\n\n### Quick Score Snapshot\n\n- **Pill:** GRAY Fair (N/A)\n- **Composite score:** N/A/100 | **Confidence:** 13.5/100\n- **Valuation band:** fair\n- **Fast read:** The setup is balanced; prioritize disciplined entries and risk control.\n\n### Global Weather (Macro Regime)\n\n- **Borrowing costs (US 10Y):** N/A% (source: unavailable). Traffic light: **GRAY - Limited data**.\n- **Earnings Yield vs Bond Yield:** N/A% vs N/A% => spread **N/A pts** (GRAY - Limited data).\n- Translation: when bond yield is close to or above earnings yield, stocks lose relative attractiveness.\n\n### Valuation Check (Price Tag vs History)\n\n- **Valuation vs history:** Valuation-vs-history comparison is limited due to missing fundamentals.\n- **Forward/Trailing P/E:** N/A / N/A\n- **PEG ratio:** N/A (GRAY - Limited data).\n- **Price percentile:** N/A (GRAY - Limited data).\n\n### Engine Room (Earnings & Growth)\n\n- **Profit momentum (EPS growth):** N/A (GRAY - Limited data).\n- **Revenue growth:** N/A.\n- **FCF yield / Debt-Equity:** N/A / N/A.\n- Translation: strong earnings and cash flow support premium valuations; weak earnings make high P/E fragile.\n\n### Concentration Risk (Mag 7 Factor)\n\n- Concentration metric is not ETF-specific for this asset.\n\n### Traffic Light Panel\n\n- **Borrowing Costs:** GRAY - Limited data\n- **Valuation Tag:** GRAY - Limited data\n- **Profit Momentum:** GRAY - Limited data\n- **Safety & Rules:** GRAY - Limited data\n\n### Data Quality Warning\n\nWarning: Fundamental data is currently hidden. Analysis is relying strictly on price history and technical trends.\n\n### Warning Check (What Could Go Wrong Fast)\n\n- Earnings quality drops while valuation stays high.\n- Cash flow weakens while leverage rises.\n- Macro regime shifts against this asset profile.\n\n### Forecast (Next 6 Months)\n\nScenario table unavailable (insufficient history).\n\n### Method Notes\n\n- Scores are normalized to 0-100 and combined with fixed lens weights.\n- Missing feeds lower confidence and default to available data only.\n- Confidence blends data freshness, sample size, and API coverage.\n\n### Next Step (What To Do Today)\n\n- **For the Conservative Investor:** Dollar-cost average (DCA) in small tranches while trend remains stable around the long-term trend line.\n- **For the Aggressive Investor:** Build in tranches now and increase only when confirmation improves; watch liquidity.\n\n### Final Verdict\n\nLong-term stance: Insufficient data.\nCombined read: CL=F is in a balanced regime with a composite score of N/A/100 (confidence 13.5/100). Scarcity & Supply is N/A, Usage & Popularity is N/A, and Safety & Rules is N/A. Borrowing cost backdrop is N/A% (GRAY - Limited data), earnings-vs-bond spread is N/A pts (GRAY - Limited data), and concentration risk is N/A% top-5 weight. Valuation sits in the fair band, while the key watch item is to watch liquidity; scenario coverage is limited due to missing history.\n- **Pill check:** GRAY Fair (N/A)"
   },
-  "analysis_markdown": "## Crude Oil Futures (CL=F)\n\n_Data sources: Yahoo summary (unavailable), Yahoo quote (unavailable), Alpha overview (disabled), Price history (unavailable)_\n\n### Status Check (5-Second View)\n\n- **Market mood:** Balanced\n- **Simple action right now:** Dollar-cost average (DCA) in small tranches while trend remains stable around the long-term trend line.\n- **Plain-English read:** Crude Oil Futures is in a balanced phase: no major euphoria, no major panic.\n\n### One-line Summary\n\nLong-term: Fair - Mixed growth profile - Moderate regulatory risk.\n\n### Quick Score Snapshot\n\n- **Pill:** GRAY Fair (N/A)\n- **Composite score:** N/A/100 | **Confidence:** 13.5/100\n- **Valuation band:** fair\n- **Fast read:** The setup is balanced; prioritize disciplined entries and risk control.\n\n### Global Weather (Macro Regime)\n\n- **Borrowing costs (US 10Y):** N/A% (source: unavailable). Traffic light: **GRAY - Limited data**.\n- **Earnings Yield vs Bond Yield:** N/A% vs N/A% => spread **N/A pts** (GRAY - Limited data).\n- Translation: when bond yield is close to or above earnings yield, stocks lose relative attractiveness.\n\n### Valuation Check (Price Tag vs History)\n\n- **Valuation vs history:** Valuation-vs-history comparison is limited due to missing fundamentals.\n- **Forward/Trailing P/E:** N/A / N/A\n- **PEG ratio:** N/A (GRAY - Limited data).\n- **Price percentile:** N/A (GRAY - Limited data).\n\n### Engine Room (Earnings & Growth)\n\n- **Profit momentum (EPS growth):** N/A (GRAY - Limited data).\n- **Revenue growth:** N/A.\n- **FCF yield / Debt-Equity:** N/A / N/A.\n- Translation: strong earnings and cash flow support premium valuations; weak earnings make high P/E fragile.\n\n### Concentration Risk (Mag 7 Factor)\n\n- Concentration metric is not ETF-specific for this asset.\n\n### Traffic Light Panel\n\n- **Borrowing Costs:** GRAY - Limited data\n- **Valuation Tag:** GRAY - Limited data\n- **Profit Momentum:** GRAY - Limited data\n- **Safety & Rules:** GRAY - Limited data\n\n### Data Quality Warning\n\nWarning: Fundamental data is currently hidden. Analysis is relying strictly on price history and technical trends.\n\n### Warning Check (What Could Go Wrong Fast)\n\n- Earnings quality drops while valuation stays high.\n- Cash flow weakens while leverage rises.\n- Macro regime shifts against this asset profile.\n\n### Forecast (Next 6 Months)\n\nScenario table unavailable (insufficient history).\n\n### Method Notes\n\n- Scores are normalized to 0-100 and combined with fixed lens weights.\n- Missing feeds lower confidence and default to available data only.\n- Confidence blends data freshness, sample size, and API coverage.\n\n### Next Step (What To Do Today)\n\n- **For the Conservative Investor:** Dollar-cost average (DCA) in small tranches while trend remains stable around the long-term trend line.\n- **For the Aggressive Investor:** Build in tranches now and increase only when confirmation improves; watch liquidity.\n\n### Final Verdict\n\nLong-term stance: Insufficient data.\nCombined read: CL=F is in a balanced regime with a composite score of N/A/100 (confidence 13.5/100). Scarcity & Supply is N/A, Usage & Popularity is N/A, and Safety & Rules is N/A. Borrowing cost backdrop is N/A% (GRAY - Limited data), earnings-vs-bond spread is N/A pts (GRAY - Limited data), and concentration risk is N/A% top-5 weight. Valuation sits in the fair band, while the key watch item is to watch liquidity; scenario coverage is limited due to missing history.\n- **Pill check:** GRAY Fair (N/A)\n\n---\n\n## Crude Oil Futures (CL=F)\n\n### Short-Term Context\n\n- **Current price:** $85.4\n- **24H change:** -2.82%\n- **Trend:** **DOWNTREND**\n- **Data source:** stooq_live",
+  "analysis_markdown": "## Crude Oil Futures (CL=F)\n\n_Data sources: Yahoo summary (unavailable), Yahoo quote (unavailable), Alpha overview (disabled), Price history (unavailable)_\n\n### Status Check (5-Second View)\n\n- **Market mood:** Balanced\n- **Simple action right now:** Dollar-cost average (DCA) in small tranches while trend remains stable around the long-term trend line.\n- **Plain-English read:** Crude Oil Futures is in a balanced phase: no major euphoria, no major panic.\n\n### One-line Summary\n\nLong-term: Fair - Mixed growth profile - Moderate regulatory risk.\n\n### Quick Score Snapshot\n\n- **Pill:** GRAY Fair (N/A)\n- **Composite score:** N/A/100 | **Confidence:** 13.5/100\n- **Valuation band:** fair\n- **Fast read:** The setup is balanced; prioritize disciplined entries and risk control.\n\n### Global Weather (Macro Regime)\n\n- **Borrowing costs (US 10Y):** N/A% (source: unavailable). Traffic light: **GRAY - Limited data**.\n- **Earnings Yield vs Bond Yield:** N/A% vs N/A% => spread **N/A pts** (GRAY - Limited data).\n- Translation: when bond yield is close to or above earnings yield, stocks lose relative attractiveness.\n\n### Valuation Check (Price Tag vs History)\n\n- **Valuation vs history:** Valuation-vs-history comparison is limited due to missing fundamentals.\n- **Forward/Trailing P/E:** N/A / N/A\n- **PEG ratio:** N/A (GRAY - Limited data).\n- **Price percentile:** N/A (GRAY - Limited data).\n\n### Engine Room (Earnings & Growth)\n\n- **Profit momentum (EPS growth):** N/A (GRAY - Limited data).\n- **Revenue growth:** N/A.\n- **FCF yield / Debt-Equity:** N/A / N/A.\n- Translation: strong earnings and cash flow support premium valuations; weak earnings make high P/E fragile.\n\n### Concentration Risk (Mag 7 Factor)\n\n- Concentration metric is not ETF-specific for this asset.\n\n### Traffic Light Panel\n\n- **Borrowing Costs:** GRAY - Limited data\n- **Valuation Tag:** GRAY - Limited data\n- **Profit Momentum:** GRAY - Limited data\n- **Safety & Rules:** GRAY - Limited data\n\n### Data Quality Warning\n\nWarning: Fundamental data is currently hidden. Analysis is relying strictly on price history and technical trends.\n\n### Warning Check (What Could Go Wrong Fast)\n\n- Earnings quality drops while valuation stays high.\n- Cash flow weakens while leverage rises.\n- Macro regime shifts against this asset profile.\n\n### Forecast (Next 6 Months)\n\nScenario table unavailable (insufficient history).\n\n### Method Notes\n\n- Scores are normalized to 0-100 and combined with fixed lens weights.\n- Missing feeds lower confidence and default to available data only.\n- Confidence blends data freshness, sample size, and API coverage.\n\n### Next Step (What To Do Today)\n\n- **For the Conservative Investor:** Dollar-cost average (DCA) in small tranches while trend remains stable around the long-term trend line.\n- **For the Aggressive Investor:** Build in tranches now and increase only when confirmation improves; watch liquidity.\n\n### Final Verdict\n\nLong-term stance: Insufficient data.\nCombined read: CL=F is in a balanced regime with a composite score of N/A/100 (confidence 13.5/100). Scarcity & Supply is N/A, Usage & Popularity is N/A, and Safety & Rules is N/A. Borrowing cost backdrop is N/A% (GRAY - Limited data), earnings-vs-bond spread is N/A pts (GRAY - Limited data), and concentration risk is N/A% top-5 weight. Valuation sits in the fair band, while the key watch item is to watch liquidity; scenario coverage is limited due to missing history.\n- **Pill check:** GRAY Fair (N/A)\n\n---\n\n## Crude Oil Futures (CL=F)\n\n### Short-Term Context\n\n- **Current price:** $87.38\n- **24H change:** 1.08%\n- **Trend:** **UPTREND**\n- **Data source:** stooq_live",
   "news": [
     {
-      "title": "Bitcoin climbs past $71,000 as oil shock fears continue to ease",
-      "url": "https://www.coindesk.com/markets/2026/03/10/bitcoin-climbs-past-usd71-000-as-oil-shock-fears-continue-to-ease",
-      "published_at": "Tue, 10 Mar 2026 15:58:46 +0000",
+      "title": "Bitcoin reverses overnight losses, rising to above $70,000 as oil renews decline",
+      "url": "https://www.coindesk.com/markets/2026/03/11/bitcoin-reverses-overnight-losses-rising-to-above-usd70-000-as-oil-renews-decline",
+      "published_at": "Wed, 11 Mar 2026 14:21:03 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin climbs to $71,000 as dollar, oil weaken after Trump comments on Iran war",
-      "url": "https://www.coindesk.com/markets/2026/03/10/bitcoin-climbs-to-usd71-000-as-dollar-oil-weaken-after-trump-comments-on-iran-war",
-      "published_at": "Tue, 10 Mar 2026 10:41:54 +0000",
+      "title": "Bitcoin steady above $70,000 as IEA proposes largest-ever oil reserve release",
+      "url": "https://www.coindesk.com/markets/2026/03/11/bitcoin-steady-above-usd70-000-as-iea-proposes-largest-ever-oil-reserve-release",
+      "published_at": "Wed, 11 Mar 2026 05:16:45 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Hyperliquid\u2019s tokenized futures hit $1.2B as traders bet on oil, stocks",
-      "url": "https://www.coindesk.com/markets/2026/03/10/hyperliquid-s-permissionless-market-smashes-usd1-2-billion-in-open-positions-as-oil-and-equity-futures-boom",
-      "published_at": "Tue, 10 Mar 2026 07:54:17 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Here's how traders and big buyers stepped in to keep bitcoin steady during the oil shock",
-      "url": "https://www.coindesk.com/markets/2026/03/10/here-s-how-traders-and-big-buyers-stepped-in-to-keep-bitcoin-steady-during-the-oil-shock",
-      "published_at": "Tue, 10 Mar 2026 06:14:24 +0000",
-      "source": "CoinDesk",
+      "title": "Bitcoin rebounds on flat US CPI as oil price cools on 400M barrel release",
+      "url": "https://cointelegraph.com/news/bitcoin-rebounds-flat-us-cpi-oil-price-cools-400m-barrel-release?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "Wed, 11 Mar 2026 15:00:09 +0000",
+      "source": "Cointelegraph",
       "fetch_source": "live"
     }
   ]
