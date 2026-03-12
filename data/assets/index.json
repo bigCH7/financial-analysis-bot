@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-11T15:57:45.154002+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-03-11 15:49 UTC_",
+  "generated_at": "2026-03-12T16:11:08.146760+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-03-12 16:02 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,10 +9,10 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 70244.0,
+        "current_usd": 69999.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": -3.34,
-        "change_30d_pct": 0.21
+        "change_7d_pct": -1.24,
+        "change_30d_pct": 1.77
       },
       "indicators": {
         "trend": "UPTREND",
@@ -23,9 +23,9 @@
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
         "summary_line": "Fair - Balanced growth profile - Elevated regulatory risk.",
-        "score": 56.2
+        "score": 55.4
       },
-      "updated_at": "2026-03-11T15:57:45.151595+00:00",
+      "updated_at": "2026-03-12T16:11:08.144376+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,10 +37,10 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 2049.0,
+        "current_usd": 2062.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": -3.59,
-        "change_30d_pct": -2.61
+        "change_7d_pct": -0.61,
+        "change_30d_pct": 2.13
       },
       "indicators": {
         "trend": "UPTREND",
@@ -50,10 +50,10 @@
       "valuation": {
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
-        "summary_line": "Fair - Strong growth profile - Elevated regulatory risk.",
-        "score": 57.1
+        "summary_line": "Fair - Balanced growth profile - Elevated regulatory risk.",
+        "score": 56.7
       },
-      "updated_at": "2026-03-11T15:57:45.152380+00:00",
+      "updated_at": "2026-03-12T16:11:08.145180+00:00",
       "source": {
         "short_term": "live"
       }
@@ -65,8 +65,8 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=spy",
       "price": {
-        "current_usd": 674.74,
-        "change_24h_pct": -0.4191386994893631,
+        "current_usd": 669.29,
+        "change_24h_pct": -0.2771362586605153,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
@@ -81,7 +81,7 @@
         "summary_line": "Fair - Strong growth profile - Elevated regulatory risk.",
         "score": 48.6
       },
-      "updated_at": "2026-03-11T15:57:45.152696+00:00",
+      "updated_at": "2026-03-12T16:11:08.145480+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -93,8 +93,8 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=qqq",
       "price": {
-        "current_usd": 606.74,
-        "change_24h_pct": -0.3629197799491002,
+        "current_usd": 599.85,
+        "change_24h_pct": -0.4827792156081978,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Strong growth profile - Elevated regulatory risk.",
         "score": 35.5
       },
-      "updated_at": "2026-03-11T15:57:45.152957+00:00",
+      "updated_at": "2026-03-12T16:11:08.145764+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -121,8 +121,8 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=nvda",
       "price": {
-        "current_usd": 185.6,
-        "change_24h_pct": -0.16674735086870118,
+        "current_usd": 183.89,
+        "change_24h_pct": -0.08693289866885667,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
@@ -137,7 +137,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Elevated regulatory risk.",
         "score": 0.0
       },
-      "updated_at": "2026-03-11T15:57:45.153234+00:00",
+      "updated_at": "2026-03-12T16:11:08.146014+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -149,8 +149,8 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=gold",
       "price": {
-        "current_usd": 5171.11,
-        "change_24h_pct": -0.35283326460375797,
+        "current_usd": 5125.44,
+        "change_24h_pct": -0.26172967313954354,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
@@ -165,7 +165,7 @@
         "summary_line": "Overvalued - Strong growth profile - Elevated regulatory risk.",
         "score": 38.5
       },
-      "updated_at": "2026-03-11T15:57:45.153483+00:00",
+      "updated_at": "2026-03-12T16:11:08.146265+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -177,8 +177,8 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=oil",
       "price": {
-        "current_usd": 87.38,
-        "change_24h_pct": 1.0757663389242333,
+        "current_usd": 95.47,
+        "change_24h_pct": 3.952526132404177,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
@@ -193,7 +193,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-03-11T15:57:45.153736+00:00",
+      "updated_at": "2026-03-12T16:11:08.146490+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -201,72 +201,72 @@
   ],
   "overview_news": [
     {
-      "title": "Wells Fargo signals deeper push into crypto, filing trademark for WFUSD",
-      "url": "https://www.coindesk.com/business/2026/03/11/wells-fargo-signals-deeper-push-into-crypto-filing-trademark-for-wfusd",
-      "published_at": "Wed, 11 Mar 2026 15:23:28 +0000",
+      "title": "Here is what $100 oil means for Bitcoin network",
+      "url": "https://www.coindesk.com/markets/2026/03/12/here-is-what-usd100-oil-means-for-bitcoin-network",
+      "published_at": "Thu, 12 Mar 2026 15:57:54 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "European Central Bank unveils tokenized finance plan to bolster EU's financial autonomy",
-      "url": "https://www.coindesk.com/business/2026/03/11/european-central-bank-unveils-tokenized-finance-plan-to-bolster-eu-s-financial-autonomy",
-      "published_at": "Wed, 11 Mar 2026 15:11:42 +0000",
+      "title": "Alleged Ponzi scheme victims sue JPMorgan for banking supposed $328 million scam",
+      "url": "https://www.coindesk.com/business/2026/03/12/alleged-ponzi-scheme-victims-sue-jpmorgan-for-banking-supposed-usd328-million-scam",
+      "published_at": "Thu, 12 Mar 2026 15:48:34 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "The Protocol: Ethereum Foundation starts experimenting with \u2018DVT-lite\u2019 technology",
-      "url": "https://www.coindesk.com/tech/2026/03/11/the-protocol-ethereum-foundation-starts-experimenting-with-dvt-lite-technology",
-      "published_at": "Wed, 11 Mar 2026 15:09:16 +0000",
+      "title": "Bitcoin holds $70,000 level as surging oil prices and credit issues have stocks tumbling",
+      "url": "https://www.coindesk.com/markets/2026/03/12/bitcoin-holds-usd70-000-level-as-surging-oil-prices-and-credit-issues-have-stocks-tumbling",
+      "published_at": "Thu, 12 Mar 2026 15:41:33 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Binance.US names compliance veteran as CEO as regulation, competition get tougher",
-      "url": "https://www.coindesk.com/business/2026/03/11/binance-us-names-compliance-veteran-as-ceo-as-regulation-competition-get-tougher",
-      "published_at": "Wed, 11 Mar 2026 15:05:00 +0000",
+      "title": "Cathie Wood's Ark Invest says quantum computing is a long-term risk for bitcoin, not an imminent threat",
+      "url": "https://www.coindesk.com/tech/2026/03/12/cathie-wood-s-ark-invest-says-quantum-computing-is-a-long-term-risk-for-bitcoin-not-an-imminent-threat",
+      "published_at": "Thu, 12 Mar 2026 15:28:13 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Former legal executives from crypto exchange OKX unveil DeFi connectivity, risk-rating service",
-      "url": "https://www.coindesk.com/business/2026/03/11/former-okx-legal-execs-unveil-defi-connectivity-risk-rating-service",
-      "published_at": "Wed, 11 Mar 2026 15:00:00 +0000",
+      "title": "Prediction markets get tailored U.S. guidance from former foe CFTC",
+      "url": "https://www.coindesk.com/policy/2026/03/12/prediction-markets-get-tailored-u-s-guidance-from-former-foe-cftc",
+      "published_at": "Thu, 12 Mar 2026 15:26:42 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin reverses overnight losses, rising to above $70,000 as oil renews decline",
-      "url": "https://www.coindesk.com/markets/2026/03/11/bitcoin-reverses-overnight-losses-rising-to-above-usd70-000-as-oil-renews-decline",
-      "published_at": "Wed, 11 Mar 2026 14:21:03 +0000",
+      "title": "Vitalik Buterin says Ethereum should be used as a simple digital bulletin board",
+      "url": "https://www.coindesk.com/tech/2026/03/12/vitalik-buterin-says-ethereum-should-be-used-as-a-simple-digital-bulletin-board",
+      "published_at": "Thu, 12 Mar 2026 15:25:31 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Strategy's STRC preferred series gets $50 million investment from fellow BTC treasury company Strive",
-      "url": "https://www.coindesk.com/markets/2026/03/11/strategy-s-strc-preferred-series-gets-usd50-million-investment-from-fellow-btc-treasury-company-strive",
-      "published_at": "Wed, 11 Mar 2026 14:07:09 +0000",
+      "title": "Circle\u2019s outperformance highlights USDC\u2019s staying power, says bullish Wall Street analyst",
+      "url": "https://www.coindesk.com/markets/2026/03/12/circle-s-outperformance-highlights-usdc-s-staying-power-says-bullish-wall-street-analyst",
+      "published_at": "Thu, 12 Mar 2026 15:00:52 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "CoinDesk 20 performance update: Hedera (HBAR) drops 1.8%, leading index lower",
-      "url": "https://www.coindesk.com/coindesk-indices/2026/03/11/coindesk-20-performance-update-hedera-hbar-drops-1-8-leading-index-lower",
-      "published_at": "Wed, 11 Mar 2026 13:27:29 +0000",
+      "title": "Lido launches stablecoin yield product to expand beyond ether",
+      "url": "https://www.coindesk.com/tech/2026/03/12/lido-launches-stablecoin-yield-product-to-expand-beyond-ether",
+      "published_at": "Thu, 12 Mar 2026 15:00:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Ghana opens crypto trading sandbox with 11 firms under new VASP law",
-      "url": "https://www.coindesk.com/policy/2026/03/11/ghana-opens-crypto-trading-sandbox-with-11-firms-under-new-vasp-law",
-      "published_at": "Wed, 11 Mar 2026 13:21:43 +0000",
+      "title": "Crypto for Advisors: Crypto accounting; comparing the US and Europe",
+      "url": "https://www.coindesk.com/coindesk-indices/2026/03/11/crypto-for-advisors-crypto-accounting-comparing-the-us-and-europe",
+      "published_at": "Thu, 12 Mar 2026 15:00:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Mining giant Foundry to introduce institutional zcash mining pool",
-      "url": "https://www.coindesk.com/business/2026/03/10/mining-giant-foundry-to-introduce-institutional-zcash-mining-pool",
-      "published_at": "Wed, 11 Mar 2026 13:00:00 +0000",
+      "title": "Avalanche\u2019s business chief says crypto must grow up and solve real problems",
+      "url": "https://www.coindesk.com/coindesk-news/2026/03/12/avalanche-s-business-chiefsays-crypto-must-grow-up-and-solve-real-problems",
+      "published_at": "Thu, 12 Mar 2026 14:55:54 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
