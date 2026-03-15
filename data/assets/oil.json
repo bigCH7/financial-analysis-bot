@@ -4,7 +4,7 @@
   "symbol": "CL=F",
   "market_type": "traditional",
   "details_page": "asset.html?asset=oil",
-  "updated_at": "2026-03-14T15:35:46.335569+00:00",
+  "updated_at": "2026-03-15T15:36:53.464251+00:00",
   "about": {
     "what_it_is": "CL=F tracks front-month WTI crude oil futures pricing.",
     "what_it_represents": "It represents global energy demand, supply constraints, and geopolitical risk premiums.",
@@ -13,7 +13,7 @@
   },
   "source": {
     "short_term": "stooq_live",
-    "news_generated_at": "2026-03-14 15:34 UTC"
+    "news_generated_at": "2026-03-15 15:35 UTC"
   },
   "price": {
     "current_usd": 98.71,
@@ -39,13 +39,6 @@
       "title": "Bitcoin holds $71,000 despite Trump warning of strikes on Iran's oil-rich Kharg Island",
       "url": "https://www.coindesk.com/markets/2026/03/14/bitcoin-holds-usd71-000-despite-trump-warning-after-iran-oil-strikes",
       "published_at": "Sat, 14 Mar 2026 06:08:27 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitcoin holds above $71,000, defying rising dollar, oil and U.S. bond yields",
-      "url": "https://www.coindesk.com/markets/2026/03/13/bitcoin-holds-above-usd71-000-defying-rising-dollar-oil-and-u-s-bond-yields",
-      "published_at": "Fri, 13 Mar 2026 09:32:45 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }

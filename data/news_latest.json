@@ -1,7 +1,77 @@
 {
-  "generated_at": "2026-03-14 15:34 UTC",
+  "generated_at": "2026-03-15 15:35 UTC",
   "count": 55,
   "items": [
+    {
+      "title": "Bitwise\u2019s Matt Hougan revisits $1 million bitcoin \u2014 analysts agree but debate his timeline",
+      "link": "https://www.coindesk.com/markets/2026/03/15/bitwise-s-matt-hougan-revisits-usd1-million-bitcoin-analysts-agree-but-debate-his-timeline",
+      "pub_date": "Sun, 15 Mar 2026 14:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Visa is ready for AI agents. So is Coinbase. They're building very different internets",
+      "link": "https://www.coindesk.com/tech/2026/03/15/visa-is-ready-for-ai-agents-so-is-coinbase-they-re-building-very-different-internets",
+      "pub_date": "Sun, 15 Mar 2026 13:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "AI agents are quietly rewriting prediction market trading",
+      "link": "https://www.coindesk.com/tech/2026/03/15/ai-agents-are-quietly-rewriting-prediction-market-trading",
+      "pub_date": "Sun, 15 Mar 2026 12:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Bitcoin sold off first when the U.S.-Iran war began. Two weeks later, it's outperforming nearly everything",
+      "link": "https://www.coindesk.com/markets/2026/03/14/bitcoin-sold-off-first-when-the-u-s-iran-war-began-two-weeks-later-it-s-outperforming-nearly-everything",
+      "pub_date": "Sun, 15 Mar 2026 03:50:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Crypto broker Bitpanda bets on banks and tokenization to expand globally ahead of IPO plans",
+      "link": "https://www.coindesk.com/business/2026/03/14/crypto-broker-bitpanda-bets-on-banks-and-tokenization-to-expand-globally-ahead-of-ipo-plans",
+      "pub_date": "Sat, 14 Mar 2026 20:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Hoskinson might be wrong about the future of decentralized compute",
+      "link": "https://www.coindesk.com/opinion/2026/03/14/hoskinson-might-be-wrong-about-the-future-of-decentralized-compute",
+      "pub_date": "Sat, 14 Mar 2026 18:30:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Crypto\u2019s multi-million F1 sponsorship under fire as Middle East war hits region's biggest events",
+      "link": "https://www.coindesk.com/business/2026/03/14/crypto-s-multi-million-f1-sponsorship-under-fire-as-middle-east-war-hits-region-s-biggest-events",
+      "pub_date": "Sat, 14 Mar 2026 18:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Ethereum Foundation sells 5,000 ether to Tom Lee's BitMine in $10.2 million deal",
+      "link": "https://www.coindesk.com/business/2026/03/14/ethereum-foundation-sells-5-000-ether-to-tom-lee-s-bitmine-in-usd10-2-million-deal",
+      "pub_date": "Sat, 14 Mar 2026 17:56:34 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Boris Johnson calling Bitcoin a \u2018Ponzi\u2019 draws rebuttal from Michael Saylor and others",
+      "link": "https://www.coindesk.com/business/2026/03/14/boris-johnson-calling-bitcoin-a-ponzi-draws-rebuttal-from-michael-saylor-and-others",
+      "pub_date": "Sat, 14 Mar 2026 17:18:37 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Wall Street pushes tokenized stocks, but institutions aren\u2019t eager to trade them",
+      "link": "https://www.coindesk.com/business/2026/03/14/wall-street-pushes-tokenized-stocks-but-institutions-aren-t-eager-to-trade-them",
+      "pub_date": "Sat, 14 Mar 2026 16:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
     {
       "title": "Brazil industry giants representing 850 companies decry stablecoin tax threat",
       "link": "https://www.coindesk.com/business/2026/03/14/brazil-industry-giants-representing-850-companies-decry-stablecoin-tax-threat",
@@ -108,79 +178,86 @@
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin rises to one-month high of $73,800, continuing to outperform since start of Iran war",
-      "link": "https://www.coindesk.com/markets/2026/03/13/bitcoin-rises-to-usd73-300-continuing-to-outperform-since-iran-war-and-taking-aim-at-one-month-high",
-      "pub_date": "Fri, 13 Mar 2026 14:27:11 +0000",
-      "source": "CoinDesk",
+      "title": "Bitcoin price teases key support reclaims with weekly close above $70K",
+      "link": "https://cointelegraph.com/news/bitcoin-price-teases-key-support-reclaims-weekly-close-above-70k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sun, 15 Mar 2026 15:12:03 +0000",
+      "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "U.S. sanctions 6 people, 2 companies that laundered $800 million in crypto for North Korea",
-      "link": "https://www.coindesk.com/business/2026/03/13/u-s-sanctions-6-people-2-companies-that-laundered-usd800-million-in-crypto-for-north-korea",
-      "pub_date": "Fri, 13 Mar 2026 14:00:26 +0000",
-      "source": "CoinDesk",
+      "title": "How Bitcoin and Gold reacted differently to the Iran war shock",
+      "link": "https://cointelegraph.com/news/how-bitcoin-and-gold-reacted-differently-to-the-iran-war-shock?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sun, 15 Mar 2026 14:16:22 +0000",
+      "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "CoinDesk 20 performance update: index jumps 3.7% as all constituents climb higher",
-      "link": "https://www.coindesk.com/coindesk-indices/2026/03/13/coindesk-20-performance-update-index-jumps-3-7-as-all-constituents-climb-higher",
-      "pub_date": "Fri, 13 Mar 2026 13:14:46 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Vitalik Buterin recounts how shiba inu tokens became a $1 billion AI policy war chest",
-      "link": "https://www.coindesk.com/markets/2026/03/14/vitalik-buterin-recounts-how-shiba-inu-tokens-became-a-usd1-billion-ai-policy-war-chest",
-      "pub_date": "Fri, 13 Mar 2026 12:00:58 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitcoin's building steam and a $3 billion trigger could make it wild",
-      "link": "https://www.coindesk.com/daybook-us/2026/03/13/bitcoin-s-building-steam-and-a-usd3-billion-trigger-could-make-it-wild",
-      "pub_date": "Fri, 13 Mar 2026 11:28:40 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitcoin outperforms stocks, tops $72,000 even as dollar strengthens",
-      "link": "https://www.coindesk.com/markets/2026/03/13/bitcoin-outperforms-stocks-tops-usd72-000-even-as-dollar-strengthens",
-      "pub_date": "Fri, 13 Mar 2026 10:52:58 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitcoin holds above $71,000, defying rising dollar, oil and U.S. bond yields",
-      "link": "https://www.coindesk.com/markets/2026/03/13/bitcoin-holds-above-usd71-000-defying-rising-dollar-oil-and-u-s-bond-yields",
-      "pub_date": "Fri, 13 Mar 2026 09:32:45 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitcoin's recent crash to $60,000 warned stocks first \u2013 now they're following",
-      "link": "https://www.coindesk.com/markets/2026/03/13/bitcoin-crashed-first-now-stocks-follow-cementing-btc-s-lead-indicator-cred",
-      "pub_date": "Fri, 13 Mar 2026 07:24:03 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "BlackRock\u2019s new ether ETF for yield hungry investors debuts with $15 million in trading volume",
-      "link": "https://www.coindesk.com/markets/2026/03/13/blackrock-s-staked-ether-etf-draws-usd15-million-in-first-day-trading",
-      "pub_date": "Fri, 13 Mar 2026 06:23:09 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Pi rallies more than 30% after Kraken announces listing",
-      "link": "https://www.coindesk.com/markets/2026/03/13/pi-rallies-more-than-30-after-kraken-announces-listing",
-      "pub_date": "Fri, 13 Mar 2026 04:51:46 +0000",
-      "source": "CoinDesk",
+      "title": "Forensic analysis uncovers draft of $5M deal tied to Milei\u2019s Libra promotion: Report",
+      "link": "https://cointelegraph.com/news/milei-libra-promotion-5m-draft-deal-found-novelli-phone?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sun, 15 Mar 2026 13:50:19 +0000",
+      "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
       "title": "Here\u2019s what happened in crypto today",
       "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Sat, 14 Mar 2026 13:13:01 +0000",
+      "pub_date": "Sun, 15 Mar 2026 13:14:47 +0000",
+      "source": "Cointelegraph",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Stablecoin uncertainty could hurt banks more than crypto firms: Expert",
+      "link": "https://cointelegraph.com/news/stablecoin-uncertainty-could-hurt-banks-more-than-crypto-firms-expert?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sun, 15 Mar 2026 10:01:51 +0000",
+      "source": "Cointelegraph",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Altseason is dead, expect shorter cycles and \u2018violent\u2019 rotations: Crypto exec",
+      "link": "https://cointelegraph.com/news/altseaon-dead-short-cycles-violent-rotation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sun, 15 Mar 2026 09:00:34 +0000",
+      "source": "Cointelegraph",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Ethereum Foundation sells $10.2M worth of ETH to BitMine in OTC deal",
+      "link": "https://cointelegraph.com/news/ethereum-foundation-sells-eth-to-bitmine-otc-deal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sun, 15 Mar 2026 07:06:13 +0000",
+      "source": "Cointelegraph",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Bitcoin whales are starting to accumulate again at $71K: Santiment",
+      "link": "https://cointelegraph.com/news/bitcoin-whale-accumulation-btc-price-retail-santiment?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sun, 15 Mar 2026 05:30:21 +0000",
+      "source": "Cointelegraph",
+      "fetch_source": "live"
+    },
+    {
+      "title": "CLARITY Act 2026 odds \u2018extremely low\u2019 if not passed before April: Exec",
+      "link": "https://cointelegraph.com/news/clarity-act-crypto-united-states-congress-galaxy-digital?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sun, 15 Mar 2026 02:09:37 +0000",
+      "source": "Cointelegraph",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Changing Basel rules could unlock \u2018huge\u2019 liquidity for BTC: Analyst",
+      "link": "https://cointelegraph.com/news/changing-basel-rules-huge-liquidity-btc?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sat, 14 Mar 2026 21:45:50 +0000",
+      "source": "Cointelegraph",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Former UK Prime Minister Boris Johnson calls Bitcoin a \u2018Ponzi scheme\u2019",
+      "link": "https://cointelegraph.com/news/boris-johnson-btc-ponzi-scheme?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sat, 14 Mar 2026 18:09:15 +0000",
+      "source": "Cointelegraph",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Bitcoin beats stocks as Strategy\u2019s STRC hints at $776M BTC buying potential",
+      "link": "https://cointelegraph.com/news/bitcoin-beats-stocks-strategy-strc-776m-btc-buying-potential?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sat, 14 Mar 2026 17:38:08 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
@@ -202,83 +279,6 @@
       "title": "USDC market cap nears record $80B amid \u2018capital flight\u2019 in UAE: Analyst",
       "link": "https://cointelegraph.com/news/usdc-market-cap-nears-80b-uae-capital-flight-analyst?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "pub_date": "Sat, 14 Mar 2026 10:43:55 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Spot Bitcoin ETFs extend inflow streak to five days for first time in 2026",
-      "link": "https://cointelegraph.com/news/spot-bitcoin-etfs-five-day-inflow-streak-2026?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Sat, 14 Mar 2026 08:11:32 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "BlackRock says 'exotic' crypto ETFs not part of its strategy",
-      "link": "https://cointelegraph.com/news/blackrock-wont-consider-exotic-crypto-etfs?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Sat, 14 Mar 2026 04:52:48 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Stablecoins could form backbone of global payments in 10 years: Billionaire",
-      "link": "https://cointelegraph.com/news/stablecoins-power-global-payments-10-years-stanley-druckenmiller?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Sat, 14 Mar 2026 01:22:32 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitcoin nearly overtakes $74K, as data suggests bear market is not over",
-      "link": "https://cointelegraph.com/news/bitcoin-nearly-overtakes-dollar74k-as-data-suggests-bear-market-is-not-over?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Sat, 14 Mar 2026 01:06:31 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Federal court ends Custodia Bank's legal bid for a master account",
-      "link": "https://cointelegraph.com/news/federal-court-ends-custodia-bank-s-legal-bid-for-a-master-account?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 13 Mar 2026 23:57:17 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "BPI targets August for BTC tax relief, but warns time is running out",
-      "link": "https://cointelegraph.com/news/bpi-targets-august-btc-tax-relief-warns-time-running-out?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 13 Mar 2026 21:01:21 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Circle\u2018s USDC overtook Tether\u2018s USDT in adjusted YTD volume: Mizuho",
-      "link": "https://cointelegraph.com/news/circle-usdc-tether-usdt-adjusted-ytd-volume-mizuho?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 13 Mar 2026 20:54:15 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Ether accumulation data predicts rally to $2.8K, but there\u2019s a catch",
-      "link": "https://cointelegraph.com/news/ether-accumulation-data-predicts-rally-to-dollar2-8k-but-there-s-a-catch?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 13 Mar 2026 20:34:28 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Crypto Biz: Circle stock defies Wall Street and digital asset selloff",
-      "link": "https://cointelegraph.com/news/circle-stock-stablecoin-growth-canaan-bitcoin-wells-fargo-crypto?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 13 Mar 2026 20:00:00 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Key Bitcoin price levels to watch as BTC nears new monthly highs",
-      "link": "https://cointelegraph.com/news/key-bitcoin-price-levels-to-watch-as-btc-nears-new-monthly-highs?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 13 Mar 2026 19:13:03 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Price predictions 3/13: BTC, ETH, BNB, XRP, SOL, DOGE, HYPE, ADA, BCH, XMR",
-      "link": "https://cointelegraph.com/news/price-predictions-3-13-btc-eth-bnb-xrp-sol-doge-hype-ada-bch-xmr?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 13 Mar 2026 18:22:48 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     }
