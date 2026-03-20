@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-19T16:02:55.882082+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-03-19 15:54 UTC_",
+  "generated_at": "2026-03-20T15:50:06.525487+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-03-20 15:41 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,23 +9,23 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 69404.0,
+        "current_usd": 69908.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": -1.62,
-        "change_30d_pct": 2.84
+        "change_7d_pct": -1.49,
+        "change_30d_pct": 5.19
       },
       "indicators": {
         "trend": "DOWNTREND",
-        "momentum": "STRONG",
+        "momentum": "WEAK",
         "volatility": "NORMAL"
       },
       "valuation": {
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
-        "summary_line": "Fair - Balanced growth profile - Elevated regulatory risk.",
-        "score": 55.2
+        "summary_line": "Fair - Weak growth profile - Elevated regulatory risk.",
+        "score": 54.7
       },
-      "updated_at": "2026-03-19T16:02:55.879688+00:00",
+      "updated_at": "2026-03-20T15:50:06.523249+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,23 +37,23 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 2118.0,
+        "current_usd": 2134.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": 2.01,
-        "change_30d_pct": 6.34
+        "change_7d_pct": 1.97,
+        "change_30d_pct": 9.18
       },
       "indicators": {
         "trend": "DOWNTREND",
-        "momentum": "STRONG",
+        "momentum": "WEAK",
         "volatility": "NORMAL"
       },
       "valuation": {
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
-        "summary_line": "Fair - Strong growth profile - Elevated regulatory risk.",
-        "score": 59.3
+        "summary_line": "Fair - Balanced growth profile - Elevated regulatory risk.",
+        "score": 56.4
       },
-      "updated_at": "2026-03-19T16:02:55.880486+00:00",
+      "updated_at": "2026-03-20T15:50:06.524010+00:00",
       "source": {
         "short_term": "live"
       }
@@ -65,8 +65,8 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=spy",
       "price": {
-        "current_usd": 657.0,
-        "change_24h_pct": 0.0045664185579274985,
+        "current_usd": 652.54,
+        "change_24h_pct": -0.6047127995003954,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
@@ -81,7 +81,7 @@
         "summary_line": "Fair - Strong growth profile - Elevated regulatory risk.",
         "score": 48.6
       },
-      "updated_at": "2026-03-19T16:02:55.880789+00:00",
+      "updated_at": "2026-03-20T15:50:06.524258+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -93,8 +93,8 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=qqq",
       "price": {
-        "current_usd": 589.47,
-        "change_24h_pct": -0.006785296262989959,
+        "current_usd": 586.54,
+        "change_24h_pct": -0.7647277772138139,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Strong growth profile - Elevated regulatory risk.",
         "score": 35.5
       },
-      "updated_at": "2026-03-19T16:02:55.881046+00:00",
+      "updated_at": "2026-03-20T15:50:06.524510+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -121,13 +121,13 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=nvda",
       "price": {
-        "current_usd": 177.8,
-        "change_24h_pct": -0.11797090051119952,
+        "current_usd": 175.82,
+        "change_24h_pct": -1.2247191011235947,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
       "indicators": {
-        "trend": "SIDEWAYS",
+        "trend": "DOWNTREND",
         "momentum": "N/A",
         "volatility": "N/A"
       },
@@ -137,7 +137,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Elevated regulatory risk.",
         "score": 0.0
       },
-      "updated_at": "2026-03-19T16:02:55.881319+00:00",
+      "updated_at": "2026-03-20T15:50:06.524745+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -149,8 +149,8 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=gold",
       "price": {
-        "current_usd": 4611.72,
-        "change_24h_pct": -4.611680607610014,
+        "current_usd": 4546.62,
+        "change_24h_pct": -1.9402231817417182,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
@@ -165,7 +165,7 @@
         "summary_line": "Overvalued - Strong growth profile - Elevated regulatory risk.",
         "score": 38.5
       },
-      "updated_at": "2026-03-19T16:02:55.881565+00:00",
+      "updated_at": "2026-03-20T15:50:06.524978+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -177,13 +177,13 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=oil",
       "price": {
-        "current_usd": 97.55,
-        "change_24h_pct": -0.853745299319042,
+        "current_usd": 96.5,
+        "change_24h_pct": 2.9443140601664197,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
       "indicators": {
-        "trend": "SIDEWAYS",
+        "trend": "UPTREND",
         "momentum": "N/A",
         "volatility": "N/A"
       },
@@ -193,7 +193,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-03-19T16:02:55.881832+00:00",
+      "updated_at": "2026-03-20T15:50:06.525249+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -201,72 +201,72 @@
   ],
   "overview_news": [
     {
-      "title": "OpenClaw developers targeted in GitHub phishing scam offering fake token airdrops",
-      "url": "https://www.coindesk.com/tech/2026/03/19/openclaw-developers-targeted-in-github-phishing-scam-offering-fake-token-airdrops",
-      "published_at": "Thu, 19 Mar 2026 15:45:10 +0000",
+      "title": "Bitcoin's latest fear unlocked as rate hike bets rise and bond markets crumble",
+      "url": "https://www.coindesk.com/markets/2026/03/20/bitcoin-s-latest-fear-unlocked-as-rate-hikes-bets-rise-and-bond-markets-crumble",
+      "published_at": "Fri, 20 Mar 2026 14:51:48 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Crypto for Advisors: Bitcoin\u2019s price discovery",
-      "url": "https://www.coindesk.com/coindesk-indices/2026/03/18/crypto-for-advisors-bitcoin-s-price-discovery",
-      "published_at": "Thu, 19 Mar 2026 15:00:00 +0000",
+      "title": "Why CoinDesk PitchFest matters heading into Miami",
+      "url": "https://www.coindesk.com/opinion/2026/03/20/why-coindesk-pitchfest-matters-heading-into-miami",
+      "published_at": "Fri, 20 Mar 2026 14:30:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "ECB seeks experts to help integrate digital euro into ATMs, card payment terminals",
-      "url": "https://www.coindesk.com/policy/2026/03/19/ecb-seeks-experts-to-help-integrate-digital-euro-into-atms-card-payment-terminals",
-      "published_at": "Thu, 19 Mar 2026 14:46:37 +0000",
+      "title": "Crypto wallet maker Ledger taps former Circle exec as CFO to help lead IPO push",
+      "url": "https://www.coindesk.com/business/2026/03/20/crypto-wallet-maker-ledger-taps-a-former-circle-exec-as-cfo-to-help-lead-its-push-into-the-public-markets",
+      "published_at": "Fri, 20 Mar 2026 13:57:14 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin $20,000 put option is third most popular strike ahead of quarterly expiry",
-      "url": "https://www.coindesk.com/markets/2026/03/19/bitcoin-usd20-000-put-option-is-third-most-popular-strike-ahead-of-quarterly-expiry",
-      "published_at": "Thu, 19 Mar 2026 14:34:51 +0000",
+      "title": "Kalshi valuation doubles to $22 billion in latest funding round: Bloomberg",
+      "url": "https://www.coindesk.com/business/2026/03/20/kalshi-valuation-doubles-to-usd22-billion-in-latest-funding-round-bloomberg",
+      "published_at": "Fri, 20 Mar 2026 13:25:59 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Major League Baseball signs prediction markets pacts with CFTC, Polymarket",
-      "url": "https://www.coindesk.com/policy/2026/03/19/major-league-baseball-signs-prediction-markets-pacts-with-cftc-polymarket",
-      "published_at": "Thu, 19 Mar 2026 14:20:47 +0000",
+      "title": "CoinDesk 20 performance update: Aptos (APT) gains 6.3% as index rises",
+      "url": "https://www.coindesk.com/coindesk-indices/2026/03/20/coindesk-20-performance-update-aptos-apt-gains-6-3-as-index-rises",
+      "published_at": "Fri, 20 Mar 2026 13:12:55 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "CoinDesk 20 performance update: NEAR Protocol (NEAR) drops 3.3%, leading index lower",
-      "url": "https://www.coindesk.com/coindesk-indices/2026/03/19/coindesk-20-performance-update-near-protocol-near-drops-3-3-leading-index-lower",
-      "published_at": "Thu, 19 Mar 2026 13:16:07 +0000",
+      "title": "Coinbase introduces stock perpetual futures contracts for non-U.S. customers",
+      "url": "https://www.coindesk.com/markets/2026/03/20/coinbase-introduces-stock-perpetual-futures-contracts-for-non-u-s-customers",
+      "published_at": "Fri, 20 Mar 2026 12:51:24 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Browser maker Opera seeks 160 million CELO stake  to become key network stakeholder",
-      "url": "https://www.coindesk.com/business/2026/03/19/browser-maker-opera-seeks-160-million-celo-stake-to-become-key-network-stakeholder",
-      "published_at": "Thu, 19 Mar 2026 12:52:26 +0000",
+      "title": "Iran war volatility is driving oil trading boom on Hyperliquid, says JPMorgan",
+      "url": "https://www.coindesk.com/business/2026/03/20/iran-war-volatility-is-driving-oil-trading-boom-on-hyperliquid-says-jpmorgan",
+      "published_at": "Fri, 20 Mar 2026 12:45:45 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "XRP treasury firm Evernorth discloses $233.7 million impairment on holdings in SPAC filing",
-      "url": "https://www.coindesk.com/business/2026/03/19/xrp-treasury-firm-evernorth-discloses-usd233-7-million-impairment-on-holdings-in-spac-filing",
-      "published_at": "Thu, 19 Mar 2026 12:46:48 +0000",
+      "title": "Bitcoin holds steady, with one analyst seeing the upside emerging",
+      "url": "https://www.coindesk.com/daybook-us/2026/03/20/bitcoin-holds-steady-with-one-analyst-seeing-the-upside-emerging",
+      "published_at": "Fri, 20 Mar 2026 11:41:48 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Coinbase faces a multibillion-dollar threat from D.C. but a 'rewards' loophole could protect its stablecoin revenue",
-      "url": "https://www.coindesk.com/policy/2026/03/19/coinbase-faces-a-multibillion-dollar-threat-from-d-c-but-a-rewards-loophole-could-protect-its-stablecoin-revenue",
-      "published_at": "Thu, 19 Mar 2026 12:00:00 +0000",
+      "title": "Crypto market steadies as derivatives signal caution, macro pressure builds",
+      "url": "https://www.coindesk.com/markets/2026/03/20/crypto-market-steadies-as-derivatives-signal-caution-macro-pressure-builds",
+      "published_at": "Fri, 20 Mar 2026 10:49:32 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin\u2019s biggest DeFi drawback under attack as OpNet unlocks smart contracts on mainnet",
-      "url": "https://www.coindesk.com/markets/2026/03/19/bitcoin-s-biggest-defi-drawback-under-attack-as-opnet-unlocks-smart-contracts-on-mainnet",
-      "published_at": "Thu, 19 Mar 2026 12:00:00 +0000",
+      "title": "Ripple data reveals stablecoins are becoming the go-to tool for corporate treasury",
+      "url": "https://www.coindesk.com/markets/2026/03/20/ripple-s-survey-shows-banks-fintechs-and-corporates-are-all-in-on-digital-assets-prioritizing-stablecoins-and-custody",
+      "published_at": "Fri, 20 Mar 2026 08:48:22 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
