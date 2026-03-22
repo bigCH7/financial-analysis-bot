@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-21T15:34:05.509327+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-03-21 15:25 UTC_",
+  "generated_at": "2026-03-22T15:34:34.814589+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-03-22 15:26 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,23 +9,23 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 70648.0,
+        "current_usd": 68852.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": -0.8,
-        "change_30d_pct": 5.57
+        "change_7d_pct": -5.27,
+        "change_30d_pct": 1.3
       },
       "indicators": {
-        "trend": "UPTREND",
-        "momentum": "WEAK",
+        "trend": "DOWNTREND",
+        "momentum": "STRONG",
         "volatility": "NORMAL"
       },
       "valuation": {
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
         "summary_line": "Fair - Weak growth profile - Elevated regulatory risk.",
-        "score": 51.4
+        "score": 51.7
       },
-      "updated_at": "2026-03-21T15:34:05.507098+00:00",
+      "updated_at": "2026-03-22T15:34:34.812235+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,23 +37,23 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 2152.0,
+        "current_usd": 2079.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": 2.65,
-        "change_30d_pct": 10.54
+        "change_7d_pct": -4.4,
+        "change_30d_pct": 5.67
       },
       "indicators": {
         "trend": "DOWNTREND",
-        "momentum": "WEAK",
+        "momentum": "STRONG",
         "volatility": "NORMAL"
       },
       "valuation": {
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
         "summary_line": "Fair - Balanced growth profile - Elevated regulatory risk.",
-        "score": 49.3
+        "score": 52.9
       },
-      "updated_at": "2026-03-21T15:34:05.507877+00:00",
+      "updated_at": "2026-03-22T15:34:34.812993+00:00",
       "source": {
         "short_term": "live"
       }
@@ -81,7 +81,7 @@
         "summary_line": "Fair - Strong growth profile - Elevated regulatory risk.",
         "score": 48.6
       },
-      "updated_at": "2026-03-21T15:34:05.508165+00:00",
+      "updated_at": "2026-03-22T15:34:34.813312+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Strong growth profile - Elevated regulatory risk.",
         "score": 35.5
       },
-      "updated_at": "2026-03-21T15:34:05.508400+00:00",
+      "updated_at": "2026-03-22T15:34:34.813581+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -137,7 +137,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Elevated regulatory risk.",
         "score": 0.0
       },
-      "updated_at": "2026-03-21T15:34:05.508641+00:00",
+      "updated_at": "2026-03-22T15:34:34.813811+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -165,7 +165,7 @@
         "summary_line": "Overvalued - Strong growth profile - Elevated regulatory risk.",
         "score": 38.5
       },
-      "updated_at": "2026-03-21T15:34:05.508856+00:00",
+      "updated_at": "2026-03-22T15:34:34.814064+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -193,7 +193,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-03-21T15:34:05.509099+00:00",
+      "updated_at": "2026-03-22T15:34:34.814343+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -201,72 +201,72 @@
   ],
   "overview_news": [
     {
+      "title": "Gold falters as macro pressures build, bitcoin holds liquidity trend",
+      "url": "https://www.coindesk.com/markets/2026/03/20/gold-falters-as-macro-pressures-build-bitcoin-holds-liquidity-trend",
+      "published_at": "Sun, 22 Mar 2026 15:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "XRP falls 3% as breakdown below $1.44 and bitcoin weakness caps recovery",
+      "url": "https://www.coindesk.com/markets/2026/03/22/xrp-falls-3-as-breakdown-below-usd1-44-and-bitcoin-weakness-caps-recovery",
+      "published_at": "Sun, 22 Mar 2026 06:47:52 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Bitcoin miners are losing $19,000 on every BTC produced as difficulty drops 7.8%",
+      "url": "https://www.coindesk.com/markets/2026/03/22/bitcoin-miners-are-losing-usd19-000-on-every-btc-produced-as-difficulty-drops-7-8",
+      "published_at": "Sun, 22 Mar 2026 06:26:48 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Bitcoin drops below $69,200 as Trump gives 48-hour ultimatum on Iran power plants",
+      "url": "https://www.coindesk.com/markets/2026/03/22/bitcoin-drops-below-usd69-200-as-trump-gives-48-hour-ultimatum-on-iran-power-plants",
+      "published_at": "Sun, 22 Mar 2026 06:00:08 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Bitcoin options signal extreme fear as downside protection premium hits new all-time high, says VanEck",
+      "url": "https://www.coindesk.com/markets/2026/03/21/bitcoin-options-signal-extreme-fear-as-downside-protection-premium-hits-new-all-time-high-says-vaneck",
+      "published_at": "Sat, 21 Mar 2026 18:54:23 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Crypto firms cut hundreds of jobs in weeks, blaming weak markets, strong AI",
+      "url": "https://www.coindesk.com/business/2026/03/21/crypto-firms-cut-hundreds-of-jobs-in-weeks-blaming-markets-and-ai-in-equal-measure",
+      "published_at": "Sat, 21 Mar 2026 18:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "How DeFi is quietly rebuilding the fixed-income stack for institutional capital",
+      "url": "https://www.coindesk.com/opinion/2026/03/21/how-defi-is-quietly-rebuilding-the-fixed-income-stack-for-institutional-capital",
+      "published_at": "Sat, 21 Mar 2026 17:30:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Grayscale wants to bring the world's hottest crypto trading frenzy to your brokerage account",
+      "url": "https://www.coindesk.com/business/2026/03/21/grayscale-wants-to-bring-the-world-s-hottest-crypto-trading-frenzy-to-your-brokerage-account",
+      "published_at": "Sat, 21 Mar 2026 17:27:20 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "The 5-cent contract that debunked a wartime death conspiracy",
+      "url": "https://www.coindesk.com/business/2026/03/21/the-5-cent-contract-that-debunked-a-wartime-death-conspiracy",
+      "published_at": "Sat, 21 Mar 2026 16:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
       "title": "Strategy set for second-biggest bitcoin buying quarter despite BTC price slide",
       "url": "https://www.coindesk.com/markets/2026/03/21/strategy-set-for-second-biggest-bitcoin-buying-quarter-despite-btc-price-slide",
       "published_at": "Sat, 21 Mar 2026 14:00:00 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "It could cost you up to $6 million to grab lunch with Donald Trump",
-      "url": "https://www.coindesk.com/business/2026/03/21/it-could-cost-you-up-to-usd6-million-to-grab-lunch-with-donald-trump",
-      "published_at": "Sat, 21 Mar 2026 14:00:00 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Sam Bankman-Fried tries to get on Donald Trump\u2019s good side by backing his Iran strikes",
-      "url": "https://www.coindesk.com/policy/2026/03/21/sam-bankman-fried-tries-to-get-on-donald-trump-s-good-side-by-backing-his-iran-strikes",
-      "published_at": "Sat, 21 Mar 2026 12:00:00 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Sam Bankman-Fried's past political cash gives AI PAC fuel for bashing NY candidate Bores",
-      "url": "https://www.coindesk.com/policy/2026/03/20/sam-bankman-fried-s-past-political-cash-gives-ai-pac-fuel-for-bashing-ny-candidate-bores",
-      "published_at": "Fri, 20 Mar 2026 20:03:00 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Senators say they've reached compromise on yield to advance crypto market bill",
-      "url": "https://www.coindesk.com/policy/2026/03/20/crypto-clarity-act-may-be-cleared-to-move-after-senators-agree-on-stablecoin-yield",
-      "published_at": "Fri, 20 Mar 2026 19:27:20 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Kalshi gets temporary Nevada ban in dispute over sports betting",
-      "url": "https://www.coindesk.com/policy/2026/03/20/kalshi-gets-temporary-nevada-ban-in-dispute-over-sports-betting",
-      "published_at": "Fri, 20 Mar 2026 18:45:29 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Nasdaq winning SEC approval to move stocks onchain shows how Wall Street is taking charge of crypto tech",
-      "url": "https://www.coindesk.com/business/2026/03/19/nasdaq-winning-sec-approval-to-move-stocks-onchain-shows-how-wall-street-is-taking-charge-of-crypto-tech",
-      "published_at": "Fri, 20 Mar 2026 17:04:22 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitcoin's latest fear unlocked as rate hike bets rise and bond markets crumble",
-      "url": "https://www.coindesk.com/markets/2026/03/20/bitcoin-s-latest-fear-unlocked-as-rate-hikes-bets-rise-and-bond-markets-crumble",
-      "published_at": "Fri, 20 Mar 2026 14:51:48 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Why CoinDesk PitchFest matters heading into Miami",
-      "url": "https://www.coindesk.com/opinion/2026/03/20/why-coindesk-pitchfest-matters-heading-into-miami",
-      "published_at": "Fri, 20 Mar 2026 14:30:00 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Crypto wallet maker Ledger taps former Circle exec as CFO to help lead IPO push",
-      "url": "https://www.coindesk.com/business/2026/03/20/crypto-wallet-maker-ledger-taps-a-former-circle-exec-as-cfo-to-help-lead-its-push-into-the-public-markets",
-      "published_at": "Fri, 20 Mar 2026 13:57:14 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }

@@ -4,7 +4,7 @@
   "symbol": "CL=F",
   "market_type": "traditional",
   "details_page": "asset.html?asset=oil",
-  "updated_at": "2026-03-21T15:34:05.509099+00:00",
+  "updated_at": "2026-03-22T15:34:34.814343+00:00",
   "about": {
     "what_it_is": "CL=F tracks front-month WTI crude oil futures pricing.",
     "what_it_represents": "It represents global energy demand, supply constraints, and geopolitical risk premiums.",
@@ -13,7 +13,7 @@
   },
   "source": {
     "short_term": "stooq_live",
-    "news_generated_at": "2026-03-21 15:33 UTC"
+    "news_generated_at": "2026-03-22 15:33 UTC"
   },
   "price": {
     "current_usd": 98.23,
@@ -39,13 +39,6 @@
       "title": "Iran war volatility is driving oil trading boom on Hyperliquid, says JPMorgan",
       "url": "https://www.coindesk.com/business/2026/03/20/iran-war-volatility-is-driving-oil-trading-boom-on-hyperliquid-says-jpmorgan",
       "published_at": "Fri, 20 Mar 2026 12:45:45 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitcoin jumps to $70,800 as oil retreats; ether and XRP lag",
-      "url": "https://www.coindesk.com/markets/2026/03/20/bitcoin-jumps-to-usd70-800-as-oil-retreats-ether-and-xrp-lag",
-      "published_at": "Fri, 20 Mar 2026 05:43:42 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
