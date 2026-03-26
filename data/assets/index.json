@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-25T16:18:03.112564+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-03-25 16:09 UTC_",
+  "generated_at": "2026-03-26T16:19:26.821574+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-03-26 16:11 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,23 +9,23 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 70857.0,
+        "current_usd": 68875.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": -0.56,
-        "change_30d_pct": 9.72
+        "change_7d_pct": -1.43,
+        "change_30d_pct": 7.49
       },
       "indicators": {
-        "trend": "UPTREND",
+        "trend": "DOWNTREND",
         "momentum": "STRONG",
         "volatility": "NORMAL"
       },
       "valuation": {
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
-        "summary_line": "Fair - Weak growth profile - Elevated regulatory risk.",
-        "score": 55.0
+        "summary_line": "Fair - Balanced growth profile - Elevated regulatory risk.",
+        "score": 55.4
       },
-      "updated_at": "2026-03-25T16:18:03.110296+00:00",
+      "updated_at": "2026-03-26T16:19:26.819363+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,23 +37,23 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 2160.0,
+        "current_usd": 2065.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": -1.99,
-        "change_30d_pct": 16.5
+        "change_7d_pct": -3.39,
+        "change_30d_pct": 11.46
       },
       "indicators": {
-        "trend": "UPTREND",
-        "momentum": "WEAK",
+        "trend": "DOWNTREND",
+        "momentum": "STRONG",
         "volatility": "NORMAL"
       },
       "valuation": {
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
         "summary_line": "Fair - Balanced growth profile - Elevated regulatory risk.",
-        "score": 55.8
+        "score": 54.1
       },
-      "updated_at": "2026-03-25T16:18:03.111036+00:00",
+      "updated_at": "2026-03-26T16:19:26.820145+00:00",
       "source": {
         "short_term": "live"
       }
@@ -65,8 +65,8 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=spy",
       "price": {
-        "current_usd": 657.12,
-        "change_24h_pct": -0.23532269573534048,
+        "current_usd": 651.165,
+        "change_24h_pct": -0.13725730760972832,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
@@ -81,7 +81,7 @@
         "summary_line": "Fair - Strong growth profile - Elevated regulatory risk.",
         "score": 48.6
       },
-      "updated_at": "2026-03-25T16:18:03.111347+00:00",
+      "updated_at": "2026-03-26T16:19:26.820411+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -93,8 +93,8 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=qqq",
       "price": {
-        "current_usd": 587.67,
-        "change_24h_pct": -0.24951624401671202,
+        "current_usd": 580.71,
+        "change_24h_pct": -0.3244078269824868,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Strong growth profile - Elevated regulatory risk.",
         "score": 35.5
       },
-      "updated_at": "2026-03-25T16:18:03.111597+00:00",
+      "updated_at": "2026-03-26T16:19:26.820661+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -121,13 +121,13 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=nvda",
       "price": {
-        "current_usd": 179.125,
-        "change_24h_pct": 1.1434217955957227,
+        "current_usd": 174.57,
+        "change_24h_pct": -0.8519338899301454,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
       "indicators": {
-        "trend": "UPTREND",
+        "trend": "SIDEWAYS",
         "momentum": "N/A",
         "volatility": "N/A"
       },
@@ -137,7 +137,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Elevated regulatory risk.",
         "score": 0.0
       },
-      "updated_at": "2026-03-25T16:18:03.111850+00:00",
+      "updated_at": "2026-03-26T16:19:26.820886+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -149,13 +149,13 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=gold",
       "price": {
-        "current_usd": 4551.57,
-        "change_24h_pct": 1.4917485567499833,
+        "current_usd": 4426.05,
+        "change_24h_pct": -2.0289040243840373,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
       "indicators": {
-        "trend": "UPTREND",
+        "trend": "DOWNTREND",
         "momentum": "N/A",
         "volatility": "N/A"
       },
@@ -165,7 +165,7 @@
         "summary_line": "Overvalued - Strong growth profile - Elevated regulatory risk.",
         "score": 38.5
       },
-      "updated_at": "2026-03-25T16:18:03.112084+00:00",
+      "updated_at": "2026-03-26T16:19:26.821105+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -177,8 +177,8 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=oil",
       "price": {
-        "current_usd": 90.17,
-        "change_24h_pct": 1.4285714285714235,
+        "current_usd": 94.41,
+        "change_24h_pct": 3.781466417500279,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
@@ -193,7 +193,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-03-25T16:18:03.112326+00:00",
+      "updated_at": "2026-03-26T16:19:26.821341+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -201,72 +201,72 @@
   ],
   "overview_news": [
     {
-      "title": "The Protocol: Ethereum faces make-or-break moment as scaling, quantum and AI pressures mount",
-      "url": "https://www.coindesk.com/tech/2026/03/25/the-protocol-ethereum-faces-make-or-break-moment-as-scaling-quantum-and-ai-pressures-mount",
-      "published_at": "Wed, 25 Mar 2026 15:49:37 +0000",
+      "title": "Bitcoin holds ground as gold, silver slide on ETF outflows and liquidity strains: JPMorgan",
+      "url": "https://www.coindesk.com/markets/2026/03/26/bitcoin-holds-ground-as-gold-silver-slide-on-etf-outflows-and-liquidity-strains-jpmorgan",
+      "published_at": "Thu, 26 Mar 2026 16:08:42 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Binance tightens market maker rules, tells token issuers they must disclose partners",
-      "url": "https://www.coindesk.com/business/2026/03/25/binance-tightens-market-maker-rules-tells-token-issuers-they-must-disclose-partners",
-      "published_at": "Wed, 25 Mar 2026 15:39:32 +0000",
+      "title": "The NYSE wants to bring blockchain to Wall Street without breaking the existing system",
+      "url": "https://www.coindesk.com/markets/2026/03/26/the-nyse-wants-to-bring-blockchain-to-wall-street-without-breaking-the-current-system",
+      "published_at": "Thu, 26 Mar 2026 15:45:28 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Circle selloff may be overdone as crypto bill weakens Coinbase edge, say analysts",
-      "url": "https://www.coindesk.com/markets/2026/03/25/circle-selloff-may-be-overdone-as-crypto-bill-weakens-coinbase-edge-say-analysts",
-      "published_at": "Wed, 25 Mar 2026 15:38:34 +0000",
+      "title": "Crypto for Advisors: The evolution of stablecoins",
+      "url": "https://www.coindesk.com/coindesk-indices/2026/03/25/crypto-for-advisors-the-evolution-of-stablecoins",
+      "published_at": "Thu, 26 Mar 2026 15:00:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Ethereum Foundation prepares for quantum threat with new cryptography roadmap",
-      "url": "https://www.coindesk.com/tech/2026/03/25/ethereum-foundation-prepares-for-quantum-threat-with-new-cryptography-roadmap",
-      "published_at": "Wed, 25 Mar 2026 15:33:22 +0000",
+      "title": "The privacy paradox: regulating zero-knowledge finance in the EU and beyond",
+      "url": "https://www.coindesk.com/opinion/2026/03/19/the-privacy-paradox-regulating-zero-knowledge-finance-in-the-eu-and-beyond",
+      "published_at": "Thu, 26 Mar 2026 14:30:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Franklin Templeton puts its $1.7 trillion weight behind Ondo to bring 24/7 stock trading to the blockchain",
-      "url": "https://www.coindesk.com/business/2026/03/25/franklin-templeton-puts-its-usd1-7-trillion-weight-behind-ondo-to-bring-24-7-stock-trading-to-the-blockchain",
-      "published_at": "Wed, 25 Mar 2026 15:15:57 +0000",
+      "title": "Stablecoin rewards restrictions can slow but not stop Circle's USDC, says Citigroup",
+      "url": "https://www.coindesk.com/policy/2026/03/26/stablecoin-rewards-restrictions-can-slow-but-not-stop-circle-s-usdc-says-citigroup",
+      "published_at": "Thu, 26 Mar 2026 14:02:32 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "UK political crypto donations banned by Starmer government",
-      "url": "https://www.coindesk.com/business/2026/03/25/keir-starmer-takes-aim-at-nigel-farage-while-announcing-an-immediate-ban-on-crypto-funding",
-      "published_at": "Wed, 25 Mar 2026 14:29:42 +0000",
+      "title": "CoinDesk 20 performance update: index falls 3.2% as all constituents trade lower",
+      "url": "https://www.coindesk.com/coindesk-indices/2026/03/26/coindesk-20-performance-update-index-falls-3-2-as-all-constituents-trade-lower",
+      "published_at": "Thu, 26 Mar 2026 13:18:23 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "CoinDesk 20 performance update: Stellar (XLM) gains 6% as all constituents rise",
-      "url": "https://www.coindesk.com/coindesk-indices/2026/03/25/coindesk-20-performance-update-stellar-xlm-gains-6-as-all-constituents-rise",
-      "published_at": "Wed, 25 Mar 2026 13:25:09 +0000",
+      "title": "MARA Holdings higher by 10% after selling $1.1 billion in bitcoin to fund debt buyback",
+      "url": "https://www.coindesk.com/markets/2026/03/26/mara-holdings-higher-by-10-after-selling-usd1-1-billion-in-bitcoin-to-fund-debt-buyback",
+      "published_at": "Thu, 26 Mar 2026 12:23:22 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Cipher Digital stock rises 9% on new data center deal with Hyperscale tenant",
-      "url": "https://www.coindesk.com/markets/2026/03/25/cipher-digital-stock-rises-9-on-new-data-center-deal-with-hyperscale-tenant",
-      "published_at": "Wed, 25 Mar 2026 12:48:19 +0000",
+      "title": "U.S. midterms pack major digital assets punch as Stand With Crypto preps strategy",
+      "url": "https://www.coindesk.com/policy/2026/03/25/u-s-midterms-pack-major-digital-assets-wallop-as-stand-with-crypto-preps-strategy",
+      "published_at": "Thu, 26 Mar 2026 12:00:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Monument Bank to tokenize 250 million pounds of retail deposits in UK first",
-      "url": "https://www.coindesk.com/business/2026/03/25/monument-bank-to-tokenized-250-million-pounds-of-retail-deposits-in-uk-first",
-      "published_at": "Wed, 25 Mar 2026 12:00:00 +0000",
+      "title": "Brazil passes law turning seized crypto into public-security war chest",
+      "url": "https://www.coindesk.com/policy/2026/03/26/brazil-passes-law-turning-seized-crypto-into-public-security-war-chest",
+      "published_at": "Thu, 26 Mar 2026 11:56:41 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin\u2019s refusal to fall signals crypto's underlying strength even as war risks linger",
-      "url": "https://www.coindesk.com/daybook-us/2026/03/25/bitcoin-s-refusal-to-fall-signals-crypto-s-underlying-strength-even-as-war-risks-linger",
-      "published_at": "Wed, 25 Mar 2026 11:21:36 +0000",
+      "title": "Coinbase, Fannie Mae bring crypto-backed mortgages to homebuyers",
+      "url": "https://www.coindesk.com/business/2026/03/26/coinbase-fannie-mae-bring-crypto-backed-mortgages-to-homebuyers",
+      "published_at": "Thu, 26 Mar 2026 11:41:06 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
