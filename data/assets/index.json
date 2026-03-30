@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-29T15:40:11.476876+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-03-29 15:31 UTC_",
+  "generated_at": "2026-03-30T16:12:47.950403+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-03-30 16:05 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,13 +9,13 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 66352.0,
+        "current_usd": 67384.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": -2.21,
-        "change_30d_pct": 0.71
+        "change_7d_pct": -4.95,
+        "change_30d_pct": 0.56
       },
       "indicators": {
-        "trend": "DOWNTREND",
+        "trend": "UPTREND",
         "momentum": "WEAK",
         "volatility": "NORMAL"
       },
@@ -23,9 +23,9 @@
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
         "summary_line": "Fair - Weak growth profile - Elevated regulatory risk.",
-        "score": 49.1
+        "score": 53.7
       },
-      "updated_at": "2026-03-29T15:40:11.474638+00:00",
+      "updated_at": "2026-03-30T16:12:47.948188+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,23 +37,23 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 1988.0,
+        "current_usd": 2067.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": -3.18,
-        "change_30d_pct": 2.93
+        "change_7d_pct": -3.92,
+        "change_30d_pct": 5.2
       },
       "indicators": {
-        "trend": "DOWNTREND",
-        "momentum": "WEAK",
+        "trend": "UPTREND",
+        "momentum": "STRONG",
         "volatility": "NORMAL"
       },
       "valuation": {
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
-        "summary_line": "Fair - Weak growth profile - Elevated regulatory risk.",
-        "score": 46.6
+        "summary_line": "Fair - Balanced growth profile - Elevated regulatory risk.",
+        "score": 55.1
       },
-      "updated_at": "2026-03-29T15:40:11.475428+00:00",
+      "updated_at": "2026-03-30T16:12:47.949030+00:00",
       "source": {
         "short_term": "live"
       }
@@ -65,13 +65,13 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=spy",
       "price": {
-        "current_usd": 634.09,
-        "change_24h_pct": -1.3089494163424087,
+        "current_usd": 637.187,
+        "change_24h_pct": -0.4566402649544665,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
       "indicators": {
-        "trend": "DOWNTREND",
+        "trend": "SIDEWAYS",
         "momentum": "N/A",
         "volatility": "N/A"
       },
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-03-29T15:40:11.475723+00:00",
+      "updated_at": "2026-03-30T16:12:47.949318+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -93,13 +93,13 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=qqq",
       "price": {
-        "current_usd": 562.58,
-        "change_24h_pct": -1.4418107601478436,
+        "current_usd": 564.195,
+        "change_24h_pct": -0.5560941217943038,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
       "indicators": {
-        "trend": "DOWNTREND",
+        "trend": "SIDEWAYS",
         "momentum": "N/A",
         "volatility": "N/A"
       },
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-03-29T15:40:11.475981+00:00",
+      "updated_at": "2026-03-30T16:12:47.949543+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -121,13 +121,13 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=nvda",
       "price": {
-        "current_usd": 167.52,
-        "change_24h_pct": -1.4588235294117569,
+        "current_usd": 167.475,
+        "change_24h_pct": -0.7731958762886681,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
       "indicators": {
-        "trend": "DOWNTREND",
+        "trend": "SIDEWAYS",
         "momentum": "N/A",
         "volatility": "N/A"
       },
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-03-29T15:40:11.476228+00:00",
+      "updated_at": "2026-03-30T16:12:47.949757+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -149,8 +149,8 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=gold",
       "price": {
-        "current_usd": 4494.04,
-        "change_24h_pct": 1.8730972636866738,
+        "current_usd": 4545.55,
+        "change_24h_pct": 1.303751908269346,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-03-29T15:40:11.476447+00:00",
+      "updated_at": "2026-03-30T16:12:47.949986+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -177,8 +177,8 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=oil",
       "price": {
-        "current_usd": 99.64,
-        "change_24h_pct": 6.7838388168470765,
+        "current_usd": 103.29,
+        "change_24h_pct": 1.1259056197376216,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
@@ -193,7 +193,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-03-29T15:40:11.476663+00:00",
+      "updated_at": "2026-03-30T16:12:47.950193+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -201,72 +201,72 @@
   ],
   "overview_news": [
     {
-      "title": "New Ethereum project aims to fix network fragmentation and improve user experience",
-      "url": "https://www.coindesk.com/tech/2026/03/29/new-ethereum-project-aims-to-fix-network-fragmentation-and-improve-user-experience",
-      "published_at": "Sun, 29 Mar 2026 15:00:00 +0000",
+      "title": "Bitcoin hashrate posts first-quarter drop for first time in 6 years as miners pivot to AI",
+      "url": "https://www.coindesk.com/markets/2026/03/30/bitcoin-hashrate-posts-first-quarter-drop-for-first-time-in-6-years-as-miners-pivot-to-ai",
+      "published_at": "Mon, 30 Mar 2026 15:04:14 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "XRP tests $1.33 as rising leverage and weak price action create unstable setup",
-      "url": "https://www.coindesk.com/markets/2026/03/29/xrp-tests-usd1-33-as-rising-leverage-and-weak-price-action-create-unstable-setup",
-      "published_at": "Sun, 29 Mar 2026 13:38:56 +0000",
+      "title": "The SEC\u2019s latest crypto guidance still leaves too much unsaid",
+      "url": "https://www.coindesk.com/opinion/2026/03/30/the-sec-s-latest-crypto-guidance-still-leaves-too-much-unsaid",
+      "published_at": "Mon, 30 Mar 2026 15:00:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bittensor ecosystem tokens' value hit $1.5 billion as Jensen Huang endorsement supports TAO rally",
-      "url": "https://www.coindesk.com/tech/2026/03/25/bittensor-ecosystem-tokens-value-hit-usd1-5-billion-as-jensen-huang-endorsement-supports-tao-rally",
-      "published_at": "Sun, 29 Mar 2026 13:15:57 +0000",
+      "title": "Bitmine makes biggest ether purchase in 2026 while other digital asset treasuries pull back",
+      "url": "https://www.coindesk.com/business/2026/03/30/bitmine-makes-biggest-ether-purchase-in-2026-while-other-digital-asset-treasuries-pull-back",
+      "published_at": "Mon, 30 Mar 2026 14:38:56 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Inside Aave\u2019s governance battle as DeFi giant prepares for upgrade",
-      "url": "https://www.coindesk.com/tech/2026/03/29/inside-aave-s-governance-battle-as-defi-giant-prepares-for-upgrade",
-      "published_at": "Sun, 29 Mar 2026 13:00:00 +0000",
+      "title": "Bernstein says the 60% crash in crypto stocks is a rare chance to buy the dip at a 'big' discount",
+      "url": "https://www.coindesk.com/business/2026/03/30/bernstein-says-the-60-crash-in-crypto-stocks-is-a-rare-chance-to-buy-the-dip-at-a-big-discount",
+      "published_at": "Mon, 30 Mar 2026 14:28:45 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Crypto needs a reset before the next bull run",
-      "url": "https://www.coindesk.com/opinion/2026/03/28/crypto-needs-a-reset-before-the-next-bull-run",
-      "published_at": "Sat, 28 Mar 2026 18:27:00 +0000",
+      "title": "Zcash upside hinges on repricing financial privacy in an AI-driven world, Grayscale says",
+      "url": "https://www.coindesk.com/tech/2026/03/30/zcash-upside-hinges-on-repricing-financial-privacy-in-an-ai-driven-world-grayscale-says",
+      "published_at": "Mon, 30 Mar 2026 14:18:22 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Washington sues Kalshi as states ramp up legal pressure against prediction markets",
-      "url": "https://www.coindesk.com/policy/2026/03/28/washington-sues-kalshi-as-states-ramp-up-legal-pressure-against-prediction-markets",
-      "published_at": "Sat, 28 Mar 2026 17:43:47 +0000",
+      "title": "Nearly half of all circulating bitcoin is underwater as long-term holders sell at a loss",
+      "url": "https://www.coindesk.com/markets/2026/03/30/nearly-half-of-all-circulating-bitcoin-is-underwater-as-long-term-holders-sell-at-a-loss",
+      "published_at": "Mon, 30 Mar 2026 13:53:45 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Kalshi secures license to offer margin trading to institutional investors",
-      "url": "https://www.coindesk.com/markets/2026/03/28/kalshi-secures-license-to-offer-margin-trading-to-institutional-investors",
-      "published_at": "Sat, 28 Mar 2026 17:06:48 +0000",
+      "title": "Charles Hoskinson\u2019s $200 million bet: Midnight goes live to tackle crypto\u2019s biggest flaws",
+      "url": "https://www.coindesk.com/tech/2026/03/30/charles-hoskinson-s-usd200-million-bet-midnight-goes-live-to-tackle-crypto-s-biggest-flaws",
+      "published_at": "Mon, 30 Mar 2026 13:53:06 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Canada moves to ban crypto donations for election campaigns following UK",
-      "url": "https://www.coindesk.com/policy/2026/03/28/canada-moves-to-ban-crypto-donations-for-election-campaigns-following-uk",
-      "published_at": "Sat, 28 Mar 2026 16:56:36 +0000",
+      "title": "Lido DAO proposes $20 million LDO buyback to boost price after 95% slide",
+      "url": "https://www.coindesk.com/markets/2026/03/30/lido-dao-proposes-usd20-million-ldo-buyback-to-boost-price-after-95-slide",
+      "published_at": "Mon, 30 Mar 2026 13:26:33 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Why bitcoin's 'compressed' valuation offers reduced downside risk versus stocks",
-      "url": "https://www.coindesk.com/markets/2026/03/28/why-bitcoin-s-compressed-valuation-offers-reduced-downside-risk-versus-stocks",
-      "published_at": "Sat, 28 Mar 2026 16:39:16 +0000",
+      "title": "CoinDesk 20 performance update: Ethereum (ETH) price rises 4.2% over weekend",
+      "url": "https://www.coindesk.com/coindesk-indices/2026/03/30/coindesk-20-performance-update-ethereum-eth-price-rises-4-2-over-weekend",
+      "published_at": "Mon, 30 Mar 2026 13:14:33 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Here's how bitcoin, Ethereum and other networks are preparing for the looming quantum threat",
-      "url": "https://www.coindesk.com/tech/2026/03/28/here-s-how-bitcoin-ethereum-and-other-networks-are-preparing-for-the-looming-quantum-threat",
-      "published_at": "Sat, 28 Mar 2026 16:00:00 +0000",
+      "title": "Aave rolls out v4 on Ethereum, aiming to expand DeFi into real-world credit markets",
+      "url": "https://www.coindesk.com/tech/2026/03/30/aave-rolls-out-v4-on-ethereum-aiming-to-expand-defi-into-real-world-credit-markets",
+      "published_at": "Mon, 30 Mar 2026 13:00:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
