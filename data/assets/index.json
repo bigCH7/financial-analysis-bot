@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-01T16:14:12.103213+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-04-01 16:05 UTC_",
+  "generated_at": "2026-04-02T16:08:48.791518+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-04-02 16:00 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,13 +9,13 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 68694.0,
+        "current_usd": 66855.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": -3.67,
-        "change_30d_pct": -0.25
+        "change_7d_pct": -2.81,
+        "change_30d_pct": -2.15
       },
       "indicators": {
-        "trend": "UPTREND",
+        "trend": "DOWNTREND",
         "momentum": "STRONG",
         "volatility": "NORMAL"
       },
@@ -23,9 +23,9 @@
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
         "summary_line": "Fair - Balanced growth profile - Elevated regulatory risk.",
-        "score": 57.5
+        "score": 55.9
       },
-      "updated_at": "2026-04-01T16:14:12.100898+00:00",
+      "updated_at": "2026-04-02T16:08:48.789387+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,23 +37,23 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 2126.0,
+        "current_usd": 2057.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": -1.94,
-        "change_30d_pct": 4.77
+        "change_7d_pct": -0.13,
+        "change_30d_pct": 3.74
       },
       "indicators": {
-        "trend": "UPTREND",
+        "trend": "DOWNTREND",
         "momentum": "STRONG",
         "volatility": "NORMAL"
       },
       "valuation": {
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
-        "summary_line": "Fair - Balanced growth profile - Elevated regulatory risk.",
-        "score": 56.9
+        "summary_line": "Fair - Strong growth profile - Elevated regulatory risk.",
+        "score": 57.5
       },
-      "updated_at": "2026-04-01T16:14:12.101705+00:00",
+      "updated_at": "2026-04-02T16:08:48.790176+00:00",
       "source": {
         "short_term": "live"
       }
@@ -65,13 +65,13 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=spy",
       "price": {
-        "current_usd": 658.02,
-        "change_24h_pct": 0.6300657592904102,
+        "current_usd": 654.0295,
+        "change_24h_pct": 1.1771758299557566,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
       "indicators": {
-        "trend": "SIDEWAYS",
+        "trend": "UPTREND",
         "momentum": "N/A",
         "volatility": "N/A"
       },
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-04-01T16:14:12.101981+00:00",
+      "updated_at": "2026-04-02T16:08:48.790427+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -93,13 +93,13 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=qqq",
       "price": {
-        "current_usd": 587.145,
-        "change_24h_pct": 0.9742381509252107,
+        "current_usd": 582.47,
+        "change_24h_pct": 1.480913636601211,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
       "indicators": {
-        "trend": "SIDEWAYS",
+        "trend": "UPTREND",
         "momentum": "N/A",
         "volatility": "N/A"
       },
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-04-01T16:14:12.102229+00:00",
+      "updated_at": "2026-04-02T16:08:48.790643+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -121,36 +121,8 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=nvda",
       "price": {
-        "current_usd": 177.225,
-        "change_24h_pct": 0.696022727272716,
-        "change_7d_pct": null,
-        "change_30d_pct": null
-      },
-      "indicators": {
-        "trend": "SIDEWAYS",
-        "momentum": "N/A",
-        "volatility": "N/A"
-      },
-      "valuation": {
-        "verdict": "Insufficient data",
-        "band": "fair",
-        "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
-        "score": null
-      },
-      "updated_at": "2026-04-01T16:14:12.102478+00:00",
-      "source": {
-        "short_term": "stooq_live"
-      }
-    },
-    {
-      "asset": "gold",
-      "name": "Gold Futures",
-      "symbol": "GC=F",
-      "market_type": "traditional",
-      "details_page": "asset.html?asset=gold",
-      "price": {
-        "current_usd": 4778.94,
-        "change_24h_pct": 2.28326334578981,
+        "current_usd": 176.26,
+        "change_24h_pct": 2.36961319549307,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
@@ -165,20 +137,20 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-04-01T16:14:12.102736+00:00",
+      "updated_at": "2026-04-02T16:08:48.790879+00:00",
       "source": {
         "short_term": "stooq_live"
       }
     },
     {
-      "asset": "oil",
-      "name": "Crude Oil Futures",
-      "symbol": "CL=F",
+      "asset": "gold",
+      "name": "Gold Futures",
+      "symbol": "GC=F",
       "market_type": "traditional",
-      "details_page": "asset.html?asset=oil",
+      "details_page": "asset.html?asset=gold",
       "price": {
-        "current_usd": 100.6,
-        "change_24h_pct": -1.3241785188818134,
+        "current_usd": 4654.76,
+        "change_24h_pct": -2.1813321677146114,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
@@ -193,7 +165,35 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-04-01T16:14:12.102975+00:00",
+      "updated_at": "2026-04-02T16:08:48.791087+00:00",
+      "source": {
+        "short_term": "stooq_live"
+      }
+    },
+    {
+      "asset": "oil",
+      "name": "Crude Oil Futures",
+      "symbol": "CL=F",
+      "market_type": "traditional",
+      "details_page": "asset.html?asset=oil",
+      "price": {
+        "current_usd": 111.37,
+        "change_24h_pct": 12.63147249190939,
+        "change_7d_pct": null,
+        "change_30d_pct": null
+      },
+      "indicators": {
+        "trend": "UPTREND",
+        "momentum": "N/A",
+        "volatility": "N/A"
+      },
+      "valuation": {
+        "verdict": "Insufficient data",
+        "band": "fair",
+        "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
+        "score": null
+      },
+      "updated_at": "2026-04-02T16:08:48.791300+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -201,72 +201,72 @@
   ],
   "overview_news": [
     {
-      "title": "The Protocol: Quantum computing could break Bitcoin sooner, says Google",
-      "url": "https://www.coindesk.com/tech/2026/04/01/the-protocol-quantum-computing-could-break-bitcoin-sooner-says-google",
-      "published_at": "Wed, 01 Apr 2026 15:59:41 +0000",
+      "title": "Elon Musk's X to deploy scam kill switch by auto-locking first-time crypto mentioners",
+      "url": "https://www.coindesk.com/web3/2026/04/02/elon-musk-s-x-to-deploy-scam-kill-switch-by-auto-locking-first-time-crypto-mentioners",
+      "published_at": "Thu, 02 Apr 2026 15:28:49 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Jamie Dimon signals JPMorgan entry into prediction markets as competition surges",
-      "url": "https://www.coindesk.com/markets/2026/04/01/jamie-dimon-signals-jpmorgan-entry-into-prediction-markets-as-competition-surges",
-      "published_at": "Wed, 01 Apr 2026 15:57:11 +0000",
+      "title": "How a Solana feature designed for convenience let attackers drain more than $270 million from Drift",
+      "url": "https://www.coindesk.com/tech/2026/04/02/how-a-solana-feature-designed-for-convenience-let-an-attacker-drain-usd270-million-from-drift",
+      "published_at": "Thu, 02 Apr 2026 15:08:48 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Cango raises capital as it faces NYSE delisting risk with shares below $1",
-      "url": "https://www.coindesk.com/business/2026/04/01/cango-raises-capital-as-it-faces-nyse-delisting-risk-with-shares-below-usd1",
-      "published_at": "Wed, 01 Apr 2026 15:42:19 +0000",
+      "title": "Bitcoin trims big loss, stocks erase 2% decline, as Iran signals cooperation on key shipping route",
+      "url": "https://www.coindesk.com/markets/2026/04/02/bitcoin-trims-big-loss-stocks-erase-2-decline-as-iran-signals-cooperation-on-key-shipping-route",
+      "published_at": "Thu, 02 Apr 2026 15:08:17 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Franklin Templeton launches crypto division with 250 Digital acquisition",
-      "url": "https://www.coindesk.com/business/2026/04/01/franklin-templeton-launches-crypto-division-with-250-digital-acquisition",
-      "published_at": "Wed, 01 Apr 2026 13:47:35 +0000",
+      "title": "Crypto for Advisors: Crypto custody\u2019s evolution",
+      "url": "https://www.coindesk.com/coindesk-indices/2026/04/01/crypto-for-advisors-crypto-custody-s-evolution",
+      "published_at": "Thu, 02 Apr 2026 15:00:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "CoinDesk 20 performance update: Avalanche (AVAX) gains 4% as index moves higher",
-      "url": "https://www.coindesk.com/coindesk-indices/2026/04/01/coindesk-20-performance-update-avalanche-avax-gains-4-as-index-moves-higher",
-      "published_at": "Wed, 01 Apr 2026 13:31:35 +0000",
+      "title": "North Koreans hackers likely behind $286 million Drift Protocol exploit: Elliptic",
+      "url": "https://www.coindesk.com/business/2026/04/02/north-koreans-hackers-likely-behind-the-usd286-million-drift-protocol-exploit-elliptic",
+      "published_at": "Thu, 02 Apr 2026 14:50:44 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin\u2019s crashes are shrinking, and Wall Street is starting to notice",
-      "url": "https://www.coindesk.com/markets/2026/04/01/bitcoin-s-crashes-are-shrinking-and-wall-street-is-starting-to-notice",
-      "published_at": "Wed, 01 Apr 2026 12:59:22 +0000",
+      "title": "Oil shock, Iran war risk keep crypto investors on sidelines: Grayscale",
+      "url": "https://www.coindesk.com/markets/2026/04/02/oil-shock-iran-war-risk-keep-crypto-investors-on-sidelines-grayscale",
+      "published_at": "Thu, 02 Apr 2026 13:57:24 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "OpenAI raises a record $122 billion as revenue crosses $2 billion per month",
-      "url": "https://www.coindesk.com/tech/2026/04/01/openai-raises-a-record-usd122-billion-at-as-revenue-crosses-usd2-billion-per-month",
-      "published_at": "Wed, 01 Apr 2026 12:15:03 +0000",
+      "title": "The 'time pain' trap: why bitcoin\u2019s bear market might need a few more months of \u2018boring\u2019 to hit a true floor",
+      "url": "https://www.coindesk.com/markets/2026/04/02/the-time-pain-trap-why-bitcoin-s-bear-market-might-need-a-few-more-months-of-boring-to-hit-a-true-floor",
+      "published_at": "Thu, 02 Apr 2026 13:34:09 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Grayscale\u2019s research head says tokenization will happen in waves and explains how to play it",
-      "url": "https://www.coindesk.com/markets/2026/04/01/grayscale-s-research-head-says-tokenization-will-happen-in-waves-and-explains-how-to-play-it",
-      "published_at": "Wed, 01 Apr 2026 11:47:07 +0000",
+      "title": "CoinDesk 20 performance update: index falls 4.5% as all constituents trade lower",
+      "url": "https://www.coindesk.com/coindesk-indices/2026/04/02/coindesk-20-performance-update-index-falls-4-5-as-all-constituents-trade-lower",
+      "published_at": "Thu, 02 Apr 2026 13:11:51 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Brazil's B3 exchange to offer bitcoin-linked 'event contracts' for the ultra-rich",
-      "url": "https://www.coindesk.com/markets/2026/04/01/brazil-s-b3-stock-exchange-to-launch-bitcoin-linked-event-contracts",
-      "published_at": "Wed, 01 Apr 2026 11:24:14 +0000",
+      "title": "Coinbase\u2019s AI payments system joins Linux Foundation, gathers support from Google, Stripe, AWS and others",
+      "url": "https://www.coindesk.com/tech/2026/04/02/coinbase-s-ai-payments-system-joins-linux-foundation-gathers-support-from-google-stripe-aws-and-others",
+      "published_at": "Thu, 02 Apr 2026 13:00:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Jack Dorsey says AI should replace the middle manager after Block cuts 4,000 jobs",
-      "url": "https://www.coindesk.com/tech/2026/04/01/jack-dorsey-says-ai-should-replace-corporate-hierarchy-after-block-cuts-4-000-jobs",
-      "published_at": "Wed, 01 Apr 2026 11:19:44 +0000",
+      "title": "Startup lets researchers mine blockchain tasks on a quantum computer for the first time",
+      "url": "https://www.coindesk.com/markets/2026/04/02/startup-lets-researchers-mine-blockchain-tasks-on-a-quantum-computer-for-the-first-time",
+      "published_at": "Thu, 02 Apr 2026 12:00:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }

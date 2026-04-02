@@ -1,55 +1,55 @@
 {
-  "generated_at": "2026-04-01T16:13:15.084699+00:00",
+  "generated_at": "2026-04-02T16:07:51.442377+00:00",
   "source": "stooq_live",
   "quotes": {
     "spy": {
       "asset": "spy",
       "symbol": "SPY",
       "name": "S&P 500 ETF",
-      "price": 658.02,
-      "change_24h_pct": 0.6300657592904102,
+      "price": 654.0295,
+      "change_24h_pct": 1.1771758299557566,
       "currency": "USD",
-      "market_time": "2026-04-01 17:58:31",
+      "market_time": "2026-04-02 17:53:08",
       "fetch_source": "stooq_live"
     },
     "qqq": {
       "asset": "qqq",
       "symbol": "QQQ",
       "name": "Nasdaq 100 ETF",
-      "price": 587.145,
-      "change_24h_pct": 0.9742381509252107,
+      "price": 582.47,
+      "change_24h_pct": 1.480913636601211,
       "currency": "USD",
-      "market_time": "2026-04-01 17:58:40",
+      "market_time": "2026-04-02 17:53:17",
       "fetch_source": "stooq_live"
     },
     "nvda": {
       "asset": "nvda",
       "symbol": "NVDA",
       "name": "NVIDIA",
-      "price": 177.225,
-      "change_24h_pct": 0.696022727272716,
+      "price": 176.26,
+      "change_24h_pct": 2.36961319549307,
       "currency": "USD",
-      "market_time": "2026-04-01 17:58:50",
+      "market_time": "2026-04-02 17:53:26",
       "fetch_source": "stooq_live"
     },
     "gold": {
       "asset": "gold",
       "symbol": "GC=F",
       "name": "Gold Futures",
-      "price": 4778.94,
-      "change_24h_pct": 2.28326334578981,
+      "price": 4654.76,
+      "change_24h_pct": -2.1813321677146114,
       "currency": "USD",
-      "market_time": "2026-04-01 18:13:56",
+      "market_time": "2026-04-02 18:08:36",
       "fetch_source": "stooq_live"
     },
     "oil": {
       "asset": "oil",
       "symbol": "CL=F",
       "name": "Crude Oil Futures",
-      "price": 100.6,
-      "change_24h_pct": -1.3241785188818134,
+      "price": 111.37,
+      "change_24h_pct": 12.63147249190939,
       "currency": "USD",
-      "market_time": "2026-04-01 18:14:09",
+      "market_time": "2026-04-02 18:08:47",
       "fetch_source": "stooq_live"
     }
   }
