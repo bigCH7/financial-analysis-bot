@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-02T16:08:48.791518+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-04-02 16:00 UTC_",
+  "generated_at": "2026-04-03T15:46:43.037080+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-04-03 15:38 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,23 +9,23 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 66855.0,
+        "current_usd": 66860.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": -2.81,
-        "change_30d_pct": -2.15
+        "change_7d_pct": 0.81,
+        "change_30d_pct": -7.99
       },
       "indicators": {
         "trend": "DOWNTREND",
-        "momentum": "STRONG",
+        "momentum": "WEAK",
         "volatility": "NORMAL"
       },
       "valuation": {
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
-        "summary_line": "Fair - Balanced growth profile - Elevated regulatory risk.",
-        "score": 55.9
+        "summary_line": "Fair - Weak growth profile - Elevated regulatory risk.",
+        "score": 52.3
       },
-      "updated_at": "2026-04-02T16:08:48.789387+00:00",
+      "updated_at": "2026-04-03T15:46:43.034913+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,23 +37,23 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 2057.0,
+        "current_usd": 2050.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": -0.13,
-        "change_30d_pct": 3.74
+        "change_7d_pct": 2.92,
+        "change_30d_pct": -3.56
       },
       "indicators": {
         "trend": "DOWNTREND",
-        "momentum": "STRONG",
+        "momentum": "WEAK",
         "volatility": "NORMAL"
       },
       "valuation": {
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
-        "summary_line": "Fair - Strong growth profile - Elevated regulatory risk.",
-        "score": 57.5
+        "summary_line": "Fair - Balanced growth profile - Elevated regulatory risk.",
+        "score": 50.9
       },
-      "updated_at": "2026-04-02T16:08:48.790176+00:00",
+      "updated_at": "2026-04-03T15:46:43.035659+00:00",
       "source": {
         "short_term": "live"
       }
@@ -65,8 +65,8 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=spy",
       "price": {
-        "current_usd": 654.0295,
-        "change_24h_pct": 1.1771758299557566,
+        "current_usd": 655.83,
+        "change_24h_pct": 1.4557099099656634,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-04-02T16:08:48.790427+00:00",
+      "updated_at": "2026-04-03T15:46:43.035947+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -93,8 +93,8 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=qqq",
       "price": {
-        "current_usd": 582.47,
-        "change_24h_pct": 1.480913636601211,
+        "current_usd": 584.98,
+        "change_24h_pct": 1.9182187222328784,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-04-02T16:08:48.790643+00:00",
+      "updated_at": "2026-04-03T15:46:43.036189+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -121,8 +121,8 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=nvda",
       "price": {
-        "current_usd": 176.26,
-        "change_24h_pct": 2.36961319549307,
+        "current_usd": 177.39,
+        "change_24h_pct": 3.025903124636997,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-04-02T16:08:48.790879+00:00",
+      "updated_at": "2026-04-03T15:46:43.036403+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -149,13 +149,13 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=gold",
       "price": {
-        "current_usd": 4654.76,
-        "change_24h_pct": -2.1813321677146114,
+        "current_usd": 4676.3,
+        "change_24h_pct": -0.0021383970575494793,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
       "indicators": {
-        "trend": "DOWNTREND",
+        "trend": "SIDEWAYS",
         "momentum": "N/A",
         "volatility": "N/A"
       },
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-04-02T16:08:48.791087+00:00",
+      "updated_at": "2026-04-03T15:46:43.036611+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -177,13 +177,13 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=oil",
       "price": {
-        "current_usd": 111.37,
-        "change_24h_pct": 12.63147249190939,
+        "current_usd": 111.54,
+        "change_24h_pct": 0.0,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
       "indicators": {
-        "trend": "UPTREND",
+        "trend": "SIDEWAYS",
         "momentum": "N/A",
         "volatility": "N/A"
       },
@@ -193,7 +193,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-04-02T16:08:48.791300+00:00",
+      "updated_at": "2026-04-03T15:46:43.036819+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -201,72 +201,72 @@
   ],
   "overview_news": [
     {
-      "title": "Elon Musk's X to deploy scam kill switch by auto-locking first-time crypto mentioners",
-      "url": "https://www.coindesk.com/web3/2026/04/02/elon-musk-s-x-to-deploy-scam-kill-switch-by-auto-locking-first-time-crypto-mentioners",
-      "published_at": "Thu, 02 Apr 2026 15:28:49 +0000",
+      "title": "CoinDesk 20 performance update: Bitcoin (BTC) trades flat while altcoins rise",
+      "url": "https://www.coindesk.com/coindesk-indices/2026/04/03/coindesk-20-performance-update-bitcoin-btc-trades-flat-while-altcoins-rise",
+      "published_at": "Fri, 03 Apr 2026 13:18:50 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "How a Solana feature designed for convenience let attackers drain more than $270 million from Drift",
-      "url": "https://www.coindesk.com/tech/2026/04/02/how-a-solana-feature-designed-for-convenience-let-an-attacker-drain-usd270-million-from-drift",
-      "published_at": "Thu, 02 Apr 2026 15:08:48 +0000",
+      "title": "U.S. March jobs smash expectations, with 178,000 added",
+      "url": "https://www.coindesk.com/markets/2026/04/03/u-s-march-jobs-smash-expectations-with-178-000-added",
+      "published_at": "Fri, 03 Apr 2026 12:33:40 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin trims big loss, stocks erase 2% decline, as Iran signals cooperation on key shipping route",
-      "url": "https://www.coindesk.com/markets/2026/04/02/bitcoin-trims-big-loss-stocks-erase-2-decline-as-iran-signals-cooperation-on-key-shipping-route",
-      "published_at": "Thu, 02 Apr 2026 15:08:17 +0000",
+      "title": "Ethereum Foundation stakes another $93 million ether, reaching its 70,000 ETH target",
+      "url": "https://www.coindesk.com/markets/2026/04/03/ethereum-foundation-stakes-another-usd93-million-ether-reaching-its-70-000-eth-target",
+      "published_at": "Fri, 03 Apr 2026 11:38:11 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Crypto for Advisors: Crypto custody\u2019s evolution",
-      "url": "https://www.coindesk.com/coindesk-indices/2026/04/01/crypto-for-advisors-crypto-custody-s-evolution",
-      "published_at": "Thu, 02 Apr 2026 15:00:00 +0000",
+      "title": "Crypto snoozes into Good Friday as oil and macro stir: Crypto Daybook Americas",
+      "url": "https://www.coindesk.com/daybook-us/2026/04/03/crypto-snoozes-into-good-friday-as-oil-and-macro-stir-crypto-daybook-americas",
+      "published_at": "Fri, 03 Apr 2026 11:15:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "North Koreans hackers likely behind $286 million Drift Protocol exploit: Elliptic",
-      "url": "https://www.coindesk.com/business/2026/04/02/north-koreans-hackers-likely-behind-the-usd286-million-drift-protocol-exploit-elliptic",
-      "published_at": "Thu, 02 Apr 2026 14:50:44 +0000",
+      "title": "Crypto consolidates as volatility cools and futures markets tilt bearish",
+      "url": "https://www.coindesk.com/markets/2026/04/03/crypto-consolidates-as-volatility-cools-and-futures-markets-tilt-bearish",
+      "published_at": "Fri, 03 Apr 2026 10:31:15 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Oil shock, Iran war risk keep crypto investors on sidelines: Grayscale",
-      "url": "https://www.coindesk.com/markets/2026/04/02/oil-shock-iran-war-risk-keep-crypto-investors-on-sidelines-grayscale",
-      "published_at": "Thu, 02 Apr 2026 13:57:24 +0000",
+      "title": "Naoris Protocol's quantum-resistant blockchain goes live as Bitcoin and Ethereum face 'Q-Day' threats",
+      "url": "https://www.coindesk.com/markets/2026/04/03/naoris-protocol-s-quantum-resistance-blockchain-goes-live-as-bitcoin-and-ethereum-face-q-day-threats",
+      "published_at": "Fri, 03 Apr 2026 09:22:45 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "The 'time pain' trap: why bitcoin\u2019s bear market might need a few more months of \u2018boring\u2019 to hit a true floor",
-      "url": "https://www.coindesk.com/markets/2026/04/02/the-time-pain-trap-why-bitcoin-s-bear-market-might-need-a-few-more-months-of-boring-to-hit-a-true-floor",
-      "published_at": "Thu, 02 Apr 2026 13:34:09 +0000",
+      "title": "Bitcoin heads into holiday weekend exposed as ETF and CME flows go offline",
+      "url": "https://www.coindesk.com/markets/2026/04/03/bitcoin-heads-into-holiday-weekend-exposed-as-etf-and-cme-flows-go-offline",
+      "published_at": "Fri, 03 Apr 2026 04:15:49 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "CoinDesk 20 performance update: index falls 4.5% as all constituents trade lower",
-      "url": "https://www.coindesk.com/coindesk-indices/2026/04/02/coindesk-20-performance-update-index-falls-4-5-as-all-constituents-trade-lower",
-      "published_at": "Thu, 02 Apr 2026 13:11:51 +0000",
+      "title": "Todd Blanche, author of DOJ crypto enforcement memo, is now interim AG",
+      "url": "https://www.coindesk.com/policy/2026/04/02/todd-blanche-author-of-doj-crypto-enforcement-memo-now-interim-ag",
+      "published_at": "Fri, 03 Apr 2026 00:28:27 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Coinbase\u2019s AI payments system joins Linux Foundation, gathers support from Google, Stripe, AWS and others",
-      "url": "https://www.coindesk.com/tech/2026/04/02/coinbase-s-ai-payments-system-joins-linux-foundation-gathers-support-from-google-stripe-aws-and-others",
-      "published_at": "Thu, 02 Apr 2026 13:00:00 +0000",
+      "title": "Crypto market structure bill release pushed back as industries view revised stablecoin yield compromise this week",
+      "url": "https://www.coindesk.com/policy/2026/04/02/crypto-market-structure-bill-release-pushed-back-as-industries-view-revised-stablecoin-yield-compromise-this-week",
+      "published_at": "Thu, 02 Apr 2026 22:12:10 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Startup lets researchers mine blockchain tasks on a quantum computer for the first time",
-      "url": "https://www.coindesk.com/markets/2026/04/02/startup-lets-researchers-mine-blockchain-tasks-on-a-quantum-computer-for-the-first-time",
-      "published_at": "Thu, 02 Apr 2026 12:00:00 +0000",
+      "title": "Here\u2019s why bitcoin\u2019s drop below $68,000 raises the risk of a crash under $60,000",
+      "url": "https://www.coindesk.com/markets/2026/04/02/here-s-why-bitcoin-s-drop-below-usd68-000-puts-it-at-risk-of-a-crash-under-usd60-000",
+      "published_at": "Thu, 02 Apr 2026 18:27:29 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
