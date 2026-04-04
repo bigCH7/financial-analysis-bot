@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-03T15:46:43.037080+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-04-03 15:38 UTC_",
+  "generated_at": "2026-04-04T15:39:34.748288+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-04-04 15:31 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,10 +9,10 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 66860.0,
+        "current_usd": 67320.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": 0.81,
-        "change_30d_pct": -7.99
+        "change_7d_pct": 1.51,
+        "change_30d_pct": -5.02
       },
       "indicators": {
         "trend": "DOWNTREND",
@@ -23,9 +23,9 @@
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
         "summary_line": "Fair - Weak growth profile - Elevated regulatory risk.",
-        "score": 52.3
+        "score": 49.4
       },
-      "updated_at": "2026-04-03T15:46:43.034913+00:00",
+      "updated_at": "2026-04-04T15:39:34.746087+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,10 +37,10 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 2050.0,
+        "current_usd": 2054.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": 2.92,
-        "change_30d_pct": -3.56
+        "change_7d_pct": 3.09,
+        "change_30d_pct": -0.97
       },
       "indicators": {
         "trend": "DOWNTREND",
@@ -48,12 +48,12 @@
         "volatility": "NORMAL"
       },
       "valuation": {
-        "verdict": "Neutral / fair-value zone",
-        "band": "fair",
-        "summary_line": "Fair - Balanced growth profile - Elevated regulatory risk.",
-        "score": 50.9
+        "verdict": "Caution / risk-reward mixed",
+        "band": "overvalued",
+        "summary_line": "Overvalued - Weak growth profile - Elevated regulatory risk.",
+        "score": 44.4
       },
-      "updated_at": "2026-04-03T15:46:43.035659+00:00",
+      "updated_at": "2026-04-04T15:39:34.746890+00:00",
       "source": {
         "short_term": "live"
       }
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-04-03T15:46:43.035947+00:00",
+      "updated_at": "2026-04-04T15:39:34.747199+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-04-03T15:46:43.036189+00:00",
+      "updated_at": "2026-04-04T15:39:34.747418+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-04-03T15:46:43.036403+00:00",
+      "updated_at": "2026-04-04T15:39:34.747630+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-04-03T15:46:43.036611+00:00",
+      "updated_at": "2026-04-04T15:39:34.747838+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -193,13 +193,69 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-04-03T15:46:43.036819+00:00",
+      "updated_at": "2026-04-04T15:39:34.748052+00:00",
       "source": {
         "short_term": "stooq_live"
       }
     }
   ],
   "overview_news": [
+    {
+      "title": "Traders are the big winners as 24/7 stocks will finally end the after-hours price 'manipulation'",
+      "url": "https://www.coindesk.com/markets/2026/04/04/traders-are-the-big-winners-as-24-7-stocks-will-finally-end-the-after-hours-price-manipulation",
+      "published_at": "Sat, 04 Apr 2026 14:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Solana's quantum-threat readiness reveals harsh tradeoff: security vs speed",
+      "url": "https://www.coindesk.com/tech/2026/04/04/solana-s-quantum-threat-readiness-reveals-harsh-tradeoff-security-vs-speed",
+      "published_at": "Sat, 04 Apr 2026 12:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Five data sources say the same thing about bitcoin market. It's thinning from the inside",
+      "url": "https://www.coindesk.com/markets/2026/04/03/five-data-sources-say-the-same-thing-about-bitcoin-market-it-s-thinning-from-the-inside",
+      "published_at": "Sat, 04 Apr 2026 11:30:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Judge continues Nevada ban on Kalshi sports markets",
+      "url": "https://www.coindesk.com/policy/2026/04/04/judge-continues-nevada-ban-on-kalshi-sports-markets",
+      "published_at": "Sat, 04 Apr 2026 07:04:16 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Here's what 'cracking' bitcoin in 9 minutes by quantum computers actually means",
+      "url": "https://www.coindesk.com/tech/2026/03/31/what-does-cracking-bitcoin-in-9-minutes-by-quantum-computers-actually-mean",
+      "published_at": "Sat, 04 Apr 2026 02:30:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Schwab plans spot bitcoin, ether trading launch in first half of 2026",
+      "url": "https://www.coindesk.com/business/2026/04/03/schwab-plans-spot-bitcoin-ether-trading-launch-in-first-half-of-2026",
+      "published_at": "Fri, 03 Apr 2026 19:18:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Circle under fire after $285 million Drift hack over inaction to freeze stolen USDC",
+      "url": "https://www.coindesk.com/business/2026/04/03/circle-under-fire-after-usd285-million-drift-hack-over-inaction-to-freeze-stolen-usdc",
+      "published_at": "Fri, 03 Apr 2026 19:02:51 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "What next as XRP rises to $1.33 but fails to break out",
+      "url": "https://www.coindesk.com/markets/2026/04/03/what-next-as-xrp-rises-to-usd1-33-but-fails-to-break-out",
+      "published_at": "Fri, 03 Apr 2026 16:32:33 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
     {
       "title": "CoinDesk 20 performance update: Bitcoin (BTC) trades flat while altcoins rise",
       "url": "https://www.coindesk.com/coindesk-indices/2026/04/03/coindesk-20-performance-update-bitcoin-btc-trades-flat-while-altcoins-rise",
@@ -211,62 +267,6 @@
       "title": "U.S. March jobs smash expectations, with 178,000 added",
       "url": "https://www.coindesk.com/markets/2026/04/03/u-s-march-jobs-smash-expectations-with-178-000-added",
       "published_at": "Fri, 03 Apr 2026 12:33:40 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Ethereum Foundation stakes another $93 million ether, reaching its 70,000 ETH target",
-      "url": "https://www.coindesk.com/markets/2026/04/03/ethereum-foundation-stakes-another-usd93-million-ether-reaching-its-70-000-eth-target",
-      "published_at": "Fri, 03 Apr 2026 11:38:11 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Crypto snoozes into Good Friday as oil and macro stir: Crypto Daybook Americas",
-      "url": "https://www.coindesk.com/daybook-us/2026/04/03/crypto-snoozes-into-good-friday-as-oil-and-macro-stir-crypto-daybook-americas",
-      "published_at": "Fri, 03 Apr 2026 11:15:00 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Crypto consolidates as volatility cools and futures markets tilt bearish",
-      "url": "https://www.coindesk.com/markets/2026/04/03/crypto-consolidates-as-volatility-cools-and-futures-markets-tilt-bearish",
-      "published_at": "Fri, 03 Apr 2026 10:31:15 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Naoris Protocol's quantum-resistant blockchain goes live as Bitcoin and Ethereum face 'Q-Day' threats",
-      "url": "https://www.coindesk.com/markets/2026/04/03/naoris-protocol-s-quantum-resistance-blockchain-goes-live-as-bitcoin-and-ethereum-face-q-day-threats",
-      "published_at": "Fri, 03 Apr 2026 09:22:45 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitcoin heads into holiday weekend exposed as ETF and CME flows go offline",
-      "url": "https://www.coindesk.com/markets/2026/04/03/bitcoin-heads-into-holiday-weekend-exposed-as-etf-and-cme-flows-go-offline",
-      "published_at": "Fri, 03 Apr 2026 04:15:49 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Todd Blanche, author of DOJ crypto enforcement memo, is now interim AG",
-      "url": "https://www.coindesk.com/policy/2026/04/02/todd-blanche-author-of-doj-crypto-enforcement-memo-now-interim-ag",
-      "published_at": "Fri, 03 Apr 2026 00:28:27 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Crypto market structure bill release pushed back as industries view revised stablecoin yield compromise this week",
-      "url": "https://www.coindesk.com/policy/2026/04/02/crypto-market-structure-bill-release-pushed-back-as-industries-view-revised-stablecoin-yield-compromise-this-week",
-      "published_at": "Thu, 02 Apr 2026 22:12:10 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Here\u2019s why bitcoin\u2019s drop below $68,000 raises the risk of a crash under $60,000",
-      "url": "https://www.coindesk.com/markets/2026/04/02/here-s-why-bitcoin-s-drop-below-usd68-000-puts-it-at-risk-of-a-crash-under-usd60-000",
-      "published_at": "Thu, 02 Apr 2026 18:27:29 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }

@@ -4,7 +4,7 @@
   "symbol": "CL=F",
   "market_type": "traditional",
   "details_page": "asset.html?asset=oil",
-  "updated_at": "2026-04-03T15:46:43.036819+00:00",
+  "updated_at": "2026-04-04T15:39:34.748052+00:00",
   "about": {
     "what_it_is": "CL=F tracks front-month WTI crude oil futures pricing.",
     "what_it_represents": "It represents global energy demand, supply constraints, and geopolitical risk premiums.",
@@ -13,7 +13,7 @@
   },
   "source": {
     "short_term": "stooq_live",
-    "news_generated_at": "2026-04-03 15:45 UTC"
+    "news_generated_at": "2026-04-04 15:38 UTC"
   },
   "price": {
     "current_usd": 111.54,
@@ -39,13 +39,6 @@
       "title": "Crypto snoozes into Good Friday as oil and macro stir: Crypto Daybook Americas",
       "url": "https://www.coindesk.com/daybook-us/2026/04/03/crypto-snoozes-into-good-friday-as-oil-and-macro-stir-crypto-daybook-americas",
       "published_at": "Fri, 03 Apr 2026 11:15:00 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Oil shock, Iran war risk keep crypto investors on sidelines: Grayscale",
-      "url": "https://www.coindesk.com/markets/2026/04/02/oil-shock-iran-war-risk-keep-crypto-investors-on-sidelines-grayscale",
-      "published_at": "Thu, 02 Apr 2026 13:57:24 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }

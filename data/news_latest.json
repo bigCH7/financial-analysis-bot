@@ -1,7 +1,63 @@
 {
-  "generated_at": "2026-04-03 15:45 UTC",
+  "generated_at": "2026-04-04 15:38 UTC",
   "count": 55,
   "items": [
+    {
+      "title": "Traders are the big winners as 24/7 stocks will finally end the after-hours price 'manipulation'",
+      "link": "https://www.coindesk.com/markets/2026/04/04/traders-are-the-big-winners-as-24-7-stocks-will-finally-end-the-after-hours-price-manipulation",
+      "pub_date": "Sat, 04 Apr 2026 14:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Solana's quantum-threat readiness reveals harsh tradeoff: security vs speed",
+      "link": "https://www.coindesk.com/tech/2026/04/04/solana-s-quantum-threat-readiness-reveals-harsh-tradeoff-security-vs-speed",
+      "pub_date": "Sat, 04 Apr 2026 12:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Five data sources say the same thing about bitcoin market. It's thinning from the inside",
+      "link": "https://www.coindesk.com/markets/2026/04/03/five-data-sources-say-the-same-thing-about-bitcoin-market-it-s-thinning-from-the-inside",
+      "pub_date": "Sat, 04 Apr 2026 11:30:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Judge continues Nevada ban on Kalshi sports markets",
+      "link": "https://www.coindesk.com/policy/2026/04/04/judge-continues-nevada-ban-on-kalshi-sports-markets",
+      "pub_date": "Sat, 04 Apr 2026 07:04:16 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Here's what 'cracking' bitcoin in 9 minutes by quantum computers actually means",
+      "link": "https://www.coindesk.com/tech/2026/03/31/what-does-cracking-bitcoin-in-9-minutes-by-quantum-computers-actually-mean",
+      "pub_date": "Sat, 04 Apr 2026 02:30:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Schwab plans spot bitcoin, ether trading launch in first half of 2026",
+      "link": "https://www.coindesk.com/business/2026/04/03/schwab-plans-spot-bitcoin-ether-trading-launch-in-first-half-of-2026",
+      "pub_date": "Fri, 03 Apr 2026 19:18:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Circle under fire after $285 million Drift hack over inaction to freeze stolen USDC",
+      "link": "https://www.coindesk.com/business/2026/04/03/circle-under-fire-after-usd285-million-drift-hack-over-inaction-to-freeze-stolen-usdc",
+      "pub_date": "Fri, 03 Apr 2026 19:02:51 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "What next as XRP rises to $1.33 but fails to break out",
+      "link": "https://www.coindesk.com/markets/2026/04/03/what-next-as-xrp-rises-to-usd1-33-but-fails-to-break-out",
+      "pub_date": "Fri, 03 Apr 2026 16:32:33 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
     {
       "title": "CoinDesk 20 performance update: Bitcoin (BTC) trades flat while altcoins rise",
       "link": "https://www.coindesk.com/coindesk-indices/2026/04/03/coindesk-20-performance-update-bitcoin-btc-trades-flat-while-altcoins-rise",
@@ -122,163 +178,107 @@
       "fetch_source": "live"
     },
     {
-      "title": "Oil shock, Iran war risk keep crypto investors on sidelines: Grayscale",
-      "link": "https://www.coindesk.com/markets/2026/04/02/oil-shock-iran-war-risk-keep-crypto-investors-on-sidelines-grayscale",
-      "pub_date": "Thu, 02 Apr 2026 13:57:24 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "The 'time pain' trap: why bitcoin\u2019s bear market might need a few more months of \u2018boring\u2019 to hit a true floor",
-      "link": "https://www.coindesk.com/markets/2026/04/02/the-time-pain-trap-why-bitcoin-s-bear-market-might-need-a-few-more-months-of-boring-to-hit-a-true-floor",
-      "pub_date": "Thu, 02 Apr 2026 13:34:09 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "CoinDesk 20 performance update: index falls 4.5% as all constituents trade lower",
-      "link": "https://www.coindesk.com/coindesk-indices/2026/04/02/coindesk-20-performance-update-index-falls-4-5-as-all-constituents-trade-lower",
-      "pub_date": "Thu, 02 Apr 2026 13:11:51 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Coinbase\u2019s AI payments system joins Linux Foundation, gathers support from Google, Stripe, AWS and others",
-      "link": "https://www.coindesk.com/tech/2026/04/02/coinbase-s-ai-payments-system-joins-linux-foundation-gathers-support-from-google-stripe-aws-and-others",
-      "pub_date": "Thu, 02 Apr 2026 13:00:00 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Startup lets researchers mine blockchain tasks on a quantum computer for the first time",
-      "link": "https://www.coindesk.com/markets/2026/04/02/startup-lets-researchers-mine-blockchain-tasks-on-a-quantum-computer-for-the-first-time",
-      "pub_date": "Thu, 02 Apr 2026 12:00:00 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "SoFi announces 24/7 banking hub that blends traditional cash with crypto",
-      "link": "https://www.coindesk.com/business/2026/04/02/sofi-is-launching-a-24-7-banking-hub-that-blends-traditional-cash-with-crypto",
-      "pub_date": "Thu, 02 Apr 2026 12:00:00 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Europe's first blockchain IPO is here: France\u2019s new exchange is taking aerospace firm public onchain",
-      "link": "https://www.coindesk.com/business/2026/04/02/france-s-new-stock-exchange-is-taking-an-aerospace-giant-public-onchain",
-      "pub_date": "Thu, 02 Apr 2026 11:45:45 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Audit admin keys, not just code, expert says after $200 million Drift exploit",
-      "link": "https://www.coindesk.com/daybook-us/2026/04/02/audit-admin-keys-not-just-code-expert-says-after-usd200-million-drift-exploit-crypto-daybook-americas",
-      "pub_date": "Thu, 02 Apr 2026 11:15:00 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Price predictions 4/3: BTC, ETH, BNB, XRP, SOL, DOGE, HYPE, ADA, BCH, LINK",
-      "link": "https://cointelegraph.com/news/price-predictions-4-3-btc-eth-bnb-xrp-sol-doge-hype-ada-bch-link?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 03 Apr 2026 15:39:20 +0100",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Binance led Q1 crypto derivatives as Hyperliquid cracked top 10: CoinGlass",
-      "link": "https://cointelegraph.com/news/binance-derivatives-q1-hyperliquid-enters-top-10-coinglass?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 03 Apr 2026 14:56:06 +0100",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Ethereum L2s need responsive pricing to scale, says Offchain Labs",
-      "link": "https://cointelegraph.com/news/ethereum-l2s-responsive-pricing-scale-billions?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 03 Apr 2026 14:51:29 +0100",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Solo Bitcoin miner bags $210K Bitcoin block reward",
-      "link": "https://cointelegraph.com/news/solo-bitcoin-miner-bags-210k-bitcoin-block?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 03 Apr 2026 14:45:10 +0100",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
       "title": "Here\u2019s what happened in crypto today",
       "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 03 Apr 2026 14:19:48 +0100",
+      "pub_date": "Sat, 04 Apr 2026 14:27:29 +0100",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Decentralized email platform Dmail to cease services on May 15",
-      "link": "https://cointelegraph.com/news/dmail-network-shutdown-decentralized-email-costs-funding-failure?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 03 Apr 2026 14:05:35 +0100",
+      "title": "Nevada judge extends ban on Kalshi, rejects event contract defense",
+      "link": "https://cointelegraph.com/news/nevada-judge-extends-kalshi-ban-unlicensed-gambling-ruling?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sat, 04 Apr 2026 14:21:54 +0100",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Centralizing crypto: Why Malta\u2019s clash with ESMA is about more than one small state",
-      "link": "https://cointelegraph.com/news/centralizing-crypto-why-malta-clash-with-esma?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 03 Apr 2026 13:51:51 +0100",
+      "title": "Prediction markets are testing legal limits in strict Asian markets",
+      "link": "https://cointelegraph.com/news/prediction-markets-testing-legal-limits-asia?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sat, 04 Apr 2026 13:00:00 +0100",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Aave avoided bad debt by shifting risk to borrowers: Bank of Canada study",
-      "link": "https://cointelegraph.com/news/aave-v3-bad-debt-liquidations-borrower-losses-study?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 03 Apr 2026 12:51:18 +0100",
+      "title": "Bitcoin shorts risk $2.5 billion liquidation at $72K: Are bears in danger?",
+      "link": "https://cointelegraph.com/news/bitcoin-shorts-risk-2-5-billion-liquidation-72k-are-bears-in-danger?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sat, 04 Apr 2026 12:58:24 +0100",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin 'done' with 85% crashes, says Cathie Wood amid new $34K target",
-      "link": "https://cointelegraph.com/news/bitcoin-done-85percent-crashes-cathie-wood-34k-target?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 03 Apr 2026 12:28:19 +0100",
+      "title": "Polymarket takes down market on missing US pilot after backlash",
+      "link": "https://cointelegraph.com/news/polymarket-removes-missing-us-pilot-market-backlash?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sat, 04 Apr 2026 10:32:42 +0100",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Drift sends onchain message to wallets tied to $280M exploit",
-      "link": "https://cointelegraph.com/news/drift-protocol-contact-hacker-onchain-message?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 03 Apr 2026 11:26:17 +0100",
+      "title": "Rich Bitcoin traders lost $337M daily in first quarter of 2026",
+      "link": "https://cointelegraph.com/news/rich-bitcoin-traders-lost-337m-daily-first-quarter-2026?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sat, 04 Apr 2026 09:31:42 +0100",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "South Korean brokerage Korea Investment & Securities eyes Coinone stake: Report",
-      "link": "https://cointelegraph.com/news/korea-investment-securities-coinone-stake-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 03 Apr 2026 09:58:14 +0100",
+      "title": "Tether may delay fundraising if demand falls short at $500B valuation: Report",
+      "link": "https://cointelegraph.com/news/tether-may-delay-fundraising-500b-valuation-demand-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sat, 04 Apr 2026 08:44:50 +0100",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Crypto hackers steal $169M from 34 DeFi protocols in Q1: DefiLlama",
-      "link": "https://cointelegraph.com/news/defi-hacks-169m-q1-2026-crypto-exploits-decline?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 03 Apr 2026 07:40:53 +0100",
+      "title": "Bitcoin\u2019s \u2018no direction\u2019 action may lead to heavier breakout: Analyst",
+      "link": "https://cointelegraph.com/news/bitcoin-price-direction-consolidation-breakout-crypto-analyst?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sat, 04 Apr 2026 07:16:31 +0100",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin supply in profit heads to \u2018true bear market\u2019 levels",
-      "link": "https://cointelegraph.com/news/bitcoin-supply-profit-loss-at-true-bear-market-levels-analyst?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 03 Apr 2026 06:38:39 +0100",
+      "title": "Bitcoin ETFs 'will be larger' than gold ETFs: Analyst",
+      "link": "https://cointelegraph.com/news/bitcoin-gold-etfs-use-cases-analyst-james-seyffart?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sat, 04 Apr 2026 04:35:01 +0100",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Tokenization makes finance more efficient but introduces risks: IMF",
-      "link": "https://cointelegraph.com/news/imf-tokenization-improves-finance-but-introduces-other-risks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 03 Apr 2026 05:13:42 +0100",
+      "title": "Ethereum Foundation nearly reaches 70,000 staked ETH goal",
+      "link": "https://cointelegraph.com/news/ethereum-foundation-nearly-reaches-70000-staked-eth-goal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Fri, 03 Apr 2026 22:31:51 +0100",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Stablecoins flip automated clearing house volume in February",
-      "link": "https://cointelegraph.com/news/stablecoins-flip-ach-monthly-volume-in-february?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 03 Apr 2026 05:08:43 +0100",
+      "title": "Cambodian lawmakers propose severe prison time for crypto scammers",
+      "link": "https://cointelegraph.com/news/cambodia-law-prison-crypto-scammers?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Fri, 03 Apr 2026 21:47:12 +0100",
+      "source": "Cointelegraph",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Is Bitcoin mispricing a prolonged Iran war? Ex-hedge fund manager weighs in",
+      "link": "https://cointelegraph.com/news/bitcoin-underestimating-prolonged-iran-war-macro-investor-weighs-in?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Fri, 03 Apr 2026 20:04:17 +0100",
+      "source": "Cointelegraph",
+      "fetch_source": "live"
+    },
+    {
+      "title": "US community banks oppose OCC's approval of Coinbase trust charter",
+      "link": "https://cointelegraph.com/news/community-banks-oppose-coinbase-trust-charter-approval-occ?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Fri, 03 Apr 2026 19:03:48 +0100",
+      "source": "Cointelegraph",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Kalshi onboards ex-Democratic strategist amid legal troubles",
+      "link": "https://cointelegraph.com/news/kalshi-democratic-strategist-lawsuits-state-federal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Fri, 03 Apr 2026 18:12:55 +0100",
+      "source": "Cointelegraph",
+      "fetch_source": "live"
+    },
+    {
+      "title": "ZachXBT accuses Circle of $420M in 'compliance failures' since 2022",
+      "link": "https://cointelegraph.com/news/zachxbt-accuses-circle-420m-compliance-failures-since-2022?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Fri, 03 Apr 2026 18:12:31 +0100",
       "source": "Cointelegraph",
       "fetch_source": "live"
     }
