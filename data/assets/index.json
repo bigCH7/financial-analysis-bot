@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-04T15:39:34.748288+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-04-04 15:31 UTC_",
+  "generated_at": "2026-04-05T15:41:10.818133+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-04-05 15:32 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,13 +9,13 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 67320.0,
+        "current_usd": 67487.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": 1.51,
-        "change_30d_pct": -5.02
+        "change_7d_pct": 2.3,
+        "change_30d_pct": -0.97
       },
       "indicators": {
-        "trend": "DOWNTREND",
+        "trend": "UPTREND",
         "momentum": "WEAK",
         "volatility": "NORMAL"
       },
@@ -23,9 +23,9 @@
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
         "summary_line": "Fair - Weak growth profile - Elevated regulatory risk.",
-        "score": 49.4
+        "score": 47.2
       },
-      "updated_at": "2026-04-04T15:39:34.746087+00:00",
+      "updated_at": "2026-04-05T15:41:10.816013+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,10 +37,10 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 2054.0,
+        "current_usd": 2056.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": 3.09,
-        "change_30d_pct": -0.97
+        "change_7d_pct": 3.67,
+        "change_30d_pct": 3.79
       },
       "indicators": {
         "trend": "DOWNTREND",
@@ -48,12 +48,12 @@
         "volatility": "NORMAL"
       },
       "valuation": {
-        "verdict": "Caution / risk-reward mixed",
-        "band": "overvalued",
-        "summary_line": "Overvalued - Weak growth profile - Elevated regulatory risk.",
-        "score": 44.4
+        "verdict": "Neutral / fair-value zone",
+        "band": "fair",
+        "summary_line": "Fair - Weak growth profile - Elevated regulatory risk.",
+        "score": 46.1
       },
-      "updated_at": "2026-04-04T15:39:34.746890+00:00",
+      "updated_at": "2026-04-05T15:41:10.816752+00:00",
       "source": {
         "short_term": "live"
       }
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-04-04T15:39:34.747199+00:00",
+      "updated_at": "2026-04-05T15:41:10.817042+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-04-04T15:39:34.747418+00:00",
+      "updated_at": "2026-04-05T15:41:10.817261+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-04-04T15:39:34.747630+00:00",
+      "updated_at": "2026-04-05T15:41:10.817473+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-04-04T15:39:34.747838+00:00",
+      "updated_at": "2026-04-05T15:41:10.817679+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -193,13 +193,69 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-04-04T15:39:34.748052+00:00",
+      "updated_at": "2026-04-05T15:41:10.817924+00:00",
       "source": {
         "short_term": "stooq_live"
       }
     }
   ],
   "overview_news": [
+    {
+      "title": "AI is making crypto's security problem even worse, Ledger CTO warns",
+      "url": "https://www.coindesk.com/tech/2026/04/05/ai-is-making-crypto-s-security-problem-even-worse-ledger-cto-warns",
+      "published_at": "Sun, 05 Apr 2026 14:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Drift says $270 million exploit was a six-month North Korean intelligence operation",
+      "url": "https://www.coindesk.com/markets/2026/04/05/drift-says-usd270-million-exploit-was-a-six-month-north-korean-intelligence-operation",
+      "published_at": "Sun, 05 Apr 2026 12:17:58 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Ant Group\u2019s blockchain arm unveils platform for AI agents to transact on crypto rails",
+      "url": "https://www.coindesk.com/business/2026/04/02/ant-group-s-blockchain-arm-unveils-platform-for-ai-agents-to-transact-on-crypto-rails",
+      "published_at": "Sun, 05 Apr 2026 12:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Bitcoin holds steady as sentiment hits worst levels since Iran war began",
+      "url": "https://www.coindesk.com/markets/2026/04/05/bitcoin-enters-april-at-its-most-hated-level-since-the-war-began",
+      "published_at": "Sun, 05 Apr 2026 11:54:21 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Bitcoin's $1.3 trillion security race: Key initiatives aimed at quantum-proofing the world's largest blockchain",
+      "url": "https://www.coindesk.com/tech/2026/04/04/bitcoin-s-usd1-3-trillion-security-race-key-initiatives-aimed-at-quantum-proofing-the-world-s-largest-blockchain",
+      "published_at": "Sun, 05 Apr 2026 03:31:49 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Bitcoin tends to outperform gold and stocks after global shocks, Mercado Bitcoin finds",
+      "url": "https://www.coindesk.com/markets/2026/03/30/bitcoin-tends-to-outperform-gold-and-stocks-after-global-shocks-mercado-bitcoin-finds",
+      "published_at": "Sat, 04 Apr 2026 18:56:03 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Ex-UK Chancellor backs bitcoin as alternative to failing systems",
+      "url": "https://www.coindesk.com/markets/2026/04/03/ex-uk-chancellor-backs-bitcoin-as-alternative-to-failing-systems",
+      "published_at": "Sat, 04 Apr 2026 17:00:23 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Digital asset treasuries must now earn their keep",
+      "url": "https://www.coindesk.com/opinion/2026/04/04/digital-asset-treasuries-must-now-earn-their-keep",
+      "published_at": "Sat, 04 Apr 2026 16:30:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
     {
       "title": "Traders are the big winners as 24/7 stocks will finally end the after-hours price 'manipulation'",
       "url": "https://www.coindesk.com/markets/2026/04/04/traders-are-the-big-winners-as-24-7-stocks-will-finally-end-the-after-hours-price-manipulation",
@@ -211,62 +267,6 @@
       "title": "Solana's quantum-threat readiness reveals harsh tradeoff: security vs speed",
       "url": "https://www.coindesk.com/tech/2026/04/04/solana-s-quantum-threat-readiness-reveals-harsh-tradeoff-security-vs-speed",
       "published_at": "Sat, 04 Apr 2026 12:00:00 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Five data sources say the same thing about bitcoin market. It's thinning from the inside",
-      "url": "https://www.coindesk.com/markets/2026/04/03/five-data-sources-say-the-same-thing-about-bitcoin-market-it-s-thinning-from-the-inside",
-      "published_at": "Sat, 04 Apr 2026 11:30:00 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Judge continues Nevada ban on Kalshi sports markets",
-      "url": "https://www.coindesk.com/policy/2026/04/04/judge-continues-nevada-ban-on-kalshi-sports-markets",
-      "published_at": "Sat, 04 Apr 2026 07:04:16 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Here's what 'cracking' bitcoin in 9 minutes by quantum computers actually means",
-      "url": "https://www.coindesk.com/tech/2026/03/31/what-does-cracking-bitcoin-in-9-minutes-by-quantum-computers-actually-mean",
-      "published_at": "Sat, 04 Apr 2026 02:30:00 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Schwab plans spot bitcoin, ether trading launch in first half of 2026",
-      "url": "https://www.coindesk.com/business/2026/04/03/schwab-plans-spot-bitcoin-ether-trading-launch-in-first-half-of-2026",
-      "published_at": "Fri, 03 Apr 2026 19:18:00 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Circle under fire after $285 million Drift hack over inaction to freeze stolen USDC",
-      "url": "https://www.coindesk.com/business/2026/04/03/circle-under-fire-after-usd285-million-drift-hack-over-inaction-to-freeze-stolen-usdc",
-      "published_at": "Fri, 03 Apr 2026 19:02:51 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "What next as XRP rises to $1.33 but fails to break out",
-      "url": "https://www.coindesk.com/markets/2026/04/03/what-next-as-xrp-rises-to-usd1-33-but-fails-to-break-out",
-      "published_at": "Fri, 03 Apr 2026 16:32:33 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "CoinDesk 20 performance update: Bitcoin (BTC) trades flat while altcoins rise",
-      "url": "https://www.coindesk.com/coindesk-indices/2026/04/03/coindesk-20-performance-update-bitcoin-btc-trades-flat-while-altcoins-rise",
-      "published_at": "Fri, 03 Apr 2026 13:18:50 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "U.S. March jobs smash expectations, with 178,000 added",
-      "url": "https://www.coindesk.com/markets/2026/04/03/u-s-march-jobs-smash-expectations-with-178-000-added",
-      "published_at": "Fri, 03 Apr 2026 12:33:40 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }

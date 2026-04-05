@@ -1,7 +1,63 @@
 {
-  "generated_at": "2026-04-04 15:38 UTC",
+  "generated_at": "2026-04-05 15:40 UTC",
   "count": 55,
   "items": [
+    {
+      "title": "AI is making crypto's security problem even worse, Ledger CTO warns",
+      "link": "https://www.coindesk.com/tech/2026/04/05/ai-is-making-crypto-s-security-problem-even-worse-ledger-cto-warns",
+      "pub_date": "Sun, 05 Apr 2026 14:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Drift says $270 million exploit was a six-month North Korean intelligence operation",
+      "link": "https://www.coindesk.com/markets/2026/04/05/drift-says-usd270-million-exploit-was-a-six-month-north-korean-intelligence-operation",
+      "pub_date": "Sun, 05 Apr 2026 12:17:58 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Ant Group\u2019s blockchain arm unveils platform for AI agents to transact on crypto rails",
+      "link": "https://www.coindesk.com/business/2026/04/02/ant-group-s-blockchain-arm-unveils-platform-for-ai-agents-to-transact-on-crypto-rails",
+      "pub_date": "Sun, 05 Apr 2026 12:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Bitcoin holds steady as sentiment hits worst levels since Iran war began",
+      "link": "https://www.coindesk.com/markets/2026/04/05/bitcoin-enters-april-at-its-most-hated-level-since-the-war-began",
+      "pub_date": "Sun, 05 Apr 2026 11:54:21 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Bitcoin's $1.3 trillion security race: Key initiatives aimed at quantum-proofing the world's largest blockchain",
+      "link": "https://www.coindesk.com/tech/2026/04/04/bitcoin-s-usd1-3-trillion-security-race-key-initiatives-aimed-at-quantum-proofing-the-world-s-largest-blockchain",
+      "pub_date": "Sun, 05 Apr 2026 03:31:49 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Bitcoin tends to outperform gold and stocks after global shocks, Mercado Bitcoin finds",
+      "link": "https://www.coindesk.com/markets/2026/03/30/bitcoin-tends-to-outperform-gold-and-stocks-after-global-shocks-mercado-bitcoin-finds",
+      "pub_date": "Sat, 04 Apr 2026 18:56:03 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Ex-UK Chancellor backs bitcoin as alternative to failing systems",
+      "link": "https://www.coindesk.com/markets/2026/04/03/ex-uk-chancellor-backs-bitcoin-as-alternative-to-failing-systems",
+      "pub_date": "Sat, 04 Apr 2026 17:00:23 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Digital asset treasuries must now earn their keep",
+      "link": "https://www.coindesk.com/opinion/2026/04/04/digital-asset-treasuries-must-now-earn-their-keep",
+      "pub_date": "Sat, 04 Apr 2026 16:30:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
     {
       "title": "Traders are the big winners as 24/7 stocks will finally end the after-hours price 'manipulation'",
       "link": "https://www.coindesk.com/markets/2026/04/04/traders-are-the-big-winners-as-24-7-stocks-will-finally-end-the-after-hours-price-manipulation",
@@ -122,65 +178,65 @@
       "fetch_source": "live"
     },
     {
-      "title": "Here\u2019s why bitcoin\u2019s drop below $68,000 raises the risk of a crash under $60,000",
-      "link": "https://www.coindesk.com/markets/2026/04/02/here-s-why-bitcoin-s-drop-below-usd68-000-puts-it-at-risk-of-a-crash-under-usd60-000",
-      "pub_date": "Thu, 02 Apr 2026 18:27:29 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "CFTC sues Illinois, Arizona, Connecticut over states' sports prediction market efforts",
-      "link": "https://www.coindesk.com/policy/2026/04/02/cftc-sues-illinois-over-state-s-cease-and-desist-letters-against-prediction-markets",
-      "pub_date": "Thu, 02 Apr 2026 16:24:42 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Coinbase wins initial bank regulator nod for trust charter, boosting custody push",
-      "link": "https://www.coindesk.com/policy/2026/04/02/coinbase-wins-initial-occ-nod-for-trust-charter-boosting-sustody-push",
-      "pub_date": "Thu, 02 Apr 2026 16:18:15 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Elon Musk's X to deploy scam kill switch by auto-locking first-time crypto mentioners",
-      "link": "https://www.coindesk.com/web3/2026/04/02/elon-musk-s-x-to-deploy-scam-kill-switch-by-auto-locking-first-time-crypto-mentioners",
-      "pub_date": "Thu, 02 Apr 2026 15:28:49 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "How a Solana feature designed for convenience let attackers drain more than $270 million from Drift",
-      "link": "https://www.coindesk.com/tech/2026/04/02/how-a-solana-feature-designed-for-convenience-let-an-attacker-drain-usd270-million-from-drift",
-      "pub_date": "Thu, 02 Apr 2026 15:08:48 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitcoin trims big loss, stocks erase 2% decline, as Iran signals cooperation on key shipping route",
-      "link": "https://www.coindesk.com/markets/2026/04/02/bitcoin-trims-big-loss-stocks-erase-2-decline-as-iran-signals-cooperation-on-key-shipping-route",
-      "pub_date": "Thu, 02 Apr 2026 15:08:17 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Crypto for Advisors: Crypto custody\u2019s evolution",
-      "link": "https://www.coindesk.com/coindesk-indices/2026/04/01/crypto-for-advisors-crypto-custody-s-evolution",
-      "pub_date": "Thu, 02 Apr 2026 15:00:00 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "North Koreans hackers likely behind $286 million Drift Protocol exploit: Elliptic",
-      "link": "https://www.coindesk.com/business/2026/04/02/north-koreans-hackers-likely-behind-the-usd286-million-drift-protocol-exploit-elliptic",
-      "pub_date": "Thu, 02 Apr 2026 14:50:44 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
       "title": "Here\u2019s what happened in crypto today",
       "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Sat, 04 Apr 2026 14:27:29 +0100",
+      "pub_date": "Sun, 05 Apr 2026 13:25:28 +0100",
+      "source": "Cointelegraph",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Robert Kiyosaki recommends Bitcoin, gold as 1974 shift comes full circle",
+      "link": "https://cointelegraph.com/news/robert-kiyosaki-1974-shift-bitcoin-gold-real-money?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sun, 05 Apr 2026 13:17:50 +0100",
+      "source": "Cointelegraph",
+      "fetch_source": "live"
+    },
+    {
+      "title": "New Bitcoin price lows 'matter of time' says trader with BTC stuck at $67K",
+      "link": "https://cointelegraph.com/news/new-bitcoin-price-lows-matter-of-time-says-trader-btc-stuck-67k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sun, 05 Apr 2026 12:54:02 +0100",
+      "source": "Cointelegraph",
+      "fetch_source": "live"
+    },
+    {
+      "title": "\u2018Existential\u2019 token problem seen as supply outpaces value creation",
+      "link": "https://cointelegraph.com/news/crypto-existential-token-problem-supply-outpaces-value-creation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sun, 05 Apr 2026 10:46:54 +0100",
+      "source": "Cointelegraph",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Anthropic launches PAC amid tensions with Trump administration over AI policy",
+      "link": "https://cointelegraph.com/news/anthropic-launches-pac-ai-policy-tensions-washington?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sun, 05 Apr 2026 09:10:28 +0100",
+      "source": "Cointelegraph",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Drift Protocol $280M exploit took 'months of deliberate preparation'",
+      "link": "https://cointelegraph.com/news/drift-protocol-exploit-preparation-preliminary-findings?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sun, 05 Apr 2026 08:00:36 +0100",
+      "source": "Cointelegraph",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Bitcoin bearish social chatter reaches 5-week high: Santiment",
+      "link": "https://cointelegraph.com/news/bitcoin-bearish-social-media-chatter-low-price-btc-stagnant-santiment?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sun, 05 Apr 2026 05:25:20 +0100",
+      "source": "Cointelegraph",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Telegram founder Pavel Durov says Iranian government's ban backfired",
+      "link": "https://cointelegraph.com/news/telegram-durov-iran-ban-backfire?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sat, 04 Apr 2026 20:30:05 +0100",
+      "source": "Cointelegraph",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Jimmy Song explains why Bitcoin needs a 'conservative' node client",
+      "link": "https://cointelegraph.com/news/jimmy-song-bitcoin-conservative-node-client?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sat, 04 Apr 2026 18:59:25 +0100",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
@@ -223,62 +279,6 @@
       "title": "Tether may delay fundraising if demand falls short at $500B valuation: Report",
       "link": "https://cointelegraph.com/news/tether-may-delay-fundraising-500b-valuation-demand-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "pub_date": "Sat, 04 Apr 2026 08:44:50 +0100",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitcoin\u2019s \u2018no direction\u2019 action may lead to heavier breakout: Analyst",
-      "link": "https://cointelegraph.com/news/bitcoin-price-direction-consolidation-breakout-crypto-analyst?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Sat, 04 Apr 2026 07:16:31 +0100",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitcoin ETFs 'will be larger' than gold ETFs: Analyst",
-      "link": "https://cointelegraph.com/news/bitcoin-gold-etfs-use-cases-analyst-james-seyffart?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Sat, 04 Apr 2026 04:35:01 +0100",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Ethereum Foundation nearly reaches 70,000 staked ETH goal",
-      "link": "https://cointelegraph.com/news/ethereum-foundation-nearly-reaches-70000-staked-eth-goal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 03 Apr 2026 22:31:51 +0100",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Cambodian lawmakers propose severe prison time for crypto scammers",
-      "link": "https://cointelegraph.com/news/cambodia-law-prison-crypto-scammers?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 03 Apr 2026 21:47:12 +0100",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Is Bitcoin mispricing a prolonged Iran war? Ex-hedge fund manager weighs in",
-      "link": "https://cointelegraph.com/news/bitcoin-underestimating-prolonged-iran-war-macro-investor-weighs-in?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 03 Apr 2026 20:04:17 +0100",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "US community banks oppose OCC's approval of Coinbase trust charter",
-      "link": "https://cointelegraph.com/news/community-banks-oppose-coinbase-trust-charter-approval-occ?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 03 Apr 2026 19:03:48 +0100",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Kalshi onboards ex-Democratic strategist amid legal troubles",
-      "link": "https://cointelegraph.com/news/kalshi-democratic-strategist-lawsuits-state-federal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 03 Apr 2026 18:12:55 +0100",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "ZachXBT accuses Circle of $420M in 'compliance failures' since 2022",
-      "link": "https://cointelegraph.com/news/zachxbt-accuses-circle-420m-compliance-failures-since-2022?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 03 Apr 2026 18:12:31 +0100",
       "source": "Cointelegraph",
       "fetch_source": "live"
     }
