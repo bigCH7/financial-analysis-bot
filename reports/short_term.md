@@ -1,14 +1,14 @@
 # Short-Term Crypto Tactical Brief
 
-_Generated automatically - 2026-04-08 16:21 UTC_
+_Generated automatically - 2026-04-09 16:23 UTC_
 
 ## Bitcoin (BTC)
 
-- **Current price:** $71,355
-- **7D change:** 4.80%
-- **30D change:** 4.23%
+- **Current price:** $72,240
+- **7D change:** 8.00%
+- **30D change:** 3.37%
 - **Trend:** **UPTREND**
-- **Momentum:** **STRONG**
+- **Momentum:** **WEAK**
 - **Volatility:** **NORMAL**
 - **Data source:** live
 
@@ -19,13 +19,13 @@ _Generated automatically - 2026-04-08 16:21 UTC_
 
 ### Momentum Engine
 
-- **Speedometer (EMA20/EMA50):** $71,109 / $70,191.
-- **Velocity (ROC 6h / 24h):** -0.20% / +4.61%.
-- **Stamina meter (RSI 14):** 50.6
+- **Speedometer (EMA20/EMA50):** $71,233 / $70,901.
+- **Velocity (ROC 6h / 24h):** +1.03% / +1.32%.
+- **Stamina meter (RSI 14):** 68.2
 
 ### Truth Layer (Order Flow & Volume)
 
-- **CVD proxy:** +147.26%.
+- **CVD proxy:** +170.02%.
 - **Validation:** Volume proxy is broadly aligned with price direction.
 - **Order-book imbalance (OBI):** unavailable.
 - **Depth note:** Order book unavailable.
@@ -38,9 +38,9 @@ _Generated automatically - 2026-04-08 16:21 UTC_
 
 ### Tactical Levels
 
-- **Battle Zone (Support):** $66,892
-- **Target (Resistance):** $71,976
-- **Stop-loss (ATR proxy):** $66,630
+- **Battle Zone (Support):** $66,940
+- **Target (Resistance):** $72,240
+- **Stop-loss (ATR proxy):** $66,666
 
 ### Final Entry Signal
 
@@ -51,28 +51,28 @@ _Generated automatically - 2026-04-08 16:21 UTC_
 
 ## Ethereum (ETH)
 
-- **Current price:** $2,218
-- **7D change:** 3.67%
-- **30D change:** 11.30%
+- **Current price:** $2,215
+- **7D change:** 7.67%
+- **30D change:** 8.81%
 - **Trend:** **UPTREND**
-- **Momentum:** **STRONG**
+- **Momentum:** **WEAK**
 - **Volatility:** **NORMAL**
 - **Data source:** live
 
 ### Status Pulse (30-Second Context)
 
 - **Tactical regime:** Trend-Following
-- **The vibe:** Aggressive buying detected - trend is currently being respected.
+- **The vibe:** Mixed tape - wait for confirmation before sizing up.
 
 ### Momentum Engine
 
-- **Speedometer (EMA20/EMA50):** $2,214 / $2,172.
-- **Velocity (ROC 6h / 24h):** -1.43% / +6.65%.
-- **Stamina meter (RSI 14):** 44.2
+- **Speedometer (EMA20/EMA50):** $2,193 / $2,187.
+- **Velocity (ROC 6h / 24h):** +1.02% / -0.36%.
+- **Stamina meter (RSI 14):** 64.6
 
 ### Truth Layer (Order Flow & Volume)
 
-- **CVD proxy:** +388.68%.
+- **CVD proxy:** +505.79%.
 - **Validation:** Volume proxy is broadly aligned with price direction.
 - **Order-book imbalance (OBI):** unavailable.
 - **Depth note:** Order book unavailable.
