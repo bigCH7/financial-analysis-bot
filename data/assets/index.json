@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-09T16:25:14.727625+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-04-09 16:16 UTC_",
+  "generated_at": "2026-04-10T16:00:51.928115+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-04-10 15:53 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,10 +9,10 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 72240.0,
+        "current_usd": 72441.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": 8.0,
-        "change_30d_pct": 3.37
+        "change_7d_pct": 8.22,
+        "change_30d_pct": 3.15
       },
       "indicators": {
         "trend": "UPTREND",
@@ -23,9 +23,9 @@
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
         "summary_line": "Fair - Weak growth profile - Elevated regulatory risk.",
-        "score": 53.1
+        "score": 54.9
       },
-      "updated_at": "2026-04-09T16:25:14.725357+00:00",
+      "updated_at": "2026-04-10T16:00:51.926019+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,10 +37,10 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 2215.0,
+        "current_usd": 2224.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": 7.67,
-        "change_30d_pct": 8.81
+        "change_7d_pct": 8.3,
+        "change_30d_pct": 8.4
       },
       "indicators": {
         "trend": "UPTREND",
@@ -51,9 +51,9 @@
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
         "summary_line": "Fair - Balanced growth profile - Elevated regulatory risk.",
-        "score": 54.4
+        "score": 56.9
       },
-      "updated_at": "2026-04-09T16:25:14.726103+00:00",
+      "updated_at": "2026-04-10T16:00:51.926784+00:00",
       "source": {
         "short_term": "live"
       }
@@ -65,8 +65,8 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=spy",
       "price": {
-        "current_usd": 680.09,
-        "change_24h_pct": 0.777962183628711,
+        "current_usd": 680.385,
+        "change_24h_pct": -0.1372336053543255,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-04-09T16:25:14.726403+00:00",
+      "updated_at": "2026-04-10T16:00:51.927032+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -93,8 +93,8 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=qqq",
       "price": {
-        "current_usd": 609.59,
-        "change_24h_pct": 0.6040301685013238,
+        "current_usd": 611.52,
+        "change_24h_pct": -0.05230125523013607,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-04-09T16:25:14.726648+00:00",
+      "updated_at": "2026-04-10T16:00:51.927271+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -121,36 +121,8 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=nvda",
       "price": {
-        "current_usd": 183.525,
-        "change_24h_pct": 0.9266388033436046,
-        "change_7d_pct": null,
-        "change_30d_pct": null
-      },
-      "indicators": {
-        "trend": "SIDEWAYS",
-        "momentum": "N/A",
-        "volatility": "N/A"
-      },
-      "valuation": {
-        "verdict": "Insufficient data",
-        "band": "fair",
-        "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
-        "score": null
-      },
-      "updated_at": "2026-04-09T16:25:14.726877+00:00",
-      "source": {
-        "short_term": "stooq_live"
-      }
-    },
-    {
-      "asset": "gold",
-      "name": "Gold Futures",
-      "symbol": "GC=F",
-      "market_type": "traditional",
-      "details_page": "asset.html?asset=gold",
-      "price": {
-        "current_usd": 4794.955,
-        "change_24h_pct": 1.4715094108036952,
+        "current_usd": 188.885,
+        "change_24h_pct": 2.4822310238185707,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
@@ -165,20 +137,20 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-04-09T16:25:14.727115+00:00",
+      "updated_at": "2026-04-10T16:00:51.927494+00:00",
       "source": {
         "short_term": "stooq_live"
       }
     },
     {
-      "asset": "oil",
-      "name": "Crude Oil Futures",
-      "symbol": "CL=F",
+      "asset": "gold",
+      "name": "Gold Futures",
+      "symbol": "GC=F",
       "market_type": "traditional",
-      "details_page": "asset.html?asset=oil",
+      "details_page": "asset.html?asset=gold",
       "price": {
-        "current_usd": 97.51,
-        "change_24h_pct": 0.7334710743801764,
+        "current_usd": 4761.035,
+        "change_24h_pct": -0.1389570565015097,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
@@ -193,7 +165,35 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-04-09T16:25:14.727387+00:00",
+      "updated_at": "2026-04-10T16:00:51.927696+00:00",
+      "source": {
+        "short_term": "stooq_live"
+      }
+    },
+    {
+      "asset": "oil",
+      "name": "Crude Oil Futures",
+      "symbol": "CL=F",
+      "market_type": "traditional",
+      "details_page": "asset.html?asset=oil",
+      "price": {
+        "current_usd": 99.47,
+        "change_24h_pct": 1.3139132206151816,
+        "change_7d_pct": null,
+        "change_30d_pct": null
+      },
+      "indicators": {
+        "trend": "UPTREND",
+        "momentum": "N/A",
+        "volatility": "N/A"
+      },
+      "valuation": {
+        "verdict": "Insufficient data",
+        "band": "fair",
+        "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
+        "score": null
+      },
+      "updated_at": "2026-04-10T16:00:51.927898+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -201,72 +201,72 @@
   ],
   "overview_news": [
     {
-      "title": "Bitcoin shoots above $72,000 as optimism grows over Middle East ceasefire",
-      "url": "https://www.coindesk.com/markets/2026/04/09/bitcoin-shoots-above-usd72-000-as-optimism-grows-over-middle-east-ceasefire",
-      "published_at": "Thu, 09 Apr 2026 16:06:29 +0000",
+      "title": "Star Xu calls CZ a \u2018liar\u2019 as founders of world\u2019s largest crypto exchanges argue over past allegations",
+      "url": "https://www.coindesk.com/business/2026/04/10/star-xu-calls-cz-a-liar-as-founders-of-world-s-largest-crypto-exchanges-argue-over-past-allegations",
+      "published_at": "Fri, 10 Apr 2026 15:38:47 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Crypto for Advisors: Crypto\u2019s Performance Q1",
-      "url": "https://www.coindesk.com/coindesk-indices/2026/04/08/crypto-for-advisors-crypto-s-performance-q1",
-      "published_at": "Thu, 09 Apr 2026 15:00:00 +0000",
+      "title": "The magic word for digital assets adoption and success: choice",
+      "url": "https://www.coindesk.com/opinion/2026/04/10/the-magic-word-for-digital-assets-adoption-and-success-choice",
+      "published_at": "Fri, 10 Apr 2026 15:30:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Stablecoin volumes to reach $719T by 2035 as generational wealth shift speeds up crypto adoption",
-      "url": "https://www.coindesk.com/business/2026/04/09/stablecoin-volumes-to-reach-usd719t-by-2035-as-generational-wealth-shift-speeds-up-crypto-adoption",
-      "published_at": "Thu, 09 Apr 2026 14:57:10 +0000",
+      "title": "CoinDesk 20 performance update: Hedera (HBAR) drops 1.9%, leading index lower",
+      "url": "https://www.coindesk.com/coindesk-indices/2026/04/10/coindesk-20-performance-update-hedera-hbar-drops-1-9-leading-index-lower",
+      "published_at": "Fri, 10 Apr 2026 13:14:07 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Tom Lee's Bitmine uplists to NYSE, expands buyback authorization to $4 billion",
-      "url": "https://www.coindesk.com/markets/2026/04/09/tom-lee-s-bitmine-lists-on-nyse-expands-usd4-billion-buyback-as-eth-bet-deepens",
-      "published_at": "Thu, 09 Apr 2026 14:50:48 +0000",
+      "title": "Trump-backed WLFI token drops 12% to record lows after team defends multi-million lending position",
+      "url": "https://www.coindesk.com/markets/2026/04/10/trump-backed-wlfi-token-drops-12-to-record-lows-after-team-defends-multi-million-lending-position",
+      "published_at": "Fri, 10 Apr 2026 13:14:03 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Trump's World Liberty Financial borrowed millions from a protocol its own advisor co-founded",
-      "url": "https://www.coindesk.com/markets/2026/04/09/trump-s-world-liberty-financial-borrows-usd75-million-against-its-own-token-trapping-depositors-on-dolomite",
-      "published_at": "Thu, 09 Apr 2026 14:40:36 +0000",
+      "title": "Binance offers UAE staff temporary relocation as Middle East conflict disrupts region",
+      "url": "https://www.coindesk.com/business/2026/04/10/binance-offers-uae-staff-temporary-relocation-as-middle-east-conflict-disrupts-region",
+      "published_at": "Fri, 10 Apr 2026 12:48:41 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "BitMEX co-founder donates $5 million to Nigel Farage\u2019s Reform UK party",
-      "url": "https://www.coindesk.com/business/2026/04/09/bitmex-co-founder-donates-usd5-million-to-nigel-farage-s-reform-uk-party",
-      "published_at": "Thu, 09 Apr 2026 14:33:08 +0000",
+      "title": "Bitcoin gains after core CPI rose a less-than-forecast 0.2% in March.",
+      "url": "https://www.coindesk.com/markets/2026/04/10/bitcoin-rises-after-core-cpi-rose-a-less-than-forecast-0-2-in-march",
+      "published_at": "Fri, 10 Apr 2026 12:33:23 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Mike Novogratz spotlights Helios as $15 billion powerhouse in Galaxy Digital annual report",
-      "url": "https://www.coindesk.com/markets/2026/04/09/mike-novogratz-spotlights-helios-as-usd15-billion-powerhouse-in-galaxy-digital-annual-report",
-      "published_at": "Thu, 09 Apr 2026 13:54:06 +0000",
+      "title": "Institutions' bitcoin positioning lacks conviction; CPI, Iran talks might help",
+      "url": "https://www.coindesk.com/daybook-us/2026/04/10/institutions-bitcoin-positioning-lacks-conviction-cpi-iran-talks-might-help",
+      "published_at": "Fri, 10 Apr 2026 11:29:59 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Binance adds prediction market to its app for millions of users",
-      "url": "https://www.coindesk.com/markets/2026/04/09/binance-enters-prediction-markets-arena-via-predict-fun-integration",
-      "published_at": "Thu, 09 Apr 2026 13:46:33 +0000",
+      "title": "Bitcoin holds steady as inflation data looms, bittensor drama unfolds",
+      "url": "https://www.coindesk.com/markets/2026/04/10/bitcoin-flatlines-as-inflation-data-looms-bittensor-drama-unfolds",
+      "published_at": "Fri, 10 Apr 2026 10:34:25 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "CoinDesk 20 performance update: Bitcoin (BTC) trades flat as index declines",
-      "url": "https://www.coindesk.com/coindesk-indices/2026/04/09/coindesk-20-performance-update-bitcoin-btc-trades-flat-as-index-declines",
-      "published_at": "Thu, 09 Apr 2026 13:14:50 +0000",
+      "title": "HSBC and Standard Chartered-led group land Hong Kong\u2019s first stablecoin licenses",
+      "url": "https://www.coindesk.com/policy/2026/03/24/hong-kong-awards-first-stablecoin-licenses-to-hsbc-standard-chartered-led-group",
+      "published_at": "Fri, 10 Apr 2026 09:19:49 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Banks are treading carefully on stablecoins despite market growth, S&P Global says",
-      "url": "https://www.coindesk.com/business/2026/04/09/banks-are-treading-carefully-on-stablecoins-despite-market-growth-s-and-p-global-says",
-      "published_at": "Thu, 09 Apr 2026 12:35:23 +0000",
+      "title": "XRP adjacent Flare proposes protocol-level MEV capture and 40% inflation cut",
+      "url": "https://www.coindesk.com/tech/2026/04/10/xrp-adjacent-flare-proposes-protocol-level-mev-capture-and-40-inflation-cut",
+      "published_at": "Fri, 10 Apr 2026 09:04:27 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
