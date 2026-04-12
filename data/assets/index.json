@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-11T15:42:00.156012+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-04-11 15:33 UTC_",
+  "generated_at": "2026-04-12T15:43:45.562142+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-04-12 15:35 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,23 +9,23 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 72790.0,
+        "current_usd": 70830.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": 8.15,
-        "change_30d_pct": 3.18
+        "change_7d_pct": 2.67,
+        "change_30d_pct": -0.19
       },
       "indicators": {
-        "trend": "UPTREND",
-        "momentum": "WEAK",
+        "trend": "DOWNTREND",
+        "momentum": "STRONG",
         "volatility": "NORMAL"
       },
       "valuation": {
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
         "summary_line": "Fair - Weak growth profile - Elevated regulatory risk.",
-        "score": 51.2
+        "score": 52.2
       },
-      "updated_at": "2026-04-11T15:42:00.153696+00:00",
+      "updated_at": "2026-04-12T15:43:45.559941+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,23 +37,23 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 2249.0,
+        "current_usd": 2183.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": 8.91,
-        "change_30d_pct": 8.3
+        "change_7d_pct": 3.52,
+        "change_30d_pct": 4.32
       },
       "indicators": {
-        "trend": "UPTREND",
-        "momentum": "WEAK",
+        "trend": "DOWNTREND",
+        "momentum": "STRONG",
         "volatility": "NORMAL"
       },
       "valuation": {
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
         "summary_line": "Fair - Balanced growth profile - Elevated regulatory risk.",
-        "score": 50.9
+        "score": 55.7
       },
-      "updated_at": "2026-04-11T15:42:00.154468+00:00",
+      "updated_at": "2026-04-12T15:43:45.560664+00:00",
       "source": {
         "short_term": "live"
       }
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-04-11T15:42:00.154756+00:00",
+      "updated_at": "2026-04-12T15:43:45.560968+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-04-11T15:42:00.154997+00:00",
+      "updated_at": "2026-04-12T15:43:45.561211+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-04-11T15:42:00.155293+00:00",
+      "updated_at": "2026-04-12T15:43:45.561444+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-04-11T15:42:00.155536+00:00",
+      "updated_at": "2026-04-12T15:43:45.561670+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -193,7 +193,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-04-11T15:42:00.155778+00:00",
+      "updated_at": "2026-04-12T15:43:45.561912+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -201,72 +201,72 @@
   ],
   "overview_news": [
     {
-      "title": "Crypto perpetuals predict the direction of Wall Street\u2019s Monday open with 89% accuracy, data shows",
-      "url": "https://www.coindesk.com/markets/2026/04/11/crypto-perpetuals-predict-the-direction-of-wall-street-s-monday-open-with-89-accuracy-data-shows",
-      "published_at": "Sat, 11 Apr 2026 14:46:55 +0000",
+      "title": "Bitcoin may be forming a base at $65,000 as 'paper hands' have been flushed out",
+      "url": "https://www.coindesk.com/markets/2026/04/07/oil-at-usd100-vs-bitcoin-at-usd70k-the-wild-ride-that-fidelity-strategist-says-is-a-real-buying-opportunity",
+      "published_at": "Sun, 12 Apr 2026 15:00:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Crypto Clarity bill has 30% chance of passing this year, Wintermute\u2019s Hammond says",
-      "url": "https://www.coindesk.com/policy/2026/04/11/crypto-clarity-bill-has-30-chance-of-passing-this-year-wintermute-s-hammond-says",
-      "published_at": "Sat, 11 Apr 2026 14:00:00 +0000",
+      "title": "Oil futures up 7% on Hyperliquid as Trump orders Naval blockade of Hormuz",
+      "url": "https://www.coindesk.com/markets/2026/04/12/oil-futures-up-7-on-hyperliquid-as-trump-orders-naval-blockade-of-hormuz",
+      "published_at": "Sun, 12 Apr 2026 14:16:28 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bitwise files updated S-1 for Hyperliquid ETF as HYPE fund race heats up",
-      "url": "https://www.coindesk.com/markets/2026/04/11/bitwise-files-updated-s-1-for-hyperliquid-etf-as-hype-fund-race-heats-up",
-      "published_at": "Sat, 11 Apr 2026 13:59:18 +0000",
+      "title": "Market makers are fleeing public blockchains to protect their secret trading playbooks",
+      "url": "https://www.coindesk.com/markets/2026/04/12/market-makers-are-fleeing-public-blockchains-to-protect-their-secret-trading-playbooks",
+      "published_at": "Sun, 12 Apr 2026 14:00:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "The bitcoin market is splitting in two. Here's who is buying and selling amid the war",
-      "url": "https://www.coindesk.com/markets/2026/04/10/the-bitcoin-market-is-splitting-in-two-here-s-who-is-buying-and-selling-amid-the-war",
-      "published_at": "Sat, 11 Apr 2026 12:02:00 +0000",
+      "title": "Bitcoin slips below $71,000 as Trump orders blockade of Strait of Hormuz",
+      "url": "https://www.coindesk.com/markets/2026/04/12/bitcoin-slips-below-usd71-000-as-trump-orders-blockade-of-strait-of-hormuz",
+      "published_at": "Sun, 12 Apr 2026 13:46:02 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bhutan has sold 70% of its bitcoin in 18 months. It may have stopped BTC mining too.",
-      "url": "https://www.coindesk.com/markets/2026/04/11/bhutan-has-sold-70-of-its-bitcoin-in-18-months-it-may-have-stopped-btc-mining-too",
-      "published_at": "Sat, 11 Apr 2026 02:30:00 +0000",
+      "title": "Bitcoin analysts flag triggers for a massive surge to $88,000 even as war risks linger",
+      "url": "https://www.coindesk.com/markets/2026/04/12/bitcoin-analysts-flag-triggers-for-a-massive-surge-to-usd88-000-even-as-war-risks-linger",
+      "published_at": "Sun, 12 Apr 2026 13:21:19 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Federal judge blocks Arizona from bringing criminal charges against Kalshi",
-      "url": "https://www.coindesk.com/policy/2026/04/10/federal-judge-blocks-arizona-from-bringing-criminal-charges-against-kalshi",
-      "published_at": "Fri, 10 Apr 2026 23:31:34 +0000",
+      "title": "Super PAC tied to Tether makes first ad buy from firm founded by Tether's U.S. CEO",
+      "url": "https://www.coindesk.com/policy/2026/04/10/super-pac-tied-to-tether-makes-first-ad-buy-from-firm-founded-by-tether-s-u-s-ceo",
+      "published_at": "Sun, 12 Apr 2026 13:00:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Star Xu calls CZ a \u2018liar\u2019 as founders of world\u2019s largest crypto exchanges argue over past allegations",
-      "url": "https://www.coindesk.com/business/2026/04/10/star-xu-calls-cz-a-liar-as-founders-of-world-s-largest-crypto-exchanges-argue-over-past-allegations",
-      "published_at": "Fri, 10 Apr 2026 15:38:47 +0000",
+      "title": "Commodity traders are getting debanked due to Iran war, pushing them to rely on stablecoins",
+      "url": "https://www.coindesk.com/business/2026/04/12/commodity-traders-are-getting-debanked-due-to-iran-war-pushing-them-to-rely-on-stablecoins",
+      "published_at": "Sun, 12 Apr 2026 12:00:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "The magic word for digital assets adoption and success: choice",
-      "url": "https://www.coindesk.com/opinion/2026/04/10/the-magic-word-for-digital-assets-adoption-and-success-choice",
-      "published_at": "Fri, 10 Apr 2026 15:30:00 +0000",
+      "title": "Tron\u2019s Justin Sun slams Trump-backed WLFI for treating users as \u2018personal ATM\u2019 after $75 Million DeFi loan",
+      "url": "https://www.coindesk.com/markets/2026/04/12/tron-s-justin-sun-slams-trump-backed-wlfi-for-treating-users-as-personal-atm-after-usd75-million-defi-loan",
+      "published_at": "Sun, 12 Apr 2026 11:49:24 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "CoinDesk 20 performance update: Hedera (HBAR) drops 1.9%, leading index lower",
-      "url": "https://www.coindesk.com/coindesk-indices/2026/04/10/coindesk-20-performance-update-hedera-hbar-drops-1-9-leading-index-lower",
-      "published_at": "Fri, 10 Apr 2026 13:14:07 +0000",
+      "title": "Trump token sees whale accumulation ahead of Mar-a-Lago gala; senators raise questions over event",
+      "url": "https://www.coindesk.com/markets/2026/04/12/trump-token-sees-whale-accumulation-ahead-of-mar-a-lago-gala-senators-raise-questions-over-event",
+      "published_at": "Sun, 12 Apr 2026 10:52:10 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Trump-backed WLFI token drops 12% to record lows after team defends multi-million lending position",
-      "url": "https://www.coindesk.com/markets/2026/04/10/trump-backed-wlfi-token-drops-12-to-record-lows-after-team-defends-multi-million-lending-position",
-      "published_at": "Fri, 10 Apr 2026 13:14:03 +0000",
+      "title": "Why North Korea keeps stealing billions in crypto \u2014 out in the open",
+      "url": "https://www.coindesk.com/tech/2026/04/12/why-north-korea-keeps-stealing-billions-in-crypto-out-in-the-open",
+      "published_at": "Sun, 12 Apr 2026 10:00:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
