@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-12T15:43:45.562142+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-04-12 15:35 UTC_",
+  "generated_at": "2026-04-13T16:20:45.523969+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-04-13 16:12 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,23 +9,23 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 70830.0,
+        "current_usd": 72061.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": 2.67,
-        "change_30d_pct": -0.19
+        "change_7d_pct": 4.64,
+        "change_30d_pct": 1.18
       },
       "indicators": {
         "trend": "DOWNTREND",
-        "momentum": "STRONG",
+        "momentum": "WEAK",
         "volatility": "NORMAL"
       },
       "valuation": {
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
         "summary_line": "Fair - Weak growth profile - Elevated regulatory risk.",
-        "score": 52.2
+        "score": 53.4
       },
-      "updated_at": "2026-04-12T15:43:45.559941+00:00",
+      "updated_at": "2026-04-13T16:20:45.521686+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,23 +37,23 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 2183.0,
+        "current_usd": 2220.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": 3.52,
-        "change_30d_pct": 4.32
+        "change_7d_pct": 5.32,
+        "change_30d_pct": 5.89
       },
       "indicators": {
         "trend": "DOWNTREND",
-        "momentum": "STRONG",
+        "momentum": "WEAK",
         "volatility": "NORMAL"
       },
       "valuation": {
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
         "summary_line": "Fair - Balanced growth profile - Elevated regulatory risk.",
-        "score": 55.7
+        "score": 54.5
       },
-      "updated_at": "2026-04-12T15:43:45.560664+00:00",
+      "updated_at": "2026-04-13T16:20:45.522496+00:00",
       "source": {
         "short_term": "live"
       }
@@ -65,8 +65,8 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=spy",
       "price": {
-        "current_usd": 679.46,
-        "change_24h_pct": -0.2729994716139328,
+        "current_usd": 679.19,
+        "change_24h_pct": 0.26276553342881037,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-04-12T15:43:45.560968+00:00",
+      "updated_at": "2026-04-13T16:20:45.522762+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -93,8 +93,8 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=qqq",
       "price": {
-        "current_usd": 611.07,
-        "change_24h_pct": -0.1258498953974896,
+        "current_usd": 611.24,
+        "change_24h_pct": 0.28877075539803787,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-04-12T15:43:45.561211+00:00",
+      "updated_at": "2026-04-13T16:20:45.523020+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -121,8 +121,8 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=nvda",
       "price": {
-        "current_usd": 188.63,
-        "change_24h_pct": 2.3438771634745725,
+        "current_usd": 188.0401,
+        "change_24h_pct": 1.0805246465623863,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-04-12T15:43:45.561444+00:00",
+      "updated_at": "2026-04-13T16:20:45.523258+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -149,13 +149,13 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=gold",
       "price": {
-        "current_usd": 4759.595,
-        "change_24h_pct": -0.16916055255616902,
+        "current_usd": 4726.445,
+        "change_24h_pct": 1.18527192854756,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
       "indicators": {
-        "trend": "SIDEWAYS",
+        "trend": "UPTREND",
         "momentum": "N/A",
         "volatility": "N/A"
       },
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-04-12T15:43:45.561670+00:00",
+      "updated_at": "2026-04-13T16:20:45.523508+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -177,8 +177,8 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=oil",
       "price": {
-        "current_usd": 96.57,
-        "change_24h_pct": -1.6899114323526532,
+        "current_usd": 102.32,
+        "change_24h_pct": -2.179732313575522,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
@@ -193,7 +193,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-04-12T15:43:45.561912+00:00",
+      "updated_at": "2026-04-13T16:20:45.523740+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -201,72 +201,72 @@
   ],
   "overview_news": [
     {
-      "title": "Bitcoin may be forming a base at $65,000 as 'paper hands' have been flushed out",
-      "url": "https://www.coindesk.com/markets/2026/04/07/oil-at-usd100-vs-bitcoin-at-usd70k-the-wild-ride-that-fidelity-strategist-says-is-a-real-buying-opportunity",
-      "published_at": "Sun, 12 Apr 2026 15:00:00 +0000",
+      "title": "Crypto exchange Kraken targeted in extortion attempt but says there was no breach and no client funds at risk",
+      "url": "https://www.coindesk.com/business/2026/04/13/crypto-exchange-kraken-targeted-in-extortion-attempt-but-says-there-was-no-breach-and-no-client-funds-at-risk",
+      "published_at": "Mon, 13 Apr 2026 15:58:20 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Oil futures up 7% on Hyperliquid as Trump orders Naval blockade of Hormuz",
-      "url": "https://www.coindesk.com/markets/2026/04/12/oil-futures-up-7-on-hyperliquid-as-trump-orders-naval-blockade-of-hormuz",
-      "published_at": "Sun, 12 Apr 2026 14:16:28 +0000",
+      "title": "Circle CEO says he won\u2019t freeze USDC without a court order even as hackers walk away with millions",
+      "url": "https://www.coindesk.com/business/2026/04/13/circle-ceo-says-he-won-t-freeze-usdc-without-a-court-order-even-as-hackers-walk-away-with-millions",
+      "published_at": "Mon, 13 Apr 2026 15:37:58 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Market makers are fleeing public blockchains to protect their secret trading playbooks",
-      "url": "https://www.coindesk.com/markets/2026/04/12/market-makers-are-fleeing-public-blockchains-to-protect-their-secret-trading-playbooks",
-      "published_at": "Sun, 12 Apr 2026 14:00:00 +0000",
+      "title": "Bankers rebuff White House claim that stablecoin yield doesn't threaten deposits",
+      "url": "https://www.coindesk.com/policy/2026/04/13/bankers-rebuff-white-house-claim-that-stablecoin-yield-doesn-t-threaten-deposits",
+      "published_at": "Mon, 13 Apr 2026 15:35:11 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin slips below $71,000 as Trump orders blockade of Strait of Hormuz",
-      "url": "https://www.coindesk.com/markets/2026/04/12/bitcoin-slips-below-usd71-000-as-trump-orders-blockade-of-strait-of-hormuz",
-      "published_at": "Sun, 12 Apr 2026 13:46:02 +0000",
+      "title": "Bitcoin moves off lowest levels as worst of weekend fears slip away",
+      "url": "https://www.coindesk.com/markets/2026/04/13/bitcoin-moves-off-lowest-level-as-worst-of-weekend-fears-slip-away",
+      "published_at": "Mon, 13 Apr 2026 14:53:52 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin analysts flag triggers for a massive surge to $88,000 even as war risks linger",
-      "url": "https://www.coindesk.com/markets/2026/04/12/bitcoin-analysts-flag-triggers-for-a-massive-surge-to-usd88-000-even-as-war-risks-linger",
-      "published_at": "Sun, 12 Apr 2026 13:21:19 +0000",
+      "title": "ClearBank secures MiCA approval, targets Circle euro, dollar stablecoins for institutional clients",
+      "url": "https://www.coindesk.com/business/2026/04/13/clearbank-secures-mica-approval-targets-circle-euro-dollar-stablecoins-for-institutional-clients",
+      "published_at": "Mon, 13 Apr 2026 14:02:03 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Super PAC tied to Tether makes first ad buy from firm founded by Tether's U.S. CEO",
-      "url": "https://www.coindesk.com/policy/2026/04/10/super-pac-tied-to-tether-makes-first-ad-buy-from-firm-founded-by-tether-s-u-s-ceo",
-      "published_at": "Sun, 12 Apr 2026 13:00:00 +0000",
+      "title": "Nearly $120 million of XRP just moved to Coinbase in whale transaction",
+      "url": "https://www.coindesk.com/markets/2026/04/13/nearly-usd120-million-of-xrp-just-moved-to-coinbase-in-whale-transaction",
+      "published_at": "Mon, 13 Apr 2026 13:19:56 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Commodity traders are getting debanked due to Iran war, pushing them to rely on stablecoins",
-      "url": "https://www.coindesk.com/business/2026/04/12/commodity-traders-are-getting-debanked-due-to-iran-war-pushing-them-to-rely-on-stablecoins",
-      "published_at": "Sun, 12 Apr 2026 12:00:00 +0000",
+      "title": "Bitmine's Tom Lee calls ether 'the wartime store of value' as holdings hit 4.87 million tokens",
+      "url": "https://www.coindesk.com/markets/2026/04/13/bitmine-s-tom-lee-calls-ether-the-wartime-store-of-value-as-holdings-hit-4-87-million-eth",
+      "published_at": "Mon, 13 Apr 2026 13:19:37 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Tron\u2019s Justin Sun slams Trump-backed WLFI for treating users as \u2018personal ATM\u2019 after $75 Million DeFi loan",
-      "url": "https://www.coindesk.com/markets/2026/04/12/tron-s-justin-sun-slams-trump-backed-wlfi-for-treating-users-as-personal-atm-after-usd75-million-defi-loan",
-      "published_at": "Sun, 12 Apr 2026 11:49:24 +0000",
+      "title": "CoinDesk 20 performance update: index falls 2.9% as all constituents trade lower",
+      "url": "https://www.coindesk.com/coindesk-indices/2026/04/13/coindesk-20-performance-update-index-falls-2-9-as-all-constituents-trade-lower",
+      "published_at": "Mon, 13 Apr 2026 13:12:04 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Trump token sees whale accumulation ahead of Mar-a-Lago gala; senators raise questions over event",
-      "url": "https://www.coindesk.com/markets/2026/04/12/trump-token-sees-whale-accumulation-ahead-of-mar-a-lago-gala-senators-raise-questions-over-event",
-      "published_at": "Sun, 12 Apr 2026 10:52:10 +0000",
+      "title": "Foundry unveils Zcash block explorer as mining pool reaches 30% of hashrate",
+      "url": "https://www.coindesk.com/business/2026/04/13/foundry-unveils-zcash-block-explorer-as-mining-pool-reaches-30-of-hashrate",
+      "published_at": "Mon, 13 Apr 2026 13:00:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Why North Korea keeps stealing billions in crypto \u2014 out in the open",
-      "url": "https://www.coindesk.com/tech/2026/04/12/why-north-korea-keeps-stealing-billions-in-crypto-out-in-the-open",
-      "published_at": "Sun, 12 Apr 2026 10:00:00 +0000",
+      "title": "World Liberty Financial executes a massive $22 million stablecoin shuffle amid its borrowing controversy",
+      "url": "https://www.coindesk.com/markets/2026/04/13/wlfi-mints-usd25-million-in-fresh-usd1-and-burns-usd3-million-days-after-repayment-claim",
+      "published_at": "Mon, 13 Apr 2026 12:30:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
