@@ -1,7 +1,70 @@
 {
-  "generated_at": "2026-04-17 16:08 UTC",
+  "generated_at": "2026-04-18 15:44 UTC",
   "count": 55,
   "items": [
+    {
+      "title": "Zondacrypto under fire as Poland's prime minister links exchange to legislative interference",
+      "link": "https://www.coindesk.com/business/2026/04/18/zondacrypto-under-fire-as-poland-s-prime-minister-links-exchange-to-legislative-interference",
+      "pub_date": "Sat, 18 Apr 2026 14:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Wrapped XRP goes live on Solana, broadening DeFi access for Ripple-linked token",
+      "link": "https://www.coindesk.com/markets/2026/04/18/wrapped-xrp-goes-live-on-solana-broadening-defi-access-for-ripple-linked-token",
+      "pub_date": "Sat, 18 Apr 2026 13:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Ethereum co-founder Joseph Lubin warns of the dangers of AI being controlled by a few big tech firms",
+      "link": "https://www.coindesk.com/tech/2026/04/18/ethereum-co-founder-joseph-lubin-warns-of-the-dangers-of-ai-being-controlled-by-a-few-big-tech-firms",
+      "pub_date": "Sat, 18 Apr 2026 13:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Former UK Prime Minister sees economy on 'very negative trajectory,' indicates support for bitcoin",
+      "link": "https://www.coindesk.com/markets/2026/04/18/former-uk-prime-minister-sees-economy-on-very-negative-trajectory-indicates-support-for-bitcoin",
+      "pub_date": "Sat, 18 Apr 2026 12:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Bitcoin falls back to $76,000 as Iran shuts Hormuz again",
+      "link": "https://www.coindesk.com/markets/2026/04/18/bearish-bets-lose-usd593-million-as-bitcoin-jumps-with-iran-fully-opening-hormuz",
+      "pub_date": "Sat, 18 Apr 2026 05:04:12 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "XRP leads majors with 8% weekly outperformance, what next after breakout",
+      "link": "https://www.coindesk.com/markets/2026/04/18/xrp-leads-majors-with-8-weekly-outperformance-what-next-after-breakout",
+      "pub_date": "Sat, 18 Apr 2026 04:54:49 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "How a quantum computer can be used to actually steal your bitcoin in '9 minutes'",
+      "link": "https://www.coindesk.com/tech/2026/04/18/how-a-quantum-computer-can-be-used-to-actually-steal-your-bitcoin-in-9-minutes",
+      "pub_date": "Sat, 18 Apr 2026 03:51:35 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Strategy proposes semi-monthly dividends on its popular STRC preferred stock",
+      "link": "https://www.coindesk.com/markets/2026/04/17/strategy-proposes-semi-monthly-dividends-on-its-popular-strc-preferred-stock",
+      "pub_date": "Fri, 17 Apr 2026 20:32:55 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Sam Altman\u2019s World project launches major upgrade to fight deepfakes and bots",
+      "link": "https://www.coindesk.com/tech/2026/04/17/sam-altman-s-world-project-launches-major-upgrade-to-fight-deepfakes-and-bots",
+      "pub_date": "Fri, 17 Apr 2026 17:50:27 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
     {
       "title": "Beaten-down digital asset treasury names lead crypto stock surge as bitcoin hits $78,000",
       "link": "https://www.coindesk.com/markets/2026/04/17/beaten-down-digital-asset-treasury-names-lead-crypto-stock-surge-as-bitcoin-hits-usd78-000",
@@ -115,170 +178,107 @@
       "fetch_source": "live"
     },
     {
-      "title": "U.S. CFTC's Selig says AI has helped make up for staffing cuts at key crypto watchdog",
-      "link": "https://www.coindesk.com/policy/2026/04/16/u-s-cftc-s-selig-says-ai-has-helped-make-up-for-staffing-cuts-at-key-crypto-watchdog",
-      "pub_date": "Thu, 16 Apr 2026 16:50:44 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Cardano's Charles Hoskinson says Bitcoin's quantum fix is a hard fork that can't save Satoshi's coins",
-      "link": "https://www.coindesk.com/tech/2026/04/16/cardano-s-hoskinson-says-bitcoin-s-quantum-fix-is-a-hard-fork-that-can-t-save-satoshi-s-coins",
-      "pub_date": "Thu, 16 Apr 2026 16:19:29 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Crypto for Advisors: Tokenization\u2019s evolution",
-      "link": "https://www.coindesk.com/coindesk-indices/2026/04/15/crypto-for-advisors-tokenization-s-evolution",
-      "pub_date": "Thu, 16 Apr 2026 15:00:00 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitcoin slides back below $74,000 as breakout to higher levels fails again",
-      "link": "https://www.coindesk.com/markets/2026/04/16/bitcoin-slides-back-below-usd74-000-as-breakout-to-higher-levels-fails-again",
-      "pub_date": "Thu, 16 Apr 2026 14:46:48 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "The 24-hour trap: Why the UK\u2019s new crypto rules could catch some firms off guard",
-      "link": "https://www.coindesk.com/policy/2026/04/16/uk-s-financial-watchdog-releases-sweeping-crypto-asset-framework-for-final-consultation",
-      "pub_date": "Thu, 16 Apr 2026 14:40:02 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "VerifiedX brings privacy layer to Bitcoin as institutional demand for confidentiality grows",
-      "link": "https://www.coindesk.com/tech/2026/04/16/verifiedx-brings-privacy-layer-to-bitcoin-as-institutional-demand-for-confidentiality-grows",
-      "pub_date": "Thu, 16 Apr 2026 14:00:00 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "CoinDesk 20 performance update: Ethereum (ETH) price drops 1.3% as index trades lower",
-      "link": "https://www.coindesk.com/coindesk-indices/2026/04/16/coindesk-20-performance-update-ethereum-eth-price-drops-1-3-as-index-trades-lower",
-      "pub_date": "Thu, 16 Apr 2026 13:20:14 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Wall Street trading-tech is coming to crypto as DoubleZero rolls out high-speed data for Solana",
-      "link": "https://www.coindesk.com/tech/2026/04/16/wall-street-trading-tech-is-coming-to-crypto-as-doublezero-rolls-out-high-speed-data-for-solana",
-      "pub_date": "Thu, 16 Apr 2026 13:00:00 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Drift gets $148 million funding from Tether and partners as it replaces Circle stablecoin with USDT after massive exploit",
-      "link": "https://www.coindesk.com/business/2026/04/16/drift-gets-usd148-million-funding-from-tether-and-partners-as-it-replaces-circle-stablecoin-with-usdt-after-massive-exploit",
-      "pub_date": "Thu, 16 Apr 2026 13:00:00 +0000",
-      "source": "CoinDesk",
+      "title": "Poland parliament fails again to override presidential veto on crypto bill",
+      "link": "https://cointelegraph.com/news/poland-parliament-fails-again-to-override-presidential-veto-crypto-bill?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sat, 18 Apr 2026 13:24:23 +0100",
+      "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
       "title": "Here\u2019s what happened in crypto today",
       "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 17 Apr 2026 15:14:01 +0100",
+      "pub_date": "Sat, 18 Apr 2026 13:06:40 +0100",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin price quietly sets new 10-week high as trader sees $88K in weeks",
-      "link": "https://cointelegraph.com/news/bitcoin-price-quietly-sets-new-10-week-high-as-trader-sees-88k-in-weeks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 17 Apr 2026 14:52:38 +0100",
+      "title": "Stablecoins behave like FX markets as liquidity splits: Eco CEO",
+      "link": "https://cointelegraph.com/news/stablecoins-behave-fx-markets-liquidity-splits-eco-ceo?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sat, 18 Apr 2026 13:00:00 +0100",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Neo co-founder proposes $461M treasury overhaul to end \u2018trust me\u2019 governance",
-      "link": "https://cointelegraph.com/news/neo-founder-proposes-461m-overhaul-to-governance?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 17 Apr 2026 14:50:03 +0100",
+      "title": "Spot Bitcoin ETFs attract nearly $1B in weekly inflows as risk sentiment improves",
+      "link": "https://cointelegraph.com/news/spot-bitcoin-etfs-1b-weekly-inflows-risk-sentiment?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sat, 18 Apr 2026 09:28:25 +0100",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Crypto execs ramp up security as wrench attacks increase",
-      "link": "https://cointelegraph.com/news/crypto-execs-ramp-security-wrench-attacks-increase?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 17 Apr 2026 14:45:01 +0100",
+      "title": "SEC charges Donald Basile in $16M crypto fraud tied to \u2018insured\u2019 token",
+      "link": "https://cointelegraph.com/news/sec-donald-basile-16m-crypto-fraud-insured-token?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sat, 18 Apr 2026 08:32:40 +0100",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin rises, oil falls after Iran says Strait of Hormuz is open",
-      "link": "https://cointelegraph.com/news/bitcoin-rallies-76k-iran-strait-of-hormuz-open?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 17 Apr 2026 14:23:16 +0100",
+      "title": "Circle unveils USDC Bridge for native cross-chain stablecoin transfers",
+      "link": "https://cointelegraph.com/news/circle-launches-usdc-bridge-native-cross-chain-transfers?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sat, 18 Apr 2026 05:46:50 +0100",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Telegram CEO Durov warns EU age-verification app could enable wider tracking",
-      "link": "https://cointelegraph.com/news/eu-age-app-verification-surveillance-risk-durov?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 17 Apr 2026 14:15:23 +0100",
+      "title": "X's new Cashtags feature drives $1B trading volume in first two days",
+      "link": "https://cointelegraph.com/news/x-cashtags-feature-drives-1-billion-trading-volume-first-two-days?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sat, 18 Apr 2026 03:46:56 +0100",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Ramp Network rolls out multichain wallet for simpler self-custody",
-      "link": "https://cointelegraph.com/news/ramp-network-self-custodial-wallet-third-party-dependencies?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 17 Apr 2026 14:00:00 +0100",
+      "title": "Worldcoin tanks 13% as World\u2019s iris-scanning tech expands to Zoom, Docusign",
+      "link": "https://cointelegraph.com/news/worldcoin-falls-13-percent-as-world-iris-scanning-expands-zoom-docusign-tinder?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sat, 18 Apr 2026 01:49:26 +0100",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Flow Capital plans to tokenize $150M private credit fund via DigiFT: Report",
-      "link": "https://cointelegraph.com/news/flow-capital-tokenize-150m-private-credit-fund?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 17 Apr 2026 12:52:42 +0100",
+      "title": "Russia introduces bill to criminalize unregistered crypto services",
+      "link": "https://cointelegraph.com/news/russia-criminalize-unregistered-crypto-services?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Fri, 17 Apr 2026 22:33:01 +0100",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Tempo\u2019s \u2018Zones\u2019 sparks debate over privacy in crypto infrastructure",
-      "link": "https://cointelegraph.com/news/tempo-zones-highlight-divide-over-privacy?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 17 Apr 2026 12:22:35 +0100",
+      "title": "Polymarket odds of Hormuz Strait traffic normalizing by end of May spike to 73%",
+      "link": "https://cointelegraph.com/news/polymarket-strait-hormuz-return-normal-may-73?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Fri, 17 Apr 2026 22:12:19 +0100",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Ethereum NFT platform Foundation shuts down after failed Blackdove sale",
-      "link": "https://cointelegraph.com/news/foundation-nft-marketplace-shutdown-failed-sale?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 17 Apr 2026 11:26:23 +0100",
+      "title": "US Senator asks for Binance monitor update amid scrutiny of Iran sanctions",
+      "link": "https://cointelegraph.com/news/us-senator-binance-iran-sanctions?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Fri, 17 Apr 2026 20:22:53 +0100",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Tokenization doesn\u2019t \u2018magically\u2019 fix illiquid assets: PBW 2026",
-      "link": "https://cointelegraph.com/news/tokenization-illiquid-assets-liquidity-rwa-panel-pbw?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 17 Apr 2026 11:04:36 +0100",
+      "title": "Ether accumulation wallet balances increased by 33%: Is a rally to $3K next?",
+      "link": "https://cointelegraph.com/news/ether-accumulation-wallet-balances-increased-by-33percent-is-a-rally-to-dollar3k-next?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Fri, 17 Apr 2026 20:14:41 +0100",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Texas man in $20M Meta-1 Coin fraud sentenced to 23 years in prison",
-      "link": "https://cointelegraph.com/news/meta-1-coin-fraud-robert-dunlap-23-years-sentence?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 17 Apr 2026 07:25:14 +0100",
+      "title": "Crypto market liquidations hit $820M as Bitcoin price taps $78K",
+      "link": "https://cointelegraph.com/news/crypto-liquidations-hit-820m-as-bitcoin-price-taps-78k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Fri, 17 Apr 2026 19:27:18 +0100",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Crypto in sustained winter as CEX volumes drop 39% in Q1: CoinGecko",
-      "link": "https://cointelegraph.com/news/crypto-sustained-winter-q1-cex-volumes-drop-coingecko?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 17 Apr 2026 07:16:48 +0100",
+      "title": "Kraken's parent company to acquire CFTC-regulated exchange Bitnomial",
+      "link": "https://cointelegraph.com/news/kraken-parent-acquire-cftc-bitnomial?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Fri, 17 Apr 2026 19:27:00 +0100",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Cybersecurity researcher uncovers fake Ledger sold on Chinese marketplace",
-      "link": "https://cointelegraph.com/news/fake-ledger-device-sold-chinese-market-place?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 17 Apr 2026 07:02:05 +0100",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Ethereum Foundation-funded program exposes 100 DPRK workers in crypto",
-      "link": "https://cointelegraph.com/news/eth-rangers-program-exposed-100-north-korean-operatives-infiltrating-web3?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 17 Apr 2026 06:20:39 +0100",
+      "title": "Price predictions 4/17: BTC, ETH, XRP, BNB, SOL, DOGE, HYPE, ADA, BCH, LINK",
+      "link": "https://cointelegraph.com/news/price-predictions-4-17-btc-eth-xrp-bnb-sol-doge-hype-ada-bch-link?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Fri, 17 Apr 2026 18:37:07 +0100",
       "source": "Cointelegraph",
       "fetch_source": "live"
     }
