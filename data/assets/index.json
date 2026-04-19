@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-18T15:44:58.618356+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-04-18 15:36 UTC_",
+  "generated_at": "2026-04-19T15:45:05.604868+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-04-19 15:36 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,23 +9,23 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 76166.0,
+        "current_usd": 75733.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": 4.26,
-        "change_30d_pct": 9.01
+        "change_7d_pct": 7.03,
+        "change_30d_pct": 7.34
       },
       "indicators": {
-        "trend": "UPTREND",
-        "momentum": "STRONG",
+        "trend": "DOWNTREND",
+        "momentum": "WEAK",
         "volatility": "NORMAL"
       },
       "valuation": {
-        "verdict": "Constructive long-term setup",
-        "band": "undervalued",
-        "summary_line": "Undervalued - Balanced growth profile - Elevated regulatory risk.",
-        "score": 61.6
+        "verdict": "Neutral / fair-value zone",
+        "band": "fair",
+        "summary_line": "Fair - Balanced growth profile - Elevated regulatory risk.",
+        "score": 59.2
       },
-      "updated_at": "2026-04-18T15:44:58.616514+00:00",
+      "updated_at": "2026-04-19T15:45:05.602499+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,23 +37,23 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 2364.0,
+        "current_usd": 2326.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": 3.42,
-        "change_30d_pct": 10.58
+        "change_7d_pct": 6.13,
+        "change_30d_pct": 8.36
       },
       "indicators": {
-        "trend": "UPTREND",
-        "momentum": "STRONG",
+        "trend": "DOWNTREND",
+        "momentum": "WEAK",
         "volatility": "NORMAL"
       },
       "valuation": {
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
         "summary_line": "Fair - Balanced growth profile - Elevated regulatory risk.",
-        "score": 56.8
+        "score": 53.3
       },
-      "updated_at": "2026-04-18T15:44:58.617095+00:00",
+      "updated_at": "2026-04-19T15:45:05.603284+00:00",
       "source": {
         "short_term": "live"
       }
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-04-18T15:44:58.617343+00:00",
+      "updated_at": "2026-04-19T15:45:05.603578+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-04-18T15:44:58.617545+00:00",
+      "updated_at": "2026-04-19T15:45:05.603849+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-04-18T15:44:58.617803+00:00",
+      "updated_at": "2026-04-19T15:45:05.604109+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-04-18T15:44:58.618008+00:00",
+      "updated_at": "2026-04-19T15:45:05.604356+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -193,7 +193,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-04-18T15:44:58.618205+00:00",
+      "updated_at": "2026-04-19T15:45:05.604576+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -201,72 +201,72 @@
   ],
   "overview_news": [
     {
-      "title": "Zondacrypto under fire as Poland's prime minister links exchange to legislative interference",
-      "url": "https://www.coindesk.com/business/2026/04/18/zondacrypto-under-fire-as-poland-s-prime-minister-links-exchange-to-legislative-interference",
-      "published_at": "Sat, 18 Apr 2026 14:00:00 +0000",
+      "title": "Aave records $6 billion TVL drop as Kelp hack exposes structural risk at DeFi lender",
+      "url": "https://www.coindesk.com/tech/2026/04/19/aave-records-usd6-billion-tvl-drop-as-kelp-hack-exposes-structural-risk-at-defi-lender",
+      "published_at": "Sun, 19 Apr 2026 14:56:27 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Wrapped XRP goes live on Solana, broadening DeFi access for Ripple-linked token",
-      "url": "https://www.coindesk.com/markets/2026/04/18/wrapped-xrp-goes-live-on-solana-broadening-defi-access-for-ripple-linked-token",
-      "published_at": "Sat, 18 Apr 2026 13:00:00 +0000",
+      "title": "RaveDAO's RAVE token collapses 90% in a day as exchange probes widen",
+      "url": "https://www.coindesk.com/markets/2026/04/19/ravedao-s-rave-token-collapses-90-in-a-day-as-exchange-probes-widen",
+      "published_at": "Sun, 19 Apr 2026 14:28:45 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Ethereum co-founder Joseph Lubin warns of the dangers of AI being controlled by a few big tech firms",
-      "url": "https://www.coindesk.com/tech/2026/04/18/ethereum-co-founder-joseph-lubin-warns-of-the-dangers-of-ai-being-controlled-by-a-few-big-tech-firms",
-      "published_at": "Sat, 18 Apr 2026 13:00:00 +0000",
+      "title": "Inside the rise of wrench attacks against crypto holders and how France has become the focus",
+      "url": "https://www.coindesk.com/business/2026/04/19/inside-the-rise-of-wrench-attacks-against-crypto-holders-and-how-france-has-become-the-focus",
+      "published_at": "Sun, 19 Apr 2026 14:00:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Former UK Prime Minister sees economy on 'very negative trajectory,' indicates support for bitcoin",
-      "url": "https://www.coindesk.com/markets/2026/04/18/former-uk-prime-minister-sees-economy-on-very-negative-trajectory-indicates-support-for-bitcoin",
-      "published_at": "Sat, 18 Apr 2026 12:00:00 +0000",
+      "title": "Nomura study says 65% of institutional investors see crypto as a vital portfolio diversifier",
+      "url": "https://www.coindesk.com/business/2026/04/19/nomura-study-says-65-of-institutional-investors-see-crypto-as-a-vital-portfolio-diversifier",
+      "published_at": "Sun, 19 Apr 2026 13:00:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin falls back to $76,000 as Iran shuts Hormuz again",
-      "url": "https://www.coindesk.com/markets/2026/04/18/bearish-bets-lose-usd593-million-as-bitcoin-jumps-with-iran-fully-opening-hormuz",
-      "published_at": "Sat, 18 Apr 2026 05:04:12 +0000",
+      "title": "One person holds the keys to $200 million of a project\u2019s crypto. His co-founder says that has to end",
+      "url": "https://www.coindesk.com/business/2026/04/16/one-person-holds-the-keys-to-usd200-million-of-a-project-s-crypto-his-co-founder-says-that-has-to-end",
+      "published_at": "Sun, 19 Apr 2026 11:00:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "XRP leads majors with 8% weekly outperformance, what next after breakout",
-      "url": "https://www.coindesk.com/markets/2026/04/18/xrp-leads-majors-with-8-weekly-outperformance-what-next-after-breakout",
-      "published_at": "Sat, 18 Apr 2026 04:54:49 +0000",
+      "title": "2026's biggest crypto exploit: $292 million gets drained from Kelp DAO with wrapped ether stranded across 20 chains",
+      "url": "https://www.coindesk.com/tech/2026/04/19/2026-s-biggest-crypto-exploit-kelp-dao-hit-for-usd292-million-with-wrapped-ether-stranded-across-20-chains",
+      "published_at": "Sat, 18 Apr 2026 20:53:55 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "How a quantum computer can be used to actually steal your bitcoin in '9 minutes'",
-      "url": "https://www.coindesk.com/tech/2026/04/18/how-a-quantum-computer-can-be-used-to-actually-steal-your-bitcoin-in-9-minutes",
-      "published_at": "Sat, 18 Apr 2026 03:51:35 +0000",
+      "title": "Why Michael Saylor's Strategy decided to make STRC's dividend bi-monthly",
+      "url": "https://www.coindesk.com/markets/2026/04/18/why-michael-saylor-s-strategy-decided-to-make-strc-s-dividend-bi-monthly",
+      "published_at": "Sat, 18 Apr 2026 20:27:21 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Strategy proposes semi-monthly dividends on its popular STRC preferred stock",
-      "url": "https://www.coindesk.com/markets/2026/04/17/strategy-proposes-semi-monthly-dividends-on-its-popular-strc-preferred-stock",
-      "published_at": "Fri, 17 Apr 2026 20:32:55 +0000",
+      "title": "From smelters to servers: Alcoa to cash in on crypto\u2019s thirst for energy",
+      "url": "https://www.coindesk.com/business/2026/04/18/from-smelters-to-servers-alcoa-to-cash-in-on-crypto-s-thirst-for-energy",
+      "published_at": "Sat, 18 Apr 2026 20:21:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Sam Altman\u2019s World project launches major upgrade to fight deepfakes and bots",
-      "url": "https://www.coindesk.com/tech/2026/04/17/sam-altman-s-world-project-launches-major-upgrade-to-fight-deepfakes-and-bots",
-      "published_at": "Fri, 17 Apr 2026 17:50:27 +0000",
+      "title": "AI is increasingly eating into VC fundings and here is how crypto firms are adapting",
+      "url": "https://www.coindesk.com/business/2026/04/18/ai-is-increasingly-eating-into-vc-fundings-and-here-is-how-crypto-firms-are-adapting",
+      "published_at": "Sat, 18 Apr 2026 19:18:20 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Beaten-down digital asset treasury names lead crypto stock surge as bitcoin hits $78,000",
-      "url": "https://www.coindesk.com/markets/2026/04/17/beaten-down-digital-asset-treasury-names-lead-crypto-stock-surge-as-bitcoin-hits-usd78-000",
-      "published_at": "Fri, 17 Apr 2026 16:01:15 +0000",
+      "title": "Binance and Bitget to probe RAVE\u2019s 4,500% token surge as claims of insider-orchestrated rally grow",
+      "url": "https://www.coindesk.com/business/2026/04/18/binance-and-biget-to-probe-rave-s-4-500-token-surge-as-claims-of-insider-orchestrated-rally-grow",
+      "published_at": "Sat, 18 Apr 2026 16:46:46 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
