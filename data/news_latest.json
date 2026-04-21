@@ -1,7 +1,175 @@
 {
-  "generated_at": "2026-04-20 16:15 UTC",
+  "generated_at": "2026-04-21 16:16 UTC",
   "count": 55,
   "items": [
+    {
+      "title": "Aave\u2019s core markets hit 100% utilization at once, and that's not a good thing",
+      "link": "https://www.coindesk.com/business/2026/04/21/aave-s-core-markets-hit-100-utilization-at-once-here-is-what-it-means-and-it-s-not-good",
+      "pub_date": "Tue, 21 Apr 2026 15:52:50 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "AI slop has created a search problem crypto companies can\u2019t ignore",
+      "link": "https://www.coindesk.com/opinion/2026/04/21/ai-slop-has-created-a-search-problem-crypto-companies-can-t-ignore",
+      "pub_date": "Tue, 21 Apr 2026 15:45:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Bitget exchange brings pre-IPO tokens to masses starting with SpaceX on Solana",
+      "link": "https://www.coindesk.com/business/2026/04/21/bitget-exchange-brings-pre-ipo-tokens-to-masses-starting-with-spacex-on-solana",
+      "pub_date": "Tue, 21 Apr 2026 15:25:32 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Coinbase advisory board says quantum computing threat is on the horizon, crypto needs a plan",
+      "link": "https://www.coindesk.com/tech/2026/04/21/coinbase-advisory-board-says-quantum-computing-threat-is-on-the-horizon-crypto-needs-a-plan",
+      "pub_date": "Tue, 21 Apr 2026 15:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Cut the red tape: 39 financial giants demand an emergency fast-track for Europe's blockchain pilot",
+      "link": "https://www.coindesk.com/policy/2026/04/21/cut-the-red-tape-39-financial-giants-demand-an-emergency-fast-track-for-europe-s-blockchain-pilot",
+      "pub_date": "Tue, 21 Apr 2026 14:30:11 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "UK invites crypto giant Bybit to London to win over some of UAE\u2019s innovation shine",
+      "link": "https://www.coindesk.com/business/2026/04/21/uk-invites-crypto-giant-bybit-to-london-to-win-over-some-of-uae-s-innovation-shine",
+      "pub_date": "Tue, 21 Apr 2026 14:25:45 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "European banks are at risk of losing customers to rivals with better crypto tools",
+      "link": "https://www.coindesk.com/business/2026/04/21/european-banks-are-at-risk-of-losing-customers-to-rivals-with-better-crypto-tools",
+      "pub_date": "Tue, 21 Apr 2026 14:21:59 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "DoorDash is bringing stablecoin payments to masses with Stripe-backed blockchain",
+      "link": "https://www.coindesk.com/business/2026/04/21/doordash-is-bringing-stablecoin-payments-to-masses-with-stripe-backed-blockchain",
+      "pub_date": "Tue, 21 Apr 2026 14:18:51 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "CoinDesk 20 performance update: Stellar (XLM) gains 3.3% while index moves lower",
+      "link": "https://www.coindesk.com/coindesk-indices/2026/04/21/coindesk-20-performance-update-stellar-xlm-gains-3-3-while-index-moves-lower",
+      "pub_date": "Tue, 21 Apr 2026 13:19:23 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Almost 80% of Japan's institutional investors plan to buy crypto within 3 years, survey finds",
+      "link": "https://www.coindesk.com/markets/2026/04/21/almost-80-of-japanese-institutional-investors-are-eyeing-crypto-for-their-portfolios-by-2029",
+      "pub_date": "Tue, 21 Apr 2026 11:44:35 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Bitcoin trades above a make-or-break level ahead of Warsh hearing",
+      "link": "https://www.coindesk.com/daybook-us/2026/04/21/bitcoin-trades-above-a-make-or-break-level-ahead-of-warsh-hearing",
+      "pub_date": "Tue, 21 Apr 2026 11:29:24 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Bitcoin climbs as risk sentiment improves, altcoins hit by exploit concerns",
+      "link": "https://www.coindesk.com/markets/2026/04/21/bitcoin-climbs-as-risk-sentiment-improves-altcoins-hit-by-exploit-concerns",
+      "pub_date": "Tue, 21 Apr 2026 10:36:06 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Crypto scammers offer \u2018safe passage\u2019 through Hormuz. At least one ship may have been conned.",
+      "link": "https://www.coindesk.com/business/2026/04/21/crypto-scammers-offer-safe-passage-through-hormuz-at-least-one-ship-may-have-been-conned",
+      "pub_date": "Tue, 21 Apr 2026 10:31:09 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Bank of Korea\u2019s new governor signals CBDC and bank token push, skips stablecoins in key address",
+      "link": "https://www.coindesk.com/policy/2026/04/21/bank-of-korea-s-new-governor-signals-cbdc-and-bank-token-push-skips-stablecoins-in-key-address",
+      "pub_date": "Tue, 21 Apr 2026 10:08:52 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Strategy overtakes BlackRock IBIT in bitcoin holdings after bear market buying",
+      "link": "https://www.coindesk.com/markets/2026/04/21/strategy-overtakes-blackrock-ibit-in-bitcoin-holdings-after-bear-market-buying",
+      "pub_date": "Tue, 21 Apr 2026 09:39:06 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Bitcoin is now calmer than South Korea's stock market. Here's why it matters",
+      "link": "https://www.coindesk.com/markets/2026/04/21/bitcoin-is-less-volatile-than-south-korea-s-stock-market-right-now",
+      "pub_date": "Tue, 21 Apr 2026 09:25:24 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "KelpDAO hackers are laundering millions in stolen crypto, data show",
+      "link": "https://www.coindesk.com/business/2026/04/21/data-shows-the-kelpdao-hackers-are-already-laundering-millions-in-stolen-crypto",
+      "pub_date": "Tue, 21 Apr 2026 09:12:40 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "A dozen banks want a euro stablecoin. Fireblocks is making it happen",
+      "link": "https://www.coindesk.com/business/2026/04/21/crypto-custody-firm-fireblocks-powers-bank-backed-euro-stablecoin",
+      "pub_date": "Tue, 21 Apr 2026 08:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Arbitrum freezes $71 million in ether tied to Kelp DAO exploit",
+      "link": "https://www.coindesk.com/markets/2026/04/21/arbitrum-freezes-usd71-million-in-ether-tied-to-kelp-dao-exploit",
+      "pub_date": "Tue, 21 Apr 2026 05:55:47 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Bitcoin reclaims $75,000 as Iran ceasefire talks advance, equities rally resumes",
+      "link": "https://www.coindesk.com/markets/2026/04/21/bitcoin-reclaims-usd75-000-as-iran-ceasefire-talks-advance-equities-rally-resumes",
+      "pub_date": "Tue, 21 Apr 2026 05:45:58 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Ripple wants the XRP Ledger to be quantum-proof by 2028. Here is its plan",
+      "link": "https://www.coindesk.com/markets/2026/04/21/ripple-wants-the-xrp-ledger-to-be-quantum-proof-by-2028-here-is-its-plan",
+      "pub_date": "Tue, 21 Apr 2026 05:43:23 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "North Korea\u2019s crypto heist playbook is expanding and DeFi keeps getting hit",
+      "link": "https://www.coindesk.com/tech/2026/04/20/north-korea-s-crypto-heist-playbook-is-expanding-and-defi-keeps-getting-hit",
+      "pub_date": "Mon, 20 Apr 2026 21:17:17 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Aave could face up to $230 million in losses after Kelp DAO bridge exploit triggers DeFi chaos",
+      "link": "https://www.coindesk.com/tech/2026/04/20/aave-could-face-up-to-usd230-million-in-losses-after-kelp-dao-bridge-exploit-triggers-defi-chaos",
+      "pub_date": "Mon, 20 Apr 2026 21:03:44 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Bitcoin bounces above $76,000 as DeFi suffers $14 billion exodus after KelpDAO hack",
+      "link": "https://www.coindesk.com/markets/2026/04/20/bitcoin-bounces-above-usd76-000-as-defi-suffers-usd14-billion-exodus-after-kelpdao-hack",
+      "pub_date": "Mon, 20 Apr 2026 20:53:22 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
     {
       "title": "Five times President Trump made a statement that moved bitcoin, and why it might happen again this week",
       "link": "https://www.coindesk.com/markets/2026/04/20/five-times-president-trump-made-a-statement-that-moved-bitcoin-and-why-it-might-happen-again-this-week",
@@ -10,275 +178,107 @@
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin faces near-term pressure as liquidity tightens, Hilbert Group CIO says",
-      "link": "https://www.coindesk.com/markets/2026/04/20/bitcoin-faces-near-term-pressure-as-liquidity-tightens-hilbert-group-cio-says",
-      "pub_date": "Mon, 20 Apr 2026 16:07:23 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "UK gas-investment firm weighs bitcoin mining, draws criticism",
-      "link": "https://www.coindesk.com/business/2026/04/20/uk-gas-investment-firm-weighs-bitcoin-mining-draws-criticism",
-      "pub_date": "Mon, 20 Apr 2026 15:22:30 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Blockchain sleuth accuses RaveDAO of knowing who manipulated the price of its token",
-      "link": "https://www.coindesk.com/business/2026/04/20/blockchain-sleuth-accuses-ravedao-of-knowing-who-manipulated-the-price-of-its-token",
-      "pub_date": "Mon, 20 Apr 2026 15:16:08 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "U.S. crypto adoption is rebounding, bitcoin still dominates, Deutsche Bank says",
-      "link": "https://www.coindesk.com/markets/2026/04/20/u-s-crypto-adoption-is-rebounding-bitcoin-still-dominates-deutsche-bank-says",
-      "pub_date": "Mon, 20 Apr 2026 15:12:09 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Kelp DAO claims LayerZero\u2019s 'default' settings are what actually caused the massive $290 million disaster",
-      "link": "https://www.coindesk.com/tech/2026/04/20/kelp-dao-claims-layerzero-s-default-settings-are-what-actually-caused-the-usd290-million-disaster",
-      "pub_date": "Mon, 20 Apr 2026 14:41:02 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Global stablecoin rulemaking slows, prompting BIS to urge cooperation to avoid fragmentation risks",
-      "link": "https://www.coindesk.com/policy/2026/04/20/global-stablecoin-rulemaking-slows-prompting-bis-to-urge-cooperation-to-avoid-fragmentation-risks",
-      "pub_date": "Mon, 20 Apr 2026 14:31:44 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Tether backs UAE tokenization firm KAIO in $8M funding round to bring Emirati funds onchain",
-      "link": "https://www.coindesk.com/business/2026/04/20/tether-backs-uae-tokenization-firm-kaio-in-usd8m-funding-round-to-bring-emirati-funds-onchain",
-      "pub_date": "Mon, 20 Apr 2026 14:19:00 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Coinbase, Bybit said to be working together on tokenization, custody and distribution of U.S. stocks",
-      "link": "https://www.coindesk.com/business/2026/04/20/coinbase-bybit-said-to-be-working-together-on-tokenization-custody-and-distribution-of-u-s-stocks",
-      "pub_date": "Mon, 20 Apr 2026 13:44:30 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "CoinDesk 20 performance update: AAVE price plummets 22.9% over weekend",
-      "link": "https://www.coindesk.com/coindesk-indices/2026/04/20/coindesk-20-performance-update-aave-price-plummets-22-9-over-weekend",
-      "pub_date": "Mon, 20 Apr 2026 13:32:26 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitmine buys 101,627 ether worth over $230 million, its largest weekly haul of 2026",
-      "link": "https://www.coindesk.com/business/2026/04/20/bitmine-buys-101-627-ether-worth-over-usd230-million-its-largest-weekly-haul-of-2026",
-      "pub_date": "Mon, 20 Apr 2026 12:57:30 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Strategy buys 34,164 bitcoin for $2.54 billion, third-largest purchase on record",
-      "link": "https://www.coindesk.com/markets/2026/04/20/strategy-buys-34-164-bitcoin-for-usd2-54-billion",
-      "pub_date": "Mon, 20 Apr 2026 12:07:24 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "U.S.-Iran ceasefire ends, Tesla earnings: Crypto Week Ahead",
-      "link": "https://www.coindesk.com/markets/2026/04/20/u-s-iran-ceasefire-ends-tesla-earnings-crypto-week-ahead",
-      "pub_date": "Mon, 20 Apr 2026 11:52:46 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Nearly $1 billion in bitcoin ETF inflows power bull case as Kelp hack fuels DeFi jitters",
-      "link": "https://www.coindesk.com/daybook-us/2026/04/20/nearly-usd1-billion-in-bitcoin-etf-inflows-power-bull-case-as-kelp-hack-fuels-defi-jitters",
-      "pub_date": "Mon, 20 Apr 2026 11:24:58 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitcoin drops from recent highs as traders watch CME gap, DeFi hack fallout",
-      "link": "https://www.coindesk.com/markets/2026/04/20/bitcoin-drops-from-recent-highs-as-traders-watch-cme-gap-defi-hack-fallout",
-      "pub_date": "Mon, 20 Apr 2026 10:51:15 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitcoin is rallying as flagship conference approaches, data shows the gains rarely last",
-      "link": "https://www.coindesk.com/markets/2026/04/18/bitcoin-is-rallying-as-flagship-conference-approaches-data-shows-the-gains-rarely-last",
-      "pub_date": "Mon, 20 Apr 2026 10:24:20 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Here's how bitcoin's $7.9 billion April options expiry impact prices",
-      "link": "https://www.coindesk.com/markets/2026/04/20/here-s-how-bitcoin-s-usd7-9-billion-options-expiry-impact-prices",
-      "pub_date": "Mon, 20 Apr 2026 09:53:12 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "A $300 million borrowing spike on Aave signals liquidity crunch after KelpDAO exploit",
-      "link": "https://www.coindesk.com/markets/2026/04/20/a-usd300m-borrowing-spike-on-aave-signals-liquidity-crunch-after-exploit",
-      "pub_date": "Mon, 20 Apr 2026 09:27:53 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitcoin, ether, solana slide, oil jumps on renewed U.S.-Iran war risks",
-      "link": "https://www.coindesk.com/markets/2026/04/20/bitcoin-ether-solana-slide-oil-jumps-on-renewed-u-s-iran-war-risks",
-      "pub_date": "Mon, 20 Apr 2026 05:36:18 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "LayerZero blames Kelp's setup for $290 million exploit, attributes it to North Korea's Lazarus",
-      "link": "https://www.coindesk.com/tech/2026/04/20/layerzero-blames-kelp-s-setup-for-usd290-million-exploit-attributes-it-to-north-korea-s-lazarus",
-      "pub_date": "Mon, 20 Apr 2026 05:01:57 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "The $13 billion DeFi wipeout in two days, and it started with KelpDAO attack",
-      "link": "https://www.coindesk.com/markets/2026/04/20/defi-tvl-drops-more-than-usd13-billion-in-two-days-following-kelp-dao-hack",
-      "pub_date": "Mon, 20 Apr 2026 04:51:50 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Hack at Vercel sends crypto developers scrambling to lock down API keys",
-      "link": "https://www.coindesk.com/tech/2026/04/20/hack-at-vercel-sends-crypto-developers-scrambling-to-lock-down-api-keys",
-      "pub_date": "Mon, 20 Apr 2026 01:47:28 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "The $292 million Kelp exploit: how it happened, and what it means for DeFi",
-      "link": "https://www.coindesk.com/business/2026/04/19/the-usd292-million-kelp-exploit-how-it-happened-and-what-it-means-for-defi",
-      "pub_date": "Sun, 19 Apr 2026 22:27:17 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Previewing Consensus' Policy Summit: State of Crypto",
-      "link": "https://www.coindesk.com/policy/2026/04/19/previewing-consensus-policy-summit-state-of-crypto",
-      "pub_date": "Sun, 19 Apr 2026 18:30:00 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Web3 VCs have a differentiation problem",
-      "link": "https://www.coindesk.com/opinion/2026/04/19/web3-vcs-have-a-differentiation-problem",
-      "pub_date": "Sun, 19 Apr 2026 18:13:00 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitcoin daily gains near 3% as stocks ignore US-Iran war threat, oil drops",
-      "link": "https://cointelegraph.com/news/bitcoin-daily-gains-near-3-stocks-ignore-us-iran-war-threat-oil-drops?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Mon, 20 Apr 2026 16:14:52 +0100",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitmine buys 101,627 ETH in largest purchase since December 2025",
-      "link": "https://cointelegraph.com/news/bitmine-buys-101-627-eth-in-largest-purchase-since-december-2025?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Mon, 20 Apr 2026 15:15:12 +0100",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Japan to test government bonds as digital collateral on Canton",
-      "link": "https://cointelegraph.com/news/jscc-to-test-use-of-japanese-bonds-canton-network?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Mon, 20 Apr 2026 14:58:31 +0100",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "ZachXBT asks MemeCore to explain valuation and token supply",
-      "link": "https://cointelegraph.com/news/investigator-concentration-concerns-memecore?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Mon, 20 Apr 2026 14:37:43 +0100",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "RaveDAO's RAVE token risks another 50% crash amid price manipulation claims",
-      "link": "https://cointelegraph.com/news/ravedao-rave-token-risks-another-crash-price-manipulation-claims?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Mon, 20 Apr 2026 14:27:14 +0100",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
       "title": "Here\u2019s what happened in crypto today",
       "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Mon, 20 Apr 2026 14:19:29 +0100",
+      "pub_date": "Tue, 21 Apr 2026 16:06:25 +0100",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Strategy buys 34,164 Bitcoin for $2.5B, holdings top 800,000 BTC",
-      "link": "https://cointelegraph.com/news/strategy-buys-34-164-bitcoin-total-holdings-hit-815-061-btc?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Mon, 20 Apr 2026 13:29:07 +0100",
+      "title": "Poland stalls on crypto law, forcing local companies to move abroad",
+      "link": "https://cointelegraph.com/news/poland-stalls-crypto-law-companies-move-abroad?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Tue, 21 Apr 2026 16:00:00 +0100",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin metrics line up bull signals with $78K the BTC price level to beat",
-      "link": "https://cointelegraph.com/news/bitcoin-metrics-line-up-bull-signals-78k-btc-price-level-beat?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Mon, 20 Apr 2026 13:20:47 +0100",
+      "title": "European investors may switch banks for better crypto access, survey finds",
+      "link": "https://cointelegraph.com/news/one-third-european-investors-switch-banks-crypto-interest?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Tue, 21 Apr 2026 15:53:41 +0100",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Coinbase rolls out UK crypto-backed loans as FCA shapes rules",
-      "link": "https://cointelegraph.com/news/coinbase-crypto-backed-usdc-loans-uk-morpho-fca-rules?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Mon, 20 Apr 2026 13:06:49 +0100",
+      "title": "Fake delivery driver targets French crypto worker in armed home invasion",
+      "link": "https://cointelegraph.com/news/gunman-posing-delivery-driver-targets-crypto-investor?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Tue, 21 Apr 2026 15:39:18 +0100",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Crypto fund inflows hit $1.4B in second-strongest week since January",
-      "link": "https://cointelegraph.com/news/crypto-etp-1-4-billion-inflows-third-straight-week?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Mon, 20 Apr 2026 12:12:45 +0100",
+      "title": "Group of 39 firms urge EU to fast-track DLT rules, warn of lagging the US",
+      "link": "https://cointelegraph.com/news/eu-finance-firms-dlt-rules-fast-track-us-tokenization-warning?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Tue, 21 Apr 2026 15:29:11 +0100",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "LayerZero says Kelp setup enabled exploit, as Aave loss questions mount",
-      "link": "https://cointelegraph.com/news/layerzero-kelp-exploit-aave-loss?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Mon, 20 Apr 2026 11:47:36 +0100",
+      "title": "UK plans payments rule changes for stablecoins, tokenized deposits",
+      "link": "https://cointelegraph.com/news/uk-plans-payments-rule-changes-for-stablecoins-tokenized-deposits?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Tue, 21 Apr 2026 15:06:11 +0100",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "How Mastercard plans to settle card payments with stablecoins",
-      "link": "https://cointelegraph.com/news/mastercard-stablecoin-settlement-sofiusd-explained?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Mon, 20 Apr 2026 11:34:38 +0100",
+      "title": "South Korea tax agency opens bidding for crypto tracing tool",
+      "link": "https://cointelegraph.com/news/south-korea-crypto-tax-ai-monitoring-system-procurement?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Tue, 21 Apr 2026 14:47:49 +0100",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "BTC price due new highs: Five things to know in Bitcoin this week",
-      "link": "https://cointelegraph.com/news/btc-price-due-new-highs-five-things-bitcoin-this-week?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Mon, 20 Apr 2026 11:18:21 +0100",
+      "title": "Crypto hackers stole $17B over past 10 years: DefiLlama",
+      "link": "https://cointelegraph.com/news/private-key-compromises-led-crypto-hack-losses-decade?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Tue, 21 Apr 2026 14:42:32 +0100",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "BIS warns dollar stablecoins could strain banks and policy",
-      "link": "https://cointelegraph.com/news/bis-warns-on-stablecoin-risks-urges-global-coordination?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Mon, 20 Apr 2026 10:05:52 +0100",
+      "title": "Canton, ZKsync clash over how blockchains enforce rules",
+      "link": "https://cointelegraph.com/news/canton-zksync-clash-blockchains-enforce-rules?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Tue, 21 Apr 2026 14:30:10 +0100",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Saylor teases 'bigger' BTC buy days after floating semi-monthly dividends",
-      "link": "https://cointelegraph.com/news/strategy-semi-monthly-dividends-saylor-bitcoin-buy?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Mon, 20 Apr 2026 07:49:48 +0100",
+      "title": "XRP holders back in profit as price eyes potential 55% breakout",
+      "link": "https://cointelegraph.com/news/xrp-holders-back-in-profit-price-gears-up-for-55-percent-breakout?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Tue, 21 Apr 2026 13:50:35 +0100",
+      "source": "Cointelegraph",
+      "fetch_source": "live"
+    },
+    {
+      "title": "VIX drops 45% in three weeks: Is Bitcoin price ready to retake $80K?",
+      "link": "https://cointelegraph.com/news/vix-drops-45-precent-three-weeks-btc-price-retake-80k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Tue, 21 Apr 2026 13:25:47 +0100",
+      "source": "Cointelegraph",
+      "fetch_source": "live"
+    },
+    {
+      "title": "BitMEX taps Zodia Custody for off-exchange collateral trading",
+      "link": "https://cointelegraph.com/news/bitmex-zodia-custody-tighten-post-ftx-safeguards?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Tue, 21 Apr 2026 12:45:19 +0100",
+      "source": "Cointelegraph",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Kelp DAO attacker moves $175M in Ether after exploit: Arkham",
+      "link": "https://cointelegraph.com/news/kelp-exploiter-moves-175m-stolen-funds?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Tue, 21 Apr 2026 12:12:09 +0100",
+      "source": "Cointelegraph",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Scammers demand crypto from stranded ships in Strait of Hormuz: Report",
+      "link": "https://cointelegraph.com/news/fraudsters-pose-iranian-authorities-crypto-stranded-ships-hormuz?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Tue, 21 Apr 2026 10:53:55 +0100",
+      "source": "Cointelegraph",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Philippines SEC flags dYdX, six crypto platforms as unauthorized",
+      "link": "https://cointelegraph.com/news/philippines-sec-warns-dydx-crypto-platforms-investor-alert?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Tue, 21 Apr 2026 10:22:30 +0100",
       "source": "Cointelegraph",
       "fetch_source": "live"
     }
