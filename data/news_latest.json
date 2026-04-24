@@ -1,7 +1,126 @@
 {
-  "generated_at": "2026-04-23 16:34 UTC",
+  "generated_at": "2026-04-24 16:11 UTC",
   "count": 55,
   "items": [
+    {
+      "title": "Jane Street asks court to reject Terraform claims tied to UST-LUNA crash",
+      "link": "https://www.coindesk.com/policy/2026/04/24/jane-street-asks-court-to-reject-terraform-claims-tied-to-ust-luna-crash",
+      "pub_date": "Fri, 24 Apr 2026 15:53:44 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Bitmine to buy 10,000 ether for $23.9 million from the Ethereum Foundation",
+      "link": "https://www.coindesk.com/business/2026/04/24/bitmine-to-buy-10-000-ether-for-usd23-8-million-from-the-ethereum-foundation",
+      "pub_date": "Fri, 24 Apr 2026 15:47:48 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Researcher wins 1 bitcoin bounty for 'largest quantum attack' on underlying tech",
+      "link": "https://www.coindesk.com/tech/2026/04/24/researcher-wins-1-bitcoin-bounty-for-largest-quantum-attack-on-underlying-tech",
+      "pub_date": "Fri, 24 Apr 2026 15:14:31 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "CoinDesk 20 performance update: Aptos (APT) gains 3.5%, leading index higher",
+      "link": "https://www.coindesk.com/coindesk-indices/2026/04/24/coindesk-20-performance-update-aptos-apt-gains-3-5-leading-index-higher",
+      "pub_date": "Fri, 24 Apr 2026 13:19:20 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Bitcoin, dollar move in near-perfect opposition. It hasn't been this extreme in almost 4 years.",
+      "link": "https://www.coindesk.com/daybook-us/2026/04/24/bitcoin-dollar-move-in-near-perfect-opposition-it-hasn-t-been-this-extreme-in-almost-4-years",
+      "pub_date": "Fri, 24 Apr 2026 11:17:56 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Bitcoin stalls below at $77,500 as volatility cools, traders unwind leverage",
+      "link": "https://www.coindesk.com/markets/2026/04/24/bitcoin-stalls-below-at-usd77-500-as-volatility-cools-traders-unwind-leverage",
+      "pub_date": "Fri, 24 Apr 2026 10:40:26 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Michael Saylor says the bitcoin winter is over. Some experts agree, with caveats.",
+      "link": "https://www.coindesk.com/markets/2026/04/23/michael-saylor-says-the-bitcoin-winter-is-over-some-experts-agree-with-caveats",
+      "pub_date": "Fri, 24 Apr 2026 10:03:36 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "India pushes e-rupee through welfare pilots as BRICS digital currency plan takes shape",
+      "link": "https://www.coindesk.com/policy/2026/04/24/india-pushes-digital-rupee-through-welfare-pilots-as-brics-cbdc-plan-takes-shape",
+      "pub_date": "Fri, 24 Apr 2026 09:25:07 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "U.S. government sits on $26.5 billion gain from Intel stake, as shares surge 22%",
+      "link": "https://www.coindesk.com/markets/2026/04/24/u-s-government-sits-on-usd26-5-billion-gain-from-intel-stake-as-shares-surge-22",
+      "pub_date": "Fri, 24 Apr 2026 09:05:15 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Bitcoin-holder Metaplanet raises $50 million to buy more BTC",
+      "link": "https://www.coindesk.com/markets/2026/04/24/bitcoin-holder-metaplanet-raises-usd50-million-in-zero-interest-bonds-to-buy-more-btc",
+      "pub_date": "Fri, 24 Apr 2026 08:02:38 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Morgan Stanley is positioning itself as the reserve manager for the stablecoin industry",
+      "link": "https://www.coindesk.com/markets/2026/04/24/morgan-stanley-is-positioning-itself-as-the-reserve-manager-for-the-stablecoin-industry",
+      "pub_date": "Fri, 24 Apr 2026 06:39:39 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Bitcoin ETFs just pulled in $2 billion in 8 days while short-term holders quietly started selling",
+      "link": "https://www.coindesk.com/markets/2026/04/24/bitcoin-etfs-just-pulled-usd2-billion-in-8-days-while-short-term-holders-quietly-started-selling",
+      "pub_date": "Fri, 24 Apr 2026 06:07:38 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Bitcoin rally is stalling as Japanese inflation adds to Iran war\u2013driven market jitters",
+      "link": "https://www.coindesk.com/markets/2026/04/24/bitcoin-rally-is-stalling-as-japan-macro-adds-to-iran-war-driven-market-jitters",
+      "pub_date": "Fri, 24 Apr 2026 05:01:29 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Wisconsin joins prediction market fight, suing Kalshi, Coinbase, Polymarket, Robinhood and Crypto.com",
+      "link": "https://www.coindesk.com/policy/2026/04/24/wisconsin-joins-prediction-market-fight-suing-kalshi-coinbase-polymarket-robinhood-and-crypto-com",
+      "pub_date": "Fri, 24 Apr 2026 04:47:21 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "U.S. arrests Army green beret for $400,000 Polymarket bets on Venezuela raid he was in",
+      "link": "https://www.coindesk.com/policy/2026/04/23/u-s-arrests-soldier-for-polymarket-bets-on-nicolas-maduro-raid-he-participated-in",
+      "pub_date": "Thu, 23 Apr 2026 22:11:37 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Aave rallies DeFi partners to contain fallout from $292 million KelpDAO hack",
+      "link": "https://www.coindesk.com/business/2026/04/23/aave-rallies-defi-partners-to-contain-fallout-from-usd292-million-kelpdao-hack",
+      "pub_date": "Thu, 23 Apr 2026 20:52:33 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Inside the $71 million freeze on Arbitrum that has the crypto world questioning what decentralization really means",
+      "link": "https://www.coindesk.com/tech/2026/04/22/inside-the-usd71-million-freeze-on-arbitrum-that-has-the-crypto-world-questioning-what-decentralization-really-means",
+      "pub_date": "Thu, 23 Apr 2026 18:35:32 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
     {
       "title": "The market repriced DeFi in just 48 hours",
       "link": "https://www.coindesk.com/opinion/2026/04/23/the-market-repriced-defi-in-just-48-hours",
@@ -59,226 +178,107 @@
       "fetch_source": "live"
     },
     {
-      "title": "More than 90% of Web3 games failed after $15 billion boom as gamers never showed up: Caladan",
-      "link": "https://www.coindesk.com/markets/2026/04/23/more-than-90-of-web3-games-failed-after-usd15-billion-boom-as-gamers-never-showed-up-caladan",
-      "pub_date": "Thu, 23 Apr 2026 13:02:32 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "U.S. military runs Bitcoin node, sees crypto as power projection versus China",
-      "link": "https://www.coindesk.com/markets/2026/04/23/us-military-runs-bitcoin-node-sees-crypto-as-power-projection-vs-china",
-      "pub_date": "Thu, 23 Apr 2026 11:52:19 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Sam Bankman-Fried withdraws retrial motion. He believes he would not get a fair trial.",
-      "link": "https://www.coindesk.com/policy/2026/04/23/sam-bankman-fried-withdraws-retrial-motion-he-believes-he-would-not-get-a-fair-trial",
-      "pub_date": "Thu, 23 Apr 2026 11:26:59 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitcoin's bullish momentum runs into Pentagon-backed inflation warning",
-      "link": "https://www.coindesk.com/daybook-us/2026/04/23/bitcoin-s-bullish-momentum-runs-into-pentagon-backed-inflation-warning",
-      "pub_date": "Thu, 23 Apr 2026 11:14:28 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitcoin slips from near $80,000 as oil price increase weighs on risk assets",
-      "link": "https://www.coindesk.com/markets/2026/04/23/bitcoin-slips-from-near-usd80-000-as-oil-price-increase-weighs-on-risk-assets",
-      "pub_date": "Thu, 23 Apr 2026 10:38:53 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "More than 100 crypto firms urge Senate to move on U.S. market structure bill",
-      "link": "https://www.coindesk.com/policy/2026/04/23/more-than-100-crypto-firms-urge-senate-to-move-on-u-s-market-structure-bill",
-      "pub_date": "Thu, 23 Apr 2026 10:30:00 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "The DAT collapse: Pantera wants Satsuma to dump its bitcoin as shares crash 99%",
-      "link": "https://www.coindesk.com/markets/2026/04/23/pantera-wants-satsuma-to-dump-its-bitcoin-as-shares-crash-99",
-      "pub_date": "Thu, 23 Apr 2026 10:21:46 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Coinbase backer Blockchain Capital hunts $700 million for new funds",
-      "link": "https://www.coindesk.com/business/2026/04/23/blockchain-capital-is-seeking-usd700-million-for-new-funds",
-      "pub_date": "Thu, 23 Apr 2026 09:59:50 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "OpenAI appears to be poaching Coinbase\u2019s marketing team",
-      "link": "https://www.coindesk.com/business/2026/04/23/openai-appears-to-be-poaching-coinbase-s-marketing-team",
-      "pub_date": "Thu, 23 Apr 2026 07:49:03 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitcoin's bull score index just left bear territory. There's a warning attached.",
-      "link": "https://www.coindesk.com/markets/2026/04/23/bitcoin-s-bull-score-index-just-left-bear-territory-there-s-a-warning-attached",
-      "pub_date": "Thu, 23 Apr 2026 06:26:03 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "FTX sold its Cursor stake for $200,000 in 2023. It would be worth $3 billion today",
-      "link": "https://www.coindesk.com/business/2026/04/23/ftx-sold-its-cursor-stake-for-usd200-000-in-2023-it-would-be-worth-usd3-billion-today",
-      "pub_date": "Thu, 23 Apr 2026 06:18:19 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Cardano builder seeks smaller funding slice of $46.8 million for scaling and Bitcoin DeFi",
-      "link": "https://www.coindesk.com/tech/2026/04/23/input-output-seeks-usd46-8-million-to-bring-bitcoin-defi-scaling-upgrade-to-cardano",
-      "pub_date": "Thu, 23 Apr 2026 05:08:13 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitcoin loses grip near $80,000 as ETH, SOL, DOGE fade on profit-taking",
-      "link": "https://www.coindesk.com/markets/2026/04/23/bitcoin-loses-grip-near-usd80-000-as-eth-sol-doge-fade-on-profit-taking",
-      "pub_date": "Thu, 23 Apr 2026 04:36:37 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "World Liberty accuses Justin Sun of 'misconduct' in response to Tron founder's defamation claims",
-      "link": "https://www.coindesk.com/markets/2026/04/23/world-liberty-accuses-justin-sun-of-misconduct-in-response-to-tron-founder-s-defamation-claims",
-      "pub_date": "Thu, 23 Apr 2026 03:47:46 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Kalshi flags more insider trading cases, including politician who appeared on FBoy Island",
-      "link": "https://www.coindesk.com/policy/2026/04/22/kalshi-flags-more-insider-trading-cases-including-politician-who-appeared-on-fboy-island",
-      "pub_date": "Wed, 22 Apr 2026 21:14:22 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Elon Musk's Tesla reports unchanged bitcoin holdings, books $173 million digital asset loss",
-      "link": "https://www.coindesk.com/markets/2026/04/22/elon-musk-s-tesla-reports-unchanged-bitcoin-holdings-books-usd173-million-digital-asset-loss",
-      "pub_date": "Wed, 22 Apr 2026 20:36:19 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "The question isn't whether privacy. It's what sort of privacy",
-      "link": "https://www.coindesk.com/opinion/2026/04/22/the-question-isn-t-whether-privacy-it-s-what-sort-of-privacy",
-      "pub_date": "Wed, 22 Apr 2026 18:30:00 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitcoin weekly close in focus after BTC price fails to revisit $80K",
-      "link": "https://cointelegraph.com/markets/bitcoin-weekly-close-in-focus-after-btc-price-fails-to-revisit-80k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Thu, 23 Apr 2026 15:26:33 +0000",
+      "title": "South Africa draft bill would tighten crypto capital controls",
+      "link": "https://cointelegraph.com/news/south-africa-draft-bill-tighten-crypto-capital-controls?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Fri, 24 Apr 2026 15:20:19 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Spain seizes crypto cold wallets in illegal manga piracy raid",
-      "link": "https://cointelegraph.com/news/spain-seizes-crypto-cold-wallets-manga-piracy?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Thu, 23 Apr 2026 15:04:28 +0000",
+      "title": "Strategy stock beats Bitcoin after rising 25% in a month: BTC bottom in?",
+      "link": "https://cointelegraph.com/markets/strategy-mstr-beats-bitcoin-rising-25percent-month-btc-bottom-in?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Fri, 24 Apr 2026 14:50:39 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "FTX estate misses out on $3B Cursor stake value after $200K sale in 2023",
-      "link": "https://cointelegraph.com/news/ftx-estate-misses-3b-cursor-stake-value-200k-sale-2023?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Thu, 23 Apr 2026 14:33:13 +0000",
+      "title": "China\u2019s new online marketing rules tighten ban on crypto promotions",
+      "link": "https://cointelegraph.com/news/china-s-new-online-marketing-rules-tighten-ban-on-crypto-promotions?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Fri, 24 Apr 2026 14:26:50 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "OKX accelerates US push with BitGo off-exchange settlement",
-      "link": "https://cointelegraph.com/news/okx-accelerates-us-push-with-bitgo-off-exchange-settlement?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Thu, 23 Apr 2026 13:51:26 +0000",
+      "title": "ECB signs standards deals to cut digital euro integration costs",
+      "link": "https://cointelegraph.com/news/ecb-seeks-lower-digital-euro-adoption-costs-as-banks-face-multibillion-euro-burden?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Fri, 24 Apr 2026 14:23:23 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Kelp DAO exploiter launders nearly all 75,700 in stolen ETH through THORchain",
-      "link": "https://cointelegraph.com/news/kelp-dao-hacker-launders-75-700-eth-thorchain?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Thu, 23 Apr 2026 13:17:53 +0000",
+      "title": "Zondacrypto CEO goes off radar as Poland probe deepens",
+      "link": "https://cointelegraph.com/news/zonda-crypto-ceo-vanish-prosecutor-probe-poland?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Fri, 24 Apr 2026 13:33:50 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Andre Cronje\u2019s Flying Tulip adds withdrawal circuit breaker as DeFi exploits mount",
-      "link": "https://cointelegraph.com/news/flying-tulip-withdrawal-circuit-breaker-defi-hacks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Thu, 23 Apr 2026 12:34:58 +0000",
+      "title": "Wisconsin sues Kalshi, Polymarket, others over sports event contracts",
+      "link": "https://cointelegraph.com/news/wisconsin-sues-kalshi-polymarket-others-over-sports-event-contracts?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Fri, 24 Apr 2026 12:15:49 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "BlackRock drives 7-day Bitcoin ETF inflow streak as BTC nears $80,000",
-      "link": "https://cointelegraph.com/news/bitcoin-etf-1-9-billiow-7-day-inflow-streak-btc-near-80k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Thu, 23 Apr 2026 11:55:43 +0000",
+      "title": "XRP price risks 40% decline versus Bitcoin despite 9-day ETF inflow streak",
+      "link": "https://cointelegraph.com/markets/xrp-price-risks-40-decline-versus-bitcoin-despite-9-day-etf-inflow-streak?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Fri, 24 Apr 2026 11:55:11 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "MetaMask co-founder Dan Finlay leaves Consensys after 10 years",
-      "link": "https://cointelegraph.com/news/metamask-dan-finlay-steps-down-after-decade?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Thu, 23 Apr 2026 11:46:06 +0000",
+      "title": "Bitcoin price set for best gains since Q4 2024 with $77.5K monthly close",
+      "link": "https://cointelegraph.com/markets/bitcoin-price-set-for-best-gains-since-q4-2024-with-77-5k-monthly-close?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Fri, 24 Apr 2026 11:51:45 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Eric Trump, Michael Saylor, and Anatoly Yakovenko headline Consensus Miami 2026 as crypto's biggest stage returns",
-      "link": "https://cointelegraph.com/press-releases/eric-trump-michael-saylor-and-anatoly-yakovenko-headline-consensus-miami-2026-as-crypto-s-biggest-stage-returns?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Thu, 23 Apr 2026 11:44:22 +0000",
+      "title": "Succinct launches iPhone app to cryptographically verify photos",
+      "link": "https://cointelegraph.com/news/zk-firm-succinct-targets-ai-fakes-with-cryptographically-signed-camera-app?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Fri, 24 Apr 2026 11:44:11 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin buyers show \u2018renewed conviction\u2019 with BTC price push toward $79K",
-      "link": "https://cointelegraph.com/markets/bitcoin-buyers-renewed-conviction-btc-price-push-toward-79k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Thu, 23 Apr 2026 11:16:01 +0000",
+      "title": "Metaplanet raises $50M in zero-interest bonds to buy more Bitcoin",
+      "link": "https://cointelegraph.com/news/metaplanet-issues-50-million-in-zero-coupon-bonds-to-buy-more-bitcoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Fri, 24 Apr 2026 11:33:22 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Polymarket traders win $37K after Paris weather data glitch, raising suspicion",
-      "link": "https://cointelegraph.com/news/suspicion-rises-after-polymarket-traders-win-37k-on-paris-weather-data-glitch?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Thu, 23 Apr 2026 08:23:22 +0000",
+      "title": "White House confirms Trump to address memecoin gala on Saturday",
+      "link": "https://cointelegraph.com/news/trump-to-address-memecoin-event-after-speculation-of-no-show?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Fri, 24 Apr 2026 07:17:14 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Crypto sentiment index soars to a 3-month high as Bitcoin holds $77K",
-      "link": "https://cointelegraph.com/news/crypto-market-sentiment-hits-3-month-high?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Thu, 23 Apr 2026 07:07:11 +0000",
+      "title": "US DOJ strike force 'restrains' $701M in crypto in ongoing scam crackdown",
+      "link": "https://cointelegraph.com/news/us-scam-center-task-force-restrains-crypto-in-southeast-asia-crackdown?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Fri, 24 Apr 2026 07:15:03 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Apple fixes bug that allowed FBI to read deleted Signal messages",
-      "link": "https://cointelegraph.com/news/apple-fixes-bug-fbi-read-encrypted-messages-signal-via-notifications?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Thu, 23 Apr 2026 07:05:30 +0000",
+      "title": "Morgan Stanley launches stablecoin offering through money market fund",
+      "link": "https://cointelegraph.com/news/morgan-stanley-launches-stablecoin-offering-through-money-market-fund?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Fri, 24 Apr 2026 06:17:07 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Blockchain Capital is raising $700M for 2 new funds: Report",
-      "link": "https://cointelegraph.com/news/blockchain-capital-raises-700-million-crypto-funds?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Thu, 23 Apr 2026 06:54:02 +0000",
+      "title": "US vows to fight \u2018industrial scale\u2019 AI theft by Chinese firms",
+      "link": "https://cointelegraph.com/news/us-government-reveals-plan-counter-foreign-ai-distillation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Fri, 24 Apr 2026 06:05:37 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Ether taker volume rises by 72% as traders target ETH liquidity gap at $2.6K",
-      "link": "https://cointelegraph.com/markets/ether-taker-volume-rises-by-72percent-as-traders-target-eth-liquidity-gap-at-dollar2-6k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Thu, 23 Apr 2026 05:47:21 +0000",
+      "title": "Jane Street asks US court to toss Terraform\u2019s insider trading suit",
+      "link": "https://cointelegraph.com/news/jane-street-seeks-dismissal-of-terraforms-insider-trading-suit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Fri, 24 Apr 2026 05:39:25 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     }
