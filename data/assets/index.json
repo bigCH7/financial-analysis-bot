@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-24T16:12:16.568248+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-04-24 16:04 UTC_",
+  "generated_at": "2026-04-25T15:46:52.875775+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-04-25 15:38 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,13 +9,13 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 77893.0,
+        "current_usd": 77695.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": 0.99,
-        "change_30d_pct": 9.23
+        "change_7d_pct": 2.6,
+        "change_30d_pct": 12.94
       },
       "indicators": {
-        "trend": "UPTREND",
+        "trend": "DOWNTREND",
         "momentum": "WEAK",
         "volatility": "NORMAL"
       },
@@ -23,9 +23,9 @@
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
         "summary_line": "Fair - Weak growth profile - Elevated regulatory risk.",
-        "score": 56.7
+        "score": 51.8
       },
-      "updated_at": "2026-04-24T16:12:16.565991+00:00",
+      "updated_at": "2026-04-25T15:46:52.873417+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,10 +37,10 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 2320.0,
+        "current_usd": 2318.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": -4.19,
-        "change_30d_pct": 6.98
+        "change_7d_pct": -1.41,
+        "change_30d_pct": 12.55
       },
       "indicators": {
         "trend": "DOWNTREND",
@@ -50,10 +50,10 @@
       "valuation": {
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
-        "summary_line": "Fair - Balanced growth profile - Elevated regulatory risk.",
-        "score": 55.0
+        "summary_line": "Fair - Weak growth profile - Elevated regulatory risk.",
+        "score": 47.3
       },
-      "updated_at": "2026-04-24T16:12:16.566776+00:00",
+      "updated_at": "2026-04-25T15:46:52.874227+00:00",
       "source": {
         "short_term": "live"
       }
@@ -65,8 +65,8 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=spy",
       "price": {
-        "current_usd": 713.91,
-        "change_24h_pct": 0.44460077383046137,
+        "current_usd": 713.94,
+        "change_24h_pct": 0.44882166725290773,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-04-24T16:12:16.567064+00:00",
+      "updated_at": "2026-04-25T15:46:52.874514+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -93,8 +93,8 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=qqq",
       "price": {
-        "current_usd": 662.9,
-        "change_24h_pct": 0.6666565428011806,
+        "current_usd": 663.88,
+        "change_24h_pct": 0.8154773655677294,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-04-24T16:12:16.567312+00:00",
+      "updated_at": "2026-04-25T15:46:52.874757+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -121,8 +121,8 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=nvda",
       "price": {
-        "current_usd": 209.09,
-        "change_24h_pct": 4.565913182636527,
+        "current_usd": 208.27,
+        "change_24h_pct": 4.155831166233237,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-04-24T16:12:16.567541+00:00",
+      "updated_at": "2026-04-25T15:46:52.875045+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -149,8 +149,8 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=gold",
       "price": {
-        "current_usd": 4722.575,
-        "change_24h_pct": 0.4718752360173939,
+        "current_usd": 4717.605,
+        "change_24h_pct": 0.36613944147245725,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-04-24T16:12:16.567799+00:00",
+      "updated_at": "2026-04-25T15:46:52.875287+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -177,8 +177,8 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=oil",
       "price": {
-        "current_usd": 93.82,
-        "change_24h_pct": -3.0083738240463287,
+        "current_usd": 94.4,
+        "change_24h_pct": -2.2976609397640235,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
@@ -193,7 +193,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-04-24T16:12:16.568031+00:00",
+      "updated_at": "2026-04-25T15:46:52.875513+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -201,72 +201,72 @@
   ],
   "overview_news": [
     {
-      "title": "Jane Street asks court to reject Terraform claims tied to UST-LUNA crash",
-      "url": "https://www.coindesk.com/policy/2026/04/24/jane-street-asks-court-to-reject-terraform-claims-tied-to-ust-luna-crash",
-      "published_at": "Fri, 24 Apr 2026 15:53:44 +0000",
+      "title": "Mike Tyson, Tether CEO, Cathie Wood among speakers at Trump's 'most exclusive' crypto conference",
+      "url": "https://www.coindesk.com/policy/2026/04/25/mike-tyson-tether-ceo-cathie-wood-among-speakers-at-trump-s-most-exclusive-crypto-conference",
+      "published_at": "Sat, 25 Apr 2026 15:24:31 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bitmine to buy 10,000 ether for $23.9 million from the Ethereum Foundation",
-      "url": "https://www.coindesk.com/business/2026/04/24/bitmine-to-buy-10-000-ether-for-usd23-8-million-from-the-ethereum-foundation",
-      "published_at": "Fri, 24 Apr 2026 15:47:48 +0000",
+      "title": "Bitcoin at $40,000 would be 'near-unprecedented' statistical outcome, analyst says",
+      "url": "https://www.coindesk.com/markets/2026/04/25/bitcoin-at-usd40-000-would-be-near-unprecedented-statistical-outcome-analyst-says",
+      "published_at": "Sat, 25 Apr 2026 15:00:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Researcher wins 1 bitcoin bounty for 'largest quantum attack' on underlying tech",
-      "url": "https://www.coindesk.com/tech/2026/04/24/researcher-wins-1-bitcoin-bounty-for-largest-quantum-attack-on-underlying-tech",
-      "published_at": "Fri, 24 Apr 2026 15:14:31 +0000",
+      "title": "Europe\u2019s banks are going all in on crypto",
+      "url": "https://www.coindesk.com/opinion/2026/04/25/europe-s-banks-are-going-all-in-on-crypto",
+      "published_at": "Sat, 25 Apr 2026 13:30:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "CoinDesk 20 performance update: Aptos (APT) gains 3.5%, leading index higher",
-      "url": "https://www.coindesk.com/coindesk-indices/2026/04/24/coindesk-20-performance-update-aptos-apt-gains-3-5-leading-index-higher",
-      "published_at": "Fri, 24 Apr 2026 13:19:20 +0000",
+      "title": "Coinbase\u2019s Jesse Pollak says AI agents are the next big wave for crypto payments",
+      "url": "https://www.coindesk.com/tech/2026/04/25/coinbase-s-jesse-pollak-says-ai-agents-are-the-next-big-wave-for-crypto-payments",
+      "published_at": "Sat, 25 Apr 2026 13:00:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin, dollar move in near-perfect opposition. It hasn't been this extreme in almost 4 years.",
-      "url": "https://www.coindesk.com/daybook-us/2026/04/24/bitcoin-dollar-move-in-near-perfect-opposition-it-hasn-t-been-this-extreme-in-almost-4-years",
-      "published_at": "Fri, 24 Apr 2026 11:17:56 +0000",
+      "title": "Clock is ticking for bitcoin to prevent quantum threat as it could drain 6.9 million BTC including Satoshi\u2019s",
+      "url": "https://www.coindesk.com/tech/2026/04/25/clock-is-ticking-for-bitcoin-to-prevent-quantum-threat-as-it-could-drain-6-9-million-btc-including-satoshi-s",
+      "published_at": "Sat, 25 Apr 2026 10:00:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin stalls below at $77,500 as volatility cools, traders unwind leverage",
-      "url": "https://www.coindesk.com/markets/2026/04/24/bitcoin-stalls-below-at-usd77-500-as-volatility-cools-traders-unwind-leverage",
-      "published_at": "Fri, 24 Apr 2026 10:40:26 +0000",
+      "title": "Ripple-linked XRP stalls near $1.44 as 'triangle squeeze' nears breakout",
+      "url": "https://www.coindesk.com/markets/2026/04/25/ripple-linked-xrp-stalls-near-usd1-44-as-triangle-squeeze-nears-breakout",
+      "published_at": "Sat, 25 Apr 2026 05:33:20 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Michael Saylor says the bitcoin winter is over. Some experts agree, with caveats.",
-      "url": "https://www.coindesk.com/markets/2026/04/23/michael-saylor-says-the-bitcoin-winter-is-over-some-experts-agree-with-caveats",
-      "published_at": "Fri, 24 Apr 2026 10:03:36 +0000",
+      "title": "U.S. CFTC adds New York to string of states its suing to stop prediction market pushback",
+      "url": "https://www.coindesk.com/policy/2026/04/24/u-s-cftc-adds-new-york-to-string-of-states-its-suing-to-stop-prediction-market-pushback",
+      "published_at": "Fri, 24 Apr 2026 22:09:13 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "India pushes e-rupee through welfare pilots as BRICS digital currency plan takes shape",
-      "url": "https://www.coindesk.com/policy/2026/04/24/india-pushes-digital-rupee-through-welfare-pilots-as-brics-cbdc-plan-takes-shape",
-      "published_at": "Fri, 24 Apr 2026 09:25:07 +0000",
+      "title": "Bitcoin is on track for its best month in a year. $5 billion USDT growth fuels the rebound",
+      "url": "https://www.coindesk.com/markets/2026/04/24/bitcoin-is-on-track-for-its-best-month-in-a-year-usd5-billion-usdt-growth-fuels-the-rebound",
+      "published_at": "Fri, 24 Apr 2026 21:04:46 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "U.S. government sits on $26.5 billion gain from Intel stake, as shares surge 22%",
-      "url": "https://www.coindesk.com/markets/2026/04/24/u-s-government-sits-on-usd26-5-billion-gain-from-intel-stake-as-shares-surge-22",
-      "published_at": "Fri, 24 Apr 2026 09:05:15 +0000",
+      "title": "Tether's $344 million USDT freeze linked to U.S. 'Economic Fury' against Iran regime",
+      "url": "https://www.coindesk.com/policy/2026/04/24/tether-s-usd344-million-usdt-freeze-linked-to-u-s-economic-fury-against-iran-regime",
+      "published_at": "Fri, 24 Apr 2026 19:50:07 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin-holder Metaplanet raises $50 million to buy more BTC",
-      "url": "https://www.coindesk.com/markets/2026/04/24/bitcoin-holder-metaplanet-raises-usd50-million-in-zero-interest-bonds-to-buy-more-btc",
-      "published_at": "Fri, 24 Apr 2026 08:02:38 +0000",
+      "title": "Trump's DOJ drops probe that stood in way of president's pick to run Federal Reserve",
+      "url": "https://www.coindesk.com/news-analysis/2026/04/24/trump-s-doj-drops-probe-that-stood-in-way-of-president-s-pick-to-run-federal-reserve",
+      "published_at": "Fri, 24 Apr 2026 16:38:39 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
