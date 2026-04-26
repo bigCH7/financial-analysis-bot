@@ -1,7 +1,84 @@
 {
-  "generated_at": "2026-04-25 15:45 UTC",
+  "generated_at": "2026-04-26 15:47 UTC",
   "count": 55,
   "items": [
+    {
+      "title": "Bitcoin whales build long positions as funding stays deeply negative",
+      "link": "https://www.coindesk.com/markets/2026/04/26/bitcoin-whales-build-long-positions-as-funding-stays-deeply-negative",
+      "pub_date": "Sun, 26 Apr 2026 14:13:42 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Freezing 5.6 million dormant bitcoin could trigger \u2018worst\u2019 single-day repricing",
+      "link": "https://www.coindesk.com/business/2026/04/26/freezing-5-6-million-dormant-bitcoin-could-trigger-worst-single-day-repricing",
+      "pub_date": "Sun, 26 Apr 2026 14:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Only 3% of traders drive prediction markets' accuracy, not the crowd, study finds",
+      "link": "https://www.coindesk.com/markets/2026/04/26/only-3-of-traders-drive-prediction-markets-accuracy-not-the-crowd-study-finds",
+      "pub_date": "Sun, 26 Apr 2026 13:47:50 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "MiCA's not enough: Bybit CEO says firms need other licenses to turn a profit in Europe",
+      "link": "https://www.coindesk.com/policy/2026/04/26/mica-s-not-enough-bybit-ceo-says-firms-need-other-licenses-to-turn-a-profit-in-europe",
+      "pub_date": "Sun, 26 Apr 2026 13:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Coinbase's John D\u2019Agostino says crypto platform stands alone as industry's full-service prime broker",
+      "link": "https://www.coindesk.com/business/2026/04/21/coinbase-s-john-d-agostino-says-exchange-stands-alone-as-crypto-s-full-service-prime-broker",
+      "pub_date": "Sun, 26 Apr 2026 12:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Litecoin hit by denial-of-service attack, rewrites 13 blocks to reverse effect",
+      "link": "https://www.coindesk.com/markets/2026/04/26/litecoin-says-its-13-block-reorg-was-not-a-zero-day-but-github-commit-history-shows-otherwise",
+      "pub_date": "Sun, 26 Apr 2026 08:34:37 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Crypto is built for AI agents, not humans, says Alchemy's CEO",
+      "link": "https://www.coindesk.com/tech/2026/04/25/crypto-is-built-for-ai-agents-not-humans-says-alchemy-s-ceo",
+      "pub_date": "Sat, 25 Apr 2026 19:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Trump defends crypto legislation at private event featuring boxer Mike Tyson, Tether CEO",
+      "link": "https://www.coindesk.com/policy/2026/04/25/trump-defends-crypto-legislation-at-private-event-featuring-boxer-mike-tyson-tether-ceo",
+      "pub_date": "Sat, 25 Apr 2026 18:53:48 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "BlackRock\u2019s bitcoin ETF just hit a massive milestone that proves crypto is now a mainstream bet",
+      "link": "https://www.coindesk.com/markets/2026/04/25/blackrock-s-bitcoin-etf-just-hit-a-massive-milestone-that-proves-crypto-is-now-a-mainstream-bet",
+      "pub_date": "Sat, 25 Apr 2026 18:29:20 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "How Anthropic\u2019s Mythos model is forcing the crypto industry to rethink everything about security",
+      "link": "https://www.coindesk.com/tech/2026/04/25/how-anthropic-s-mythos-model-is-forcing-the-crypto-industry-to-rethink-everything-about-security",
+      "pub_date": "Sat, 25 Apr 2026 17:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Bitcoin falls after Trump reportedly canceled Steve Witkoff and Jared Kushner's Iran-talks trip",
+      "link": "https://www.coindesk.com/markets/2026/04/25/bitcoin-falls-after-trump-reportedly-canceled-steve-witkoff-and-jared-kushner-s-iran-talks-trip",
+      "pub_date": "Sat, 25 Apr 2026 16:20:02 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
     {
       "title": "Mike Tyson, Tether CEO, Cathie Wood among speakers at Trump's 'most exclusive' crypto conference",
       "link": "https://www.coindesk.com/policy/2026/04/25/mike-tyson-tether-ceo-cathie-wood-among-speakers-at-trump-s-most-exclusive-crypto-conference",
@@ -101,86 +178,44 @@
       "fetch_source": "live"
     },
     {
-      "title": "CoinDesk 20 performance update: Aptos (APT) gains 3.5%, leading index higher",
-      "link": "https://www.coindesk.com/coindesk-indices/2026/04/24/coindesk-20-performance-update-aptos-apt-gains-3-5-leading-index-higher",
-      "pub_date": "Fri, 24 Apr 2026 13:19:20 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitcoin, dollar move in near-perfect opposition. It hasn't been this extreme in almost 4 years.",
-      "link": "https://www.coindesk.com/daybook-us/2026/04/24/bitcoin-dollar-move-in-near-perfect-opposition-it-hasn-t-been-this-extreme-in-almost-4-years",
-      "pub_date": "Fri, 24 Apr 2026 11:17:56 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitcoin stalls below at $77,500 as volatility cools, traders unwind leverage",
-      "link": "https://www.coindesk.com/markets/2026/04/24/bitcoin-stalls-below-at-usd77-500-as-volatility-cools-traders-unwind-leverage",
-      "pub_date": "Fri, 24 Apr 2026 10:40:26 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Michael Saylor says the bitcoin winter is over. Some experts agree, with caveats.",
-      "link": "https://www.coindesk.com/markets/2026/04/23/michael-saylor-says-the-bitcoin-winter-is-over-some-experts-agree-with-caveats",
-      "pub_date": "Fri, 24 Apr 2026 10:03:36 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "India pushes e-rupee through welfare pilots as BRICS digital currency plan takes shape",
-      "link": "https://www.coindesk.com/policy/2026/04/24/india-pushes-digital-rupee-through-welfare-pilots-as-brics-cbdc-plan-takes-shape",
-      "pub_date": "Fri, 24 Apr 2026 09:25:07 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "U.S. government sits on $26.5 billion gain from Intel stake, as shares surge 22%",
-      "link": "https://www.coindesk.com/markets/2026/04/24/u-s-government-sits-on-usd26-5-billion-gain-from-intel-stake-as-shares-surge-22",
-      "pub_date": "Fri, 24 Apr 2026 09:05:15 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitcoin-holder Metaplanet raises $50 million to buy more BTC",
-      "link": "https://www.coindesk.com/markets/2026/04/24/bitcoin-holder-metaplanet-raises-usd50-million-in-zero-interest-bonds-to-buy-more-btc",
-      "pub_date": "Fri, 24 Apr 2026 08:02:38 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Morgan Stanley is positioning itself as the reserve manager for the stablecoin industry",
-      "link": "https://www.coindesk.com/markets/2026/04/24/morgan-stanley-is-positioning-itself-as-the-reserve-manager-for-the-stablecoin-industry",
-      "pub_date": "Fri, 24 Apr 2026 06:39:39 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitcoin ETFs just pulled in $2 billion in 8 days while short-term holders quietly started selling",
-      "link": "https://www.coindesk.com/markets/2026/04/24/bitcoin-etfs-just-pulled-usd2-billion-in-8-days-while-short-term-holders-quietly-started-selling",
-      "pub_date": "Fri, 24 Apr 2026 06:07:38 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitcoin rally is stalling as Japanese inflation adds to Iran war\u2013driven market jitters",
-      "link": "https://www.coindesk.com/markets/2026/04/24/bitcoin-rally-is-stalling-as-japan-macro-adds-to-iran-war-driven-market-jitters",
-      "pub_date": "Fri, 24 Apr 2026 05:01:29 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Wisconsin joins prediction market fight, suing Kalshi, Coinbase, Polymarket, Robinhood and Crypto.com",
-      "link": "https://www.coindesk.com/policy/2026/04/24/wisconsin-joins-prediction-market-fight-suing-kalshi-coinbase-polymarket-robinhood-and-crypto-com",
-      "pub_date": "Fri, 24 Apr 2026 04:47:21 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
       "title": "Here\u2019s what happened in crypto today",
       "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Sat, 25 Apr 2026 14:38:50 +0000",
+      "pub_date": "Sun, 26 Apr 2026 13:55:39 +0000",
+      "source": "Cointelegraph",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Market conditions force 1 in 3 crypto traders to cut everyday spending: Survey",
+      "link": "https://cointelegraph.com/news/market-conditions-force-1-in-3-crypto-traders-to-cut-everyday-spending-survey?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sun, 26 Apr 2026 13:48:35 +0000",
+      "source": "Cointelegraph",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Ethereum Foundation unstakes 17K ETH after nearing 70K staked ETH milestone",
+      "link": "https://cointelegraph.com/news/ethereum-foundation-unstakes-17k-eth-after-nearing-70k-staked-eth-milestone?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sun, 26 Apr 2026 11:55:32 +0000",
+      "source": "Cointelegraph",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Trump\u2019s official memecoin extends slide as he hosts exclusive investor gala",
+      "link": "https://cointelegraph.com/news/trump-s-official-memecoin-extends-slide-even-as-he-hosts-exclusive-investor-gala?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sun, 26 Apr 2026 08:58:23 +0000",
+      "source": "Cointelegraph",
+      "fetch_source": "live"
+    },
+    {
+      "title": "US DOJ sentences man to 70 months in prison for role in $263M scam group",
+      "link": "https://cointelegraph.com/news/doj-sentence-70-months-263m-crypto-scam?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sat, 25 Apr 2026 22:05:44 +0000",
+      "source": "Cointelegraph",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Bitcoiners cast doubt on the US military's understanding of the network",
+      "link": "https://cointelegraph.com/news/bitcoiners-cast-doubt-us-military-bitcoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sat, 25 Apr 2026 19:36:29 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
@@ -244,41 +279,6 @@
       "title": "Top memecoin holders expected to attend Trump luncheon",
       "link": "https://cointelegraph.com/news/tron-justin-sun-donald-trump-memecoin-lunch?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "pub_date": "Fri, 24 Apr 2026 21:17:45 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Aurelion allocates $48M in tokenized gold to newly launched yield protocol",
-      "link": "https://cointelegraph.com/news/aurelion-allocates-48m-in-tokenized-gold-to-newly-launched-xaue-yield-protocol?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 24 Apr 2026 20:40:02 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Quantum computer breaks 15-bit elliptic curve cryptographic key",
-      "link": "https://cointelegraph.com/news/quantum-computer-bit-elliptic-curve-key?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 24 Apr 2026 18:53:58 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Crypto PAC Fellowship halts support of Texas AG for Senate: Report",
-      "link": "https://cointelegraph.com/news/crypto-pac-fellowship-ads-texas-senate-race?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 24 Apr 2026 18:03:20 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Crypto Biz: Same players, bigger bets as crypto eyes a rebound",
-      "link": "https://cointelegraph.com/news/crypto-biz-same-players-bigger-bets-as-crypto-eyes-a-rebound?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 24 Apr 2026 17:06:39 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitcoin stays 'stalled' at $78K as oil threatens new risk-asset squeeze",
-      "link": "https://cointelegraph.com/markets/bitcoin-stays-stalled-at-78k-as-oil-threatens-new-risk-asset-squeeze?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 24 Apr 2026 16:55:44 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     }

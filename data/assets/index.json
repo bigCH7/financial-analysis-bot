@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-25T15:46:52.875775+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-04-25 15:38 UTC_",
+  "generated_at": "2026-04-26T15:48:38.154805+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-04-26 15:41 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,13 +9,13 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 77695.0,
+        "current_usd": 78038.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": 2.6,
-        "change_30d_pct": 12.94
+        "change_7d_pct": 5.66,
+        "change_30d_pct": 17.67
       },
       "indicators": {
-        "trend": "DOWNTREND",
+        "trend": "UPTREND",
         "momentum": "WEAK",
         "volatility": "NORMAL"
       },
@@ -23,9 +23,9 @@
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
         "summary_line": "Fair - Weak growth profile - Elevated regulatory risk.",
-        "score": 51.8
+        "score": 50.8
       },
-      "updated_at": "2026-04-25T15:46:52.873417+00:00",
+      "updated_at": "2026-04-26T15:48:38.152573+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,13 +37,13 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 2318.0,
+        "current_usd": 2345.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": -1.41,
-        "change_30d_pct": 12.55
+        "change_7d_pct": 3.56,
+        "change_30d_pct": 17.75
       },
       "indicators": {
-        "trend": "DOWNTREND",
+        "trend": "UPTREND",
         "momentum": "WEAK",
         "volatility": "NORMAL"
       },
@@ -51,9 +51,9 @@
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
         "summary_line": "Fair - Weak growth profile - Elevated regulatory risk.",
-        "score": 47.3
+        "score": 48.7
       },
-      "updated_at": "2026-04-25T15:46:52.874227+00:00",
+      "updated_at": "2026-04-26T15:48:38.153318+00:00",
       "source": {
         "short_term": "live"
       }
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-04-25T15:46:52.874514+00:00",
+      "updated_at": "2026-04-26T15:48:38.153640+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-04-25T15:46:52.874757+00:00",
+      "updated_at": "2026-04-26T15:48:38.153909+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-04-25T15:46:52.875045+00:00",
+      "updated_at": "2026-04-26T15:48:38.154126+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-04-25T15:46:52.875287+00:00",
+      "updated_at": "2026-04-26T15:48:38.154332+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -193,7 +193,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-04-25T15:46:52.875513+00:00",
+      "updated_at": "2026-04-26T15:48:38.154557+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -201,72 +201,72 @@
   ],
   "overview_news": [
     {
-      "title": "Mike Tyson, Tether CEO, Cathie Wood among speakers at Trump's 'most exclusive' crypto conference",
-      "url": "https://www.coindesk.com/policy/2026/04/25/mike-tyson-tether-ceo-cathie-wood-among-speakers-at-trump-s-most-exclusive-crypto-conference",
-      "published_at": "Sat, 25 Apr 2026 15:24:31 +0000",
+      "title": "Bitcoin whales build long positions as funding stays deeply negative",
+      "url": "https://www.coindesk.com/markets/2026/04/26/bitcoin-whales-build-long-positions-as-funding-stays-deeply-negative",
+      "published_at": "Sun, 26 Apr 2026 14:13:42 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin at $40,000 would be 'near-unprecedented' statistical outcome, analyst says",
-      "url": "https://www.coindesk.com/markets/2026/04/25/bitcoin-at-usd40-000-would-be-near-unprecedented-statistical-outcome-analyst-says",
-      "published_at": "Sat, 25 Apr 2026 15:00:00 +0000",
+      "title": "Freezing 5.6 million dormant bitcoin could trigger \u2018worst\u2019 single-day repricing",
+      "url": "https://www.coindesk.com/business/2026/04/26/freezing-5-6-million-dormant-bitcoin-could-trigger-worst-single-day-repricing",
+      "published_at": "Sun, 26 Apr 2026 14:00:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Europe\u2019s banks are going all in on crypto",
-      "url": "https://www.coindesk.com/opinion/2026/04/25/europe-s-banks-are-going-all-in-on-crypto",
-      "published_at": "Sat, 25 Apr 2026 13:30:00 +0000",
+      "title": "Only 3% of traders drive prediction markets' accuracy, not the crowd, study finds",
+      "url": "https://www.coindesk.com/markets/2026/04/26/only-3-of-traders-drive-prediction-markets-accuracy-not-the-crowd-study-finds",
+      "published_at": "Sun, 26 Apr 2026 13:47:50 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Coinbase\u2019s Jesse Pollak says AI agents are the next big wave for crypto payments",
-      "url": "https://www.coindesk.com/tech/2026/04/25/coinbase-s-jesse-pollak-says-ai-agents-are-the-next-big-wave-for-crypto-payments",
-      "published_at": "Sat, 25 Apr 2026 13:00:00 +0000",
+      "title": "MiCA's not enough: Bybit CEO says firms need other licenses to turn a profit in Europe",
+      "url": "https://www.coindesk.com/policy/2026/04/26/mica-s-not-enough-bybit-ceo-says-firms-need-other-licenses-to-turn-a-profit-in-europe",
+      "published_at": "Sun, 26 Apr 2026 13:00:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Clock is ticking for bitcoin to prevent quantum threat as it could drain 6.9 million BTC including Satoshi\u2019s",
-      "url": "https://www.coindesk.com/tech/2026/04/25/clock-is-ticking-for-bitcoin-to-prevent-quantum-threat-as-it-could-drain-6-9-million-btc-including-satoshi-s",
-      "published_at": "Sat, 25 Apr 2026 10:00:00 +0000",
+      "title": "Coinbase's John D\u2019Agostino says crypto platform stands alone as industry's full-service prime broker",
+      "url": "https://www.coindesk.com/business/2026/04/21/coinbase-s-john-d-agostino-says-exchange-stands-alone-as-crypto-s-full-service-prime-broker",
+      "published_at": "Sun, 26 Apr 2026 12:00:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Ripple-linked XRP stalls near $1.44 as 'triangle squeeze' nears breakout",
-      "url": "https://www.coindesk.com/markets/2026/04/25/ripple-linked-xrp-stalls-near-usd1-44-as-triangle-squeeze-nears-breakout",
-      "published_at": "Sat, 25 Apr 2026 05:33:20 +0000",
+      "title": "Litecoin hit by denial-of-service attack, rewrites 13 blocks to reverse effect",
+      "url": "https://www.coindesk.com/markets/2026/04/26/litecoin-says-its-13-block-reorg-was-not-a-zero-day-but-github-commit-history-shows-otherwise",
+      "published_at": "Sun, 26 Apr 2026 08:34:37 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "U.S. CFTC adds New York to string of states its suing to stop prediction market pushback",
-      "url": "https://www.coindesk.com/policy/2026/04/24/u-s-cftc-adds-new-york-to-string-of-states-its-suing-to-stop-prediction-market-pushback",
-      "published_at": "Fri, 24 Apr 2026 22:09:13 +0000",
+      "title": "Crypto is built for AI agents, not humans, says Alchemy's CEO",
+      "url": "https://www.coindesk.com/tech/2026/04/25/crypto-is-built-for-ai-agents-not-humans-says-alchemy-s-ceo",
+      "published_at": "Sat, 25 Apr 2026 19:00:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin is on track for its best month in a year. $5 billion USDT growth fuels the rebound",
-      "url": "https://www.coindesk.com/markets/2026/04/24/bitcoin-is-on-track-for-its-best-month-in-a-year-usd5-billion-usdt-growth-fuels-the-rebound",
-      "published_at": "Fri, 24 Apr 2026 21:04:46 +0000",
+      "title": "Trump defends crypto legislation at private event featuring boxer Mike Tyson, Tether CEO",
+      "url": "https://www.coindesk.com/policy/2026/04/25/trump-defends-crypto-legislation-at-private-event-featuring-boxer-mike-tyson-tether-ceo",
+      "published_at": "Sat, 25 Apr 2026 18:53:48 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Tether's $344 million USDT freeze linked to U.S. 'Economic Fury' against Iran regime",
-      "url": "https://www.coindesk.com/policy/2026/04/24/tether-s-usd344-million-usdt-freeze-linked-to-u-s-economic-fury-against-iran-regime",
-      "published_at": "Fri, 24 Apr 2026 19:50:07 +0000",
+      "title": "BlackRock\u2019s bitcoin ETF just hit a massive milestone that proves crypto is now a mainstream bet",
+      "url": "https://www.coindesk.com/markets/2026/04/25/blackrock-s-bitcoin-etf-just-hit-a-massive-milestone-that-proves-crypto-is-now-a-mainstream-bet",
+      "published_at": "Sat, 25 Apr 2026 18:29:20 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Trump's DOJ drops probe that stood in way of president's pick to run Federal Reserve",
-      "url": "https://www.coindesk.com/news-analysis/2026/04/24/trump-s-doj-drops-probe-that-stood-in-way-of-president-s-pick-to-run-federal-reserve",
-      "published_at": "Fri, 24 Apr 2026 16:38:39 +0000",
+      "title": "How Anthropic\u2019s Mythos model is forcing the crypto industry to rethink everything about security",
+      "url": "https://www.coindesk.com/tech/2026/04/25/how-anthropic-s-mythos-model-is-forcing-the-crypto-industry-to-rethink-everything-about-security",
+      "published_at": "Sat, 25 Apr 2026 17:00:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
