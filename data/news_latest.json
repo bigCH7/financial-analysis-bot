@@ -1,7 +1,98 @@
 {
-  "generated_at": "2026-04-30 16:25 UTC",
+  "generated_at": "2026-05-01 16:04 UTC",
   "count": 55,
   "items": [
+    {
+      "title": "AI agent forms its own company, gets ready to trade crypto",
+      "link": "https://www.coindesk.com/tech/2026/05/01/ai-agent-forms-its-own-company-gets-ready-to-trade-crypto",
+      "pub_date": "Fri, 01 May 2026 15:37:15 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Bitcoin takes another aim at $80,000 as stocks rise, oil drops on Iran optimism",
+      "link": "https://www.coindesk.com/markets/2026/05/01/bitcoin-takes-another-aim-at-usd80-000-as-stocks-rise-oil-drops-on-iran-optimism",
+      "pub_date": "Fri, 01 May 2026 15:01:41 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Institutional demand to drive bitcoin market cap to $16 trillion by 2030: Ark Invest",
+      "link": "https://www.coindesk.com/markets/2026/05/01/institutional-demand-to-drive-bitcoin-market-cap-to-usd16-trillion-by-2030-ark-invest",
+      "pub_date": "Fri, 01 May 2026 13:31:53 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "CoinDesk 20 performance update: Bittensor (TAO) gains 5.5%, leading index higher",
+      "link": "https://www.coindesk.com/coindesk-indices/2026/05/01/coindesk-20-performance-update-bittensor-tao-gains-5-5-leading-index-higher",
+      "pub_date": "Fri, 01 May 2026 13:21:26 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Bitcoin bounces as big tech earnings fuel optimism; short-term pressures remain",
+      "link": "https://www.coindesk.com/daybook-us/2026/05/01/bitcoin-bounces-as-big-tech-earnings-fuel-optimism-short-term-pressures-remain",
+      "pub_date": "Fri, 01 May 2026 11:15:02 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "SBI Holdings eyes stake in crypto exchange Bitbank to build digital asset powerhouse",
+      "link": "https://www.coindesk.com/business/2026/05/01/sbi-holdings-continues-its-crypto-expansion-with-plans-for-a-stake-in-bitbank",
+      "pub_date": "Fri, 01 May 2026 11:11:32 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Bitcoin ticks higher, but remains range-bound as traders keep short bias",
+      "link": "https://www.coindesk.com/markets/2026/05/01/bitcoin-ticks-higher-but-remains-range-bound-as-traders-keep-short-bias",
+      "pub_date": "Fri, 01 May 2026 10:20:23 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Bitcoin edges above $77,000, but institutional activity suggests downside hedging",
+      "link": "https://www.coindesk.com/markets/2026/05/01/bitcoin-edges-above-usd77-000-but-institutional-activity-suggests-downside-hedging",
+      "pub_date": "Fri, 01 May 2026 09:25:49 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Bithumb scores a legal win in South Korea as six-month suspension is lifted by local judge",
+      "link": "https://www.coindesk.com/policy/2026/05/01/bithumb-scores-a-legal-win-in-south-korea-as-six-month-suspension-is-lifted-by-local-judge",
+      "pub_date": "Fri, 01 May 2026 07:41:24 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Strategy keeps STRC dividend at 11.5% as stock logs first monthly gain in nine",
+      "link": "https://www.coindesk.com/markets/2026/05/01/strategy-keeps-strc-dividend-at-11-5-as-stock-logs-first-monthly-gain-in-nine",
+      "pub_date": "Fri, 01 May 2026 07:01:47 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "U.S. senators won't be weighing in on prediction markets bets after banning themselves",
+      "link": "https://www.coindesk.com/policy/2026/04/30/u-s-senators-won-t-be-weighing-in-on-prediction-markets-bets-after-banning-themselves",
+      "pub_date": "Thu, 30 Apr 2026 22:13:13 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "From Cathie Wood to Cantor Fitzgerald, the big money is betting that Robinhood\u2019s crypto slump is just a temporary speed bump",
+      "link": "https://www.coindesk.com/markets/2026/04/30/from-cathie-wood-to-cantor-fitzgerald-the-big-money-is-betting-that-robinhood-s-crypto-slump-is-just-a-temporary-speed-bump",
+      "pub_date": "Thu, 30 Apr 2026 19:30:05 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Senator Warren questions Commerce Secretary Lutnick on Tether loan to family",
+      "link": "https://www.coindesk.com/policy/2026/04/30/senator-warren-questions-commerce-secretary-lutnick-on-tether-loan-to-family",
+      "pub_date": "Thu, 30 Apr 2026 17:06:21 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
     {
       "title": "A Polymarket-linked bet on the weather in France forecasts a major data issue",
       "link": "https://www.coindesk.com/opinion/2026/04/30/a-polymarket-linked-bet-on-the-weather-in-france-forecasts-a-major-data-issue",
@@ -87,198 +178,107 @@
       "fetch_source": "live"
     },
     {
-      "title": "Seasonal trends favor bulls even as bitcoin ends April in a defensive mood",
-      "link": "https://www.coindesk.com/daybook-us/2026/04/30/seasonal-trends-favor-bulls-even-as-bitcoin-ends-april-in-a-defensive-mood",
-      "pub_date": "Thu, 30 Apr 2026 11:15:12 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitcoin faces $80,000 resistance as derivatives show signs of risk aversion",
-      "link": "https://www.coindesk.com/markets/2026/04/30/bitcoin-faces-usd80-000-resistance-as-derivatives-shows-signs-of-risk-aversion",
-      "pub_date": "Thu, 30 Apr 2026 11:01:26 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Wasabi Protocol drained of $4.5 million in apparent admin key compromise",
-      "link": "https://www.coindesk.com/tech/2026/04/30/wasabi-protocol-drained-for-usd4-5-million-in-apparent-admin-key-compromise",
-      "pub_date": "Thu, 30 Apr 2026 10:37:47 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "XO Market bets on user-generated prediction markets to rival Polymarket and Kalshi",
-      "link": "https://www.coindesk.com/business/2026/04/30/xo-market-bets-on-user-generated-prediction-markets-to-rival-polymarket-and-kalshi",
-      "pub_date": "Thu, 30 Apr 2026 09:00:00 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "XRP hits FOMO zone as Rakuten Pay partnership drives social chatter to greed levels",
-      "link": "https://www.coindesk.com/markets/2026/04/30/xrp-hits-fomo-zone-as-rakuten-pay-partnership-drives-social-chatter-to-greed-levels",
-      "pub_date": "Thu, 30 Apr 2026 08:14:29 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Dogecoin zooms 10%, breaking away from bitcoin as open interest hits a yearly peak",
-      "link": "https://www.coindesk.com/markets/2026/04/30/dogecoin-zooms-10-in-breakaway-from-bitcoin-as-open-interest-hits-year-high",
-      "pub_date": "Thu, 30 Apr 2026 07:50:52 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Trump-backed World Liberty Financial races toward 62 billion token unlock with near-unanimous vote",
-      "link": "https://www.coindesk.com/markets/2026/04/30/wlfi-races-toward-62-billion-token-unlock-with-near-unanimous-vote",
-      "pub_date": "Thu, 30 Apr 2026 07:49:21 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Ouch. The U.S. 30-year Treasury yield just hit 5% and bitcoin may pay the price",
-      "link": "https://www.coindesk.com/markets/2026/04/30/ouch-the-u-s-30-year-treasury-yield-just-hit-5-and-bitcoin-may-pay-the-price",
-      "pub_date": "Thu, 30 Apr 2026 06:31:57 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitcoin slides toward $75,000, ETH, SOL, XRP drop as oil hits four-year high",
-      "link": "https://www.coindesk.com/markets/2026/04/30/bitcoin-slides-toward-usd75-000-eth-sol-xrp-drop-as-oil-hits-four-year-high",
-      "pub_date": "Thu, 30 Apr 2026 06:02:31 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Hyperliquid\u2019s HYPE token could be its prediction market weapon, Arthur Hayes says",
-      "link": "https://www.coindesk.com/markets/2026/04/30/hyperliquid-s-hype-token-could-be-its-prediction-market-weapon-arthur-hayes-says",
-      "pub_date": "Thu, 30 Apr 2026 04:54:23 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Jack Mallers' Twenty One Capital surges after majority holder Tether proposes 3-way merger",
-      "link": "https://www.coindesk.com/markets/2026/04/29/jack-mallers-twenty-one-capital-surges-after-majority-holder-tether-proposes-3-way-merger",
-      "pub_date": "Wed, 29 Apr 2026 22:12:53 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Big Tech's multi-billion dollar AI bets are still on track as Mag 7 giants report earnings",
-      "link": "https://www.coindesk.com/markets/2026/04/29/big-tech-s-multi-billion-dollar-ai-bets-are-still-on-track-as-mag-7-giants-report-earnings",
-      "pub_date": "Wed, 29 Apr 2026 21:07:33 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Eric Trump says bitcoin in its 'greatest period ever' as Wall Street falls in line",
-      "link": "https://www.coindesk.com/markets/2026/04/29/eric-trump-says-bitcoin-in-its-greatest-period-ever-as-wall-street-falls-in-line",
-      "pub_date": "Wed, 29 Apr 2026 19:49:14 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
       "title": "Here\u2019s what happened in crypto today",
       "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Thu, 30 Apr 2026 14:40:51 +0000",
+      "pub_date": "Fri, 01 May 2026 14:03:23 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Spain emerges as leading EURC retail market in Europe, Brighty data shows",
-      "link": "https://cointelegraph.com/news/spain-leading-eurc-retail-market-europe-brighty-data?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Thu, 30 Apr 2026 14:24:25 +0000",
+      "title": "DeFi can freeze stolen funds, but not everyone agrees it should",
+      "link": "https://cointelegraph.com/features/defi-freeze-stolen-funds-everyone-agrees-it-should?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Fri, 01 May 2026 14:00:00 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin analysts explain why BTC price can\u2019t take out $80K",
-      "link": "https://cointelegraph.com/markets/heres-why-bitcoin-analysts-say-btc-price-cant-take-out-80k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Thu, 30 Apr 2026 14:02:12 +0000",
+      "title": "Crypto VC funding plunges to $659M in April, hits near two-year low",
+      "link": "https://cointelegraph.com/news/crypto-vc-funding-plunges-to-659m-in-april-to-2024-lows?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Fri, 01 May 2026 13:53:26 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Kast hires former SEC official Stephanie Allen to lead policy communications",
-      "link": "https://cointelegraph.com/news/kast-appoints-former-senior-sec-advisor-for-us-policy-lead?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Thu, 30 Apr 2026 14:01:25 +0000",
+      "title": "Did Dogecoin bottom first? DOGE price poised for 20% gains as whales return",
+      "link": "https://cointelegraph.com/markets/dogecoin-targets-20-gains-as-doge-whale-holdings-reach-new-highs?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Fri, 01 May 2026 12:42:40 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Solana ecosystem expands institutional push with Europe-focused research arm",
-      "link": "https://cointelegraph.com/news/solana-ecosystem-expands-institutional-push-europe-focused-research-arm?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Thu, 30 Apr 2026 14:00:00 +0000",
+      "title": "Bitcoin ETFs draw $2B in April for highest monthly inflows this year",
+      "link": "https://cointelegraph.com/news/bitcoin-etf-2-billion-inflow-april-biggest-month-ytd?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Fri, 01 May 2026 10:53:44 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "South Korea seeks 20-year sentence for Delio CEO over $169M crypto fraud",
-      "link": "https://cointelegraph.com/news/south-korea-seeks-20-year-sentence-for-delio-ceo-over-169m-crypto-fraud?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Thu, 30 Apr 2026 13:32:51 +0000",
+      "title": "Brazil bars crypto settlement in regulated cross-border payment rails",
+      "link": "https://cointelegraph.com/news/brazil-central-bank-bars-virtual-assets-from-cross-border-payment-service-efx?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Fri, 01 May 2026 10:07:14 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "UK regulator clears path for tokenized funds within existing rules",
-      "link": "https://cointelegraph.com/news/uk-regulator-clears-path-tokenized-funds-within-existing-rules?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Thu, 30 Apr 2026 13:27:56 +0000",
+      "title": "SBI eyes Bitbank deal as Japan\u2019s crypto exchange market consolidates",
+      "link": "https://cointelegraph.com/news/sbi-seeks-to-make-bitbank-a-subsidiary-in-japan-crypto-consolidation-push?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Fri, 01 May 2026 09:39:34 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Did Bitcoin bottom versus gold? BTC price will reach $167K in 2027 if history repeats",
-      "link": "https://cointelegraph.com/markets/gold-fractal-raises-bitcoins-odds-of-rising-180-in-a-year?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Thu, 30 Apr 2026 13:20:23 +0000",
+      "title": "Bitcoin seals best monthly gain in a year as S&P 500 hits fresh all-time high",
+      "link": "https://cointelegraph.com/markets/bitcoin-seals-best-monthly-gain-in-a-year-as-sp-500-hits-fresh-all-time-high?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Fri, 01 May 2026 08:58:46 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "US gov\u2019t sues four states, RWAs cross $30 billion: Month in Charts",
-      "link": "https://cointelegraph.com/features/us-govt-sues-four-states-rwas-cross-30-billion-month-in-charts?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Thu, 30 Apr 2026 13:00:00 +0000",
+      "title": "Bakkt completes acquisition of stablecoin payments firm Distributed Technologies Research",
+      "link": "https://cointelegraph.com/news/bakkt-completes-deal-to-acquire-distributed-technologies-research?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Fri, 01 May 2026 07:43:18 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "THORWallet partners with Unblock to expand global non-custodial Mastercard access",
-      "link": "https://cointelegraph.com/press-releases/thorwallet-partners-with-unblock-to-expand-global-non-custodial-mastercard-access?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Thu, 30 Apr 2026 12:45:15 +0000",
+      "title": "Bitcoin risks extended retreat as April rally was futures-driven: CryptoQuant",
+      "link": "https://cointelegraph.com/news/bitcoin-risks-decline-rally-speculative-not-structural-cryptoquant?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Fri, 01 May 2026 06:53:44 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "OKX rolls out protocol for autonomous AI agents to pay and transact",
-      "link": "https://cointelegraph.com/news/okx-publishes-open-standard-payment-protocol-for-autonomous-ai-agents?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Thu, 30 Apr 2026 12:39:11 +0000",
+      "title": "Bitcoiners launch 'The Bitcoin Evidence Base' to stamp out FUD",
+      "link": "https://cointelegraph.com/news/bitcoiner-launches-the-bitcoin-evidence-base-to-stamp-out-fud?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Fri, 01 May 2026 06:51:37 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Crypto hack losses top $630M in April, highest since February 2025",
-      "link": "https://cointelegraph.com/news/crypto-hacks-cause-630m-losses-in-april-highest-since-february-2025?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Thu, 30 Apr 2026 11:47:52 +0000",
+      "title": "DeFi protocol Carrot becomes first casualty of $285M Drift exploit",
+      "link": "https://cointelegraph.com/news/defi-protocol-carrot-becomes-first-casualty-of-285m-drift-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Fri, 01 May 2026 06:48:08 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "US seized $500M in Iranian crypto assets, Treasury secretary says",
-      "link": "https://cointelegraph.com/news/us-seized-500m-in-iranian-crypto-assets-treasury-secretary-says?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Thu, 30 Apr 2026 11:21:51 +0000",
+      "title": "Bitcoin\u2019s surge to $77K pressures shorts, but absent spot and long leverage caps rallies",
+      "link": "https://cointelegraph.com/markets/bitcoins-surge-through-77k-pressures-shorts-but-absent-spot-and-long-leverage-cap-rallies?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Fri, 01 May 2026 05:34:10 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "South Korea\u2019s Shinhan Card taps Solana to test real-world stablecoin payments",
-      "link": "https://cointelegraph.com/news/south-korean-credit-card-giant-partners-with-solana-for-stablecoin-payments-defi-infrastructure?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Thu, 30 Apr 2026 11:10:47 +0000",
+      "title": "Tokenized RWA market grows 420% since 2025 on regulatory clarity, access",
+      "link": "https://cointelegraph.com/news/tokenized-rwa-market-cap-spiked-in-the-last-15-months?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Fri, 01 May 2026 05:16:02 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Australia draft payments vision eyes stablecoin interoperability",
-      "link": "https://cointelegraph.com/news/australia-payment-planners-flag-tokenized-money-as-future-rail-issue?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Thu, 30 Apr 2026 10:54:06 +0000",
+      "title": "US Senate bans itself from betting on prediction markets",
+      "link": "https://cointelegraph.com/news/us-senate-bans-itself-from-prediction-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Fri, 01 May 2026 02:51:19 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     }

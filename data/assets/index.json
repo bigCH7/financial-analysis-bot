@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-30T16:26:33.951685+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-04-30 16:18 UTC_",
+  "generated_at": "2026-05-01T16:05:07.577373+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-05-01 15:56 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,23 +9,23 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 76336.0,
+        "current_usd": 78604.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": -2.46,
-        "change_30d_pct": 11.88
+        "change_7d_pct": 1.5,
+        "change_30d_pct": 15.44
       },
       "indicators": {
-        "trend": "DOWNTREND",
-        "momentum": "WEAK",
+        "trend": "UPTREND",
+        "momentum": "STRONG",
         "volatility": "NORMAL"
       },
       "valuation": {
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
         "summary_line": "Fair - Weak growth profile - Elevated regulatory risk.",
-        "score": 56.6
+        "score": 56.8
       },
-      "updated_at": "2026-04-30T16:26:33.949409+00:00",
+      "updated_at": "2026-05-01T16:05:07.575068+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,23 +37,23 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 2260.0,
+        "current_usd": 2312.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": -3.04,
-        "change_30d_pct": 7.37
+        "change_7d_pct": -0.15,
+        "change_30d_pct": 8.08
       },
       "indicators": {
-        "trend": "DOWNTREND",
-        "momentum": "WEAK",
+        "trend": "UPTREND",
+        "momentum": "STRONG",
         "volatility": "NORMAL"
       },
       "valuation": {
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
         "summary_line": "Fair - Balanced growth profile - Elevated regulatory risk.",
-        "score": 55.4
+        "score": 52.7
       },
-      "updated_at": "2026-04-30T16:26:33.950167+00:00",
+      "updated_at": "2026-05-01T16:05:07.575831+00:00",
       "source": {
         "short_term": "live"
       }
@@ -65,8 +65,8 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=spy",
       "price": {
-        "current_usd": 714.74,
-        "change_24h_pct": 0.012593577275588075,
+        "current_usd": 724.2501,
+        "change_24h_pct": 0.41178183229813037,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-04-30T16:26:33.950466+00:00",
+      "updated_at": "2026-05-01T16:05:07.576122+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -93,8 +93,8 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=qqq",
       "price": {
-        "current_usd": 663.09,
-        "change_24h_pct": -0.347159603246161,
+        "current_usd": 675.77,
+        "change_24h_pct": 0.9878056070297125,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-04-30T16:26:33.950722+00:00",
+      "updated_at": "2026-05-01T16:05:07.576389+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -121,13 +121,13 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=nvda",
       "price": {
-        "current_usd": 200.48,
-        "change_24h_pct": -4.501500500166733,
+        "current_usd": 199.67,
+        "change_24h_pct": -0.7998807631160676,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
       "indicators": {
-        "trend": "DOWNTREND",
+        "trend": "SIDEWAYS",
         "momentum": "N/A",
         "volatility": "N/A"
       },
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-04-30T16:26:33.950959+00:00",
+      "updated_at": "2026-05-01T16:05:07.576649+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -149,13 +149,13 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=gold",
       "price": {
-        "current_usd": 4609.925,
-        "change_24h_pct": 1.4317288450346632,
+        "current_usd": 4644.015,
+        "change_24h_pct": 0.3010750365814996,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
       "indicators": {
-        "trend": "UPTREND",
+        "trend": "SIDEWAYS",
         "momentum": "N/A",
         "volatility": "N/A"
       },
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-04-30T16:26:33.951202+00:00",
+      "updated_at": "2026-05-01T16:05:07.576895+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -177,8 +177,8 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=oil",
       "price": {
-        "current_usd": 104.66,
-        "change_24h_pct": -3.4056299030918336,
+        "current_usd": 100.91,
+        "change_24h_pct": -4.2508776923806835,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
@@ -193,7 +193,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-04-30T16:26:33.951447+00:00",
+      "updated_at": "2026-05-01T16:05:07.577134+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -201,72 +201,72 @@
   ],
   "overview_news": [
     {
-      "title": "A Polymarket-linked bet on the weather in France forecasts a major data issue",
-      "url": "https://www.coindesk.com/opinion/2026/04/30/a-polymarket-linked-bet-on-the-weather-in-france-forecasts-a-major-data-issue",
-      "published_at": "Thu, 30 Apr 2026 15:27:33 +0000",
+      "title": "AI agent forms its own company, gets ready to trade crypto",
+      "url": "https://www.coindesk.com/tech/2026/05/01/ai-agent-forms-its-own-company-gets-ready-to-trade-crypto",
+      "published_at": "Fri, 01 May 2026 15:37:15 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Gemini eyes prediction market challenge to Kalshi, Polymarket, secures derivatives license; shares surge",
-      "url": "https://www.coindesk.com/policy/2026/04/30/gemini-eyes-prediction-market-challenge-to-kalshi-polymarket-secures-derivatives-license-shares-surge",
-      "published_at": "Thu, 30 Apr 2026 15:22:39 +0000",
+      "title": "Bitcoin takes another aim at $80,000 as stocks rise, oil drops on Iran optimism",
+      "url": "https://www.coindesk.com/markets/2026/05/01/bitcoin-takes-another-aim-at-usd80-000-as-stocks-rise-oil-drops-on-iran-optimism",
+      "published_at": "Fri, 01 May 2026 15:01:41 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Polymarket taps Chainalysis to bring Wall Street-level oversight to crypto prediction markets",
-      "url": "https://www.coindesk.com/business/2026/04/30/polymarket-taps-chainalysis-to-bring-wall-street-level-oversight-to-crypto-prediction-markets",
-      "published_at": "Thu, 30 Apr 2026 15:05:09 +0000",
+      "title": "Institutional demand to drive bitcoin market cap to $16 trillion by 2030: Ark Invest",
+      "url": "https://www.coindesk.com/markets/2026/05/01/institutional-demand-to-drive-bitcoin-market-cap-to-usd16-trillion-by-2030-ark-invest",
+      "published_at": "Fri, 01 May 2026 13:31:53 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Crypto for Advisors: Breaking down the Sui blockchain",
-      "url": "https://www.coindesk.com/coindesk-indices/2026/04/29/crypto-for-advisors-breaking-down-the-sui-blockchain",
-      "published_at": "Thu, 30 Apr 2026 15:00:00 +0000",
+      "title": "CoinDesk 20 performance update: Bittensor (TAO) gains 5.5%, leading index higher",
+      "url": "https://www.coindesk.com/coindesk-indices/2026/05/01/coindesk-20-performance-update-bittensor-tao-gains-5-5-leading-index-higher",
+      "published_at": "Fri, 01 May 2026 13:21:26 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Anchorage Digital and M0 team up to power next wave of regulated stablecoins",
-      "url": "https://www.coindesk.com/business/2026/04/30/regulated-crypto-custody-firm-anchorage-partners-with-stablecoin-tech-provider-m0",
-      "published_at": "Thu, 30 Apr 2026 15:00:00 +0000",
+      "title": "Bitcoin bounces as big tech earnings fuel optimism; short-term pressures remain",
+      "url": "https://www.coindesk.com/daybook-us/2026/05/01/bitcoin-bounces-as-big-tech-earnings-fuel-optimism-short-term-pressures-remain",
+      "published_at": "Fri, 01 May 2026 11:15:02 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Coinbase's asset manager to offer stablecoin credit fund with tokenized share class",
-      "url": "https://www.coindesk.com/business/2026/04/30/coinbase-s-asset-manager-to-offer-stablecoin-credit-fund-with-tokenized-share-class",
-      "published_at": "Thu, 30 Apr 2026 14:00:00 +0000",
+      "title": "SBI Holdings eyes stake in crypto exchange Bitbank to build digital asset powerhouse",
+      "url": "https://www.coindesk.com/business/2026/05/01/sbi-holdings-continues-its-crypto-expansion-with-plans-for-a-stake-in-bitbank",
+      "published_at": "Fri, 01 May 2026 11:11:32 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Banks push to slow stablecoin law as Agora races for charter",
-      "url": "https://www.coindesk.com/coindesk-news/2026/04/29/banks-push-to-slow-stablecoin-law-as-agora-races-for-charter",
-      "published_at": "Thu, 30 Apr 2026 13:56:21 +0000",
+      "title": "Bitcoin ticks higher, but remains range-bound as traders keep short bias",
+      "url": "https://www.coindesk.com/markets/2026/05/01/bitcoin-ticks-higher-but-remains-range-bound-as-traders-keep-short-bias",
+      "published_at": "Fri, 01 May 2026 10:20:23 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "CoinDesk 20 performance update: Aptos (APT) gains 4.4% as nearly all assets rise",
-      "url": "https://www.coindesk.com/coindesk-indices/2026/04/30/coindesk-20-performance-update-aptos-apt-gains-4-4-as-nearly-all-assets-rise",
-      "published_at": "Thu, 30 Apr 2026 13:24:57 +0000",
+      "title": "Bitcoin edges above $77,000, but institutional activity suggests downside hedging",
+      "url": "https://www.coindesk.com/markets/2026/05/01/bitcoin-edges-above-usd77-000-but-institutional-activity-suggests-downside-hedging",
+      "published_at": "Fri, 01 May 2026 09:25:49 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "The long con: How North Korean spies spent months in-person to drain $285 million from Drift",
-      "url": "https://www.coindesk.com/business/2026/04/30/north-korean-hackers-are-moving-faster-they-account-for-76-of-crypto-exploits-this-year-trmlabs",
-      "published_at": "Thu, 30 Apr 2026 12:58:16 +0000",
+      "title": "Bithumb scores a legal win in South Korea as six-month suspension is lifted by local judge",
+      "url": "https://www.coindesk.com/policy/2026/05/01/bithumb-scores-a-legal-win-in-south-korea-as-six-month-suspension-is-lifted-by-local-judge",
+      "published_at": "Fri, 01 May 2026 07:41:24 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "MARA Holdings to buy Long Ridge Energy in $1.5 billion AI data center push",
-      "url": "https://www.coindesk.com/business/2026/04/30/mara-holdings-to-buy-long-ridge-energy-in-usd1-5-billion-ai-data-center-push",
-      "published_at": "Thu, 30 Apr 2026 12:44:43 +0000",
+      "title": "Strategy keeps STRC dividend at 11.5% as stock logs first monthly gain in nine",
+      "url": "https://www.coindesk.com/markets/2026/05/01/strategy-keeps-strc-dividend-at-11-5-as-stock-logs-first-monthly-gain-in-nine",
+      "published_at": "Fri, 01 May 2026 07:01:47 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
