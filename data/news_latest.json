@@ -1,7 +1,56 @@
 {
-  "generated_at": "2026-05-02 15:52 UTC",
+  "generated_at": "2026-05-03 15:54 UTC",
   "count": 55,
   "items": [
+    {
+      "title": "Crypto is at bottom of U.S. voters' priorities heading into elections, CoinDesk survey shows",
+      "link": "https://www.coindesk.com/policy/2026/05/03/crypto-is-at-the-bottom-of-u-s-voters-priorities-heading-into-the-midterm-coindesk-survey-shows",
+      "pub_date": "Sun, 03 May 2026 14:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Americans still prefer banks over crypto for financial access, CoinDesk's survey shows",
+      "link": "https://www.coindesk.com/policy/2026/05/03/americans-still-prefer-banks-over-crypto-for-financial-access-coindesk-s-survey-shows",
+      "pub_date": "Sun, 03 May 2026 14:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "U.S. voters don't trust Trump administration to oversee crypto sector, CoinDesk poll finds",
+      "link": "https://www.coindesk.com/policy/2026/05/03/u-s-voters-don-t-trust-trump-administration-to-oversee-crypto-sector-coindesk-poll-finds",
+      "pub_date": "Sun, 03 May 2026 14:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Mike Cagney\u2019s second act: Turning blockchain into Wall Street\u2019s new plumbing",
+      "link": "https://www.coindesk.com/business/2026/05/03/mike-cagney-s-second-act-turning-blockchain-into-wall-street-s-new-plumbing",
+      "pub_date": "Sun, 03 May 2026 13:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Brazil's central bank bans stablecoin and crypto settlement in cross-border payments",
+      "link": "https://www.coindesk.com/policy/2026/05/02/brazil-s-central-bank-bans-stablecoin-and-crypto-settlement-in-cross-border-payments",
+      "pub_date": "Sat, 02 May 2026 16:56:08 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Crypto industry backs CLARITY Act yield compromise, pushes Senate Banking for markup",
+      "link": "https://www.coindesk.com/policy/2026/05/02/crypto-industry-backs-clarity-act-yield-compromise-pushes-senate-banking-for-markup",
+      "pub_date": "Sat, 02 May 2026 16:01:01 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Bitcoin's 'hazardous' airdrop: Why developers are warning against Paul Sztorc\u2019s eCash fork",
+      "link": "https://www.coindesk.com/tech/2026/05/02/bitcoin-s-hazardous-airdrop-why-developers-are-warning-against-paul-sztorc-s-ecash-fork",
+      "pub_date": "Sat, 02 May 2026 16:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
     {
       "title": "The $292M crypto hack exposed DeFi's weak spots. Here\u2019s what must change, insiders say",
       "link": "https://www.coindesk.com/business/2026/05/02/the-usd292m-crypto-hack-exposed-defi-s-weak-spots-here-s-what-must-change-insiders-say",
@@ -129,58 +178,51 @@
       "fetch_source": "live"
     },
     {
-      "title": "Bithumb scores a legal win in South Korea as six-month suspension is lifted by local judge",
-      "link": "https://www.coindesk.com/policy/2026/05/01/bithumb-scores-a-legal-win-in-south-korea-as-six-month-suspension-is-lifted-by-local-judge",
-      "pub_date": "Fri, 01 May 2026 07:41:24 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Strategy keeps STRC dividend at 11.5% as stock logs first monthly gain in nine",
-      "link": "https://www.coindesk.com/markets/2026/05/01/strategy-keeps-strc-dividend-at-11-5-as-stock-logs-first-monthly-gain-in-nine",
-      "pub_date": "Fri, 01 May 2026 07:01:47 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "U.S. senators won't be weighing in on prediction markets bets after banning themselves",
-      "link": "https://www.coindesk.com/policy/2026/04/30/u-s-senators-won-t-be-weighing-in-on-prediction-markets-bets-after-banning-themselves",
-      "pub_date": "Thu, 30 Apr 2026 22:13:13 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "From Cathie Wood to Cantor Fitzgerald, the big money is betting that Robinhood\u2019s crypto slump is just a temporary speed bump",
-      "link": "https://www.coindesk.com/markets/2026/04/30/from-cathie-wood-to-cantor-fitzgerald-the-big-money-is-betting-that-robinhood-s-crypto-slump-is-just-a-temporary-speed-bump",
-      "pub_date": "Thu, 30 Apr 2026 19:30:05 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Senator Warren questions Commerce Secretary Lutnick on Tether loan to family",
-      "link": "https://www.coindesk.com/policy/2026/04/30/senator-warren-questions-commerce-secretary-lutnick-on-tether-loan-to-family",
-      "pub_date": "Thu, 30 Apr 2026 17:06:21 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "A Polymarket-linked bet on the weather in France forecasts a major data issue",
-      "link": "https://www.coindesk.com/opinion/2026/04/30/a-polymarket-linked-bet-on-the-weather-in-france-forecasts-a-major-data-issue",
-      "pub_date": "Thu, 30 Apr 2026 15:27:33 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Gemini eyes prediction market challenge to Kalshi, Polymarket, secures derivatives license; shares surge",
-      "link": "https://www.coindesk.com/policy/2026/04/30/gemini-eyes-prediction-market-challenge-to-kalshi-polymarket-secures-derivatives-license-shares-surge",
-      "pub_date": "Thu, 30 Apr 2026 15:22:39 +0000",
-      "source": "CoinDesk",
+      "title": "Americans distrust crypto, AI as industry super PACs flood midterms, poll finds",
+      "link": "https://cointelegraph.com/news/americans-distrust-crypto-ai-as-industry-super-pacs-flood-midterms-poll-finds?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sun, 03 May 2026 13:00:00 +0000",
+      "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
       "title": "Here\u2019s what happened in crypto today",
       "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Sat, 02 May 2026 14:00:00 +0000",
+      "pub_date": "Sun, 03 May 2026 13:00:00 +0000",
+      "source": "Cointelegraph",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Iran\u2019s largest crypto exchange founded by sons of family tied to supreme leaders: Reuters",
+      "link": "https://cointelegraph.com/news/irans-largest-crypto-exchange-founded-by-sons-of-family-tied-to-supreme-leaders-reuters?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sun, 03 May 2026 11:12:56 +0000",
+      "source": "Cointelegraph",
+      "fetch_source": "live"
+    },
+    {
+      "title": "New York forces Uphold to pay $5M over fraudulent crypto investment scheme",
+      "link": "https://cointelegraph.com/news/new-york-forces-uphold-to-pay-5m-over-fraudulent-crypto-investment-scheme?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sun, 03 May 2026 08:56:10 +0000",
+      "source": "Cointelegraph",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Crypto industry will be \u2018just fine\u2019 if CLARITY Act doesn\u2019t pass: Chris Perkins",
+      "link": "https://cointelegraph.com/news/crypto-industry-will-be-just-fine-if-clarity-act-doesnt-pass-chris-perkins?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sun, 03 May 2026 05:51:03 +0000",
+      "source": "Cointelegraph",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Bitcoin logs best monthly performance in 12 months during April",
+      "link": "https://cointelegraph.com/news/bitcoin-posts-its-strongest-monthly-gain-in-12-months-in-april?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sun, 03 May 2026 03:29:34 +0000",
+      "source": "Cointelegraph",
+      "fetch_source": "live"
+    },
+    {
+      "title": "US CISA adds \u2018insane\u2019 Linux Copy Fail flaw to watch list",
+      "link": "https://cointelegraph.com/news/linux-copy-fail-a-trivially-exploitable-bug?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sat, 02 May 2026 23:07:05 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
@@ -206,6 +248,20 @@
       "fetch_source": "live"
     },
     {
+      "title": "Kraken parent Payward closes Bitnomial deal to expand US crypto derivatives",
+      "link": "https://cointelegraph.com/news/kraken-parent-payward-closes-bitnomial-deal-to-expand-us-crypto-derivatives?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sat, 02 May 2026 07:00:00 +0000",
+      "source": "Cointelegraph",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Bitcoin mining stocks climb in 2026 as BTC lags behind",
+      "link": "https://cointelegraph.com/news/bitcoin-mining-stocks-climb-in-2026-as-btc-lags-behind?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sat, 02 May 2026 07:00:00 +0000",
+      "source": "Cointelegraph",
+      "fetch_source": "live"
+    },
+    {
       "title": "Bitcoin doesn\u2019t need a fresh narrative to reclaim $100K: Analyst",
       "link": "https://cointelegraph.com/news/bitcoin-doesnt-need-a-fresh-narrative-to-reclaim-100k-analyst?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "pub_date": "Sat, 02 May 2026 06:11:22 +0000",
@@ -223,62 +279,6 @@
       "title": "CLARITY Act stablecoin yield rules finalized: \u2018Go time\u2019 for crypto bill",
       "link": "https://cointelegraph.com/news/go-time-after-clarity-act-stablecoin-yield-compromise-finalized?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "pub_date": "Sat, 02 May 2026 01:29:09 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Three Bitcoin data points suggest a rally to $80K is imminent",
-      "link": "https://cointelegraph.com/markets/3-bitcoin-data-points-suggest-rally-to-80k-is-imminent?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 01 May 2026 21:14:23 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "XRP sentiment hits 2-year high, but why is price stuck?",
-      "link": "https://cointelegraph.com/markets/xrp-sentiment-hits-2-year-high-but-why-is-price-stuck?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 01 May 2026 19:22:16 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Price predictions 5/1: BTC, ETH, XRP, BNB, SOL, DOGE, HYPE, ADA, BCH, XMR",
-      "link": "https://cointelegraph.com/markets/price-predictions-51-btc-eth-xrp-bnb-sol-doge-hype-ada-bch-xmr?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 01 May 2026 19:07:51 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Gency AI raises $20 million to build a sovereign advertising network powered by AI and blockchain consensus",
-      "link": "https://cointelegraph.com/press-releases/gency-ai-raises-20-million-to-build-a-sovereign-advertising-network-powered-by-ai-and-blockchain-consensus?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 01 May 2026 18:55:11 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Crypto Biz: Capital has no consensus",
-      "link": "https://cointelegraph.com/news/crypto-biz-capital-has-no-consensus?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 01 May 2026 16:00:30 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "DeFi can freeze stolen funds, but not everyone agrees it should",
-      "link": "https://cointelegraph.com/features/defi-freeze-stolen-funds-everyone-agrees-it-should?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 01 May 2026 14:00:00 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Crypto VC funding plunges to $659M in April, hits near two-year low",
-      "link": "https://cointelegraph.com/news/crypto-vc-funding-plunges-to-659m-in-april-to-2024-lows?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 01 May 2026 13:53:26 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Did Dogecoin bottom first? DOGE price poised for 20% gains as whales return",
-      "link": "https://cointelegraph.com/markets/dogecoin-targets-20-gains-as-doge-whale-holdings-reach-new-highs?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 01 May 2026 12:42:40 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     }
