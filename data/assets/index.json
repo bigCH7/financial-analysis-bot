@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-09T15:59:07.079719+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-05-09 15:51 UTC_",
+  "generated_at": "2026-05-10T16:01:38.354804+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-05-10 15:53 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,13 +9,13 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 80511.0,
+        "current_usd": 81405.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": 2.36,
-        "change_30d_pct": 12.18
+        "change_7d_pct": 3.62,
+        "change_30d_pct": 11.56
       },
       "indicators": {
-        "trend": "DOWNTREND",
+        "trend": "UPTREND",
         "momentum": "WEAK",
         "volatility": "NORMAL"
       },
@@ -23,9 +23,9 @@
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
         "summary_line": "Fair - Weak growth profile - Moderate regulatory risk.",
-        "score": 54.4
+        "score": 51.7
       },
-      "updated_at": "2026-05-09T15:59:07.077977+00:00",
+      "updated_at": "2026-05-10T16:01:38.352659+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,10 +37,10 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 2316.0,
+        "current_usd": 2348.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": -0.01,
-        "change_30d_pct": 5.81
+        "change_7d_pct": 1.02,
+        "change_30d_pct": 4.58
       },
       "indicators": {
         "trend": "UPTREND",
@@ -51,9 +51,9 @@
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
         "summary_line": "Fair - Balanced growth profile - Elevated regulatory risk.",
-        "score": 54.1
+        "score": 52.9
       },
-      "updated_at": "2026-05-09T15:59:07.078672+00:00",
+      "updated_at": "2026-05-10T16:01:38.353369+00:00",
       "source": {
         "short_term": "live"
       }
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-05-09T15:59:07.078893+00:00",
+      "updated_at": "2026-05-10T16:01:38.353671+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-05-09T15:59:07.079096+00:00",
+      "updated_at": "2026-05-10T16:01:38.353905+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-05-09T15:59:07.079258+00:00",
+      "updated_at": "2026-05-10T16:01:38.354130+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-05-09T15:59:07.079413+00:00",
+      "updated_at": "2026-05-10T16:01:38.354359+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -193,13 +193,48 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-05-09T15:59:07.079568+00:00",
+      "updated_at": "2026-05-10T16:01:38.354594+00:00",
       "source": {
         "short_term": "stooq_live"
       }
     }
   ],
   "overview_news": [
+    {
+      "title": "Agentic commerce will run on crypto rails, PayPal and Google reps tell Consensus Miami",
+      "url": "https://www.coindesk.com/business/2026/05/10/agentic-commerce-will-run-on-crypto-rails-paypal-and-google-reps-tell-consensus-miami",
+      "published_at": "Sun, 10 May 2026 14:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Bored Ape NFTs are finally making a comeback as crypto traders rediscover their appetite for risk",
+      "url": "https://www.coindesk.com/business/2026/05/10/bored-ape-nfts-are-finally-making-a-comeback-as-crypto-traders-rediscover-their-appetite-for-risk",
+      "published_at": "Sun, 10 May 2026 13:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Trump Media\u2019s Q1 loss widens to $406 million on bitcoin, CRO markdowns",
+      "url": "https://www.coindesk.com/business/2026/05/09/trump-media-s-q1-loss-widens-to-usd406-million-on-bitcoin-cro-markdowns",
+      "published_at": "Sat, 09 May 2026 17:28:08 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Sports betting should be regulated as a financial product, not gambling, aspiring prediction market provider says",
+      "url": "https://www.coindesk.com/policy/2026/05/09/sports-betting-should-be-regulated-as-a-financial-product-not-gambling-aspiring-prediction-market-provider-says",
+      "published_at": "Sat, 09 May 2026 17:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "It might be too late for bitcoin\u2019s quantum migration, Project Eleven report argues",
+      "url": "https://www.coindesk.com/business/2026/05/09/it-might-be-too-late-for-bitcoin-s-quantum-migration-project-eleven-report-argues",
+      "published_at": "Sat, 09 May 2026 16:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
     {
       "title": "Crypto industry cheers Senate Clarity Act markup date as market structure push resumes",
       "url": "https://www.coindesk.com/policy/2026/05/09/crypto-industry-cheers-senate-clarity-act-markup-date-as-market-structure-push-resumes",
@@ -232,41 +267,6 @@
       "title": "How DeFi is changing the financial landscape for Latin Americans",
       "url": "https://www.coindesk.com/opinion/2026/05/09/how-defi-is-changing-the-financial-landscape-for-latin-americans",
       "published_at": "Sat, 09 May 2026 14:30:00 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Crypto wallets are being rebuilt for AI agents, Trust Wallet and Mesh executives say at Consensus Miami",
-      "url": "https://www.coindesk.com/business/2026/05/09/crypto-wallets-are-being-rebuilt-for-ai-agents-trust-wallet-and-mesh-executives-say-at-consensus-miami",
-      "published_at": "Sat, 09 May 2026 14:00:00 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "BlackRock deepens tokenization push with new onchain fund offerings",
-      "url": "https://www.coindesk.com/business/2026/05/09/blackrock-deepens-tokenization-push-with-new-onchain-fund-offerings",
-      "published_at": "Sat, 09 May 2026 13:57:07 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "LayerZero says it \u2018made a mistake\u2019 in $292 Million Kelp exploit",
-      "url": "https://www.coindesk.com/tech/2026/05/09/layerzero-says-it-made-a-mistake-in-usd292-million-kelp-exploit",
-      "published_at": "Sat, 09 May 2026 13:53:07 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Judge clears path for Aave to move $71 million in ETH linked to North Korea hack",
-      "url": "https://www.coindesk.com/policy/2026/05/09/judge-clears-path-for-aave-to-move-usd71-million-in-eth-linked-to-north-korea-hack",
-      "published_at": "Sat, 09 May 2026 04:16:36 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Senate Banking Committee plans to hold key market structure hearing on Thursday",
-      "url": "https://www.coindesk.com/policy/2026/05/08/senate-banking-committee-plans-to-hold-key-market-structure-hearing-on-thursday",
-      "published_at": "Fri, 08 May 2026 23:20:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
