@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-10T16:01:38.354804+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-05-10 15:53 UTC_",
+  "generated_at": "2026-05-11T17:32:22.818041+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-05-11 17:24 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,10 +9,10 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 81405.0,
+        "current_usd": 81602.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": 3.62,
-        "change_30d_pct": 11.56
+        "change_7d_pct": 2.23,
+        "change_30d_pct": 11.7
       },
       "indicators": {
         "trend": "UPTREND",
@@ -23,9 +23,9 @@
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
         "summary_line": "Fair - Weak growth profile - Moderate regulatory risk.",
-        "score": 51.7
+        "score": 58.8
       },
-      "updated_at": "2026-05-10T16:01:38.352659+00:00",
+      "updated_at": "2026-05-11T17:32:22.815878+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,10 +37,10 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 2348.0,
+        "current_usd": 2329.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": 1.02,
-        "change_30d_pct": 4.58
+        "change_7d_pct": -0.74,
+        "change_30d_pct": 1.89
       },
       "indicators": {
         "trend": "UPTREND",
@@ -51,9 +51,9 @@
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
         "summary_line": "Fair - Balanced growth profile - Elevated regulatory risk.",
-        "score": 52.9
+        "score": 58.3
       },
-      "updated_at": "2026-05-10T16:01:38.353369+00:00",
+      "updated_at": "2026-05-11T17:32:22.816646+00:00",
       "source": {
         "short_term": "live"
       }
@@ -65,8 +65,8 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=spy",
       "price": {
-        "current_usd": 737.62,
-        "change_24h_pct": 0.3660212537248464,
+        "current_usd": 738.9101,
+        "change_24h_pct": 0.334048475796056,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-05-10T16:01:38.353671+00:00",
+      "updated_at": "2026-05-11T17:32:22.816913+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -93,13 +93,13 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=qqq",
       "price": {
-        "current_usd": 711.23,
-        "change_24h_pct": 1.6158989598811457,
+        "current_usd": 712.335,
+        "change_24h_pct": 0.2780280421194936,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
       "indicators": {
-        "trend": "UPTREND",
+        "trend": "SIDEWAYS",
         "momentum": "N/A",
         "volatility": "N/A"
       },
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-05-10T16:01:38.353905+00:00",
+      "updated_at": "2026-05-11T17:32:22.817150+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -121,8 +121,8 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=nvda",
       "price": {
-        "current_usd": 215.2,
-        "change_24h_pct": 1.0186358728817568,
+        "current_usd": 220.115,
+        "change_24h_pct": 2.840656901908578,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-05-10T16:01:38.354130+00:00",
+      "updated_at": "2026-05-11T17:32:22.817376+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -149,8 +149,8 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=gold",
       "price": {
-        "current_usd": 4724.2,
-        "change_24h_pct": 0.9440130597732299,
+        "current_usd": 4722.0,
+        "change_24h_pct": 0.4956679599294356,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-05-10T16:01:38.354359+00:00",
+      "updated_at": "2026-05-11T17:32:22.817591+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -177,13 +177,13 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=oil",
       "price": {
-        "current_usd": 95.42,
-        "change_24h_pct": -2.8804071246819274,
+        "current_usd": 98.53,
+        "change_24h_pct": 0.6949412365866214,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
       "indicators": {
-        "trend": "DOWNTREND",
+        "trend": "SIDEWAYS",
         "momentum": "N/A",
         "volatility": "N/A"
       },
@@ -193,7 +193,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-05-10T16:01:38.354594+00:00",
+      "updated_at": "2026-05-11T17:32:22.817840+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -201,72 +201,72 @@
   ],
   "overview_news": [
     {
-      "title": "Agentic commerce will run on crypto rails, PayPal and Google reps tell Consensus Miami",
-      "url": "https://www.coindesk.com/business/2026/05/10/agentic-commerce-will-run-on-crypto-rails-paypal-and-google-reps-tell-consensus-miami",
-      "published_at": "Sun, 10 May 2026 14:00:00 +0000",
+      "title": "Anchorage is stepping back from Robinhood and Kraken-backed stablecoin group",
+      "url": "https://www.coindesk.com/business/2026/05/11/anchorage-is-stepping-back-from-robinhood-and-kraken-backed-stablecoin-group",
+      "published_at": "Mon, 11 May 2026 16:30:09 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bored Ape NFTs are finally making a comeback as crypto traders rediscover their appetite for risk",
-      "url": "https://www.coindesk.com/business/2026/05/10/bored-ape-nfts-are-finally-making-a-comeback-as-crypto-traders-rediscover-their-appetite-for-risk",
-      "published_at": "Sun, 10 May 2026 13:00:00 +0000",
+      "title": "Why the TradFi takeover of crypto might not be the death blow analysts expect",
+      "url": "https://www.coindesk.com/business/2026/05/11/why-the-tradfi-takeover-of-crypto-might-not-be-the-death-blow-analysts-expect",
+      "published_at": "Mon, 11 May 2026 16:29:48 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Trump Media\u2019s Q1 loss widens to $406 million on bitcoin, CRO markdowns",
-      "url": "https://www.coindesk.com/business/2026/05/09/trump-media-s-q1-loss-widens-to-usd406-million-on-bitcoin-cro-markdowns",
-      "published_at": "Sat, 09 May 2026 17:28:08 +0000",
+      "title": "Banking groups escalate fight over stablecoin yield ahead of Senate vote",
+      "url": "https://www.coindesk.com/policy/2026/05/11/banking-groups-escalate-fight-over-stablecoin-yield-ahead-of-senate-vote",
+      "published_at": "Mon, 11 May 2026 14:43:29 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Sports betting should be regulated as a financial product, not gambling, aspiring prediction market provider says",
-      "url": "https://www.coindesk.com/policy/2026/05/09/sports-betting-should-be-regulated-as-a-financial-product-not-gambling-aspiring-prediction-market-provider-says",
-      "published_at": "Sat, 09 May 2026 17:00:00 +0000",
+      "title": "Corpay taps BVNK to bring stablecoin wallets to corporate payments",
+      "url": "https://www.coindesk.com/business/2026/05/11/corpay-taps-bvnk-to-bring-stablecoin-wallets-to-corporate-payments",
+      "published_at": "Mon, 11 May 2026 14:34:29 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "It might be too late for bitcoin\u2019s quantum migration, Project Eleven report argues",
-      "url": "https://www.coindesk.com/business/2026/05/09/it-might-be-too-late-for-bitcoin-s-quantum-migration-project-eleven-report-argues",
-      "published_at": "Sat, 09 May 2026 16:00:00 +0000",
+      "title": "The biggest consensus overhaul in Solana history is officially live for testing",
+      "url": "https://www.coindesk.com/tech/2026/05/11/the-biggest-consensus-overhaul-in-solana-history-is-officially-live-for-testing",
+      "published_at": "Mon, 11 May 2026 14:18:58 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Crypto industry cheers Senate Clarity Act markup date as market structure push resumes",
-      "url": "https://www.coindesk.com/policy/2026/05/09/crypto-industry-cheers-senate-clarity-act-markup-date-as-market-structure-push-resumes",
-      "published_at": "Sat, 09 May 2026 15:56:49 +0000",
+      "title": "Ripple raises $200 million from Neuberger Berman to expand its Ripple Prime platform",
+      "url": "https://www.coindesk.com/business/2026/05/11/ripple-raises-usd200-million-from-neuberger-berman-to-expand-its-ripple-prime-platform",
+      "published_at": "Mon, 11 May 2026 13:47:38 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Emerging-market users are treating crypto exchanges like banking apps, Binance says",
-      "url": "https://www.coindesk.com/business/2026/05/09/emerging-market-users-are-treating-crypto-exchanges-like-banking-apps-binance-says",
-      "published_at": "Sat, 09 May 2026 15:41:38 +0000",
+      "title": "CoinDesk 20 performance update: SUI surges 25% over weekend",
+      "url": "https://www.coindesk.com/coindesk-indices/2026/05/11/coindesk-20-performance-update-sui-surges-25-over-weekend",
+      "published_at": "Mon, 11 May 2026 13:17:36 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Swiss central bank bitcoin reserve push fails over signature shortfall",
-      "url": "https://www.coindesk.com/business/2026/05/09/swiss-central-bank-bitcoin-reserve-push-fails-over-signature-shortfall",
-      "published_at": "Sat, 09 May 2026 15:28:09 +0000",
+      "title": "Tom Lee's Bitmine slows down ether purchases after already buying 1 million tokens this year",
+      "url": "https://www.coindesk.com/business/2026/05/11/tom-lee-s-bitmine-slows-down-ether-purchases-after-already-buying-1-million-tokens-this-year",
+      "published_at": "Mon, 11 May 2026 12:56:58 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "CME is set to let traders bet on bitcoin volatility, not just price",
-      "url": "https://www.coindesk.com/markets/2026/05/09/you-ll-soon-be-able-to-bet-on-bitcoin-volatility-not-just-price-on-cme",
-      "published_at": "Sat, 09 May 2026 15:14:52 +0000",
+      "title": "Strategy buys 535 bitcoin for $43 million days after signaling potential BTC sales",
+      "url": "https://www.coindesk.com/markets/2026/05/11/strategy-buys-535-bitcoin-for-usd43-million-days-after-signaling-potential-btc-sales",
+      "published_at": "Mon, 11 May 2026 12:17:04 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "How DeFi is changing the financial landscape for Latin Americans",
-      "url": "https://www.coindesk.com/opinion/2026/05/09/how-defi-is-changing-the-financial-landscape-for-latin-americans",
-      "published_at": "Sat, 09 May 2026 14:30:00 +0000",
+      "title": "Ronin set to transition to Ethereum layer 2 from independent sidechain",
+      "url": "https://www.coindesk.com/tech/2026/05/11/ronin-set-to-transition-to-ethereum-layer-2-from-independent-sidechain",
+      "published_at": "Mon, 11 May 2026 12:11:28 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
