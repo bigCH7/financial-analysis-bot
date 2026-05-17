@@ -1,7 +1,28 @@
 {
-  "generated_at": "2026-05-16 16:05 UTC",
+  "generated_at": "2026-05-17 16:06 UTC",
   "count": 55,
   "items": [
+    {
+      "title": "DeFi's new front: VerifiedX bets bitcoin's next chapter is programmable, private",
+      "link": "https://www.coindesk.com/tech/2026/05/17/defi-s-new-front-verifiedx-bets-bitcoin-s-next-chapter-is-programmable-private",
+      "pub_date": "Sun, 17 May 2026 12:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Japan's SBI Securities, Rakuten Securities plan to offer crypto investment trusts",
+      "link": "https://www.coindesk.com/business/2026/05/17/japan-s-sbi-securities-rakuten-securities-plan-to-offer-crypto-investment-trusts",
+      "pub_date": "Sun, 17 May 2026 11:41:31 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "A Russian stablecoin built to dodge sanctions says it can survive even if they're lifted",
+      "link": "https://www.coindesk.com/policy/2026/05/24/a-russian-stablecoin-built-to-dodge-sanctions-says-it-can-survive-even-if-they-re-lifted",
+      "pub_date": "Sun, 17 May 2026 08:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
     {
       "title": "Jump Crypto\u2019s \u2018Firedancer\u2019 is taking a slow and steady approach to its long-awaited Solana infrastructure rollout",
       "link": "https://www.coindesk.com/tech/2026/05/16/jump-crypto-s-firedancer-is-taking-a-slow-and-steady-approach-to-its-long-awaited-solana-infrastructure-rollout",
@@ -24,7 +45,7 @@
       "fetch_source": "live"
     },
     {
-      "title": "XRP beat bitcoin gains as CLARITY Act advanced, but a real bullrun still needs Congress",
+      "title": "XRP beat bitcoin gains as Clarity Act advanced, but a real bullrun still needs Congress",
       "link": "https://www.coindesk.com/markets/2026/05/15/xrp-beat-bitcoin-gains-as-clarity-act-advanced-but-a-real-bullrun-still-needs-congress",
       "pub_date": "Sat, 16 May 2026 11:30:00 +0000",
       "source": "CoinDesk",
@@ -38,7 +59,7 @@
       "fetch_source": "live"
     },
     {
-      "title": "Bhutan \u2018doesn\u2019t recall\u2019 selling any bitcoin, disputing widely-tracked $1 billion BTC drawdown",
+      "title": "Bhutan \u2018doesn\u2019t recall\u2019 selling any bitcoin, disputing widely tracked $1 billion BTC drawdown",
       "link": "https://www.coindesk.com/markets/2026/05/16/bhutan-doesn-t-recall-selling-any-bitcoin-disputing-widely-tracked-usd1-billion-btc-drawdown",
       "pub_date": "Sat, 16 May 2026 02:30:00 +0000",
       "source": "CoinDesk",
@@ -157,37 +178,72 @@
       "fetch_source": "live"
     },
     {
-      "title": "Hyperliquid leads 24-hour gains as altcoins pace bitcoin",
-      "link": "https://www.coindesk.com/markets/2026/05/15/hyperliquid-leads-24-hour-gains-as-altcoins-pace-bitcoin",
-      "pub_date": "Fri, 15 May 2026 10:58:19 +0000",
-      "source": "CoinDesk",
+      "title": "Here\u2019s what happened in crypto today",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sun, 17 May 2026 14:00:00 +0000",
+      "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Hana Bank to acquire $670 million stake in Upbit operator Dunamu",
-      "link": "https://www.coindesk.com/business/2026/05/15/hana-bank-to-acquire-usd670-million-stake-in-upbit-operator-dunamu",
-      "pub_date": "Fri, 15 May 2026 10:24:37 +0000",
-      "source": "CoinDesk",
+      "title": "SBI, Rakuten, Nomura line up to launch crypto investment trusts: Report",
+      "link": "https://cointelegraph.com/news/sbi-rakuten-nomura-line-up-to-launch-crypto-investment-trusts-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sun, 17 May 2026 10:51:22 +0000",
+      "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Thorchain halts trading after $10 million cross-chain exploit, RUNE token drops 12%",
-      "link": "https://www.coindesk.com/tech/2026/05/15/thorchain-halts-trading-after-usd10-million-cross-chain-exploit-rune-token-drops-12",
-      "pub_date": "Fri, 15 May 2026 10:21:12 +0000",
-      "source": "CoinDesk",
+      "title": "Bitcoin slides below $79K on macro fears: Can fixed-income outflows save it?",
+      "link": "https://cointelegraph.com/markets/bitcoin-slides-below-79k-macro-fears-can-fixed-income-outflows-save-it?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sun, 17 May 2026 08:50:02 +0000",
+      "source": "Cointelegraph",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Italy\u2019s largest bank more than doubles crypto holdings to $235M in Q1: Report",
+      "link": "https://cointelegraph.com/news/italys-largest-bank-more-than-doubles-crypto-holdings-to-235m-in-q1-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sun, 17 May 2026 08:31:02 +0000",
+      "source": "Cointelegraph",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Michael Saylor floated Bitcoin sales idea to avoid 'impairing' the asset",
+      "link": "https://cointelegraph.com/news/strategy-mstr-michael-saylor-bitcoin-sell-statement-btc?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sun, 17 May 2026 05:27:23 +0000",
+      "source": "Cointelegraph",
+      "fetch_source": "live"
+    },
+    {
+      "title": "US CLARITY Act will be a \u2018boon for domestic innovation\u2019: A16z",
+      "link": "https://cointelegraph.com/news/us-clarity-act-will-be-a-boon-for-domestic-innovation-a16z?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sun, 17 May 2026 01:09:05 +0000",
+      "source": "Cointelegraph",
+      "fetch_source": "live"
+    },
+    {
+      "title": "STRC preferred stock investors are mispricing major 'dislocation' risk: Analyst",
+      "link": "https://cointelegraph.com/news/strc-preferred-investors-misprice-dislocation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sat, 16 May 2026 22:50:56 +0000",
+      "source": "Cointelegraph",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Strategy to repurchase $1.5B of 2029 convertible notes",
+      "link": "https://cointelegraph.com/news/strategy-repurchase-15b-2029-convertible-notes?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sat, 16 May 2026 19:03:08 +0000",
+      "source": "Cointelegraph",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Bitcoin analysis sees 'bear trap' as BTC price passes two-week lows under $78K",
+      "link": "https://cointelegraph.com/markets/bitcoin-analysis-bear-trap-btc-price-passes-two-week-lows-under-78k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sat, 16 May 2026 17:07:39 +0000",
+      "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
       "title": "OpenAI partners with Malta to give all citizens free ChatGPT Plus access",
       "link": "https://cointelegraph.com/news/openai-partners-with-malta-to-give-all-citizens-free-chatgpt-plus-access?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "pub_date": "Sat, 16 May 2026 14:12:55 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Here\u2019s what happened in crypto today",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Sat, 16 May 2026 14:12:49 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
@@ -223,62 +279,6 @@
       "title": "House committee leaders urge Trump to nominate CFTC members, citing CLARITY Act",
       "link": "https://cointelegraph.com/news/house-committee-nominate-cftc-commissioners-clarity-act?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "pub_date": "Fri, 15 May 2026 23:10:35 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitcoin Depot filing casts doubt on company\u2019s future amid lawsuits",
-      "link": "https://cointelegraph.com/news/bitcoin-depot-future-legal-judgments-litigation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 15 May 2026 22:17:38 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "ICE, CME press US regulators to 'rein in' Hyperliquid energy trading: Report",
-      "link": "https://cointelegraph.com/news/ice-cme-press-us-regulators-rein-hyperliquid-dex?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 15 May 2026 21:42:18 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Solayer launches Visa-compatible card for USDC payments",
-      "link": "https://cointelegraph.com/news/solayer-launches-visa-compatible-card-for-usdc-payments?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 15 May 2026 21:11:19 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "US law firm files motion requesting redistribution of $344M USDt linked to Iran",
-      "link": "https://cointelegraph.com/news/us-law-firm-motion-redistribution-344m-usdt-iran?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 15 May 2026 18:41:57 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Price predictions 5/15: BTC, ETH, BNB, XRP, SOL, DOGE, HYPE, ADA, ZEC, BCH",
-      "link": "https://cointelegraph.com/markets/price-predictions-515-btc-eth-bnb-xrp-sol-doge-hype-ada-zec-bch?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 15 May 2026 18:09:38 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitwise launches US-listed Hyperliquid fund with staking rewards",
-      "link": "https://cointelegraph.com/news/bitwise-asset-management-us-listed-hyperliquid-fund-staking-reward?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 15 May 2026 17:56:47 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Myanmar\u2019s military government proposes life in prison for crypto scammers",
-      "link": "https://cointelegraph.com/news/myanmar-government-life-death-crypto-scammers?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 15 May 2026 17:08:51 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Ethereum analysts see \u2018downside risks\u2019 as bears eye 20% ETH price drop",
-      "link": "https://cointelegraph.com/markets/ethereum-analysts-see-downside-risks-bears-20-eth-price-drop?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 15 May 2026 15:55:05 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     }
