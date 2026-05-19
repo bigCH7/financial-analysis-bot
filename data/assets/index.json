@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-18T17:37:10.103267+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-05-18 17:28 UTC_",
+  "generated_at": "2026-05-19T17:45:26.561200+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-05-19 17:37 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,10 +9,10 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 76560.0,
+        "current_usd": 76859.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": -6.32,
-        "change_30d_pct": 1.1
+        "change_7d_pct": -4.5,
+        "change_30d_pct": 4.07
       },
       "indicators": {
         "trend": "DOWNTREND",
@@ -23,9 +23,9 @@
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
         "summary_line": "Fair - Weak growth profile - Elevated regulatory risk.",
-        "score": 57.8
+        "score": 55.5
       },
-      "updated_at": "2026-05-18T17:37:10.101052+00:00",
+      "updated_at": "2026-05-19T17:45:26.558894+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,23 +37,23 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 2104.0,
+        "current_usd": 2116.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": -10.08,
-        "change_30d_pct": -10.51
+        "change_7d_pct": -6.99,
+        "change_30d_pct": -6.59
       },
       "indicators": {
         "trend": "DOWNTREND",
-        "momentum": "STRONG",
+        "momentum": "WEAK",
         "volatility": "NORMAL"
       },
       "valuation": {
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
         "summary_line": "Fair - Balanced growth profile - Elevated regulatory risk.",
-        "score": 57.1
+        "score": 55.1
       },
-      "updated_at": "2026-05-18T17:37:10.101789+00:00",
+      "updated_at": "2026-05-19T17:45:26.559648+00:00",
       "source": {
         "short_term": "live"
       }
@@ -65,8 +65,8 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=spy",
       "price": {
-        "current_usd": 736.9,
-        "change_24h_pct": -0.3960369274022546,
+        "current_usd": 736.93,
+        "change_24h_pct": 0.2926045891287199,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-05-18T17:37:10.102091+00:00",
+      "updated_at": "2026-05-19T17:45:26.559968+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -93,13 +93,13 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=qqq",
       "price": {
-        "current_usd": 703.09,
-        "change_24h_pct": -1.1875649998594473,
+        "current_usd": 705.485,
+        "change_24h_pct": 0.8109343964790572,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
       "indicators": {
-        "trend": "DOWNTREND",
+        "trend": "SIDEWAYS",
         "momentum": "N/A",
         "volatility": "N/A"
       },
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-05-18T17:37:10.102327+00:00",
+      "updated_at": "2026-05-19T17:45:26.560225+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -121,64 +121,8 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=nvda",
       "price": {
-        "current_usd": 221.0314,
-        "change_24h_pct": -3.8304000696151697,
-        "change_7d_pct": null,
-        "change_30d_pct": null
-      },
-      "indicators": {
-        "trend": "DOWNTREND",
-        "momentum": "N/A",
-        "volatility": "N/A"
-      },
-      "valuation": {
-        "verdict": "Insufficient data",
-        "band": "fair",
-        "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
-        "score": null
-      },
-      "updated_at": "2026-05-18T17:37:10.102581+00:00",
-      "source": {
-        "short_term": "stooq_live"
-      }
-    },
-    {
-      "asset": "gold",
-      "name": "Gold Futures",
-      "symbol": "GC=F",
-      "market_type": "traditional",
-      "details_page": "asset.html?asset=gold",
-      "price": {
-        "current_usd": 4550.26,
-        "change_24h_pct": 0.39693133904201705,
-        "change_7d_pct": null,
-        "change_30d_pct": null
-      },
-      "indicators": {
-        "trend": "SIDEWAYS",
-        "momentum": "N/A",
-        "volatility": "N/A"
-      },
-      "valuation": {
-        "verdict": "Insufficient data",
-        "band": "fair",
-        "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
-        "score": null
-      },
-      "updated_at": "2026-05-18T17:37:10.102806+00:00",
-      "source": {
-        "short_term": "stooq_live"
-      }
-    },
-    {
-      "asset": "oil",
-      "name": "Crude Oil Futures",
-      "symbol": "CL=F",
-      "market_type": "traditional",
-      "details_page": "asset.html?asset=oil",
-      "price": {
-        "current_usd": 102.9,
-        "change_24h_pct": 1.1401611952034596,
+        "current_usd": 223.41,
+        "change_24h_pct": 1.7257080411620107,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
@@ -193,7 +137,63 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-05-18T17:37:10.103046+00:00",
+      "updated_at": "2026-05-19T17:45:26.560478+00:00",
+      "source": {
+        "short_term": "stooq_live"
+      }
+    },
+    {
+      "asset": "gold",
+      "name": "Gold Futures",
+      "symbol": "GC=F",
+      "market_type": "traditional",
+      "details_page": "asset.html?asset=gold",
+      "price": {
+        "current_usd": 4504.73,
+        "change_24h_pct": -1.4161472740642167,
+        "change_7d_pct": null,
+        "change_30d_pct": null
+      },
+      "indicators": {
+        "trend": "DOWNTREND",
+        "momentum": "N/A",
+        "volatility": "N/A"
+      },
+      "valuation": {
+        "verdict": "Insufficient data",
+        "band": "fair",
+        "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
+        "score": null
+      },
+      "updated_at": "2026-05-19T17:45:26.560708+00:00",
+      "source": {
+        "short_term": "stooq_live"
+      }
+    },
+    {
+      "asset": "oil",
+      "name": "Crude Oil Futures",
+      "symbol": "CL=F",
+      "market_type": "traditional",
+      "details_page": "asset.html?asset=oil",
+      "price": {
+        "current_usd": 103.5,
+        "change_24h_pct": 1.2026987386330346,
+        "change_7d_pct": null,
+        "change_30d_pct": null
+      },
+      "indicators": {
+        "trend": "UPTREND",
+        "momentum": "N/A",
+        "volatility": "N/A"
+      },
+      "valuation": {
+        "verdict": "Insufficient data",
+        "band": "fair",
+        "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
+        "score": null
+      },
+      "updated_at": "2026-05-19T17:45:26.560969+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -201,72 +201,72 @@
   ],
   "overview_news": [
     {
-      "title": "Solana is shedding its memecoin reputation as big banks move billions into its ecosystem",
-      "url": "https://www.coindesk.com/markets/2026/05/18/solana-is-shedding-its-memecoin-reputation-as-big-banks-move-billions-into-its-ecosystem",
-      "published_at": "Mon, 18 May 2026 17:35:27 +0000",
+      "title": "The SEC wants to let newly public companies raise cash instantly in its biggest rule change in decades",
+      "url": "https://www.coindesk.com/markets/2026/05/19/the-sec-wants-to-let-newly-public-companies-raise-cash-instantly-in-its-biggest-rule-change-in-decades",
+      "published_at": "Tue, 19 May 2026 17:04:07 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "The Ethereum Foundation is facing a wave of high-profile departures as its internal shakeup deepens",
-      "url": "https://www.coindesk.com/tech/2026/05/18/the-ethereum-foundation-is-facing-a-wave-of-high-profile-departures-as-its-internal-shakeup-deepens",
-      "published_at": "Mon, 18 May 2026 17:34:36 +0000",
+      "title": "The U.S. can\u2019t lose the bitcoin race to China",
+      "url": "https://www.coindesk.com/opinion/2026/05/19/the-u-s-can-t-lose-the-bitcoin-race-to-china",
+      "published_at": "Tue, 19 May 2026 16:36:30 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Mike Novogratz\u2019s Galaxy receives New York BitLicense for institutional crypto push",
-      "url": "https://www.coindesk.com/business/2026/05/18/mike-novogratz-s-galaxy-receives-new-york-bitlicense-for-institutional-crypto-push",
-      "published_at": "Mon, 18 May 2026 17:01:32 +0000",
+      "title": "\u2018What's happening at the EF?\u2019 Ethereum community looking for answers after high-profile departures",
+      "url": "https://www.coindesk.com/tech/2026/05/19/what-s-happening-at-the-ef-ethereum-community-looking-for-answers-after-high-profile-departures",
+      "published_at": "Tue, 19 May 2026 15:45:26 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Stripe-backed Tempo taps $7.5 billion DeFi lender Morpho to expand beyond payments",
-      "url": "https://www.coindesk.com/business/2026/05/18/stripe-backed-tempo-taps-usd7-5-billion-defi-lender-morpho-to-expand-beyond-payments",
-      "published_at": "Mon, 18 May 2026 16:27:32 +0000",
+      "title": "Former BNY exec launches NUVA, bets tokenization will remake Wall Street",
+      "url": "https://www.coindesk.com/news-analysis/2026/05/19/former-bny-exec-launches-nuva-bets-tokenization-will-remake-wall-street",
+      "published_at": "Tue, 19 May 2026 15:14:30 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "HIVE buys $58 million Toronto plot for AI facility; shares climb",
-      "url": "https://www.coindesk.com/business/2026/05/18/hive-buys-usd58-million-toronto-plot-for-ai-facility-shares-climb",
-      "published_at": "Mon, 18 May 2026 15:32:57 +0000",
+      "title": "Senator Elizabeth Warren accuses U.S. regulator of approving unqualified crypto banks",
+      "url": "https://www.coindesk.com/policy/2026/05/19/senator-elizabeth-warren-accuses-u-s-regulator-of-approving-unqualified-crypto-banks",
+      "published_at": "Tue, 19 May 2026 15:04:51 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Ex-OpenAI's Leopold Aschenbrenner bets big on crypto miners for his $13.6 billion AI play",
-      "url": "https://www.coindesk.com/markets/2026/05/18/ex-openai-s-leopold-aschenbrenner-bets-big-on-crypto-miners-for-his-usd13-6b-ai-play",
-      "published_at": "Mon, 18 May 2026 15:07:39 +0000",
+      "title": "21Shares says Hyperliquid ETF demand shows appetite for 24/7 trading",
+      "url": "https://www.coindesk.com/news-analysis/2026/05/19/21shares-says-hyperliquid-etf-demand-shows-appetite-for-24-7-trading",
+      "published_at": "Tue, 19 May 2026 15:01:23 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Live markets: Bitcoin gives up all of May's gains, slipping below $77,000",
-      "url": "https://www.coindesk.com/markets/2026/05/18/live-markets-crypto-adds-to-last-week-s-declines-with-bitcoin-slipping-below-usd77-000",
-      "published_at": "Mon, 18 May 2026 14:26:44 +0000",
+      "title": "Polymarket unlocks $5 trillion private market for retail traders, previously reserved for elites",
+      "url": "https://www.coindesk.com/markets/2026/05/19/polymarket-unlocks-usd5-trillion-private-market-for-retail-traders-previously-reserved-for-elites",
+      "published_at": "Tue, 19 May 2026 14:51:28 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Vitalik Buterin says AI 'formal verification' could actually make crypto much more secure",
-      "url": "https://www.coindesk.com/tech/2026/05/18/vitalik-buterin-says-ai-formal-verification-could-actually-make-crypto-much-more-secure",
-      "published_at": "Mon, 18 May 2026 14:19:58 +0000",
+      "title": "Crypto IPO boom stalls as AI frenzy reshapes tech markets, says Fundstrat exec",
+      "url": "https://www.coindesk.com/news-analysis/2026/05/19/crypto-ipo-boom-stalls-as-ai-frenzy-reshapes-tech-markets",
+      "published_at": "Tue, 19 May 2026 14:40:48 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Kraken parent Payward's Q1 revenue climbs despite crypto market slump",
-      "url": "https://www.coindesk.com/business/2026/05/18/kraken-parent-payward-s-q1-revenue-climbs-despite-crypto-market-slump",
-      "published_at": "Mon, 18 May 2026 13:41:24 +0000",
+      "title": "Live markets: Bitcoin gives up $77,000 as interest rates continue surge, stocks continue slump",
+      "url": "https://www.coindesk.com/tech/2026/05/19/live-markets-bitcoin-hangs-near-usd77-000-as-interest-rates-continue-to-surge",
+      "published_at": "Tue, 19 May 2026 14:14:59 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "XRP slips 2% as profit-taking knocks token back below $1.40",
-      "url": "https://www.coindesk.com/markets/2026/05/18/xrp-slips-2-as-profit-taking-knocks-token-back-below-usd1-40",
-      "published_at": "Mon, 18 May 2026 13:35:00 +0000",
+      "title": "JPMorgan says ether and altcoins won't catch up to bitcoin without a major network boom",
+      "url": "https://www.coindesk.com/markets/2026/05/19/jpmorgan-says-ether-and-altcoins-won-t-catch-up-to-bitcoin-without-a-major-network-boom",
+      "published_at": "Tue, 19 May 2026 13:59:46 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
