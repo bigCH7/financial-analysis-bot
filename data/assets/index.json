@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-21T17:38:35.706781+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-05-21 17:30 UTC_",
+  "generated_at": "2026-05-22T17:15:43.808894+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-05-22 17:07 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,23 +9,23 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 77901.0,
+        "current_usd": 76869.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": -3.89,
-        "change_30d_pct": 2.03
+        "change_7d_pct": -2.78,
+        "change_30d_pct": -1.7
       },
       "indicators": {
-        "trend": "UPTREND",
+        "trend": "DOWNTREND",
         "momentum": "WEAK",
         "volatility": "NORMAL"
       },
       "valuation": {
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
-        "summary_line": "Fair - Weak growth profile - Moderate regulatory risk.",
-        "score": 53.9
+        "summary_line": "Fair - Weak growth profile - Elevated regulatory risk.",
+        "score": 53.6
       },
-      "updated_at": "2026-05-21T17:38:35.704651+00:00",
+      "updated_at": "2026-05-22T17:15:43.806577+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,13 +37,13 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 2146.0,
+        "current_usd": 2123.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": -5.93,
-        "change_30d_pct": -7.79
+        "change_7d_pct": -4.55,
+        "change_30d_pct": -10.74
       },
       "indicators": {
-        "trend": "UPTREND",
+        "trend": "DOWNTREND",
         "momentum": "WEAK",
         "volatility": "NORMAL"
       },
@@ -51,9 +51,9 @@
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
         "summary_line": "Fair - Balanced growth profile - Elevated regulatory risk.",
-        "score": 53.8
+        "score": 52.5
       },
-      "updated_at": "2026-05-21T17:38:35.705408+00:00",
+      "updated_at": "2026-05-22T17:15:43.807338+00:00",
       "source": {
         "short_term": "live"
       }
@@ -65,8 +65,8 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=spy",
       "price": {
-        "current_usd": 742.07,
-        "change_24h_pct": 0.4643669446550591,
+        "current_usd": 747.305,
+        "change_24h_pct": 0.1427154802744246,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-05-21T17:38:35.705682+00:00",
+      "updated_at": "2026-05-22T17:15:43.807669+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -93,8 +93,8 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=qqq",
       "price": {
-        "current_usd": 713.83,
-        "change_24h_pct": 0.682661250511285,
+        "current_usd": 720.365,
+        "change_24h_pct": 0.3196067235784694,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-05-21T17:38:35.705897+00:00",
+      "updated_at": "2026-05-22T17:15:43.807918+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -121,13 +121,13 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=nvda",
       "price": {
-        "current_usd": 221.99,
-        "change_24h_pct": -0.13495883755453297,
+        "current_usd": 217.13,
+        "change_24h_pct": -1.7084344330568935,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
       "indicators": {
-        "trend": "SIDEWAYS",
+        "trend": "DOWNTREND",
         "momentum": "N/A",
         "volatility": "N/A"
       },
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-05-21T17:38:35.706139+00:00",
+      "updated_at": "2026-05-22T17:15:43.808162+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -149,8 +149,8 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=gold",
       "price": {
-        "current_usd": 4543.21,
-        "change_24h_pct": -0.0796159082261716,
+        "current_usd": 4519.55,
+        "change_24h_pct": -0.5398232425485427,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-05-21T17:38:35.706358+00:00",
+      "updated_at": "2026-05-22T17:15:43.808397+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -177,13 +177,13 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=oil",
       "price": {
-        "current_usd": 98.25,
-        "change_24h_pct": -0.7274931797514372,
+        "current_usd": 96.43,
+        "change_24h_pct": -1.269581242960982,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
       "indicators": {
-        "trend": "SIDEWAYS",
+        "trend": "DOWNTREND",
         "momentum": "N/A",
         "volatility": "N/A"
       },
@@ -193,7 +193,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-05-21T17:38:35.706581+00:00",
+      "updated_at": "2026-05-22T17:15:43.808650+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -201,72 +201,72 @@
   ],
   "overview_news": [
     {
-      "title": "Mark Cuban says he sold most of his Bitcoin after failed hedge narrative 'disappointed' the billionaire",
-      "url": "https://www.coindesk.com/markets/2026/05/21/mark-cuban-says-he-sold-most-of-his-bitcoin-after-failed-hedge-narrative-disappointed-the-billionaire",
-      "published_at": "Thu, 21 May 2026 17:30:16 +0000",
+      "title": "Tom Emmer brushes off law enforcement concerns over Clarity Act",
+      "url": "https://www.coindesk.com/policy/2026/05/22/tom-emmer-brushes-off-law-enforcement-concerns-over-clarity-act",
+      "published_at": "Fri, 22 May 2026 16:30:55 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Ethereum\u2019s identity crisis is deepening after high-profile 'brain drain' frustrates the community",
-      "url": "https://www.coindesk.com/tech/2026/05/21/ethereum-s-identity-crisis-is-deepening-after-high-profile-brain-drain-frustrates-the-community",
-      "published_at": "Thu, 21 May 2026 16:56:33 +0000",
+      "title": "Congress hits Polymarket and Kalshi with a massive insider trading probe",
+      "url": "https://www.coindesk.com/policy/2026/05/22/congress-probes-polymarket-and-kalshi-over-fears-government-employees-are-trading-on-secret-info",
+      "published_at": "Fri, 22 May 2026 15:27:40 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Crypto prediction markets are turning into dangerous national security risks, and Congress wants to ban them",
-      "url": "https://www.coindesk.com/business/2026/05/21/crypto-prediction-markets-are-turning-into-dangerous-national-security-risks-and-congress-wants-to-ban-them",
-      "published_at": "Thu, 21 May 2026 15:38:47 +0000",
+      "title": "The agentic CFO in your pocket",
+      "url": "https://www.coindesk.com/opinion/2026/05/22/the-agentic-cfo-in-your-pocket",
+      "published_at": "Fri, 22 May 2026 14:57:29 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "U.S. CFTC secures deal with National Hockey League on prediction market safeguards",
-      "url": "https://www.coindesk.com/policy/2026/05/21/u-s-cftc-secures-deal-with-national-hockey-league-on-prediction-market-safeguards",
-      "published_at": "Thu, 21 May 2026 15:12:33 +0000",
+      "title": "Live markets: Bitcoin continues holding pattern near $77,000 as Kevin Warsh takes over at Fed",
+      "url": "https://www.coindesk.com/tech/2026/05/22/live-markets-bitcoin-continues-holding-pattern-near-usd77-000-ahead-of-holiday-weekend",
+      "published_at": "Fri, 22 May 2026 14:24:04 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Crypto for Advisors: Crypto Products",
-      "url": "https://www.coindesk.com/coindesk-indices/2026/05/20/crypto-for-advisors-crypto-products",
-      "published_at": "Thu, 21 May 2026 15:00:00 +0000",
+      "title": "IREN co-founder says AI\u2019s biggest bottleneck is infrastructure, not chips",
+      "url": "https://www.coindesk.com/markets/2026/05/22/iren-co-founder-says-ai-s-biggest-bottleneck-is-infrastructure-not-chips",
+      "published_at": "Fri, 22 May 2026 13:20:22 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "MoonPay expands into tokenized assets and DeFi markets with new platform for banks",
-      "url": "https://www.coindesk.com/business/2026/05/21/moonpay-expands-into-tokenized-assets-and-defi-markets-with-new-platform-for-banks",
-      "published_at": "Thu, 21 May 2026 14:42:16 +0000",
+      "title": "CoinDesk 20 performance update: NEAR surges 19.4% as index trades flat",
+      "url": "https://www.coindesk.com/coindesk-indices/2026/05/22/coindesk-20-performance-update-near-surges-19-4-as-index-trades-flat",
+      "published_at": "Fri, 22 May 2026 13:14:46 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Peer-to-peer trading startup Variational raises $50 million for real-world perps in funding round led by Dragonfly",
-      "url": "https://www.coindesk.com/business/2026/05/21/peer-to-peer-trading-startup-variational-raises-usd50-million-for-real-world-perps-in-funding-round-led-by-dragonfly",
-      "published_at": "Thu, 21 May 2026 13:57:00 +0000",
+      "title": "Trump Media moves another $205 million in bitcoin as losses on crypto bet swell to $455 million",
+      "url": "https://www.coindesk.com/markets/2026/05/22/trump-media-moves-another-usd205m-in-bitcoin-as-losses-on-crypto-bet-swell-to-usd455m",
+      "published_at": "Fri, 22 May 2026 13:08:41 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Live markets: yet another Iran peace deal and Mark Cuban sells his bitcoin",
-      "url": "https://www.coindesk.com/markets/2026/05/21/live-markets-bitcoin-s-flat-action-continues-as-spacex-ipo-nvidia-earnings-capture-news-cycle",
-      "published_at": "Thu, 21 May 2026 13:51:11 +0000",
+      "title": "Tom Lee says trillions in tech IPO supply won't crash the S&P 500",
+      "url": "https://www.coindesk.com/markets/2026/05/22/tom-lee-says-trillions-in-tech-ipo-supply-won-t-crash-the-s-and-p-500",
+      "published_at": "Fri, 22 May 2026 12:57:37 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Blockchain.com files with SEC for U.S. IPO",
-      "url": "https://www.coindesk.com/business/2026/05/21/blockchain-com-files-confidential-paperwork-with-sec-for-u-s-ipo",
-      "published_at": "Thu, 21 May 2026 13:50:27 +0000",
+      "title": "OKX and ICE are bringing 'never-expiring' oil futures to 120 million crypto users",
+      "url": "https://www.coindesk.com/business/2026/05/22/okx-and-ice-are-bringing-never-expiring-oil-futures-to-120-million-crypto-users",
+      "published_at": "Fri, 22 May 2026 12:48:04 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin's long-term holder supply approaches record high, breaking multi-year downtrend",
-      "url": "https://www.coindesk.com/markets/2026/05/21/bitcoin-s-long-term-holder-supply-approaches-record-high-breaking-multi-year-downtrend",
-      "published_at": "Thu, 21 May 2026 13:23:00 +0000",
+      "title": "Bitcoin left behind in the geopolitical melee",
+      "url": "https://www.coindesk.com/daybook-us/2026/05/22/bitcoin-left-behind-in-the-geopolitical-melee",
+      "published_at": "Fri, 22 May 2026 11:31:30 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
