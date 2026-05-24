@@ -4,7 +4,7 @@
   "symbol": "CL=F",
   "market_type": "traditional",
   "details_page": "asset.html?asset=oil",
-  "updated_at": "2026-05-23T16:09:30.034880+00:00",
+  "updated_at": "2026-05-24T16:08:30.751969+00:00",
   "about": {
     "what_it_is": "CL=F tracks front-month WTI crude oil futures pricing.",
     "what_it_represents": "It represents global energy demand, supply constraints, and geopolitical risk premiums.",
@@ -13,7 +13,7 @@
   },
   "source": {
     "short_term": "stooq_live",
-    "news_generated_at": "2026-05-23 16:08 UTC"
+    "news_generated_at": "2026-05-24 16:07 UTC"
   },
   "price": {
     "current_usd": 96.6,
@@ -40,13 +40,6 @@
       "url": "https://www.coindesk.com/business/2026/05/22/okx-and-ice-are-bringing-never-expiring-oil-futures-to-120-million-crypto-users",
       "published_at": "Fri, 22 May 2026 12:48:04 +0000",
       "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "NYSE owner ICE to launch oil-linked futures with OKX",
-      "url": "https://cointelegraph.com/news/nyse-owner-ice-oil-perpetual-futures-okx?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "Fri, 22 May 2026 14:42:45 +0000",
-      "source": "Cointelegraph",
       "fetch_source": "live"
     }
   ]
