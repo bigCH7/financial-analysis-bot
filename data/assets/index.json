@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-24T16:08:30.752208+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-05-24 16:00 UTC_",
+  "generated_at": "2026-05-25T17:14:30.896149+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-05-25 17:06 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,10 +9,10 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 76482.0,
+        "current_usd": 77663.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": -1.22,
-        "change_30d_pct": -1.24
+        "change_7d_pct": 0.92,
+        "change_30d_pct": 0.06
       },
       "indicators": {
         "trend": "UPTREND",
@@ -22,10 +22,10 @@
       "valuation": {
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
-        "summary_line": "Fair - Weak growth profile - Elevated regulatory risk.",
+        "summary_line": "Fair - Weak growth profile - Moderate regulatory risk.",
         "score": 53.3
       },
-      "updated_at": "2026-05-24T16:08:30.749833+00:00",
+      "updated_at": "2026-05-25T17:14:30.893916+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,10 +37,10 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 2097.0,
+        "current_usd": 2134.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": -1.44,
-        "change_30d_pct": -9.42
+        "change_7d_pct": 0.26,
+        "change_30d_pct": -7.98
       },
       "indicators": {
         "trend": "UPTREND",
@@ -51,9 +51,9 @@
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
         "summary_line": "Fair - Balanced growth profile - Elevated regulatory risk.",
-        "score": 53.9
+        "score": 52.2
       },
-      "updated_at": "2026-05-24T16:08:30.750568+00:00",
+      "updated_at": "2026-05-25T17:14:30.894728+00:00",
       "source": {
         "short_term": "live"
       }
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-05-24T16:08:30.750928+00:00",
+      "updated_at": "2026-05-25T17:14:30.895017+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-05-24T16:08:30.751192+00:00",
+      "updated_at": "2026-05-25T17:14:30.895231+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-05-24T16:08:30.751453+00:00",
+      "updated_at": "2026-05-25T17:14:30.895511+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -149,8 +149,8 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=gold",
       "price": {
-        "current_usd": 4508.32,
-        "change_24h_pct": -0.7869579760919732,
+        "current_usd": 4574.54,
+        "change_24h_pct": 0.7053384700055121,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-05-24T16:08:30.751705+00:00",
+      "updated_at": "2026-05-25T17:14:30.895718+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -177,8 +177,8 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=oil",
       "price": {
-        "current_usd": 96.6,
-        "change_24h_pct": -1.4285714285714346,
+        "current_usd": 89.98,
+        "change_24h_pct": -2.745352356247288,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
@@ -193,7 +193,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-05-24T16:08:30.751969+00:00",
+      "updated_at": "2026-05-25T17:14:30.895932+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -201,72 +201,72 @@
   ],
   "overview_news": [
     {
-      "title": "A massive $1 trillion hidden market is waiting to be unlocked in bitcoin, says new report",
-      "url": "https://www.coindesk.com/business/2026/05/22/ledn",
-      "published_at": "Sun, 24 May 2026 15:00:00 +0000",
+      "title": "Indonesia blocks Polymarket, calling prediction market online gambling in disguise",
+      "url": "https://www.coindesk.com/policy/2026/05/25/indonesia-blocks-polymarket-calling-prediction-market-online-gambling-in-disguise",
+      "published_at": "Mon, 25 May 2026 17:04:49 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "AI is speeding up the quantum threat to crypto, security experts warn",
-      "url": "https://www.coindesk.com/tech/2026/05/24/ai-is-speeding-up-the-quantum-threat-to-crypto-security-experts-warn",
-      "published_at": "Sun, 24 May 2026 14:00:00 +0000",
+      "title": "Bitcoin, crypto prices tick up as US-Iran peace deal odds climb",
+      "url": "https://www.coindesk.com/markets/2026/05/25/bitcoin-crypto-prices-tick-up-as-us-iran-peace-deal-odds-climb",
+      "published_at": "Mon, 25 May 2026 16:46:45 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Crypto rails are becoming the default payment layer for AI agents, report says",
-      "url": "https://www.coindesk.com/business/2026/05/21/crypto-rails-are-becoming-the-default-payment-layer-for-ai-agents-report-says",
-      "published_at": "Sun, 24 May 2026 13:00:00 +0000",
+      "title": "Buterin says Ethereum Foundation will shrink, sell less ETH, and focus on 'CROPS'",
+      "url": "https://www.coindesk.com/web3/2026/05/25/buterin-says-ethereum-foundation-will-shrink-sell-less-eth-and-focus-on-crops",
+      "published_at": "Mon, 25 May 2026 15:51:37 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin heads higher as President Trump announces Iran peace agreement",
-      "url": "https://www.coindesk.com/markets/2026/05/23/bitcoin-heads-higher-as-president-trump-announces-iran-peace-agreement",
-      "published_at": "Sat, 23 May 2026 20:52:21 +0000",
+      "title": "PCE, jobless claims and housing data test Fed cut hopes: Crypto Week Ahead",
+      "url": "https://www.coindesk.com/markets/2026/05/25/pce-jobless-claims-and-housing-data-test-fed-cut-hopes-crypto-week-ahead",
+      "published_at": "Mon, 25 May 2026 12:53:49 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin is ready to beat stocks and bonds again after underperformance against Wall Street",
-      "url": "https://www.coindesk.com/markets/2026/05/23/bitcoin-is-ready-to-beat-stocks-and-bonds-again-after-underperformance-against-wall-street",
-      "published_at": "Sat, 23 May 2026 19:00:00 +0000",
+      "title": "Prometheum bets Wall Street distribution is the missing link for tokenized securities",
+      "url": "https://www.coindesk.com/business/2026/05/25/prometheum-bets-wall-street-distribution-is-the-missing-link-for-tokenized-securities",
+      "published_at": "Mon, 25 May 2026 12:00:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Crypto trader sees Hyperliquid, AI tokens leading next altcoin rally",
-      "url": "https://www.coindesk.com/markets/2026/05/23/crypto-trader-sees-hyperliquid-ai-tokens-leading-next-altcoin-rally",
-      "published_at": "Sat, 23 May 2026 14:19:18 +0000",
+      "title": "HYPE funds attract millions as investors dump bitcoin and ether ETFs",
+      "url": "https://www.coindesk.com/markets/2026/05/25/hype-funds-attract-millions-as-investors-dump-bitcoin-and-ether-etfs",
+      "published_at": "Mon, 25 May 2026 10:28:47 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Clarity Act could spark a boom in crypto \u2018yield-as-a-service\u2019",
-      "url": "https://www.coindesk.com/policy/2026/05/23/clarity-act-could-spark-a-boom-in-crypto-yield-as-a-service",
-      "published_at": "Sat, 23 May 2026 13:00:00 +0000",
+      "title": "Hyperliquid is emerging as a challenger to traditional exchanges and prediction markets, says FalconX",
+      "url": "https://www.coindesk.com/markets/2026/05/25/hyperliquid-is-emerging-as-a-challenger-to-traditional-exchanges-and-prediction-markets-says-falconx",
+      "published_at": "Mon, 25 May 2026 08:09:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin tanks to $74,300 as spot ETFs bleed $2.26 billion in two weeks",
-      "url": "https://www.coindesk.com/markets/2026/05/23/bitcoin-tanks-to-usd74-300-as-spot-etfs-bleed-usd2-26-billion-in-two-weeks",
-      "published_at": "Sat, 23 May 2026 10:19:40 +0000",
+      "title": "Bitcoin trades above $77,000 as oil's 5% slide pushes Asian equities higher",
+      "url": "https://www.coindesk.com/markets/2026/05/25/bitcoin-trades-above-usd77-000-as-oil-s-5-slide-pushes-asian-equities-higher",
+      "published_at": "Mon, 25 May 2026 07:11:57 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "F2Pool founder who controls 11% of bitcoin's hashrate to lead first SpaceX mission to Mars",
-      "url": "https://www.coindesk.com/business/2026/05/22/f2pool-founder-who-controls-11-of-bitcoin-s-hashrate-to-lead-first-spacex-mission-to-mars",
-      "published_at": "Fri, 22 May 2026 19:47:09 +0000",
+      "title": "Bitcoin options are coming to Nasdaq. Here's what it means for you",
+      "url": "https://www.coindesk.com/markets/2026/05/25/bitcoin-options-are-coming-to-nadaq-here-s-what-it-means-for-you",
+      "published_at": "Mon, 25 May 2026 05:56:43 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Robinhood Crypto COO Tanya Denisova is leaving company amid revenue slowdown",
-      "url": "https://www.coindesk.com/business/2026/05/22/robinhood-crypto-coo-tanya-denisova-is-leaving-company-amid-revenue-slowdown",
-      "published_at": "Fri, 22 May 2026 19:40:15 +0000",
+      "title": "Coinbase does not fear competition from Wall Street, says exchange executive",
+      "url": "https://www.coindesk.com/business/2026/05/24/coinbase-does-not-fear-competition-from-wall-street-says-exchange-executive",
+      "published_at": "Sun, 24 May 2026 20:00:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
