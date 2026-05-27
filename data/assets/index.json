@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-26T18:03:09.577494+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-05-26 17:54 UTC_",
+  "generated_at": "2026-05-27T18:05:09.526926+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-05-27 17:56 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,23 +9,23 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 75839.0,
+        "current_usd": 74764.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": -1.26,
-        "change_30d_pct": -3.57
+        "change_7d_pct": -3.48,
+        "change_30d_pct": -3.36
       },
       "indicators": {
         "trend": "DOWNTREND",
-        "momentum": "STRONG",
+        "momentum": "WEAK",
         "volatility": "NORMAL"
       },
       "valuation": {
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
         "summary_line": "Fair - Weak growth profile - Elevated regulatory risk.",
-        "score": 55.8
+        "score": 55.3
       },
-      "updated_at": "2026-05-26T18:03:09.575403+00:00",
+      "updated_at": "2026-05-27T18:05:09.524514+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,23 +37,23 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 2068.0,
+        "current_usd": 2049.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": -2.09,
-        "change_30d_pct": -12.75
+        "change_7d_pct": -3.69,
+        "change_30d_pct": -10.91
       },
       "indicators": {
         "trend": "DOWNTREND",
-        "momentum": "STRONG",
+        "momentum": "WEAK",
         "volatility": "NORMAL"
       },
       "valuation": {
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
         "summary_line": "Fair - Balanced growth profile - Elevated regulatory risk.",
-        "score": 55.6
+        "score": 53.9
       },
-      "updated_at": "2026-05-26T18:03:09.576149+00:00",
+      "updated_at": "2026-05-27T18:05:09.525342+00:00",
       "source": {
         "short_term": "live"
       }
@@ -65,8 +65,8 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=spy",
       "price": {
-        "current_usd": 749.0,
-        "change_24h_pct": -0.13466487113504844,
+        "current_usd": 749.38,
+        "change_24h_pct": -0.19976560835286428,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-05-26T18:03:09.576415+00:00",
+      "updated_at": "2026-05-27T18:05:09.525644+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -93,8 +93,8 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=qqq",
       "price": {
-        "current_usd": 728.04,
-        "change_24h_pct": 0.28651716348007117,
+        "current_usd": 727.43,
+        "change_24h_pct": -0.7531209495872937,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-05-26T18:03:09.576665+00:00",
+      "updated_at": "2026-05-27T18:05:09.525915+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -121,13 +121,13 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=nvda",
       "price": {
-        "current_usd": 213.437,
-        "change_24h_pct": -1.4329915950863525,
+        "current_usd": 212.515,
+        "change_24h_pct": -0.7495796749486305,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
       "indicators": {
-        "trend": "DOWNTREND",
+        "trend": "SIDEWAYS",
         "momentum": "N/A",
         "volatility": "N/A"
       },
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-05-26T18:03:09.576892+00:00",
+      "updated_at": "2026-05-27T18:05:09.526171+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -149,8 +149,8 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=gold",
       "price": {
-        "current_usd": 4486.05,
-        "change_24h_pct": -1.8834622110094457,
+        "current_usd": 4449.51,
+        "change_24h_pct": -1.946520811663699,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-05-26T18:03:09.577098+00:00",
+      "updated_at": "2026-05-27T18:05:09.526424+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -177,13 +177,13 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=oil",
       "price": {
-        "current_usd": 94.0,
-        "change_24h_pct": 3.274005713030115,
+        "current_usd": 89.41,
+        "change_24h_pct": -4.374331550802147,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
       "indicators": {
-        "trend": "UPTREND",
+        "trend": "DOWNTREND",
         "momentum": "N/A",
         "volatility": "N/A"
       },
@@ -193,7 +193,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-05-26T18:03:09.577298+00:00",
+      "updated_at": "2026-05-27T18:05:09.526667+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -201,72 +201,72 @@
   ],
   "overview_news": [
     {
-      "title": "UK sanctions Huobi and ruble stablecoin issuer in crackdown on Russia crypto networks",
-      "url": "https://www.coindesk.com/business/2026/05/26/uk-sanctions-huobi-and-ruble-stablecoin-issuer-in-crackdown-on-russia-crypto-networks",
-      "published_at": "Tue, 26 May 2026 17:33:35 +0000",
+      "title": "Crypto Long & Short: How the GENIUS Act repriced bitcoin's monetary premium",
+      "url": "https://www.coindesk.com/coindesk-indices/2026/05/27/crypto-long-and-short-how-the-genius-act-repriced-bitcoin-s-monetary-premium",
+      "published_at": "Wed, 27 May 2026 16:00:20 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bermuda, the small island nation with huge crypto ambitions",
-      "url": "https://www.coindesk.com/business/2026/05/26/bermuda-the-small-island-nation-with-huge-crypto-ambitions",
-      "published_at": "Tue, 26 May 2026 16:23:05 +0000",
+      "title": "BIS project finds tokenization could make cross-border payments faster, safer",
+      "url": "https://www.coindesk.com/business/2026/05/27/bis-project-finds-tokenization-could-make-cross-border-payments-faster-safer",
+      "published_at": "Wed, 27 May 2026 15:45:14 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Coinbase\u2019s Base launches AI tool for ChatGPT to manage crypto wallets and DeFi apps",
-      "url": "https://www.coindesk.com/tech/2026/05/26/coinbase-s-base-launches-ai-tool-for-chatgpt-to-manage-crypto-wallets-and-defi-apps",
-      "published_at": "Tue, 26 May 2026 16:00:00 +0000",
+      "title": "Crypto IPOs could create massive $1 trillion market amid tokenization wave, Jefferies says",
+      "url": "https://www.coindesk.com/markets/2026/05/27/crypto-ipos-could-create-massive-usd1-trillion-market-amid-tokenization-wave-jefferies-says",
+      "published_at": "Wed, 27 May 2026 15:35:15 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "XRPL could close its biggest DeFi gap if new AMM amendment passes",
-      "url": "https://www.coindesk.com/tech/2026/05/26/xrpl-could-close-its-biggest-defi-gap-if-new-amm-amendment-passes",
-      "published_at": "Tue, 26 May 2026 15:34:09 +0000",
+      "title": "Block kicks off Cash App\u2019s phased stablecoin roll out to its nearly 60 million users",
+      "url": "https://www.coindesk.com/business/2026/05/27/block-kicks-off-cash-app-s-phased-stablecoin-roll-out-to-its-nearly-60-million-users",
+      "published_at": "Wed, 27 May 2026 14:26:20 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "The Clarity Act won\u2019t lead to adoption without crypto tax reform",
-      "url": "https://www.coindesk.com/opinion/2026/05/26/the-clarity-act-won-t-lead-to-adoption-without-crypto-tax-reform",
-      "published_at": "Tue, 26 May 2026 15:19:18 +0000",
+      "title": "A bipartisan bridge to the future: Why the Senate must finish the job on digital Assets",
+      "url": "https://www.coindesk.com/opinion/2026/05/27/a-bipartisan-bridge-to-the-future-why-the-senate-must-finish-the-job-on-digital-assets",
+      "published_at": "Wed, 27 May 2026 14:18:59 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "TeraWulf jumps 13% on AI data center expansion in Kentucky",
-      "url": "https://www.coindesk.com/markets/2026/05/26/terawulf-jumps-13-on-ai-data-center-expansion-in-kentucky",
-      "published_at": "Tue, 26 May 2026 14:48:36 +0000",
+      "title": "Robinhood is letting AI trade for you so you don't have to keep checking the markets",
+      "url": "https://www.coindesk.com/markets/2026/05/27/robinhood-is-letting-ai-trade-for-you-so-you-don-t-have-to-keep-checking-the-markets",
+      "published_at": "Wed, 27 May 2026 14:12:16 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Live markets: bitcoin on sidelines as markets surge on Iran peace hopes",
-      "url": "https://www.coindesk.com/markets/2026/05/26/live-markets-bitcoin-on-sidelines-as-markets-surge-on-iran-peace-hopes",
-      "published_at": "Tue, 26 May 2026 14:43:53 +0000",
+      "title": "DTCC plans to bring tokenized assets to Stellar in latest Wall Street blockchain push",
+      "url": "https://www.coindesk.com/business/2026/05/27/dtcc-plans-to-bring-tokenized-assets-to-stellar-in-latest-wall-street-blockchain-push",
+      "published_at": "Wed, 27 May 2026 14:03:59 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bitmine made its largest ETH purchase this year despite Tom Lee's slowdown suggestion",
-      "url": "https://www.coindesk.com/business/2026/05/26/bitmine-made-its-largest-eth-purchase-this-year-despite-tom-lee-s-slowdown-suggestion",
-      "published_at": "Tue, 26 May 2026 13:27:51 +0000",
+      "title": "Crypto\u2019s biggest exchanges back push for token disclosure standards as industry courts institutional capital",
+      "url": "https://www.coindesk.com/markets/2026/05/27/crypto-s-biggest-exchanges-back-push-for-token-disclosure-standards-as-industry-courts-institutional-capital",
+      "published_at": "Wed, 27 May 2026 14:00:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "CoinDesk 20 performance update: SUI drops 1.1%, leading index lower",
-      "url": "https://www.coindesk.com/coindesk-indices/2026/05/26/coindesk-20-performance-update-sui-drops-1-1-leading-index-lower",
-      "published_at": "Tue, 26 May 2026 13:18:17 +0000",
+      "title": "Banca Sella gets green light to provide crypto services to customers in Italian first",
+      "url": "https://www.coindesk.com/business/2026/05/27/banca-sella-gets-green-light-to-provide-crypto-services-to-customers-first-in-italy",
+      "published_at": "Wed, 27 May 2026 13:43:55 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Strive acquires 1,109 bitcoin, raising total holdings to 16,500 coins",
-      "url": "https://www.coindesk.com/markets/2026/05/26/strive-acquires-1-109-bitcoin-raising-total-holdings-to-16-500-coins",
-      "published_at": "Tue, 26 May 2026 12:46:02 +0000",
+      "title": "Major crypto exchanges increase transfer scrutiny with HTX over UK sanctions",
+      "url": "https://www.coindesk.com/business/2026/05/27/major-crypto-exchanges-increase-transfer-scrutiny-with-htx-over-uk-sanctions",
+      "published_at": "Wed, 27 May 2026 13:37:42 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
