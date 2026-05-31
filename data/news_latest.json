@@ -1,7 +1,35 @@
 {
-  "generated_at": "2026-05-30 16:11 UTC",
+  "generated_at": "2026-05-31 16:14 UTC",
   "count": 55,
   "items": [
+    {
+      "title": "The institutional edge: moomoo targets Wall Street-grade trading tools for retail crypto investors",
+      "link": "https://www.coindesk.com/business/2026/05/28/the-institutional-edge-moomoo-pushes-to-offer-wall-street-grade-crypto-tools-to-retail-investors",
+      "pub_date": "Sun, 31 May 2026 15:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Bitcoin's wild days are over \u2014 and Trace Mayer says that's a good thing",
+      "link": "https://www.coindesk.com/markets/2026/05/28/dnp-trace-mayer-bitcoin-s-volatility-compression-is-a-sign-of-maturity-not-weakness",
+      "pub_date": "Sun, 31 May 2026 13:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "XRP Ledger's new proposal blocks the flash loan attacks costing DeFi hundreds of millions",
+      "link": "https://www.coindesk.com/tech/2026/05/29/xrp-ledger-s-new-proposal-blocks-the-flash-loan-attacks-costing-defi-hundreds-of-millions",
+      "pub_date": "Sun, 31 May 2026 02:30:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "SEC sues Texas man over $12.3 million alleged crypto scheme built on fake AI trading bots",
+      "link": "https://www.coindesk.com/business/2026/05/30/sec-sues-texas-man-over-usd12-3-million-alleged-crypto-scheme-built-on-fake-ai-trading-bots",
+      "pub_date": "Sat, 30 May 2026 17:27:34 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
     {
       "title": "U.S. says it seized about $1 billion in Iranian crypto as pressure campaign expands",
       "link": "https://www.coindesk.com/business/2026/05/30/u-s-says-it-seized-about-usd1-billion-in-iranian-crypto-as-pressure-campaign-expands",
@@ -150,44 +178,72 @@
       "fetch_source": "live"
     },
     {
-      "title": "Strategy's STRC slips below $99 as Strive captures investor attention",
-      "link": "https://www.coindesk.com/markets/2026/05/29/strategy-s-strc-slips-below-usd99-as-strive-captures-investor-attention",
-      "pub_date": "Fri, 29 May 2026 09:10:49 +0000",
-      "source": "CoinDesk",
+      "title": "Here\u2019s what happened in crypto today",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sun, 31 May 2026 13:10:00 +0000",
+      "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Solana, Sui and Aptos wallet data targeted in TrapDoor package attack",
-      "link": "https://www.coindesk.com/tech/2026/05/29/solana-sui-and-aptos-wallet-data-targeted-in-trapdoor-package-attack",
-      "pub_date": "Fri, 29 May 2026 08:19:42 +0000",
-      "source": "CoinDesk",
+      "title": "Bitcoin price targets $78K as BTC holders defend 'strongest near-term support'",
+      "link": "https://cointelegraph.com/markets/bitcoin-price-rebound-targets-78k-as-short-term-holders-defend-support?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sun, 31 May 2026 12:39:47 +0000",
+      "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "OKX Ventures buys $53 million stake in Korea's Coinone exchange",
-      "link": "https://www.coindesk.com/markets/2026/05/29/okx-ventures-buys-usd53-million-stake-in-korea-s-coinone-exchange",
-      "pub_date": "Fri, 29 May 2026 06:07:27 +0000",
-      "source": "CoinDesk",
+      "title": "Vietnam proposes allowing SMEs to use digital assets as loan collateral",
+      "link": "https://cointelegraph.com/news/vietnam-proposes-allowing-smes-to-use-digital-assets-as-loan-collateral?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sun, 31 May 2026 10:03:56 +0000",
+      "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "XRP rebounds above $1.30 after volume surge, but bears still control the bigger picture",
-      "link": "https://www.coindesk.com/markets/2026/05/29/xrp-rebounds-above-usd1-30-after-volume-surge-but-bears-still-control-the-bigger-picture",
-      "pub_date": "Fri, 29 May 2026 05:01:02 +0000",
-      "source": "CoinDesk",
+      "title": "Cosmos-based Gravity Bridge halts bridge after reported $5.4M exploit",
+      "link": "https://cointelegraph.com/news/cosmos-based-gravity-bridge-halts-bridge-after-reported-54m-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sun, 31 May 2026 08:57:25 +0000",
+      "source": "Cointelegraph",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Bitcoin sentiment reaches most \u2018lopsided positive\u2019 ratio for 2026: Santiment",
+      "link": "https://cointelegraph.com/news/crypto-sentiment-reaches-most-lopsided-positive-ratio-for-2026-santiment?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sun, 31 May 2026 06:02:05 +0000",
+      "source": "Cointelegraph",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Bitcoin dip buyers curb selling but questionable spot, futures volumes highlight weakness",
+      "link": "https://cointelegraph.com/markets/bitcoin-dip-buyers-curb-selling-but-questionable-spot-futures-volumes-highlight-weakness?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sun, 31 May 2026 05:37:27 +0000",
+      "source": "Cointelegraph",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Bitcoin is at \u2018pivotal level\u2019 as $65K downside risk looms: Analyst",
+      "link": "https://cointelegraph.com/news/bitcoin-is-at-pivotal-level-and-faces-threat-to-65k-analyst?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sun, 31 May 2026 00:58:32 +0000",
+      "source": "Cointelegraph",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Senator Lummis says China will 'write the rules' of the new financial era if CLARITY fails",
+      "link": "https://cointelegraph.com/news/senator-lummis-says-china-will-beat-the-us-to-the-punch-if-clarity-is-not-passed?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sat, 30 May 2026 20:45:45 +0000",
+      "source": "Cointelegraph",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Circle freezes $12.6M of USDC linked to privacy protocol Zama",
+      "link": "https://cointelegraph.com/news/circle-freezes-126m-of-usdc-linked-to-privacy-protocol-zama?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sat, 30 May 2026 19:11:15 +0000",
+      "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
       "title": "SEC charges Texas man with $12.3M crypto fraud using fake AI trading bots",
       "link": "https://cointelegraph.com/news/sec-charges-texas-man-with-123m-crypto-fraud-fake-ai-trading-bots?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "pub_date": "Sat, 30 May 2026 13:30:00 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Here\u2019s what happened in crypto today",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Sat, 30 May 2026 13:20:00 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
@@ -223,62 +279,6 @@
       "title": "Bitcoin dip buyers place $500M in bids as $70K retest looms",
       "link": "https://cointelegraph.com/markets/bitcoin-dip-buyers-place-350m-in-bids-as-70k-retest-looms?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "pub_date": "Fri, 29 May 2026 22:45:33 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "\u2018Extraordinarily unusual\u2019 for CFTC to reverse Gemini settlement deal: Ex-chair",
-      "link": "https://cointelegraph.com/news/cftc-reverse-settlement-gemini-unusual-former-chair?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 29 May 2026 22:28:10 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "CFTC backs crypto perpetual contracts, issues advisory on 24/7 trading",
-      "link": "https://cointelegraph.com/news/cftc-crypto-perpetual-contracts-trading-advisory?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 29 May 2026 20:52:01 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Sui network temporarily stalls again after Thursday's outage",
-      "link": "https://cointelegraph.com/news/sui-temporary-stall-several-hours-second-day?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 29 May 2026 18:46:50 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Coinbase brings global crypto derivatives markets to US institutional clients",
-      "link": "https://cointelegraph.com/news/coinbase-regulated-access-global-crypto-perpetual-futures-options-us-institutions?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 29 May 2026 17:56:33 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitcoin plums new six-week lows as analyst eyes BTC price dip 'end' at $72K",
-      "link": "https://cointelegraph.com/markets/bitcoin-plums-new-six-week-lows-as-analyst-eyes-btc-price-dip-end-at-72k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 29 May 2026 17:03:12 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Ex-Celsius CEO files motion to vacate sentence after lawyers withdraw",
-      "link": "https://cointelegraph.com/news/celsius-alex-mashinsky-motion-vacate-sentence?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 29 May 2026 16:58:50 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Ethereum analysts say \u2018downside pressure\u2019 remains as $1.8K becomes key",
-      "link": "https://cointelegraph.com/markets/analysts-say-ethereums-downside-pressure-remains-as-18k-becomes-key?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 29 May 2026 15:50:08 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitcoin ETFs bleed $2.8B in record nine-day outflow streak",
-      "link": "https://cointelegraph.com/news/bitcoin-etfs-longest-outflow-streak-institutional-demand-cools?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 29 May 2026 14:20:32 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     }
