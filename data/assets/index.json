@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-01T20:02:30.632224+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-06-01 19:54 UTC_",
+  "generated_at": "2026-06-02T18:46:42.291219+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-06-02 18:38 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,10 +9,10 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 71492.0,
+        "current_usd": 67153.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": -7.48,
-        "change_30d_pct": -9.11
+        "change_7d_pct": -11.44,
+        "change_30d_pct": -14.52
       },
       "indicators": {
         "trend": "DOWNTREND",
@@ -20,12 +20,12 @@
         "volatility": "NORMAL"
       },
       "valuation": {
-        "verdict": "Neutral / fair-value zone",
-        "band": "fair",
-        "summary_line": "Fair - Weak growth profile - Elevated regulatory risk.",
-        "score": 58.0
+        "verdict": "Constructive long-term setup",
+        "band": "undervalued",
+        "summary_line": "Undervalued - Balanced growth profile - Elevated regulatory risk.",
+        "score": 60.1
       },
-      "updated_at": "2026-06-01T20:02:30.629955+00:00",
+      "updated_at": "2026-06-02T18:46:42.289140+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,23 +37,23 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 2002.0,
+        "current_usd": 1909.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": -5.16,
-        "change_30d_pct": -13.56
+        "change_7d_pct": -7.83,
+        "change_30d_pct": -17.87
       },
       "indicators": {
         "trend": "DOWNTREND",
-        "momentum": "WEAK",
+        "momentum": "STRONG",
         "volatility": "NORMAL"
       },
       "valuation": {
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
-        "summary_line": "Fair - Balanced growth profile - Elevated regulatory risk.",
-        "score": 57.7
+        "summary_line": "Fair - Strong growth profile - Elevated regulatory risk.",
+        "score": 58.8
       },
-      "updated_at": "2026-06-01T20:02:30.630688+00:00",
+      "updated_at": "2026-06-02T18:46:42.289898+00:00",
       "source": {
         "short_term": "live"
       }
@@ -65,8 +65,8 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=spy",
       "price": {
-        "current_usd": 758.9,
-        "change_24h_pct": 0.46865070959543065,
+        "current_usd": 759.07,
+        "change_24h_pct": 0.2694741291626501,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-06-01T20:02:30.631014+00:00",
+      "updated_at": "2026-06-02T18:46:42.290172+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -93,8 +93,8 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=qqq",
       "price": {
-        "current_usd": 742.97,
-        "change_24h_pct": 0.8045696298708327,
+        "current_usd": 744.76,
+        "change_24h_pct": 0.3178879310344884,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-06-01T20:02:30.631253+00:00",
+      "updated_at": "2026-06-02T18:46:42.290386+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -121,13 +121,13 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=nvda",
       "price": {
-        "current_usd": 223.39,
-        "change_24h_pct": 3.5507347146896517,
+        "current_usd": 223.14,
+        "change_24h_pct": -1.7783255568271983,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
       "indicators": {
-        "trend": "UPTREND",
+        "trend": "DOWNTREND",
         "momentum": "N/A",
         "volatility": "N/A"
       },
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-06-01T20:02:30.631497+00:00",
+      "updated_at": "2026-06-02T18:46:42.290595+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -149,8 +149,8 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=gold",
       "price": {
-        "current_usd": 4482.36,
-        "change_24h_pct": -0.8989568916343726,
+        "current_usd": 4482.94,
+        "change_24h_pct": -0.09048361934478333,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-06-01T20:02:30.631753+00:00",
+      "updated_at": "2026-06-02T18:46:42.290796+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -177,8 +177,8 @@
       "market_type": "traditional",
       "details_page": "asset.html?asset=oil",
       "price": {
-        "current_usd": 92.52,
-        "change_24h_pct": 4.013490725126467,
+        "current_usd": 93.86,
+        "change_24h_pct": 1.4702702702702686,
         "change_7d_pct": null,
         "change_30d_pct": null
       },
@@ -193,7 +193,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-06-01T20:02:30.631987+00:00",
+      "updated_at": "2026-06-02T18:46:42.290993+00:00",
       "source": {
         "short_term": "stooq_live"
       }
@@ -201,72 +201,72 @@
   ],
   "overview_news": [
     {
-      "title": "Crypto funds suffer second-largest outflows of 2026 while XRP and HYPE attract inflows",
-      "url": "https://www.coindesk.com/markets/2026/06/01/crypto-funds-suffer-second-largest-outflows-of-2026-while-xrp-and-hype-attract-inflows",
-      "published_at": "Mon, 01 Jun 2026 17:59:06 +0000",
+      "title": "Tom Lee predicts ether will hit $250,000 as corporate validators take over network control",
+      "url": "https://www.coindesk.com/markets/2026/06/02/tom-lee-predicts-eth-will-hit-usd250-000-as-corporate-validators-take-over-network-control",
+      "published_at": "Tue, 02 Jun 2026 18:42:40 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Saylor's Strategy sold bitcoin for the first time since 2022. These firms are still buying",
-      "url": "https://www.coindesk.com/business/2026/06/01/saylor-s-strategy-sold-bitcoin-for-the-first-time-since-2022-these-firms-are-still-buying",
-      "published_at": "Mon, 01 Jun 2026 17:25:55 +0000",
+      "title": "Bitcoin set for 'choppy summer' as capital chases high-flying AI stocks, K33 says",
+      "url": "https://www.coindesk.com/markets/2026/06/02/bitcoin-set-for-choppy-summer-as-capital-chases-high-flying-ai-stocks-k33-says",
+      "published_at": "Tue, 02 Jun 2026 18:42:37 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "It's not 2022 anymore: What Strategy's first bitcoin sale can (and can't) tell us about this one",
-      "url": "https://www.coindesk.com/markets/2026/06/01/strategy-s-second-bitcoin-sale-revives-memories-of-2022",
-      "published_at": "Mon, 01 Jun 2026 17:06:34 +0000",
+      "title": "Bitcoin faces an 'identity crisis' and DeFi devs need to stop acting like tech bros",
+      "url": "https://www.coindesk.com/business/2026/06/02/bitcoin-faces-identity-crisis-as-defi-quietly-builds-its-breakthrough-point",
+      "published_at": "Tue, 02 Jun 2026 16:15:58 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Ethereum's Vitalik Buterin is rethinking how DeFi handles market crashes",
-      "url": "https://www.coindesk.com/tech/2026/06/01/ethereum-s-vitalik-buterin-is-rethinking-how-defi-handles-market-crashes",
-      "published_at": "Mon, 01 Jun 2026 17:01:41 +0000",
+      "title": "Hyperliquid predicted 80% of oil move before traditional exchanges opened, says expert report",
+      "url": "https://www.coindesk.com/markets/2026/06/02/hyperliquid-predicted-80-of-an-oil-market-move-before-traditional-exchanges-even-opened-says-td-securities",
+      "published_at": "Tue, 02 Jun 2026 16:02:08 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Michael Saylor breaks silence after Strategy sells $2.5 million in bitcoin",
-      "url": "https://www.coindesk.com/markets/2026/06/01/michael-saylor-breaks-silence-after-strategy-sells-usd2-5-million-in-bitcoin",
-      "published_at": "Mon, 01 Jun 2026 16:06:23 +0000",
+      "title": "Here's how one decentralized cloud provider says private citizens can make money from AI",
+      "url": "https://www.coindesk.com/tech/2026/06/02/here-s-how-one-decentralized-cloud-provider-says-private-citizens-can-make-money-from-ai",
+      "published_at": "Tue, 02 Jun 2026 15:36:36 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Strategy sparks panic with bitcoin sale, but analysts say it was 'immaterial'",
-      "url": "https://www.coindesk.com/markets/2026/06/01/analysts-agree-strategy-s-bitcoin-sale-was-immaterial-differ-on-future-signals",
-      "published_at": "Mon, 01 Jun 2026 15:45:51 +0000",
+      "title": "Gary Vaynerchuk says AI is creating the biggest opportunity ever for entrepreneurs",
+      "url": "https://www.coindesk.com/coindesk-news/2026/06/02/gary-vaynerchuk-says-ai-is-creating-the-biggest-opportunity-ever-for-entrepreneurs",
+      "published_at": "Tue, 02 Jun 2026 15:24:52 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Strategy\u2019s bitcoin sale sparks a $14 million betting chaos on Polymarket",
-      "url": "https://www.coindesk.com/markets/2026/06/01/strategy-s-bitcoin-sale-sparks-a-usd14-million-crypto-betting-chaos-on-a-major-prediction-market",
-      "published_at": "Mon, 01 Jun 2026 14:49:32 +0000",
+      "title": "Hyperliquid is beating ethereum in trading volume on some days as big money rotates, says FalconX",
+      "url": "https://www.coindesk.com/markets/2026/06/02/hyperliquid-is-beating-ethereum-in-trading-volume-on-some-days-as-big-money-rotates-out-of-bitcoin-says-falconx",
+      "published_at": "Tue, 02 Jun 2026 15:11:16 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Japan's ruling party supports crypto ETF trading, yen-based stablecoins",
-      "url": "https://www.coindesk.com/policy/2026/06/01/japan-s-ruling-party-supports-crypto-etf-trading-yen-based-stablecoins",
-      "published_at": "Mon, 01 Jun 2026 13:38:04 +0000",
+      "title": "How to better understand bitcoin\u2019s perpetual identity crisis",
+      "url": "https://www.coindesk.com/opinion/2026/06/02/how-to-better-understand-bitcoin-s-perpetual-identity-crisis",
+      "published_at": "Tue, 02 Jun 2026 14:08:52 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "CoinDesk 20 performance update: Stellar (XLM) surges 14.1% over weekend",
-      "url": "https://www.coindesk.com/coindesk-indices/2026/06/01/coindesk-20-performance-update-stellar-xlm-surges-14-1-over-weekend",
-      "published_at": "Mon, 01 Jun 2026 13:09:37 +0000",
+      "title": "Franklin Templeton teams up with MoonPay to let big investors swap stablecoins for yields 24/7",
+      "url": "https://www.coindesk.com/business/2026/06/02/franklin-templeton-teams-up-with-moonpay-to-let-big-investors-swap-stablecoins-for-yields-24-7",
+      "published_at": "Tue, 02 Jun 2026 13:30:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bitmine slows ether purchase pace, buying $53 million worth last week",
-      "url": "https://www.coindesk.com/business/2026/06/01/bitmine-slows-ether-purchase-pace-buying-usd53-million-worth-last-week",
-      "published_at": "Mon, 01 Jun 2026 12:55:27 +0000",
+      "title": "Strategy's bitcoin sale may mark start of ether outperformance, StanChart's Kendrick says",
+      "url": "https://www.coindesk.com/markets/2026/06/02/strategy-s-bitcoin-sale-may-mark-start-of-ether-outperformance-stanchart-s-kendrick-says",
+      "published_at": "Tue, 02 Jun 2026 13:14:36 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
