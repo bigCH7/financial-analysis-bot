@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-05T17:22:35.050942+00:00",
-  "source": "stooq_live",
+  "generated_at": "2026-06-06T16:12:22.840183+00:00",
+  "source": "unavailable",
   "quotes": {
     "spy": {
       "asset": "spy",
@@ -46,11 +46,11 @@
       "asset": "oil",
       "symbol": "CL=F",
       "name": "Crude Oil Futures",
-      "price": 90.05,
-      "change_24h_pct": -3.0051701852649826,
+      "price": null,
+      "change_24h_pct": null,
       "currency": "USD",
-      "market_time": "2026-06-05 19:23:27",
-      "fetch_source": "stooq_live"
+      "market_time": null,
+      "fetch_source": "unavailable"
     }
   }
 }

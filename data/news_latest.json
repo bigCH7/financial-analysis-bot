@@ -1,7 +1,91 @@
 {
-  "generated_at": "2026-06-05 17:22 UTC",
+  "generated_at": "2026-06-06 16:12 UTC",
   "count": 55,
   "items": [
+    {
+      "title": "America\u2019s largest banks are building a new digital currency network to stop a massive deposit drain",
+      "link": "https://www.coindesk.com/business/2026/06/06/america-s-largest-banks-are-building-a-new-digital-currency-network-to-stop-a-massive-deposit-drain",
+      "pub_date": "Sat, 06 Jun 2026 15:59:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "A crypto pioneer who turned a $20 million family stake into a billion-dollar fund doubles down on bitcoin",
+      "link": "https://www.coindesk.com/business/2026/06/06/a-crypto-pioneer-who-turned-a-usd20-million-family-stake-into-a-billion-dollar-fund-doubles-down-on-bitcoin",
+      "pub_date": "Sat, 06 Jun 2026 15:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Satoshi-era bitcoin at center of $285 billion lawsuit moves after 14 years",
+      "link": "https://www.coindesk.com/markets/2026/06/06/satoshi-era-bitcoin-at-center-of-usd285-billion-lawsuit-moves-after-14-years",
+      "pub_date": "Sat, 06 Jun 2026 13:30:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "A massive hiring wave reveals trading firms are no longer viewing Polymarket as a niche betting tool",
+      "link": "https://www.coindesk.com/business/2026/06/06/a-massive-hiring-wave-reveals-trading-firms-are-no-longer-viewing-polymarket-as-a-niche-betting-tool",
+      "pub_date": "Sat, 06 Jun 2026 13:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Michael Saylor\u2019s rallying cry: Bitcoin needs four forces to win",
+      "link": "https://www.coindesk.com/markets/2026/06/06/michael-saylor-s-rallying-cry-bitcoin-needs-four-forces-to-win",
+      "pub_date": "Sat, 06 Jun 2026 13:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Are retail traders selling their bitcoin to buy the SpaceX IPO?",
+      "link": "https://www.coindesk.com/markets/2026/06/06/are-retail-traders-selling-their-bitcoin-to-buy-the-spacex-ipo",
+      "pub_date": "Sat, 06 Jun 2026 09:45:15 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Researcher who found Zcash's bug with AI adds Monero to his audit queue",
+      "link": "https://www.coindesk.com/tech/2026/06/06/researcher-who-found-zcash-s-bug-with-ai-adds-monero-to-his-audit-queue",
+      "pub_date": "Sat, 06 Jun 2026 09:38:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "WLD plunges 20% as Hayes dumps token a day after saying he would keep holding it",
+      "link": "https://www.coindesk.com/markets/2026/06/06/wld-plunges-20-as-hayes-dumps-token-a-day-after-saying-he-would-keep-holding-it",
+      "pub_date": "Sat, 06 Jun 2026 08:25:36 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Bitcoin back above $61,000 after rout leads to $1.6 billion liquidations",
+      "link": "https://www.coindesk.com/markets/2026/06/06/bitcoin-back-above-usd61-000-after-rout-leads-to-usd1-6-billion-liquidations",
+      "pub_date": "Sat, 06 Jun 2026 06:40:17 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Cardano social activity surges as ADA falls under 20 cents to four-year lows",
+      "link": "https://www.coindesk.com/markets/2026/06/06/cardano-social-activity-surges-as-ada-falls-under-20-cents-to-four-year-lows",
+      "pub_date": "Sat, 06 Jun 2026 03:30:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Why diehard bitcoin purists aren\u2019t sweating the massive price crash that wiped out $200 billion",
+      "link": "https://www.coindesk.com/markets/2026/06/05/why-diehard-bitcoin-purists-aren-t-sweating-the-massive-price-crash-that-wiped-out-usd200-billion",
+      "pub_date": "Fri, 05 Jun 2026 19:27:20 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "AI exposed a massive flaw in top crypto network and experts warn banks could be next",
+      "link": "https://www.coindesk.com/tech/2026/06/05/ai-exposed-a-massive-flaw-in-top-crypto-network-and-experts-warn-banks-could-be-next",
+      "pub_date": "Fri, 05 Jun 2026 18:02:33 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
     {
       "title": "BlackRock-backed tokenization firm Securitize clears key hurdle to go public on NYSE",
       "link": "https://www.coindesk.com/business/2026/06/05/blackrock-backed-tokenization-firm-securitize-clears-key-hurdle-to-go-public-on-nyse",
@@ -94,87 +178,45 @@
       "fetch_source": "live"
     },
     {
-      "title": "JPMorgan, Bank of America, Citi to start blockchain offensive with shared tokenized network",
-      "link": "https://www.coindesk.com/markets/2026/06/05/jpmorgan-bank-of-america-and-citi-are-going-on-the-blockchain-offensive-with-a-shared-tokenized-network",
-      "pub_date": "Fri, 05 Jun 2026 09:16:29 +0000",
-      "source": "CoinDesk",
+      "title": "ETH falls to 13-month low on Zcash bug news and Bitcoin drop to sub-$60K: Is $1.4K next?",
+      "link": "https://cointelegraph.com/markets/eth-falls-to-13-month-low-on-zcash-bug-news-and-bitcoin-drop-to-sub-60k-is-14k-next?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Fri, 05 Jun 2026 22:18:29 +0000",
+      "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "U.S. bitcoin, ether ETFs end record multibillion outflow streak",
-      "link": "https://www.coindesk.com/markets/2026/06/05/bitcoin-and-ether-etfs-end-record-multi-billion-outflow-streak",
-      "pub_date": "Fri, 05 Jun 2026 08:53:30 +0000",
-      "source": "CoinDesk",
+      "title": "Travala lets AI agents book hotels with USDC on Base",
+      "link": "https://cointelegraph.com/news/travala-ai-agents-book-hotels-usdc-base?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Fri, 05 Jun 2026 20:55:27 +0000",
+      "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Here's what could happen if bitcoin breaks below $60,000",
-      "link": "https://www.coindesk.com/markets/2026/06/05/here-s-what-could-happen-if-bitcoin-breaks-below-usd60-000",
-      "pub_date": "Fri, 05 Jun 2026 07:52:25 +0000",
-      "source": "CoinDesk",
+      "title": "Crypto tax proposals weighed ahead of Tuesday House hearing",
+      "link": "https://cointelegraph.com/news/crypto-tax-bills-house-ways-means-hearing?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Fri, 05 Jun 2026 20:41:38 +0000",
+      "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin in danger of dropping to $60,000, with Zcash bulls turning their backs on ZEC",
-      "link": "https://www.coindesk.com/tech/2026/06/05/bitcoin-in-danger-of-dropping-to-usd60-000-with-zcash-bulls-turning-their-backs-on-zec",
-      "pub_date": "Fri, 05 Jun 2026 06:18:59 +0000",
-      "source": "CoinDesk",
+      "title": "Bitcoin bears face $2.6B trap as BTC funding rate drops: Is a short squeeze brewing?",
+      "link": "https://cointelegraph.com/markets/bitcoin-bears-face-26b-trap-as-btc-funding-rate-drops-is-a-short-squeeze-brewing?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Fri, 05 Jun 2026 19:28:53 +0000",
+      "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin plunges to near $62,000 as the AI trade unwinds, HYPE falls 14%",
-      "link": "https://www.coindesk.com/markets/2026/06/05/bitcoin-plunges-to-near-usd62-000-as-the-ai-trade-unwinds-hype-falls-14",
-      "pub_date": "Fri, 05 Jun 2026 06:08:32 +0000",
-      "source": "CoinDesk",
+      "title": "Kraken offers SpaceX IPO access through xStocks",
+      "link": "https://cointelegraph.com/news/kraken-offers-spacex-ipo-access-through-xstocks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Fri, 05 Jun 2026 18:17:50 +0000",
+      "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Zcash plummets 38% as Shielded Labs reveals a major bug that went undetected for four years",
-      "link": "https://www.coindesk.com/markets/2026/06/05/zcash-plummets-30-as-developer-reveals-a-major-bug-that-went-undetected-for-four-years",
-      "pub_date": "Fri, 05 Jun 2026 05:43:07 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Crypto Clarity Act in spotlight for bad-actor provisions as Senate process grinds forward",
-      "link": "https://www.coindesk.com/policy/2026/06/04/crypto-clarity-act-in-spotlight-for-bad-actor-provisions-as-senate-process-grinds-forward",
-      "pub_date": "Thu, 04 Jun 2026 19:41:14 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "OCC chief says Democrats applying sole political pressure in World Liberty charter choice",
-      "link": "https://www.coindesk.com/policy/2026/06/04/occ-chief-says-democrats-applying-sole-political-pressure-in-world-liberty-charter-choice",
-      "pub_date": "Thu, 04 Jun 2026 18:19:13 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "'Dr. Doom'-backed Atlas Capital CEO says bitcoin could crash 70% before reaching $500,000",
-      "link": "https://www.coindesk.com/markets/2026/06/04/dr-doom-backed-atlas-capital-ceo-says-bitcoin-could-crash-70-before-reaching-usd500-000",
-      "pub_date": "Thu, 04 Jun 2026 18:15:52 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Hyperliquid pulls back from record highs as Arthur Hayes exits position shy of $150 price target",
-      "link": "https://www.coindesk.com/markets/2026/06/04/hyperliquid-pulls-back-from-record-highs-as-arthur-hayes-exits-position-shy-of-usd150-price-target",
-      "pub_date": "Thu, 04 Jun 2026 15:52:19 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Crypto for Advisors: The crypto due diligence questions you forgot to ask",
-      "link": "https://www.coindesk.com/coindesk-indices/2026/06/03/crypto-for-advisors-the-crypto-due-diligence-questions-you-forgot-to-ask",
-      "pub_date": "Thu, 04 Jun 2026 15:00:00 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Why tokenization is an ETF-style market structure revolution",
-      "link": "https://www.coindesk.com/opinion/2026/06/04/why-tokenization-is-an-etf-style-market-structure-revolution",
-      "pub_date": "Thu, 04 Jun 2026 14:44:07 +0000",
-      "source": "CoinDesk",
+      "title": "Crypto tax in Illinois FY2027 budget is one step away from becoming law",
+      "link": "https://cointelegraph.com/news/cryptocurrency-tax-illinois-fy2027-budget-law?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Fri, 05 Jun 2026 18:10:59 +0000",
+      "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
@@ -237,48 +279,6 @@
       "title": "House GOP eyes summer vote on prediction market restrictions for lawmakers",
       "link": "https://cointelegraph.com/news/house-gop-summer-vote-ban-lawmakers-prediction-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "pub_date": "Fri, 05 Jun 2026 12:46:44 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "JPMorgan, Citi-backed Clearing House plans tokenized deposit network in 2027: WSJ",
-      "link": "https://cointelegraph.com/news/jpmorgan-citi-bank-of-america-launch-tokenized-deposit-system-2027?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 05 Jun 2026 12:39:32 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "How low can Bitcoin price go if $60K support fails?",
-      "link": "https://cointelegraph.com/markets/how-low-can-bitcoin-price-go-if-60k-support-fails?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 05 Jun 2026 12:24:23 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Forward Industries moves $32M in SOL amid $1B paper loss",
-      "link": "https://cointelegraph.com/news/forward-industries-moves-319m-in-sol-to-coinbase-prime-amid-113b-paper-loss?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 05 Jun 2026 10:59:50 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "South Korea police probe Polymarket users over illegal gambling claims: Report",
-      "link": "https://cointelegraph.com/news/south-korean-authorities-first-illegal-gambling-probe-polymarket-users?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 05 Jun 2026 10:47:17 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Crypto billionaires bankroll Nigel Farage's pro-crypto party",
-      "link": "https://cointelegraph.com/news/crypto-billionaires-bankroll-reform-uk-more-than-other-parties?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 05 Jun 2026 07:02:59 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Strategy\u2019s leveraged Bitcoin model has faced its first stress test: Grayscale",
-      "link": "https://cointelegraph.com/news/strategys-leveraged-bitcoin-model-faces-first-stress-test-grayscale?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 05 Jun 2026 07:00:55 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     }
