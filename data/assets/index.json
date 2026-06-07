@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-06T16:13:19.070701+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-06-06 16:05 UTC_",
+  "generated_at": "2026-06-07T16:23:30.092336+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-06-07 16:15 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,23 +9,23 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 60771.0,
+        "current_usd": 62200.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": -17.6,
-        "change_30d_pct": -24.06
+        "change_7d_pct": -15.48,
+        "change_30d_pct": -22.43
       },
       "indicators": {
-        "trend": "DOWNTREND",
-        "momentum": "WEAK",
+        "trend": "UPTREND",
+        "momentum": "STRONG",
         "volatility": "NORMAL"
       },
       "valuation": {
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
-        "summary_line": "Fair - Balanced growth profile - Elevated regulatory risk.",
-        "score": 59.0
+        "summary_line": "Fair - Weak growth profile - Elevated regulatory risk.",
+        "score": 54.4
       },
-      "updated_at": "2026-06-06T16:13:19.068573+00:00",
+      "updated_at": "2026-06-07T16:23:30.090255+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,23 +37,23 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 1560.0,
+        "current_usd": 1630.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": -22.76,
-        "change_30d_pct": -31.93
+        "change_7d_pct": -18.66,
+        "change_30d_pct": -29.34
       },
       "indicators": {
         "trend": "DOWNTREND",
-        "momentum": "WEAK",
+        "momentum": "STRONG",
         "volatility": "NORMAL"
       },
       "valuation": {
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
-        "summary_line": "Fair - Strong growth profile - Elevated regulatory risk.",
-        "score": 57.8
+        "summary_line": "Fair - Balanced growth profile - Elevated regulatory risk.",
+        "score": 55.0
       },
-      "updated_at": "2026-06-06T16:13:19.069324+00:00",
+      "updated_at": "2026-06-07T16:23:30.091009+00:00",
       "source": {
         "short_term": "live"
       }
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-06-06T16:13:19.069592+00:00",
+      "updated_at": "2026-06-07T16:23:30.091273+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-06-06T16:13:19.069838+00:00",
+      "updated_at": "2026-06-07T16:23:30.091483+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-06-06T16:13:19.070064+00:00",
+      "updated_at": "2026-06-07T16:23:30.091693+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-06-06T16:13:19.070276+00:00",
+      "updated_at": "2026-06-07T16:23:30.091899+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -193,13 +193,55 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-06-06T16:13:19.070490+00:00",
+      "updated_at": "2026-06-07T16:23:30.092142+00:00",
       "source": {
         "short_term": "unavailable"
       }
     }
   ],
   "overview_news": [
+    {
+      "title": "Bitcoin near $60,000 today vs February: Institutional sentiment has flipped",
+      "url": "https://www.coindesk.com/markets/2026/06/07/bitcoin-near-usd60-000-today-vs-february-institutional-mood-is-starkly-different",
+      "published_at": "Sun, 07 Jun 2026 16:14:08 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Bitcoin's slide has no single cause. AI, tech IPOs, quantum, Strategy sale all play a role, NYDIG says",
+      "url": "https://www.coindesk.com/markets/2026/06/07/bitcoin-s-slide-has-no-single-cause-ai-tech-ipos-quantum-strategy-sale-all-play-a-role-nydig-says",
+      "published_at": "Sun, 07 Jun 2026 16:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Abra\u2019s Bill Barhydt says Wall Street\u2019s next crypto bet is tokenization",
+      "url": "https://www.coindesk.com/business/2026/06/07/abra-s-bill-barhydt-says-wall-street-s-next-crypto-bet-is-tokenization",
+      "published_at": "Sun, 07 Jun 2026 15:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Ethereum Foundation cuts and departures aren't a crisis, Joe Lubin says",
+      "url": "https://www.coindesk.com/tech/2026/06/07/ethereum-foundation-cuts-and-departures-aren-t-a-crisis-joe-lubin-says",
+      "published_at": "Sun, 07 Jun 2026 13:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Bitcoin, ether eye worst weekly rout since FTX collapse as cryptos shed $390 billion",
+      "url": "https://www.coindesk.com/markets/2026/06/06/bitcoin-ether-eye-worst-weekly-rout-since-ftx-collapse-as-cryptos-shed-usd390-billion",
+      "published_at": "Sat, 06 Jun 2026 19:58:54 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Meta is paying creators in Stablecoins. Spending them is someone else's problem",
+      "url": "https://www.coindesk.com/opinion/2026/06/06/meta-is-paying-creators-in-stablecoins-spending-them-is-someone-else-s-problem",
+      "published_at": "Sat, 06 Jun 2026 16:30:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
     {
       "title": "America\u2019s largest banks are building a new digital currency network to stop a massive deposit drain",
       "url": "https://www.coindesk.com/business/2026/06/06/america-s-largest-banks-are-building-a-new-digital-currency-network-to-stop-a-massive-deposit-drain",
@@ -225,48 +267,6 @@
       "title": "A massive hiring wave reveals trading firms are no longer viewing Polymarket as a niche betting tool",
       "url": "https://www.coindesk.com/business/2026/06/06/a-massive-hiring-wave-reveals-trading-firms-are-no-longer-viewing-polymarket-as-a-niche-betting-tool",
       "published_at": "Sat, 06 Jun 2026 13:00:00 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Michael Saylor\u2019s rallying cry: Bitcoin needs four forces to win",
-      "url": "https://www.coindesk.com/markets/2026/06/06/michael-saylor-s-rallying-cry-bitcoin-needs-four-forces-to-win",
-      "published_at": "Sat, 06 Jun 2026 13:00:00 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Are retail traders selling their bitcoin to buy the SpaceX IPO?",
-      "url": "https://www.coindesk.com/markets/2026/06/06/are-retail-traders-selling-their-bitcoin-to-buy-the-spacex-ipo",
-      "published_at": "Sat, 06 Jun 2026 09:45:15 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Researcher who found Zcash's bug with AI adds Monero to his audit queue",
-      "url": "https://www.coindesk.com/tech/2026/06/06/researcher-who-found-zcash-s-bug-with-ai-adds-monero-to-his-audit-queue",
-      "published_at": "Sat, 06 Jun 2026 09:38:00 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "WLD plunges 20% as Hayes dumps token a day after saying he would keep holding it",
-      "url": "https://www.coindesk.com/markets/2026/06/06/wld-plunges-20-as-hayes-dumps-token-a-day-after-saying-he-would-keep-holding-it",
-      "published_at": "Sat, 06 Jun 2026 08:25:36 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitcoin back above $61,000 after rout leads to $1.6 billion liquidations",
-      "url": "https://www.coindesk.com/markets/2026/06/06/bitcoin-back-above-usd61-000-after-rout-leads-to-usd1-6-billion-liquidations",
-      "published_at": "Sat, 06 Jun 2026 06:40:17 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Cardano social activity surges as ADA falls under 20 cents to four-year lows",
-      "url": "https://www.coindesk.com/markets/2026/06/06/cardano-social-activity-surges-as-ada-falls-under-20-cents-to-four-year-lows",
-      "published_at": "Sat, 06 Jun 2026 03:30:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }

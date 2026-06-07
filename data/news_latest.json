@@ -1,7 +1,49 @@
 {
-  "generated_at": "2026-06-06 16:12 UTC",
+  "generated_at": "2026-06-07 16:22 UTC",
   "count": 55,
   "items": [
+    {
+      "title": "Bitcoin near $60,000 today vs February: Institutional sentiment has flipped",
+      "link": "https://www.coindesk.com/markets/2026/06/07/bitcoin-near-usd60-000-today-vs-february-institutional-mood-is-starkly-different",
+      "pub_date": "Sun, 07 Jun 2026 16:14:08 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Bitcoin's slide has no single cause. AI, tech IPOs, quantum, Strategy sale all play a role, NYDIG says",
+      "link": "https://www.coindesk.com/markets/2026/06/07/bitcoin-s-slide-has-no-single-cause-ai-tech-ipos-quantum-strategy-sale-all-play-a-role-nydig-says",
+      "pub_date": "Sun, 07 Jun 2026 16:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Abra\u2019s Bill Barhydt says Wall Street\u2019s next crypto bet is tokenization",
+      "link": "https://www.coindesk.com/business/2026/06/07/abra-s-bill-barhydt-says-wall-street-s-next-crypto-bet-is-tokenization",
+      "pub_date": "Sun, 07 Jun 2026 15:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Ethereum Foundation cuts and departures aren't a crisis, Joe Lubin says",
+      "link": "https://www.coindesk.com/tech/2026/06/07/ethereum-foundation-cuts-and-departures-aren-t-a-crisis-joe-lubin-says",
+      "pub_date": "Sun, 07 Jun 2026 13:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Bitcoin, ether eye worst weekly rout since FTX collapse as cryptos shed $390 billion",
+      "link": "https://www.coindesk.com/markets/2026/06/06/bitcoin-ether-eye-worst-weekly-rout-since-ftx-collapse-as-cryptos-shed-usd390-billion",
+      "pub_date": "Sat, 06 Jun 2026 19:58:54 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Meta is paying creators in Stablecoins. Spending them is someone else's problem",
+      "link": "https://www.coindesk.com/opinion/2026/06/06/meta-is-paying-creators-in-stablecoins-spending-them-is-someone-else-s-problem",
+      "pub_date": "Sat, 06 Jun 2026 16:30:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
     {
       "title": "America\u2019s largest banks are building a new digital currency network to stop a massive deposit drain",
       "link": "https://www.coindesk.com/business/2026/06/06/america-s-largest-banks-are-building-a-new-digital-currency-network-to-stop-a-massive-deposit-drain",
@@ -136,45 +178,17 @@
       "fetch_source": "live"
     },
     {
-      "title": "U.S. job growth blows past forecasts, setting stage for Fed rate hikes",
-      "link": "https://www.coindesk.com/markets/2026/06/05/u-s-job-growth-blows-past-forecasts-setting-stage-for-fed-rate-hikes",
-      "pub_date": "Fri, 05 Jun 2026 12:57:14 +0000",
-      "source": "CoinDesk",
+      "title": "Bitcoin risks new 'purge' with bear-market losses still $35B below 2022 total",
+      "link": "https://cointelegraph.com/markets/bitcoin-risks-new-purge-with-bear-market-losses-still-35b-below-2022-total?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sun, 07 Jun 2026 14:29:19 +0000",
+      "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Bearish zcash bets hit record high as privacy token's price crashes",
-      "link": "https://www.coindesk.com/markets/2026/06/05/bearish-zcash-bets-hit-record-high-as-privacy-token-s-price-crashes",
-      "pub_date": "Fri, 05 Jun 2026 12:54:02 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Live updates: bitcoin tumbles to $60,000 as blowout jobs data, Zcash bug keeps pressure on crypto",
-      "link": "https://www.coindesk.com/tech/2026/06/05/live-updates-bitcoin-below-usd62-000-ahead-of-jobs-data-as-zcash-bug-rocks-crypto",
-      "pub_date": "Fri, 05 Jun 2026 12:08:26 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Arthur Hayes dumps zcash holdings after Orchard Pool vulnerability revealed",
-      "link": "https://www.coindesk.com/markets/2026/06/05/arthur-hayes-dumps-zcash-holdings-after-orchard-pool-vulnerability-revealed",
-      "pub_date": "Fri, 05 Jun 2026 11:57:22 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitcoin sentiment hit peak bearishness at recent lows, peak bullishness near tops",
-      "link": "https://www.coindesk.com/daybook-us/2026/06/04/bitcoin-sentiment-hit-peak-bearishness-at-recent-lows-peak-bullishness-near-tops",
-      "pub_date": "Fri, 05 Jun 2026 11:25:49 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Crypto's worst week since July 2024 deepens as bitcoin, ether near critical price levels",
-      "link": "https://www.coindesk.com/markets/2026/06/05/crypto-s-worst-week-since-july-2024-deepens-as-bitcoin-ether-near-critical-price-levels",
-      "pub_date": "Fri, 05 Jun 2026 10:39:16 +0000",
-      "source": "CoinDesk",
+      "title": "Bitcoin most oversold since 2020 crash: Can BTC rebound to $70K next?",
+      "link": "https://cointelegraph.com/markets/bitcoin-most-oversold-since-2020-crash-can-btc-rebound-to-70k-next?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sat, 06 Jun 2026 16:06:54 +0000",
+      "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
@@ -265,20 +279,6 @@
       "title": "Zcash weighs new shielded pool after counterfeiting flaw",
       "link": "https://cointelegraph.com/news/zcash-new-shielded-pool-orchard-counterfeiting-bug?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "pub_date": "Fri, 05 Jun 2026 13:18:41 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitcoin needs one more thing to happen to spark BTC price 'rally:' Analysis",
-      "link": "https://cointelegraph.com/markets/bitcoin-needs-one-more-thing-to-happen-to-spark-btc-price-rally-analysis?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 05 Jun 2026 13:00:00 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "House GOP eyes summer vote on prediction market restrictions for lawmakers",
-      "link": "https://cointelegraph.com/news/house-gop-summer-vote-ban-lawmakers-prediction-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 05 Jun 2026 12:46:44 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     }
