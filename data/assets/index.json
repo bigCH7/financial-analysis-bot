@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-07T16:23:30.092336+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-06-07 16:15 UTC_",
+  "generated_at": "2026-06-08T18:00:45.010760+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-06-08 17:52 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,10 +9,10 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 62200.0,
+        "current_usd": 63472.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": -15.48,
-        "change_30d_pct": -22.43
+        "change_7d_pct": -11.05,
+        "change_30d_pct": -21.33
       },
       "indicators": {
         "trend": "UPTREND",
@@ -22,10 +22,10 @@
       "valuation": {
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
-        "summary_line": "Fair - Weak growth profile - Elevated regulatory risk.",
-        "score": 54.4
+        "summary_line": "Fair - Balanced growth profile - Elevated regulatory risk.",
+        "score": 56.9
       },
-      "updated_at": "2026-06-07T16:23:30.090255+00:00",
+      "updated_at": "2026-06-08T18:00:45.008664+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,23 +37,23 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 1630.0,
+        "current_usd": 1684.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": -18.66,
-        "change_30d_pct": -29.34
+        "change_7d_pct": -15.94,
+        "change_30d_pct": -27.61
       },
       "indicators": {
-        "trend": "DOWNTREND",
+        "trend": "UPTREND",
         "momentum": "STRONG",
         "volatility": "NORMAL"
       },
       "valuation": {
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
-        "summary_line": "Fair - Balanced growth profile - Elevated regulatory risk.",
-        "score": 55.0
+        "summary_line": "Fair - Strong growth profile - Elevated regulatory risk.",
+        "score": 57.3
       },
-      "updated_at": "2026-06-07T16:23:30.091009+00:00",
+      "updated_at": "2026-06-08T18:00:45.009443+00:00",
       "source": {
         "short_term": "live"
       }
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-06-07T16:23:30.091273+00:00",
+      "updated_at": "2026-06-08T18:00:45.009706+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-06-07T16:23:30.091483+00:00",
+      "updated_at": "2026-06-08T18:00:45.009923+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-06-07T16:23:30.091693+00:00",
+      "updated_at": "2026-06-08T18:00:45.010135+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-06-07T16:23:30.091899+00:00",
+      "updated_at": "2026-06-08T18:00:45.010339+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -193,7 +193,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-06-07T16:23:30.092142+00:00",
+      "updated_at": "2026-06-08T18:00:45.010545+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -201,72 +201,72 @@
   ],
   "overview_news": [
     {
-      "title": "Bitcoin near $60,000 today vs February: Institutional sentiment has flipped",
-      "url": "https://www.coindesk.com/markets/2026/06/07/bitcoin-near-usd60-000-today-vs-february-institutional-mood-is-starkly-different",
-      "published_at": "Sun, 07 Jun 2026 16:14:08 +0000",
+      "title": "Live updates: Bitcoin tops $63,000 as Strategy adds $100 million BTC in latest purchase",
+      "url": "https://www.coindesk.com/business/2026/06/08/live-updates-bitcoin-above-usd63-400-as-strategy-adds-usd100-million-btc-in-latest-purchase",
+      "published_at": "Mon, 08 Jun 2026 17:04:38 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin's slide has no single cause. AI, tech IPOs, quantum, Strategy sale all play a role, NYDIG says",
-      "url": "https://www.coindesk.com/markets/2026/06/07/bitcoin-s-slide-has-no-single-cause-ai-tech-ipos-quantum-strategy-sale-all-play-a-role-nydig-says",
-      "published_at": "Sun, 07 Jun 2026 16:00:00 +0000",
+      "title": "Sam Bankman-Fried officially asks Trump for a presidential pardon",
+      "url": "https://www.coindesk.com/policy/2026/06/08/sam-bankman-fried-officially-asks-donald-trump-for-a-presidential-pardon",
+      "published_at": "Mon, 08 Jun 2026 15:41:10 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Abra\u2019s Bill Barhydt says Wall Street\u2019s next crypto bet is tokenization",
-      "url": "https://www.coindesk.com/business/2026/06/07/abra-s-bill-barhydt-says-wall-street-s-next-crypto-bet-is-tokenization",
-      "published_at": "Sun, 07 Jun 2026 15:00:00 +0000",
+      "title": "The startup killer: Ledger CTO says the EU's crushing compliance costs are choking Web3 innovation",
+      "url": "https://www.coindesk.com/business/2026/06/08/europe-s-strict-new-crypto-rules-are-crushing-small-startups-ledger-cto-says",
+      "published_at": "Mon, 08 Jun 2026 15:38:03 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Ethereum Foundation cuts and departures aren't a crisis, Joe Lubin says",
-      "url": "https://www.coindesk.com/tech/2026/06/07/ethereum-foundation-cuts-and-departures-aren-t-a-crisis-joe-lubin-says",
-      "published_at": "Sun, 07 Jun 2026 13:00:00 +0000",
+      "title": "Aave chief defends protocol's 'resilience' after $8.45 billion bank run",
+      "url": "https://www.coindesk.com/business/2026/06/08/aave-labs-founder-stani-kulechov-deflects-responsibility-in-usd8-billion-run-on-stage",
+      "published_at": "Mon, 08 Jun 2026 15:17:44 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin, ether eye worst weekly rout since FTX collapse as cryptos shed $390 billion",
-      "url": "https://www.coindesk.com/markets/2026/06/06/bitcoin-ether-eye-worst-weekly-rout-since-ftx-collapse-as-cryptos-shed-usd390-billion",
-      "published_at": "Sat, 06 Jun 2026 19:58:54 +0000",
+      "title": "Blame bitcoin's tumble on rising inflation, not Strategy, 10xResearch argues",
+      "url": "https://www.coindesk.com/markets/2026/06/08/blame-bitcoin-s-tumble-on-rising-inflation-not-strategy-10xresearch-argues",
+      "published_at": "Mon, 08 Jun 2026 14:37:27 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Meta is paying creators in Stablecoins. Spending them is someone else's problem",
-      "url": "https://www.coindesk.com/opinion/2026/06/06/meta-is-paying-creators-in-stablecoins-spending-them-is-someone-else-s-problem",
-      "published_at": "Sat, 06 Jun 2026 16:30:00 +0000",
+      "title": "CoinDesk 20 performance update: NEAR gains 12.3% as almost all assets trade higher",
+      "url": "https://www.coindesk.com/coindesk-indices/2026/06/08/coindesk-20-performance-update-near-gains-12-3-as-almost-all-assets-trade-higher",
+      "published_at": "Mon, 08 Jun 2026 13:12:12 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "America\u2019s largest banks are building a new digital currency network to stop a massive deposit drain",
-      "url": "https://www.coindesk.com/business/2026/06/06/america-s-largest-banks-are-building-a-new-digital-currency-network-to-stop-a-massive-deposit-drain",
-      "published_at": "Sat, 06 Jun 2026 15:59:00 +0000",
+      "title": "MetaMask launches AI agent wallet with built-in security for crypto trades",
+      "url": "https://www.coindesk.com/tech/2026/06/08/metamask-launches-ai-agent-wallet-with-built-in-security-for-crypto-trades",
+      "published_at": "Mon, 08 Jun 2026 13:00:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "A crypto pioneer who turned a $20 million family stake into a billion-dollar fund doubles down on bitcoin",
-      "url": "https://www.coindesk.com/business/2026/06/06/a-crypto-pioneer-who-turned-a-usd20-million-family-stake-into-a-billion-dollar-fund-doubles-down-on-bitcoin",
-      "published_at": "Sat, 06 Jun 2026 15:00:00 +0000",
+      "title": "Bitmine bought the dip, making its biggest ether purchase in 2026 as prices tanked",
+      "url": "https://www.coindesk.com/markets/2026/06/07/bitmine-bought-the-dip-making-its-biggest-ether-purchase-in-2026-as-prices-tanked",
+      "published_at": "Mon, 08 Jun 2026 12:53:30 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Satoshi-era bitcoin at center of $285 billion lawsuit moves after 14 years",
-      "url": "https://www.coindesk.com/markets/2026/06/06/satoshi-era-bitcoin-at-center-of-usd285-billion-lawsuit-moves-after-14-years",
-      "published_at": "Sat, 06 Jun 2026 13:30:00 +0000",
+      "title": "Strategy buys 1,550 bitcoin one week after selling $2.5 million of coins",
+      "url": "https://www.coindesk.com/markets/2026/06/08/strategy-buys-1-550-bitcoin-boosts-cash-reserves-to-usd1-billion",
+      "published_at": "Mon, 08 Jun 2026 12:12:45 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "A massive hiring wave reveals trading firms are no longer viewing Polymarket as a niche betting tool",
-      "url": "https://www.coindesk.com/business/2026/06/06/a-massive-hiring-wave-reveals-trading-firms-are-no-longer-viewing-polymarket-as-a-niche-betting-tool",
-      "published_at": "Sat, 06 Jun 2026 13:00:00 +0000",
+      "title": "A crucial bitcoin market indicator is signaling that the worst of the crypto crash might be over",
+      "url": "https://www.coindesk.com/markets/2026/06/08/a-crucial-bitcoin-market-indicator-is-signaling-that-the-worst-of-the-crypto-crash-might-be-over",
+      "published_at": "Mon, 08 Jun 2026 12:02:21 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
