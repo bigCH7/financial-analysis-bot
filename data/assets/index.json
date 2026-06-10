@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-09T17:32:28.637681+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-06-09 17:23 UTC_",
+  "generated_at": "2026-06-10T18:05:19.661065+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-06-10 17:56 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,23 +9,23 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 61714.0,
+        "current_usd": 61964.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": -7.41,
-        "change_30d_pct": -24.87
+        "change_7d_pct": -3.21,
+        "change_30d_pct": -24.18
       },
       "indicators": {
         "trend": "DOWNTREND",
-        "momentum": "STRONG",
+        "momentum": "WEAK",
         "volatility": "NORMAL"
       },
       "valuation": {
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
-        "summary_line": "Fair - Balanced growth profile - Elevated regulatory risk.",
-        "score": 56.1
+        "summary_line": "Fair - Weak growth profile - Elevated regulatory risk.",
+        "score": 54.7
       },
-      "updated_at": "2026-06-09T17:32:28.635477+00:00",
+      "updated_at": "2026-06-10T18:05:19.658941+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,23 +37,23 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 1644.0,
+        "current_usd": 1633.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": -11.4,
-        "change_30d_pct": -30.58
+        "change_7d_pct": -9.87,
+        "change_30d_pct": -30.22
       },
       "indicators": {
-        "trend": "UPTREND",
-        "momentum": "STRONG",
+        "trend": "DOWNTREND",
+        "momentum": "WEAK",
         "volatility": "NORMAL"
       },
       "valuation": {
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
-        "summary_line": "Fair - Strong growth profile - Elevated regulatory risk.",
-        "score": 55.7
+        "summary_line": "Fair - Balanced growth profile - Elevated regulatory risk.",
+        "score": 52.1
       },
-      "updated_at": "2026-06-09T17:32:28.636251+00:00",
+      "updated_at": "2026-06-10T18:05:19.659677+00:00",
       "source": {
         "short_term": "live"
       }
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-06-09T17:32:28.636538+00:00",
+      "updated_at": "2026-06-10T18:05:19.659974+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-06-09T17:32:28.636800+00:00",
+      "updated_at": "2026-06-10T18:05:19.660198+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-06-09T17:32:28.637019+00:00",
+      "updated_at": "2026-06-10T18:05:19.660418+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-06-09T17:32:28.637227+00:00",
+      "updated_at": "2026-06-10T18:05:19.660631+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -193,7 +193,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-06-09T17:32:28.637451+00:00",
+      "updated_at": "2026-06-10T18:05:19.660853+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -201,72 +201,72 @@
   ],
   "overview_news": [
     {
-      "title": "UK financial regulator moves to allow mutual funds 10% exposure to crypto ETNs",
-      "url": "https://www.coindesk.com/policy/2026/06/09/uk-financial-regulator-moves-to-allow-mutual-funds-10-exposure-to-crypto-etns",
-      "published_at": "Tue, 09 Jun 2026 15:39:13 +0000",
+      "title": "Coinbase-backed Stand With Crypto calls on members to campaign against banks blocking digital asset transactions",
+      "url": "https://www.coindesk.com/business/2026/06/10/over-280-000-uk-crypto-holders-kick-off-campaign-against-banks-blocking-transactions",
+      "published_at": "Wed, 10 Jun 2026 17:53:09 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "5 corruption gaps Congress must close in the Clarity Act",
-      "url": "https://www.coindesk.com/opinion/2026/06/09/5-corruption-gaps-congress-must-close-in-the-clarity-act",
-      "published_at": "Tue, 09 Jun 2026 15:30:00 +0000",
+      "title": "Crypto Long & Short: Who answers the 3am call when DeFi breaks?",
+      "url": "https://www.coindesk.com/coindesk-indices/2026/06/10/crypto-long-and-short-who-answers-the-3am-call-when-defi-breaks",
+      "published_at": "Wed, 10 Jun 2026 16:20:10 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Trad.Fi, W3 target $650 million in onchain private credit using AI evaluation",
-      "url": "https://www.coindesk.com/business/2026/06/09/trad-fi-w3-target-usd650-million-in-onchain-private-credit-using-ai-evaluation",
-      "published_at": "Tue, 09 Jun 2026 15:03:26 +0000",
+      "title": "Netomi CEO says $5 trillion AI customer experience market could boost stablecoin demand",
+      "url": "https://www.coindesk.com/business/2026/06/10/netomi-ceo-says-usd5-trillion-ai-customer-experience-market-could-boost-stablecoin-demand",
+      "published_at": "Wed, 10 Jun 2026 16:17:18 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Ethena lands Janus Henderson backing as asset manager invests in ENA, eyes USDe distribution",
-      "url": "https://www.coindesk.com/business/2026/06/09/ethena-lands-janus-henderson-backing-as-asset-manager-invests-in-ena-eyes-usde-distribution",
-      "published_at": "Tue, 09 Jun 2026 14:54:59 +0000",
+      "title": "The quantum clock is ticking: it's Bitcoin's problem, not Ethereum's",
+      "url": "https://www.coindesk.com/opinion/2026/06/10/the-quantum-clock-is-ticking-it-s-bitcoin-s-problem-not-ethereum-s",
+      "published_at": "Wed, 10 Jun 2026 16:07:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Come back after the summer, says one analyst on crypto markets",
-      "url": "https://www.coindesk.com/markets/2026/06/09/come-back-after-the-summer-says-one-analyst-on-crypto-markets",
-      "published_at": "Tue, 09 Jun 2026 14:53:50 +0000",
+      "title": "Mastercard prepares for a future where AI agents make payments",
+      "url": "https://www.coindesk.com/business/2026/06/10/mastercard-prepares-for-a-future-where-ai-agents-make-payments-with-latest-introduction",
+      "published_at": "Wed, 10 Jun 2026 16:00:54 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "A16z, Paradigm lead $175 million bet to move global credit markets onchain",
-      "url": "https://www.coindesk.com/business/2026/06/09/a16z-paradigm-lead-usd175-million-bet-to-move-global-credit-markets-onchain",
-      "published_at": "Tue, 09 Jun 2026 14:07:32 +0000",
+      "title": "Kalshi now requires users to reveal employers as it fights insider trading and market manipulation",
+      "url": "https://www.coindesk.com/markets/2026/06/10/kalshi-now-requires-users-to-reveal-employers-as-it-fights-insider-trading-and-market-manipulation",
+      "published_at": "Wed, 10 Jun 2026 14:49:43 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "CoinDesk 20 performance update: AAVE Drops 2.6% as all constituents trade lower",
-      "url": "https://www.coindesk.com/coindesk-indices/2026/06/09/coindesk-20-performance-update-aave-drops-2-6-as-all-constituents-trade-lower",
-      "published_at": "Tue, 09 Jun 2026 13:16:44 +0000",
+      "title": "Prediction markets get first U.S. rule proposal as CFTC pursues contract reviews",
+      "url": "https://www.coindesk.com/policy/2026/06/10/prediction-markets-get-first-u-s-rule-proposal-as-cftc-proposes-contract-reviews",
+      "published_at": "Wed, 10 Jun 2026 13:58:41 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin inflows slow sharply in 2026 as investors chase AI, Bernstein says",
-      "url": "https://www.coindesk.com/markets/2026/06/09/bitcoin-inflows-slow-sharply-in-2026-as-investors-chase-ai-bernstein-says",
-      "published_at": "Tue, 09 Jun 2026 13:02:48 +0000",
+      "title": "Michael Saylor gets into public debate over claims that Strategy's latest share sale was dilutive",
+      "url": "https://www.coindesk.com/markets/2026/06/10/michael-saylor-in-x-back-and-forth-over-claims-strategy-s-latest-share-sale-was-dilutive",
+      "published_at": "Wed, 10 Jun 2026 13:56:41 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "BlackRock warns of energy shock as May CPI is set to show acceleration in inflation",
-      "url": "https://www.coindesk.com/markets/2026/06/09/blackrock-warns-of-energy-shock-as-may-cpi-is-set-to-show-acceleration-in-inflation",
-      "published_at": "Tue, 09 Jun 2026 12:58:09 +0000",
+      "title": "CoinDesk 20 performance update: Index drops 1.4% as all constituents decline",
+      "url": "https://www.coindesk.com/coindesk-indices/2026/06/10/coindesk-20-performance-update-index-drops-1-4-as-all-constituents-decline",
+      "published_at": "Wed, 10 Jun 2026 13:23:13 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Live updates: Bitcoin drifts back to $61,000, after two straight up days amid equities selloff",
-      "url": "https://www.coindesk.com/tech/2026/06/09/live-updates-bitcoin-drifts-back-to-usd62-500-putting-damper-on-hope-for-two-straight-up-days",
-      "published_at": "Tue, 09 Jun 2026 12:52:07 +0000",
+      "title": "World Series of Poker adds Solana payments for tournament buy-ins",
+      "url": "https://www.coindesk.com/tech/2026/06/09/world-series-of-poker-adds-solana-payments-for-tournament-buy-ins",
+      "published_at": "Wed, 10 Jun 2026 13:00:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
