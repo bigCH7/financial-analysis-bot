@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-11T18:20:56.750239+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-06-11 18:12 UTC_",
+  "generated_at": "2026-06-12T17:45:19.094587+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-06-12 17:37 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,23 +9,23 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 63488.0,
+        "current_usd": 63800.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": -0.48,
-        "change_30d_pct": -21.11
+        "change_7d_pct": 4.72,
+        "change_30d_pct": -19.52
       },
       "indicators": {
         "trend": "UPTREND",
-        "momentum": "STRONG",
+        "momentum": "WEAK",
         "volatility": "NORMAL"
       },
       "valuation": {
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
         "summary_line": "Fair - Weak growth profile - Elevated regulatory risk.",
-        "score": 54.5
+        "score": 54.4
       },
-      "updated_at": "2026-06-11T18:20:56.748150+00:00",
+      "updated_at": "2026-06-12T17:45:19.092755+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,23 +37,23 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 1685.0,
+        "current_usd": 1668.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": -4.76,
-        "change_30d_pct": -25.93
+        "change_7d_pct": 5.55,
+        "change_30d_pct": -26.1
       },
       "indicators": {
         "trend": "UPTREND",
-        "momentum": "STRONG",
+        "momentum": "WEAK",
         "volatility": "NORMAL"
       },
       "valuation": {
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
         "summary_line": "Fair - Balanced growth profile - Elevated regulatory risk.",
-        "score": 52.0
+        "score": 51.8
       },
-      "updated_at": "2026-06-11T18:20:56.748893+00:00",
+      "updated_at": "2026-06-12T17:45:19.093432+00:00",
       "source": {
         "short_term": "live"
       }
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-06-11T18:20:56.749160+00:00",
+      "updated_at": "2026-06-12T17:45:19.093677+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-06-11T18:20:56.749373+00:00",
+      "updated_at": "2026-06-12T17:45:19.093877+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-06-11T18:20:56.749583+00:00",
+      "updated_at": "2026-06-12T17:45:19.094085+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-06-11T18:20:56.749818+00:00",
+      "updated_at": "2026-06-12T17:45:19.094242+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -193,7 +193,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-06-11T18:20:56.750047+00:00",
+      "updated_at": "2026-06-12T17:45:19.094427+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -201,72 +201,72 @@
   ],
   "overview_news": [
     {
-      "title": "Coinbase launches AI agent accounts that can trade and spend on your behalf",
-      "url": "https://www.coindesk.com/tech/2026/06/11/coinbase-launches-ai-agent-accounts-that-can-trade-and-spend-on-your-behalf",
-      "published_at": "Thu, 11 Jun 2026 17:00:00 +0000",
+      "title": "VanEck bets BNB\u2019s real-world usage can stand out in a crowded crypto ETF market",
+      "url": "https://www.coindesk.com/markets/2026/06/12/vaneck-bets-bnb-s-real-world-usage-can-stand-out-in-a-crowded-crypto-etf-market",
+      "published_at": "Fri, 12 Jun 2026 16:05:31 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Banking rails are moving past the 'stablecoin winner' narrative: Sygnum",
-      "url": "https://www.coindesk.com/business/2026/06/11/big-banks-are-ditching-private-blockchains-to-build-tokenized-cash-networks-on-public-infrastructure",
-      "published_at": "Thu, 11 Jun 2026 16:37:53 +0000",
+      "title": "Elon Musk's SpaceX soars 20% in blockbuster Nasdaq debut",
+      "url": "https://www.coindesk.com/markets/2026/06/12/spacex-opens-at-usdtk-in-blockbuster-nasdaq-debut",
+      "published_at": "Fri, 12 Jun 2026 15:55:42 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Crypto for Advisors: Crypto ETFs",
-      "url": "https://www.coindesk.com/coindesk-indices/2026/06/10/crypto-for-advisors-crypto-etfs",
-      "published_at": "Thu, 11 Jun 2026 15:00:00 +0000",
+      "title": "Bloomberg Analyst: Most Bitcoin ETF Investors Have Stayed Put Despite Outflows",
+      "url": "https://www.coindesk.com/markets/2026/06/08/bloomberg-analyst-most-bitcoin-etf-investors-have-stayed-put-despite-outflows",
+      "published_at": "Fri, 12 Jun 2026 15:49:36 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "U.S. House bill would erect crypto-theft task force across law enforcement agencies",
-      "url": "https://www.coindesk.com/policy/2026/06/10/u-s-house-bill-would-erect-crypto-theft-task-force-across-law-enforcement-agencies",
-      "published_at": "Thu, 11 Jun 2026 14:30:00 +0000",
+      "title": "Kalshi\u2019s crypto perpetuals spark debate over whether they\u2019re futures or swaps",
+      "url": "https://www.coindesk.com/policy/2026/06/12/kalshi-s-crypto-perpetuals-spark-debate-over-whether-they-re-futures-or-swaps",
+      "published_at": "Fri, 12 Jun 2026 15:37:08 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "SpaceX stock is coming to Solana on the same day it lists on Nasdaq",
-      "url": "https://www.coindesk.com/tech/2026/06/10/spacex-stock-is-coming-to-solana-on-the-same-day-it-lists-on-nasdaq",
-      "published_at": "Thu, 11 Jun 2026 14:00:00 +0000",
+      "title": "The U.S. government is betting $2 Billion on quantum computing, and the defense side can't keep up",
+      "url": "https://www.coindesk.com/opinion/2026/06/12/the-u-s-government-is-betting-usd2-billion-on-quantum-computing-and-the-defense-side-can-t-keep-up",
+      "published_at": "Fri, 12 Jun 2026 15:31:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Canton Network developer raises $355 million to bring Wall Street onchain",
-      "url": "https://www.coindesk.com/business/2026/06/11/canton-network-developer-raises-usd355-million-to-bring-wall-street-onchain",
-      "published_at": "Thu, 11 Jun 2026 13:50:13 +0000",
+      "title": "FTX's Sam Bankman-Fried loses appeal of criminal conviction on fraud, conspiracy charges",
+      "url": "https://www.coindesk.com/policy/2026/06/12/ftx-s-sam-bankman-fried-loses-appeal-of-criminal-conviction-on-fraud-conspiracy-charges",
+      "published_at": "Fri, 12 Jun 2026 14:13:40 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Tether leads $1.4 billion funding round in German robotics company Neura",
-      "url": "https://www.coindesk.com/business/2026/06/11/tether-leads-usd1-4-billion-funding-round-in-german-robotics-company-neura",
-      "published_at": "Thu, 11 Jun 2026 13:49:27 +0000",
+      "title": "XRP sentiment falls to 8-month low, and that has been a buy signal before",
+      "url": "https://www.coindesk.com/markets/2026/06/12/xrp-sentiment-falls-to-an-eight-month-low-and-that-has-been-a-buy-signal-before",
+      "published_at": "Fri, 12 Jun 2026 14:08:03 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "CoinDesk 20 performance update: Uniswap (UNI) gains 4.5% as all constituents rise",
-      "url": "https://www.coindesk.com/coindesk-indices/2026/06/11/coindesk-20-performance-update-uniswap-uni-gains-4-5-as-all-constituents-rise",
-      "published_at": "Thu, 11 Jun 2026 13:45:50 +0000",
+      "title": "CoinDesk 20 performance update: Ethereum (ETH) falls 1% as index trades lower",
+      "url": "https://www.coindesk.com/coindesk-indices/2026/06/12/coindesk-20-performance-update-ethereum-eth-falls-1-as-index-trades-lower",
+      "published_at": "Fri, 12 Jun 2026 13:11:26 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Citi opens new route into private markets with tokenized share offering",
-      "url": "https://www.coindesk.com/business/2026/06/11/citi-opens-new-route-into-private-markets-with-tokenized-share-offering",
-      "published_at": "Thu, 11 Jun 2026 13:27:12 +0000",
+      "title": "For crypto, SpaceX's stock market debut could go either way",
+      "url": "https://www.coindesk.com/daybook-us/2026/06/12/for-crypto-spacex-s-stock-market-debut-could-go-either-way",
+      "published_at": "Fri, 12 Jun 2026 11:23:25 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Ondo Finance hires former Invesco ETF chief to build onchain investment products",
-      "url": "https://www.coindesk.com/business/2026/06/10/ondo-finance-hires-former-invesco-etf-chief-to-build-onchain-investment-products",
-      "published_at": "Thu, 11 Jun 2026 12:57:56 +0000",
+      "title": "Monero price rockets 33% to $438 amid $120 million onchain laundering maze",
+      "url": "https://www.coindesk.com/markets/2026/06/12/monero-spiked-to-usd430-as-usd120-million-moved-through-it-then-tether-froze-usd72-million",
+      "published_at": "Fri, 12 Jun 2026 11:10:51 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
