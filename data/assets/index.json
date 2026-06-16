@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-15T19:11:41.423230+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-06-15 19:02 UTC_",
+  "generated_at": "2026-06-16T19:03:01.718153+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-06-16 18:54 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,23 +9,23 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 66827.0,
+        "current_usd": 65772.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": 5.94,
-        "change_30d_pct": -14.47
+        "change_7d_pct": 6.67,
+        "change_30d_pct": -15.05
       },
       "indicators": {
         "trend": "UPTREND",
-        "momentum": "STRONG",
+        "momentum": "WEAK",
         "volatility": "NORMAL"
       },
       "valuation": {
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
         "summary_line": "Fair - Weak growth profile - Elevated regulatory risk.",
-        "score": 56.5
+        "score": 54.0
       },
-      "updated_at": "2026-06-15T19:11:41.421059+00:00",
+      "updated_at": "2026-06-16T19:03:01.716209+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,23 +37,23 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 1831.0,
+        "current_usd": 1796.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": 8.35,
-        "change_30d_pct": -16.0
+        "change_7d_pct": 9.65,
+        "change_30d_pct": -15.6
       },
       "indicators": {
         "trend": "UPTREND",
-        "momentum": "STRONG",
+        "momentum": "WEAK",
         "volatility": "NORMAL"
       },
       "valuation": {
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
-        "summary_line": "Fair - Strong growth profile - Elevated regulatory risk.",
-        "score": 57.3
+        "summary_line": "Fair - Balanced growth profile - Elevated regulatory risk.",
+        "score": 55.3
       },
-      "updated_at": "2026-06-15T19:11:41.421882+00:00",
+      "updated_at": "2026-06-16T19:03:01.716953+00:00",
       "source": {
         "short_term": "live"
       }
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-06-15T19:11:41.422148+00:00",
+      "updated_at": "2026-06-16T19:03:01.717221+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-06-15T19:11:41.422372+00:00",
+      "updated_at": "2026-06-16T19:03:01.717438+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-06-15T19:11:41.422582+00:00",
+      "updated_at": "2026-06-16T19:03:01.717623+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-06-15T19:11:41.422806+00:00",
+      "updated_at": "2026-06-16T19:03:01.717804+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -193,7 +193,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-06-15T19:11:41.423009+00:00",
+      "updated_at": "2026-06-16T19:03:01.717970+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -201,72 +201,72 @@
   ],
   "overview_news": [
     {
-      "title": "Hyperliquid loses Anthropic, OpenAI markets as creator shuts down project",
-      "url": "https://www.coindesk.com/business/2026/06/15/hyperliquid-loses-anthropic-openai-markets-as-creator-shuts-down-project",
-      "published_at": "Mon, 15 Jun 2026 18:14:07 +0000",
+      "title": "Coinbase intoduces AI advisor, stock options, and pre-IPO markets in finance push",
+      "url": "https://www.coindesk.com/business/2026/06/16/coinbase-intoduces-ai-advisor-stock-options-and-pre-ipo-markets-in-finance-push",
+      "published_at": "Tue, 16 Jun 2026 19:00:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "If America wants to lead in crypto, it must protect the people who build it",
-      "url": "https://www.coindesk.com/opinion/2026/06/15/if-america-wants-to-lead-in-crypto-it-must-protect-the-people-who-build-it",
-      "published_at": "Mon, 15 Jun 2026 14:25:00 +0000",
+      "title": "Ripple invests in Flutterwave, pushing its stablecoin and XRP Ledger into payments across Africa",
+      "url": "https://www.coindesk.com/business/2026/06/16/ripple-invests-in-flutterwave-pushing-its-stablecoin-and-xrp-ledger-into-payments-across-africa",
+      "published_at": "Tue, 16 Jun 2026 15:35:40 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "\u2018Crypto spring\u2019 is here, says one analyst after bitcoin's key signals turn bullish",
-      "url": "https://www.coindesk.com/markets/2026/06/15/crypto-spring-is-here-says-one-analyst-after-bitcoin-s-key-signals-turn-bullish",
-      "published_at": "Mon, 15 Jun 2026 14:16:45 +0000",
+      "title": "Coinbase to join tokenized stock race with onchain shares, dividend payments",
+      "url": "https://www.coindesk.com/business/2026/06/16/coinbase-to-join-tokenized-stock-race-with-onchain-shares-dividend-payments",
+      "published_at": "Tue, 16 Jun 2026 15:03:21 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Kraken debuts U.S. perpetual futures as crypto derivatives move onshore",
-      "url": "https://www.coindesk.com/markets/2026/06/15/kraken-debuts-u-s-perpetual-futures-as-crypto-derivatives-move-onshore",
-      "published_at": "Mon, 15 Jun 2026 14:07:22 +0000",
+      "title": "Binance says its European regulatory application is compliant despite report of Greek rejection",
+      "url": "https://www.coindesk.com/policy/2026/06/16/binance-says-its-european-regulatory-application-is-fully-compliant-despite-report-of-greek-rejection",
+      "published_at": "Tue, 16 Jun 2026 14:55:35 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Coinbase's Brian Armstrong says bitcoin may have bottomed at $60,000",
-      "url": "https://www.coindesk.com/markets/2026/06/15/coinbase-s-brian-armstrong-says-bitcoin-may-have-bottomed-at-usd60-000",
-      "published_at": "Mon, 15 Jun 2026 13:30:05 +0000",
+      "title": "Ethereum\u2019s biggest protocol overhaul in years moves into its final development stage",
+      "url": "https://www.coindesk.com/tech/2026/06/16/ethereum-s-biggest-protocol-overhaul-in-years-moves-into-its-final-development-stage",
+      "published_at": "Tue, 16 Jun 2026 14:48:18 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "XRP rockets 8% above $1.20 in first major breakout since June selloff",
-      "url": "https://www.coindesk.com/markets/2026/06/15/xrp-rockets-8-above-usd1-20-in-first-major-breakout-since-june-selloff",
-      "published_at": "Mon, 15 Jun 2026 13:26:20 +0000",
+      "title": "State Street targets stablecoin reserve boom with new money market fund",
+      "url": "https://www.coindesk.com/business/2026/06/16/state-street-targets-stablecoin-reserve-boom-with-new-money-market-fund",
+      "published_at": "Tue, 16 Jun 2026 14:27:26 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "CoinDesk 20 performance update: Bittensor (TAO) surges 31.9%, leading index higher",
-      "url": "https://www.coindesk.com/coindesk-indices/2026/06/15/coindesk-20-performance-update-bittensor-tao-surges-31-9-leading-index-higher",
-      "published_at": "Mon, 15 Jun 2026 13:19:28 +0000",
+      "title": "CoinDesk 20 performance update: Uniswap (UNI) gains 12.9% while index trades lower",
+      "url": "https://www.coindesk.com/coindesk-indices/2026/06/16/coindesk-20-performance-update-uniswap-uni-gains-12-9-while-index-trades-lower",
+      "published_at": "Tue, 16 Jun 2026 13:15:01 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bitmine adds another $136 million of ether after raising $274 million in preferred stock sale",
-      "url": "https://www.coindesk.com/business/2026/06/15/bitmine-adds-another-usd136-million-of-ether-after-raising-usd274-million-in-preferred-stock-sale",
-      "published_at": "Mon, 15 Jun 2026 13:04:51 +0000",
+      "title": "Y Combinator reveals a new AI agent that can build and run an entire business just from a text message",
+      "url": "https://www.coindesk.com/tech/2026/06/16/this-ai-builds-you-a-business-runs-it-and-settles-payments-in-usdc",
+      "published_at": "Tue, 16 Jun 2026 12:55:23 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Michael Saylor's Strategy acquires another 1,587 bitcoin for $100 million",
-      "url": "https://www.coindesk.com/markets/2026/06/15/strategy-deploys-usd100-million-from-usd-reserves-to-acquire-1-587-btc",
-      "published_at": "Mon, 15 Jun 2026 12:06:39 +0000",
+      "title": "BlackRock's new bitcoin income fund offers cash flow alongside BTC exposure",
+      "url": "https://www.coindesk.com/markets/2026/06/16/blackrock-s-new-bitcoin-income-fund-offers-cash-flow-alongside-btc-exposure",
+      "published_at": "Tue, 16 Jun 2026 12:00:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Markets cheer U.S.-Iran Breakthrough though Middle East risks, Fed remain in focus",
-      "url": "https://www.coindesk.com/daybook-us/2026/06/15/markets-cheer-u-s-iran-breakthrough-though-middle-east-risks-fed-remain-in-focus",
-      "published_at": "Mon, 15 Jun 2026 11:58:56 +0000",
+      "title": "Mystery Polymarket trader turned $4 million into $9 million after Spain's shocking World Cup draw",
+      "url": "https://www.coindesk.com/markets/2026/06/16/days-old-polymarket-account-scores-usd9-million-win-against-world-cup-favorite-spain",
+      "published_at": "Tue, 16 Jun 2026 11:45:37 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
