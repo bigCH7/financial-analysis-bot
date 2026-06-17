@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-16T19:03:01.718153+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-06-16 18:54 UTC_",
+  "generated_at": "2026-06-17T17:57:29.268248+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-06-17 17:48 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,13 +9,13 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 65772.0,
+        "current_usd": 66021.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": 6.67,
-        "change_30d_pct": -15.05
+        "change_7d_pct": 7.36,
+        "change_30d_pct": -14.21
       },
       "indicators": {
-        "trend": "UPTREND",
+        "trend": "DOWNTREND",
         "momentum": "WEAK",
         "volatility": "NORMAL"
       },
@@ -23,9 +23,9 @@
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
         "summary_line": "Fair - Weak growth profile - Elevated regulatory risk.",
-        "score": 54.0
+        "score": 53.4
       },
-      "updated_at": "2026-06-16T19:03:01.716209+00:00",
+      "updated_at": "2026-06-17T17:57:29.266057+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,10 +37,10 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 1796.0,
+        "current_usd": 1787.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": 9.65,
-        "change_30d_pct": -15.6
+        "change_7d_pct": 10.25,
+        "change_30d_pct": -16.02
       },
       "indicators": {
         "trend": "UPTREND",
@@ -51,9 +51,9 @@
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
         "summary_line": "Fair - Balanced growth profile - Elevated regulatory risk.",
-        "score": 55.3
+        "score": 51.8
       },
-      "updated_at": "2026-06-16T19:03:01.716953+00:00",
+      "updated_at": "2026-06-17T17:57:29.266758+00:00",
       "source": {
         "short_term": "live"
       }
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-06-16T19:03:01.717221+00:00",
+      "updated_at": "2026-06-17T17:57:29.267053+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-06-16T19:03:01.717438+00:00",
+      "updated_at": "2026-06-17T17:57:29.267299+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-06-16T19:03:01.717623+00:00",
+      "updated_at": "2026-06-17T17:57:29.267529+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-06-16T19:03:01.717804+00:00",
+      "updated_at": "2026-06-17T17:57:29.267762+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -193,7 +193,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-06-16T19:03:01.717970+00:00",
+      "updated_at": "2026-06-17T17:57:29.268017+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -201,72 +201,72 @@
   ],
   "overview_news": [
     {
-      "title": "Coinbase intoduces AI advisor, stock options, and pre-IPO markets in finance push",
-      "url": "https://www.coindesk.com/business/2026/06/16/coinbase-intoduces-ai-advisor-stock-options-and-pre-ipo-markets-in-finance-push",
-      "published_at": "Tue, 16 Jun 2026 19:00:00 +0000",
+      "title": "Crypto industry aghast at Illinois' new tax on holding or transferring digital assets in state budget",
+      "url": "https://www.coindesk.com/policy/2026/06/17/crypto-industry-aghast-at-illinois-new-tax-on-holding-or-transferring-digital-assets-in-state-budget",
+      "published_at": "Wed, 17 Jun 2026 16:50:33 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Ripple invests in Flutterwave, pushing its stablecoin and XRP Ledger into payments across Africa",
-      "url": "https://www.coindesk.com/business/2026/06/16/ripple-invests-in-flutterwave-pushing-its-stablecoin-and-xrp-ledger-into-payments-across-africa",
-      "published_at": "Tue, 16 Jun 2026 15:35:40 +0000",
+      "title": "Crypto Long & Short: The measure of a maturing market",
+      "url": "https://www.coindesk.com/coindesk-indices/2026/06/17/crypto-long-and-short-the-measure-of-a-maturing-market",
+      "published_at": "Wed, 17 Jun 2026 16:48:04 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Coinbase to join tokenized stock race with onchain shares, dividend payments",
-      "url": "https://www.coindesk.com/business/2026/06/16/coinbase-to-join-tokenized-stock-race-with-onchain-shares-dividend-payments",
-      "published_at": "Tue, 16 Jun 2026 15:03:21 +0000",
+      "title": "Moody\u2019s rolls out credit ratings on Solana in tokenized asset push",
+      "url": "https://www.coindesk.com/business/2026/06/17/moody-s-rolls-out-credit-ratings-on-solana-in-tokenized-asset-push",
+      "published_at": "Wed, 17 Jun 2026 16:13:14 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Binance says its European regulatory application is compliant despite report of Greek rejection",
-      "url": "https://www.coindesk.com/policy/2026/06/16/binance-says-its-european-regulatory-application-is-fully-compliant-despite-report-of-greek-rejection",
-      "published_at": "Tue, 16 Jun 2026 14:55:35 +0000",
+      "title": "BitGo stock surges on $50 million share buyback as value languishes 65% below IPO price",
+      "url": "https://www.coindesk.com/markets/2026/06/17/bitgo-stock-surges-on-usd50-million-share-buyback-as-value-languishes-65-below-ipo-price",
+      "published_at": "Wed, 17 Jun 2026 14:52:31 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Ethereum\u2019s biggest protocol overhaul in years moves into its final development stage",
-      "url": "https://www.coindesk.com/tech/2026/06/16/ethereum-s-biggest-protocol-overhaul-in-years-moves-into-its-final-development-stage",
-      "published_at": "Tue, 16 Jun 2026 14:48:18 +0000",
+      "title": "Crypto\u2019s security nightmare won\u2019t be solved by ordinary audits",
+      "url": "https://www.coindesk.com/opinion/2026/06/17/crypto-s-security-nightmare-won-t-be-solved-by-ordinary-audits",
+      "published_at": "Wed, 17 Jun 2026 14:12:09 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "State Street targets stablecoin reserve boom with new money market fund",
-      "url": "https://www.coindesk.com/business/2026/06/16/state-street-targets-stablecoin-reserve-boom-with-new-money-market-fund",
-      "published_at": "Tue, 16 Jun 2026 14:27:26 +0000",
+      "title": "Mexican billionaire with 70% of his investment portfolio in bitcoin says it's better than real estate",
+      "url": "https://www.coindesk.com/business/2026/06/17/mexican-billionaire-with-70-of-his-investment-portfolio-in-bitcoin-says-it-s-better-than-real-estate",
+      "published_at": "Wed, 17 Jun 2026 14:00:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "CoinDesk 20 performance update: Uniswap (UNI) gains 12.9% while index trades lower",
-      "url": "https://www.coindesk.com/coindesk-indices/2026/06/16/coindesk-20-performance-update-uniswap-uni-gains-12-9-while-index-trades-lower",
-      "published_at": "Tue, 16 Jun 2026 13:15:01 +0000",
+      "title": "Kevin Warsh's first Fed meeting could be more about communication than rates",
+      "url": "https://www.coindesk.com/markets/2026/06/17/warsh-s-first-fed-meeting-could-be-more-about-communication-than-rates",
+      "published_at": "Wed, 17 Jun 2026 13:58:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Y Combinator reveals a new AI agent that can build and run an entire business just from a text message",
-      "url": "https://www.coindesk.com/tech/2026/06/16/this-ai-builds-you-a-business-runs-it-and-settles-payments-in-usdc",
-      "published_at": "Tue, 16 Jun 2026 12:55:23 +0000",
+      "title": "CoinDesk 20 performance update: Bitcoin Cash (BCH) drops 3.1%, leading index lower",
+      "url": "https://www.coindesk.com/coindesk-indices/2026/06/17/coindesk-20-performance-update-bitcoin-cash-bch-drops-3-1-leading-index-lower",
+      "published_at": "Wed, 17 Jun 2026 13:20:23 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "BlackRock's new bitcoin income fund offers cash flow alongside BTC exposure",
-      "url": "https://www.coindesk.com/markets/2026/06/16/blackrock-s-new-bitcoin-income-fund-offers-cash-flow-alongside-btc-exposure",
-      "published_at": "Tue, 16 Jun 2026 12:00:00 +0000",
+      "title": "A new Bittensor proposal would turn validators into something like fund managers",
+      "url": "https://www.coindesk.com/tech/2026/06/17/a-new-bittensor-proposal-would-turn-validators-into-something-like-fund-managers",
+      "published_at": "Wed, 17 Jun 2026 12:54:28 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Mystery Polymarket trader turned $4 million into $9 million after Spain's shocking World Cup draw",
-      "url": "https://www.coindesk.com/markets/2026/06/16/days-old-polymarket-account-scores-usd9-million-win-against-world-cup-favorite-spain",
-      "published_at": "Tue, 16 Jun 2026 11:45:37 +0000",
+      "title": "SpaceX's $2.6 trillion market cap nearly double that of bitcoin",
+      "url": "https://www.coindesk.com/markets/2026/06/17/spacex-s-usd2-6-trillion-valuation-is-now-worth-nearly-twice-all-of-bitcoin",
+      "published_at": "Wed, 17 Jun 2026 12:09:33 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
