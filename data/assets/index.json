@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-17T17:57:29.268248+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-06-17 17:48 UTC_",
+  "generated_at": "2026-06-18T18:07:06.100703+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-06-18 17:58 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,23 +9,23 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 66021.0,
+        "current_usd": 62539.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": 7.36,
-        "change_30d_pct": -14.21
+        "change_7d_pct": -1.59,
+        "change_30d_pct": -18.58
       },
       "indicators": {
         "trend": "DOWNTREND",
-        "momentum": "WEAK",
+        "momentum": "STRONG",
         "volatility": "NORMAL"
       },
       "valuation": {
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
         "summary_line": "Fair - Weak growth profile - Elevated regulatory risk.",
-        "score": 53.4
+        "score": 55.6
       },
-      "updated_at": "2026-06-17T17:57:29.266057+00:00",
+      "updated_at": "2026-06-18T18:07:06.098605+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,23 +37,23 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 1787.0,
+        "current_usd": 1677.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": 10.25,
-        "change_30d_pct": -16.02
+        "change_7d_pct": 0.29,
+        "change_30d_pct": -20.6
       },
       "indicators": {
-        "trend": "UPTREND",
-        "momentum": "WEAK",
+        "trend": "DOWNTREND",
+        "momentum": "STRONG",
         "volatility": "NORMAL"
       },
       "valuation": {
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
-        "summary_line": "Fair - Balanced growth profile - Elevated regulatory risk.",
-        "score": 51.8
+        "summary_line": "Fair - Strong growth profile - Elevated regulatory risk.",
+        "score": 55.7
       },
-      "updated_at": "2026-06-17T17:57:29.266758+00:00",
+      "updated_at": "2026-06-18T18:07:06.099328+00:00",
       "source": {
         "short_term": "live"
       }
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-06-17T17:57:29.267053+00:00",
+      "updated_at": "2026-06-18T18:07:06.099620+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-06-17T17:57:29.267299+00:00",
+      "updated_at": "2026-06-18T18:07:06.099834+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-06-17T17:57:29.267529+00:00",
+      "updated_at": "2026-06-18T18:07:06.100056+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-06-17T17:57:29.267762+00:00",
+      "updated_at": "2026-06-18T18:07:06.100255+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -193,7 +193,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-06-17T17:57:29.268017+00:00",
+      "updated_at": "2026-06-18T18:07:06.100462+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -201,72 +201,72 @@
   ],
   "overview_news": [
     {
-      "title": "Crypto industry aghast at Illinois' new tax on holding or transferring digital assets in state budget",
-      "url": "https://www.coindesk.com/policy/2026/06/17/crypto-industry-aghast-at-illinois-new-tax-on-holding-or-transferring-digital-assets-in-state-budget",
-      "published_at": "Wed, 17 Jun 2026 16:50:33 +0000",
+      "title": "U.S. agencies seek stablecoin customer-ID rules akin to banks in new GENIUS Act rule",
+      "url": "https://www.coindesk.com/policy/2026/06/18/u-s-agencies-seek-stablecoin-customer-id-rules-akin-to-banks-in-new-genius-act-rule",
+      "published_at": "Thu, 18 Jun 2026 17:17:22 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Crypto Long & Short: The measure of a maturing market",
-      "url": "https://www.coindesk.com/coindesk-indices/2026/06/17/crypto-long-and-short-the-measure-of-a-maturing-market",
-      "published_at": "Wed, 17 Jun 2026 16:48:04 +0000",
+      "title": "Ethereum Foundation loses another key leader as co-executive director Hsiao-Wei Wang resigns",
+      "url": "https://www.coindesk.com/tech/2026/06/18/ethereum-foundation-loses-another-key-leader-as-co-executive-director-hsiao-wei-wang-resigns",
+      "published_at": "Thu, 18 Jun 2026 15:41:17 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Moody\u2019s rolls out credit ratings on Solana in tokenized asset push",
-      "url": "https://www.coindesk.com/business/2026/06/17/moody-s-rolls-out-credit-ratings-on-solana-in-tokenized-asset-push",
-      "published_at": "Wed, 17 Jun 2026 16:13:14 +0000",
+      "title": "Crypto for Advisors: Trading the bitcoin cycle",
+      "url": "https://www.coindesk.com/coindesk-indices/2026/06/17/crypto-for-advisors-trading-the-bitcoin-cycle",
+      "published_at": "Thu, 18 Jun 2026 15:00:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "BitGo stock surges on $50 million share buyback as value languishes 65% below IPO price",
-      "url": "https://www.coindesk.com/markets/2026/06/17/bitgo-stock-surges-on-usd50-million-share-buyback-as-value-languishes-65-below-ipo-price",
-      "published_at": "Wed, 17 Jun 2026 14:52:31 +0000",
+      "title": "Algorand unveils roadmap to achieve quantum resistance by 2028",
+      "url": "https://www.coindesk.com/tech/2026/06/18/algorand-unveils-post-quantum-roadmap-to-secure-blockchain-by-2027",
+      "published_at": "Thu, 18 Jun 2026 14:00:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Crypto\u2019s security nightmare won\u2019t be solved by ordinary audits",
-      "url": "https://www.coindesk.com/opinion/2026/06/17/crypto-s-security-nightmare-won-t-be-solved-by-ordinary-audits",
-      "published_at": "Wed, 17 Jun 2026 14:12:09 +0000",
+      "title": "CoinDesk 20 performance update: Stellar (XLM) jumps 10% while index declines",
+      "url": "https://www.coindesk.com/coindesk-indices/2026/06/18/coindesk-20-performance-update-stellar-xlm-jumps-10-while-index-declines",
+      "published_at": "Thu, 18 Jun 2026 13:13:44 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Mexican billionaire with 70% of his investment portfolio in bitcoin says it's better than real estate",
-      "url": "https://www.coindesk.com/business/2026/06/17/mexican-billionaire-with-70-of-his-investment-portfolio-in-bitcoin-says-it-s-better-than-real-estate",
-      "published_at": "Wed, 17 Jun 2026 14:00:00 +0000",
+      "title": "Alchemy's AI-driven identity and payment service gains access to Visa network",
+      "url": "https://www.coindesk.com/business/2026/06/18/alchemy-s-ai-driven-identity-and-payment-service-gains-access-to-visa-network",
+      "published_at": "Thu, 18 Jun 2026 13:00:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Kevin Warsh's first Fed meeting could be more about communication than rates",
-      "url": "https://www.coindesk.com/markets/2026/06/17/warsh-s-first-fed-meeting-could-be-more-about-communication-than-rates",
-      "published_at": "Wed, 17 Jun 2026 13:58:00 +0000",
+      "title": "Hive shares jumps 10% on $220m Canada sovereign AI infrastructure deal",
+      "url": "https://www.coindesk.com/markets/2026/06/18/hive-shares-jumps-10-on-usd220m-canada-sovereign-ai-infrastructure-deal",
+      "published_at": "Thu, 18 Jun 2026 11:49:41 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "CoinDesk 20 performance update: Bitcoin Cash (BCH) drops 3.1%, leading index lower",
-      "url": "https://www.coindesk.com/coindesk-indices/2026/06/17/coindesk-20-performance-update-bitcoin-cash-bch-drops-3-1-leading-index-lower",
-      "published_at": "Wed, 17 Jun 2026 13:20:23 +0000",
+      "title": "The great rotation: Investors desert the Magnificent 7, crypto for AI bottlenecks",
+      "url": "https://www.coindesk.com/markets/2026/06/18/the-great-rotation-investors-desert-the-magnificent-7-crypto-for-ai-bottlenecks",
+      "published_at": "Thu, 18 Jun 2026 11:37:32 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "A new Bittensor proposal would turn validators into something like fund managers",
-      "url": "https://www.coindesk.com/tech/2026/06/17/a-new-bittensor-proposal-would-turn-validators-into-something-like-fund-managers",
-      "published_at": "Wed, 17 Jun 2026 12:54:28 +0000",
+      "title": "Bitcoin's nemesis, the Dollar Index, is on the verge of a major breakout",
+      "url": "https://www.coindesk.com/daybook-us/2026/06/18/bitcoin-s-nemesis-the-dollar-index-is-on-the-verge-of-a-major-breakout",
+      "published_at": "Thu, 18 Jun 2026 11:10:40 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "SpaceX's $2.6 trillion market cap nearly double that of bitcoin",
-      "url": "https://www.coindesk.com/markets/2026/06/17/spacex-s-usd2-6-trillion-valuation-is-now-worth-nearly-twice-all-of-bitcoin",
-      "published_at": "Wed, 17 Jun 2026 12:09:33 +0000",
+      "title": "Aster popped over 10% on radical 'buyback and burn' upgrade. But gains were short-lived",
+      "url": "https://www.coindesk.com/markets/2026/06/18/aster-popped-over-10-on-radical-buyback-and-burn-upgrade-but-gains-were-short-lived",
+      "published_at": "Thu, 18 Jun 2026 11:02:57 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
