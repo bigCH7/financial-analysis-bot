@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-18T18:07:06.100703+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-06-18 17:58 UTC_",
+  "generated_at": "2026-06-19T17:27:58.887596+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-06-19 17:19 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,23 +9,23 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 62539.0,
+        "current_usd": 62926.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": -1.59,
-        "change_30d_pct": -18.58
+        "change_7d_pct": -0.96,
+        "change_30d_pct": -18.76
       },
       "indicators": {
         "trend": "DOWNTREND",
-        "momentum": "STRONG",
+        "momentum": "WEAK",
         "volatility": "NORMAL"
       },
       "valuation": {
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
         "summary_line": "Fair - Weak growth profile - Elevated regulatory risk.",
-        "score": 55.6
+        "score": 52.9
       },
-      "updated_at": "2026-06-18T18:07:06.098605+00:00",
+      "updated_at": "2026-06-19T17:27:58.884996+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,23 +37,23 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 1677.0,
+        "current_usd": 1697.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": 0.29,
-        "change_30d_pct": -20.6
+        "change_7d_pct": 1.9,
+        "change_30d_pct": -20.24
       },
       "indicators": {
         "trend": "DOWNTREND",
-        "momentum": "STRONG",
+        "momentum": "WEAK",
         "volatility": "NORMAL"
       },
       "valuation": {
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
-        "summary_line": "Fair - Strong growth profile - Elevated regulatory risk.",
-        "score": 55.7
+        "summary_line": "Fair - Balanced growth profile - Elevated regulatory risk.",
+        "score": 48.9
       },
-      "updated_at": "2026-06-18T18:07:06.099328+00:00",
+      "updated_at": "2026-06-19T17:27:58.885892+00:00",
       "source": {
         "short_term": "live"
       }
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-06-18T18:07:06.099620+00:00",
+      "updated_at": "2026-06-19T17:27:58.886248+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-06-18T18:07:06.099834+00:00",
+      "updated_at": "2026-06-19T17:27:58.886530+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-06-18T18:07:06.100056+00:00",
+      "updated_at": "2026-06-19T17:27:58.886796+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-06-18T18:07:06.100255+00:00",
+      "updated_at": "2026-06-19T17:27:58.887054+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -193,7 +193,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-06-18T18:07:06.100462+00:00",
+      "updated_at": "2026-06-19T17:27:58.887336+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -201,72 +201,72 @@
   ],
   "overview_news": [
     {
-      "title": "U.S. agencies seek stablecoin customer-ID rules akin to banks in new GENIUS Act rule",
-      "url": "https://www.coindesk.com/policy/2026/06/18/u-s-agencies-seek-stablecoin-customer-id-rules-akin-to-banks-in-new-genius-act-rule",
-      "published_at": "Thu, 18 Jun 2026 17:17:22 +0000",
+      "title": "GoMining challenges Jack Dorsey's Square with payments system designed around bitcoin",
+      "url": "https://www.coindesk.com/business/2026/06/19/gomining-challenges-jack-dorsey-s-square-with-payments-system-designed-around-bitcoin",
+      "published_at": "Fri, 19 Jun 2026 12:30:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Ethereum Foundation loses another key leader as co-executive director Hsiao-Wei Wang resigns",
-      "url": "https://www.coindesk.com/tech/2026/06/18/ethereum-foundation-loses-another-key-leader-as-co-executive-director-hsiao-wei-wang-resigns",
-      "published_at": "Thu, 18 Jun 2026 15:41:17 +0000",
+      "title": "Franklin Templeton proposes new ETFs that turn corporate dividends into bitcoin",
+      "url": "https://www.coindesk.com/daybook-us/2026/06/19/franklin-templeton-proposes-new-funds-that-turn-corporate-dividends-into-bitcoin",
+      "published_at": "Fri, 19 Jun 2026 11:27:59 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Crypto for Advisors: Trading the bitcoin cycle",
-      "url": "https://www.coindesk.com/coindesk-indices/2026/06/17/crypto-for-advisors-trading-the-bitcoin-cycle",
-      "published_at": "Thu, 18 Jun 2026 15:00:00 +0000",
+      "title": "Smart-contract and DeFi coins lead losses as bitcoin wilts for 4th straight day",
+      "url": "https://www.coindesk.com/markets/2026/06/19/smart-contract-and-defi-coins-lead-losses-as-bitcoin-wilts-for-4th-straight-day",
+      "published_at": "Fri, 19 Jun 2026 10:47:03 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Algorand unveils roadmap to achieve quantum resistance by 2028",
-      "url": "https://www.coindesk.com/tech/2026/06/18/algorand-unveils-post-quantum-roadmap-to-secure-blockchain-by-2027",
-      "published_at": "Thu, 18 Jun 2026 14:00:00 +0000",
+      "title": "Digital credit market hit by huge selloff as Strive CEO blames leverage liquidations",
+      "url": "https://www.coindesk.com/markets/2026/06/19/digital-credit-market-hit-by-record-selloff-as-strive-ceo-blames-leverage-liquidations",
+      "published_at": "Fri, 19 Jun 2026 09:19:28 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "CoinDesk 20 performance update: Stellar (XLM) jumps 10% while index declines",
-      "url": "https://www.coindesk.com/coindesk-indices/2026/06/18/coindesk-20-performance-update-stellar-xlm-jumps-10-while-index-declines",
-      "published_at": "Thu, 18 Jun 2026 13:13:44 +0000",
+      "title": "Microsoft found malware that hijacks crypto wallets and spreads through USB sticks",
+      "url": "https://www.coindesk.com/tech/2026/06/19/microsoft-found-malware-that-hijacks-crypto-wallets-and-spreads-through-usb-sticks",
+      "published_at": "Fri, 19 Jun 2026 08:48:14 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Alchemy's AI-driven identity and payment service gains access to Visa network",
-      "url": "https://www.coindesk.com/business/2026/06/18/alchemy-s-ai-driven-identity-and-payment-service-gains-access-to-visa-network",
-      "published_at": "Thu, 18 Jun 2026 13:00:00 +0000",
+      "title": "XRP falls 3% after losing $1.15 support as breakout attempt fades",
+      "url": "https://www.coindesk.com/markets/2026/06/19/xrp-falls-3-after-losing-usd1-15-support-as-breakout-attempt-fades",
+      "published_at": "Fri, 19 Jun 2026 05:14:20 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Hive shares jumps 10% on $220m Canada sovereign AI infrastructure deal",
-      "url": "https://www.coindesk.com/markets/2026/06/18/hive-shares-jumps-10-on-usd220m-canada-sovereign-ai-infrastructure-deal",
-      "published_at": "Thu, 18 Jun 2026 11:49:41 +0000",
+      "title": "Live markets: Bitcoin under pressure as Saylor comments on STRC selloff",
+      "url": "https://www.coindesk.com/markets/2026/06/19/live-markets-bitcoin-has-traded-below-its-mining-cost-for-five-months-squeezing-miners",
+      "published_at": "Fri, 19 Jun 2026 05:04:22 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "The great rotation: Investors desert the Magnificent 7, crypto for AI bottlenecks",
-      "url": "https://www.coindesk.com/markets/2026/06/18/the-great-rotation-investors-desert-the-magnificent-7-crypto-for-ai-bottlenecks",
-      "published_at": "Thu, 18 Jun 2026 11:37:32 +0000",
+      "title": "Bitcoin traders load up on bearish bets all the way down to $52,000",
+      "url": "https://www.coindesk.com/markets/2026/06/19/bitcoin-traders-load-up-on-bearish-bets-all-the-way-down-to-usd52-000",
+      "published_at": "Fri, 19 Jun 2026 05:02:01 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin's nemesis, the Dollar Index, is on the verge of a major breakout",
-      "url": "https://www.coindesk.com/daybook-us/2026/06/18/bitcoin-s-nemesis-the-dollar-index-is-on-the-verge-of-a-major-breakout",
-      "published_at": "Thu, 18 Jun 2026 11:10:40 +0000",
+      "title": "Bitcoin falls below $63,000 as risk assets sell off and the week's bounce fades",
+      "url": "https://www.coindesk.com/markets/2026/06/19/bitcoin-falls-below-usd63-000-as-risk-assets-sell-off-and-the-week-s-bounce-fades",
+      "published_at": "Fri, 19 Jun 2026 04:49:20 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Aster popped over 10% on radical 'buyback and burn' upgrade. But gains were short-lived",
-      "url": "https://www.coindesk.com/markets/2026/06/18/aster-popped-over-10-on-radical-buyback-and-burn-upgrade-but-gains-were-short-lived",
-      "published_at": "Thu, 18 Jun 2026 11:02:57 +0000",
+      "title": "Ex-Celsius CEO Mashinsky gets U.S. CFTC ban in final resolution with regulator",
+      "url": "https://www.coindesk.com/policy/2026/06/18/ex-celsius-ceo-mashinsky-gets-u-s-cftc-ban-in-final-resolution-with-regulator",
+      "published_at": "Thu, 18 Jun 2026 19:26:55 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }

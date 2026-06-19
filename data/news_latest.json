@@ -1,9 +1,79 @@
 {
-  "generated_at": "2026-06-18 18:05 UTC",
+  "generated_at": "2026-06-19 17:26 UTC",
   "count": 55,
   "items": [
     {
-      "title": "U.S. agencies seek stablecoin customer-ID rules akin to banks in new GENIUS Act rule",
+      "title": "GoMining challenges Jack Dorsey's Square with payments system designed around bitcoin",
+      "link": "https://www.coindesk.com/business/2026/06/19/gomining-challenges-jack-dorsey-s-square-with-payments-system-designed-around-bitcoin",
+      "pub_date": "Fri, 19 Jun 2026 12:30:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Franklin Templeton proposes new ETFs that turn corporate dividends into bitcoin",
+      "link": "https://www.coindesk.com/daybook-us/2026/06/19/franklin-templeton-proposes-new-funds-that-turn-corporate-dividends-into-bitcoin",
+      "pub_date": "Fri, 19 Jun 2026 11:27:59 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Smart-contract and DeFi coins lead losses as bitcoin wilts for 4th straight day",
+      "link": "https://www.coindesk.com/markets/2026/06/19/smart-contract-and-defi-coins-lead-losses-as-bitcoin-wilts-for-4th-straight-day",
+      "pub_date": "Fri, 19 Jun 2026 10:47:03 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Digital credit market hit by huge selloff as Strive CEO blames leverage liquidations",
+      "link": "https://www.coindesk.com/markets/2026/06/19/digital-credit-market-hit-by-record-selloff-as-strive-ceo-blames-leverage-liquidations",
+      "pub_date": "Fri, 19 Jun 2026 09:19:28 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Microsoft found malware that hijacks crypto wallets and spreads through USB sticks",
+      "link": "https://www.coindesk.com/tech/2026/06/19/microsoft-found-malware-that-hijacks-crypto-wallets-and-spreads-through-usb-sticks",
+      "pub_date": "Fri, 19 Jun 2026 08:48:14 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "XRP falls 3% after losing $1.15 support as breakout attempt fades",
+      "link": "https://www.coindesk.com/markets/2026/06/19/xrp-falls-3-after-losing-usd1-15-support-as-breakout-attempt-fades",
+      "pub_date": "Fri, 19 Jun 2026 05:14:20 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Live markets: Bitcoin under pressure as Saylor comments on STRC selloff",
+      "link": "https://www.coindesk.com/markets/2026/06/19/live-markets-bitcoin-has-traded-below-its-mining-cost-for-five-months-squeezing-miners",
+      "pub_date": "Fri, 19 Jun 2026 05:04:22 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Bitcoin traders load up on bearish bets all the way down to $52,000",
+      "link": "https://www.coindesk.com/markets/2026/06/19/bitcoin-traders-load-up-on-bearish-bets-all-the-way-down-to-usd52-000",
+      "pub_date": "Fri, 19 Jun 2026 05:02:01 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Bitcoin falls below $63,000 as risk assets sell off and the week's bounce fades",
+      "link": "https://www.coindesk.com/markets/2026/06/19/bitcoin-falls-below-usd63-000-as-risk-assets-sell-off-and-the-week-s-bounce-fades",
+      "pub_date": "Fri, 19 Jun 2026 04:49:20 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Ex-Celsius CEO Mashinsky gets U.S. CFTC ban in final resolution with regulator",
+      "link": "https://www.coindesk.com/policy/2026/06/18/ex-celsius-ceo-mashinsky-gets-u-s-cftc-ban-in-final-resolution-with-regulator",
+      "pub_date": "Thu, 18 Jun 2026 19:26:55 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "U.S. agencies seek stablecoin customer-ID rules akin to banks in new GENIUS Act pitch",
       "link": "https://www.coindesk.com/policy/2026/06/18/u-s-agencies-seek-stablecoin-customer-id-rules-akin-to-banks-in-new-genius-act-rule",
       "pub_date": "Thu, 18 Jun 2026 17:17:22 +0000",
       "source": "CoinDesk",
@@ -108,177 +178,107 @@
       "fetch_source": "live"
     },
     {
-      "title": "XRP slips 4% below $1.20 after breakout rally stalls near key resistance",
-      "link": "https://www.coindesk.com/markets/2026/06/18/xrp-slips-4-below-usd1-20-after-breakout-rally-stalls-near-key-resistance",
-      "pub_date": "Thu, 18 Jun 2026 05:08:12 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Buying bitcoin below its 200-week average has historically delivered over 100% in median returns, Kraken says",
-      "link": "https://www.coindesk.com/markets/2026/06/18/buying-bitcoin-below-its-200-week-average-has-historically-delivered-over-100-in-median-returns-kraken-says",
-      "pub_date": "Thu, 18 Jun 2026 05:08:05 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitcoin, ether slide after a hawkish Fed, even as Trump's signed Iran deal lifts stocks",
-      "link": "https://www.coindesk.com/markets/2026/06/18/bitcoin-ether-slide-after-a-hawkish-fed-even-as-trump-s-signed-iran-deal-lifts-stocks",
-      "pub_date": "Thu, 18 Jun 2026 04:52:46 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Next bull run will be slower, less volatile as investors' crypto appetite evolves, Bitwise CIO says",
-      "link": "https://www.coindesk.com/markets/2026/06/17/next-bull-run-will-be-slower-less-volatile-as-investors-crypto-appetite-evolves-bitwise-cio-says",
-      "pub_date": "Thu, 18 Jun 2026 04:00:00 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "CME chief executive says company plans to sue CFTC after perpetual futures approval",
-      "link": "https://www.coindesk.com/policy/2026/06/17/cme-chief-executive-says-company-plans-to-sue-cftc-after-perpetual-futures-approval",
-      "pub_date": "Thu, 18 Jun 2026 03:44:30 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Kentucky targets prediction markets, puts Trump-aligned state in potential clash with president's team",
-      "link": "https://www.coindesk.com/policy/2026/06/17/kentucky-targets-prediction-markets-puts-red-state-in-potential-clash-with-trump-team",
-      "pub_date": "Wed, 17 Jun 2026 21:20:05 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Fidelity joins Wall Street's race to manage stablecoin reserves",
-      "link": "https://www.coindesk.com/markets/2026/06/17/fidelity-joins-wall-street-s-race-to-manage-stablecoin-reserves",
-      "pub_date": "Wed, 17 Jun 2026 20:30:48 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Here is how Coinbase plan to survive the crypto downturn by ditching its reliance on trading fees",
-      "link": "https://www.coindesk.com/business/2026/06/17/here-is-how-coinbase-plan-to-survive-the-crypto-downturn-by-ditching-its-reliance-on-trading-fees",
-      "pub_date": "Wed, 17 Jun 2026 19:23:40 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitcoin layer-2s face a bear-market reality check",
-      "link": "https://www.coindesk.com/tech/2026/06/17/bitcoin-layer-2s-face-a-bear-market-reality-check",
-      "pub_date": "Wed, 17 Jun 2026 19:17:07 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "FIFA wanted Avalanche's blockchain to help curb World Cup ticket scalping. Here's how it's going",
-      "link": "https://www.coindesk.com/tech/2026/06/17/fifa-wanted-avalanche-s-blockchain-to-help-curb-world-cup-ticket-scalping-here-s-how-it-s-going",
-      "pub_date": "Wed, 17 Jun 2026 19:08:43 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "HIVE secures $220M AI infrastructure contract with Bell and Cohere",
-      "link": "https://cointelegraph.com/news/hive-secures-220m-ai-infrastructure-contract-with-bell-and-cohere?utm_source=rss&utm_medium=rss&utm_campaign=rss",
-      "pub_date": "Thu, 18 Jun 2026 17:54:57 GMT",
+      "title": "Crypto Biz: Is AI the exit strategy for miners?",
+      "link": "https://cointelegraph.com/news/crypto-biz-ai-exit-strategy-bitcoin-miners?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+      "pub_date": "Fri, 19 Jun 2026 17:03:40 GMT",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "CME Group sues CFTC over crypto perpetual futures",
-      "link": "https://cointelegraph.com/news/cme-group-cftc-lawsuit-perpetual-futures-crypto?utm_source=rss&utm_medium=rss&utm_campaign=rss",
-      "pub_date": "Thu, 18 Jun 2026 17:42:09 GMT",
+      "title": "Andrew Tate loses nearly $86,000 longing and shorting Bitcoin",
+      "link": "https://cointelegraph.com/markets/andrew-tate-loses-nearly-86000-longing-and-shorting-bitcoin?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+      "pub_date": "Fri, 19 Jun 2026 15:05:10 GMT",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin miners need billions to fund AI ambitions, led by IREN\u2019s $21B gap",
-      "link": "https://cointelegraph.com/news/bitcoin-miners-50b-ai-pivot-iren-21b-funding-gap?utm_source=rss&utm_medium=rss&utm_campaign=rss",
-      "pub_date": "Thu, 18 Jun 2026 16:56:58 GMT",
+      "title": "Aave survived $8.45B in withdrawals, but risk questions remain",
+      "link": "https://cointelegraph.com/learn/aave-defi-bank-run-lending-risk?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+      "pub_date": "Fri, 19 Jun 2026 15:00:00 GMT",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Bybit lands on Singapore MAS Investor Alert List",
-      "link": "https://cointelegraph.com/news/bybit-singapore-mas-investor-alert-list?utm_source=rss&utm_medium=rss&utm_campaign=rss",
-      "pub_date": "Thu, 18 Jun 2026 15:14:27 GMT",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitcoin to $145K by October? Why this 'crazy accurate' 4chan prediction is sketchy",
-      "link": "https://cointelegraph.com/markets/bitcoin-to-145k-by-october-why-this-crazy-accurate-4chan-prediction-is-sketchy?utm_source=rss&utm_medium=rss&utm_campaign=rss",
-      "pub_date": "Thu, 18 Jun 2026 14:46:56 GMT",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "What happens when ChatGPT becomes the front door to crypto",
-      "link": "https://cointelegraph.com/learn/ai-chatbots-crypto-users?utm_source=rss&utm_medium=rss&utm_campaign=rss",
-      "pub_date": "Thu, 18 Jun 2026 14:30:00 GMT",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Ledn to add Tether Gold as loan collateral, expanding Bitcoin-backed lending model",
-      "link": "https://cointelegraph.com/news/ledn-tether-gold-xaut-loans-bitcoin-backed-lending?utm_source=rss&utm_medium=rss&utm_campaign=rss",
-      "pub_date": "Thu, 18 Jun 2026 14:12:00 GMT",
+      "title": "Bitcoin taps $63K on Juneteenth as July Fed rate-hike odds near 40%",
+      "link": "https://cointelegraph.com/markets/bitcoin-taps-63k-on-juneteenth-as-july-fed-rate-hike-odds-near-40?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+      "pub_date": "Fri, 19 Jun 2026 14:31:40 GMT",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
       "title": "Here\u2019s what happened in crypto today",
       "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss",
-      "pub_date": "Thu, 18 Jun 2026 13:28:23 GMT",
+      "pub_date": "Fri, 19 Jun 2026 14:09:17 GMT",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Capital B shareholders approve up to $120B in financing capacity for Bitcoin strategy",
-      "link": "https://cointelegraph.com/news/capital-b-shareholders-approve-120b-capital?utm_source=rss&utm_medium=rss&utm_campaign=rss",
-      "pub_date": "Thu, 18 Jun 2026 12:46:47 GMT",
+      "title": "Kalshi in early IPO talks with investment banks: Report",
+      "link": "https://cointelegraph.com/news/kalshi-early-ipo-talks-investment-banks-report?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+      "pub_date": "Fri, 19 Jun 2026 13:44:34 GMT",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "G7 calls for joint action on North Korean crypto theft, cybercrime",
-      "link": "https://cointelegraph.com/news/g7-north-korea-crypto-theft-cybercrime-warning?utm_source=rss&utm_medium=rss&utm_campaign=rss",
-      "pub_date": "Thu, 18 Jun 2026 11:33:29 GMT",
+      "title": "Binance\u2019s MiCA fight raises questions over ECB influence",
+      "link": "https://cointelegraph.com/news/mica-rules-questions-ecb-role-binance-licensing?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+      "pub_date": "Fri, 19 Jun 2026 13:38:00 GMT",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin market cap rebound to take '5-10 years' after dropping 10 places since mid-2025",
-      "link": "https://cointelegraph.com/markets/bitcoin-market-cap-rebound-to-take-5-10-years-after-dropping-10-places-since-mid-2025?utm_source=rss&utm_medium=rss&utm_campaign=rss",
-      "pub_date": "Thu, 18 Jun 2026 10:29:07 GMT",
+      "title": "Ethereum faces core development funding crisis, former contributor warns",
+      "link": "https://cointelegraph.com/news/former-ethereum-foundation-contributor-claims-core-development-funding-crisis?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+      "pub_date": "Fri, 19 Jun 2026 13:16:19 GMT",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Aztec hit by second $2.1M exploit in less than week: SlowMist",
-      "link": "https://cointelegraph.com/news/aztec-exploited-21-million-previous-hack-slowmist?utm_source=rss&utm_medium=rss&utm_campaign=rss",
-      "pub_date": "Thu, 18 Jun 2026 10:28:00 GMT",
+      "title": "Binance can serve Philippine traders under SEC framework, BlockShoals says",
+      "link": "https://cointelegraph.com/news/blockshoals-binance-regulatory-status-philippines?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+      "pub_date": "Fri, 19 Jun 2026 12:15:20 GMT",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Grayscale applies traditional finance models to AAVE, sees $175 value",
-      "link": "https://cointelegraph.com/news/grayscale-aave-traditional-finance-defi-token-valuation?utm_source=rss&utm_medium=rss&utm_campaign=rss",
-      "pub_date": "Thu, 18 Jun 2026 09:45:51 GMT",
+      "title": "Bitcoin tipped for Q3 'macro bottom' near $50K as major liquidity grab looms",
+      "link": "https://cointelegraph.com/markets/bitcoin-tipped-for-q3-macro-bottom-near-50k-as-major-liquidity-grab-looms?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+      "pub_date": "Fri, 19 Jun 2026 10:44:28 GMT",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Ryan Salame\u2019s wife to face charges over FTX-funded congressional run",
-      "link": "https://cointelegraph.com/news/ryan-salames-wife-to-face-charges-over-ftx-funded-congressional-run?utm_source=rss&utm_medium=rss&utm_campaign=rss",
-      "pub_date": "Thu, 18 Jun 2026 06:17:01 GMT",
+      "title": "Bitcoin activity nears record highs on microtransaction surge",
+      "link": "https://cointelegraph.com/news/bitcoin-activity-nears-record-highs-on-microtransaction-surge?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+      "pub_date": "Fri, 19 Jun 2026 09:16:04 GMT",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Florida man pleads guilty for promoting $1.8B \u2018HyperFund\u2019 crypto fraud",
-      "link": "https://cointelegraph.com/news/florida-man-pleads-guilty-to-18b-crypto-fraud-scheme?utm_source=rss&utm_medium=rss&utm_campaign=rss",
-      "pub_date": "Thu, 18 Jun 2026 06:06:20 GMT",
+      "title": "Goldman Sachs cuts year-end gold target by $500, doubting rate cuts",
+      "link": "https://cointelegraph.com/news/goldman-sachs-cuts-year-end-gold-target-by-500-doubting-rate-cuts?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+      "pub_date": "Fri, 19 Jun 2026 08:05:37 GMT",
+      "source": "Cointelegraph",
+      "fetch_source": "live"
+    },
+    {
+      "title": "AllUnity debuts SEKAU, a fully reserved Swedish krona stablecoin",
+      "link": "https://cointelegraph.com/news/allunity-debut-fully-reserved-swedish-krona-stablecoin-sekau?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+      "pub_date": "Fri, 19 Jun 2026 07:00:00 GMT",
+      "source": "Cointelegraph",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Algorand plans \u2018broad quantum resilience\u2019 by 2027",
+      "link": "https://cointelegraph.com/news/algorand-plans-broad-quantum-resilience-by-2027?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+      "pub_date": "Fri, 19 Jun 2026 05:51:24 GMT",
+      "source": "Cointelegraph",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Microsoft warns users of 'Crypto Clipper' malware spread via USB drives",
+      "link": "https://cointelegraph.com/news/microsoft-alerts-users-to-crypto-clipper-windows-malware?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+      "pub_date": "Fri, 19 Jun 2026 05:33:06 GMT",
       "source": "Cointelegraph",
       "fetch_source": "live"
     }

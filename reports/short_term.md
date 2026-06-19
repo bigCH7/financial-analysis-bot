@@ -1,31 +1,31 @@
 # Short-Term Crypto Tactical Brief
 
-_Generated automatically - 2026-06-18 18:05 UTC_
+_Generated automatically - 2026-06-19 17:26 UTC_
 
 ## Bitcoin (BTC)
 
-- **Current price:** $62,539
-- **7D change:** -1.59%
-- **30D change:** -18.58%
+- **Current price:** $62,926
+- **7D change:** -0.96%
+- **30D change:** -18.76%
 - **Trend:** **DOWNTREND**
-- **Momentum:** **STRONG**
+- **Momentum:** **WEAK**
 - **Volatility:** **NORMAL**
 - **Data source:** live
 
 ### Status Pulse (30-Second Context)
 
 - **Tactical regime:** Trend-Following
-- **The vibe:** Persistent sell pressure - avoid fighting momentum.
+- **The vibe:** Mixed tape - wait for confirmation before sizing up.
 
 ### Momentum Engine
 
-- **Speedometer (EMA20/EMA50):** $63,838 / $64,635.
-- **Velocity (ROC 6h / 24h):** -2.14% / -5.23%.
-- **Stamina meter (RSI 14):** 29.9
+- **Speedometer (EMA20/EMA50):** $62,923 / $63,490.
+- **Velocity (ROC 6h / 24h):** +0.70% / +0.48%.
+- **Stamina meter (RSI 14):** 49.6
 
 ### Truth Layer (Order Flow & Volume)
 
-- **CVD proxy:** -1714.85%.
+- **CVD proxy:** -1687.79%.
 - **Validation:** Volume proxy is broadly aligned with price direction.
 - **Order-book imbalance (OBI):** unavailable.
 - **Depth note:** Order book unavailable.
@@ -38,9 +38,9 @@ _Generated automatically - 2026-06-18 18:05 UTC_
 
 ### Tactical Levels
 
-- **Battle Zone (Support):** $62,539
+- **Battle Zone (Support):** $62,900
 - **Target (Resistance):** $66,301
-- **Stop-loss (ATR proxy):** $62,311
+- **Stop-loss (ATR proxy):** $62,694
 
 ### Final Entry Signal
 
@@ -51,28 +51,28 @@ _Generated automatically - 2026-06-18 18:05 UTC_
 
 ## Ethereum (ETH)
 
-- **Current price:** $1,677
-- **7D change:** 0.29%
-- **30D change:** -20.60%
+- **Current price:** $1,697
+- **7D change:** 1.90%
+- **30D change:** -20.24%
 - **Trend:** **DOWNTREND**
-- **Momentum:** **STRONG**
+- **Momentum:** **WEAK**
 - **Volatility:** **NORMAL**
 - **Data source:** live
 
 ### Status Pulse (30-Second Context)
 
 - **Tactical regime:** Trend-Following
-- **The vibe:** Persistent sell pressure - avoid fighting momentum.
+- **The vibe:** Mixed tape - wait for confirmation before sizing up.
 
 ### Momentum Engine
 
-- **Speedometer (EMA20/EMA50):** $1,729 / $1,753.
-- **Velocity (ROC 6h / 24h):** -3.71% / -6.08%.
-- **Stamina meter (RSI 14):** 26.0
+- **Speedometer (EMA20/EMA50):** $1,701 / $1,719.
+- **Velocity (ROC 6h / 24h):** +0.38% / +1.17%.
+- **Stamina meter (RSI 14):** 50.8
 
 ### Truth Layer (Order Flow & Volume)
 
-- **CVD proxy:** -1408.56%.
+- **CVD proxy:** -1404.59%.
 - **Fakeout warning:** Price is rising but CVD proxy is not confirming (low-liquidity pump risk).
 - **Order-book imbalance (OBI):** unavailable.
 - **Depth note:** Order book unavailable.
@@ -85,9 +85,9 @@ _Generated automatically - 2026-06-18 18:05 UTC_
 
 ### Tactical Levels
 
-- **Battle Zone (Support):** $1,665
+- **Battle Zone (Support):** $1,679
 - **Target (Resistance):** $1,794
-- **Stop-loss (ATR proxy):** $1,657
+- **Stop-loss (ATR proxy):** $1,672
 
 ### Final Entry Signal
 
