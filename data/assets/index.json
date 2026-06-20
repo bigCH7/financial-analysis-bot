@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-19T17:27:58.887596+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-06-19 17:19 UTC_",
+  "generated_at": "2026-06-20T16:26:27.605334+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-06-20 16:17 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,13 +9,13 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 62926.0,
+        "current_usd": 63977.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": -0.96,
-        "change_30d_pct": -18.76
+        "change_7d_pct": -0.62,
+        "change_30d_pct": -17.5
       },
       "indicators": {
-        "trend": "DOWNTREND",
+        "trend": "UPTREND",
         "momentum": "WEAK",
         "volatility": "NORMAL"
       },
@@ -23,9 +23,9 @@
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
         "summary_line": "Fair - Weak growth profile - Elevated regulatory risk.",
-        "score": 52.9
+        "score": 50.5
       },
-      "updated_at": "2026-06-19T17:27:58.884996+00:00",
+      "updated_at": "2026-06-20T16:26:27.603125+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,23 +37,23 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 1697.0,
+        "current_usd": 1735.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": 1.9,
-        "change_30d_pct": -20.24
+        "change_7d_pct": 3.32,
+        "change_30d_pct": -18.63
       },
       "indicators": {
-        "trend": "DOWNTREND",
+        "trend": "UPTREND",
         "momentum": "WEAK",
         "volatility": "NORMAL"
       },
       "valuation": {
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
-        "summary_line": "Fair - Balanced growth profile - Elevated regulatory risk.",
-        "score": 48.9
+        "summary_line": "Fair - Weak growth profile - Elevated regulatory risk.",
+        "score": 45.6
       },
-      "updated_at": "2026-06-19T17:27:58.885892+00:00",
+      "updated_at": "2026-06-20T16:26:27.603906+00:00",
       "source": {
         "short_term": "live"
       }
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-06-19T17:27:58.886248+00:00",
+      "updated_at": "2026-06-20T16:26:27.604201+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-06-19T17:27:58.886530+00:00",
+      "updated_at": "2026-06-20T16:26:27.604439+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-06-19T17:27:58.886796+00:00",
+      "updated_at": "2026-06-20T16:26:27.604662+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-06-19T17:27:58.887054+00:00",
+      "updated_at": "2026-06-20T16:26:27.604881+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -193,13 +193,34 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-06-19T17:27:58.887336+00:00",
+      "updated_at": "2026-06-20T16:26:27.605120+00:00",
       "source": {
         "short_term": "unavailable"
       }
     }
   ],
   "overview_news": [
+    {
+      "title": "AI is making crypto security cheaper, faster and harder to ignore",
+      "url": "https://www.coindesk.com/tech/2026/06/20/ai-is-making-crypto-security-cheaper-faster-and-harder-to-ignore",
+      "published_at": "Sat, 20 Jun 2026 15:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "How STRC lost its par: The timeline behind Strategy's preferred-stock meltdown",
+      "url": "https://www.coindesk.com/markets/2026/06/20/how-strc-lost-its-par-the-timeline-behind-strategy-s-preferred-stock-meltdown",
+      "published_at": "Sat, 20 Jun 2026 13:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Schwab to join prediction markets race with S&P 500 event-based options: WSJ",
+      "url": "https://www.coindesk.com/markets/2026/06/19/schwab-to-join-prediction-markets-race-with-s-and-p-500-event-based-options-wsj",
+      "published_at": "Fri, 19 Jun 2026 17:51:12 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
     {
       "title": "GoMining challenges Jack Dorsey's Square with payments system designed around bitcoin",
       "url": "https://www.coindesk.com/business/2026/06/19/gomining-challenges-jack-dorsey-s-square-with-payments-system-designed-around-bitcoin",
@@ -246,27 +267,6 @@
       "title": "Live markets: Bitcoin under pressure as Saylor comments on STRC selloff",
       "url": "https://www.coindesk.com/markets/2026/06/19/live-markets-bitcoin-has-traded-below-its-mining-cost-for-five-months-squeezing-miners",
       "published_at": "Fri, 19 Jun 2026 05:04:22 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitcoin traders load up on bearish bets all the way down to $52,000",
-      "url": "https://www.coindesk.com/markets/2026/06/19/bitcoin-traders-load-up-on-bearish-bets-all-the-way-down-to-usd52-000",
-      "published_at": "Fri, 19 Jun 2026 05:02:01 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitcoin falls below $63,000 as risk assets sell off and the week's bounce fades",
-      "url": "https://www.coindesk.com/markets/2026/06/19/bitcoin-falls-below-usd63-000-as-risk-assets-sell-off-and-the-week-s-bounce-fades",
-      "published_at": "Fri, 19 Jun 2026 04:49:20 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Ex-Celsius CEO Mashinsky gets U.S. CFTC ban in final resolution with regulator",
-      "url": "https://www.coindesk.com/policy/2026/06/18/ex-celsius-ceo-mashinsky-gets-u-s-cftc-ban-in-final-resolution-with-regulator",
-      "published_at": "Thu, 18 Jun 2026 19:26:55 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }

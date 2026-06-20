@@ -1,7 +1,28 @@
 {
-  "generated_at": "2026-06-19 17:26 UTC",
+  "generated_at": "2026-06-20 16:25 UTC",
   "count": 55,
   "items": [
+    {
+      "title": "AI is making crypto security cheaper, faster and harder to ignore",
+      "link": "https://www.coindesk.com/tech/2026/06/20/ai-is-making-crypto-security-cheaper-faster-and-harder-to-ignore",
+      "pub_date": "Sat, 20 Jun 2026 15:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "How STRC lost its par: The timeline behind Strategy's preferred-stock meltdown",
+      "link": "https://www.coindesk.com/markets/2026/06/20/how-strc-lost-its-par-the-timeline-behind-strategy-s-preferred-stock-meltdown",
+      "pub_date": "Sat, 20 Jun 2026 13:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Schwab to join prediction markets race with S&P 500 event-based options: WSJ",
+      "link": "https://www.coindesk.com/markets/2026/06/19/schwab-to-join-prediction-markets-race-with-s-and-p-500-event-based-options-wsj",
+      "pub_date": "Fri, 19 Jun 2026 17:51:12 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
     {
       "title": "GoMining challenges Jack Dorsey's Square with payments system designed around bitcoin",
       "link": "https://www.coindesk.com/business/2026/06/19/gomining-challenges-jack-dorsey-s-square-with-payments-system-designed-around-bitcoin",
@@ -157,24 +178,80 @@
       "fetch_source": "live"
     },
     {
-      "title": "The bond market is flashing a clear signal on interest rates. Bitcoin bulls should take note",
-      "link": "https://www.coindesk.com/markets/2026/06/18/the-bond-market-is-flashing-a-clear-signal-on-interest-rates-bitcoin-bulls-should-take-note",
-      "pub_date": "Thu, 18 Jun 2026 07:08:27 +0000",
-      "source": "CoinDesk",
+      "title": "Crypto industry looks to stablecoins and DeFi revisions in MiCA 2.0",
+      "link": "https://cointelegraph.com/features/crypto-industry-stablecoins-defi-mica?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+      "pub_date": "Sat, 20 Jun 2026 14:57:41 GMT",
+      "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Live markets: price action turns panicky in Saylor's STRC as bitcoin drops below $63,000",
-      "link": "https://www.coindesk.com/tech/2026/06/18/live-markets-bitcoin-and-ether-etfs-lost-usd111-million-combined-as-rate-cut-hopes-died",
-      "pub_date": "Thu, 18 Jun 2026 06:02:19 +0000",
-      "source": "CoinDesk",
+      "title": "Pudgy Penguins expands retail footprint with Target trading card rollout",
+      "link": "https://cointelegraph.com/news/pudgy-penguins-expands-retail-footprint-with-target-trading-card-rollout?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+      "pub_date": "Sat, 20 Jun 2026 11:49:02 GMT",
+      "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Strategy's STRC preferred stock hits a record low below par",
-      "link": "https://www.coindesk.com/markets/2026/06/18/strategy-s-strc-preferred-stock-hits-a-record-low-below-par",
-      "pub_date": "Thu, 18 Jun 2026 05:49:21 +0000",
-      "source": "CoinDesk",
+      "title": "Philippine SEC signals readiness for RWA tokenization",
+      "link": "https://cointelegraph.com/news/philippine-sec-rwa-tokenization-readiness?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+      "pub_date": "Sat, 20 Jun 2026 07:05:20 GMT",
+      "source": "Cointelegraph",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Crypto kidnappers who robbed a Minnesota family of $8M plead guilty",
+      "link": "https://cointelegraph.com/news/crypto-kidnappers-who-robbed-a-minnesota-family-of-8m-plead-guilty?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+      "pub_date": "Sat, 20 Jun 2026 05:12:43 GMT",
+      "source": "Cointelegraph",
+      "fetch_source": "live"
+    },
+    {
+      "title": "S token drops 5% as 3 former execs resign from Sonic Labs board",
+      "link": "https://cointelegraph.com/news/s-token-drops-5-as-3-former-execs-resign-from-sonic-labs-board?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+      "pub_date": "Sat, 20 Jun 2026 01:41:39 GMT",
+      "source": "Cointelegraph",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Charles Schwab to enter prediction markets with S&P 500 wagers: WSJ",
+      "link": "https://cointelegraph.com/news/charles-schwab-prediction-markets-sp500-wagers?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+      "pub_date": "Fri, 19 Jun 2026 21:11:07 GMT",
+      "source": "Cointelegraph",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Here\u2019s what happened in crypto today",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+      "pub_date": "Fri, 19 Jun 2026 21:00:00 GMT",
+      "source": "Cointelegraph",
+      "fetch_source": "live"
+    },
+    {
+      "title": "$13B Bitcoin options expiry looms: Will bulls endure more pain in June?",
+      "link": "https://cointelegraph.com/markets/13b-bitcoin-options-expiry-looms-will-bulls-endure-more-pain-in-june?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+      "pub_date": "Fri, 19 Jun 2026 20:57:49 GMT",
+      "source": "Cointelegraph",
+      "fetch_source": "live"
+    },
+    {
+      "title": "WhiteBIT secures MiCA license in Austria ahead of July 1 EU deadline",
+      "link": "https://cointelegraph.com/news/whitebit-secures-mica-license-austria-gains-access-eu-crypto-market?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+      "pub_date": "Fri, 19 Jun 2026 20:07:27 GMT",
+      "source": "Cointelegraph",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Republican lawmaker proposes prediction markets insider trading ban, not including White House officials",
+      "link": "https://cointelegraph.com/news/prediction-markets-law-white-house-officials?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+      "pub_date": "Fri, 19 Jun 2026 18:30:21 GMT",
+      "source": "Cointelegraph",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Bitcoin traders expect new lows but data cautions against overly bearish bias",
+      "link": "https://cointelegraph.com/markets/bitcoin-eyes-new-yearly-lows-as-traders-warn-not-to-get-too-bearish-here?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+      "pub_date": "Fri, 19 Jun 2026 17:38:09 GMT",
+      "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
@@ -202,83 +279,6 @@
       "title": "Bitcoin taps $63K on Juneteenth as July Fed rate-hike odds near 40%",
       "link": "https://cointelegraph.com/markets/bitcoin-taps-63k-on-juneteenth-as-july-fed-rate-hike-odds-near-40?utm_source=rss&utm_medium=rss&utm_campaign=rss",
       "pub_date": "Fri, 19 Jun 2026 14:31:40 GMT",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Here\u2019s what happened in crypto today",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss",
-      "pub_date": "Fri, 19 Jun 2026 14:09:17 GMT",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Kalshi in early IPO talks with investment banks: Report",
-      "link": "https://cointelegraph.com/news/kalshi-early-ipo-talks-investment-banks-report?utm_source=rss&utm_medium=rss&utm_campaign=rss",
-      "pub_date": "Fri, 19 Jun 2026 13:44:34 GMT",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Binance\u2019s MiCA fight raises questions over ECB influence",
-      "link": "https://cointelegraph.com/news/mica-rules-questions-ecb-role-binance-licensing?utm_source=rss&utm_medium=rss&utm_campaign=rss",
-      "pub_date": "Fri, 19 Jun 2026 13:38:00 GMT",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Ethereum faces core development funding crisis, former contributor warns",
-      "link": "https://cointelegraph.com/news/former-ethereum-foundation-contributor-claims-core-development-funding-crisis?utm_source=rss&utm_medium=rss&utm_campaign=rss",
-      "pub_date": "Fri, 19 Jun 2026 13:16:19 GMT",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Binance can serve Philippine traders under SEC framework, BlockShoals says",
-      "link": "https://cointelegraph.com/news/blockshoals-binance-regulatory-status-philippines?utm_source=rss&utm_medium=rss&utm_campaign=rss",
-      "pub_date": "Fri, 19 Jun 2026 12:15:20 GMT",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitcoin tipped for Q3 'macro bottom' near $50K as major liquidity grab looms",
-      "link": "https://cointelegraph.com/markets/bitcoin-tipped-for-q3-macro-bottom-near-50k-as-major-liquidity-grab-looms?utm_source=rss&utm_medium=rss&utm_campaign=rss",
-      "pub_date": "Fri, 19 Jun 2026 10:44:28 GMT",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitcoin activity nears record highs on microtransaction surge",
-      "link": "https://cointelegraph.com/news/bitcoin-activity-nears-record-highs-on-microtransaction-surge?utm_source=rss&utm_medium=rss&utm_campaign=rss",
-      "pub_date": "Fri, 19 Jun 2026 09:16:04 GMT",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Goldman Sachs cuts year-end gold target by $500, doubting rate cuts",
-      "link": "https://cointelegraph.com/news/goldman-sachs-cuts-year-end-gold-target-by-500-doubting-rate-cuts?utm_source=rss&utm_medium=rss&utm_campaign=rss",
-      "pub_date": "Fri, 19 Jun 2026 08:05:37 GMT",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "AllUnity debuts SEKAU, a fully reserved Swedish krona stablecoin",
-      "link": "https://cointelegraph.com/news/allunity-debut-fully-reserved-swedish-krona-stablecoin-sekau?utm_source=rss&utm_medium=rss&utm_campaign=rss",
-      "pub_date": "Fri, 19 Jun 2026 07:00:00 GMT",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Algorand plans \u2018broad quantum resilience\u2019 by 2027",
-      "link": "https://cointelegraph.com/news/algorand-plans-broad-quantum-resilience-by-2027?utm_source=rss&utm_medium=rss&utm_campaign=rss",
-      "pub_date": "Fri, 19 Jun 2026 05:51:24 GMT",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Microsoft warns users of 'Crypto Clipper' malware spread via USB drives",
-      "link": "https://cointelegraph.com/news/microsoft-alerts-users-to-crypto-clipper-windows-malware?utm_source=rss&utm_medium=rss&utm_campaign=rss",
-      "pub_date": "Fri, 19 Jun 2026 05:33:06 GMT",
       "source": "Cointelegraph",
       "fetch_source": "live"
     }
