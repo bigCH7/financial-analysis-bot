@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-20T16:26:27.605334+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-06-20 16:17 UTC_",
+  "generated_at": "2026-06-21T16:53:35.022656+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-06-21 16:44 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,10 +9,10 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 63977.0,
+        "current_usd": 64082.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": -0.62,
-        "change_30d_pct": -17.5
+        "change_7d_pct": -2.48,
+        "change_30d_pct": -15.1
       },
       "indicators": {
         "trend": "UPTREND",
@@ -23,9 +23,9 @@
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
         "summary_line": "Fair - Weak growth profile - Elevated regulatory risk.",
-        "score": 50.5
+        "score": 48.4
       },
-      "updated_at": "2026-06-20T16:26:27.603125+00:00",
+      "updated_at": "2026-06-21T16:53:35.020617+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,10 +37,10 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 1735.0,
+        "current_usd": 1726.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": 3.32,
-        "change_30d_pct": -18.63
+        "change_7d_pct": 0.09,
+        "change_30d_pct": -16.38
       },
       "indicators": {
         "trend": "UPTREND",
@@ -50,10 +50,10 @@
       "valuation": {
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
-        "summary_line": "Fair - Weak growth profile - Elevated regulatory risk.",
-        "score": 45.6
+        "summary_line": "Fair - Balanced growth profile - Elevated regulatory risk.",
+        "score": 49.2
       },
-      "updated_at": "2026-06-20T16:26:27.603906+00:00",
+      "updated_at": "2026-06-21T16:53:35.021357+00:00",
       "source": {
         "short_term": "live"
       }
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-06-20T16:26:27.604201+00:00",
+      "updated_at": "2026-06-21T16:53:35.021629+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-06-20T16:26:27.604439+00:00",
+      "updated_at": "2026-06-21T16:53:35.021853+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-06-20T16:26:27.604662+00:00",
+      "updated_at": "2026-06-21T16:53:35.022059+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-06-20T16:26:27.604881+00:00",
+      "updated_at": "2026-06-21T16:53:35.022251+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -193,13 +193,27 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-06-20T16:26:27.605120+00:00",
+      "updated_at": "2026-06-21T16:53:35.022464+00:00",
       "source": {
         "short_term": "unavailable"
       }
     }
   ],
   "overview_news": [
+    {
+      "title": "Ethereum's biggest 'sandwich' bot drained of $7.5 million in ironic exploit",
+      "url": "https://www.coindesk.com/tech/2026/06/21/ethereum-s-biggest-sandwich-bot-drained-of-usd7-5-million-in-ironic-exploit",
+      "published_at": "Sun, 21 Jun 2026 07:12:35 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Bitcoin holds near $64,000 as a renewed Hormuz threat clouds US-Iran ceasefire talks",
+      "url": "https://www.coindesk.com/markets/2026/06/21/bitcoin-holds-near-usd64-000-as-a-renewed-hormuz-threat-clouds-us-iran-ceasefire-talks",
+      "published_at": "Sun, 21 Jun 2026 06:46:28 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
     {
       "title": "AI is making crypto security cheaper, faster and harder to ignore",
       "url": "https://www.coindesk.com/tech/2026/06/20/ai-is-making-crypto-security-cheaper-faster-and-harder-to-ignore",
@@ -253,20 +267,6 @@
       "title": "Microsoft found malware that hijacks crypto wallets and spreads through USB sticks",
       "url": "https://www.coindesk.com/tech/2026/06/19/microsoft-found-malware-that-hijacks-crypto-wallets-and-spreads-through-usb-sticks",
       "published_at": "Fri, 19 Jun 2026 08:48:14 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "XRP falls 3% after losing $1.15 support as breakout attempt fades",
-      "url": "https://www.coindesk.com/markets/2026/06/19/xrp-falls-3-after-losing-usd1-15-support-as-breakout-attempt-fades",
-      "published_at": "Fri, 19 Jun 2026 05:14:20 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Live markets: Bitcoin under pressure as Saylor comments on STRC selloff",
-      "url": "https://www.coindesk.com/markets/2026/06/19/live-markets-bitcoin-has-traded-below-its-mining-cost-for-five-months-squeezing-miners",
-      "published_at": "Fri, 19 Jun 2026 05:04:22 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
