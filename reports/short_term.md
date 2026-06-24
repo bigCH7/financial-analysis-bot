@@ -1,12 +1,12 @@
 # Short-Term Crypto Tactical Brief
 
-_Generated automatically - 2026-06-23 17:23 UTC_
+_Generated automatically - 2026-06-24 17:10 UTC_
 
 ## Bitcoin (BTC)
 
-- **Current price:** $62,525
-- **7D change:** -4.69%
-- **30D change:** -18.79%
+- **Current price:** $59,800
+- **7D change:** -7.18%
+- **30D change:** -22.61%
 - **Trend:** **DOWNTREND**
 - **Momentum:** **STRONG**
 - **Volatility:** **NORMAL**
@@ -19,13 +19,13 @@ _Generated automatically - 2026-06-23 17:23 UTC_
 
 ### Momentum Engine
 
-- **Speedometer (EMA20/EMA50):** $62,938 / $63,484.
-- **Velocity (ROC 6h / 24h):** +0.12% / -3.15%.
-- **Stamina meter (RSI 14):** 22.4
+- **Speedometer (EMA20/EMA50):** $61,951 / $62,655.
+- **Velocity (ROC 6h / 24h):** -4.16% / -4.33%.
+- **Stamina meter (RSI 14):** 18.2
 
 ### Truth Layer (Order Flow & Volume)
 
-- **CVD proxy:** -2522.35%.
+- **CVD proxy:** -1374.91%.
 - **Validation:** Volume proxy is broadly aligned with price direction.
 - **Order-book imbalance (OBI):** unavailable.
 - **Depth note:** Order book unavailable.
@@ -38,9 +38,9 @@ _Generated automatically - 2026-06-23 17:23 UTC_
 
 ### Tactical Levels
 
-- **Battle Zone (Support):** $62,525
-- **Target (Resistance):** $64,423
-- **Stop-loss (ATR proxy):** $62,357
+- **Battle Zone (Support):** $59,800
+- **Target (Resistance):** $64,240
+- **Stop-loss (ATR proxy):** $59,583
 
 ### Final Entry Signal
 
@@ -51,9 +51,9 @@ _Generated automatically - 2026-06-23 17:23 UTC_
 
 ## Ethereum (ETH)
 
-- **Current price:** $1,659
-- **7D change:** -7.35%
-- **30D change:** -20.92%
+- **Current price:** $1,589
+- **7D change:** -9.12%
+- **30D change:** -24.76%
 - **Trend:** **DOWNTREND**
 - **Momentum:** **STRONG**
 - **Volatility:** **NORMAL**
@@ -66,13 +66,13 @@ _Generated automatically - 2026-06-23 17:23 UTC_
 
 ### Momentum Engine
 
-- **Speedometer (EMA20/EMA50):** $1,681 / $1,705.
-- **Velocity (ROC 6h / 24h):** +0.03% / -4.62%.
-- **Stamina meter (RSI 14):** 20.5
+- **Speedometer (EMA20/EMA50):** $1,654 / $1,675.
+- **Velocity (ROC 6h / 24h):** -4.43% / -4.22%.
+- **Stamina meter (RSI 14):** 20.2
 
 ### Truth Layer (Order Flow & Volume)
 
-- **CVD proxy:** -1953.45%.
+- **CVD proxy:** -1274.78%.
 - **Validation:** Volume proxy is broadly aligned with price direction.
 - **Order-book imbalance (OBI):** unavailable.
 - **Depth note:** Order book unavailable.
@@ -85,9 +85,9 @@ _Generated automatically - 2026-06-23 17:23 UTC_
 
 ### Tactical Levels
 
-- **Battle Zone (Support):** $1,659
-- **Target (Resistance):** $1,748
-- **Stop-loss (ATR proxy):** $1,654
+- **Battle Zone (Support):** $1,589
+- **Target (Resistance):** $1,739
+- **Stop-loss (ATR proxy):** $1,582
 
 ### Final Entry Signal
 
