@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-24T17:12:27.111744+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-06-24 17:03 UTC_",
+  "generated_at": "2026-06-25T17:20:28.109893+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-06-25 17:11 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,23 +9,23 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 59800.0,
+        "current_usd": 59423.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": -7.18,
-        "change_30d_pct": -22.61
+        "change_7d_pct": -5.53,
+        "change_30d_pct": -21.63
       },
       "indicators": {
         "trend": "DOWNTREND",
-        "momentum": "STRONG",
+        "momentum": "WEAK",
         "volatility": "NORMAL"
       },
       "valuation": {
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
-        "summary_line": "Fair - Weak growth profile - Elevated regulatory risk.",
-        "score": 54.4
+        "summary_line": "Fair - Balanced growth profile - Elevated regulatory risk.",
+        "score": 57.4
       },
-      "updated_at": "2026-06-24T17:12:27.109744+00:00",
+      "updated_at": "2026-06-25T17:20:28.107810+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,23 +37,23 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 1589.0,
+        "current_usd": 1570.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": -9.12,
-        "change_30d_pct": -24.76
+        "change_7d_pct": -8.18,
+        "change_30d_pct": -24.2
       },
       "indicators": {
         "trend": "DOWNTREND",
-        "momentum": "STRONG",
+        "momentum": "WEAK",
         "volatility": "NORMAL"
       },
       "valuation": {
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
-        "summary_line": "Fair - Balanced growth profile - Elevated regulatory risk.",
-        "score": 51.4
+        "summary_line": "Fair - Strong growth profile - Elevated regulatory risk.",
+        "score": 57.0
       },
-      "updated_at": "2026-06-24T17:12:27.110497+00:00",
+      "updated_at": "2026-06-25T17:20:28.108570+00:00",
       "source": {
         "short_term": "live"
       }
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-06-24T17:12:27.110732+00:00",
+      "updated_at": "2026-06-25T17:20:28.108818+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-06-24T17:12:27.110970+00:00",
+      "updated_at": "2026-06-25T17:20:28.109042+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-06-24T17:12:27.111166+00:00",
+      "updated_at": "2026-06-25T17:20:28.109284+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-06-24T17:12:27.111355+00:00",
+      "updated_at": "2026-06-25T17:20:28.109490+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -193,7 +193,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-06-24T17:12:27.111559+00:00",
+      "updated_at": "2026-06-25T17:20:28.109692+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -201,72 +201,72 @@
   ],
   "overview_news": [
     {
-      "title": "Bitcoin falls to $60,000 as AI trade continues to draw investor interest and capital",
-      "url": "https://www.coindesk.com/markets/2026/06/24/bitcoin-falls-to-usd60-000-as-ai-trade-continues-to-draw-investor-interest-and-capital",
-      "published_at": "Wed, 24 Jun 2026 16:01:02 +0000",
+      "title": "Kraken in talks to buy 15% stake in DeFi lender Aave at $385 million valuation",
+      "url": "https://www.coindesk.com/business/2026/06/25/kraken-in-talks-to-buy-15-stake-in-defi-lender-aave-at-usd385-million-valuation",
+      "published_at": "Thu, 25 Jun 2026 17:14:19 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Crypto Long & Short: Infrastructure is the prevailing currency in digital assets",
-      "url": "https://www.coindesk.com/coindesk-indices/2026/06/24/crypto-long-and-short-infrastructure-is-the-prevailing-currency-in-digital-assets",
-      "published_at": "Wed, 24 Jun 2026 16:00:00 +0000",
+      "title": "a16z-backed crypto firm rebrands, shifts focus to solving AI\u2019s global copyright headache",
+      "url": "https://www.coindesk.com/business/2026/06/25/a16z-backed-crypto-firm-rebrands-shifts-focus-to-solving-ai-s-global-copyright-headache",
+      "published_at": "Thu, 25 Jun 2026 17:06:10 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "SecondFi loses $2.4 million in Cardano wallet exploit",
-      "url": "https://www.coindesk.com/business/2026/06/24/secondfi-loses-usd2-4-million-in-cardano-wallet-exploit-with-up-to-usd20-million-at-risk",
-      "published_at": "Wed, 24 Jun 2026 15:45:42 +0000",
+      "title": "BlackBerry is making a massive comeback as an 'uncrashable' software layer for AI and robotics",
+      "url": "https://www.coindesk.com/markets/2026/06/25/blackberry-is-making-a-massive-comeback-as-an-uncrashable-software-layer-for-ai-and-robotics",
+      "published_at": "Thu, 25 Jun 2026 16:05:06 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Trump's refusal to sign housing bill could delay Congress and imperil Clarity Act",
-      "url": "https://www.coindesk.com/policy/2026/06/24/trump-refuses-to-sign-law-with-u-s-cbdc-ban-demands-approval-of-elections-bill",
-      "published_at": "Wed, 24 Jun 2026 15:42:51 +0000",
+      "title": "Strategy has a 10-month cash runway for dividends, but retail investors are losing faith",
+      "url": "https://www.coindesk.com/markets/2026/06/25/michael-saylor-s-broken-promises-have-shattered-strategy-investor-trust-says-tw-prime-ceo",
+      "published_at": "Thu, 25 Jun 2026 15:45:43 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Ex-FCA policy insider explains the \u2018great divide\u2019 in the UK\u2019s crypto ambition",
-      "url": "https://www.coindesk.com/policy/2026/06/24/ex-fca-policy-insider-explains-the-great-divide-in-the-uk-s-crypto-ambition",
-      "published_at": "Wed, 24 Jun 2026 15:23:07 +0000",
+      "title": "Quant fund says bitcoin is near a major inflection point as rare onchain signals align",
+      "url": "https://www.coindesk.com/markets/2026/06/25/quant-fund-says-bitcoin-is-near-a-major-inflection-point-as-rare-onchain-signals-align",
+      "published_at": "Thu, 25 Jun 2026 15:14:01 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin just broke below the floor of its famous Rainbow Chart into the \u2018BTC is dead\u2019 zone",
-      "url": "https://www.coindesk.com/markets/2026/06/24/bitcoin-just-broke-below-the-floor-of-its-famous-rainbow-chart-into-the-btc-is-dead-zone",
-      "published_at": "Wed, 24 Jun 2026 14:47:55 +0000",
+      "title": "Bitcoin tumbles to new multi-year low of $58,000, but a short-squeeze setup emerges",
+      "url": "https://www.coindesk.com/markets/2026/06/25/bitcoin-plunges-to-new-multi-year-low-of-usd58-000-but-a-short-squeeze-setup-emerges",
+      "published_at": "Thu, 25 Jun 2026 15:03:08 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "The banking lobby is wrong about stablecoins and community banks",
-      "url": "https://www.coindesk.com/opinion/2026/06/24/the-banking-lobby-is-wrong-about-stablecoins-and-community-banks",
-      "published_at": "Wed, 24 Jun 2026 14:47:30 +0000",
+      "title": "Crypto for Advisors: Bitcoin: planning for inheritance",
+      "url": "https://www.coindesk.com/coindesk-indices/2026/06/24/crypto-for-advisors-bitcoin-planning-for-inheritance",
+      "published_at": "Thu, 25 Jun 2026 15:00:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Gold, silver and bitcoin tumble as 'debasement' trade unwinds",
-      "url": "https://www.coindesk.com/markets/2026/06/24/gold-silver-and-bitcoin-tumble-as-debasement-trade-unwinds",
-      "published_at": "Wed, 24 Jun 2026 13:48:04 +0000",
+      "title": "Bitcoin likely to fall another 30% to $44,000 by year-end, prominent BTC miner says",
+      "url": "https://www.coindesk.com/markets/2026/06/25/bitcoin-can-fall-another-30-to-usd44-000-prominent-btc-miner-says",
+      "published_at": "Thu, 25 Jun 2026 14:39:55 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin could fall to $55,000 before finding a bottom, 10x Research says",
-      "url": "https://www.coindesk.com/markets/2026/06/24/bitcoin-could-fall-to-usd55-000-before-finding-a-bottom-10x-research-says",
-      "published_at": "Wed, 24 Jun 2026 13:42:31 +0000",
+      "title": "Kraken sues crypto derivatives firm PowerTrade over 'misappropriated' funds claim",
+      "url": "https://www.coindesk.com/policy/2026/06/25/kraken-sues-crypto-derivatives-firm-powertrade-over-misappropriated-funds-claim",
+      "published_at": "Thu, 25 Jun 2026 13:53:28 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "CoinDesk 20 performance update: Aave (AAVE) gains 5.9% as index moves higher",
-      "url": "https://www.coindesk.com/coindesk-indices/2026/06/24/coindesk-20-performance-update-aave-aave-gains-5-9-as-index-moves-higher",
-      "published_at": "Wed, 24 Jun 2026 13:19:59 +0000",
+      "title": "CoinDesk 20 performance update: AAVE gains 10.1% as index rises",
+      "url": "https://www.coindesk.com/coindesk-indices/2026/06/25/coindesk-20-performance-update-aave-gains-10-1-as-index-rises",
+      "published_at": "Thu, 25 Jun 2026 13:15:26 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
