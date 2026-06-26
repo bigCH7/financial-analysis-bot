@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-25T17:20:28.109893+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-06-25 17:11 UTC_",
+  "generated_at": "2026-06-26T17:08:48.249403+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-06-26 16:59 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,10 +9,10 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 59423.0,
+        "current_usd": 60078.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": -5.53,
-        "change_30d_pct": -21.63
+        "change_7d_pct": -5.41,
+        "change_30d_pct": -19.2
       },
       "indicators": {
         "trend": "DOWNTREND",
@@ -23,9 +23,9 @@
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
         "summary_line": "Fair - Balanced growth profile - Elevated regulatory risk.",
-        "score": 57.4
+        "score": 56.3
       },
-      "updated_at": "2026-06-25T17:20:28.107810+00:00",
+      "updated_at": "2026-06-26T17:08:48.247087+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,10 +37,10 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 1570.0,
+        "current_usd": 1578.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": -8.18,
-        "change_30d_pct": -24.2
+        "change_7d_pct": -7.51,
+        "change_30d_pct": -21.97
       },
       "indicators": {
         "trend": "DOWNTREND",
@@ -51,9 +51,9 @@
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
         "summary_line": "Fair - Strong growth profile - Elevated regulatory risk.",
-        "score": 57.0
+        "score": 55.4
       },
-      "updated_at": "2026-06-25T17:20:28.108570+00:00",
+      "updated_at": "2026-06-26T17:08:48.247870+00:00",
       "source": {
         "short_term": "live"
       }
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-06-25T17:20:28.108818+00:00",
+      "updated_at": "2026-06-26T17:08:48.248176+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-06-25T17:20:28.109042+00:00",
+      "updated_at": "2026-06-26T17:08:48.248466+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-06-25T17:20:28.109284+00:00",
+      "updated_at": "2026-06-26T17:08:48.248705+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-06-25T17:20:28.109490+00:00",
+      "updated_at": "2026-06-26T17:08:48.248930+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -193,7 +193,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-06-25T17:20:28.109692+00:00",
+      "updated_at": "2026-06-26T17:08:48.249160+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -201,72 +201,72 @@
   ],
   "overview_news": [
     {
-      "title": "Kraken in talks to buy 15% stake in DeFi lender Aave at $385 million valuation",
-      "url": "https://www.coindesk.com/business/2026/06/25/kraken-in-talks-to-buy-15-stake-in-defi-lender-aave-at-usd385-million-valuation",
-      "published_at": "Thu, 25 Jun 2026 17:14:19 +0000",
+      "title": "Securitize aims to raise $400 million as tokenization firm nears public debut",
+      "url": "https://www.coindesk.com/business/2026/06/26/securitize-aims-to-raise-usd400-million-as-tokenization-firm-nears-public-debut",
+      "published_at": "Fri, 26 Jun 2026 15:04:44 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "a16z-backed crypto firm rebrands, shifts focus to solving AI\u2019s global copyright headache",
-      "url": "https://www.coindesk.com/business/2026/06/25/a16z-backed-crypto-firm-rebrands-shifts-focus-to-solving-ai-s-global-copyright-headache",
-      "published_at": "Thu, 25 Jun 2026 17:06:10 +0000",
+      "title": "CoinDesk 20 performance update: AAVE jumps 8.9%, leading index higher",
+      "url": "https://www.coindesk.com/coindesk-indices/2026/06/26/coindesk-20-performance-update-aave-jumps-8-9-leading-index-higher",
+      "published_at": "Fri, 26 Jun 2026 13:22:16 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "BlackBerry is making a massive comeback as an 'uncrashable' software layer for AI and robotics",
-      "url": "https://www.coindesk.com/markets/2026/06/25/blackberry-is-making-a-massive-comeback-as-an-uncrashable-software-layer-for-ai-and-robotics",
-      "published_at": "Thu, 25 Jun 2026 16:05:06 +0000",
+      "title": "Wall Street's IPO revival hasn't reached dot-com euphoria levels, Goldman Sachs says",
+      "url": "https://www.coindesk.com/business/2026/06/26/wall-street-s-ipo-revival-hasn-t-reached-dot-com-euphoria-levels-goldman-sachs-says",
+      "published_at": "Fri, 26 Jun 2026 12:25:36 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Strategy has a 10-month cash runway for dividends, but retail investors are losing faith",
-      "url": "https://www.coindesk.com/markets/2026/06/25/michael-saylor-s-broken-promises-have-shattered-strategy-investor-trust-says-tw-prime-ceo",
-      "published_at": "Thu, 25 Jun 2026 15:45:43 +0000",
+      "title": "With crypto ending the first half in the red, bitcoin's solace is it beat Strategy",
+      "url": "https://www.coindesk.com/daybook-us/2026/06/26/with-crypto-ending-the-first-half-in-the-red-bitcoin-s-solace-is-it-beat-strategy",
+      "published_at": "Fri, 26 Jun 2026 11:36:01 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Quant fund says bitcoin is near a major inflection point as rare onchain signals align",
-      "url": "https://www.coindesk.com/markets/2026/06/25/quant-fund-says-bitcoin-is-near-a-major-inflection-point-as-rare-onchain-signals-align",
-      "published_at": "Thu, 25 Jun 2026 15:14:01 +0000",
+      "title": "Bitcoin bounces from $58,000 as derivatives signal more pain in the pipeline",
+      "url": "https://www.coindesk.com/markets/2026/06/26/bitcoin-bounces-from-usd58-000-as-derivatives-signal-more-pain-in-the-pipeline",
+      "published_at": "Fri, 26 Jun 2026 11:03:20 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin tumbles to new multi-year low of $58,000, but a short-squeeze setup emerges",
-      "url": "https://www.coindesk.com/markets/2026/06/25/bitcoin-plunges-to-new-multi-year-low-of-usd58-000-but-a-short-squeeze-setup-emerges",
-      "published_at": "Thu, 25 Jun 2026 15:03:08 +0000",
+      "title": "All eyes on Strategy's June 30 ex-dividend date and monthly STRC dividend rate reset",
+      "url": "https://www.coindesk.com/markets/2026/06/26/all-eyes-on-strategy-s-june-30-ex-dividend-date-and-monthly-strc-dividend-rate-reset",
+      "published_at": "Fri, 26 Jun 2026 10:28:24 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Crypto for Advisors: Bitcoin: planning for inheritance",
-      "url": "https://www.coindesk.com/coindesk-indices/2026/06/24/crypto-for-advisors-bitcoin-planning-for-inheritance",
-      "published_at": "Thu, 25 Jun 2026 15:00:00 +0000",
+      "title": "Binance tells EU users it will no longer provide services after failing to secure MiCA license",
+      "url": "https://www.coindesk.com/policy/2026/06/26/binance-tells-eu-users-it-will-no-longer-provide-services-after-failing-to-secure-mica-license",
+      "published_at": "Fri, 26 Jun 2026 10:19:22 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin likely to fall another 30% to $44,000 by year-end, prominent BTC miner says",
-      "url": "https://www.coindesk.com/markets/2026/06/25/bitcoin-can-fall-another-30-to-usd44-000-prominent-btc-miner-says",
-      "published_at": "Thu, 25 Jun 2026 14:39:55 +0000",
+      "title": "Ethereum treasury firm Sharplink buys ether for the first time in eight months",
+      "url": "https://www.coindesk.com/markets/2026/06/26/ethereum-treasury-firm-sharplink-takes-in-ether-for-the-first-time-in-eight-months",
+      "published_at": "Fri, 26 Jun 2026 09:47:07 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Kraken sues crypto derivatives firm PowerTrade over 'misappropriated' funds claim",
-      "url": "https://www.coindesk.com/policy/2026/06/25/kraken-sues-crypto-derivatives-firm-powertrade-over-misappropriated-funds-claim",
-      "published_at": "Thu, 25 Jun 2026 13:53:28 +0000",
+      "title": "Japanese financial services giant SBI Holdings to buy Bitbank for $289 million",
+      "url": "https://www.coindesk.com/business/2026/06/26/japanese-financial-services-giant-sbi-holdings-to-buy-bitbank-for-usd289-million",
+      "published_at": "Fri, 26 Jun 2026 08:31:57 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "CoinDesk 20 performance update: AAVE gains 10.1% as index rises",
-      "url": "https://www.coindesk.com/coindesk-indices/2026/06/25/coindesk-20-performance-update-aave-gains-10-1-as-index-rises",
-      "published_at": "Thu, 25 Jun 2026 13:15:26 +0000",
+      "title": "Grant Cardone says he will keep buying bitcoin using real estate cash flows",
+      "url": "https://www.coindesk.com/business/2026/06/26/grant-cardone-says-he-will-keep-buying-bitcoin-using-real-estate-cash-flows",
+      "published_at": "Fri, 26 Jun 2026 08:25:44 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
