@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-26T17:08:48.249403+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-06-26 16:59 UTC_",
+  "generated_at": "2026-06-27T16:11:48.029592+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-06-27 16:03 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,23 +9,23 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 60078.0,
+        "current_usd": 60714.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": -5.41,
-        "change_30d_pct": -19.2
+        "change_7d_pct": -5.49,
+        "change_30d_pct": -17.44
       },
       "indicators": {
-        "trend": "DOWNTREND",
+        "trend": "UPTREND",
         "momentum": "WEAK",
         "volatility": "NORMAL"
       },
       "valuation": {
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
-        "summary_line": "Fair - Balanced growth profile - Elevated regulatory risk.",
-        "score": 56.3
+        "summary_line": "Fair - Weak growth profile - Elevated regulatory risk.",
+        "score": 49.9
       },
-      "updated_at": "2026-06-26T17:08:48.247087+00:00",
+      "updated_at": "2026-06-27T16:11:48.027375+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,23 +37,23 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 1578.0,
+        "current_usd": 1603.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": -7.51,
-        "change_30d_pct": -21.97
+        "change_7d_pct": -7.85,
+        "change_30d_pct": -20.17
       },
       "indicators": {
-        "trend": "DOWNTREND",
+        "trend": "UPTREND",
         "momentum": "WEAK",
         "volatility": "NORMAL"
       },
       "valuation": {
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
-        "summary_line": "Fair - Strong growth profile - Elevated regulatory risk.",
-        "score": 55.4
+        "summary_line": "Fair - Weak growth profile - Elevated regulatory risk.",
+        "score": 46.3
       },
-      "updated_at": "2026-06-26T17:08:48.247870+00:00",
+      "updated_at": "2026-06-27T16:11:48.028105+00:00",
       "source": {
         "short_term": "live"
       }
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-06-26T17:08:48.248176+00:00",
+      "updated_at": "2026-06-27T16:11:48.028405+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-06-26T17:08:48.248466+00:00",
+      "updated_at": "2026-06-27T16:11:48.028646+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-06-26T17:08:48.248705+00:00",
+      "updated_at": "2026-06-27T16:11:48.028887+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-06-26T17:08:48.248930+00:00",
+      "updated_at": "2026-06-27T16:11:48.029131+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -193,7 +193,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-06-26T17:08:48.249160+00:00",
+      "updated_at": "2026-06-27T16:11:48.029370+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -201,72 +201,72 @@
   ],
   "overview_news": [
     {
-      "title": "Securitize aims to raise $400 million as tokenization firm nears public debut",
-      "url": "https://www.coindesk.com/business/2026/06/26/securitize-aims-to-raise-usd400-million-as-tokenization-firm-nears-public-debut",
-      "published_at": "Fri, 26 Jun 2026 15:04:44 +0000",
+      "title": "Tether putting $23 billion gold stockpile to work with bullion-backed loans",
+      "url": "https://www.coindesk.com/business/2026/06/27/tether-putting-usd23-billion-gold-stockpile-to-work-with-bullion-backed-loans",
+      "published_at": "Sat, 27 Jun 2026 15:00:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "CoinDesk 20 performance update: AAVE jumps 8.9%, leading index higher",
-      "url": "https://www.coindesk.com/coindesk-indices/2026/06/26/coindesk-20-performance-update-aave-jumps-8-9-leading-index-higher",
-      "published_at": "Fri, 26 Jun 2026 13:22:16 +0000",
+      "title": "Polymarket hack updated to $3.1 million days after the platform promised users full refunds",
+      "url": "https://www.coindesk.com/markets/2026/06/27/polymarket-hack-updated-to-usd3-1-million-days-after-the-platform-promised-users-full-refunds",
+      "published_at": "Sat, 27 Jun 2026 14:13:22 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Wall Street's IPO revival hasn't reached dot-com euphoria levels, Goldman Sachs says",
-      "url": "https://www.coindesk.com/business/2026/06/26/wall-street-s-ipo-revival-hasn-t-reached-dot-com-euphoria-levels-goldman-sachs-says",
-      "published_at": "Fri, 26 Jun 2026 12:25:36 +0000",
+      "title": "Coinbase and OKX try to lure in Binance\u2019s EU users after it failed to secure a MiCA license",
+      "url": "https://www.coindesk.com/business/2026/06/27/coinbase-and-okx-try-to-lure-in-binance-s-450m-eu-users-after-failing-to-secure-a-mica-license",
+      "published_at": "Sat, 27 Jun 2026 14:11:45 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "With crypto ending the first half in the red, bitcoin's solace is it beat Strategy",
-      "url": "https://www.coindesk.com/daybook-us/2026/06/26/with-crypto-ending-the-first-half-in-the-red-bitcoin-s-solace-is-it-beat-strategy",
-      "published_at": "Fri, 26 Jun 2026 11:36:01 +0000",
+      "title": "Binance founder CZ blames crypto's sour 2026 on mix of AI, global tension, 4-year cycle",
+      "url": "https://www.coindesk.com/policy/2026/06/27/binance-founder-cz-blames-crypto-s-sour-2026-on-mix-of-ai-global-tension-4-year-cycle",
+      "published_at": "Sat, 27 Jun 2026 13:00:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin bounces from $58,000 as derivatives signal more pain in the pipeline",
-      "url": "https://www.coindesk.com/markets/2026/06/26/bitcoin-bounces-from-usd58-000-as-derivatives-signal-more-pain-in-the-pipeline",
-      "published_at": "Fri, 26 Jun 2026 11:03:20 +0000",
+      "title": "Strategy's valuation has fallen below the value of its bitcoin holdings",
+      "url": "https://www.coindesk.com/markets/2026/06/27/strategy-s-valuation-has-fallen-below-the-value-of-its-bitcoin-holdings",
+      "published_at": "Sat, 27 Jun 2026 12:08:14 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "All eyes on Strategy's June 30 ex-dividend date and monthly STRC dividend rate reset",
-      "url": "https://www.coindesk.com/markets/2026/06/26/all-eyes-on-strategy-s-june-30-ex-dividend-date-and-monthly-strc-dividend-rate-reset",
-      "published_at": "Fri, 26 Jun 2026 10:28:24 +0000",
+      "title": "Ripple CEO stays bullish on bitcoin but says Saylor's strategy has hurt crypto",
+      "url": "https://www.coindesk.com/markets/2026/06/27/ripple-ceo-stays-bullish-on-bitcoin-but-says-saylor-s-strategy-has-hurt-crypto",
+      "published_at": "Sat, 27 Jun 2026 07:58:35 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Binance tells EU users it will no longer provide services after failing to secure MiCA license",
-      "url": "https://www.coindesk.com/policy/2026/06/26/binance-tells-eu-users-it-will-no-longer-provide-services-after-failing-to-secure-mica-license",
-      "published_at": "Fri, 26 Jun 2026 10:19:22 +0000",
+      "title": "Dogecoin and Hyperliquid's HYPE led weekly crypto losses as AI stocks lure buyers",
+      "url": "https://www.coindesk.com/markets/2026/06/27/dogecoin-and-hyperliquid-s-hype-led-weekly-crypto-losses-as-ai-stocks-lure-buyers",
+      "published_at": "Sat, 27 Jun 2026 07:43:58 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Ethereum treasury firm Sharplink buys ether for the first time in eight months",
-      "url": "https://www.coindesk.com/markets/2026/06/26/ethereum-treasury-firm-sharplink-takes-in-ether-for-the-first-time-in-eight-months",
-      "published_at": "Fri, 26 Jun 2026 09:47:07 +0000",
+      "title": "Aave, Solana ecosystem tokens lead crypto rebound as bitcoin steadies near $60,000",
+      "url": "https://www.coindesk.com/markets/2026/06/26/aave-solana-ecosystem-tokens-lead-crypto-rebound-as-bitcoin-steadies-near-usd60-000",
+      "published_at": "Fri, 26 Jun 2026 20:15:03 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Japanese financial services giant SBI Holdings to buy Bitbank for $289 million",
-      "url": "https://www.coindesk.com/business/2026/06/26/japanese-financial-services-giant-sbi-holdings-to-buy-bitbank-for-usd289-million",
-      "published_at": "Fri, 26 Jun 2026 08:31:57 +0000",
+      "title": "U.S. House Democrat, who may soon run key committee, condemns crypto in 401(k)s",
+      "url": "https://www.coindesk.com/policy/2026/06/26/u-s-house-democrat-who-may-soon-run-key-committee-condemns-crypto-in-401-k-s",
+      "published_at": "Fri, 26 Jun 2026 19:38:12 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Grant Cardone says he will keep buying bitcoin using real estate cash flows",
-      "url": "https://www.coindesk.com/business/2026/06/26/grant-cardone-says-he-will-keep-buying-bitcoin-using-real-estate-cash-flows",
-      "published_at": "Fri, 26 Jun 2026 08:25:44 +0000",
+      "title": "Former Ethereum Foundation leader warns of funding gap as governance shifts",
+      "url": "https://www.coindesk.com/markets/2026/06/26/former-ethereum-foundation-leader-warns-of-funding-gap-as-governance-shifts",
+      "published_at": "Fri, 26 Jun 2026 18:37:50 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
