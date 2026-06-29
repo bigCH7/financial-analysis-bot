@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-28T16:18:33.917785+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-06-28 16:09 UTC_",
+  "generated_at": "2026-06-29T17:44:50.583827+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-06-29 17:35 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,13 +9,13 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 59742.0,
+        "current_usd": 60409.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": -5.52,
-        "change_30d_pct": -18.59
+        "change_7d_pct": -5.55,
+        "change_30d_pct": -18.09
       },
       "indicators": {
-        "trend": "UPTREND",
+        "trend": "DOWNTREND",
         "momentum": "WEAK",
         "volatility": "NORMAL"
       },
@@ -23,9 +23,9 @@
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
         "summary_line": "Fair - Weak growth profile - Elevated regulatory risk.",
-        "score": 47.7
+        "score": 54.1
       },
-      "updated_at": "2026-06-28T16:18:33.916076+00:00",
+      "updated_at": "2026-06-29T17:44:50.581518+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,23 +37,23 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 1576.0,
+        "current_usd": 1623.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": -7.54,
-        "change_30d_pct": -21.67
+        "change_7d_pct": -5.98,
+        "change_30d_pct": -19.6
       },
       "indicators": {
         "trend": "UPTREND",
-        "momentum": "WEAK",
+        "momentum": "STRONG",
         "volatility": "NORMAL"
       },
       "valuation": {
-        "verdict": "Caution / risk-reward mixed",
-        "band": "overvalued",
-        "summary_line": "Overvalued - Weak growth profile - Elevated regulatory risk.",
-        "score": 44.8
+        "verdict": "Neutral / fair-value zone",
+        "band": "fair",
+        "summary_line": "Fair - Balanced growth profile - Elevated regulatory risk.",
+        "score": 51.3
       },
-      "updated_at": "2026-06-28T16:18:33.916760+00:00",
+      "updated_at": "2026-06-29T17:44:50.582318+00:00",
       "source": {
         "short_term": "live"
       }
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-06-28T16:18:33.916986+00:00",
+      "updated_at": "2026-06-29T17:44:50.582570+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-06-28T16:18:33.917155+00:00",
+      "updated_at": "2026-06-29T17:44:50.582868+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-06-28T16:18:33.917314+00:00",
+      "updated_at": "2026-06-29T17:44:50.583122+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-06-28T16:18:33.917464+00:00",
+      "updated_at": "2026-06-29T17:44:50.583351+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -193,7 +193,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-06-28T16:18:33.917638+00:00",
+      "updated_at": "2026-06-29T17:44:50.583590+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -201,72 +201,72 @@
   ],
   "overview_news": [
     {
-      "title": "Samson Mow says bitcoin bottom is in despite skepticism from analysts",
-      "url": "https://www.coindesk.com/markets/2026/06/28/samson-mow-says-bitcoin-bottom-is-in-but-analysts-remain-divided",
-      "published_at": "Sun, 28 Jun 2026 15:07:12 +0000",
+      "title": "JPMorgan backs U.S. crypto bill but warns of risks in digital asset framework",
+      "url": "https://www.coindesk.com/policy/2026/06/29/jpmorgan-backs-u-s-crypto-bill-but-warns-repeatedly-of-risks-in-digital-asset-framework",
+      "published_at": "Mon, 29 Jun 2026 17:31:33 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Michael Saylor teases more bitcoin buying even as Strategy stock continues to fall",
-      "url": "https://www.coindesk.com/markets/2026/06/28/michael-saylor-teases-more-bitcoin-buying-even-as-strategy-stock-continues-to-fall",
-      "published_at": "Sun, 28 Jun 2026 15:02:43 +0000",
+      "title": "Private keys, not smart contracts, caused 40% of crypto's $16 billion hack losses. Here's whats being done.",
+      "url": "https://www.coindesk.com/tech/2026/06/29/private-keys-not-smart-contracts-caused-40-of-crypto-s-usd16-billion-hack-losses-here-s-whats-being-done",
+      "published_at": "Mon, 29 Jun 2026 15:45:18 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "SBI's $289 million Bitbank deal is symptomatic of Japan's crypto consolidation: Architect Partners",
-      "url": "https://www.coindesk.com/business/2026/06/28/sbi-s-usd289-million-bitbank-deal-is-symptomatic-of-japan-s-crypto-consolidation-architect-partners",
-      "published_at": "Sun, 28 Jun 2026 15:00:00 +0000",
+      "title": "White House to speak with law enforcement groups to push Crypto's Clarity Act",
+      "url": "https://www.coindesk.com/policy/2026/06/29/white-house-to-speak-with-law-enforcement-groups-to-push-crypto-s-clarity-act",
+      "published_at": "Mon, 29 Jun 2026 15:23:51 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Crypto's next frontier isn't crypto, it's financing AI and robotics, Framework's Anderson says",
-      "url": "https://www.coindesk.com/business/2026/06/28/crypto-s-next-frontier-isn-t-crypto-it-s-financing-ai-and-robotics-framework-s-anderson-says",
-      "published_at": "Sun, 28 Jun 2026 13:00:00 +0000",
+      "title": "J.P. Morgan broadens blockchain settlement network as banks modernize cross-border payments",
+      "url": "https://www.coindesk.com/business/2026/06/29/j-p-morgan-broadens-blockchain-settlement-network-as-banks-modernize-cross-border-payments",
+      "published_at": "Mon, 29 Jun 2026 15:23:36 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin falls below $60,000, on track for a rare back-to-back quarterly loss",
-      "url": "https://www.coindesk.com/markets/2026/06/28/bitcoin-falls-below-usd60-000-on-track-for-a-rare-back-to-back-quarterly-loss",
-      "published_at": "Sun, 28 Jun 2026 07:10:52 +0000",
+      "title": "Crypto analytics firm Chainalysis proposes standards for blockchain tracing",
+      "url": "https://www.coindesk.com/policy/2026/06/29/crypto-analytics-firm-chainalysis-proposes-standards-for-blockchain-tracing",
+      "published_at": "Mon, 29 Jun 2026 15:07:49 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Why a selloff in gold and silver is dragging bitcoin down",
-      "url": "https://www.coindesk.com/markets/2026/06/27/why-a-selloff-in-gold-and-silver-is-dragging-bitcoin-down",
-      "published_at": "Sat, 27 Jun 2026 18:11:04 +0000",
+      "title": "MiCA's looming deadline could leave 10 million crypto users without a platform in the EU",
+      "url": "https://www.coindesk.com/business/2026/06/29/mica-july-1-deadline-could-leave-10-million-crypto-users-searching-for-a-new-platform-in-the-eu",
+      "published_at": "Mon, 29 Jun 2026 15:03:53 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "What Robinhood\u2019s recent layoffs say about the current state of crypto investments",
-      "url": "https://www.coindesk.com/opinion/2026/06/27/what-robinhood-s-recent-layoffs-say-about-the-current-state-of-crypto-investments",
-      "published_at": "Sat, 27 Jun 2026 16:30:00 +0000",
+      "title": "Ripple wants institutions to borrow against tokenized assets on XRPL",
+      "url": "https://www.coindesk.com/tech/2026/06/29/emb-3-pm-utc-ripple-wants-institutions-to-borrow-against-tokenized-assets-on-xrpl",
+      "published_at": "Mon, 29 Jun 2026 15:00:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Tether putting $23 billion gold stockpile to work with bullion-backed loans",
-      "url": "https://www.coindesk.com/business/2026/06/27/tether-putting-usd23-billion-gold-stockpile-to-work-with-bullion-backed-loans",
-      "published_at": "Sat, 27 Jun 2026 15:00:00 +0000",
+      "title": "Wall Street's BNY expands stablecoin services for institutions, starting with Circle's USDC",
+      "url": "https://www.coindesk.com/business/2026/06/29/wall-street-s-bny-expands-stablecoin-services-for-institutions-starting-with-circle-s-usdc",
+      "published_at": "Mon, 29 Jun 2026 14:46:33 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Polymarket hack updated to $3.1 million days after the platform promised users full refunds",
-      "url": "https://www.coindesk.com/markets/2026/06/27/polymarket-hack-updated-to-usd3-1-million-days-after-the-platform-promised-users-full-refunds",
-      "published_at": "Sat, 27 Jun 2026 14:13:22 +0000",
+      "title": "Strategy opens door to selling billions of bitcoin under new capital plan. Here's what it means",
+      "url": "https://www.coindesk.com/markets/2026/06/29/strategy-opens-the-door-to-selling-bitcoin-under-new-capital-plan-here-s-what-it-means",
+      "published_at": "Mon, 29 Jun 2026 14:11:01 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Coinbase and OKX try to lure in Binance\u2019s EU users after it failed to secure a MiCA license",
-      "url": "https://www.coindesk.com/business/2026/06/27/coinbase-and-okx-try-to-lure-in-binance-s-450m-eu-users-after-failing-to-secure-a-mica-license",
-      "published_at": "Sat, 27 Jun 2026 14:11:45 +0000",
+      "title": "Ukraine transfers $8.3 million in seized crypto amid potential plans for strategic reserve",
+      "url": "https://www.coindesk.com/business/2026/06/29/ukraine-transfers-usd8-3-million-in-seized-crypto-amid-potential-plans-for-strategic-reserve",
+      "published_at": "Mon, 29 Jun 2026 14:03:04 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
