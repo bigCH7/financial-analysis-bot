@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-29T17:44:50.583827+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-06-29 17:35 UTC_",
+  "generated_at": "2026-06-30T17:14:43.178395+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-06-30 17:05 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,23 +9,23 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 60409.0,
+        "current_usd": 58419.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": -5.55,
-        "change_30d_pct": -18.09
+        "change_7d_pct": -6.76,
+        "change_30d_pct": -20.62
       },
       "indicators": {
         "trend": "DOWNTREND",
-        "momentum": "WEAK",
+        "momentum": "STRONG",
         "volatility": "NORMAL"
       },
       "valuation": {
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
         "summary_line": "Fair - Weak growth profile - Elevated regulatory risk.",
-        "score": 54.1
+        "score": 53.9
       },
-      "updated_at": "2026-06-29T17:44:50.581518+00:00",
+      "updated_at": "2026-06-30T17:14:43.176298+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,23 +37,23 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 1623.0,
+        "current_usd": 1571.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": -5.98,
-        "change_30d_pct": -19.6
+        "change_7d_pct": -5.65,
+        "change_30d_pct": -21.61
       },
       "indicators": {
-        "trend": "UPTREND",
-        "momentum": "STRONG",
+        "trend": "DOWNTREND",
+        "momentum": "WEAK",
         "volatility": "NORMAL"
       },
       "valuation": {
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
         "summary_line": "Fair - Balanced growth profile - Elevated regulatory risk.",
-        "score": 51.3
+        "score": 50.9
       },
-      "updated_at": "2026-06-29T17:44:50.582318+00:00",
+      "updated_at": "2026-06-30T17:14:43.177042+00:00",
       "source": {
         "short_term": "live"
       }
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-06-29T17:44:50.582570+00:00",
+      "updated_at": "2026-06-30T17:14:43.177314+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-06-29T17:44:50.582868+00:00",
+      "updated_at": "2026-06-30T17:14:43.177531+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-06-29T17:44:50.583122+00:00",
+      "updated_at": "2026-06-30T17:14:43.177758+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-06-29T17:44:50.583351+00:00",
+      "updated_at": "2026-06-30T17:14:43.177965+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -193,7 +193,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-06-29T17:44:50.583590+00:00",
+      "updated_at": "2026-06-30T17:14:43.178187+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -201,72 +201,72 @@
   ],
   "overview_news": [
     {
-      "title": "JPMorgan backs U.S. crypto bill but warns of risks in digital asset framework",
-      "url": "https://www.coindesk.com/policy/2026/06/29/jpmorgan-backs-u-s-crypto-bill-but-warns-repeatedly-of-risks-in-digital-asset-framework",
-      "published_at": "Mon, 29 Jun 2026 17:31:33 +0000",
+      "title": "Chinese exile once linked to Trump strategist gets 30-year sentence in $1 billion fraud",
+      "url": "https://www.coindesk.com/policy/2026/06/30/chinese-exile-once-linked-to-trump-strategist-gets-30-year-sentence-in-usd1-billion-fraud",
+      "published_at": "Tue, 30 Jun 2026 16:31:46 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Private keys, not smart contracts, caused 40% of crypto's $16 billion hack losses. Here's whats being done.",
-      "url": "https://www.coindesk.com/tech/2026/06/29/private-keys-not-smart-contracts-caused-40-of-crypto-s-usd16-billion-hack-losses-here-s-whats-being-done",
-      "published_at": "Mon, 29 Jun 2026 15:45:18 +0000",
+      "title": "Jefferies warns of crypto market volatility as Clarity Act faces Senate test",
+      "url": "https://www.coindesk.com/policy/2026/06/30/jefferies-warns-of-crypto-market-volatility-as-clarity-act-faces-senate-test",
+      "published_at": "Tue, 30 Jun 2026 14:41:59 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "White House to speak with law enforcement groups to push Crypto's Clarity Act",
-      "url": "https://www.coindesk.com/policy/2026/06/29/white-house-to-speak-with-law-enforcement-groups-to-push-crypto-s-clarity-act",
-      "published_at": "Mon, 29 Jun 2026 15:23:51 +0000",
+      "title": "Circle slides 13% as Stripe, Coinbase and BlackRock back rival stablecoin network",
+      "url": "https://www.coindesk.com/business/2026/06/30/circle-slides-8-as-stripe-coinbase-and-blackrock-back-rival-stablecoin-network",
+      "published_at": "Tue, 30 Jun 2026 14:32:33 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "J.P. Morgan broadens blockchain settlement network as banks modernize cross-border payments",
-      "url": "https://www.coindesk.com/business/2026/06/29/j-p-morgan-broadens-blockchain-settlement-network-as-banks-modernize-cross-border-payments",
-      "published_at": "Mon, 29 Jun 2026 15:23:36 +0000",
+      "title": "MetaMask launches Money Account with stablecoin yield and spending in one wallet",
+      "url": "https://www.coindesk.com/tech/2026/06/30/metamask-launches-money-account-with-stablecoin-yield-and-spending-in-one-wallet",
+      "published_at": "Tue, 30 Jun 2026 14:00:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Crypto analytics firm Chainalysis proposes standards for blockchain tracing",
-      "url": "https://www.coindesk.com/policy/2026/06/29/crypto-analytics-firm-chainalysis-proposes-standards-for-blockchain-tracing",
-      "published_at": "Mon, 29 Jun 2026 15:07:49 +0000",
+      "title": "Tokenized securities need competition, not gatekeepers",
+      "url": "https://www.coindesk.com/opinion/2026/06/29/tokenized-securities-need-competition-not-gatekeepers",
+      "published_at": "Tue, 30 Jun 2026 13:25:52 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "MiCA's looming deadline could leave 10 million crypto users without a platform in the EU",
-      "url": "https://www.coindesk.com/business/2026/06/29/mica-july-1-deadline-could-leave-10-million-crypto-users-searching-for-a-new-platform-in-the-eu",
-      "published_at": "Mon, 29 Jun 2026 15:03:53 +0000",
+      "title": "Nasdaq expands distribution of its market data into blockchain infrastructure",
+      "url": "https://www.coindesk.com/markets/2026/06/30/nasdaq-expands-distribution-of-its-market-data-into-blockchain-infrastructure",
+      "published_at": "Tue, 30 Jun 2026 13:00:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Ripple wants institutions to borrow against tokenized assets on XRPL",
-      "url": "https://www.coindesk.com/tech/2026/06/29/emb-3-pm-utc-ripple-wants-institutions-to-borrow-against-tokenized-assets-on-xrpl",
-      "published_at": "Mon, 29 Jun 2026 15:00:00 +0000",
+      "title": "Bitcoin\u2019s quiet $59,000-$60,000 range is starting to look dangerous",
+      "url": "https://www.coindesk.com/markets/2026/06/30/bitcoin-s-quiet-usd59-000-usd60-000-range-is-starting-to-look-dangerous",
+      "published_at": "Tue, 30 Jun 2026 11:55:34 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Wall Street's BNY expands stablecoin services for institutions, starting with Circle's USDC",
-      "url": "https://www.coindesk.com/business/2026/06/29/wall-street-s-bny-expands-stablecoin-services-for-institutions-starting-with-circle-s-usdc",
-      "published_at": "Mon, 29 Jun 2026 14:46:33 +0000",
+      "title": "New York Life's $800 billion asset manager makes tokenization debut with Centrifuge fund",
+      "url": "https://www.coindesk.com/business/2026/06/29/new-york-life-makes-tokenization-debut-with-onchain-high-yield-bond-fund-with-centrifuge",
+      "published_at": "Tue, 30 Jun 2026 11:20:30 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Strategy opens door to selling billions of bitcoin under new capital plan. Here's what it means",
-      "url": "https://www.coindesk.com/markets/2026/06/29/strategy-opens-the-door-to-selling-bitcoin-under-new-capital-plan-here-s-what-it-means",
-      "published_at": "Mon, 29 Jun 2026 14:11:01 +0000",
+      "title": "Bitcoin $4.4 billion supply overhang emerges as institutional demand wilts",
+      "url": "https://www.coindesk.com/daybook-us/2026/06/30/bitcoin-usd4-4-billion-supply-overhang-emerges-as-institutional-demand-wilts",
+      "published_at": "Tue, 30 Jun 2026 11:18:34 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Ukraine transfers $8.3 million in seized crypto amid potential plans for strategic reserve",
-      "url": "https://www.coindesk.com/business/2026/06/29/ukraine-transfers-usd8-3-million-in-seized-crypto-amid-potential-plans-for-strategic-reserve",
-      "published_at": "Mon, 29 Jun 2026 14:03:04 +0000",
+      "title": "Bitcoin nears 2024 lows as options traders pay up for downside protection",
+      "url": "https://www.coindesk.com/markets/2026/06/30/bitcoin-nears-2024-lows-as-options-traders-pay-up-for-downside-protection",
+      "published_at": "Tue, 30 Jun 2026 10:48:06 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
