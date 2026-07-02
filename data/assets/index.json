@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-01T17:21:30.090526+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-07-01 17:12 UTC_",
+  "generated_at": "2026-07-02T16:57:02.113952+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-07-02 16:48 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,23 +9,23 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 59899.0,
+        "current_usd": 61627.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": -1.66,
-        "change_30d_pct": -16.06
+        "change_7d_pct": 3.21,
+        "change_30d_pct": -7.54
       },
       "indicators": {
-        "trend": "DOWNTREND",
+        "trend": "UPTREND",
         "momentum": "STRONG",
         "volatility": "NORMAL"
       },
       "valuation": {
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
-        "summary_line": "Fair - Weak growth profile - Elevated regulatory risk.",
-        "score": 54.6
+        "summary_line": "Fair - Balanced growth profile - Elevated regulatory risk.",
+        "score": 56.2
       },
-      "updated_at": "2026-07-01T17:21:30.088312+00:00",
+      "updated_at": "2026-07-02T16:57:02.111848+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,10 +37,10 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 1613.0,
+        "current_usd": 1699.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": -0.29,
-        "change_30d_pct": -19.48
+        "change_7d_pct": 8.6,
+        "change_30d_pct": -8.44
       },
       "indicators": {
         "trend": "UPTREND",
@@ -51,9 +51,9 @@
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
         "summary_line": "Fair - Balanced growth profile - Elevated regulatory risk.",
-        "score": 50.0
+        "score": 54.2
       },
-      "updated_at": "2026-07-01T17:21:30.089102+00:00",
+      "updated_at": "2026-07-02T16:57:02.112576+00:00",
       "source": {
         "short_term": "live"
       }
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-07-01T17:21:30.089423+00:00",
+      "updated_at": "2026-07-02T16:57:02.112879+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-07-01T17:21:30.089640+00:00",
+      "updated_at": "2026-07-02T16:57:02.113094+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-07-01T17:21:30.089859+00:00",
+      "updated_at": "2026-07-02T16:57:02.113302+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-07-01T17:21:30.090075+00:00",
+      "updated_at": "2026-07-02T16:57:02.113495+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -193,7 +193,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-07-01T17:21:30.090321+00:00",
+      "updated_at": "2026-07-02T16:57:02.113701+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -201,72 +201,72 @@
   ],
   "overview_news": [
     {
-      "title": "Jefferies warns against buying the dip in Circle as Open USD raises new competition fears",
-      "url": "https://www.coindesk.com/markets/2026/07/01/jefferies-warns-against-buying-the-dip-in-circle-as-open-usd-raises-new-competition-fears",
-      "published_at": "Wed, 01 Jul 2026 16:11:50 +0000",
+      "title": "Bitwise says STRC selloff signals crypto cycle nearing a bottom, not Strategy\u2019s breaking point",
+      "url": "https://www.coindesk.com/markets/2026/07/02/bitwise-says-strc-selloff-signals-crypto-cycle-nearing-a-bottom-not-strategy-s-breaking-point",
+      "published_at": "Thu, 02 Jul 2026 16:51:36 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Cantor says bitcoin bear market may be entering final stretch",
-      "url": "https://www.coindesk.com/markets/2026/07/01/cantor-says-bitcoin-bear-market-may-be-entering-final-stretch",
-      "published_at": "Wed, 01 Jul 2026 15:11:46 +0000",
+      "title": "US Treasury sanctions over 100 ISIS-K crypto addresses that moved over $1.4 million",
+      "url": "https://www.coindesk.com/policy/2026/07/02/us-treasury-sanctions-over-100-isis-k-crypto-addresses-in-latest-enforcement-action",
+      "published_at": "Thu, 02 Jul 2026 14:49:05 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Goliath Ventures CEO pleads guilty in $400 million crypto Ponzi case",
-      "url": "https://www.coindesk.com/policy/2026/07/01/goliath-ventures-ceo-pleads-guilty-in-usd400-million-crypto-ponzi-case",
-      "published_at": "Wed, 01 Jul 2026 15:06:22 +0000",
+      "title": "SBI Crypto to shut down mining pool that holds roughly 2% of Bitcoin's hashrate",
+      "url": "https://www.coindesk.com/business/2026/07/02/sbi-crypto-to-shut-down-mining-pool-that-holds-roughly-2-of-bitcoin-s-hashrate",
+      "published_at": "Thu, 02 Jul 2026 14:44:55 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin breaks above $60,000 after Fed Chair Warsh said inflation risks has come down",
-      "url": "https://www.coindesk.com/markets/2026/07/01/bitcoin-retakes-usd60-000-level-after-fed-chair-warsh-said-inflation-risks-has-come-down",
-      "published_at": "Wed, 01 Jul 2026 14:36:00 +0000",
+      "title": "Ondo Finance debuts SEC-aligned tokenized stock model with BlackRock ETF, Micron shares",
+      "url": "https://www.coindesk.com/business/2026/07/01/ondo-finance-debuts-sec-aligned-tokenized-stock-model-with-blackrock-etf-micron-shares",
+      "published_at": "Thu, 02 Jul 2026 14:16:02 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "EthLabs launches as Ethereum undergoes its biggest leadership transition in years",
-      "url": "https://www.coindesk.com/tech/2026/07/01/ethlabs-launches-as-ethereum-undergoes-its-biggest-leadership-transition-in-years",
-      "published_at": "Wed, 01 Jul 2026 14:09:56 +0000",
+      "title": "JPMorgan says Strategy's bitcoin sales policy adds 'two-way risk' to crypto markets",
+      "url": "https://www.coindesk.com/markets/2026/07/02/jpmorgan-says-strategy-s-bitcoin-sales-policy-adds-two-way-risk-to-crypto-markets",
+      "published_at": "Thu, 02 Jul 2026 13:11:22 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Europe's MiCA rollout sparks debate over who wins under new crypto rules",
-      "url": "https://www.coindesk.com/policy/2026/07/01/europe-s-mica-rollout-sparks-debate-over-who-wins-under-new-crypto-rules",
-      "published_at": "Wed, 01 Jul 2026 14:00:24 +0000",
+      "title": "U.S. payroll growth slowed sharply in June, with only 57,000 jobs added",
+      "url": "https://www.coindesk.com/markets/2026/07/02/u-s-payroll-growth-slowed-sharply-in-june-adding-only-57-000-jobs",
+      "published_at": "Thu, 02 Jul 2026 12:37:50 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Europe is closing the door on offshore crypto, but it\u2019s leaving the riskiest window open",
-      "url": "https://www.coindesk.com/opinion/2026/07/01/europe-is-closing-the-door-on-offshore-crypto-but-it-s-leaving-the-riskiest-window-open",
-      "published_at": "Wed, 01 Jul 2026 14:00:00 +0000",
+      "title": "A struggling Nasdaq-listed company that tried to copy Saylor's Bitcoin playbook is completely dumping crypto for AI",
+      "url": "https://www.coindesk.com/markets/2026/07/02/a-struggling-nasdaq-listed-company-that-tried-to-copy-saylor-s-bitcoin-playbook-is-completely-dumping-crypto-for-ai",
+      "published_at": "Thu, 02 Jul 2026 12:10:15 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "French banking giant Cr\u00e9dit Agricole rolls out euro stablecoin, EURXT",
-      "url": "https://www.coindesk.com/business/2026/07/01/french-banking-giant-credit-agricole-rolls-out-euro-stablecoin-eurxt",
-      "published_at": "Wed, 01 Jul 2026 13:50:24 +0000",
+      "title": "Three years after MiCA became law, Europe's crypto framework is undergoing a rethink",
+      "url": "https://www.coindesk.com/policy/2026/07/02/three-years-after-mica-became-law-europe-s-crypto-framework-is-undergoing-a-rethink",
+      "published_at": "Thu, 02 Jul 2026 11:55:03 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Morpho poised to scale as DeFi infrastructure play, Standard Chartered says",
-      "url": "https://www.coindesk.com/markets/2026/07/01/morpho-poised-to-scale-as-defi-infrastructure-play-standard-chartered-says",
-      "published_at": "Wed, 01 Jul 2026 13:46:40 +0000",
+      "title": "Warsh's comments set the stage for U.S. jobs data to ignite bitcoin, gold rally",
+      "url": "https://www.coindesk.com/daybook-us/2026/07/02/warsh-s-comments-set-the-stage-for-u-s-jobs-data-to-ignite-bitcoin-gold-rally",
+      "published_at": "Thu, 02 Jul 2026 11:47:06 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Ethereum gets a new nonprofit focused on institutional adoption",
-      "url": "https://www.coindesk.com/tech/2026/07/01/ethereum-gets-a-new-nonprofit-focused-on-institutional-adoption",
-      "published_at": "Wed, 01 Jul 2026 13:41:44 +0000",
+      "title": "Smaller tokens lead as bitcoin, sol rally in 'first real bounce of the selloff'",
+      "url": "https://www.coindesk.com/markets/2026/07/02/smaller-tokens-lead-as-bitcoin-sol-rally-in-first-real-bounce-of-the-selloff",
+      "published_at": "Thu, 02 Jul 2026 11:27:36 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
