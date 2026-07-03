@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-02T16:57:02.113952+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-07-02 16:48 UTC_",
+  "generated_at": "2026-07-03T16:32:06.470851+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-07-03 16:23 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,23 +9,23 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 61627.0,
+        "current_usd": 62013.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": 3.21,
-        "change_30d_pct": -7.54
+        "change_7d_pct": 3.39,
+        "change_30d_pct": -3.14
       },
       "indicators": {
         "trend": "UPTREND",
-        "momentum": "STRONG",
+        "momentum": "WEAK",
         "volatility": "NORMAL"
       },
       "valuation": {
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
-        "summary_line": "Fair - Balanced growth profile - Elevated regulatory risk.",
-        "score": 56.2
+        "summary_line": "Fair - Weak growth profile - Elevated regulatory risk.",
+        "score": 51.9
       },
-      "updated_at": "2026-07-02T16:57:02.111848+00:00",
+      "updated_at": "2026-07-03T16:32:06.468735+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,10 +37,10 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 1699.0,
+        "current_usd": 1733.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": 8.6,
-        "change_30d_pct": -8.44
+        "change_7d_pct": 9.95,
+        "change_30d_pct": -4.34
       },
       "indicators": {
         "trend": "UPTREND",
@@ -51,9 +51,9 @@
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
         "summary_line": "Fair - Balanced growth profile - Elevated regulatory risk.",
-        "score": 54.2
+        "score": 49.7
       },
-      "updated_at": "2026-07-02T16:57:02.112576+00:00",
+      "updated_at": "2026-07-03T16:32:06.469513+00:00",
       "source": {
         "short_term": "live"
       }
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-07-02T16:57:02.112879+00:00",
+      "updated_at": "2026-07-03T16:32:06.469767+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-07-02T16:57:02.113094+00:00",
+      "updated_at": "2026-07-03T16:32:06.469981+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-07-02T16:57:02.113302+00:00",
+      "updated_at": "2026-07-03T16:32:06.470249+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-07-02T16:57:02.113495+00:00",
+      "updated_at": "2026-07-03T16:32:06.470447+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -193,7 +193,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-07-02T16:57:02.113701+00:00",
+      "updated_at": "2026-07-03T16:32:06.470660+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -201,72 +201,72 @@
   ],
   "overview_news": [
     {
-      "title": "Bitwise says STRC selloff signals crypto cycle nearing a bottom, not Strategy\u2019s breaking point",
-      "url": "https://www.coindesk.com/markets/2026/07/02/bitwise-says-strc-selloff-signals-crypto-cycle-nearing-a-bottom-not-strategy-s-breaking-point",
-      "published_at": "Thu, 02 Jul 2026 16:51:36 +0000",
+      "title": "Trump says there is \u2018nothing wrong\u2019 with family\u2019s crypto windfall",
+      "url": "https://www.coindesk.com/policy/2026/07/03/trump-says-there-is-nothing-wrong-with-family-s-crypto-windfall",
+      "published_at": "Fri, 03 Jul 2026 12:04:15 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "US Treasury sanctions over 100 ISIS-K crypto addresses that moved over $1.4 million",
-      "url": "https://www.coindesk.com/policy/2026/07/02/us-treasury-sanctions-over-100-isis-k-crypto-addresses-in-latest-enforcement-action",
-      "published_at": "Thu, 02 Jul 2026 14:49:05 +0000",
+      "title": "Bitcoin whales bought $16.7 billion of bitcoin in 2 weeks even as ETFs bled a record $4 billion",
+      "url": "https://www.coindesk.com/markets/2026/07/03/bitcoin-whales-bought-270-000-btc-in-two-weeks-even-as-etfs-bled-a-record-usd4-billion",
+      "published_at": "Fri, 03 Jul 2026 11:45:33 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "SBI Crypto to shut down mining pool that holds roughly 2% of Bitcoin's hashrate",
-      "url": "https://www.coindesk.com/business/2026/07/02/sbi-crypto-to-shut-down-mining-pool-that-holds-roughly-2-of-bitcoin-s-hashrate",
-      "published_at": "Thu, 02 Jul 2026 14:44:55 +0000",
+      "title": "Bitcoin, ether traders aren't fully buying the bounce, options markets show",
+      "url": "https://www.coindesk.com/daybook-us/2026/07/03/bitcoin-ether-traders-aren-t-fully-buying-the-bounce-options-markets-show",
+      "published_at": "Fri, 03 Jul 2026 11:27:44 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Ondo Finance debuts SEC-aligned tokenized stock model with BlackRock ETF, Micron shares",
-      "url": "https://www.coindesk.com/business/2026/07/01/ondo-finance-debuts-sec-aligned-tokenized-stock-model-with-blackrock-etf-micron-shares",
-      "published_at": "Thu, 02 Jul 2026 14:16:02 +0000",
+      "title": "Crypto bulls on firmer footing as U.S. rate-hike risk recedes",
+      "url": "https://www.coindesk.com/markets/2026/07/03/crypto-bulls-on-firmer-footing-as-u-s-rate-hike-risk-recedes",
+      "published_at": "Fri, 03 Jul 2026 11:11:39 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "JPMorgan says Strategy's bitcoin sales policy adds 'two-way risk' to crypto markets",
-      "url": "https://www.coindesk.com/markets/2026/07/02/jpmorgan-says-strategy-s-bitcoin-sales-policy-adds-two-way-risk-to-crypto-markets",
-      "published_at": "Thu, 02 Jul 2026 13:11:22 +0000",
+      "title": "Memory and semiconductor stocks lose momentum, bitcoin rebounds in sign of changing investor focus",
+      "url": "https://www.coindesk.com/markets/2026/07/03/memory-and-semiconductor-stocks-lose-momentum-bitcoin-rebounds-in-sign-of-changing-investor-focus",
+      "published_at": "Fri, 03 Jul 2026 10:41:52 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "U.S. payroll growth slowed sharply in June, with only 57,000 jobs added",
-      "url": "https://www.coindesk.com/markets/2026/07/02/u-s-payroll-growth-slowed-sharply-in-june-adding-only-57-000-jobs",
-      "published_at": "Thu, 02 Jul 2026 12:37:50 +0000",
+      "title": "Tokenization could make finance faster, but also more susceptible to shocks, IMF says",
+      "url": "https://www.coindesk.com/markets/2026/07/03/tokenization-could-make-finance-faster-but-also-more-susceptible-to-shocks-imf-says",
+      "published_at": "Fri, 03 Jul 2026 09:06:29 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "A struggling Nasdaq-listed company that tried to copy Saylor's Bitcoin playbook is completely dumping crypto for AI",
-      "url": "https://www.coindesk.com/markets/2026/07/02/a-struggling-nasdaq-listed-company-that-tried-to-copy-saylor-s-bitcoin-playbook-is-completely-dumping-crypto-for-ai",
-      "published_at": "Thu, 02 Jul 2026 12:10:15 +0000",
+      "title": "Live updates: Bitcoin rises above $62,000 as the red hot semiconductor trade starts to fade",
+      "url": "https://www.coindesk.com/tech/2026/07/03/live-updates-more-bitcoin-is-now-held-at-a-loss-than-at-a-profit",
+      "published_at": "Fri, 03 Jul 2026 07:05:31 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Three years after MiCA became law, Europe's crypto framework is undergoing a rethink",
-      "url": "https://www.coindesk.com/policy/2026/07/02/three-years-after-mica-became-law-europe-s-crypto-framework-is-undergoing-a-rethink",
-      "published_at": "Thu, 02 Jul 2026 11:55:03 +0000",
+      "title": "Binance says MiCA should be judged by who it licenses, not who it excludes",
+      "url": "https://www.coindesk.com/policy/2026/07/03/binance-says-mica-should-be-judged-by-who-it-licenses-not-who-it-excludes",
+      "published_at": "Fri, 03 Jul 2026 06:30:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Warsh's comments set the stage for U.S. jobs data to ignite bitcoin, gold rally",
-      "url": "https://www.coindesk.com/daybook-us/2026/07/02/warsh-s-comments-set-the-stage-for-u-s-jobs-data-to-ignite-bitcoin-gold-rally",
-      "published_at": "Thu, 02 Jul 2026 11:47:06 +0000",
+      "title": "Finally. $221 million flow into Bitcoin ETFs, ending a painful 10-day outflow streak",
+      "url": "https://www.coindesk.com/markets/2026/07/03/finally-usd221-million-flow-into-bitcoin-etfs-ending-a-painful-10-day-outflow-streak",
+      "published_at": "Fri, 03 Jul 2026 05:54:51 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Smaller tokens lead as bitcoin, sol rally in 'first real bounce of the selloff'",
-      "url": "https://www.coindesk.com/markets/2026/07/02/smaller-tokens-lead-as-bitcoin-sol-rally-in-first-real-bounce-of-the-selloff",
-      "published_at": "Thu, 02 Jul 2026 11:27:36 +0000",
+      "title": "XRP bulls test path back toward $1.10 as token zips 4% higher",
+      "url": "https://www.coindesk.com/markets/2026/07/03/xrp-bulls-test-path-back-toward-usd1-10-as-token-zips-4-higher",
+      "published_at": "Fri, 03 Jul 2026 05:29:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
