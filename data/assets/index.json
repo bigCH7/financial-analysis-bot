@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-07T17:22:17.822617+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-07-07 17:13 UTC_",
+  "generated_at": "2026-07-08T16:46:43.671271+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-07-08 16:37 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,23 +9,23 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 63890.0,
+        "current_usd": 61990.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": 9.12,
-        "change_30d_pct": 1.0
+        "change_7d_pct": 3.35,
+        "change_30d_pct": -1.73
       },
       "indicators": {
-        "trend": "UPTREND",
-        "momentum": "WEAK",
+        "trend": "DOWNTREND",
+        "momentum": "STRONG",
         "volatility": "NORMAL"
       },
       "valuation": {
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
         "summary_line": "Fair - Weak growth profile - Elevated regulatory risk.",
-        "score": 53.3
+        "score": 52.3
       },
-      "updated_at": "2026-07-07T17:22:17.820935+00:00",
+      "updated_at": "2026-07-08T16:46:43.669150+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,23 +37,23 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 1800.0,
+        "current_usd": 1734.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": 14.66,
-        "change_30d_pct": 6.7
+        "change_7d_pct": 7.79,
+        "change_30d_pct": 2.58
       },
       "indicators": {
-        "trend": "UPTREND",
-        "momentum": "WEAK",
+        "trend": "DOWNTREND",
+        "momentum": "STRONG",
         "volatility": "NORMAL"
       },
       "valuation": {
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
         "summary_line": "Fair - Balanced growth profile - Elevated regulatory risk.",
-        "score": 51.3
+        "score": 51.9
       },
-      "updated_at": "2026-07-07T17:22:17.821650+00:00",
+      "updated_at": "2026-07-08T16:46:43.669930+00:00",
       "source": {
         "short_term": "live"
       }
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-07-07T17:22:17.821866+00:00",
+      "updated_at": "2026-07-08T16:46:43.670190+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-07-07T17:22:17.822022+00:00",
+      "updated_at": "2026-07-08T16:46:43.670400+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-07-07T17:22:17.822188+00:00",
+      "updated_at": "2026-07-08T16:46:43.670611+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-07-07T17:22:17.822339+00:00",
+      "updated_at": "2026-07-08T16:46:43.670820+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -193,7 +193,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-07-07T17:22:17.822479+00:00",
+      "updated_at": "2026-07-08T16:46:43.671053+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -201,72 +201,72 @@
   ],
   "overview_news": [
     {
-      "title": "SpaceX IPO powers record $3.86 billion in tokenized equities trading in June",
-      "url": "https://www.coindesk.com/markets/2026/07/07/spacex-ipo-powers-record-usd3-86-billion-in-tokenized-equities-trading-in-june",
-      "published_at": "Tue, 07 Jul 2026 16:18:18 +0000",
+      "title": "Polymarket bets on U.S. marketing blitz to win back trust after 4-year ban: Report",
+      "url": "https://www.coindesk.com/markets/2026/07/08/polymarket-bets-on-u-s-marketing-blitz-to-win-back-trust-after-4-year-ban-report",
+      "published_at": "Wed, 08 Jul 2026 15:58:40 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "U.S. SEC to propose crypto rule as soon as this month to ease startups, fundraising",
-      "url": "https://www.coindesk.com/policy/2026/07/07/u-s-sec-to-propose-crypto-rule-as-soon-as-this-month-to-ease-startups-fundraising",
-      "published_at": "Tue, 07 Jul 2026 16:08:19 +0000",
+      "title": "Crypto Long & Short: With MSTR concerns assuaged, look to traditional signals around BTC",
+      "url": "https://www.coindesk.com/coindesk-indices/2026/07/08/crypto-long-and-short-with-mstr-concerns-assuaged-look-to-traditional-signals-around-btc",
+      "published_at": "Wed, 08 Jul 2026 15:18:10 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Analysts see more upside for SpaceX as post-IPO research begins",
-      "url": "https://www.coindesk.com/markets/2026/07/07/analysts-see-more-upside-for-spacex-as-post-ipo-research-begins",
-      "published_at": "Tue, 07 Jul 2026 14:39:24 +0000",
+      "title": "Crypto VC Paradigm launches $1.2 billion AI fund as it broadens beyond digital assets",
+      "url": "https://www.coindesk.com/markets/2026/07/08/crypto-vc-paradigm-launches-usd1-2-billion-ai-fund-as-it-broadens-beyond-digital-assets-bbg",
+      "published_at": "Wed, 08 Jul 2026 15:11:45 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Vanguard opens search for digital assets leader in sign of evolving crypto strategy",
-      "url": "https://www.coindesk.com/markets/2026/07/07/vanguard-opens-search-for-digital-assets-leader-in-sign-of-evolving-crypto-strategy",
-      "published_at": "Tue, 07 Jul 2026 14:28:37 +0000",
+      "title": "Dinari, tZERO join forces on turnkey platform for tokenized U.S. equities",
+      "url": "https://www.coindesk.com/business/2026/07/08/dinari-tzero-join-forces-on-turnkey-platform-for-tokenized-u-s-equities",
+      "published_at": "Wed, 08 Jul 2026 14:35:04 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "AI trade loses steam as infrastructure boom faces reality check",
-      "url": "https://www.coindesk.com/markets/2026/07/07/ai-trade-loses-steam-as-infrastructure-boom-faces-reality-check",
-      "published_at": "Tue, 07 Jul 2026 14:17:54 +0000",
+      "title": "Adam Back's BSTR scraps SPAC merger, seeks new deal",
+      "url": "https://www.coindesk.com/markets/2026/07/08/adam-back-s-bstr-scraps-original-spac-terms-seeks-new-deal",
+      "published_at": "Wed, 08 Jul 2026 14:17:26 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "EDX Markets raises $76 million in funding round led by SBI Holdings",
-      "url": "https://www.coindesk.com/business/2026/07/07/edx-markets-raises-usd76-million-in-funding-round-led-by-sbi-holdings",
-      "published_at": "Tue, 07 Jul 2026 14:07:05 +0000",
+      "title": "BNB Chain is building a new layer-1 for high-frequency trading and AI agents",
+      "url": "https://www.coindesk.com/web3/2026/07/08/bnb-chain-is-building-a-new-layer-1-for-high-frequency-trading-and-ai-agents",
+      "published_at": "Wed, 08 Jul 2026 14:01:44 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Former Tether investment chief is looking to sell part of his stake in the stablecoin giant: Bloomberg",
-      "url": "https://www.coindesk.com/business/2026/07/07/former-tether-investment-chief-is-looking-to-sell-part-of-his-stake-in-the-stablecoin-giant-bloomberg",
-      "published_at": "Tue, 07 Jul 2026 13:46:25 +0000",
+      "title": "Citadel abandons multi-year crypto lawsuit to focus on bankruptcy order against an ex-employee",
+      "url": "https://www.coindesk.com/policy/2026/07/08/citadel-drops-u-s-portofino-suit-seeks-bankruptcy-order-against-firm-s-founder-in-uk",
+      "published_at": "Wed, 08 Jul 2026 12:45:30 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin, XRP draw Japanese firms as weak yen drives treasury diversification",
-      "url": "https://www.coindesk.com/markets/2026/07/07/bitcoin-xrp-draw-japanese-firms-as-weak-yen-drives-treasury-diversification",
-      "published_at": "Tue, 07 Jul 2026 13:26:59 +0000",
+      "title": "SpaceX's first bitcoin wallet movements in six months likely don't signal sales",
+      "url": "https://www.coindesk.com/markets/2026/07/08/spacex-s-first-bitcoin-wallet-movements-in-six-months-likely-don-t-signal-sales",
+      "published_at": "Wed, 08 Jul 2026 12:44:27 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Coinbase secures UK authorization to offer traditional investments alongside crypto",
-      "url": "https://www.coindesk.com/business/2026/07/07/coinbase-secures-uk-authorization-to-offer-traditional-investments-alongside-crypto",
-      "published_at": "Tue, 07 Jul 2026 11:37:01 +0000",
+      "title": "Bitcoin's inflation quagmire gets stickier as renewed MidEast conflict sends oil price soaring",
+      "url": "https://www.coindesk.com/daybook-us/2026/07/08/bitcoin-s-inflation-quagmire-gets-stickier-as-renewed-mideast-conflict-sends-oil-price-soaring",
+      "published_at": "Wed, 08 Jul 2026 11:15:42 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin's July gains may be fleeting as U.S. demand stays weak",
-      "url": "https://www.coindesk.com/daybook-us/2026/07/07/bitcoin-s-july-gains-may-be-fleeting-as-u-s-demand-stays-weak",
-      "published_at": "Tue, 07 Jul 2026 11:26:17 +0000",
+      "title": "Crypto and stocks tumble after Trump declares ceasefire 'over' following Iran strikes",
+      "url": "https://www.coindesk.com/markets/2026/07/08/crypto-and-stocks-tumble-after-trump-declares-ceasefire-over-following-iran-strikes",
+      "published_at": "Wed, 08 Jul 2026 10:37:10 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
