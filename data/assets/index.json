@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-08T16:46:43.671271+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-07-08 16:37 UTC_",
+  "generated_at": "2026-07-09T17:30:41.526553+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-07-09 17:21 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,23 +9,23 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 61990.0,
+        "current_usd": 62764.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": 3.35,
-        "change_30d_pct": -1.73
+        "change_7d_pct": 2.08,
+        "change_30d_pct": 1.79
       },
       "indicators": {
         "trend": "DOWNTREND",
-        "momentum": "STRONG",
+        "momentum": "WEAK",
         "volatility": "NORMAL"
       },
       "valuation": {
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
         "summary_line": "Fair - Weak growth profile - Elevated regulatory risk.",
-        "score": 52.3
+        "score": 51.5
       },
-      "updated_at": "2026-07-08T16:46:43.669150+00:00",
+      "updated_at": "2026-07-09T17:30:41.524365+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,23 +37,23 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 1734.0,
+        "current_usd": 1740.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": 7.79,
-        "change_30d_pct": 2.58
+        "change_7d_pct": 2.48,
+        "change_30d_pct": 6.27
       },
       "indicators": {
         "trend": "DOWNTREND",
-        "momentum": "STRONG",
+        "momentum": "WEAK",
         "volatility": "NORMAL"
       },
       "valuation": {
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
-        "summary_line": "Fair - Balanced growth profile - Elevated regulatory risk.",
-        "score": 51.9
+        "summary_line": "Fair - Weak growth profile - Elevated regulatory risk.",
+        "score": 47.0
       },
-      "updated_at": "2026-07-08T16:46:43.669930+00:00",
+      "updated_at": "2026-07-09T17:30:41.525146+00:00",
       "source": {
         "short_term": "live"
       }
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-07-08T16:46:43.670190+00:00",
+      "updated_at": "2026-07-09T17:30:41.525457+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-07-08T16:46:43.670400+00:00",
+      "updated_at": "2026-07-09T17:30:41.525679+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-07-08T16:46:43.670611+00:00",
+      "updated_at": "2026-07-09T17:30:41.525893+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-07-08T16:46:43.670820+00:00",
+      "updated_at": "2026-07-09T17:30:41.526097+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -193,7 +193,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-07-08T16:46:43.671053+00:00",
+      "updated_at": "2026-07-09T17:30:41.526330+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -201,72 +201,72 @@
   ],
   "overview_news": [
     {
-      "title": "Polymarket bets on U.S. marketing blitz to win back trust after 4-year ban: Report",
-      "url": "https://www.coindesk.com/markets/2026/07/08/polymarket-bets-on-u-s-marketing-blitz-to-win-back-trust-after-4-year-ban-report",
-      "published_at": "Wed, 08 Jul 2026 15:58:40 +0000",
+      "title": "AI contracts, not bitcoin, now drive miner valuations, and Cipher and TeraWulf look cheap",
+      "url": "https://www.coindesk.com/markets/2026/07/09/cipher-terawulf-among-ai-infrastructure-stocks-trading-below-contract-value-compass-point-argues",
+      "published_at": "Thu, 09 Jul 2026 15:53:42 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Crypto Long & Short: With MSTR concerns assuaged, look to traditional signals around BTC",
-      "url": "https://www.coindesk.com/coindesk-indices/2026/07/08/crypto-long-and-short-with-mstr-concerns-assuaged-look-to-traditional-signals-around-btc",
-      "published_at": "Wed, 08 Jul 2026 15:18:10 +0000",
+      "title": "Ethereum's newest nonprofit wants to become Wall Street's guide to crypto",
+      "url": "https://www.coindesk.com/tech/2026/07/09/ethereum-s-newest-nonprofit-wants-to-become-wall-street-s-guide-to-crypto",
+      "published_at": "Thu, 09 Jul 2026 14:58:55 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Crypto VC Paradigm launches $1.2 billion AI fund as it broadens beyond digital assets",
-      "url": "https://www.coindesk.com/markets/2026/07/08/crypto-vc-paradigm-launches-usd1-2-billion-ai-fund-as-it-broadens-beyond-digital-assets-bbg",
-      "published_at": "Wed, 08 Jul 2026 15:11:45 +0000",
+      "title": "Aave rolls out vaults for yield-hungry fintech investors",
+      "url": "https://www.coindesk.com/business/2026/07/09/aave-rolls-out-vaults-for-yield-hungry-fintech-investors",
+      "published_at": "Thu, 09 Jul 2026 13:01:38 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Dinari, tZERO join forces on turnkey platform for tokenized U.S. equities",
-      "url": "https://www.coindesk.com/business/2026/07/08/dinari-tzero-join-forces-on-turnkey-platform-for-tokenized-u-s-equities",
-      "published_at": "Wed, 08 Jul 2026 14:35:04 +0000",
+      "title": "Age verification is the surveillance nobody voted for",
+      "url": "https://www.coindesk.com/opinion/2026/07/09/age-verification-is-the-surveillance-nobody-voted-for",
+      "published_at": "Thu, 09 Jul 2026 13:00:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Adam Back's BSTR scraps SPAC merger, seeks new deal",
-      "url": "https://www.coindesk.com/markets/2026/07/08/adam-back-s-bstr-scraps-original-spac-terms-seeks-new-deal",
-      "published_at": "Wed, 08 Jul 2026 14:17:26 +0000",
+      "title": "Over $7.2 billion have migrated from LayerZero to Chainlink CCIP as Mantle joins exodus",
+      "url": "https://www.coindesk.com/business/2026/07/09/over-usd7-2-billion-have-migrated-from-layerzero-to-chainlink-ccip-as-mantle-joins-exodus",
+      "published_at": "Thu, 09 Jul 2026 12:00:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "BNB Chain is building a new layer-1 for high-frequency trading and AI agents",
-      "url": "https://www.coindesk.com/web3/2026/07/08/bnb-chain-is-building-a-new-layer-1-for-high-frequency-trading-and-ai-agents",
-      "published_at": "Wed, 08 Jul 2026 14:01:44 +0000",
+      "title": "Pricing houses in bitcoin exposes dollar's loss of value",
+      "url": "https://www.coindesk.com/daybook-us/2026/07/09/pricing-houses-in-bitcoin-exposes-dollar-s-loss-of-value",
+      "published_at": "Thu, 09 Jul 2026 11:27:10 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Citadel abandons multi-year crypto lawsuit to focus on bankruptcy order against an ex-employee",
-      "url": "https://www.coindesk.com/policy/2026/07/08/citadel-drops-u-s-portofino-suit-seeks-bankruptcy-order-against-firm-s-founder-in-uk",
-      "published_at": "Wed, 08 Jul 2026 12:45:30 +0000",
+      "title": "Swift rolls out new blockchain ledger to bring 24/7 banking to 17 global giants",
+      "url": "https://www.coindesk.com/business/2026/07/09/swift-rolls-out-24-7-blockchain-payment-systems-with-17-global-banks-across-six-continents",
+      "published_at": "Thu, 09 Jul 2026 11:08:37 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "SpaceX's first bitcoin wallet movements in six months likely don't signal sales",
-      "url": "https://www.coindesk.com/markets/2026/07/08/spacex-s-first-bitcoin-wallet-movements-in-six-months-likely-don-t-signal-sales",
-      "published_at": "Wed, 08 Jul 2026 12:44:27 +0000",
+      "title": "Latin America\u2019s biggest stock exchange now offers options on bitcoin, ether and solana futures",
+      "url": "https://www.coindesk.com/business/2026/07/09/brazil-s-b3-exchange-introduces-options-on-bitcoin-ether-and-solana-futures",
+      "published_at": "Thu, 09 Jul 2026 10:55:37 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin's inflation quagmire gets stickier as renewed MidEast conflict sends oil price soaring",
-      "url": "https://www.coindesk.com/daybook-us/2026/07/08/bitcoin-s-inflation-quagmire-gets-stickier-as-renewed-mideast-conflict-sends-oil-price-soaring",
-      "published_at": "Wed, 08 Jul 2026 11:15:42 +0000",
+      "title": "Crypto for Advisors: Q2 2026 Digital Asset Review",
+      "url": "https://www.coindesk.com/coindesk-indices/2026/07/09/q2-2026-digital-asset-review",
+      "published_at": "Thu, 09 Jul 2026 10:40:45 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Crypto and stocks tumble after Trump declares ceasefire 'over' following Iran strikes",
-      "url": "https://www.coindesk.com/markets/2026/07/08/crypto-and-stocks-tumble-after-trump-declares-ceasefire-over-following-iran-strikes",
-      "published_at": "Wed, 08 Jul 2026 10:37:10 +0000",
+      "title": "Crypto remains resilient in face of renewed Middle East tensions",
+      "url": "https://www.coindesk.com/markets/2026/07/09/crypto-remains-resilient-in-face-of-renewed-middle-east-tensions",
+      "published_at": "Thu, 09 Jul 2026 10:36:02 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
