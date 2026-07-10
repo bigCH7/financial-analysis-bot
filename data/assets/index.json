@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-09T17:30:41.526553+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-07-09 17:21 UTC_",
+  "generated_at": "2026-07-10T17:04:24.209496+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-07-10 16:55 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,23 +9,23 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 62764.0,
+        "current_usd": 64087.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": 2.08,
-        "change_30d_pct": 1.79
+        "change_7d_pct": 2.48,
+        "change_30d_pct": 4.22
       },
       "indicators": {
-        "trend": "DOWNTREND",
-        "momentum": "WEAK",
+        "trend": "UPTREND",
+        "momentum": "STRONG",
         "volatility": "NORMAL"
       },
       "valuation": {
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
         "summary_line": "Fair - Weak growth profile - Elevated regulatory risk.",
-        "score": 51.5
+        "score": 52.1
       },
-      "updated_at": "2026-07-09T17:30:41.524365+00:00",
+      "updated_at": "2026-07-10T17:04:24.207444+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,23 +37,23 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 1740.0,
+        "current_usd": 1796.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": 2.48,
-        "change_30d_pct": 6.27
+        "change_7d_pct": 2.28,
+        "change_30d_pct": 10.79
       },
       "indicators": {
-        "trend": "DOWNTREND",
-        "momentum": "WEAK",
+        "trend": "UPTREND",
+        "momentum": "STRONG",
         "volatility": "NORMAL"
       },
       "valuation": {
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
-        "summary_line": "Fair - Weak growth profile - Elevated regulatory risk.",
-        "score": 47.0
+        "summary_line": "Fair - Balanced growth profile - Elevated regulatory risk.",
+        "score": 49.1
       },
-      "updated_at": "2026-07-09T17:30:41.525146+00:00",
+      "updated_at": "2026-07-10T17:04:24.208199+00:00",
       "source": {
         "short_term": "live"
       }
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-07-09T17:30:41.525457+00:00",
+      "updated_at": "2026-07-10T17:04:24.208463+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-07-09T17:30:41.525679+00:00",
+      "updated_at": "2026-07-10T17:04:24.208674+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-07-09T17:30:41.525893+00:00",
+      "updated_at": "2026-07-10T17:04:24.208904+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-07-09T17:30:41.526097+00:00",
+      "updated_at": "2026-07-10T17:04:24.209102+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -193,7 +193,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-07-09T17:30:41.526330+00:00",
+      "updated_at": "2026-07-10T17:04:24.209299+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -201,72 +201,72 @@
   ],
   "overview_news": [
     {
-      "title": "AI contracts, not bitcoin, now drive miner valuations, and Cipher and TeraWulf look cheap",
-      "url": "https://www.coindesk.com/markets/2026/07/09/cipher-terawulf-among-ai-infrastructure-stocks-trading-below-contract-value-compass-point-argues",
-      "published_at": "Thu, 09 Jul 2026 15:53:42 +0000",
+      "title": "U.S. government digital dollar set to be banned tonight under housing law's CBDC limit",
+      "url": "https://www.coindesk.com/policy/2026/07/10/u-s-government-digital-dollar-set-to-be-banned-tonight-under-housing-law-s-cbdc-limit",
+      "published_at": "Fri, 10 Jul 2026 16:02:21 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Ethereum's newest nonprofit wants to become Wall Street's guide to crypto",
-      "url": "https://www.coindesk.com/tech/2026/07/09/ethereum-s-newest-nonprofit-wants-to-become-wall-street-s-guide-to-crypto",
-      "published_at": "Thu, 09 Jul 2026 14:58:55 +0000",
+      "title": "Hyundai becomes first major South Korean company to introduce internal stablecoin transfers",
+      "url": "https://www.coindesk.com/business/2026/07/10/hyundai-becomes-first-major-south-korean-company-to-introduce-internal-stablecoin-transfers",
+      "published_at": "Fri, 10 Jul 2026 15:26:43 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Aave rolls out vaults for yield-hungry fintech investors",
-      "url": "https://www.coindesk.com/business/2026/07/09/aave-rolls-out-vaults-for-yield-hungry-fintech-investors",
-      "published_at": "Thu, 09 Jul 2026 13:01:38 +0000",
+      "title": "OKX, MetaMask, Matter Labs back dispute resolution court for AI agents",
+      "url": "https://www.coindesk.com/business/2026/07/10/okx-metamask-matter-labs-back-dispute-resolution-court-for-ai-agents",
+      "published_at": "Fri, 10 Jul 2026 12:29:08 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Age verification is the surveillance nobody voted for",
-      "url": "https://www.coindesk.com/opinion/2026/07/09/age-verification-is-the-surveillance-nobody-voted-for",
-      "published_at": "Thu, 09 Jul 2026 13:00:00 +0000",
+      "title": "Circle soars after securing U.S. trust bank approval in crypto expansion",
+      "url": "https://www.coindesk.com/business/2026/07/10/circle-secures-u-s-trust-bank-approval-in-crypto-expansion",
+      "published_at": "Fri, 10 Jul 2026 11:41:47 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Over $7.2 billion have migrated from LayerZero to Chainlink CCIP as Mantle joins exodus",
-      "url": "https://www.coindesk.com/business/2026/07/09/over-usd7-2-billion-have-migrated-from-layerzero-to-chainlink-ccip-as-mantle-joins-exodus",
-      "published_at": "Thu, 09 Jul 2026 12:00:00 +0000",
+      "title": "Japan's 'invest locally' plan likely to spur demand for assets like bitcoin, gold",
+      "url": "https://www.coindesk.com/daybook-us/2026/07/10/japan-s-invest-locally-plan-likely-to-spur-demand-for-assets-like-bitcoin-gold",
+      "published_at": "Fri, 10 Jul 2026 11:37:31 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Pricing houses in bitcoin exposes dollar's loss of value",
-      "url": "https://www.coindesk.com/daybook-us/2026/07/09/pricing-houses-in-bitcoin-exposes-dollar-s-loss-of-value",
-      "published_at": "Thu, 09 Jul 2026 11:27:10 +0000",
+      "title": "Crypto defies equity weakness as altcoin optimism builds into the weekend",
+      "url": "https://www.coindesk.com/markets/2026/07/10/crypto-defies-equity-weakness-as-altcoin-optimism-builds-into-the-weekend",
+      "published_at": "Fri, 10 Jul 2026 10:37:44 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Swift rolls out new blockchain ledger to bring 24/7 banking to 17 global giants",
-      "url": "https://www.coindesk.com/business/2026/07/09/swift-rolls-out-24-7-blockchain-payment-systems-with-17-global-banks-across-six-continents",
-      "published_at": "Thu, 09 Jul 2026 11:08:37 +0000",
+      "title": "Polymarket seeks approval to bring margin trading to U.S. customers",
+      "url": "https://www.coindesk.com/markets/2026/07/10/polymarket-seeks-approval-to-bring-margin-trading-to-u-s-customers",
+      "published_at": "Fri, 10 Jul 2026 09:35:21 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Latin America\u2019s biggest stock exchange now offers options on bitcoin, ether and solana futures",
-      "url": "https://www.coindesk.com/business/2026/07/09/brazil-s-b3-exchange-introduces-options-on-bitcoin-ether-and-solana-futures",
-      "published_at": "Thu, 09 Jul 2026 10:55:37 +0000",
+      "title": "Bitcoin's $60,000-$70,000 range becomes third most traded range in history",
+      "url": "https://www.coindesk.com/markets/2026/07/10/bitcoin-s-usd60k-to-usd70k-range-becomes-third-longest-consolidation-in-history",
+      "published_at": "Fri, 10 Jul 2026 09:16:52 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Crypto for Advisors: Q2 2026 Digital Asset Review",
-      "url": "https://www.coindesk.com/coindesk-indices/2026/07/09/q2-2026-digital-asset-review",
-      "published_at": "Thu, 09 Jul 2026 10:40:45 +0000",
+      "title": "Metaplanet explores bringing bitcoin-backed digital credit to Japan",
+      "url": "https://www.coindesk.com/markets/2026/07/10/metaplanet-explores-bringing-bitcoin-backed-digital-credit-to-japan",
+      "published_at": "Fri, 10 Jul 2026 09:08:20 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Crypto remains resilient in face of renewed Middle East tensions",
-      "url": "https://www.coindesk.com/markets/2026/07/09/crypto-remains-resilient-in-face-of-renewed-middle-east-tensions",
-      "published_at": "Thu, 09 Jul 2026 10:36:02 +0000",
+      "title": "Bitcoin gets a green light from a reliable momentum gauge. Here are key levels to watch",
+      "url": "https://www.coindesk.com/markets/2026/07/10/bitcoin-gets-a-green-light-from-a-reliable-momentum-gauge-here-are-key-levels-to-watch",
+      "published_at": "Fri, 10 Jul 2026 06:49:13 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
