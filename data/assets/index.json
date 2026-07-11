@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-10T17:04:24.209496+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-07-10 16:55 UTC_",
+  "generated_at": "2026-07-11T16:04:22.039860+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-07-11 15:55 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,23 +9,23 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 64087.0,
+        "current_usd": 64115.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": 2.48,
-        "change_30d_pct": 4.22
+        "change_7d_pct": 1.62,
+        "change_30d_pct": 0.88
       },
       "indicators": {
         "trend": "UPTREND",
-        "momentum": "STRONG",
+        "momentum": "WEAK",
         "volatility": "NORMAL"
       },
       "valuation": {
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
         "summary_line": "Fair - Weak growth profile - Elevated regulatory risk.",
-        "score": 52.1
+        "score": 48.5
       },
-      "updated_at": "2026-07-10T17:04:24.207444+00:00",
+      "updated_at": "2026-07-11T16:04:22.038405+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,23 +37,23 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 1796.0,
+        "current_usd": 1813.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": 2.28,
-        "change_30d_pct": 10.79
+        "change_7d_pct": 1.91,
+        "change_30d_pct": 8.44
       },
       "indicators": {
         "trend": "UPTREND",
-        "momentum": "STRONG",
+        "momentum": "WEAK",
         "volatility": "NORMAL"
       },
       "valuation": {
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
-        "summary_line": "Fair - Balanced growth profile - Elevated regulatory risk.",
-        "score": 49.1
+        "summary_line": "Fair - Weak growth profile - Elevated regulatory risk.",
+        "score": 46.3
       },
-      "updated_at": "2026-07-10T17:04:24.208199+00:00",
+      "updated_at": "2026-07-11T16:04:22.039021+00:00",
       "source": {
         "short_term": "live"
       }
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-07-10T17:04:24.208463+00:00",
+      "updated_at": "2026-07-11T16:04:22.039221+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-07-10T17:04:24.208674+00:00",
+      "updated_at": "2026-07-11T16:04:22.039341+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-07-10T17:04:24.208904+00:00",
+      "updated_at": "2026-07-11T16:04:22.039466+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-07-10T17:04:24.209102+00:00",
+      "updated_at": "2026-07-11T16:04:22.039597+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -193,13 +193,48 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-07-10T17:04:24.209299+00:00",
+      "updated_at": "2026-07-11T16:04:22.039728+00:00",
       "source": {
         "short_term": "unavailable"
       }
     }
   ],
   "overview_news": [
+    {
+      "title": "The UK has finally shown it\u2019s serious about crypto",
+      "url": "https://www.coindesk.com/opinion/2026/07/11/the-uk-has-finally-shown-it-s-serious-about-crypto",
+      "published_at": "Sat, 11 Jul 2026 15:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Bitcoin treasury company Empery Digital sold about half of its BTC stack",
+      "url": "https://www.coindesk.com/markets/2026/07/11/bitcoin-treasury-company-empery-digital-sold-about-half-of-btc-stack",
+      "published_at": "Sat, 11 Jul 2026 12:25:05 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "AI found an Ethereum bug that could take validators offline, but humans had to prove it",
+      "url": "https://www.coindesk.com/tech/2026/07/10/ai-found-an-ethereum-bug-that-could-take-validators-offline-but-humans-had-to-prove-it",
+      "published_at": "Sat, 11 Jul 2026 12:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Bitcoin analysts predict $300,000\u2013$500,000 price in 2029. The math says no",
+      "url": "https://www.coindesk.com/markets/2026/07/10/bitcoin-analysts-predict-usd300-000-usd500-000-price-in-2029-the-math-says-no",
+      "published_at": "Sat, 11 Jul 2026 02:30:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Meta's Chief Data Officer Says Agentic Commerce is the \"Next Tier of Business\"",
+      "url": "https://www.coindesk.com/coindesk-news/2026/07/10/meta-s-chief-data-officer-says-agentic-commerce-is-the-next-tier-of-business",
+      "published_at": "Fri, 10 Jul 2026 21:26:55 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
     {
       "title": "U.S. government digital dollar set to be banned tonight under housing law's CBDC limit",
       "url": "https://www.coindesk.com/policy/2026/07/10/u-s-government-digital-dollar-set-to-be-banned-tonight-under-housing-law-s-cbdc-limit",
@@ -232,41 +267,6 @@
       "title": "Japan's 'invest locally' plan likely to spur demand for assets like bitcoin, gold",
       "url": "https://www.coindesk.com/daybook-us/2026/07/10/japan-s-invest-locally-plan-likely-to-spur-demand-for-assets-like-bitcoin-gold",
       "published_at": "Fri, 10 Jul 2026 11:37:31 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Crypto defies equity weakness as altcoin optimism builds into the weekend",
-      "url": "https://www.coindesk.com/markets/2026/07/10/crypto-defies-equity-weakness-as-altcoin-optimism-builds-into-the-weekend",
-      "published_at": "Fri, 10 Jul 2026 10:37:44 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Polymarket seeks approval to bring margin trading to U.S. customers",
-      "url": "https://www.coindesk.com/markets/2026/07/10/polymarket-seeks-approval-to-bring-margin-trading-to-u-s-customers",
-      "published_at": "Fri, 10 Jul 2026 09:35:21 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitcoin's $60,000-$70,000 range becomes third most traded range in history",
-      "url": "https://www.coindesk.com/markets/2026/07/10/bitcoin-s-usd60k-to-usd70k-range-becomes-third-longest-consolidation-in-history",
-      "published_at": "Fri, 10 Jul 2026 09:16:52 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Metaplanet explores bringing bitcoin-backed digital credit to Japan",
-      "url": "https://www.coindesk.com/markets/2026/07/10/metaplanet-explores-bringing-bitcoin-backed-digital-credit-to-japan",
-      "published_at": "Fri, 10 Jul 2026 09:08:20 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitcoin gets a green light from a reliable momentum gauge. Here are key levels to watch",
-      "url": "https://www.coindesk.com/markets/2026/07/10/bitcoin-gets-a-green-light-from-a-reliable-momentum-gauge-here-are-key-levels-to-watch",
-      "published_at": "Fri, 10 Jul 2026 06:49:13 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
