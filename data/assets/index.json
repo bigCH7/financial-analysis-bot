@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-13T17:20:23.202963+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-07-13 17:11 UTC_",
+  "generated_at": "2026-07-14T16:22:34.158438+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-07-14 16:13 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,13 +9,13 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 62216.0,
+        "current_usd": 64686.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": -2.9,
-        "change_30d_pct": -3.36
+        "change_7d_pct": 2.11,
+        "change_30d_pct": -1.56
       },
       "indicators": {
-        "trend": "DOWNTREND",
+        "trend": "UPTREND",
         "momentum": "STRONG",
         "volatility": "NORMAL"
       },
@@ -23,9 +23,9 @@
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
         "summary_line": "Fair - Weak growth profile - Elevated regulatory risk.",
-        "score": 52.2
+        "score": 53.2
       },
-      "updated_at": "2026-07-13T17:20:23.200802+00:00",
+      "updated_at": "2026-07-14T16:22:34.156757+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,13 +37,13 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 1772.0,
+        "current_usd": 1872.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": -1.51,
-        "change_30d_pct": 5.58
+        "change_7d_pct": 5.73,
+        "change_30d_pct": 8.52
       },
       "indicators": {
-        "trend": "DOWNTREND",
+        "trend": "UPTREND",
         "momentum": "STRONG",
         "volatility": "NORMAL"
       },
@@ -51,9 +51,9 @@
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
         "summary_line": "Fair - Balanced growth profile - Elevated regulatory risk.",
-        "score": 50.8
+        "score": 54.4
       },
-      "updated_at": "2026-07-13T17:20:23.201591+00:00",
+      "updated_at": "2026-07-14T16:22:34.157324+00:00",
       "source": {
         "short_term": "live"
       }
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-07-13T17:20:23.201850+00:00",
+      "updated_at": "2026-07-14T16:22:34.157575+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-07-13T17:20:23.202071+00:00",
+      "updated_at": "2026-07-14T16:22:34.157760+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-07-13T17:20:23.202314+00:00",
+      "updated_at": "2026-07-14T16:22:34.157920+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-07-13T17:20:23.202531+00:00",
+      "updated_at": "2026-07-14T16:22:34.158107+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -193,7 +193,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-07-13T17:20:23.202753+00:00",
+      "updated_at": "2026-07-14T16:22:34.158282+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -201,72 +201,72 @@
   ],
   "overview_news": [
     {
-      "title": "Mizuho says Circle bank approval doesn't solve USDC growth, stablecoin competition risks",
-      "url": "https://www.coindesk.com/business/2026/07/13/mizuho-says-circle-bank-approval-doesn-t-solve-usdc-growth-stablecoin-competition-risks",
-      "published_at": "Mon, 13 Jul 2026 16:34:48 +0000",
+      "title": "JPMorgan says Hyperliquid's rise threatens Circle's USDC economics",
+      "url": "https://www.coindesk.com/business/2026/07/14/jpmorgan-says-hyperliquid-s-rise-threatens-circle-s-usdc-economics",
+      "published_at": "Tue, 14 Jul 2026 14:57:16 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin panic-selling may be ending as sellers' profit margins disappear",
-      "url": "https://www.coindesk.com/markets/2026/07/13/bitcoin-panic-selling-may-be-ending-as-sellers-profit-margins-disappear",
-      "published_at": "Mon, 13 Jul 2026 15:49:41 +0000",
+      "title": "Ethereum Foundation spinout EthSystems targets banks with blockchain privacy technology",
+      "url": "https://www.coindesk.com/tech/2026/07/14/ethereum-foundation-spinout-ethsystems-targets-banks-with-blockchain-privacy-technology",
+      "published_at": "Tue, 14 Jul 2026 14:31:44 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Strategy pauses its Bitcoin buying spree to hoard a massive $3 billion cash cushion",
-      "url": "https://www.coindesk.com/markets/2026/07/13/strategy-pauses-its-bitcoin-buying-spree-to-hoard-a-massive-usd3-billion-cash-cushion",
-      "published_at": "Mon, 13 Jul 2026 15:27:36 +0000",
+      "title": "For pension funds, tokenization\u2019s real play is balance-sheet management, Fidelity\u2019s Lai says",
+      "url": "https://www.coindesk.com/markets/2026/07/14/for-pension-funds-tokenization-s-real-play-is-balance-sheet-management-fidelity-s-lai-says",
+      "published_at": "Tue, 14 Jul 2026 14:05:18 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Robinhood built a blockchain for tokenized stocks. Memecoins took over",
-      "url": "https://www.coindesk.com/tech/2026/07/13/robinhood-built-a-blockchain-for-tokenized-stocks-memecoins-took-over",
-      "published_at": "Mon, 13 Jul 2026 15:17:05 +0000",
+      "title": "Hut 8 price target hiked to $165 at Benchmark as AI pivot reshapes valuation",
+      "url": "https://www.coindesk.com/business/2026/07/14/hut-8-price-target-hiked-to-usd165-at-benchmark-as-ai-pivot-reshapes-valuation",
+      "published_at": "Tue, 14 Jul 2026 12:53:05 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bolivia weighs adding Tether's USDT to its national payments system",
-      "url": "https://www.coindesk.com/business/2026/07/13/bolivia-weighs-adding-tether-s-usdt-to-its-national-payments-system",
-      "published_at": "Mon, 13 Jul 2026 14:47:52 +0000",
+      "title": "U.S. June CPI fell 0.4%, likely cooling move toward Fed rate hikes",
+      "url": "https://www.coindesk.com/markets/2026/07/14/u-s-june-cpi-fell-0-4-likely-cooling-move-toward-fed-rate-hikes",
+      "published_at": "Tue, 14 Jul 2026 12:33:24 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "UK Treasury report on tokenization cites Ripple as convergence model",
-      "url": "https://www.coindesk.com/policy/2026/07/13/ripple-lands-inside-uk-plan-for-tokenized-repo-bonds-and-funds",
-      "published_at": "Mon, 13 Jul 2026 14:06:53 +0000",
+      "title": "ECB picks firms including Deutsche Bank, Revolut for digital euro pilot",
+      "url": "https://www.coindesk.com/business/2026/07/14/ecb-picks-firms-including-deutsche-bank-revolut-for-digital-euro-pilot",
+      "published_at": "Tue, 14 Jul 2026 12:10:03 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Tom Lee's BitMine ether holdings rise to 5.77 million tokens, or 4.8% of total supply",
-      "url": "https://www.coindesk.com/markets/2026/07/13/tom-lee-s-bitmine-raises-ether-holdings-to-usd5-77-million-or-4-8-of-supply",
-      "published_at": "Mon, 13 Jul 2026 14:04:01 +0000",
+      "title": "Japan\u2019s biggest card network taps Circle to bring stablecoins to 40 million merchants",
+      "url": "https://www.coindesk.com/business/2026/07/14/circle-signs-mou-with-japan-s-largest-card-network-to-explore-stablecoin-payments",
+      "published_at": "Tue, 14 Jul 2026 12:01:50 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Wall Street transfer agents lobby SEC, warning that third-party tokens pose risks to market integrity",
-      "url": "https://www.coindesk.com/policy/2026/07/13/wall-street-transfer-agents-lobby-sec-warning-that-third-party-tokens-pose-risks-to-market-integrity",
-      "published_at": "Mon, 13 Jul 2026 13:45:00 +0000",
+      "title": "U.S.-Iran escalation weighs on bitcoin, stocks as oil climbs",
+      "url": "https://www.coindesk.com/daybook-us/2026/07/14/u-s-iran-escalation-weighs-on-bitcoin-stocks-as-oil-climbs",
+      "published_at": "Tue, 14 Jul 2026 11:15:06 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Robinhood Chain surges into top five by DEX volume: Bernstein",
-      "url": "https://www.coindesk.com/tech/2026/07/13/robinhood-chain-surges-into-top-five-by-dex-volume-bernstein",
-      "published_at": "Mon, 13 Jul 2026 12:49:00 +0000",
+      "title": "Bitcoin's BIP-110 sparked a fight over who gets to decide the future of Bitcoin",
+      "url": "https://www.coindesk.com/tech/2026/07/14/bitcoin-s-bip-110-sparked-a-fight-over-who-gets-to-decide-the-future-of-bitcoin",
+      "published_at": "Tue, 14 Jul 2026 11:01:16 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Michael Saylor\u2019s Strategy added $467 million in cash, made no changes to bitcoin holdings",
-      "url": "https://www.coindesk.com/markets/2026/07/13/michael-saylor-s-strategy-added-usd467-million-in-cash-made-no-changes-to-bitcoin-holdings",
-      "published_at": "Mon, 13 Jul 2026 12:15:17 +0000",
+      "title": "Prediction markets just crushed traditional sportsbooks in a massive $50 billion World Cup breakout",
+      "url": "https://www.coindesk.com/business/2026/07/14/prediction-markets-just-crushed-traditional-sportsbooks-in-a-massive-usd50-billion-world-cup-breakout",
+      "published_at": "Tue, 14 Jul 2026 11:00:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
