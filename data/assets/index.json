@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-14T16:22:34.158438+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-07-14 16:13 UTC_",
+  "generated_at": "2026-07-15T16:29:55.369862+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-07-15 16:20 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,23 +9,23 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 64686.0,
+        "current_usd": 65084.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": 2.11,
-        "change_30d_pct": -1.56
+        "change_7d_pct": 4.55,
+        "change_30d_pct": -1.84
       },
       "indicators": {
         "trend": "UPTREND",
-        "momentum": "STRONG",
+        "momentum": "WEAK",
         "volatility": "NORMAL"
       },
       "valuation": {
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
         "summary_line": "Fair - Weak growth profile - Elevated regulatory risk.",
-        "score": 53.2
+        "score": 52.6
       },
-      "updated_at": "2026-07-14T16:22:34.156757+00:00",
+      "updated_at": "2026-07-15T16:29:55.368241+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,10 +37,10 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 1872.0,
+        "current_usd": 1919.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": 5.73,
-        "change_30d_pct": 8.52
+        "change_7d_pct": 10.12,
+        "change_30d_pct": 6.96
       },
       "indicators": {
         "trend": "UPTREND",
@@ -51,9 +51,9 @@
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
         "summary_line": "Fair - Balanced growth profile - Elevated regulatory risk.",
-        "score": 54.4
+        "score": 53.2
       },
-      "updated_at": "2026-07-14T16:22:34.157324+00:00",
+      "updated_at": "2026-07-15T16:29:55.368781+00:00",
       "source": {
         "short_term": "live"
       }
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-07-14T16:22:34.157575+00:00",
+      "updated_at": "2026-07-15T16:29:55.369024+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-07-14T16:22:34.157760+00:00",
+      "updated_at": "2026-07-15T16:29:55.369206+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-07-14T16:22:34.157920+00:00",
+      "updated_at": "2026-07-15T16:29:55.369376+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-07-14T16:22:34.158107+00:00",
+      "updated_at": "2026-07-15T16:29:55.369531+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -193,7 +193,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-07-14T16:22:34.158282+00:00",
+      "updated_at": "2026-07-15T16:29:55.369702+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -201,72 +201,72 @@
   ],
   "overview_news": [
     {
-      "title": "JPMorgan says Hyperliquid's rise threatens Circle's USDC economics",
-      "url": "https://www.coindesk.com/business/2026/07/14/jpmorgan-says-hyperliquid-s-rise-threatens-circle-s-usdc-economics",
-      "published_at": "Tue, 14 Jul 2026 14:57:16 +0000",
+      "title": "Ostium suffers $18 million exploit as oracle attack wave continues to hit DeFi",
+      "url": "https://www.coindesk.com/business/2026/07/15/ostium-suffers-usd18-million-exploit-as-oracle-attack-wave-continues-to-hit-defi",
+      "published_at": "Wed, 15 Jul 2026 15:27:43 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Ethereum Foundation spinout EthSystems targets banks with blockchain privacy technology",
-      "url": "https://www.coindesk.com/tech/2026/07/14/ethereum-foundation-spinout-ethsystems-targets-banks-with-blockchain-privacy-technology",
-      "published_at": "Tue, 14 Jul 2026 14:31:44 +0000",
+      "title": "The privacy paradox of protecting kids online",
+      "url": "https://www.coindesk.com/opinion/2026/07/14/the-privacy-paradox-of-protecting-kids-online",
+      "published_at": "Wed, 15 Jul 2026 14:58:50 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "For pension funds, tokenization\u2019s real play is balance-sheet management, Fidelity\u2019s Lai says",
-      "url": "https://www.coindesk.com/markets/2026/07/14/for-pension-funds-tokenization-s-real-play-is-balance-sheet-management-fidelity-s-lai-says",
-      "published_at": "Tue, 14 Jul 2026 14:05:18 +0000",
+      "title": "Crypto Long & Short: To ETH or not to ETH \u2014 is SOL the better diversifier?",
+      "url": "https://www.coindesk.com/coindesk-indices/2026/07/15/crypto-long-and-short-to-eth-or-not-to-eth-is-sol-the-better-diversifier",
+      "published_at": "Wed, 15 Jul 2026 14:58:09 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Hut 8 price target hiked to $165 at Benchmark as AI pivot reshapes valuation",
-      "url": "https://www.coindesk.com/business/2026/07/14/hut-8-price-target-hiked-to-usd165-at-benchmark-as-ai-pivot-reshapes-valuation",
-      "published_at": "Tue, 14 Jul 2026 12:53:05 +0000",
+      "title": "President Trump expected to meet with senators to work on ethics concerns in crypto bill",
+      "url": "https://www.coindesk.com/policy/2026/07/15/high-level-white-house-meeting-said-to-be-planned-to-hash-out-clarity-act-ethics-section",
+      "published_at": "Wed, 15 Jul 2026 14:37:36 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "U.S. June CPI fell 0.4%, likely cooling move toward Fed rate hikes",
-      "url": "https://www.coindesk.com/markets/2026/07/14/u-s-june-cpi-fell-0-4-likely-cooling-move-toward-fed-rate-hikes",
-      "published_at": "Tue, 14 Jul 2026 12:33:24 +0000",
+      "title": "South Korea to modify 76-year-old law to classify cryptocurrencies as national assets",
+      "url": "https://www.coindesk.com/policy/2026/07/15/south-korea-to-modify-76-year-old-law-to-classify-cryptocurrencies-as-national-assets",
+      "published_at": "Wed, 15 Jul 2026 14:35:26 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "ECB picks firms including Deutsche Bank, Revolut for digital euro pilot",
-      "url": "https://www.coindesk.com/business/2026/07/14/ecb-picks-firms-including-deutsche-bank-revolut-for-digital-euro-pilot",
-      "published_at": "Tue, 14 Jul 2026 12:10:03 +0000",
+      "title": "Open USD poses biggest threat yet to Circle's USDC, CoinShares says",
+      "url": "https://www.coindesk.com/business/2026/07/15/open-usd-poses-biggest-threat-yet-to-circle-s-usdc-coinshares-says",
+      "published_at": "Wed, 15 Jul 2026 14:03:54 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Japan\u2019s biggest card network taps Circle to bring stablecoins to 40 million merchants",
-      "url": "https://www.coindesk.com/business/2026/07/14/circle-signs-mou-with-japan-s-largest-card-network-to-explore-stablecoin-payments",
-      "published_at": "Tue, 14 Jul 2026 12:01:50 +0000",
+      "title": "A timeline of the Ethereum Foundation's ongoing shakeup",
+      "url": "https://www.coindesk.com/tech/2026/07/15/a-timeline-of-the-ethereum-foundation-s-ongoing-shakeup",
+      "published_at": "Wed, 15 Jul 2026 13:19:48 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "U.S.-Iran escalation weighs on bitcoin, stocks as oil climbs",
-      "url": "https://www.coindesk.com/daybook-us/2026/07/14/u-s-iran-escalation-weighs-on-bitcoin-stocks-as-oil-climbs",
-      "published_at": "Tue, 14 Jul 2026 11:15:06 +0000",
+      "title": "BlackRock's crypto assets fall 39% despite $15 billion of net inflows",
+      "url": "https://www.coindesk.com/markets/2026/07/15/blackrock-s-crypto-assets-fall-39-despite-usd15-billion-of-net-inflows",
+      "published_at": "Wed, 15 Jul 2026 12:12:01 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin's BIP-110 sparked a fight over who gets to decide the future of Bitcoin",
-      "url": "https://www.coindesk.com/tech/2026/07/14/bitcoin-s-bip-110-sparked-a-fight-over-who-gets-to-decide-the-future-of-bitcoin",
-      "published_at": "Tue, 14 Jul 2026 11:01:16 +0000",
+      "title": "The launchpad that fueled Robinhood Chain's memecoin boom just gave away all its revenue",
+      "url": "https://www.coindesk.com/business/2026/07/15/the-launchpad-that-fueled-robinhood-chain-s-memecoin-boom-just-gave-away-all-its-revenue",
+      "published_at": "Wed, 15 Jul 2026 12:11:58 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Prediction markets just crushed traditional sportsbooks in a massive $50 billion World Cup breakout",
-      "url": "https://www.coindesk.com/business/2026/07/14/prediction-markets-just-crushed-traditional-sportsbooks-in-a-massive-usd50-billion-world-cup-breakout",
-      "published_at": "Tue, 14 Jul 2026 11:00:00 +0000",
+      "title": "Japan reclassifies crypto as a financial asset, paves way for tax cuts",
+      "url": "https://www.coindesk.com/policy/2026/07/15/japan-reclassifies-crypto-as-a-financial-asset-paves-way-for-tax-cuts",
+      "published_at": "Wed, 15 Jul 2026 12:05:33 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
