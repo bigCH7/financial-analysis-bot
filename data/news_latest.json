@@ -1,9 +1,51 @@
 {
-  "generated_at": "2026-07-17 16:20 UTC",
+  "generated_at": "2026-07-18 16:03 UTC",
   "count": 55,
   "items": [
     {
-      "title": "Inside Robinhood\u2019s high-stakes bet to onboard 10 million casual users onto decentralized finance",
+      "title": "Here is why a massive $1.6 billion in crypto liquidity is sitting idle and wasting away",
+      "link": "https://www.coindesk.com/web3/2026/07/18/here-is-why-a-massive-usd1-6-billion-in-crypto-liquidity-is-sitting-idle-and-wasting-away",
+      "pub_date": "Sat, 18 Jul 2026 15:50:31 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Massive bitcoin call spreads target $72,000 by month end, right when the Fed meets",
+      "link": "https://www.coindesk.com/markets/2026/07/18/massive-bitcoin-call-spreads-target-usd72-000-by-month-end-right-when-the-fed-meets",
+      "pub_date": "Sat, 18 Jul 2026 14:15:15 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Tokenization has become a strategic priority for 84% of financial firms",
+      "link": "https://www.coindesk.com/business/2026/07/16/tokenization-has-become-a-strategic-priority-for-84-of-financial-firms",
+      "pub_date": "Sat, 18 Jul 2026 14:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Polymarket traders cut Clarity Act passage odds to record low as Senate delay drags on",
+      "link": "https://www.coindesk.com/markets/2026/07/17/polymarket-traders-cut-clarity-act-passage-odds-to-record-low-as-senate-delay-drags-on",
+      "pub_date": "Fri, 17 Jul 2026 18:00:11 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Stripe and Swift race to control the next generation of global payments infrastructure",
+      "link": "https://www.coindesk.com/business/2026/07/17/stripe-and-swift-race-to-control-the-next-generation-of-global-payments-infrastructure",
+      "pub_date": "Fri, 17 Jul 2026 17:23:01 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Cardano hands core development to outside teams in decentralization push",
+      "link": "https://www.coindesk.com/tech/2026/07/17/cardano-hands-core-development-to-outside-teams-in-decentralization-push",
+      "pub_date": "Fri, 17 Jul 2026 16:23:26 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Inside Robinhood\u2019s high-stakes bet to onboard millions of casual users onto decentralized finance",
       "link": "https://www.coindesk.com/business/2026/07/17/inside-robinhood-s-high-stakes-bet-to-onboard-10-million-casual-investors-onto-decentralized-finance",
       "pub_date": "Fri, 17 Jul 2026 15:36:39 +0000",
       "source": "CoinDesk",
@@ -31,7 +73,7 @@
       "fetch_source": "live"
     },
     {
-      "title": "Live markets: Bitcoin slips below $63,000 as the chip rout goes global",
+      "title": "Live markets: Bitcoin returns to $63,000 as Nasdaq trims large early loss",
       "link": "https://www.coindesk.com/markets/2026/07/17/live-markets-bitcoin-slips-to-usd63-000-as-the-chip-rout-goes-global",
       "pub_date": "Fri, 17 Jul 2026 10:43:57 +0000",
       "source": "CoinDesk",
@@ -136,45 +178,66 @@
       "fetch_source": "live"
     },
     {
-      "title": "Ledger wants AI agents to manage crypto without holding your keys",
-      "link": "https://www.coindesk.com/tech/2026/07/15/ledger-wants-ai-agents-to-manage-crypto-without-holding-your-keys",
-      "pub_date": "Thu, 16 Jul 2026 13:00:00 +0000",
-      "source": "CoinDesk",
+      "title": "Here\u2019s what happened in crypto today",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sat, 18 Jul 2026 11:42:51 +0000",
+      "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Galaxy targets institutional stablecoin yield with new DeFi vaults",
-      "link": "https://www.coindesk.com/tech/2026/07/16/galaxy-targets-institutional-stablecoin-yield-with-new-defi-vaults",
-      "pub_date": "Thu, 16 Jul 2026 12:00:00 +0000",
-      "source": "CoinDesk",
+      "title": "Kaspersky identifies malware framework targeting crypto investors",
+      "link": "https://cointelegraph.com/news/kaspersky-malware-framework-crypto-investors?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sat, 18 Jul 2026 11:40:48 +0000",
+      "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "The most popular bitcoin call option has slipped by $10,000",
-      "link": "https://www.coindesk.com/daybook-us/2026/07/16/the-most-popular-bitcoin-call-option-has-slipped-by-usd10-000",
-      "pub_date": "Thu, 16 Jul 2026 11:27:53 +0000",
-      "source": "CoinDesk",
+      "title": "French gambling regulator orders ISPs to block Polymarket",
+      "link": "https://cointelegraph.com/news/french-gambling-authority-blocks-polymarket?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sat, 18 Jul 2026 09:58:55 +0000",
+      "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Inside the high-stakes race to build an open financial system specifically for AI bots",
-      "link": "https://www.coindesk.com/business/2026/07/16/ai-payments-have-a-new-open-standards-body-its-aim-is-to-reinvent-the-internet",
-      "pub_date": "Thu, 16 Jul 2026 11:22:37 +0000",
-      "source": "CoinDesk",
+      "title": "FTX to distribute $900M to creditors in fifth payment round",
+      "link": "https://cointelegraph.com/news/ftx-distribute-millions-creditors-fifth-payment-round?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Fri, 17 Jul 2026 21:40:18 +0000",
+      "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin pulls back to $64,000 after hitting monthly high as bears take control",
-      "link": "https://www.coindesk.com/markets/2026/07/16/bitcoin-pulls-back-to-usd64-000-after-hitting-monthly-high-as-bears-take-control",
-      "pub_date": "Thu, 16 Jul 2026 10:35:56 +0000",
-      "source": "CoinDesk",
+      "title": "Galaxy lands 15-year Texas Tech stadium naming rights deal",
+      "link": "https://cointelegraph.com/news/galaxy-lands-15-year-texas-tech-stadium-naming-rights-deal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Fri, 17 Jul 2026 20:03:32 +0000",
+      "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Tether invests $20 million in Argentine neobank Ual\u00e1 as it expands Latin America push",
-      "link": "https://www.coindesk.com/business/2026/07/16/tether-invests-usd20-million-in-argentine-neobank-uala-as-it-expands-latin-america-push",
-      "pub_date": "Thu, 16 Jul 2026 10:12:05 +0000",
-      "source": "CoinDesk",
+      "title": "Consensys unknowingly outsourced developer work to North Korean",
+      "link": "https://cointelegraph.com/news/consensys-north-korean-hacker-software-developer?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Fri, 17 Jul 2026 19:33:58 +0000",
+      "source": "Cointelegraph",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Crypto Biz: When dollars disappear, stablecoins step in",
+      "link": "https://cointelegraph.com/news/crypto-biz-when-dollars-disappear-stablecoins-step-in?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Fri, 17 Jul 2026 19:23:53 +0000",
+      "source": "Cointelegraph",
+      "fetch_source": "live"
+    },
+    {
+      "title": "OKX Europe lets users convert USDT to MiCA-compliant USDC",
+      "link": "https://cointelegraph.com/news/okx-europe-lets-users-convert-usdt-to-mica-compliant-usdc?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Fri, 17 Jul 2026 16:54:37 +0000",
+      "source": "Cointelegraph",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Senator Warren requests 2026 reporting for Trump\u2019s crypto earnings after $1.4B disclosure",
+      "link": "https://cointelegraph.com/news/senator-warren-2026-reporting-donald-trump-crypto-earnings?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Fri, 17 Jul 2026 16:48:22 +0000",
+      "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
@@ -206,13 +269,6 @@
       "fetch_source": "live"
     },
     {
-      "title": "Here\u2019s what happened in crypto today",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 17 Jul 2026 12:30:36 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
       "title": "Dutch court declares crypto platform Knaken bankrupt over missing funds",
       "link": "https://cointelegraph.com/news/dutch-court-knaken-crypto-platform-bankruptcy?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "pub_date": "Fri, 17 Jul 2026 12:21:55 +0000",
@@ -223,62 +279,6 @@
       "title": "Stablecoin growth will erode bank deposits, says ECB\u2019s Cipollone",
       "link": "https://cointelegraph.com/news/stablecoin-growth-bank-deposits-ecbs-cipollone?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "pub_date": "Fri, 17 Jul 2026 12:03:51 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "UK sentences 2 hackers tied to $115M crypto ransom scheme",
-      "link": "https://cointelegraph.com/news/london-police-sentence-hackers-crypto-ransom-public-transport?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 17 Jul 2026 11:22:55 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "ESMA adds 14 new CASPs to MiCA register as licensing slows",
-      "link": "https://cointelegraph.com/news/mica-licensing-momentum-slows-post-deadline?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 17 Jul 2026 10:29:35 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitcoin bottom countdown nears 50 days after BTC supply in loss passed 50%",
-      "link": "https://cointelegraph.com/markets/bitcoin-bottom-countdown-nears-50-days-after-btc-supply-in-loss-passed-50?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 17 Jul 2026 09:51:33 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "US indicts crypto investor over alleged $20M fraud scheme",
-      "link": "https://cointelegraph.com/news/us-indicts-crypto-investor-over-alleged-20m-fraud-scheme?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 17 Jul 2026 09:25:33 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "MacOS malware hijacks Telegram sessions, targets crypto wallets: SlowMist",
-      "link": "https://cointelegraph.com/news/macos-malware-crypto-investors-slowmist?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 17 Jul 2026 08:48:20 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitcoin ETFs add $368M in three-day buying streak",
-      "link": "https://cointelegraph.com/news/bitcoin-etfs-368-million-three-day-buying-streak?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 17 Jul 2026 07:23:02 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Ordinals advocate Leonidas proposes new Bitcoin client: \u2018$DOG Mode\u2019",
-      "link": "https://cointelegraph.com/news/ordinals-dev-leonidas-proposes-new-bitcoin-client-dog-mode?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 17 Jul 2026 05:54:04 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Crypto exchange Bybit launches in Indonesia after NOBI acquisition",
-      "link": "https://cointelegraph.com/news/crypto-exchange-bybit-launches-in-indonesia-after-nobi-acquisition?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 17 Jul 2026 04:16:32 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     }
