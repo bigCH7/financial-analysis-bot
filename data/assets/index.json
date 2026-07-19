@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-18T16:05:01.418399+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-07-18 15:56 UTC_",
+  "generated_at": "2026-07-19T16:05:41.754042+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-07-19 15:56 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,13 +9,13 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 64060.0,
+        "current_usd": 64506.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": 0.26,
-        "change_30d_pct": 1.84
+        "change_7d_pct": 1.19,
+        "change_30d_pct": 1.56
       },
       "indicators": {
-        "trend": "DOWNTREND",
+        "trend": "UPTREND",
         "momentum": "WEAK",
         "volatility": "NORMAL"
       },
@@ -23,9 +23,9 @@
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
         "summary_line": "Fair - Weak growth profile - Elevated regulatory risk.",
-        "score": 48.9
+        "score": 48.6
       },
-      "updated_at": "2026-07-18T16:05:01.416282+00:00",
+      "updated_at": "2026-07-19T16:05:41.751925+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,13 +37,13 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 1842.0,
+        "current_usd": 1868.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": 2.84,
-        "change_30d_pct": 7.72
+        "change_7d_pct": 3.47,
+        "change_30d_pct": 9.49
       },
       "indicators": {
-        "trend": "DOWNTREND",
+        "trend": "UPTREND",
         "momentum": "WEAK",
         "volatility": "NORMAL"
       },
@@ -51,9 +51,9 @@
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
         "summary_line": "Fair - Weak growth profile - Elevated regulatory risk.",
-        "score": 45.9
+        "score": 46.7
       },
-      "updated_at": "2026-07-18T16:05:01.417089+00:00",
+      "updated_at": "2026-07-19T16:05:41.752701+00:00",
       "source": {
         "short_term": "live"
       }
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-07-18T16:05:01.417338+00:00",
+      "updated_at": "2026-07-19T16:05:41.752955+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-07-18T16:05:01.417545+00:00",
+      "updated_at": "2026-07-19T16:05:41.753177+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-07-18T16:05:01.417761+00:00",
+      "updated_at": "2026-07-19T16:05:41.753415+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-07-18T16:05:01.417960+00:00",
+      "updated_at": "2026-07-19T16:05:41.753627+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -193,7 +193,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-07-18T16:05:01.418193+00:00",
+      "updated_at": "2026-07-19T16:05:41.753835+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -201,72 +201,72 @@
   ],
   "overview_news": [
     {
-      "title": "Here is why a massive $1.6 billion in crypto liquidity is sitting idle and wasting away",
-      "url": "https://www.coindesk.com/web3/2026/07/18/here-is-why-a-massive-usd1-6-billion-in-crypto-liquidity-is-sitting-idle-and-wasting-away",
-      "published_at": "Sat, 18 Jul 2026 15:50:31 +0000",
+      "title": "Bitcoin's biggest advocate, Michael Saylor, says new plan to clean up the blockchain is 'a bad idea'",
+      "url": "https://www.coindesk.com/tech/2026/07/19/bitcoin-s-biggest-advocate-michael-saylor-says-new-plan-to-clean-up-the-blockchain-is-a-bad-idea",
+      "published_at": "Sun, 19 Jul 2026 15:19:21 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Massive bitcoin call spreads target $72,000 by month end, right when the Fed meets",
-      "url": "https://www.coindesk.com/markets/2026/07/18/massive-bitcoin-call-spreads-target-usd72-000-by-month-end-right-when-the-fed-meets",
-      "published_at": "Sat, 18 Jul 2026 14:15:15 +0000",
+      "title": "AI is destroying the internet. Math is our only hope.",
+      "url": "https://www.coindesk.com/opinion/2026/07/17/ai-is-destroying-the-internet-math-is-our-only-hope",
+      "published_at": "Sun, 19 Jul 2026 14:00:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Tokenization has become a strategic priority for 84% of financial firms",
-      "url": "https://www.coindesk.com/business/2026/07/16/tokenization-has-become-a-strategic-priority-for-84-of-financial-firms",
-      "published_at": "Sat, 18 Jul 2026 14:00:00 +0000",
+      "title": "Tether's USDT hits 2-year countdown threatening its position on U.S. crypto platforms",
+      "url": "https://www.coindesk.com/news-analysis/2026/07/17/tether-s-usdt-hits-2-year-countdown-threatening-its-position-on-u-s-crypto-platforms",
+      "published_at": "Sun, 19 Jul 2026 13:00:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Polymarket traders cut Clarity Act passage odds to record low as Senate delay drags on",
-      "url": "https://www.coindesk.com/markets/2026/07/17/polymarket-traders-cut-clarity-act-passage-odds-to-record-low-as-senate-delay-drags-on",
-      "published_at": "Fri, 17 Jul 2026 18:00:11 +0000",
+      "title": "Kraken says simpler options can unlock crypto's next derivatives market",
+      "url": "https://www.coindesk.com/business/2026/07/19/kraken-says-simpler-options-can-unlock-crypto-s-next-derivatives-market",
+      "published_at": "Sun, 19 Jul 2026 13:00:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Stripe and Swift race to control the next generation of global payments infrastructure",
-      "url": "https://www.coindesk.com/business/2026/07/17/stripe-and-swift-race-to-control-the-next-generation-of-global-payments-infrastructure",
-      "published_at": "Fri, 17 Jul 2026 17:23:01 +0000",
+      "title": "Bitcoin\u2019s quantum problem gets a recovery tool, but not for Satoshi\u2019s 1.1 million coins",
+      "url": "https://www.coindesk.com/tech/2026/07/19/bitcoin-s-quantum-problem-gets-a-recovery-tool-but-not-for-satoshi-s-1-1-million-coin",
+      "published_at": "Sun, 19 Jul 2026 10:00:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Cardano hands core development to outside teams in decentralization push",
-      "url": "https://www.coindesk.com/tech/2026/07/17/cardano-hands-core-development-to-outside-teams-in-decentralization-push",
-      "published_at": "Fri, 17 Jul 2026 16:23:26 +0000",
+      "title": "Inside Zcash's new node that targets Visa-scale privacy at 50,000 transactions per second",
+      "url": "https://www.coindesk.com/tech/2026/07/16/inside-zcash-s-new-node-that-targets-visa-scale-privacy-at-50-000-transactions-per-second",
+      "published_at": "Sun, 19 Jul 2026 05:37:34 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Inside Robinhood\u2019s high-stakes bet to onboard millions of casual users onto decentralized finance",
-      "url": "https://www.coindesk.com/business/2026/07/17/inside-robinhood-s-high-stakes-bet-to-onboard-10-million-casual-investors-onto-decentralized-finance",
-      "published_at": "Fri, 17 Jul 2026 15:36:39 +0000",
+      "title": "France orders country's internet service providers to block Polymarket",
+      "url": "https://www.coindesk.com/policy/2026/07/18/france-orders-country-s-internet-service-providers-to-block-polymarket",
+      "published_at": "Sat, 18 Jul 2026 21:52:18 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Japan's SBI Group is building Asia's first cross-border digital asset empire",
-      "url": "https://www.coindesk.com/business/2026/07/17/japan-s-sbi-group-is-building-asia-s-first-cross-border-digital-asset-empire",
-      "published_at": "Fri, 17 Jul 2026 13:46:46 +0000",
+      "title": "Crypto executives say digital native generations may never need a bank account",
+      "url": "https://www.coindesk.com/business/2026/07/17/crypto-executives-say-digital-native-generations-may-never-need-a-bank-account",
+      "published_at": "Sat, 18 Jul 2026 18:30:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin faces fresh headwinds as China\u2019s Kimi beats Claude, GPT in coding benchmark",
-      "url": "https://www.coindesk.com/markets/2026/07/17/bitcoin-faces-fresh-headwinds-as-china-s-kimi-beats-claude-gpt-in-coding-benchmark",
-      "published_at": "Fri, 17 Jul 2026 12:45:11 +0000",
+      "title": "DOG Mode explains Bitcoin's next governance fight",
+      "url": "https://www.coindesk.com/tech/2026/07/18/dog-mode-explains-bitcoin-s-next-governance-fight",
+      "published_at": "Sat, 18 Jul 2026 17:00:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "AI frenzy losing steam leaves bitcoin less volatile than South Korean stocks",
-      "url": "https://www.coindesk.com/daybook-us/2026/07/17/ai-frenzy-losing-steam-leaves-bitcoin-less-volatile-than-south-korean-stocks",
-      "published_at": "Fri, 17 Jul 2026 11:48:20 +0000",
+      "title": "Trump targets Brazil's payments system while dollar stablecoins are quietly overtaking country's payments",
+      "url": "https://www.coindesk.com/business/2026/07/18/trump-targets-brazil-s-payments-system-while-dollar-stablecoins-quietly-dominate-country-s-payments",
+      "published_at": "Sat, 18 Jul 2026 16:09:59 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
