@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-20T16:32:05.446659+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-07-20 16:23 UTC_",
+  "generated_at": "2026-07-21T16:31:22.498393+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-07-21 16:22 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,10 +9,10 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 65349.0,
+        "current_usd": 66528.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": 4.99,
-        "change_30d_pct": 1.73
+        "change_7d_pct": 2.39,
+        "change_30d_pct": 5.21
       },
       "indicators": {
         "trend": "UPTREND",
@@ -23,9 +23,9 @@
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
         "summary_line": "Fair - Weak growth profile - Elevated regulatory risk.",
-        "score": 53.1
+        "score": 53.7
       },
-      "updated_at": "2026-07-20T16:32:05.445396+00:00",
+      "updated_at": "2026-07-21T16:31:22.496732+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,10 +37,10 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 1898.0,
+        "current_usd": 1924.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": 7.04,
-        "change_30d_pct": 9.16
+        "change_7d_pct": 1.76,
+        "change_30d_pct": 12.86
       },
       "indicators": {
         "trend": "UPTREND",
@@ -51,9 +51,9 @@
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
         "summary_line": "Fair - Balanced growth profile - Elevated regulatory risk.",
-        "score": 52.3
+        "score": 53.7
       },
-      "updated_at": "2026-07-20T16:32:05.445856+00:00",
+      "updated_at": "2026-07-21T16:31:22.497426+00:00",
       "source": {
         "short_term": "live"
       }
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-07-20T16:32:05.446024+00:00",
+      "updated_at": "2026-07-21T16:31:22.497631+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-07-20T16:32:05.446164+00:00",
+      "updated_at": "2026-07-21T16:31:22.497792+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-07-20T16:32:05.446280+00:00",
+      "updated_at": "2026-07-21T16:31:22.497965+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-07-20T16:32:05.446414+00:00",
+      "updated_at": "2026-07-21T16:31:22.498111+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -193,7 +193,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-07-20T16:32:05.446528+00:00",
+      "updated_at": "2026-07-21T16:31:22.498255+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -201,72 +201,72 @@
   ],
   "overview_news": [
     {
-      "title": "Inside Cardano's 'Van Rossum' hard fork, and what it means for users",
-      "url": "https://www.coindesk.com/markets/2026/07/20/inside-cardano-s-van-rossum-hard-fork-and-what-it-means-for-users",
-      "published_at": "Mon, 20 Jul 2026 14:31:23 +0000",
+      "title": "Claude's Fable 5 just solved an 87-year-old math problem, and it matters for bitcoin",
+      "url": "https://www.coindesk.com/tech/2026/07/21/claude-s-fable-5-just-solved-an-87-year-old-math-problem-and-it-matters-for-bitcoin",
+      "published_at": "Tue, 21 Jul 2026 16:19:24 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Exodus to cut 25% of global workforce in payments shift",
-      "url": "https://www.coindesk.com/business/2026/07/20/exodus-to-cut-25-of-global-workforce-in-payments-shift",
-      "published_at": "Mon, 20 Jul 2026 13:53:08 +0000",
+      "title": "Galaxy sets up $5 million fund to help shield Bitcoin against quantum computing threats",
+      "url": "https://www.coindesk.com/tech/2026/07/21/galaxy-sets-up-usd5-million-fund-to-help-shield-bitcoin-against-quantum-computing-threats",
+      "published_at": "Tue, 21 Jul 2026 16:16:14 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "AI compute stocks bounce as Hut 8, IREN land billions in new contracts",
-      "url": "https://www.coindesk.com/business/2026/07/20/hut-8-surges-on-usd9-8-billion-ai-data-center-lease-lifting-compute-sector",
-      "published_at": "Mon, 20 Jul 2026 13:49:24 +0000",
+      "title": "Russia\u2019s parliament passes crypto market law with $3,800 annual cap for retail investors",
+      "url": "https://www.coindesk.com/policy/2026/07/21/russia-s-parliament-passes-crypto-market-law-rules-to-take-effect-sept-1",
+      "published_at": "Tue, 21 Jul 2026 15:19:44 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Tom Lee's Bitmine slowed ether purchases as it bought back $86 million in stock",
-      "url": "https://www.coindesk.com/business/2026/07/20/tom-lee-s-bitmine-slowed-ether-purchases-as-it-bought-back-usd86-million-in-stock",
-      "published_at": "Mon, 20 Jul 2026 12:55:36 +0000",
+      "title": "Augustus raises $180 million to build a clearing bank for the AI and stablecoin era",
+      "url": "https://www.coindesk.com/business/2026/07/21/augustus-raises-usd180-million-to-build-a-clearing-bank-for-the-ai-and-stablecoin-era",
+      "published_at": "Tue, 21 Jul 2026 14:27:03 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Saylor's Strategy raises cash reserves to $3.2 billion, leaving bitcoin holdings unchanged",
-      "url": "https://www.coindesk.com/business/2026/07/20/saylor-s-strategy-raises-cash-reserves-to-usd3-225-billion-leaving-bitcoin-holdings-unchanged",
-      "published_at": "Mon, 20 Jul 2026 12:35:02 +0000",
+      "title": "MoneyGram's CEO says blockchain works best when customers don't know it's there",
+      "url": "https://www.coindesk.com/tech/2026/07/17/moneygram-s-ceo-says-blockchain-works-best-when-customers-don-t-know-it-s-there",
+      "published_at": "Tue, 21 Jul 2026 13:38:13 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Brazil\u2019s securities regulator sets up task force with 60-day deadline for tokenization proposal",
-      "url": "https://www.coindesk.com/policy/2026/07/20/brazil-s-securities-regulator-sets-up-task-force-with-60-day-deadline-for-tokenization-proposal",
-      "published_at": "Mon, 20 Jul 2026 12:02:28 +0000",
+      "title": "Jack Mallers steps down as XXI Capital CEO as Tether's plans to merge three bitcoin firms falls",
+      "url": "https://www.coindesk.com/business/2026/07/21/jack-mallers-steps-down-as-xxi-capital-ceo-as-tether-s-plans-to-merge-three-bitcoin-firms-falls",
+      "published_at": "Tue, 21 Jul 2026 12:42:29 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "A bitcoin 'volmageddon' may be brewing, key indicator suggests",
-      "url": "https://www.coindesk.com/daybook-us/2026/07/20/a-bitcoin-volmageddon-may-be-brewing-key-indicator-suggests",
-      "published_at": "Mon, 20 Jul 2026 11:15:57 +0000",
+      "title": "Bitcoin rally has broad-based support as institutions, whales, options traders pile in",
+      "url": "https://www.coindesk.com/daybook-us/2026/07/21/bitcoin-rally-has-broad-based-support-as-institutions-whales-options-traders-pile-in",
+      "published_at": "Tue, 21 Jul 2026 11:37:22 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bank of Korea prepares for live CBDC transactions with 9 banks in September",
-      "url": "https://www.coindesk.com/business/2026/07/20/bank-of-korea-prepares-for-live-cbdc-transactions-with-nine-banks-in-september",
-      "published_at": "Mon, 20 Jul 2026 11:10:07 +0000",
+      "title": "Clarity odds jump to 43% on Polymarket after unverified reports Trump agreed to ethics deal",
+      "url": "https://www.coindesk.com/markets/2026/07/21/clarity-act-odds-jump-11-points-on-polymarket-after-reports-trump-agreed-to-ethics-deal",
+      "published_at": "Tue, 21 Jul 2026 11:19:18 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Crypto market slips even as equities advance. Pump surges on social-media chatter",
-      "url": "https://www.coindesk.com/markets/2026/07/20/crypto-market-slips-even-as-equities-advance-pump-surges-on-social-media-chatter",
-      "published_at": "Mon, 20 Jul 2026 10:33:14 +0000",
+      "title": "Crypto markets rally on Clarity progress report, Asian chip-stock rebound",
+      "url": "https://www.coindesk.com/markets/2026/07/21/crypto-markets-rally-on-clarity-progress-report-asian-chip-stock-rebound",
+      "published_at": "Tue, 21 Jul 2026 11:02:48 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Hyperliquid plans to add decentralized prediction markets in upgrade to HIP-4",
-      "url": "https://www.coindesk.com/business/2026/07/20/hyperliquid-plans-to-add-decentralized-prediction-markets-in-upgrade-to-hip-4",
-      "published_at": "Mon, 20 Jul 2026 10:04:25 +0000",
+      "title": "XRP jumps 4% as traders watch 'triangle breakout' toward $1.35",
+      "url": "https://www.coindesk.com/markets/2026/07/21/xrp-jumps-4-as-traders-watch-triangle-breakout-toward-usd1-35",
+      "published_at": "Tue, 21 Jul 2026 07:21:04 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }

@@ -4,7 +4,7 @@
   "symbol": "SPY",
   "market_type": "traditional",
   "details_page": "asset.html?asset=spy",
-  "updated_at": "2026-07-20T16:32:05.446024+00:00",
+  "updated_at": "2026-07-21T16:31:22.497631+00:00",
   "about": {
     "what_it_is": "SPY is an exchange-traded fund designed to track the S&P 500 Index.",
     "what_it_represents": "It represents broad large-cap U.S. equity market exposure.",
@@ -13,7 +13,7 @@
   },
   "source": {
     "short_term": "unavailable",
-    "news_generated_at": "2026-07-20 16:30 UTC"
+    "news_generated_at": "2026-07-21 16:30 UTC"
   },
   "price": {
     "current_usd": null,
