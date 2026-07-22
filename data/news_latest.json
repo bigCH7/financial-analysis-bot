@@ -1,7 +1,161 @@
 {
-  "generated_at": "2026-07-21 16:30 UTC",
+  "generated_at": "2026-07-22 16:26 UTC",
   "count": 55,
   "items": [
+    {
+      "title": "New Clarity Act emerges that's a start on the final draft, makes ethics rule temporary",
+      "link": "https://www.coindesk.com/policy/2026/07/22/new-clarity-act-emerges-that-s-a-start-on-the-final-draft-makes-ethics-rule-temporary",
+      "pub_date": "Wed, 22 Jul 2026 16:15:55 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Revolut hits $115 billion valuation in employee share sale: WSJ",
+      "link": "https://www.coindesk.com/business/2026/07/22/revolut-hits-usd115-billion-valuation-in-employee-share-sale-wsj",
+      "pub_date": "Wed, 22 Jul 2026 15:53:54 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "SEC's Peirce warns some DeFi vaults, onchain lending may fall under securities laws",
+      "link": "https://www.coindesk.com/policy/2026/07/22/sec-s-peirce-warns-some-defi-vaults-onchain-lending-may-fall-under-securities-laws",
+      "pub_date": "Wed, 22 Jul 2026 15:37:36 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "UK digital bond plans hinge on one missing piece: onchain cash",
+      "link": "https://www.coindesk.com/business/2026/07/22/uk-digital-bond-plans-hinge-on-one-missing-piece-onchain-cash",
+      "pub_date": "Wed, 22 Jul 2026 15:36:49 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Crypto Long & Short: The crypto question isn't what to own \u2014 it's what you can survive holding",
+      "link": "https://www.coindesk.com/coindesk-indices/2026/07/22/crypto-long-and-short-the-crypto-question-isn-t-what-to-own-it-s-what-you-can-survive-holding",
+      "pub_date": "Wed, 22 Jul 2026 15:09:47 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "U.S. seeks forfeiture of $25 million in crypto tied to romance and investment scams",
+      "link": "https://www.coindesk.com/policy/2026/07/22/u-s-seeks-forfeiture-of-usd25-million-in-crypto-tied-to-romance-and-investment-scams",
+      "pub_date": "Wed, 22 Jul 2026 13:45:58 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Forget Nvidia: The next big AI trade could be crypto and blockchain",
+      "link": "https://www.coindesk.com/markets/2026/07/21/forget-nvidia-the-next-big-ai-trade-could-be-crypto-and-blockchain",
+      "pub_date": "Wed, 22 Jul 2026 13:32:40 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Kalshi rolls out Midterm Hubs ahead of the November elections in the U.S.",
+      "link": "https://www.coindesk.com/markets/2026/07/22/kalshi-rolls-out-midterm-hubs-ahead-of-the-november-elections-in-the-u-s",
+      "pub_date": "Wed, 22 Jul 2026 12:12:10 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Midnight token rebounds 19% after Wanchain bridge hack, Hoskinson calls for ZK revamp",
+      "link": "https://www.coindesk.com/business/2026/07/22/midnight-token-rebounds-after-wanchain-bridge-hack-hoskinson-calls-for-industry-overhaul",
+      "pub_date": "Wed, 22 Jul 2026 11:45:42 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Here's why bitcoin bulls should take a closer look at interest rates",
+      "link": "https://www.coindesk.com/daybook-us/2026/07/22/here-s-why-bitcoin-bulls-should-take-a-closer-look-at-interest-rates",
+      "pub_date": "Wed, 22 Jul 2026 11:23:36 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "SecondFi to shut down after $2.4 million ADA wallet theft",
+      "link": "https://www.coindesk.com/web3/2026/07/22/secondfi-to-shut-down-after-usd2-4-million-ada-wallet-theft",
+      "pub_date": "Wed, 22 Jul 2026 11:10:27 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Bitcoin retreats from one-month high as oil tops $85, inflation concerns resurface",
+      "link": "https://www.coindesk.com/markets/2026/07/22/bitcoin-retreats-from-one-month-high-as-oil-tops-usd85-inflation-concerns-resurface",
+      "pub_date": "Wed, 22 Jul 2026 10:33:33 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Kraken parent expands tokenized stocks to Hong Kong, UK and South Korea equities",
+      "link": "https://www.coindesk.com/business/2026/07/22/kraken-parent-expands-tokenized-stocks-to-hong-kong-uk-and-south-korea-equities",
+      "pub_date": "Wed, 22 Jul 2026 10:30:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Balance stablecoin collapses 99% after $1 million exploit drains its bitcoin vaults",
+      "link": "https://www.coindesk.com/tech/2026/07/22/balance-stablecoin-collapses-99-after-usd1-million-exploit-drains-its-bitcoin-vaults",
+      "pub_date": "Wed, 22 Jul 2026 09:01:54 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Live updates: Bitcoin holds near $66,000 as stocks claw back from big early decline",
+      "link": "https://www.coindesk.com/tech/2026/07/22/live-updates-bitcoin-under-usd66-000-as-traders-await-alphabet-earnings-to-gauge-ai-trade",
+      "pub_date": "Wed, 22 Jul 2026 08:13:28 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "AI models escaped OpenAI\u2019s sandbox and hit Hugging Face. Crypto is where that gets dangerous",
+      "link": "https://www.coindesk.com/markets/2026/07/22/ai-models-escaped-openai-s-sandbox-and-hit-hugging-face-crypto-is-where-that-gets-dangerous",
+      "pub_date": "Wed, 22 Jul 2026 06:01:56 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Bitcoin holds near $66,300 as chips extend their rally and the yen hits a 40-year low",
+      "link": "https://www.coindesk.com/markets/2026/07/22/bitcoin-holds-near-usd66-300-as-chips-extend-their-rally-and-the-yen-hits-a-40-year-low",
+      "pub_date": "Wed, 22 Jul 2026 05:03:39 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Crypto lobby group Digital Chamber sues Illinois to block digital asset tax",
+      "link": "https://www.coindesk.com/policy/2026/07/21/crypto-lobby-group-tdc-sues-illinois-to-block-digital-asset-tax",
+      "pub_date": "Tue, 21 Jul 2026 22:08:10 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Crypto Clarity Act still at mercy of ethics section as Democrats balk at Trump deal",
+      "link": "https://www.coindesk.com/policy/2026/07/21/crypto-clarity-act-still-at-mercy-of-ethics-section-as-democrats-balk-at-trump-deal",
+      "pub_date": "Tue, 21 Jul 2026 21:14:03 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Bitcoin rally faces key test at $68,000 as 'summer slumber' grips crypto, analysts say",
+      "link": "https://www.coindesk.com/markets/2026/07/21/bitcoin-rally-faces-key-test-at-usd68-000-as-summer-slumber-grips-crypto-analysts-say",
+      "pub_date": "Tue, 21 Jul 2026 20:05:33 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "White House pushes Senate Democrats to take 'historic' crypto Clarity Act ethics deal",
+      "link": "https://www.coindesk.com/policy/2026/07/21/white-house-pushes-senate-democrats-to-take-historic-crypto-clarity-act-ethics-deal",
+      "pub_date": "Tue, 21 Jul 2026 18:14:39 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Movement Labs files for Chapter 11 bankruptcy months after token scandal",
+      "link": "https://www.coindesk.com/policy/2026/07/21/movement-labs-files-for-chapter-11-months-after-token-scandal-and-strategic-overhaul",
+      "pub_date": "Tue, 21 Jul 2026 17:54:40 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
     {
       "title": "Claude's Fable 5 just solved an 87-year-old math problem, and it matters for bitcoin",
       "link": "https://www.coindesk.com/tech/2026/07/21/claude-s-fable-5-just-solved-an-87-year-old-math-problem-and-it-matters-for-bitcoin",
@@ -24,261 +178,107 @@
       "fetch_source": "live"
     },
     {
-      "title": "Augustus raises $180 million to build a clearing bank for the AI and stablecoin era",
-      "link": "https://www.coindesk.com/business/2026/07/21/augustus-raises-usd180-million-to-build-a-clearing-bank-for-the-ai-and-stablecoin-era",
-      "pub_date": "Tue, 21 Jul 2026 14:27:03 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "MoneyGram's CEO says blockchain works best when customers don't know it's there",
-      "link": "https://www.coindesk.com/tech/2026/07/17/moneygram-s-ceo-says-blockchain-works-best-when-customers-don-t-know-it-s-there",
-      "pub_date": "Tue, 21 Jul 2026 13:38:13 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Jack Mallers steps down as XXI Capital CEO as Tether's plans to merge three bitcoin firms falls",
-      "link": "https://www.coindesk.com/business/2026/07/21/jack-mallers-steps-down-as-xxi-capital-ceo-as-tether-s-plans-to-merge-three-bitcoin-firms-falls",
-      "pub_date": "Tue, 21 Jul 2026 12:42:29 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitcoin rally has broad-based support as institutions, whales, options traders pile in",
-      "link": "https://www.coindesk.com/daybook-us/2026/07/21/bitcoin-rally-has-broad-based-support-as-institutions-whales-options-traders-pile-in",
-      "pub_date": "Tue, 21 Jul 2026 11:37:22 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Clarity odds jump to 43% on Polymarket after unverified reports Trump agreed to ethics deal",
-      "link": "https://www.coindesk.com/markets/2026/07/21/clarity-act-odds-jump-11-points-on-polymarket-after-reports-trump-agreed-to-ethics-deal",
-      "pub_date": "Tue, 21 Jul 2026 11:19:18 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Crypto markets rally on Clarity progress report, Asian chip-stock rebound",
-      "link": "https://www.coindesk.com/markets/2026/07/21/crypto-markets-rally-on-clarity-progress-report-asian-chip-stock-rebound",
-      "pub_date": "Tue, 21 Jul 2026 11:02:48 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "XRP jumps 4% as traders watch 'triangle breakout' toward $1.35",
-      "link": "https://www.coindesk.com/markets/2026/07/21/xrp-jumps-4-as-traders-watch-triangle-breakout-toward-usd1-35",
-      "pub_date": "Tue, 21 Jul 2026 07:21:04 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Live markets: Bitcoin rises to five-week high near $67,000 on boosted hope for Clarity Act",
-      "link": "https://www.coindesk.com/business/2026/07/21/live-markets-bitcoin-etfs-post-a-fifth-straight-day-of-inflows-in-a-first-since-april",
-      "pub_date": "Tue, 21 Jul 2026 06:42:52 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "UK Parliament begins inquiry into banking chokepoint for crypto businesses",
-      "link": "https://www.coindesk.com/policy/2026/07/21/uk-parliamentary-group-begins-inquiry-into-banking-chokepoint-for-crypto-businesses",
-      "pub_date": "Tue, 21 Jul 2026 06:15:26 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitcoin hits one-month high above $66,000 as the chip trade turns back into a tailwind",
-      "link": "https://www.coindesk.com/markets/2026/07/21/bitcoin-hits-a-two-week-high-near-usd65-500-as-the-chip-trade-turns-back-into-a-tailwind",
-      "pub_date": "Tue, 21 Jul 2026 05:34:00 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Inside Cardano's 'Van Rossum' hard fork, and what it means for users",
-      "link": "https://www.coindesk.com/markets/2026/07/20/inside-cardano-s-van-rossum-hard-fork-and-what-it-means-for-users",
-      "pub_date": "Mon, 20 Jul 2026 14:31:23 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Exodus to cut 25% of global workforce in payments shift",
-      "link": "https://www.coindesk.com/business/2026/07/20/exodus-to-cut-25-of-global-workforce-in-payments-shift",
-      "pub_date": "Mon, 20 Jul 2026 13:53:08 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "AI compute stocks bounce as Hut 8, IREN land billions in new contracts",
-      "link": "https://www.coindesk.com/business/2026/07/20/hut-8-surges-on-usd9-8-billion-ai-data-center-lease-lifting-compute-sector",
-      "pub_date": "Mon, 20 Jul 2026 13:49:24 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Tom Lee's Bitmine slowed ether purchases as it bought back $86 million in stock",
-      "link": "https://www.coindesk.com/business/2026/07/20/tom-lee-s-bitmine-slowed-ether-purchases-as-it-bought-back-usd86-million-in-stock",
-      "pub_date": "Mon, 20 Jul 2026 12:55:36 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Saylor's Strategy raises cash reserves to $3.2 billion, leaving bitcoin holdings unchanged",
-      "link": "https://www.coindesk.com/business/2026/07/20/saylor-s-strategy-raises-cash-reserves-to-usd3-225-billion-leaving-bitcoin-holdings-unchanged",
-      "pub_date": "Mon, 20 Jul 2026 12:35:02 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Brazil\u2019s securities regulator sets up task force with 60-day deadline for tokenization proposal",
-      "link": "https://www.coindesk.com/policy/2026/07/20/brazil-s-securities-regulator-sets-up-task-force-with-60-day-deadline-for-tokenization-proposal",
-      "pub_date": "Mon, 20 Jul 2026 12:02:28 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "A bitcoin 'volmageddon' may be brewing, key indicator suggests",
-      "link": "https://www.coindesk.com/daybook-us/2026/07/20/a-bitcoin-volmageddon-may-be-brewing-key-indicator-suggests",
-      "pub_date": "Mon, 20 Jul 2026 11:15:57 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bank of Korea prepares for live CBDC transactions with 9 banks in September",
-      "link": "https://www.coindesk.com/business/2026/07/20/bank-of-korea-prepares-for-live-cbdc-transactions-with-nine-banks-in-september",
-      "pub_date": "Mon, 20 Jul 2026 11:10:07 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Crypto market slips even as equities advance. Pump surges on social-media chatter",
-      "link": "https://www.coindesk.com/markets/2026/07/20/crypto-market-slips-even-as-equities-advance-pump-surges-on-social-media-chatter",
-      "pub_date": "Mon, 20 Jul 2026 10:33:14 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Hyperliquid plans to add decentralized prediction markets in upgrade to HIP-4",
-      "link": "https://www.coindesk.com/business/2026/07/20/hyperliquid-plans-to-add-decentralized-prediction-markets-in-upgrade-to-hip-4",
-      "pub_date": "Mon, 20 Jul 2026 10:04:25 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Cross-chain protocol Allbridge halts after $1.65 million flash loan exploit",
-      "link": "https://www.coindesk.com/business/2026/07/20/cross-chain-protocol-allbridge-halts-after-usd1-65-million-flash-loan-exploit",
-      "pub_date": "Mon, 20 Jul 2026 09:31:22 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "U.S. regulatory developments and earnings, ECB rate decision: Crypto Week Ahead",
-      "link": "https://www.coindesk.com/markets/2026/07/20/u-s-regulatory-developments-and-earnings-ecb-rate-decision-crypto-week-ahead",
-      "pub_date": "Mon, 20 Jul 2026 08:57:53 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "BIS warns stablecoins could weaken capital controls in emerging markets",
-      "link": "https://cointelegraph.com/news/bis-study-says-stablecoins-bypass-capital-controls-more-easily-than-bank-deposits?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Tue, 21 Jul 2026 16:11:54 +0000",
+      "title": "BitGo, OTC Markets plan tokenized securities access for broker-dealers",
+      "link": "https://cointelegraph.com/news/bitgo-otc-markets-tokenized-securities-broker-dealers?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Wed, 22 Jul 2026 16:10:22 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "MEXC adds Bittensor TAO staking for its global user base",
-      "link": "https://cointelegraph.com/news/mexc-adds-bittensor-tao-staking-for-its-global-user-base?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Tue, 21 Jul 2026 15:53:08 +0000",
+      "title": "Bitcoin price avoids major Iran jitters as S&P 500 \u2018short squeeze\u2019 on horizon",
+      "link": "https://cointelegraph.com/markets/bitcoin-price-avoids-major-iran-jitters-as-sp-500-short-squeeze-on-horizon?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Wed, 22 Jul 2026 15:55:20 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin nears seven-week high as stocks ignore Iran strikes, Trump 10% tariff plans",
-      "link": "https://cointelegraph.com/markets/bitcoin-nears-seven-week-high-as-stocks-ignore-iran-strikes-trump-10-tariff-plans?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Tue, 21 Jul 2026 15:14:37 +0000",
+      "title": "The digital euro: Surveillance money, or a better alternative to cash?",
+      "link": "https://cointelegraph.com/magazine/what-is-the-digital-euro-all-you-need-to-know-about-europes-cbdc?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Wed, 22 Jul 2026 13:30:00 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "CoinShares debuts Bitcoin mining ETF in Europe entrance",
-      "link": "https://cointelegraph.com/news/coinshares-debuts-bitcoin-mining-ucits-etf-in-europe?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Tue, 21 Jul 2026 13:34:26 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Robinhood-backed DEX Arcus expands with tokenized assets, perps",
-      "link": "https://cointelegraph.com/news/robinhood-backed-dex-arcus-debut-multi-asset-trading?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Tue, 21 Jul 2026 13:16:22 +0000",
+      "title": "Franklin Templeton calls agentic AI next \u2018killer\u2019 use case for blockchain",
+      "link": "https://cointelegraph.com/news/agentic-ai-killer-use-case-blockchain-franklin-templeton?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Wed, 22 Jul 2026 13:18:50 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
       "title": "Here\u2019s what happened in crypto today",
       "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Tue, 21 Jul 2026 13:14:31 +0000",
+      "pub_date": "Wed, 22 Jul 2026 12:54:29 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Morpho launches fixed-rate lending protocol on Base",
-      "link": "https://cointelegraph.com/news/morpho-midnight-fixed-rate-lending-base?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Tue, 21 Jul 2026 13:00:00 +0000",
+      "title": "Bitcoin analysis eyes \u2018serious volume\u2019 after Binance sees 9K BTC daily outflow",
+      "link": "https://cointelegraph.com/markets/bitcoin-analysis-eyes-serious-volume-after-binance-sees-9k-btc-daily-outflow?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Wed, 22 Jul 2026 11:55:21 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Tether-backed Twenty One, Strike merger plan scrapped: Bloomberg",
-      "link": "https://cointelegraph.com/news/tether-twenty-one-strike-merger-plan-scrapped-bloomberg?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Tue, 21 Jul 2026 12:29:25 +0000",
+      "title": "Zilliqa Ledger app vulnerability lets attackers recover signer\u2019s private keys",
+      "link": "https://cointelegraph.com/news/zilliqa-ledger-vulnerability-attackers-recover-private-keys?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Wed, 22 Jul 2026 11:49:53 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "More MiCA-licensed crypto firms may exit EU market: Gate Europe CEO",
-      "link": "https://cointelegraph.com/news/mica-licensed-crypto-firms-eu-market-gate-europe-ceo?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Tue, 21 Jul 2026 11:58:02 +0000",
+      "title": "US seeks forfeiture of $25M in crypto tied to romance, investment scams",
+      "link": "https://cointelegraph.com/news/doj-25m-crypto-forfeiture-romance-investment-scams?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Wed, 22 Jul 2026 11:32:40 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Russian parliament passes law regulating crypto market",
-      "link": "https://cointelegraph.com/news/russias-parliament-passes-law-regulating-crypto-market?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Tue, 21 Jul 2026 11:49:30 +0000",
+      "title": "Talos brings institutional trading tools to Kalshi prediction markets",
+      "link": "https://cointelegraph.com/news/talos-brings-institutional-trading-tools-to-kalshi-prediction-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Wed, 22 Jul 2026 11:00:00 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin price gains to $66.3K as range breakout attempt sparks 1-month high",
-      "link": "https://cointelegraph.com/markets/bitcoin-price-hits-663k-as-range-breakout-attempt-sparks-one-month-high?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Tue, 21 Jul 2026 10:30:00 +0000",
+      "title": "Crypto institutions look beyond audits as trust signals falter: Hacken",
+      "link": "https://cointelegraph.com/news/institutions-crypto-security-beyond-audits-hacken-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Wed, 22 Jul 2026 11:00:00 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "UK parliamentary group probes banking barriers for crypto firms",
-      "link": "https://cointelegraph.com/news/uk-inquiry-banking-barriers-crypto-firms?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Tue, 21 Jul 2026 08:51:06 +0000",
+      "title": "South Korea crypto volumes shrink as retail investors shift to stocks",
+      "link": "https://cointelegraph.com/news/south-korea-crypto-volume-decline-kospi-retail-stocks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Wed, 22 Jul 2026 10:47:09 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin ETFs post 5-day inflow streak, longest since May",
-      "link": "https://cointelegraph.com/news/bitcoin-etfs-five-day-inflow-streak-btc-65k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Tue, 21 Jul 2026 07:28:29 +0000",
+      "title": "Foundry asks Bitcoin miners to vote on BIP-110 support",
+      "link": "https://cointelegraph.com/news/foundry-bitcoin-miners-vote-bip-110?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Wed, 22 Jul 2026 10:29:42 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Base\u2019s 1:1-backed tokenized equities launch \u2018imminent,\u2019 Pollak says",
-      "link": "https://cointelegraph.com/news/bases-tokenized-equities-imminent-pollak?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Tue, 21 Jul 2026 07:06:12 +0000",
+      "title": "SecondFi to wind down after $2.6M ADA theft linked to wallet flaw",
+      "link": "https://cointelegraph.com/news/secondfi-shutdown-ada-theft-wallet-flaw?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Wed, 22 Jul 2026 09:42:00 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Grayscale files S-1 for first US Worldcoin ETF",
-      "link": "https://cointelegraph.com/news/grayscale-files-s-1-for-worldcoin-etf?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Tue, 21 Jul 2026 03:56:10 +0000",
+      "title": "Galaxy pledges $5M for developers quantum-proofing Bitcoin",
+      "link": "https://cointelegraph.com/news/galaxy-pledges-5m-developers-quantum-proofing-bitcoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Wed, 22 Jul 2026 09:30:05 +0000",
+      "source": "Cointelegraph",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Bitcoin ETFs extend inflow streak to 6 days with $203M added",
+      "link": "https://cointelegraph.com/news/bitcoin-etfs-203-million-inflow-streak-six-days?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Wed, 22 Jul 2026 07:57:03 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     }
