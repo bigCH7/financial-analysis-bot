@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-22T16:27:38.732783+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-07-22 16:18 UTC_",
+  "generated_at": "2026-07-23T16:34:20.810919+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-07-23 16:25 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,23 +9,23 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 65945.0,
+        "current_usd": 64755.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": 1.89,
-        "change_30d_pct": 3.11
+        "change_7d_pct": 1.57,
+        "change_30d_pct": 3.34
       },
       "indicators": {
-        "trend": "UPTREND",
-        "momentum": "WEAK",
+        "trend": "DOWNTREND",
+        "momentum": "STRONG",
         "volatility": "NORMAL"
       },
       "valuation": {
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
         "summary_line": "Fair - Weak growth profile - Elevated regulatory risk.",
-        "score": 53.5
+        "score": 52.1
       },
-      "updated_at": "2026-07-22T16:27:38.730555+00:00",
+      "updated_at": "2026-07-23T16:34:20.809783+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,23 +37,23 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 1939.0,
+        "current_usd": 1887.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": 1.14,
-        "change_30d_pct": 12.31
+        "change_7d_pct": 1.27,
+        "change_30d_pct": 13.27
       },
       "indicators": {
-        "trend": "UPTREND",
-        "momentum": "WEAK",
+        "trend": "DOWNTREND",
+        "momentum": "STRONG",
         "volatility": "NORMAL"
       },
       "valuation": {
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
         "summary_line": "Fair - Balanced growth profile - Elevated regulatory risk.",
-        "score": 51.9
+        "score": 51.3
       },
-      "updated_at": "2026-07-22T16:27:38.731337+00:00",
+      "updated_at": "2026-07-23T16:34:20.810295+00:00",
       "source": {
         "short_term": "live"
       }
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-07-22T16:27:38.731615+00:00",
+      "updated_at": "2026-07-23T16:34:20.810440+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-07-22T16:27:38.731867+00:00",
+      "updated_at": "2026-07-23T16:34:20.810541+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-07-22T16:27:38.732116+00:00",
+      "updated_at": "2026-07-23T16:34:20.810638+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-07-22T16:27:38.732341+00:00",
+      "updated_at": "2026-07-23T16:34:20.810729+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -193,7 +193,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-07-22T16:27:38.732563+00:00",
+      "updated_at": "2026-07-23T16:34:20.810827+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -201,72 +201,72 @@
   ],
   "overview_news": [
     {
-      "title": "New Clarity Act emerges that's a start on the final draft, makes ethics rule temporary",
-      "url": "https://www.coindesk.com/policy/2026/07/22/new-clarity-act-emerges-that-s-a-start-on-the-final-draft-makes-ethics-rule-temporary",
-      "published_at": "Wed, 22 Jul 2026 16:15:55 +0000",
+      "title": "The SEC settles with Coinbase over its missing Gary Gensler texts",
+      "url": "https://www.coindesk.com/policy/2026/07/23/sec-agrees-to-end-lawsuit-over-missing-ethereum-records-will-pay-usd150-000-in-fees",
+      "published_at": "Thu, 23 Jul 2026 15:36:39 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Revolut hits $115 billion valuation in employee share sale: WSJ",
-      "url": "https://www.coindesk.com/business/2026/07/22/revolut-hits-usd115-billion-valuation-in-employee-share-sale-wsj",
-      "published_at": "Wed, 22 Jul 2026 15:53:54 +0000",
+      "title": "Crypto for Advisors: It\u2019s time for tokenization to get to work",
+      "url": "https://www.coindesk.com/coindesk-indices/2026/07/23/crypto-for-advisors-it-s-time-for-tokenization-to-get-to-work",
+      "published_at": "Thu, 23 Jul 2026 14:53:34 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "SEC's Peirce warns some DeFi vaults, onchain lending may fall under securities laws",
-      "url": "https://www.coindesk.com/policy/2026/07/22/sec-s-peirce-warns-some-defi-vaults-onchain-lending-may-fall-under-securities-laws",
-      "published_at": "Wed, 22 Jul 2026 15:37:36 +0000",
+      "title": "Uniswap pushes deeper into tokenized assets with permissioned trading pools",
+      "url": "https://www.coindesk.com/business/2026/07/22/uniswap-pushes-deeper-into-tokenized-assets-with-permissioned-trading-pools",
+      "published_at": "Thu, 23 Jul 2026 14:00:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "UK digital bond plans hinge on one missing piece: onchain cash",
-      "url": "https://www.coindesk.com/business/2026/07/22/uk-digital-bond-plans-hinge-on-one-missing-piece-onchain-cash",
-      "published_at": "Wed, 22 Jul 2026 15:36:49 +0000",
+      "title": "Goldman Sachs CEO backs Clarity Act despite banking industry's concerns over stablecoin rules",
+      "url": "https://www.coindesk.com/policy/2026/07/23/goldman-sachs-ceo-backs-clarity-act-despite-banking-industry-s-concerns-over-stablecoin-rules",
+      "published_at": "Thu, 23 Jul 2026 13:53:19 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Crypto Long & Short: The crypto question isn't what to own \u2014 it's what you can survive holding",
-      "url": "https://www.coindesk.com/coindesk-indices/2026/07/22/crypto-long-and-short-the-crypto-question-isn-t-what-to-own-it-s-what-you-can-survive-holding",
-      "published_at": "Wed, 22 Jul 2026 15:09:47 +0000",
+      "title": "The KIDS Act is way worse than digital carding \u2014 it is a mass surveillance system",
+      "url": "https://www.coindesk.com/opinion/2026/07/23/the-kids-act-is-way-worse-than-digital-carding-it-is-a-mass-surveillance-system",
+      "published_at": "Thu, 23 Jul 2026 13:00:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "U.S. seeks forfeiture of $25 million in crypto tied to romance and investment scams",
-      "url": "https://www.coindesk.com/policy/2026/07/22/u-s-seeks-forfeiture-of-usd25-million-in-crypto-tied-to-romance-and-investment-scams",
-      "published_at": "Wed, 22 Jul 2026 13:45:58 +0000",
+      "title": "BlackRock, Coinbase, Strategy in a new group pledging $15 million to prepare Bitcoin for quantum threats",
+      "url": "https://www.coindesk.com/business/2026/07/23/blackrock-coinbase-strategy-in-group-pledging-usd15-million-to-prepare-bitcoin-for-quantum-threats",
+      "published_at": "Thu, 23 Jul 2026 12:54:27 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Forget Nvidia: The next big AI trade could be crypto and blockchain",
-      "url": "https://www.coindesk.com/markets/2026/07/21/forget-nvidia-the-next-big-ai-trade-could-be-crypto-and-blockchain",
-      "published_at": "Wed, 22 Jul 2026 13:32:40 +0000",
+      "title": "Abu Dhabi's Mubadala Capital joins tokenization push as Coinbase takes stake in onchain fund",
+      "url": "https://www.coindesk.com/business/2026/07/23/abu-dhabi-s-mubadala-capital-joins-tokenization-push-as-coinbase-takes-stake-in-onchain-fund",
+      "published_at": "Thu, 23 Jul 2026 12:00:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Kalshi rolls out Midterm Hubs ahead of the November elections in the U.S.",
-      "url": "https://www.coindesk.com/markets/2026/07/22/kalshi-rolls-out-midterm-hubs-ahead-of-the-november-elections-in-the-u-s",
-      "published_at": "Wed, 22 Jul 2026 12:12:10 +0000",
+      "title": "Polymarket to challenge France\u2019s nationwide website block",
+      "url": "https://www.coindesk.com/policy/2026/07/23/polymarket-to-challenge-france-s-nationwide-website-block",
+      "published_at": "Thu, 23 Jul 2026 11:53:53 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Midnight token rebounds 19% after Wanchain bridge hack, Hoskinson calls for ZK revamp",
-      "url": "https://www.coindesk.com/business/2026/07/22/midnight-token-rebounds-after-wanchain-bridge-hack-hoskinson-calls-for-industry-overhaul",
-      "published_at": "Wed, 22 Jul 2026 11:45:42 +0000",
+      "title": "Bulls face a test unlike anything in bitcoin's 17-year history",
+      "url": "https://www.coindesk.com/daybook-us/2026/07/23/bulls-face-a-test-unlike-anything-in-bitcoin-s-17-year-history",
+      "published_at": "Thu, 23 Jul 2026 11:13:39 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Here's why bitcoin bulls should take a closer look at interest rates",
-      "url": "https://www.coindesk.com/daybook-us/2026/07/22/here-s-why-bitcoin-bulls-should-take-a-closer-look-at-interest-rates",
-      "published_at": "Wed, 22 Jul 2026 11:23:36 +0000",
+      "title": "Crypto catches its breath as bitcoin settles into a holding pattern amid July rally",
+      "url": "https://www.coindesk.com/markets/2026/07/23/crypto-catches-its-breath-as-bitcoin-settles-into-a-holding-pattern-after-its-best-month-since-january",
+      "published_at": "Thu, 23 Jul 2026 10:26:23 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
