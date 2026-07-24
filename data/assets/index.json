@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-23T16:34:20.810919+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-07-23 16:25 UTC_",
+  "generated_at": "2026-07-24T16:49:26.881670+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-07-24 16:40 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,23 +9,23 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 64755.0,
+        "current_usd": 63906.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": 1.57,
-        "change_30d_pct": 3.34
+        "change_7d_pct": 0.0,
+        "change_30d_pct": 4.78
       },
       "indicators": {
         "trend": "DOWNTREND",
-        "momentum": "STRONG",
+        "momentum": "WEAK",
         "volatility": "NORMAL"
       },
       "valuation": {
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
         "summary_line": "Fair - Weak growth profile - Elevated regulatory risk.",
-        "score": 52.1
+        "score": 52.9
       },
-      "updated_at": "2026-07-23T16:34:20.809783+00:00",
+      "updated_at": "2026-07-24T16:49:26.880260+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,23 +37,23 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 1887.0,
+        "current_usd": 1856.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": 1.27,
-        "change_30d_pct": 13.27
+        "change_7d_pct": 0.84,
+        "change_30d_pct": 14.54
       },
       "indicators": {
         "trend": "DOWNTREND",
-        "momentum": "STRONG",
+        "momentum": "WEAK",
         "volatility": "NORMAL"
       },
       "valuation": {
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
         "summary_line": "Fair - Balanced growth profile - Elevated regulatory risk.",
-        "score": 51.3
+        "score": 50.8
       },
-      "updated_at": "2026-07-23T16:34:20.810295+00:00",
+      "updated_at": "2026-07-24T16:49:26.880829+00:00",
       "source": {
         "short_term": "live"
       }
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-07-23T16:34:20.810440+00:00",
+      "updated_at": "2026-07-24T16:49:26.881031+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-07-23T16:34:20.810541+00:00",
+      "updated_at": "2026-07-24T16:49:26.881180+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-07-23T16:34:20.810638+00:00",
+      "updated_at": "2026-07-24T16:49:26.881318+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-07-23T16:34:20.810729+00:00",
+      "updated_at": "2026-07-24T16:49:26.881444+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -193,7 +193,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-07-23T16:34:20.810827+00:00",
+      "updated_at": "2026-07-24T16:49:26.881555+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -201,72 +201,72 @@
   ],
   "overview_news": [
     {
-      "title": "The SEC settles with Coinbase over its missing Gary Gensler texts",
-      "url": "https://www.coindesk.com/policy/2026/07/23/sec-agrees-to-end-lawsuit-over-missing-ethereum-records-will-pay-usd150-000-in-fees",
-      "published_at": "Thu, 23 Jul 2026 15:36:39 +0000",
+      "title": "Senate Dems should accept the victory they won on Trump's crypto limits: White House",
+      "url": "https://www.coindesk.com/policy/2026/07/24/senate-dems-should-accept-the-victory-they-won-on-trump-s-crypto-limits-white-house",
+      "published_at": "Fri, 24 Jul 2026 15:01:46 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Crypto for Advisors: It\u2019s time for tokenization to get to work",
-      "url": "https://www.coindesk.com/coindesk-indices/2026/07/23/crypto-for-advisors-it-s-time-for-tokenization-to-get-to-work",
-      "published_at": "Thu, 23 Jul 2026 14:53:34 +0000",
+      "title": "Sam Altman-backed World Network secures $52.5 million in fresh funding to fight online AI deepfakes",
+      "url": "https://www.coindesk.com/business/2026/07/24/sam-altman-backed-world-network-secures-fresh-funding-to-fight-online-ai-deepfakes",
+      "published_at": "Fri, 24 Jul 2026 15:00:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Uniswap pushes deeper into tokenized assets with permissioned trading pools",
-      "url": "https://www.coindesk.com/business/2026/07/22/uniswap-pushes-deeper-into-tokenized-assets-with-permissioned-trading-pools",
-      "published_at": "Thu, 23 Jul 2026 14:00:00 +0000",
+      "title": "Institutional crypto trading platform LMAX is exploring sale, IPO",
+      "url": "https://www.coindesk.com/business/2026/05/22/institutional-crypto-trading-platform-lmax-is-exploring-sale-ipo",
+      "published_at": "Fri, 24 Jul 2026 14:36:16 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Goldman Sachs CEO backs Clarity Act despite banking industry's concerns over stablecoin rules",
-      "url": "https://www.coindesk.com/policy/2026/07/23/goldman-sachs-ceo-backs-clarity-act-despite-banking-industry-s-concerns-over-stablecoin-rules",
-      "published_at": "Thu, 23 Jul 2026 13:53:19 +0000",
+      "title": "Saylor and team overhaul Strategy's bitcoin metrics as bear market persists",
+      "url": "https://www.coindesk.com/markets/2026/07/24/saylor-and-team-overhaul-strategy-s-bitcoin-metrics-as-bear-market-persists",
+      "published_at": "Fri, 24 Jul 2026 13:15:15 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "The KIDS Act is way worse than digital carding \u2014 it is a mass surveillance system",
-      "url": "https://www.coindesk.com/opinion/2026/07/23/the-kids-act-is-way-worse-than-digital-carding-it-is-a-mass-surveillance-system",
-      "published_at": "Thu, 23 Jul 2026 13:00:00 +0000",
+      "title": "Brazilian farmers tokenized dairy cows to get loans, bypassing bank lending limits",
+      "url": "https://www.coindesk.com/markets/2026/07/24/brazilian-farmers-tokenized-dairy-cows-to-get-loans-bypassing-bank-lending-limits",
+      "published_at": "Fri, 24 Jul 2026 13:03:03 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "BlackRock, Coinbase, Strategy in a new group pledging $15 million to prepare Bitcoin for quantum threats",
-      "url": "https://www.coindesk.com/business/2026/07/23/blackrock-coinbase-strategy-in-group-pledging-usd15-million-to-prepare-bitcoin-for-quantum-threats",
-      "published_at": "Thu, 23 Jul 2026 12:54:27 +0000",
+      "title": "EU hits Russia with massive 21st sanctions package targeting $120B crypto network",
+      "url": "https://www.coindesk.com/policy/2026/07/24/eu-hits-russia-with-massive-21st-sanctions-package-targeting-usd120b-crypto-network",
+      "published_at": "Fri, 24 Jul 2026 11:58:06 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Abu Dhabi's Mubadala Capital joins tokenization push as Coinbase takes stake in onchain fund",
-      "url": "https://www.coindesk.com/business/2026/07/23/abu-dhabi-s-mubadala-capital-joins-tokenization-push-as-coinbase-takes-stake-in-onchain-fund",
-      "published_at": "Thu, 23 Jul 2026 12:00:00 +0000",
+      "title": "Crypto market maker B2C2 held sale talks with multiple potential buyers",
+      "url": "https://www.coindesk.com/business/2026/06/29/crypto-market-maker-b2c2-held-sale-talks-with-multiple-potential-buyers",
+      "published_at": "Fri, 24 Jul 2026 11:49:06 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Polymarket to challenge France\u2019s nationwide website block",
-      "url": "https://www.coindesk.com/policy/2026/07/23/polymarket-to-challenge-france-s-nationwide-website-block",
-      "published_at": "Thu, 23 Jul 2026 11:53:53 +0000",
+      "title": "Crypto's institutional influx has killed the memecoin craze",
+      "url": "https://www.coindesk.com/daybook-us/2026/07/24/crypto-s-institutional-influx-has-killed-the-memecoin-craze",
+      "published_at": "Fri, 24 Jul 2026 11:35:48 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bulls face a test unlike anything in bitcoin's 17-year history",
-      "url": "https://www.coindesk.com/daybook-us/2026/07/23/bulls-face-a-test-unlike-anything-in-bitcoin-s-17-year-history",
-      "published_at": "Thu, 23 Jul 2026 11:13:39 +0000",
+      "title": "A $5 billion cluster has formed in bitcoin options. It tells a bullish story",
+      "url": "https://www.coindesk.com/markets/2026/07/24/a-usd5-billion-cluster-has-formed-in-bitcoin-options-it-tells-a-bullish-story",
+      "published_at": "Fri, 24 Jul 2026 11:34:53 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Crypto catches its breath as bitcoin settles into a holding pattern amid July rally",
-      "url": "https://www.coindesk.com/markets/2026/07/23/crypto-catches-its-breath-as-bitcoin-settles-into-a-holding-pattern-after-its-best-month-since-january",
-      "published_at": "Thu, 23 Jul 2026 10:26:23 +0000",
+      "title": "Bitcoin settles near $65,000 as oil's march toward $100 fails to spook the market",
+      "url": "https://www.coindesk.com/markets/2026/07/24/bitcoin-settles-near-usd65-000-as-oil-s-march-toward-usd100-fails-to-spook-the-market",
+      "published_at": "Fri, 24 Jul 2026 11:19:38 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
