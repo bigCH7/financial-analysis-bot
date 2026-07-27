@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-26T16:08:40.287920+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-07-26 15:59 UTC_",
+  "generated_at": "2026-07-27T17:05:18.981724+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-07-27 16:56 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,10 +9,10 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 64693.0,
+        "current_usd": 64844.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": 0.03,
-        "change_30d_pct": 7.78
+        "change_7d_pct": 0.27,
+        "change_30d_pct": 8.16
       },
       "indicators": {
         "trend": "UPTREND",
@@ -23,9 +23,9 @@
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
         "summary_line": "Fair - Weak growth profile - Elevated regulatory risk.",
-        "score": 46.8
+        "score": 51.9
       },
-      "updated_at": "2026-07-26T16:08:40.285665+00:00",
+      "updated_at": "2026-07-27T17:05:18.979421+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,23 +37,23 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 1911.0,
+        "current_usd": 1938.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": 2.17,
-        "change_30d_pct": 21.22
+        "change_7d_pct": 3.6,
+        "change_30d_pct": 23.3
       },
       "indicators": {
         "trend": "UPTREND",
-        "momentum": "STRONG",
+        "momentum": "WEAK",
         "volatility": "NORMAL"
       },
       "valuation": {
-        "verdict": "Caution / risk-reward mixed",
-        "band": "overvalued",
-        "summary_line": "Overvalued - Weak growth profile - Elevated regulatory risk.",
-        "score": 44.5
+        "verdict": "Neutral / fair-value zone",
+        "band": "fair",
+        "summary_line": "Fair - Balanced growth profile - Elevated regulatory risk.",
+        "score": 53.2
       },
-      "updated_at": "2026-07-26T16:08:40.286380+00:00",
+      "updated_at": "2026-07-27T17:05:18.980205+00:00",
       "source": {
         "short_term": "live"
       }
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-07-26T16:08:40.286704+00:00",
+      "updated_at": "2026-07-27T17:05:18.980496+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-07-26T16:08:40.286939+00:00",
+      "updated_at": "2026-07-27T17:05:18.980734+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-07-26T16:08:40.287188+00:00",
+      "updated_at": "2026-07-27T17:05:18.980976+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-07-26T16:08:40.287426+00:00",
+      "updated_at": "2026-07-27T17:05:18.981233+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -193,7 +193,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-07-26T16:08:40.287691+00:00",
+      "updated_at": "2026-07-27T17:05:18.981481+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -201,72 +201,72 @@
   ],
   "overview_news": [
     {
-      "title": "U.S. regulator warns prediction markets against cutting corners in event contracts",
-      "url": "https://www.coindesk.com/policy/2026/07/24/u-s-regulator-warns-prediction-markets-against-cutting-corners-in-event-contracts",
-      "published_at": "Sun, 26 Jul 2026 13:00:00 +0000",
+      "title": "Digital asset trading platform Uphold cuts 17% of global headcount as crypto winter bites",
+      "url": "https://www.coindesk.com/business/2026/07/27/digital-asset-trading-platform-uphold-cuts-17-of-global-headcount-as-crypto-winter-bites",
+      "published_at": "Mon, 27 Jul 2026 16:47:06 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Europe's high regulatory bar could spark new crypto industry M&A wave",
-      "url": "https://www.coindesk.com/policy/2026/07/26/europe-s-high-regulatory-bar-could-spark-new-crypto-industry-m-and-a-wave",
-      "published_at": "Sun, 26 Jul 2026 10:00:00 +0000",
+      "title": "What are perps, anyway? Everything you need to know about crypto\u2019s hottest trading instrument",
+      "url": "https://www.coindesk.com/business/2026/07/27/what-are-perps-anyway-everything-you-need-to-know-about-crypto-s-hottest-trading-instrument",
+      "published_at": "Mon, 27 Jul 2026 15:00:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Shiba Inu surges 36% as South Korean traders fuel mystery rally",
-      "url": "https://www.coindesk.com/markets/2026/07/26/shiba-inu-surges-36-as-south-korean-traders-fuel-mystery-rally",
-      "published_at": "Sun, 26 Jul 2026 07:29:45 +0000",
+      "title": "Fanatics buys regulated exchange in bid to grow prediction markets business",
+      "url": "https://www.coindesk.com/markets/2026/07/27/fanatics-buys-regulated-exchange-in-bid-to-grow-prediction-markets-business",
+      "published_at": "Mon, 27 Jul 2026 14:46:10 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Crypto exchange BitMart to shut down after nine years, BMX token crashes 58%",
-      "url": "https://www.coindesk.com/markets/2026/07/26/crypto-exchange-bitmart-to-shut-down-after-nine-years-bmx-token-crashes-58",
-      "published_at": "Sun, 26 Jul 2026 06:59:51 +0000",
+      "title": "Cantor is advising crypto bank AMINA on path to potential public listing",
+      "url": "https://www.coindesk.com/business/2026/07/27/cantor-is-advising-crypto-bank-amina-on-path-to-potential-public-listing",
+      "published_at": "Mon, 27 Jul 2026 14:36:30 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Russia\u2019s largest bank Sberbank plans crypto trading infrastructure by December",
-      "url": "https://www.coindesk.com/business/2026/07/25/russia-s-largest-bank-sberbank-plans-crypto-trading-infrastructure-by-december",
-      "published_at": "Sat, 25 Jul 2026 16:59:36 +0000",
+      "title": "Lido begins moving $16.5 billion in staked ether to cut validator count by a third",
+      "url": "https://www.coindesk.com/tech/2026/07/27/lido-begins-moving-usd16-5-billion-in-staked-ether-to-cut-validator-count-by-a-third",
+      "published_at": "Mon, 27 Jul 2026 14:00:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "North Korea arrests hackers accused of laundering stolen funds from country's bank via crypto",
-      "url": "https://www.coindesk.com/business/2026/07/25/north-korea-arrests-hackers-accused-of-laundering-stolen-funds-from-country-s-bank-via-crypto",
-      "published_at": "Sat, 25 Jul 2026 15:46:05 +0000",
+      "title": "Thailand's SEC alleges Bitkub concealed cyberattack that led to $50 million hack",
+      "url": "https://www.coindesk.com/policy/2026/07/27/thailand-s-sec-alleges-bitkub-concealed-cyberattack-that-led-to-usd50-million-hack",
+      "published_at": "Mon, 27 Jul 2026 13:32:16 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Democratizing weather derivatives through tokenization could be crypto's most important real-world use case",
-      "url": "https://www.coindesk.com/opinion/2026/07/25/democratizing-weather-derivatives-through-tokenization-could-be-crypto-s-most-important-real-world-use-case",
-      "published_at": "Sat, 25 Jul 2026 13:00:00 +0000",
+      "title": "Nvidia forms 37-member AI security alliance without OpenAI, Anthropic or Google",
+      "url": "https://www.coindesk.com/tech/2026/07/27/nvidia-forms-37-member-ai-security-alliance-without-openai-anthropic-or-google",
+      "published_at": "Mon, 27 Jul 2026 13:25:58 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Robinhood Chain's real-world assets jump fivefold as tokenized stocks start trading in bigger size",
-      "url": "https://www.coindesk.com/business/2026/07/25/robinhood-chain-s-real-world-assets-jump-fivefold-as-tokenized-stocks-start-trading-in-bigger-size",
-      "published_at": "Sat, 25 Jul 2026 10:00:00 +0000",
+      "title": "Securitize builds Wall Street credentials with SEC adviser license as tokenization expands",
+      "url": "https://www.coindesk.com/business/2026/07/27/securitize-builds-wall-street-credentials-with-sec-adviser-license-as-tokenization-expands",
+      "published_at": "Mon, 27 Jul 2026 13:00:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Senate Dems should accept the victory they won on Trump's crypto limits: White House",
-      "url": "https://www.coindesk.com/policy/2026/07/24/senate-dems-should-accept-the-victory-they-won-on-trump-s-crypto-limits-white-house",
-      "published_at": "Fri, 24 Jul 2026 15:01:46 +0000",
+      "title": "Crypto is rewriting how Wall Street traders spend their weekends",
+      "url": "https://www.coindesk.com/markets/2026/07/27/crypto-is-rewriting-how-wall-street-traders-spend-their-weekends",
+      "published_at": "Mon, 27 Jul 2026 13:00:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Sam Altman-backed World Network secures $52.5 million in fresh funding to fight online AI deepfakes",
-      "url": "https://www.coindesk.com/business/2026/07/24/sam-altman-backed-world-network-secures-fresh-funding-to-fight-online-ai-deepfakes",
-      "published_at": "Fri, 24 Jul 2026 15:00:00 +0000",
+      "title": "Bitmine buys more ether as Tom Lee says rising ETH/BTC ratio points to stronger crypto prices",
+      "url": "https://www.coindesk.com/business/2026/07/27/bitmine-buys-more-ether-as-tom-lee-says-rising-eth-btc-ratio-points-to-stronger-crypto-prices",
+      "published_at": "Mon, 27 Jul 2026 12:55:57 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
