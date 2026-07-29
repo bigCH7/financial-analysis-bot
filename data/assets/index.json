@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-28T16:48:30.886458+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-07-28 16:39 UTC_",
+  "generated_at": "2026-07-29T16:29:49.292471+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-07-29 16:20 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,13 +9,13 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 63871.0,
+        "current_usd": 64011.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": -3.98,
-        "change_30d_pct": 7.36
+        "change_7d_pct": -3.13,
+        "change_30d_pct": 6.42
       },
       "indicators": {
-        "trend": "DOWNTREND",
+        "trend": "UPTREND",
         "momentum": "WEAK",
         "volatility": "NORMAL"
       },
@@ -23,9 +23,9 @@
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
         "summary_line": "Fair - Weak growth profile - Elevated regulatory risk.",
-        "score": 52.1
+        "score": 51.5
       },
-      "updated_at": "2026-07-28T16:48:30.884297+00:00",
+      "updated_at": "2026-07-29T16:29:49.290229+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,10 +37,10 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 1921.0,
+        "current_usd": 1895.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": -0.4,
-        "change_30d_pct": 22.35
+        "change_7d_pct": -1.97,
+        "change_30d_pct": 17.74
       },
       "indicators": {
         "trend": "DOWNTREND",
@@ -51,9 +51,9 @@
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
         "summary_line": "Fair - Balanced growth profile - Elevated regulatory risk.",
-        "score": 53.1
+        "score": 50.9
       },
-      "updated_at": "2026-07-28T16:48:30.885090+00:00",
+      "updated_at": "2026-07-29T16:29:49.290963+00:00",
       "source": {
         "short_term": "live"
       }
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-07-28T16:48:30.885371+00:00",
+      "updated_at": "2026-07-29T16:29:49.291289+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-07-28T16:48:30.885591+00:00",
+      "updated_at": "2026-07-29T16:29:49.291534+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-07-28T16:48:30.885831+00:00",
+      "updated_at": "2026-07-29T16:29:49.291783+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-07-28T16:48:30.886046+00:00",
+      "updated_at": "2026-07-29T16:29:49.292006+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -193,7 +193,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-07-28T16:48:30.886255+00:00",
+      "updated_at": "2026-07-29T16:29:49.292232+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -201,72 +201,72 @@
   ],
   "overview_news": [
     {
-      "title": "BlackRock, Fidelity, other Wall Street giants back the Clarity Act",
-      "url": "https://www.coindesk.com/policy/2026/07/28/blackrock-fidelity-other-wall-street-giants-back-the-clarity-act",
-      "published_at": "Tue, 28 Jul 2026 16:08:19 +0000",
+      "title": "The traditional 9-to-5 banking day is officially dying, says Morgan Stanley execs",
+      "url": "https://www.coindesk.com/markets/2026/07/29/morgan-stanley-execs-admit-the-traditional-9-to-5-banking-day-is-officially-dying",
+      "published_at": "Wed, 29 Jul 2026 16:09:32 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Ethereum startup EthSystems bets privacy is key to getting banks on public blockchains",
-      "url": "https://www.coindesk.com/tech/2026/07/28/ethereum-startup-ethsystems-bets-privacy-is-key-to-getting-banks-on-public-blockchains",
-      "published_at": "Tue, 28 Jul 2026 15:46:33 +0000",
+      "title": "Stablecoin firm Brale says new protocol can remove a major hurdle to scaling custom tokens",
+      "url": "https://www.coindesk.com/business/2026/07/29/stablecoin-firm-brale-says-new-protocol-can-remove-a-major-hurdle-to-scaling-custom-tokens",
+      "published_at": "Wed, 29 Jul 2026 15:27:30 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Russia outlines new digital depository rules ahead of fall crypto framework roll-out",
-      "url": "https://www.coindesk.com/policy/2026/07/28/russia-outlines-new-digital-depository-rules-ahead-of-fall-crypto-framework-roll-out",
-      "published_at": "Tue, 28 Jul 2026 14:49:50 +0000",
+      "title": "Coinbase hit by spot trading slump: Wall Street trims expectations ahead of earnings",
+      "url": "https://www.coindesk.com/markets/2026/07/29/investors-look-past-expected-weak-q2-earnings-to-focus-on-coinbase-s-political-future",
+      "published_at": "Wed, 29 Jul 2026 15:15:08 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Hyperliquid is taking crypto perps deep into DeFi\u2019s \u2018money LEGO\u2019 land",
-      "url": "https://www.coindesk.com/business/2026/07/28/hyperliquid-is-taking-crypto-perps-deep-into-defi-s-money-lego-land",
-      "published_at": "Tue, 28 Jul 2026 14:49:01 +0000",
+      "title": "Crypto Long & Short: What this year's $972 million crypto hacks actually tell us about security",
+      "url": "https://www.coindesk.com/coindesk-indices/2026/07/29/crypto-long-and-short-what-this-year-s-usd972-million-crypto-hacks-actually-tell-us-about-security",
+      "published_at": "Wed, 29 Jul 2026 15:13:07 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Zcash seals $1.7 billion shielded pool as Ironwood upgrade activates",
-      "url": "https://www.coindesk.com/tech/2026/07/28/zcash-seals-usd1-7-billion-shielded-pool-as-ironwood-upgrade-activates",
-      "published_at": "Tue, 28 Jul 2026 14:35:28 +0000",
+      "title": "Ethereum Foundation names pcaversaccio to board amid leadership changes",
+      "url": "https://www.coindesk.com/tech/2026/07/29/ethereum-foundation-names-pcaversaccio-to-board-amid-leadership-changes",
+      "published_at": "Wed, 29 Jul 2026 14:11:21 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Morgan Stanley debuts ether, solana exchange-traded products after bitcoin fund success",
-      "url": "https://www.coindesk.com/markets/2026/07/28/morgan-stanley-debuts-ether-and-solana-etps-after-bitcoin-fund-success",
-      "published_at": "Tue, 28 Jul 2026 14:30:57 +0000",
+      "title": "The inside story of how a hike in Hong Kong changed crypto trading forever",
+      "url": "https://www.coindesk.com/business/2026/07/29/the-inside-story-of-how-a-hike-in-hong-kong-changed-crypto-trading-forever",
+      "published_at": "Wed, 29 Jul 2026 13:53:01 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Core Scientific lands AMD AI deal as bitcoin mining operation winds down",
-      "url": "https://www.coindesk.com/business/2026/07/28/core-scientific-lands-amd-ai-deal-as-bitcoin-mining-operation-winds-down",
-      "published_at": "Tue, 28 Jul 2026 12:46:05 +0000",
+      "title": "About $80 million ZEC crosses into Zcash's new Ironwood pool in the first day",
+      "url": "https://www.coindesk.com/tech/2026/07/29/about-usd80-million-zec-crosses-into-zcash-s-new-ironwood-pool-in-the-first-day",
+      "published_at": "Wed, 29 Jul 2026 13:32:37 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Binance makes fighting crypto crime more difficult, says new report",
-      "url": "https://www.coindesk.com/business/2026/07/28/binance-makes-fighting-crypto-crime-more-difficult-says-new-nyt-article",
-      "published_at": "Tue, 28 Jul 2026 12:24:02 +0000",
+      "title": "The systemic-risk debate over perpetual futures is aimed at the wrong target",
+      "url": "https://www.coindesk.com/opinion/2026/07/29/the-systemic-risk-debate-over-perpetual-futures-is-aimed-at-the-wrong-target",
+      "published_at": "Wed, 29 Jul 2026 13:00:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Apple kept fake bitcoin wallet on App Store after $875,000 theft report, lawsuit alleges",
-      "url": "https://www.coindesk.com/business/2026/07/28/apple-kept-fake-bitcoin-wallet-on-app-store-after-usd875-000-theft-report-lawsuit-alleges",
-      "published_at": "Tue, 28 Jul 2026 11:59:17 +0000",
+      "title": "BNY targets $8.6 trillion transfer agency market on blockchain rails",
+      "url": "https://www.coindesk.com/business/2026/07/29/bny-targets-usd8-6-trillion-transfer-agency-market-on-blockchain-rails",
+      "published_at": "Wed, 29 Jul 2026 12:18:58 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin\u2019s recent stability hasn't been enough to spark a broader altcoin rally",
-      "url": "https://www.coindesk.com/daybook-us/2026/07/28/bitcoin-s-recent-stability-hasn-t-been-enough-to-spark-a-broader-altcoin-rally",
-      "published_at": "Tue, 28 Jul 2026 11:37:31 +0000",
+      "title": "3 reasons Wednesday's Fed meeting is pivotal for BTC",
+      "url": "https://www.coindesk.com/daybook-us/2026/07/29/3-reasons-wednesday-s-fed-meeting-is-pivotal-for-btc",
+      "published_at": "Wed, 29 Jul 2026 11:15:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
