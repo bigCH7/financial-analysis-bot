@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-29T16:29:49.292471+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-07-29 16:20 UTC_",
+  "generated_at": "2026-07-30T16:33:58.877587+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-07-30 16:25 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,10 +9,10 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 64011.0,
+        "current_usd": 64834.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": -3.13,
-        "change_30d_pct": 6.42
+        "change_7d_pct": -0.31,
+        "change_30d_pct": 10.7
       },
       "indicators": {
         "trend": "UPTREND",
@@ -23,9 +23,9 @@
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
         "summary_line": "Fair - Weak growth profile - Elevated regulatory risk.",
-        "score": 51.5
+        "score": 54.0
       },
-      "updated_at": "2026-07-29T16:29:49.290229+00:00",
+      "updated_at": "2026-07-30T16:33:58.875273+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,13 +37,13 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 1895.0,
+        "current_usd": 1921.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": -1.97,
-        "change_30d_pct": 17.74
+        "change_7d_pct": 2.36,
+        "change_30d_pct": 22.38
       },
       "indicators": {
-        "trend": "DOWNTREND",
+        "trend": "UPTREND",
         "momentum": "WEAK",
         "volatility": "NORMAL"
       },
@@ -51,9 +51,9 @@
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
         "summary_line": "Fair - Balanced growth profile - Elevated regulatory risk.",
-        "score": 50.9
+        "score": 51.5
       },
-      "updated_at": "2026-07-29T16:29:49.290963+00:00",
+      "updated_at": "2026-07-30T16:33:58.876056+00:00",
       "source": {
         "short_term": "live"
       }
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-07-29T16:29:49.291289+00:00",
+      "updated_at": "2026-07-30T16:33:58.876374+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-07-29T16:29:49.291534+00:00",
+      "updated_at": "2026-07-30T16:33:58.876619+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-07-29T16:29:49.291783+00:00",
+      "updated_at": "2026-07-30T16:33:58.876864+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-07-29T16:29:49.292006+00:00",
+      "updated_at": "2026-07-30T16:33:58.877094+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -193,7 +193,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-07-29T16:29:49.292232+00:00",
+      "updated_at": "2026-07-30T16:33:58.877354+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -201,72 +201,72 @@
   ],
   "overview_news": [
     {
-      "title": "The traditional 9-to-5 banking day is officially dying, says Morgan Stanley execs",
-      "url": "https://www.coindesk.com/markets/2026/07/29/morgan-stanley-execs-admit-the-traditional-9-to-5-banking-day-is-officially-dying",
-      "published_at": "Wed, 29 Jul 2026 16:09:32 +0000",
+      "title": "Ondo Finance weighs acquisition worth up to $500 million",
+      "url": "https://www.coindesk.com/business/2026/07/29/ondo-finance-weighs-acquisition-worth-up-to-usd500-million",
+      "published_at": "Thu, 30 Jul 2026 16:04:16 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Stablecoin firm Brale says new protocol can remove a major hurdle to scaling custom tokens",
-      "url": "https://www.coindesk.com/business/2026/07/29/stablecoin-firm-brale-says-new-protocol-can-remove-a-major-hurdle-to-scaling-custom-tokens",
-      "published_at": "Wed, 29 Jul 2026 15:27:30 +0000",
+      "title": "Crypto for Advisors: Is the Clarity Act dead?",
+      "url": "https://www.coindesk.com/coindesk-indices/2026/07/30/crypto-for-advisors-is-the-clarity-act-dead",
+      "published_at": "Thu, 30 Jul 2026 15:00:49 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Coinbase hit by spot trading slump: Wall Street trims expectations ahead of earnings",
-      "url": "https://www.coindesk.com/markets/2026/07/29/investors-look-past-expected-weak-q2-earnings-to-focus-on-coinbase-s-political-future",
-      "published_at": "Wed, 29 Jul 2026 15:15:08 +0000",
+      "title": "CME's Duffy warns an overlooked tax risk looms over U.S. perpetual futures",
+      "url": "https://www.coindesk.com/policy/2026/07/30/cme-s-duffy-warns-an-overlooked-tax-risk-looms-over-u-s-perpetual-futures",
+      "published_at": "Thu, 30 Jul 2026 14:33:02 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Crypto Long & Short: What this year's $972 million crypto hacks actually tell us about security",
-      "url": "https://www.coindesk.com/coindesk-indices/2026/07/29/crypto-long-and-short-what-this-year-s-usd972-million-crypto-hacks-actually-tell-us-about-security",
-      "published_at": "Wed, 29 Jul 2026 15:13:07 +0000",
+      "title": "The economics behind Aave proposal to ditch 6 chains that earn loose change in revenue",
+      "url": "https://www.coindesk.com/tech/2026/07/30/the-economics-behind-the-aave-proposal-to-ditch-6-chains-that-earn-chump-change",
+      "published_at": "Thu, 30 Jul 2026 14:25:41 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Ethereum Foundation names pcaversaccio to board amid leadership changes",
-      "url": "https://www.coindesk.com/tech/2026/07/29/ethereum-foundation-names-pcaversaccio-to-board-amid-leadership-changes",
-      "published_at": "Wed, 29 Jul 2026 14:11:21 +0000",
+      "title": "JPMorgan says fading Clarity Act odds weigh on crypto outlook",
+      "url": "https://www.coindesk.com/policy/2026/07/30/jpmorgan-says-fading-clarity-act-odds-weigh-on-crypto-outlook",
+      "published_at": "Thu, 30 Jul 2026 14:06:14 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "The inside story of how a hike in Hong Kong changed crypto trading forever",
-      "url": "https://www.coindesk.com/business/2026/07/29/the-inside-story-of-how-a-hike-in-hong-kong-changed-crypto-trading-forever",
-      "published_at": "Wed, 29 Jul 2026 13:53:01 +0000",
+      "title": "Institutional crypto trading hits a record 72% as Wall Street calms crypto's wild swings",
+      "url": "https://www.coindesk.com/markets/2026/07/30/institutional-trading-hits-a-record-72-as-wall-street-quietens-down-crypto-s-wild-swings",
+      "published_at": "Thu, 30 Jul 2026 13:55:18 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "About $80 million ZEC crosses into Zcash's new Ironwood pool in the first day",
-      "url": "https://www.coindesk.com/tech/2026/07/29/about-usd80-million-zec-crosses-into-zcash-s-new-ironwood-pool-in-the-first-day",
-      "published_at": "Wed, 29 Jul 2026 13:32:37 +0000",
+      "title": "Ethereum enters its second decade after a year of upheaval at the foundation",
+      "url": "https://www.coindesk.com/tech/2026/07/30/ethereum-enters-its-second-decade-after-a-year-of-upheaval-at-the-foundation",
+      "published_at": "Thu, 30 Jul 2026 13:52:37 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "The systemic-risk debate over perpetual futures is aimed at the wrong target",
-      "url": "https://www.coindesk.com/opinion/2026/07/29/the-systemic-risk-debate-over-perpetual-futures-is-aimed-at-the-wrong-target",
-      "published_at": "Wed, 29 Jul 2026 13:00:00 +0000",
+      "title": "Fake staking site drains $8.5 million in XRP from dozens of investors promising easy yield",
+      "url": "https://www.coindesk.com/business/2026/07/30/fake-staking-site-drains-usd8-5-million-in-xrp-from-dozens-of-investors-promising-easy-yield",
+      "published_at": "Thu, 30 Jul 2026 13:35:51 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "BNY targets $8.6 trillion transfer agency market on blockchain rails",
-      "url": "https://www.coindesk.com/business/2026/07/29/bny-targets-usd8-6-trillion-transfer-agency-market-on-blockchain-rails",
-      "published_at": "Wed, 29 Jul 2026 12:18:58 +0000",
+      "title": "Telegram faces terror-related legal action in Australia one day after founder is charged by Russia",
+      "url": "https://www.coindesk.com/policy/2026/07/30/telegram-faces-terror-related-legal-action-in-australia-one-day-after-founder-is-charged-by-russia",
+      "published_at": "Thu, 30 Jul 2026 12:09:18 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "3 reasons Wednesday's Fed meeting is pivotal for BTC",
-      "url": "https://www.coindesk.com/daybook-us/2026/07/29/3-reasons-wednesday-s-fed-meeting-is-pivotal-for-btc",
-      "published_at": "Wed, 29 Jul 2026 11:15:00 +0000",
+      "title": "Bitcoin ETFs on track for the smallest monthly inflows ever",
+      "url": "https://www.coindesk.com/daybook-us/2026/07/30/bitcoin-etfs-on-track-for-the-smallest-monthly-inflows-ever",
+      "published_at": "Thu, 30 Jul 2026 11:18:34 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
