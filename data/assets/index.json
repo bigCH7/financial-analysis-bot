@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-30T16:33:58.877587+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-07-30 16:25 UTC_",
+  "generated_at": "2026-07-31T16:53:48.448109+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-07-31 16:44 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,23 +9,23 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 64834.0,
+        "current_usd": 62760.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": -0.31,
-        "change_30d_pct": 10.7
+        "change_7d_pct": -3.5,
+        "change_30d_pct": 4.66
       },
       "indicators": {
-        "trend": "UPTREND",
-        "momentum": "WEAK",
+        "trend": "DOWNTREND",
+        "momentum": "STRONG",
         "volatility": "NORMAL"
       },
       "valuation": {
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
         "summary_line": "Fair - Weak growth profile - Elevated regulatory risk.",
-        "score": 54.0
+        "score": 53.0
       },
-      "updated_at": "2026-07-30T16:33:58.875273+00:00",
+      "updated_at": "2026-07-31T16:53:48.446431+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,23 +37,23 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 1921.0,
+        "current_usd": 1861.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": 2.36,
-        "change_30d_pct": 22.38
+        "change_7d_pct": -0.86,
+        "change_30d_pct": 15.71
       },
       "indicators": {
-        "trend": "UPTREND",
-        "momentum": "WEAK",
+        "trend": "DOWNTREND",
+        "momentum": "STRONG",
         "volatility": "NORMAL"
       },
       "valuation": {
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
         "summary_line": "Fair - Balanced growth profile - Elevated regulatory risk.",
-        "score": 51.5
+        "score": 50.8
       },
-      "updated_at": "2026-07-30T16:33:58.876056+00:00",
+      "updated_at": "2026-07-31T16:53:48.447044+00:00",
       "source": {
         "short_term": "live"
       }
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-07-30T16:33:58.876374+00:00",
+      "updated_at": "2026-07-31T16:53:48.447278+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-07-30T16:33:58.876619+00:00",
+      "updated_at": "2026-07-31T16:53:48.447451+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-07-30T16:33:58.876864+00:00",
+      "updated_at": "2026-07-31T16:53:48.447620+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-07-30T16:33:58.877094+00:00",
+      "updated_at": "2026-07-31T16:53:48.447784+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -193,7 +193,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-07-30T16:33:58.877354+00:00",
+      "updated_at": "2026-07-31T16:53:48.447941+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -201,72 +201,72 @@
   ],
   "overview_news": [
     {
-      "title": "Ondo Finance weighs acquisition worth up to $500 million",
-      "url": "https://www.coindesk.com/business/2026/07/29/ondo-finance-weighs-acquisition-worth-up-to-usd500-million",
-      "published_at": "Thu, 30 Jul 2026 16:04:16 +0000",
+      "title": "Quantum computing nears commercial breakthrough, IBM CEO says",
+      "url": "https://www.coindesk.com/markets/2026/07/31/quantum-computing-nears-commercial-breakthrough-ibm-ceo-says",
+      "published_at": "Fri, 31 Jul 2026 15:39:30 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Crypto for Advisors: Is the Clarity Act dead?",
-      "url": "https://www.coindesk.com/coindesk-indices/2026/07/30/crypto-for-advisors-is-the-clarity-act-dead",
-      "published_at": "Thu, 30 Jul 2026 15:00:49 +0000",
+      "title": "Crypto faces 3 barriers to next bull run, STS Digital CEO says",
+      "url": "https://www.coindesk.com/markets/2026/07/31/crypto-faces-3-barriers-to-next-bull-run-sts-digital-ceo-says",
+      "published_at": "Fri, 31 Jul 2026 15:00:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "CME's Duffy warns an overlooked tax risk looms over U.S. perpetual futures",
-      "url": "https://www.coindesk.com/policy/2026/07/30/cme-s-duffy-warns-an-overlooked-tax-risk-looms-over-u-s-perpetual-futures",
-      "published_at": "Thu, 30 Jul 2026 14:33:02 +0000",
+      "title": "Circle secures New York trust charter as crypto regulatory push accelerates",
+      "url": "https://www.coindesk.com/policy/2026/07/31/circle-secures-new-york-trust-charter-as-crypto-regulatory-push-accelerates",
+      "published_at": "Fri, 31 Jul 2026 13:35:17 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "The economics behind Aave proposal to ditch 6 chains that earn loose change in revenue",
-      "url": "https://www.coindesk.com/tech/2026/07/30/the-economics-behind-the-aave-proposal-to-ditch-6-chains-that-earn-chump-change",
-      "published_at": "Thu, 30 Jul 2026 14:25:41 +0000",
+      "title": "Coinbase's weak quarter leaves Wall Street split on timing of a recovery",
+      "url": "https://www.coindesk.com/markets/2026/07/31/coinbase-s-weak-quarter-leaves-wall-street-split-on-timing-of-a-recovery",
+      "published_at": "Fri, 31 Jul 2026 13:20:45 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "JPMorgan says fading Clarity Act odds weigh on crypto outlook",
-      "url": "https://www.coindesk.com/policy/2026/07/30/jpmorgan-says-fading-clarity-act-odds-weigh-on-crypto-outlook",
-      "published_at": "Thu, 30 Jul 2026 14:06:14 +0000",
+      "title": "RWA perps will outpace tokenization",
+      "url": "https://www.coindesk.com/opinion/2026/07/31/rwa-perps-will-outpace-tokenization",
+      "published_at": "Fri, 31 Jul 2026 13:00:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Institutional crypto trading hits a record 72% as Wall Street calms crypto's wild swings",
-      "url": "https://www.coindesk.com/markets/2026/07/30/institutional-trading-hits-a-record-72-as-wall-street-quietens-down-crypto-s-wild-swings",
-      "published_at": "Thu, 30 Jul 2026 13:55:18 +0000",
+      "title": "Dubai-based crypto exchange tied to $4 billion Iran sanctioned-evasion network",
+      "url": "https://www.coindesk.com/business/2026/07/31/dubai-based-crypto-exchange-tied-to-usd4-billion-iran-sanctioned-evasion-network-reuters",
+      "published_at": "Fri, 31 Jul 2026 12:28:02 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Ethereum enters its second decade after a year of upheaval at the foundation",
-      "url": "https://www.coindesk.com/tech/2026/07/30/ethereum-enters-its-second-decade-after-a-year-of-upheaval-at-the-foundation",
-      "published_at": "Thu, 30 Jul 2026 13:52:37 +0000",
+      "title": "World Cup bets smash records as prediction markets hit $20 billion in volume",
+      "url": "https://www.coindesk.com/markets/2026/07/31/world-cup-bets-smash-records-as-prediction-markets-hit-usd20-billion-in-volume",
+      "published_at": "Fri, 31 Jul 2026 12:00:26 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Fake staking site drains $8.5 million in XRP from dozens of investors promising easy yield",
-      "url": "https://www.coindesk.com/business/2026/07/30/fake-staking-site-drains-usd8-5-million-in-xrp-from-dozens-of-investors-promising-easy-yield",
-      "published_at": "Thu, 30 Jul 2026 13:35:51 +0000",
+      "title": "U.S. sanctions Iran-linked bitcoin insurance scheme for Strait of Hormuz ships",
+      "url": "https://www.coindesk.com/policy/2026/07/31/u-s-sanctions-iran-linked-bitcoin-insurance-scheme-for-strait-of-hormuz-ships",
+      "published_at": "Fri, 31 Jul 2026 11:58:33 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Telegram faces terror-related legal action in Australia one day after founder is charged by Russia",
-      "url": "https://www.coindesk.com/policy/2026/07/30/telegram-faces-terror-related-legal-action-in-australia-one-day-after-founder-is-charged-by-russia",
-      "published_at": "Thu, 30 Jul 2026 12:09:18 +0000",
+      "title": "\u200bTraders brace for an August crypto pull-back as protection against $60,000 bitcoin dip becomes top trade",
+      "url": "https://www.coindesk.com/daybook-us/2026/07/31/bitcoin-usd60-000-put-leads-the-pack-as-mood-swings-bearish-for-august",
+      "published_at": "Fri, 31 Jul 2026 11:36:45 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin ETFs on track for the smallest monthly inflows ever",
-      "url": "https://www.coindesk.com/daybook-us/2026/07/30/bitcoin-etfs-on-track-for-the-smallest-monthly-inflows-ever",
-      "published_at": "Thu, 30 Jul 2026 11:18:34 +0000",
+      "title": "Bitcoin, ether fall, equities rally with broader crypto market on track for best month in a year",
+      "url": "https://www.coindesk.com/markets/2026/07/31/bitcoin-ether-fall-equities-rally-with-broader-crypto-market-on-track-for-best-month-in-a-year",
+      "published_at": "Fri, 31 Jul 2026 11:07:52 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
