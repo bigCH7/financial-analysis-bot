@@ -1,7 +1,91 @@
 {
-  "generated_at": "2026-07-31 16:52 UTC",
+  "generated_at": "2026-08-01 16:06 UTC",
   "count": 55,
   "items": [
+    {
+      "title": "Bank of Italy research suggests stablecoins aren't necessarily cheaper for remittances",
+      "link": "https://www.coindesk.com/business/2026/08/01/bank-of-italy-research-suggests-stablecoins-aren-t-necessarily-cheaper-for-remittances",
+      "pub_date": "Sat, 01 Aug 2026 16:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Bitcoin mining difficulty shrinks 14% from this year's high as plunging revenues force operators to pivot",
+      "link": "https://www.coindesk.com/business/2026/08/01/bitcoin-mining-difficulty-shrinks-14-from-this-year-s-high-as-plunging-revenues-force-operators-to-pivot",
+      "pub_date": "Sat, 01 Aug 2026 15:51:10 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "SEC to review Nasdaq bitcoin options approval after CME challenge",
+      "link": "https://www.coindesk.com/policy/2026/08/01/sec-to-review-nasdaq-bitcoin-options-approval-after-cme-challenge",
+      "pub_date": "Sat, 01 Aug 2026 15:48:27 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Solana Foundation's new CISO warns AI is making crypto scams more convincing",
+      "link": "https://www.coindesk.com/tech/2026/07/31/solana-foundation-s-new-ciso-warns-ai-is-making-crypto-scams-more-convincing",
+      "pub_date": "Sat, 01 Aug 2026 13:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Everyone has the perps convergence backwards",
+      "link": "https://www.coindesk.com/opinion/2026/08/01/everyone-has-the-perps-convergence-backwards",
+      "pub_date": "Sat, 01 Aug 2026 13:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Binance founder CZ calls for wallet diversification after $70 million Coldcard exploit",
+      "link": "https://www.coindesk.com/markets/2026/08/01/binance-founder-cz-says-diversify-your-wallets-following-usd70-million-coldcard-exploit",
+      "pub_date": "Sat, 01 Aug 2026 09:01:08 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "XRP Ledger upgrade brings back features once pulled over critical bugs",
+      "link": "https://www.coindesk.com/tech/2026/08/01/xrp-ledger-upgrade-brings-back-features-once-pulled-over-critical-bugs",
+      "pub_date": "Sat, 01 Aug 2026 06:09:51 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "How bitcoin cold wallets lost $70 million in an attack that never touched the devices",
+      "link": "https://www.coindesk.com/tech/2026/08/01/how-bitcoin-cold-wallets-lost-usd70-million-in-an-attack-that-never-touched-the-devices",
+      "pub_date": "Sat, 01 Aug 2026 05:55:46 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Bitcoin holds monthly gain, faces 'choppy' August as 'forced-selling' exhausted, analysts say",
+      "link": "https://www.coindesk.com/markets/2026/07/31/bitcoin-holds-onto-july-gain-as-forced-selling-fuel-was-already-spent-analysts-say",
+      "pub_date": "Fri, 31 Jul 2026 20:50:58 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Tether posts $1.5 billion operating profit in Q2 as reserve buffer falls by half",
+      "link": "https://www.coindesk.com/business/2026/07/31/tether-posts-usd1-5-billion-operating-profit-in-q2-as-reserve-buffer-falls-by-half",
+      "pub_date": "Fri, 31 Jul 2026 18:24:55 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "The good and the bad of perps, according to crypto traders",
+      "link": "https://www.coindesk.com/business/2026/07/31/the-good-and-the-bad-of-perps-according-to-crypto-traders",
+      "pub_date": "Fri, 31 Jul 2026 17:53:59 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Coldcard's $38 million (so far) exploit shakes faith in self-custody, may push investors to ETFs",
+      "link": "https://www.coindesk.com/business/2026/07/31/coldcard-s-usd38-million-so-far-exploit-shakes-faith-in-self-custody-may-push-investors-to-etfs",
+      "pub_date": "Fri, 31 Jul 2026 17:07:30 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
     {
       "title": "Quantum computing nears commercial breakthrough, IBM CEO says",
       "link": "https://www.coindesk.com/markets/2026/07/31/quantum-computing-nears-commercial-breakthrough-ibm-ceo-says",
@@ -94,87 +178,59 @@
       "fetch_source": "live"
     },
     {
-      "title": "Live updates: 'Move your funds now,' says co-founder and CEO of Coldcard maker Coinkite",
-      "link": "https://www.coindesk.com/markets/2026/07/31/live-updates-bitcoin-steady-as-japan-holds-rates-at-1-keeping-the-yen-carry-trade-alive",
-      "pub_date": "Fri, 31 Jul 2026 07:46:10 +0000",
-      "source": "CoinDesk",
+      "title": "Crypto PAC pours another $1M into Michigan House race",
+      "link": "https://cointelegraph.com/news/crypto-pac-michigan-thanedar-mckinney?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sat, 01 Aug 2026 15:44:02 +0000",
+      "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin flat near $64,000 as Kospi's record 17% surge leaves crypto untouched",
-      "link": "https://www.coindesk.com/markets/2026/07/31/bitcoin-flat-near-usd64-000-as-kospi-s-record-17-surge-leaves-crypto-untouched",
-      "pub_date": "Fri, 31 Jul 2026 05:43:39 +0000",
-      "source": "CoinDesk",
+      "title": "Russia expands crypto mining ban to Moscow through 2032",
+      "link": "https://cointelegraph.com/news/russia-expands-crypto-mining-ban-moscow-2032?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sat, 01 Aug 2026 10:23:41 +0000",
+      "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Major bitcoin wallet flaw drains $38 million worth of BTC in 25-minute sweep",
-      "link": "https://www.coindesk.com/tech/2026/07/31/major-bitcoin-wallet-flaw-drains-594-btc-in-25-minute-sweep",
-      "pub_date": "Fri, 31 Jul 2026 05:12:55 +0000",
-      "source": "CoinDesk",
+      "title": "Coldcard Bitcoin loss estimate rises to $70M after Galaxy analysis",
+      "link": "https://cointelegraph.com/news/coldcard-bitcoin-loss-estimate-70-million-galaxy-analysis?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sat, 01 Aug 2026 09:23:56 +0000",
+      "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Strategy books $8.2 billion Q2 loss on bitcoin price decline",
-      "link": "https://www.coindesk.com/markets/2026/07/30/strategy-books-usd8-2-billion-second-quarter-loss-on-bitcoin-price-decline",
-      "pub_date": "Thu, 30 Jul 2026 20:32:13 +0000",
-      "source": "CoinDesk",
+      "title": "Bitcoin ETFs end July in the green despite late-month selling",
+      "link": "https://cointelegraph.com/markets/bitcoin-etfs-july-green-despite-late-month-selling?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sat, 01 Aug 2026 07:23:07 +0000",
+      "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Coinbase sinks 5% after missing second-quarter revenue estimates",
-      "link": "https://www.coindesk.com/markets/2026/07/30/coinbase-sinks-5-after-missing-q2-revenue-estimates",
-      "pub_date": "Thu, 30 Jul 2026 20:18:33 +0000",
-      "source": "CoinDesk",
+      "title": "Bank of Italy finds no consistent cost advantage for stablecoin remittances",
+      "link": "https://cointelegraph.com/news/bank-of-italy-study-no-stablecoin-remittance-cost-advantages?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Fri, 31 Jul 2026 20:10:21 +0000",
+      "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Global banks test tokenized money for cross-border payments in $1 million BIS pilot",
-      "link": "https://www.coindesk.com/business/2026/07/30/global-banks-test-tokenized-money-for-cross-border-payments-in-usd1-million-bis-pilot",
-      "pub_date": "Thu, 30 Jul 2026 17:34:03 +0000",
-      "source": "CoinDesk",
+      "title": "Pump.fun laid off workers before they received millions in PUMP tokens: Report",
+      "link": "https://cointelegraph.com/news/pump-fun-employees-fired-tokens-vest?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Fri, 31 Jul 2026 19:16:19 +0000",
+      "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Ondo Finance weighs acquisition worth up to $500 million",
-      "link": "https://www.coindesk.com/business/2026/07/30/ondo-finance-weighs-acquisition-worth-up-to-usd500-million",
-      "pub_date": "Thu, 30 Jul 2026 16:04:16 +0000",
-      "source": "CoinDesk",
+      "title": "Here\u2019s what happened in crypto today",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Fri, 31 Jul 2026 18:09:51 +0000",
+      "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Crypto for Advisors: Is the Clarity Act dead?",
-      "link": "https://www.coindesk.com/coindesk-indices/2026/07/30/crypto-for-advisors-is-the-clarity-act-dead",
-      "pub_date": "Thu, 30 Jul 2026 15:00:49 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "CME's Duffy warns an overlooked tax risk looms over U.S. perpetual futures",
-      "link": "https://www.coindesk.com/policy/2026/07/30/cme-s-duffy-warns-an-overlooked-tax-risk-looms-over-u-s-perpetual-futures",
-      "pub_date": "Thu, 30 Jul 2026 14:33:02 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "The economics behind Aave proposal to ditch 6 chains that earn loose change in revenue",
-      "link": "https://www.coindesk.com/tech/2026/07/30/the-economics-behind-the-aave-proposal-to-ditch-6-chains-that-earn-chump-change",
-      "pub_date": "Thu, 30 Jul 2026 14:25:41 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "JPMorgan says fading Clarity Act odds weigh on crypto outlook",
-      "link": "https://www.coindesk.com/policy/2026/07/30/jpmorgan-says-fading-clarity-act-odds-weigh-on-crypto-outlook",
-      "pub_date": "Thu, 30 Jul 2026 14:06:14 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Institutional crypto trading hits a record 72% as Wall Street calms crypto's wild swings",
-      "link": "https://www.coindesk.com/markets/2026/07/30/institutional-trading-hits-a-record-72-as-wall-street-quietens-down-crypto-s-wild-swings",
-      "pub_date": "Thu, 30 Jul 2026 13:55:18 +0000",
-      "source": "CoinDesk",
+      "title": "Ex-FTX users report funds being released in $900M distribution round",
+      "link": "https://cointelegraph.com/news/ftx-users-funds-released-fifth-distribution-round?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Fri, 31 Jul 2026 16:56:31 +0000",
+      "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
@@ -220,65 +276,9 @@
       "fetch_source": "live"
     },
     {
-      "title": "Here\u2019s what happened in crypto today",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 31 Jul 2026 13:43:57 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
       "title": "Circle receives New York trust charter for subsidiary",
       "link": "https://cointelegraph.com/news/circle-receives-new-york-trust-charter-for-subsidiary?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "pub_date": "Fri, 31 Jul 2026 13:27:10 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "BOJ intervenes to defend yen near 160, holds rates steady",
-      "link": "https://cointelegraph.com/markets/boj-intervenes-to-defend-yen-near-160-holds-rates-steady?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 31 Jul 2026 13:13:46 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Citadel buys bulk of Situational Awareness stock portfolio after AI rout: Reports",
-      "link": "https://cointelegraph.com/markets/citadel-situational-awareness-stock-portfolio-ai-rout-reports?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 31 Jul 2026 11:35:33 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "BIS Project Agor\u00e1 settles $1 million in tokenized cross-border payment trials",
-      "link": "https://cointelegraph.com/news/bis-project-agor-tokenized-cross-border-payment-trials?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 31 Jul 2026 11:02:24 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "New York sues Kalshi over alleged illegal gambling operation",
-      "link": "https://cointelegraph.com/news/new-york-sues-kalshi-gambling-operation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 31 Jul 2026 10:05:01 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Aave weighs closing 6 V3 blockchain markets, offboarding 50 low-use reserves",
-      "link": "https://cointelegraph.com/news/aave-weighs-closing-6-v3-blockchain-markets-offboarding-50-low-use-reserves?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 31 Jul 2026 08:57:53 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "RWA perpetual futures volume nears Bitcoin on Hyperliquid, Binance",
-      "link": "https://cointelegraph.com/markets/rwa-perpetual-futures-bitcoin-hyperliquid-binance?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 31 Jul 2026 08:29:51 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitcoin ETFs post $233M inflows, pushing week back into the green",
-      "link": "https://cointelegraph.com/markets/bitcoin-etfs-inflows-week-back-green?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 31 Jul 2026 06:46:23 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     }

@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-31T16:53:48.448109+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-07-31 16:44 UTC_",
+  "generated_at": "2026-08-01T16:08:15.882030+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-08-01 15:59 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,23 +9,23 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 62760.0,
+        "current_usd": 62928.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": -3.5,
-        "change_30d_pct": 4.66
+        "change_7d_pct": -2.16,
+        "change_30d_pct": 2.34
       },
       "indicators": {
         "trend": "DOWNTREND",
-        "momentum": "STRONG",
+        "momentum": "WEAK",
         "volatility": "NORMAL"
       },
       "valuation": {
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
         "summary_line": "Fair - Weak growth profile - Elevated regulatory risk.",
-        "score": 53.0
+        "score": 48.3
       },
-      "updated_at": "2026-07-31T16:53:48.446431+00:00",
+      "updated_at": "2026-08-01T16:08:15.880399+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,23 +37,23 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 1861.0,
+        "current_usd": 1869.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": -0.86,
-        "change_30d_pct": 15.71
+        "change_7d_pct": -0.26,
+        "change_30d_pct": 10.04
       },
       "indicators": {
         "trend": "DOWNTREND",
-        "momentum": "STRONG",
+        "momentum": "WEAK",
         "volatility": "NORMAL"
       },
       "valuation": {
-        "verdict": "Neutral / fair-value zone",
-        "band": "fair",
-        "summary_line": "Fair - Balanced growth profile - Elevated regulatory risk.",
-        "score": 50.8
+        "verdict": "Caution / risk-reward mixed",
+        "band": "overvalued",
+        "summary_line": "Overvalued - Weak growth profile - Elevated regulatory risk.",
+        "score": 44.6
       },
-      "updated_at": "2026-07-31T16:53:48.447044+00:00",
+      "updated_at": "2026-08-01T16:08:15.880988+00:00",
       "source": {
         "short_term": "live"
       }
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-07-31T16:53:48.447278+00:00",
+      "updated_at": "2026-08-01T16:08:15.881204+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-07-31T16:53:48.447451+00:00",
+      "updated_at": "2026-08-01T16:08:15.881371+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-07-31T16:53:48.447620+00:00",
+      "updated_at": "2026-08-01T16:08:15.881540+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-07-31T16:53:48.447784+00:00",
+      "updated_at": "2026-08-01T16:08:15.881719+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -193,7 +193,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-07-31T16:53:48.447941+00:00",
+      "updated_at": "2026-08-01T16:08:15.881877+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -201,72 +201,72 @@
   ],
   "overview_news": [
     {
-      "title": "Quantum computing nears commercial breakthrough, IBM CEO says",
-      "url": "https://www.coindesk.com/markets/2026/07/31/quantum-computing-nears-commercial-breakthrough-ibm-ceo-says",
-      "published_at": "Fri, 31 Jul 2026 15:39:30 +0000",
+      "title": "Bank of Italy research suggests stablecoins aren't necessarily cheaper for remittances",
+      "url": "https://www.coindesk.com/business/2026/08/01/bank-of-italy-research-suggests-stablecoins-aren-t-necessarily-cheaper-for-remittances",
+      "published_at": "Sat, 01 Aug 2026 16:00:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Crypto faces 3 barriers to next bull run, STS Digital CEO says",
-      "url": "https://www.coindesk.com/markets/2026/07/31/crypto-faces-3-barriers-to-next-bull-run-sts-digital-ceo-says",
-      "published_at": "Fri, 31 Jul 2026 15:00:00 +0000",
+      "title": "Bitcoin mining difficulty shrinks 14% from this year's high as plunging revenues force operators to pivot",
+      "url": "https://www.coindesk.com/business/2026/08/01/bitcoin-mining-difficulty-shrinks-14-from-this-year-s-high-as-plunging-revenues-force-operators-to-pivot",
+      "published_at": "Sat, 01 Aug 2026 15:51:10 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Circle secures New York trust charter as crypto regulatory push accelerates",
-      "url": "https://www.coindesk.com/policy/2026/07/31/circle-secures-new-york-trust-charter-as-crypto-regulatory-push-accelerates",
-      "published_at": "Fri, 31 Jul 2026 13:35:17 +0000",
+      "title": "SEC to review Nasdaq bitcoin options approval after CME challenge",
+      "url": "https://www.coindesk.com/policy/2026/08/01/sec-to-review-nasdaq-bitcoin-options-approval-after-cme-challenge",
+      "published_at": "Sat, 01 Aug 2026 15:48:27 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Coinbase's weak quarter leaves Wall Street split on timing of a recovery",
-      "url": "https://www.coindesk.com/markets/2026/07/31/coinbase-s-weak-quarter-leaves-wall-street-split-on-timing-of-a-recovery",
-      "published_at": "Fri, 31 Jul 2026 13:20:45 +0000",
+      "title": "Solana Foundation's new CISO warns AI is making crypto scams more convincing",
+      "url": "https://www.coindesk.com/tech/2026/07/31/solana-foundation-s-new-ciso-warns-ai-is-making-crypto-scams-more-convincing",
+      "published_at": "Sat, 01 Aug 2026 13:00:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "RWA perps will outpace tokenization",
-      "url": "https://www.coindesk.com/opinion/2026/07/31/rwa-perps-will-outpace-tokenization",
-      "published_at": "Fri, 31 Jul 2026 13:00:00 +0000",
+      "title": "Everyone has the perps convergence backwards",
+      "url": "https://www.coindesk.com/opinion/2026/08/01/everyone-has-the-perps-convergence-backwards",
+      "published_at": "Sat, 01 Aug 2026 13:00:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Dubai-based crypto exchange tied to $4 billion Iran sanctioned-evasion network",
-      "url": "https://www.coindesk.com/business/2026/07/31/dubai-based-crypto-exchange-tied-to-usd4-billion-iran-sanctioned-evasion-network-reuters",
-      "published_at": "Fri, 31 Jul 2026 12:28:02 +0000",
+      "title": "Binance founder CZ calls for wallet diversification after $70 million Coldcard exploit",
+      "url": "https://www.coindesk.com/markets/2026/08/01/binance-founder-cz-says-diversify-your-wallets-following-usd70-million-coldcard-exploit",
+      "published_at": "Sat, 01 Aug 2026 09:01:08 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "World Cup bets smash records as prediction markets hit $20 billion in volume",
-      "url": "https://www.coindesk.com/markets/2026/07/31/world-cup-bets-smash-records-as-prediction-markets-hit-usd20-billion-in-volume",
-      "published_at": "Fri, 31 Jul 2026 12:00:26 +0000",
+      "title": "XRP Ledger upgrade brings back features once pulled over critical bugs",
+      "url": "https://www.coindesk.com/tech/2026/08/01/xrp-ledger-upgrade-brings-back-features-once-pulled-over-critical-bugs",
+      "published_at": "Sat, 01 Aug 2026 06:09:51 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "U.S. sanctions Iran-linked bitcoin insurance scheme for Strait of Hormuz ships",
-      "url": "https://www.coindesk.com/policy/2026/07/31/u-s-sanctions-iran-linked-bitcoin-insurance-scheme-for-strait-of-hormuz-ships",
-      "published_at": "Fri, 31 Jul 2026 11:58:33 +0000",
+      "title": "How bitcoin cold wallets lost $70 million in an attack that never touched the devices",
+      "url": "https://www.coindesk.com/tech/2026/08/01/how-bitcoin-cold-wallets-lost-usd70-million-in-an-attack-that-never-touched-the-devices",
+      "published_at": "Sat, 01 Aug 2026 05:55:46 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "\u200bTraders brace for an August crypto pull-back as protection against $60,000 bitcoin dip becomes top trade",
-      "url": "https://www.coindesk.com/daybook-us/2026/07/31/bitcoin-usd60-000-put-leads-the-pack-as-mood-swings-bearish-for-august",
-      "published_at": "Fri, 31 Jul 2026 11:36:45 +0000",
+      "title": "Bitcoin holds monthly gain, faces 'choppy' August as 'forced-selling' exhausted, analysts say",
+      "url": "https://www.coindesk.com/markets/2026/07/31/bitcoin-holds-onto-july-gain-as-forced-selling-fuel-was-already-spent-analysts-say",
+      "published_at": "Fri, 31 Jul 2026 20:50:58 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin, ether fall, equities rally with broader crypto market on track for best month in a year",
-      "url": "https://www.coindesk.com/markets/2026/07/31/bitcoin-ether-fall-equities-rally-with-broader-crypto-market-on-track-for-best-month-in-a-year",
-      "published_at": "Fri, 31 Jul 2026 11:07:52 +0000",
+      "title": "Tether posts $1.5 billion operating profit in Q2 as reserve buffer falls by half",
+      "url": "https://www.coindesk.com/business/2026/07/31/tether-posts-usd1-5-billion-operating-profit-in-q2-as-reserve-buffer-falls-by-half",
+      "published_at": "Fri, 31 Jul 2026 18:24:55 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
