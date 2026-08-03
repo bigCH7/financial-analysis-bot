@@ -1,12 +1,59 @@
 # Short-Term Crypto Tactical Brief
 
-_Generated automatically - 2026-08-02 16:06 UTC_
+_Generated automatically - 2026-08-03 17:15 UTC_
 
 ## Bitcoin (BTC)
 
-- **Current price:** $63,035
-- **7D change:** -3.48%
-- **30D change:** 0.77%
+- **Current price:** $63,759
+- **7D change:** -2.38%
+- **30D change:** 1.06%
+- **Trend:** **UPTREND**
+- **Momentum:** **WEAK**
+- **Volatility:** **NORMAL**
+- **Data source:** live
+
+### Status Pulse (30-Second Context)
+
+- **Tactical regime:** Trend-Following
+- **The vibe:** Aggressive buying detected - trend is currently being respected.
+
+### Momentum Engine
+
+- **Speedometer (EMA20/EMA50):** $63,171 / $63,105.
+- **Velocity (ROC 6h / 24h):** +1.98% / +0.78%.
+- **Stamina meter (RSI 14):** 67.9
+
+### Truth Layer (Order Flow & Volume)
+
+- **CVD proxy:** -216.30%.
+- **Validation:** Volume proxy is broadly aligned with price direction.
+- **Order-book imbalance (OBI):** unavailable.
+- **Depth note:** Order book unavailable.
+
+### Trap Detector (Leverage & Liquidity)
+
+- **Funding rate (Greed Tax):** N/A (source: unavailable).
+- **Leverage risk:** Funding unavailable; leverage trap signal is limited.
+- **Liquidity cluster note:** Nearest large walls are used as tactical zones when available.
+
+### Tactical Levels
+
+- **Battle Zone (Support):** $62,803
+- **Target (Resistance):** $64,777
+- **Stop-loss (ATR proxy):** $62,694
+
+### Final Entry Signal
+
+- **Action:** Buy pullbacks
+- **Validation chain:** Trend -> CVD -> Order Book -> Leverage trap.
+
+---
+
+## Ethereum (ETH)
+
+- **Current price:** $1,867
+- **7D change:** -4.36%
+- **30D change:** 4.87%
 - **Trend:** **DOWNTREND**
 - **Momentum:** **WEAK**
 - **Volatility:** **NORMAL**
@@ -19,13 +66,13 @@ _Generated automatically - 2026-08-02 16:06 UTC_
 
 ### Momentum Engine
 
-- **Speedometer (EMA20/EMA50):** $63,092 / $63,219.
-- **Velocity (ROC 6h / 24h):** -0.26% / +0.21%.
-- **Stamina meter (RSI 14):** 53.5
+- **Speedometer (EMA20/EMA50):** $1,857 / $1,860.
+- **Velocity (ROC 6h / 24h):** +1.30% / +0.30%.
+- **Stamina meter (RSI 14):** 52.1
 
 ### Truth Layer (Order Flow & Volume)
 
-- **CVD proxy:** -157.33%.
+- **CVD proxy:** +298.93%.
 - **Validation:** Volume proxy is broadly aligned with price direction.
 - **Order-book imbalance (OBI):** unavailable.
 - **Depth note:** Order book unavailable.
@@ -38,56 +85,9 @@ _Generated automatically - 2026-08-02 16:06 UTC_
 
 ### Tactical Levels
 
-- **Battle Zone (Support):** $62,773
-- **Target (Resistance):** $64,777
-- **Stop-loss (ATR proxy):** $62,660
-
-### Final Entry Signal
-
-- **Action:** Neutral / wait
-- **Validation chain:** Trend -> CVD -> Order Book -> Leverage trap.
-
----
-
-## Ethereum (ETH)
-
-- **Current price:** $1,855
-- **7D change:** -4.94%
-- **30D change:** 5.60%
-- **Trend:** **DOWNTREND**
-- **Momentum:** **WEAK**
-- **Volatility:** **NORMAL**
-- **Data source:** live
-
-### Status Pulse (30-Second Context)
-
-- **Tactical regime:** Trend-Following
-- **The vibe:** Persistent sell pressure - avoid fighting momentum.
-
-### Momentum Engine
-
-- **Speedometer (EMA20/EMA50):** $1,861 / $1,867.
-- **Velocity (ROC 6h / 24h):** -0.71% / -0.70%.
-- **Stamina meter (RSI 14):** 50.3
-
-### Truth Layer (Order Flow & Volume)
-
-- **CVD proxy:** +508.45%.
-- **Validation:** Volume proxy is broadly aligned with price direction.
-- **Order-book imbalance (OBI):** unavailable.
-- **Depth note:** Order book unavailable.
-
-### Trap Detector (Leverage & Liquidity)
-
-- **Funding rate (Greed Tax):** N/A (source: unavailable).
-- **Leverage risk:** Funding unavailable; leverage trap signal is limited.
-- **Liquidity cluster note:** Nearest large walls are used as tactical zones when available.
-
-### Tactical Levels
-
-- **Battle Zone (Support):** $1,843
+- **Battle Zone (Support):** $1,845
 - **Target (Resistance):** $1,923
-- **Stop-loss (ATR proxy):** $1,839
+- **Stop-loss (ATR proxy):** $1,840
 
 ### Final Entry Signal
 

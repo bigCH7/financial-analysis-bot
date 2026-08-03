@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-02T16:08:37.121146+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-08-02 15:59 UTC_",
+  "generated_at": "2026-08-03T17:16:41.506405+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-08-03 17:07 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,13 +9,13 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 63035.0,
+        "current_usd": 63759.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": -3.48,
-        "change_30d_pct": 0.77
+        "change_7d_pct": -2.38,
+        "change_30d_pct": 1.06
       },
       "indicators": {
-        "trend": "DOWNTREND",
+        "trend": "UPTREND",
         "momentum": "WEAK",
         "volatility": "NORMAL"
       },
@@ -23,9 +23,9 @@
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
         "summary_line": "Fair - Weak growth profile - Elevated regulatory risk.",
-        "score": 48.6
+        "score": 51.8
       },
-      "updated_at": "2026-08-02T16:08:37.119646+00:00",
+      "updated_at": "2026-08-03T17:16:41.504398+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,10 +37,10 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 1855.0,
+        "current_usd": 1867.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": -4.94,
-        "change_30d_pct": 5.6
+        "change_7d_pct": -4.36,
+        "change_30d_pct": 4.87
       },
       "indicators": {
         "trend": "DOWNTREND",
@@ -51,9 +51,9 @@
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
         "summary_line": "Fair - Weak growth profile - Elevated regulatory risk.",
-        "score": 46.8
+        "score": 48.7
       },
-      "updated_at": "2026-08-02T16:08:37.120233+00:00",
+      "updated_at": "2026-08-03T17:16:41.505137+00:00",
       "source": {
         "short_term": "live"
       }
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-08-02T16:08:37.120397+00:00",
+      "updated_at": "2026-08-03T17:16:41.505386+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-08-02T16:08:37.120524+00:00",
+      "updated_at": "2026-08-03T17:16:41.505614+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-08-02T16:08:37.120725+00:00",
+      "updated_at": "2026-08-03T17:16:41.505829+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-08-02T16:08:37.120849+00:00",
+      "updated_at": "2026-08-03T17:16:41.506023+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -193,7 +193,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-08-02T16:08:37.120995+00:00",
+      "updated_at": "2026-08-03T17:16:41.506212+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -201,72 +201,72 @@
   ],
   "overview_news": [
     {
-      "title": "The future of crypto payments won't include on-ramps or bridges, Fun CEO says",
-      "url": "https://www.coindesk.com/tech/2026/08/02/the-future-of-crypto-payments-won-t-include-on-ramps-or-bridges-fun-ceo-says",
-      "published_at": "Sun, 02 Aug 2026 16:00:00 +0000",
+      "title": "Trump-linked American Bitcoin president Matt Prusak departs for Giga Energy",
+      "url": "https://www.coindesk.com/business/2026/08/03/trump-linked-american-bitcoin-president-matt-prusak-departs-for-giga-energy",
+      "published_at": "Mon, 03 Aug 2026 15:24:45 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "The reverse bridge: Crypto meets Wall Street using perps",
-      "url": "https://www.coindesk.com/business/2026/08/02/the-reverse-bridge-crypto-meets-wall-street-using-perps",
-      "published_at": "Sun, 02 Aug 2026 13:00:00 +0000",
+      "title": "U.S.-Japan intervention revives yen carry trade fears for bitcoin",
+      "url": "https://www.coindesk.com/markets/2026/08/03/u-s-japan-intervention-revives-yen-carry-trade-fears-for-bitcoin",
+      "published_at": "Mon, 03 Aug 2026 14:46:08 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Unlike the FTX collapse, the $89 million Coldcard exploit has investors sending bitcoin back to exchanges",
-      "url": "https://www.coindesk.com/markets/2026/08/02/unlike-the-ftx-collapse-the-usd88-million-coldcard-exploit-has-investors-sending-bitcoin-back-to-exchanges",
-      "published_at": "Sun, 02 Aug 2026 12:03:51 +0000",
+      "title": "Circle slides after Morgan Stanley downgrade, cut in price target",
+      "url": "https://www.coindesk.com/markets/2026/08/03/circle-internet-slides-after-morgan-stanley-downgrade-cut-in-price-target",
+      "published_at": "Mon, 03 Aug 2026 13:59:50 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Strategy holds STRC dividend at 12%",
-      "url": "https://www.coindesk.com/markets/2026/08/01/strategy-holds-strc-dividend-at-12",
-      "published_at": "Sat, 01 Aug 2026 22:01:57 +0000",
+      "title": "Bernstein sees another leg lower for crypto markets if Clarity Act stalls",
+      "url": "https://www.coindesk.com/policy/2026/08/03/bernstein-sees-another-leg-lower-for-crypto-markets-if-clarity-act-stalls",
+      "published_at": "Mon, 03 Aug 2026 13:49:40 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin cold-wallet attack spreads to 4,500 addresses as losses near $89 million",
-      "url": "https://www.coindesk.com/tech/2026/08/02/bitcoin-cold-wallet-attack-spreads-to-4-500-addresses-as-losses-near-usd89-million",
-      "published_at": "Sat, 01 Aug 2026 20:10:54 +0000",
+      "title": "BlackRock expands tokenized cash with new blockchain-based money market offerings",
+      "url": "https://www.coindesk.com/business/2026/08/03/blackrock-expands-tokenized-cash-with-new-blockchain-based-money-market-offerings",
+      "published_at": "Mon, 03 Aug 2026 13:15:46 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Tokenized stock trading surged 288% in July, but one QQQ token drove most of it",
-      "url": "https://www.coindesk.com/markets/2026/08/01/tokenized-stock-trading-surged-288-in-july-but-one-qqq-token-drove-most-of-it",
-      "published_at": "Sat, 01 Aug 2026 16:51:35 +0000",
+      "title": "Tom Lee's Bitmine bought more ether, added to stock buyback last week",
+      "url": "https://www.coindesk.com/business/2026/08/03/bitmine-bought-more-ether-added-to-stock-buyback-last-week",
+      "published_at": "Mon, 03 Aug 2026 12:53:21 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bank of Italy research suggests stablecoins aren't necessarily cheaper for remittances",
-      "url": "https://www.coindesk.com/business/2026/08/01/bank-of-italy-research-suggests-stablecoins-aren-t-necessarily-cheaper-for-remittances",
-      "published_at": "Sat, 01 Aug 2026 16:00:00 +0000",
+      "title": "Strategy sold another $105 million of bitcoin last week, repurchased $81.2 million of STRC",
+      "url": "https://www.coindesk.com/markets/2026/08/03/strategy-sold-another-usd105-million-of-bitcoin-last-week-repurchased-usd81-2-million-of-strc",
+      "published_at": "Mon, 03 Aug 2026 12:17:10 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin mining difficulty shrinks 14% from this year's high as plunging revenues force operators to pivot",
-      "url": "https://www.coindesk.com/business/2026/08/01/bitcoin-mining-difficulty-shrinks-14-from-this-year-s-high-as-plunging-revenues-force-operators-to-pivot",
-      "published_at": "Sat, 01 Aug 2026 15:51:10 +0000",
+      "title": "Bitget set to exit Japan, close all remaining positions by year-end",
+      "url": "https://www.coindesk.com/policy/2026/08/03/bitget-set-to-exit-japan-close-all-remaining-positions-by-year-end",
+      "published_at": "Mon, 03 Aug 2026 12:03:41 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "SEC to review Nasdaq bitcoin options approval after CME challenge",
-      "url": "https://www.coindesk.com/policy/2026/08/01/sec-to-review-nasdaq-bitcoin-options-approval-after-cme-challenge",
-      "published_at": "Sat, 01 Aug 2026 15:48:27 +0000",
+      "title": "Solo Bitcoin miner nets $200,000 as Coldcard hardware wallet drains rocks sentiment",
+      "url": "https://www.coindesk.com/daybook-us/2026/08/03/solo-bitcoin-miner-nets-usd200-000-as-coldcard-hardware-wallet-drains-rocks-sentiment",
+      "published_at": "Mon, 03 Aug 2026 11:18:31 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Solana Foundation's new CISO warns AI is making crypto scams more convincing",
-      "url": "https://www.coindesk.com/tech/2026/07/31/solana-foundation-s-new-ciso-warns-ai-is-making-crypto-scams-more-convincing",
-      "published_at": "Sat, 01 Aug 2026 13:00:00 +0000",
+      "title": "Bitcoin, ether decline as Coldcard exploit enters a fifth day",
+      "url": "https://www.coindesk.com/markets/2026/08/03/bitcoin-ether-decline-as-coldcard-exploit-enters-a-fifth-day",
+      "published_at": "Mon, 03 Aug 2026 10:51:37 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
