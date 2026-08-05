@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-04T16:59:06.401523+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-08-04 16:50 UTC_",
+  "generated_at": "2026-08-05T16:50:04.316537+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-08-05 16:41 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,10 +9,10 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 63873.0,
+        "current_usd": 64602.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": -0.13,
-        "change_30d_pct": 0.45
+        "change_7d_pct": 1.04,
+        "change_30d_pct": 0.94
       },
       "indicators": {
         "trend": "UPTREND",
@@ -23,9 +23,9 @@
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
         "summary_line": "Fair - Weak growth profile - Elevated regulatory risk.",
-        "score": 51.5
+        "score": 51.9
       },
-      "updated_at": "2026-08-04T16:59:06.399147+00:00",
+      "updated_at": "2026-08-05T16:50:04.314249+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,10 +37,10 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 1866.0,
+        "current_usd": 1890.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": -2.95,
-        "change_30d_pct": 4.6
+        "change_7d_pct": -0.93,
+        "change_30d_pct": 5.08
       },
       "indicators": {
         "trend": "UPTREND",
@@ -51,9 +51,9 @@
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
         "summary_line": "Fair - Weak growth profile - Elevated regulatory risk.",
-        "score": 48.6
+        "score": 49.6
       },
-      "updated_at": "2026-08-04T16:59:06.399986+00:00",
+      "updated_at": "2026-08-05T16:50:04.315059+00:00",
       "source": {
         "short_term": "live"
       }
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-08-04T16:59:06.400299+00:00",
+      "updated_at": "2026-08-05T16:50:04.315360+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-08-04T16:59:06.400556+00:00",
+      "updated_at": "2026-08-05T16:50:04.315600+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-08-04T16:59:06.400799+00:00",
+      "updated_at": "2026-08-05T16:50:04.315836+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-08-04T16:59:06.401024+00:00",
+      "updated_at": "2026-08-05T16:50:04.316061+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -193,7 +193,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-08-04T16:59:06.401287+00:00",
+      "updated_at": "2026-08-05T16:50:04.316317+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -201,72 +201,72 @@
   ],
   "overview_news": [
     {
-      "title": "Clarity Act sits idle over Trump ethics question as Warren asks SEC to investigate him",
-      "url": "https://www.coindesk.com/policy/2026/08/04/clarity-act-sits-idle-over-trump-ethics-question-as-warren-asks-sec-to-investigate-him",
-      "published_at": "Tue, 04 Aug 2026 16:21:59 +0000",
+      "title": "Coldcard exploit could boost demand for regulated bitcoin exposure, analysts say",
+      "url": "https://www.coindesk.com/tech/2026/08/05/coldcard-exploit-could-boost-demand-for-regulated-bitcoin-exposure-analysts-say",
+      "published_at": "Wed, 05 Aug 2026 15:44:08 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Wells Fargo joins JPMorgan and Citi in the race to tokenize Wall Street\u2019s settlement rails",
-      "url": "https://www.coindesk.com/business/2026/08/04/wells-fargo-to-offer-tokenized-deposits-for-24-7-corporate-payments",
-      "published_at": "Tue, 04 Aug 2026 15:47:05 +0000",
+      "title": "Crypto Long & Short: Putting the bitcoin sizing question to the test",
+      "url": "https://www.coindesk.com/coindesk-indices/2026/08/05/crypto-long-and-short-putting-the-bitcoin-sizing-question-to-the-test",
+      "published_at": "Wed, 05 Aug 2026 15:03:19 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin\u2019s $63,000 zone emerges as key battleground for buyers: Glassnode",
-      "url": "https://www.coindesk.com/markets/2026/08/04/bitcoin-s-usd63-000-zone-emerges-as-key-battleground-for-buyers-glassnode",
-      "published_at": "Tue, 04 Aug 2026 14:49:33 +0000",
+      "title": "Strategy\u2019s STRC rebounds 30% as company builds cash reserve, bitcoin price stabilizes",
+      "url": "https://www.coindesk.com/markets/2026/08/05/strategy-s-strc-rebounds-30-as-company-builds-cash-reserve-bitcoin-price-stabilizes",
+      "published_at": "Wed, 05 Aug 2026 14:44:30 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Polymarket targets $20 billion valuation as competition heats up in prediction market sector",
-      "url": "https://www.coindesk.com/markets/2026/08/04/polymarket-targets-usd20-billion-valuation-as-competition-heats-up-in-prediction-markets",
-      "published_at": "Tue, 04 Aug 2026 14:38:23 +0000",
+      "title": "Nomura\u2019s Laser Digital backs ZIGChain for onchain private credit push in UAE",
+      "url": "https://www.coindesk.com/business/2026/08/05/noumura-s-laser-digital-backs-zigchain-for-onchain-private-credit-push-in-uae",
+      "published_at": "Wed, 05 Aug 2026 13:25:04 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Intesa Sanpaolo slashed IBIT stake by 94% in 2Q, tripled ether ETF holding as crypto prices slumped",
-      "url": "https://www.coindesk.com/business/2026/08/04/intesa-sanpaolo-slashed-ibit-stake-by-94-in-2q-tripled-ether-etf-holding-as-crypto-prices-slumped",
-      "published_at": "Tue, 04 Aug 2026 14:25:50 +0000",
+      "title": "Crypto may have institutionalized, but it still trades like a rumor mill",
+      "url": "https://www.coindesk.com/opinion/2026/08/05/crypto-may-have-institutionalized-but-it-still-trades-like-a-rumor-mill",
+      "published_at": "Wed, 05 Aug 2026 13:00:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Dinari brings tokenized U.S. stocks to American investors as equity race heats up",
-      "url": "https://www.coindesk.com/business/2026/08/04/dinari-brings-tokenized-u-s-stocks-to-american-investors-as-equity-race-heats-up",
-      "published_at": "Tue, 04 Aug 2026 14:00:00 +0000",
+      "title": "Ondo Finance hires former Blockchain.com CFO Adam Schlisman",
+      "url": "https://www.coindesk.com/business/2026/08/05/ondo-finance-hires-former-blockchain-com-cfo-adam-schlisman",
+      "published_at": "Wed, 05 Aug 2026 13:00:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "As Clarity Act teeters, mystery group hammers away at crypto in Washington ads",
-      "url": "https://www.coindesk.com/policy/2026/08/03/as-clarity-act-teeters-mystery-group-hammers-away-at-crypto-in-washington-ads",
-      "published_at": "Tue, 04 Aug 2026 13:00:00 +0000",
+      "title": "Galaxy Digital shares slip 5% after second-quarter results",
+      "url": "https://www.coindesk.com/business/2026/08/05/galaxy-digital-shares-slip-5-after-second-quarter-results",
+      "published_at": "Wed, 05 Aug 2026 12:42:19 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "BitGo\u2019s WBTC move pushes LayerZero-to-Chainlink tally near $15 billion",
-      "url": "https://www.coindesk.com/business/2026/08/04/bitgo-s-wbtc-move-pushes-layerzero-to-chainlink-tally-near-usd15-billion",
-      "published_at": "Tue, 04 Aug 2026 13:00:00 +0000",
+      "title": "AI agent token once worth $2.4 billion ends with founder calling it dead",
+      "url": "https://www.coindesk.com/markets/2026/08/05/ai-agent-token-once-worth-usd2-4-billion-ends-with-founder-calling-it-dead",
+      "published_at": "Wed, 05 Aug 2026 12:28:39 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "BNY to add crypto staking to digital asset custody platform",
-      "url": "https://www.coindesk.com/business/2026/08/04/bny-to-add-crypto-staking-to-digital-asset-custody-platform",
-      "published_at": "Tue, 04 Aug 2026 12:30:00 +0000",
+      "title": "SpaceX extends decline to 11% on lockup expiration and capex spending fears",
+      "url": "https://www.coindesk.com/markets/2026/08/05/spacex-stock-drops-11-premarket-as-lockup-spending-fears-hit-first-earnings",
+      "published_at": "Wed, 05 Aug 2026 12:12:08 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Coldcard urges users to move bitcoin as exploit is still in progress",
-      "url": "https://www.coindesk.com/tech/2026/08/04/coldcard-urges-users-to-move-bitcoin-as-active-wallet-exploit-continues",
-      "published_at": "Tue, 04 Aug 2026 12:00:25 +0000",
+      "title": "Yellow Card raises $40 million to link banks to stablecoin processing",
+      "url": "https://www.coindesk.com/business/2026/08/05/yellow-card-raises-usd40-million-to-link-banks-to-stablecoin-processing",
+      "published_at": "Wed, 05 Aug 2026 12:09:05 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }

@@ -1,12 +1,12 @@
 # Short-Term Crypto Tactical Brief
 
-_Generated automatically - 2026-08-04 16:57 UTC_
+_Generated automatically - 2026-08-05 16:48 UTC_
 
 ## Bitcoin (BTC)
 
-- **Current price:** $63,873
-- **7D change:** -0.13%
-- **30D change:** 0.45%
+- **Current price:** $64,602
+- **7D change:** 1.04%
+- **30D change:** 0.94%
 - **Trend:** **UPTREND**
 - **Momentum:** **WEAK**
 - **Volatility:** **NORMAL**
@@ -19,13 +19,13 @@ _Generated automatically - 2026-08-04 16:57 UTC_
 
 ### Momentum Engine
 
-- **Speedometer (EMA20/EMA50):** $63,714 / $63,474.
-- **Velocity (ROC 6h / 24h):** +0.26% / +0.28%.
-- **Stamina meter (RSI 14):** 53.1
+- **Speedometer (EMA20/EMA50):** $64,204 / $63,940.
+- **Velocity (ROC 6h / 24h):** +0.89% / +0.97%.
+- **Stamina meter (RSI 14):** 59.3
 
 ### Truth Layer (Order Flow & Volume)
 
-- **CVD proxy:** -241.15%.
+- **CVD proxy:** +58.32%.
 - **Validation:** Volume proxy is broadly aligned with price direction.
 - **Order-book imbalance (OBI):** unavailable.
 - **Depth note:** Order book unavailable.
@@ -40,7 +40,7 @@ _Generated automatically - 2026-08-04 16:57 UTC_
 
 - **Battle Zone (Support):** $62,803
 - **Target (Resistance):** $64,777
-- **Stop-loss (ATR proxy):** $62,672
+- **Stop-loss (ATR proxy):** $62,666
 
 ### Final Entry Signal
 
@@ -51,9 +51,9 @@ _Generated automatically - 2026-08-04 16:57 UTC_
 
 ## Ethereum (ETH)
 
-- **Current price:** $1,866
-- **7D change:** -2.95%
-- **30D change:** 4.60%
+- **Current price:** $1,890
+- **7D change:** -0.93%
+- **30D change:** 5.08%
 - **Trend:** **UPTREND**
 - **Momentum:** **WEAK**
 - **Volatility:** **NORMAL**
@@ -66,13 +66,13 @@ _Generated automatically - 2026-08-04 16:57 UTC_
 
 ### Momentum Engine
 
-- **Speedometer (EMA20/EMA50):** $1,864 / $1,862.
-- **Velocity (ROC 6h / 24h):** +0.02% / +0.13%.
-- **Stamina meter (RSI 14):** 51.2
+- **Speedometer (EMA20/EMA50):** $1,872 / $1,868.
+- **Velocity (ROC 6h / 24h):** +1.19% / +0.99%.
+- **Stamina meter (RSI 14):** 64.9
 
 ### Truth Layer (Order Flow & Volume)
 
-- **CVD proxy:** +87.06%.
+- **CVD proxy:** +323.19%.
 - **Validation:** Volume proxy is broadly aligned with price direction.
 - **Order-book imbalance (OBI):** unavailable.
 - **Depth note:** Order book unavailable.
