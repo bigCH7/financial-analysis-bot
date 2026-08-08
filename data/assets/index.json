@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-07T16:03:27.630390+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-08-07 15:54 UTC_",
+  "generated_at": "2026-08-08T15:36:32.394305+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-08-08 15:27 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,10 +9,10 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 64882.0,
+        "current_usd": 65044.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": 3.16,
-        "change_30d_pct": 4.23
+        "change_7d_pct": 3.41,
+        "change_30d_pct": 2.93
       },
       "indicators": {
         "trend": "UPTREND",
@@ -23,9 +23,9 @@
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
         "summary_line": "Fair - Weak growth profile - Elevated regulatory risk.",
-        "score": 51.2
+        "score": 48.2
       },
-      "updated_at": "2026-08-07T16:03:27.628226+00:00",
+      "updated_at": "2026-08-08T15:36:32.392161+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,10 +37,10 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 1917.0,
+        "current_usd": 1921.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": 2.89,
-        "change_30d_pct": 10.03
+        "change_7d_pct": 3.1,
+        "change_30d_pct": 10.1
       },
       "indicators": {
         "trend": "UPTREND",
@@ -51,9 +51,9 @@
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
         "summary_line": "Fair - Weak growth profile - Elevated regulatory risk.",
-        "score": 50.3
+        "score": 45.6
       },
-      "updated_at": "2026-08-07T16:03:27.629041+00:00",
+      "updated_at": "2026-08-08T15:36:32.392947+00:00",
       "source": {
         "short_term": "live"
       }
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-08-07T16:03:27.629311+00:00",
+      "updated_at": "2026-08-08T15:36:32.393224+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-08-07T16:03:27.629526+00:00",
+      "updated_at": "2026-08-08T15:36:32.393439+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-08-07T16:03:27.629761+00:00",
+      "updated_at": "2026-08-08T15:36:32.393682+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-08-07T16:03:27.629967+00:00",
+      "updated_at": "2026-08-08T15:36:32.393895+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -193,7 +193,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-08-07T16:03:27.630183+00:00",
+      "updated_at": "2026-08-08T15:36:32.394104+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -201,72 +201,72 @@
   ],
   "overview_news": [
     {
-      "title": "OKX's Rafique doubts Clarity Act will pass, warns optimism is already priced into bitcoin",
-      "url": "https://www.coindesk.com/policy/2026/08/04/okx-s-rafique-doubts-clarity-act-will-pass-warns-optimism-is-already-priced-into-bitcoin",
-      "published_at": "Fri, 07 Aug 2026 15:22:44 +0000",
+      "title": "Brazil's central bank orders exchanges to delay large crypto transfers abroad",
+      "url": "https://www.coindesk.com/business/2026/08/08/brazil-s-central-bank-orders-exchanges-to-delay-large-crypto-transfers-abroad",
+      "published_at": "Sat, 08 Aug 2026 15:25:38 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "How a five-second trick let traders drain millions from Polymarket",
-      "url": "https://www.coindesk.com/business/2026/08/07/how-a-five-second-trick-let-traders-drain-millions-from-polymarket",
-      "published_at": "Fri, 07 Aug 2026 15:09:07 +0000",
+      "title": "Trillions in institutional money to flow into bitcoin, says Bitwise's Matt Hougan",
+      "url": "https://www.coindesk.com/business/2026/08/08/trillions-in-institutional-money-to-flow-into-bitcoin-says-bitwise-s-matt-hougan",
+      "published_at": "Sat, 08 Aug 2026 14:00:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "A part of FTX survived, and it\u2019s the case for the CLARITY Act",
-      "url": "https://www.coindesk.com/opinion/2026/08/07/a-part-of-ftx-survived-and-it-s-the-case-for-the-clarity-act",
-      "published_at": "Fri, 07 Aug 2026 14:30:25 +0000",
+      "title": "Why trillion-dollar asset manager T. Rowe Price put memecoins in its crypto ETF",
+      "url": "https://www.coindesk.com/markets/2026/08/06/why-trillion-dollar-asset-manager-t-rowe-price-put-memecoins-in-its-crypto-etf",
+      "published_at": "Sat, 08 Aug 2026 13:00:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Russia cracks down on unlicensed crypto exchanges it claims are linked to Ukraine",
-      "url": "https://www.coindesk.com/policy/2026/08/07/russia-cracks-down-on-unlicensed-crypto-exchanges-it-claims-are-linked-to-ukraine",
-      "published_at": "Fri, 07 Aug 2026 14:04:47 +0000",
+      "title": "U.S. Senate opens first stage of crypto Clarity Act voting to give bill a chance next month",
+      "url": "https://www.coindesk.com/policy/2026/08/08/u-s-senate-opens-first-stage-of-crypto-clarity-act-voting-to-give-bill-a-chance-next-month",
+      "published_at": "Sat, 08 Aug 2026 09:07:24 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "U.S. unexpectedly shed 23,000 jobs in July, putting Fed rate hikes in question",
-      "url": "https://www.coindesk.com/markets/2026/08/07/the-u-s-lost-23-000-jobs-in-july-far-shy-of-forecasts-for-a-gain-of-80-000",
-      "published_at": "Fri, 07 Aug 2026 12:31:51 +0000",
+      "title": "Another Bitcoin infrastructure exploit hits, this time draining Lightning payment servers",
+      "url": "https://www.coindesk.com/tech/2026/08/08/another-bitcoin-infrastructure-exploit-hits-this-time-draining-merchant-lightning-nodes",
+      "published_at": "Sat, 08 Aug 2026 07:46:04 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "After a Clarity Act funeral, the crypto world would keep turning",
-      "url": "https://www.coindesk.com/news-analysis/2026/08/06/after-a-clarity-act-funeral-the-crypto-world-would-keep-turning",
-      "published_at": "Fri, 07 Aug 2026 12:00:00 +0000",
+      "title": "New XRP Ledger amendments target $530 million in tokenized Wall Street assets",
+      "url": "https://www.coindesk.com/tech/2026/08/07/new-xrp-ledger-amendments-target-usd530-million-in-tokenized-wall-street-assets",
+      "published_at": "Sat, 08 Aug 2026 03:30:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Why Bitcoin's BIP-110 refuses to die despite near-zero miner support",
-      "url": "https://www.coindesk.com/tech/2026/08/06/why-bitcoin-s-bip-110-refuses-to-die-despite-near-zero-miner-support",
-      "published_at": "Fri, 07 Aug 2026 11:45:49 +0000",
+      "title": "Bitcoin holders risk losing real BTC if they sell coins from BIP-110 fork, says developer",
+      "url": "https://www.coindesk.com/tech/2026/08/08/bitcoin-holders-risk-losing-real-btc-if-they-sell-coins-from-bip-110-fork-says-developer",
+      "published_at": "Sat, 08 Aug 2026 02:30:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin\u2019s volatility has nearly disappeared. The risk hasn\u2019t.",
-      "url": "https://www.coindesk.com/daybook-us/2026/08/07/bitcoin-s-volatility-has-nearly-disappeared-the-risk-hasn-t",
-      "published_at": "Fri, 07 Aug 2026 11:42:20 +0000",
+      "title": "Trump Media pulls back from crypto, scraps Crypto.com's CRO token treasury deal",
+      "url": "https://www.coindesk.com/business/2026/08/07/trump-media-pulls-back-from-crypto-scraps-crypto-com-cro-treasury-deal",
+      "published_at": "Fri, 07 Aug 2026 21:13:21 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin hovers below $65,000 as Middle East tensions escalate further",
-      "url": "https://www.coindesk.com/markets/2026/08/07/cmt",
-      "published_at": "Fri, 07 Aug 2026 10:36:14 +0000",
+      "title": "Trump-Backed American Bitcoin director Justin Mateen buys nearly $2 million of ABTC stock",
+      "url": "https://www.coindesk.com/business/2026/08/07/trump-backed-american-bitcoin-director-justin-mateen-buys-nearly-usd2-million-of-abtc-stock",
+      "published_at": "Fri, 07 Aug 2026 20:20:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Coldcard fallout shows up onchain as 210,000 bitcoin leaves old wallets",
-      "url": "https://www.coindesk.com/markets/2026/08/07/coldcard-fallout-shows-up-onchain-as-210-000-bitcoin-leaves-old-wallets",
-      "published_at": "Fri, 07 Aug 2026 09:24:00 +0000",
+      "title": "U.S. widens Iran crypto crackdown with sanctions on two exchanges",
+      "url": "https://www.coindesk.com/policy/2026/08/07/u-s-widens-iran-crypto-crackdown-with-sanctions-on-two-exchanges",
+      "published_at": "Fri, 07 Aug 2026 18:42:44 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
