@@ -1,7 +1,49 @@
 {
-  "generated_at": "2026-08-08 15:35 UTC",
+  "generated_at": "2026-08-09 15:37 UTC",
   "count": 55,
   "items": [
+    {
+      "title": "Hyperliquid\u2019s RWA perps boom is eating into the revenue that backs HYPE",
+      "link": "https://www.coindesk.com/business/2026/08/09/hyperliquid-s-rwa-perps-boom-is-eating-into-the-revenue-that-backs-hype",
+      "pub_date": "Sun, 09 Aug 2026 15:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Bitcoin investors pour $853 million into spot ETFs. BlackRock\u2019s IBIT claims the bulk",
+      "link": "https://www.coindesk.com/markets/2026/08/09/bitcoin-investors-pour-usd853-million-into-spot-etfs-blackrock-s-ibit-claims-the-bulk",
+      "pub_date": "Sun, 09 Aug 2026 14:19:35 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Crypto is going through a massive dot-com style shakeout as over 100 projects fold in 2026",
+      "link": "https://www.coindesk.com/business/2026/08/09/crypto-is-going-through-a-massive-dot-com-style-shakeout-as-over-100-projects-fold-in-2026",
+      "pub_date": "Sun, 09 Aug 2026 13:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Controversial Bitcoin fork BIP-110 mines two blocks, then stops",
+      "link": "https://www.coindesk.com/tech/2026/08/09/controversial-bitcoin-fork-bip-110-mines-two-blocks-then-stops",
+      "pub_date": "Sun, 09 Aug 2026 05:08:20 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Bitcoin hits block 961,632 as the controversial BIP-110 soft fork attempt begins",
+      "link": "https://www.coindesk.com/tech/2026/08/07/frame-bitcoin-s-bip-110-enters-mandatory-signaling-with-less-than-3-miner-support",
+      "pub_date": "Sat, 08 Aug 2026 20:06:47 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Hardware wallet sales in Russia more than double as new crypto rules near",
+      "link": "https://www.coindesk.com/business/2026/08/08/hardware-wallet-sales-in-russia-more-than-double-as-new-crypto-rules-near",
+      "pub_date": "Sat, 08 Aug 2026 17:48:02 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
     {
       "title": "Brazil's central bank orders exchanges to delay large crypto transfers abroad",
       "link": "https://www.coindesk.com/business/2026/08/08/brazil-s-central-bank-orders-exchanges-to-delay-large-crypto-transfers-abroad",
@@ -136,45 +178,45 @@
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin\u2019s volatility has nearly disappeared. The risk hasn\u2019t.",
-      "link": "https://www.coindesk.com/daybook-us/2026/08/07/bitcoin-s-volatility-has-nearly-disappeared-the-risk-hasn-t",
-      "pub_date": "Fri, 07 Aug 2026 11:42:20 +0000",
-      "source": "CoinDesk",
+      "title": "BIP-110 Bitcoin branch stalls after two blocks as gap widens",
+      "link": "https://cointelegraph.com/news/bitcoin-bip-110-branch-stalls-miner-support?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sun, 09 Aug 2026 11:00:53 +0000",
+      "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin hovers below $65,000 as Middle East tensions escalate further",
-      "link": "https://www.coindesk.com/markets/2026/08/07/cmt",
-      "pub_date": "Fri, 07 Aug 2026 10:36:14 +0000",
-      "source": "CoinDesk",
+      "title": "Brazil targets crypto fraud with up to 24-hour transfer hold",
+      "link": "https://cointelegraph.com/news/brazil-targets-crypto-fraud-with-up-to-24-hour-transfer-hold?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sun, 09 Aug 2026 09:10:39 +0000",
+      "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Coldcard fallout shows up onchain as 210,000 bitcoin leaves old wallets",
-      "link": "https://www.coindesk.com/markets/2026/08/07/coldcard-fallout-shows-up-onchain-as-210-000-bitcoin-leaves-old-wallets",
-      "pub_date": "Fri, 07 Aug 2026 09:24:00 +0000",
-      "source": "CoinDesk",
+      "title": "BTCPay restricts remote Lightning access after attackers steal funds",
+      "link": "https://cointelegraph.com/news/btcpay-restricts-remote-lightning-access-after-attackers-steal-funds?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sun, 09 Aug 2026 05:46:07 +0000",
+      "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Crypto market maker Wintermute lands SEC approval to trade equities and ETF blocks",
-      "link": "https://www.coindesk.com/business/2026/08/07/wintermute-gains-u-s-broker-dealer-status-in-wall-street-push",
-      "pub_date": "Fri, 07 Aug 2026 08:46:17 +0000",
-      "source": "CoinDesk",
+      "title": "Bitcoin\u2019s BIP-110 enters mandatory signaling with miner support below 3%",
+      "link": "https://cointelegraph.com/news/bitcoin-bip-110-mandatory-signaling?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sat, 08 Aug 2026 21:17:08 +0000",
+      "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Ethereum staking token weETH splits from restaking as rewards debate heats up",
-      "link": "https://www.coindesk.com/tech/2026/08/07/ethereum-staking-token-weeth-splits-from-restaking-as-rewards-debate-heats-up",
-      "pub_date": "Fri, 07 Aug 2026 08:01:28 +0000",
-      "source": "CoinDesk",
+      "title": "Here\u2019s what happened in crypto today",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sat, 08 Aug 2026 17:19:56 +0000",
+      "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Live updates: 'This can't last forever': Mulling bitcoin's lame price action as risk markets rally",
-      "link": "https://www.coindesk.com/markets/2026/08/07/live-updates-bitcoin-flat-at-usd64-300-before-us-jobs-report-with-oil-back-as-a-headwind",
-      "pub_date": "Fri, 07 Aug 2026 07:44:57 +0000",
-      "source": "CoinDesk",
+      "title": "US spot Bitcoin ETFs post best week since April with $1B inflows",
+      "link": "https://cointelegraph.com/news/us-bitcoin-etfs-best-weekly-inflows-april-coldcard-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sat, 08 Aug 2026 16:20:17 +0000",
+      "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
@@ -220,13 +262,6 @@
       "fetch_source": "live"
     },
     {
-      "title": "Here\u2019s what happened in crypto today",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 07 Aug 2026 18:36:10 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
       "title": "Circle expands USDC to OKX ecosystem with X Layer launch",
       "link": "https://cointelegraph.com/news/circle-native-usdc-okx-x-layer-cctp?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "pub_date": "Fri, 07 Aug 2026 17:36:45 +0000",
@@ -244,41 +279,6 @@
       "title": "Bitcoin price tags $65.3K August high as low US jobs numbers cool Fed rate bets",
       "link": "https://cointelegraph.com/markets/bitcoin-price-tags-653k-august-high-as-low-us-jobs-numbers-cool-fed-rate-bets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "pub_date": "Fri, 07 Aug 2026 15:23:15 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Crypto Biz: Crypto\u2019s biggest business is starting to look a lot like banking",
-      "link": "https://cointelegraph.com/news/crypto-biz-crypto-business-converges-traditional-banking?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 07 Aug 2026 15:07:49 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Fierce backlash to Ethereum\u2019s EIP-8363 staking proposal",
-      "link": "https://cointelegraph.com/magazine/fierce-backlash-to-ethereums-latest-staking-proposal-eip-8363?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 07 Aug 2026 13:30:00 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitcoiners turn to dice throws as self-custody setups are re-evaluated",
-      "link": "https://cointelegraph.com/features/bitcoiners-turn-to-dice-throws-as-self-custody-setups-are-re-evaluated?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 07 Aug 2026 13:00:01 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Russia cracks down on 9 crypto exchanges in Moscow City",
-      "link": "https://cointelegraph.com/news/russia-shuts-down-crypto-exchanges-moscow-city?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 07 Aug 2026 12:28:41 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "CEX perpetual futures volume falls to $4T, lowest since late 2023",
-      "link": "https://cointelegraph.com/news/cex-futures-volume-falls-4t-july-lowest-level-2023?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 07 Aug 2026 12:13:40 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     }

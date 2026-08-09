@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-08T15:36:32.394305+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-08-08 15:27 UTC_",
+  "generated_at": "2026-08-09T15:39:15.939815+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-08-09 15:30 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,10 +9,10 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 65044.0,
+        "current_usd": 65185.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": 3.41,
-        "change_30d_pct": 2.93
+        "change_7d_pct": 2.71,
+        "change_30d_pct": 1.68
       },
       "indicators": {
         "trend": "UPTREND",
@@ -23,9 +23,9 @@
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
         "summary_line": "Fair - Weak growth profile - Elevated regulatory risk.",
-        "score": 48.2
+        "score": 46.9
       },
-      "updated_at": "2026-08-08T15:36:32.392161+00:00",
+      "updated_at": "2026-08-09T15:39:15.938451+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,10 +37,10 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 1921.0,
+        "current_usd": 1925.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": 3.1,
-        "change_30d_pct": 10.1
+        "change_7d_pct": 2.28,
+        "change_30d_pct": 7.21
       },
       "indicators": {
         "trend": "UPTREND",
@@ -48,12 +48,12 @@
         "volatility": "NORMAL"
       },
       "valuation": {
-        "verdict": "Neutral / fair-value zone",
-        "band": "fair",
-        "summary_line": "Fair - Weak growth profile - Elevated regulatory risk.",
-        "score": 45.6
+        "verdict": "Caution / risk-reward mixed",
+        "band": "overvalued",
+        "summary_line": "Overvalued - Weak growth profile - Elevated regulatory risk.",
+        "score": 44.0
       },
-      "updated_at": "2026-08-08T15:36:32.392947+00:00",
+      "updated_at": "2026-08-09T15:39:15.939008+00:00",
       "source": {
         "short_term": "live"
       }
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-08-08T15:36:32.393224+00:00",
+      "updated_at": "2026-08-09T15:39:15.939192+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-08-08T15:36:32.393439+00:00",
+      "updated_at": "2026-08-09T15:39:15.939343+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-08-08T15:36:32.393682+00:00",
+      "updated_at": "2026-08-09T15:39:15.939465+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-08-08T15:36:32.393895+00:00",
+      "updated_at": "2026-08-09T15:39:15.939597+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -193,13 +193,55 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-08-08T15:36:32.394104+00:00",
+      "updated_at": "2026-08-09T15:39:15.939704+00:00",
       "source": {
         "short_term": "unavailable"
       }
     }
   ],
   "overview_news": [
+    {
+      "title": "Hyperliquid\u2019s RWA perps boom is eating into the revenue that backs HYPE",
+      "url": "https://www.coindesk.com/business/2026/08/09/hyperliquid-s-rwa-perps-boom-is-eating-into-the-revenue-that-backs-hype",
+      "published_at": "Sun, 09 Aug 2026 15:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Bitcoin investors pour $853 million into spot ETFs. BlackRock\u2019s IBIT claims the bulk",
+      "url": "https://www.coindesk.com/markets/2026/08/09/bitcoin-investors-pour-usd853-million-into-spot-etfs-blackrock-s-ibit-claims-the-bulk",
+      "published_at": "Sun, 09 Aug 2026 14:19:35 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Crypto is going through a massive dot-com style shakeout as over 100 projects fold in 2026",
+      "url": "https://www.coindesk.com/business/2026/08/09/crypto-is-going-through-a-massive-dot-com-style-shakeout-as-over-100-projects-fold-in-2026",
+      "published_at": "Sun, 09 Aug 2026 13:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Controversial Bitcoin fork BIP-110 mines two blocks, then stops",
+      "url": "https://www.coindesk.com/tech/2026/08/09/controversial-bitcoin-fork-bip-110-mines-two-blocks-then-stops",
+      "published_at": "Sun, 09 Aug 2026 05:08:20 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Bitcoin hits block 961,632 as the controversial BIP-110 soft fork attempt begins",
+      "url": "https://www.coindesk.com/tech/2026/08/07/frame-bitcoin-s-bip-110-enters-mandatory-signaling-with-less-than-3-miner-support",
+      "published_at": "Sat, 08 Aug 2026 20:06:47 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Hardware wallet sales in Russia more than double as new crypto rules near",
+      "url": "https://www.coindesk.com/business/2026/08/08/hardware-wallet-sales-in-russia-more-than-double-as-new-crypto-rules-near",
+      "published_at": "Sat, 08 Aug 2026 17:48:02 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
     {
       "title": "Brazil's central bank orders exchanges to delay large crypto transfers abroad",
       "url": "https://www.coindesk.com/business/2026/08/08/brazil-s-central-bank-orders-exchanges-to-delay-large-crypto-transfers-abroad",
@@ -225,48 +267,6 @@
       "title": "U.S. Senate opens first stage of crypto Clarity Act voting to give bill a chance next month",
       "url": "https://www.coindesk.com/policy/2026/08/08/u-s-senate-opens-first-stage-of-crypto-clarity-act-voting-to-give-bill-a-chance-next-month",
       "published_at": "Sat, 08 Aug 2026 09:07:24 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Another Bitcoin infrastructure exploit hits, this time draining Lightning payment servers",
-      "url": "https://www.coindesk.com/tech/2026/08/08/another-bitcoin-infrastructure-exploit-hits-this-time-draining-merchant-lightning-nodes",
-      "published_at": "Sat, 08 Aug 2026 07:46:04 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "New XRP Ledger amendments target $530 million in tokenized Wall Street assets",
-      "url": "https://www.coindesk.com/tech/2026/08/07/new-xrp-ledger-amendments-target-usd530-million-in-tokenized-wall-street-assets",
-      "published_at": "Sat, 08 Aug 2026 03:30:00 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitcoin holders risk losing real BTC if they sell coins from BIP-110 fork, says developer",
-      "url": "https://www.coindesk.com/tech/2026/08/08/bitcoin-holders-risk-losing-real-btc-if-they-sell-coins-from-bip-110-fork-says-developer",
-      "published_at": "Sat, 08 Aug 2026 02:30:00 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Trump Media pulls back from crypto, scraps Crypto.com's CRO token treasury deal",
-      "url": "https://www.coindesk.com/business/2026/08/07/trump-media-pulls-back-from-crypto-scraps-crypto-com-cro-treasury-deal",
-      "published_at": "Fri, 07 Aug 2026 21:13:21 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Trump-Backed American Bitcoin director Justin Mateen buys nearly $2 million of ABTC stock",
-      "url": "https://www.coindesk.com/business/2026/08/07/trump-backed-american-bitcoin-director-justin-mateen-buys-nearly-usd2-million-of-abtc-stock",
-      "published_at": "Fri, 07 Aug 2026 20:20:00 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "U.S. widens Iran crypto crackdown with sanctions on two exchanges",
-      "url": "https://www.coindesk.com/policy/2026/08/07/u-s-widens-iran-crypto-crackdown-with-sanctions-on-two-exchanges",
-      "published_at": "Fri, 07 Aug 2026 18:42:44 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
