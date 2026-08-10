@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-09T15:39:15.939815+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-08-09 15:30 UTC_",
+  "generated_at": "2026-08-10T16:07:21.576768+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-08-10 15:58 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,13 +9,13 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 65185.0,
+        "current_usd": 64251.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": 2.71,
-        "change_30d_pct": 1.68
+        "change_7d_pct": 1.23,
+        "change_30d_pct": 0.72
       },
       "indicators": {
-        "trend": "UPTREND",
+        "trend": "DOWNTREND",
         "momentum": "WEAK",
         "volatility": "NORMAL"
       },
@@ -23,9 +23,9 @@
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
         "summary_line": "Fair - Weak growth profile - Elevated regulatory risk.",
-        "score": 46.9
+        "score": 49.9
       },
-      "updated_at": "2026-08-09T15:39:15.938451+00:00",
+      "updated_at": "2026-08-10T16:07:21.575619+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,23 +37,23 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 1925.0,
+        "current_usd": 1876.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": 2.28,
-        "change_30d_pct": 7.21
+        "change_7d_pct": 0.96,
+        "change_30d_pct": 4.93
       },
       "indicators": {
-        "trend": "UPTREND",
-        "momentum": "WEAK",
+        "trend": "DOWNTREND",
+        "momentum": "STRONG",
         "volatility": "NORMAL"
       },
       "valuation": {
-        "verdict": "Caution / risk-reward mixed",
-        "band": "overvalued",
-        "summary_line": "Overvalued - Weak growth profile - Elevated regulatory risk.",
-        "score": 44.0
+        "verdict": "Neutral / fair-value zone",
+        "band": "fair",
+        "summary_line": "Fair - Weak growth profile - Elevated regulatory risk.",
+        "score": 49.1
       },
-      "updated_at": "2026-08-09T15:39:15.939008+00:00",
+      "updated_at": "2026-08-10T16:07:21.576093+00:00",
       "source": {
         "short_term": "live"
       }
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-08-09T15:39:15.939192+00:00",
+      "updated_at": "2026-08-10T16:07:21.576251+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-08-09T15:39:15.939343+00:00",
+      "updated_at": "2026-08-10T16:07:21.576356+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-08-09T15:39:15.939465+00:00",
+      "updated_at": "2026-08-10T16:07:21.576452+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-08-09T15:39:15.939597+00:00",
+      "updated_at": "2026-08-10T16:07:21.576567+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -193,7 +193,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-08-09T15:39:15.939704+00:00",
+      "updated_at": "2026-08-10T16:07:21.576671+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -201,72 +201,72 @@
   ],
   "overview_news": [
     {
-      "title": "Hyperliquid\u2019s RWA perps boom is eating into the revenue that backs HYPE",
-      "url": "https://www.coindesk.com/business/2026/08/09/hyperliquid-s-rwa-perps-boom-is-eating-into-the-revenue-that-backs-hype",
-      "published_at": "Sun, 09 Aug 2026 15:00:00 +0000",
+      "title": "Grayscale quietly drops Cardano, Polkadot and Hedera ETF plans",
+      "url": "https://www.coindesk.com/business/2026/08/10/grayscale-quietly-drops-cardano-polkadot-and-hedera-etf-plans",
+      "published_at": "Mon, 10 Aug 2026 15:02:14 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin investors pour $853 million into spot ETFs. BlackRock\u2019s IBIT claims the bulk",
-      "url": "https://www.coindesk.com/markets/2026/08/09/bitcoin-investors-pour-usd853-million-into-spot-etfs-blackrock-s-ibit-claims-the-bulk",
-      "published_at": "Sun, 09 Aug 2026 14:19:35 +0000",
+      "title": "Solana lending giant Jupiter now lets the same dollar earn twice",
+      "url": "https://www.coindesk.com/markets/2026/08/10/solana-lending-giant-jupiter-now-lets-the-same-dollar-earn-twice",
+      "published_at": "Mon, 10 Aug 2026 14:30:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Crypto is going through a massive dot-com style shakeout as over 100 projects fold in 2026",
-      "url": "https://www.coindesk.com/business/2026/08/09/crypto-is-going-through-a-massive-dot-com-style-shakeout-as-over-100-projects-fold-in-2026",
-      "published_at": "Sun, 09 Aug 2026 13:00:00 +0000",
+      "title": "Bitmine\u2019s ETH buying slows as Tom Lee's firm shifts capital to share buybacks",
+      "url": "https://www.coindesk.com/business/2026/08/10/bitmine-s-eth-buying-slows-as-tom-lee-s-firm-shifts-capital-to-share-buybacks",
+      "published_at": "Mon, 10 Aug 2026 13:50:51 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Controversial Bitcoin fork BIP-110 mines two blocks, then stops",
-      "url": "https://www.coindesk.com/tech/2026/08/09/controversial-bitcoin-fork-bip-110-mines-two-blocks-then-stops",
-      "published_at": "Sun, 09 Aug 2026 05:08:20 +0000",
+      "title": "Solana gets its first Strategy STRC product through Solstice Finance",
+      "url": "https://www.coindesk.com/business/2026/08/10/solstice-rolls-out-strategy-s-strc-preferred-stock-income-to-solana",
+      "published_at": "Mon, 10 Aug 2026 13:26:36 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin hits block 961,632 as the controversial BIP-110 soft fork attempt begins",
-      "url": "https://www.coindesk.com/tech/2026/08/07/frame-bitcoin-s-bip-110-enters-mandatory-signaling-with-less-than-3-miner-support",
-      "published_at": "Sat, 08 Aug 2026 20:06:47 +0000",
+      "title": "Strategy sells 1,690 bitcoin, raises $653 million from MSTR shares",
+      "url": "https://www.coindesk.com/markets/2026/08/10/strategy-sells-1-690-bitcoin-raises-usd653-million-from-mstr-shares",
+      "published_at": "Mon, 10 Aug 2026 12:09:26 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Hardware wallet sales in Russia more than double as new crypto rules near",
-      "url": "https://www.coindesk.com/business/2026/08/08/hardware-wallet-sales-in-russia-more-than-double-as-new-crypto-rules-near",
-      "published_at": "Sat, 08 Aug 2026 17:48:02 +0000",
+      "title": "Crypto exchange Coinsbuy loses $8 million in coordinated two-blockchain attack",
+      "url": "https://www.coindesk.com/business/2026/08/10/crypto-exchange-coinsbuy-loses-usd8-million-in-coordinated-two-blockchain-attack",
+      "published_at": "Mon, 10 Aug 2026 11:39:44 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Brazil's central bank orders exchanges to delay large crypto transfers abroad",
-      "url": "https://www.coindesk.com/business/2026/08/08/brazil-s-central-bank-orders-exchanges-to-delay-large-crypto-transfers-abroad",
-      "published_at": "Sat, 08 Aug 2026 15:25:38 +0000",
+      "title": "Why the UK financial watchdog is drafting new rules for tokenized gold",
+      "url": "https://www.coindesk.com/business/2026/08/10/why-the-uk-financial-watchdog-is-drafting-new-rules-for-tokenized-gold",
+      "published_at": "Mon, 10 Aug 2026 11:38:33 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Trillions in institutional money to flow into bitcoin, says Bitwise's Matt Hougan",
-      "url": "https://www.coindesk.com/business/2026/08/08/trillions-in-institutional-money-to-flow-into-bitcoin-says-bitwise-s-matt-hougan",
-      "published_at": "Sat, 08 Aug 2026 14:00:00 +0000",
+      "title": "Bitcoin's BIP-110 episode is free-market capitalism in purest form",
+      "url": "https://www.coindesk.com/daybook-us/2026/08/10/bitcoin-s-bip-110-episode-is-free-market-capitalism-in-purest-form",
+      "published_at": "Mon, 10 Aug 2026 11:31:29 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Why trillion-dollar asset manager T. Rowe Price put memecoins in its crypto ETF",
-      "url": "https://www.coindesk.com/markets/2026/08/06/why-trillion-dollar-asset-manager-t-rowe-price-put-memecoins-in-its-crypto-etf",
-      "published_at": "Sat, 08 Aug 2026 13:00:00 +0000",
+      "title": "Bitcoin steadies above $65,000 as Iran-Oman deal talk eases Hormuz concerns, lifts risk assets",
+      "url": "https://www.coindesk.com/markets/2026/08/10/bitcoin-steadies-above-usd65-000-as-iran-oman-deal-talk-eases-hormuz-concerns-lifts-risk-assets",
+      "published_at": "Mon, 10 Aug 2026 10:45:43 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "U.S. Senate opens first stage of crypto Clarity Act voting to give bill a chance next month",
-      "url": "https://www.coindesk.com/policy/2026/08/08/u-s-senate-opens-first-stage-of-crypto-clarity-act-voting-to-give-bill-a-chance-next-month",
-      "published_at": "Sat, 08 Aug 2026 09:07:24 +0000",
+      "title": "Bitcoin volatility is in meltdown, but downside protection still commands a premium",
+      "url": "https://www.coindesk.com/markets/2026/08/10/bitcoin-volatility-is-in-meltdown-but-downside-protection-still-commands-a-premium",
+      "published_at": "Mon, 10 Aug 2026 10:13:58 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
