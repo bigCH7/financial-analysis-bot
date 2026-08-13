@@ -4,7 +4,7 @@
   "symbol": "CL=F",
   "market_type": "traditional",
   "details_page": "asset.html?asset=oil",
-  "updated_at": "2026-08-12T16:06:39.593427+00:00",
+  "updated_at": "2026-08-13T16:06:38.511542+00:00",
   "about": {
     "what_it_is": "CL=F tracks front-month WTI crude oil futures pricing.",
     "what_it_represents": "It represents global energy demand, supply constraints, and geopolitical risk premiums.",
@@ -13,7 +13,7 @@
   },
   "source": {
     "short_term": "unavailable",
-    "news_generated_at": "2026-08-12 16:05 UTC"
+    "news_generated_at": "2026-08-13 16:05 UTC"
   },
   "price": {
     "current_usd": null,

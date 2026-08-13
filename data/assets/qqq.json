@@ -4,7 +4,7 @@
   "symbol": "QQQ",
   "market_type": "traditional",
   "details_page": "asset.html?asset=qqq",
-  "updated_at": "2026-08-12T16:06:39.592738+00:00",
+  "updated_at": "2026-08-13T16:06:38.510818+00:00",
   "about": {
     "what_it_is": "QQQ is an ETF that tracks the Nasdaq-100 Index.",
     "what_it_represents": "It represents large non-financial growth companies, especially technology-heavy exposure.",
@@ -13,7 +13,7 @@
   },
   "source": {
     "short_term": "unavailable",
-    "news_generated_at": "2026-08-12 16:05 UTC"
+    "news_generated_at": "2026-08-13 16:05 UTC"
   },
   "price": {
     "current_usd": null,
