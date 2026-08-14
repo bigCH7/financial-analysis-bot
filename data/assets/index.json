@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-13T16:06:38.511760+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-08-13 15:57 UTC_",
+  "generated_at": "2026-08-14T15:59:01.162358+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-08-14 15:50 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,10 +9,10 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 63389.0,
+        "current_usd": 62942.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": -1.4,
-        "change_30d_pct": -2.45
+        "change_7d_pct": -2.98,
+        "change_30d_pct": -2.74
       },
       "indicators": {
         "trend": "DOWNTREND",
@@ -23,9 +23,9 @@
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
         "summary_line": "Fair - Weak growth profile - Elevated regulatory risk.",
-        "score": 50.1
+        "score": 51.3
       },
-      "updated_at": "2026-08-13T16:06:38.509543+00:00",
+      "updated_at": "2026-08-14T15:59:01.159983+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,13 +37,13 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 1879.0,
+        "current_usd": 1880.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": -1.19,
-        "change_30d_pct": -0.59
+        "change_7d_pct": -1.66,
+        "change_30d_pct": -1.89
       },
       "indicators": {
-        "trend": "UPTREND",
+        "trend": "DOWNTREND",
         "momentum": "WEAK",
         "volatility": "NORMAL"
       },
@@ -51,9 +51,9 @@
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
         "summary_line": "Fair - Weak growth profile - Elevated regulatory risk.",
-        "score": 48.1
+        "score": 47.4
       },
-      "updated_at": "2026-08-13T16:06:38.510339+00:00",
+      "updated_at": "2026-08-14T15:59:01.160775+00:00",
       "source": {
         "short_term": "live"
       }
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-08-13T16:06:38.510607+00:00",
+      "updated_at": "2026-08-14T15:59:01.161089+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-08-13T16:06:38.510818+00:00",
+      "updated_at": "2026-08-14T15:59:01.161330+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-08-13T16:06:38.511087+00:00",
+      "updated_at": "2026-08-14T15:59:01.161583+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-08-13T16:06:38.511314+00:00",
+      "updated_at": "2026-08-14T15:59:01.161834+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -193,7 +193,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-08-13T16:06:38.511542+00:00",
+      "updated_at": "2026-08-14T15:59:01.162110+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -201,72 +201,72 @@
   ],
   "overview_news": [
     {
-      "title": "Crypto for Advisors: The crypto advice gap",
-      "url": "https://www.coindesk.com/coindesk-indices/2026/08/12/crypto-for-advisors-the-crypto-advice-gap",
-      "published_at": "Thu, 13 Aug 2026 15:00:00 +0000",
+      "title": "Strategy says MSCI should measure markets, not dictate corporate assets",
+      "url": "https://www.coindesk.com/markets/2026/08/14/strategy-says-msci-should-measure-markets-not-dictate-corporate-assets",
+      "published_at": "Fri, 14 Aug 2026 14:12:34 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "B2C2 taps Schroders veteran to chase Asia\u2019s growing crypto wealth",
-      "url": "https://www.coindesk.com/business/2026/08/13/b2c2-taps-schroders-veteran-to-chase-asia-s-growing-crypto-wealth",
-      "published_at": "Thu, 13 Aug 2026 14:43:38 +0000",
+      "title": "Israel\u2019s largest bank to offer crypto trading with Galaxy",
+      "url": "https://www.coindesk.com/markets/2026/08/14/israel-s-largest-bank-partners-with-galaxy-for-crypto-trading",
+      "published_at": "Fri, 14 Aug 2026 13:51:37 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Kalshi in talks with Sequoia, Wellington for $750 million fund raise at $40 billion valuation",
-      "url": "https://www.coindesk.com/business/2026/08/13/kalshi-in-talks-with-sequoia-wellington-for-usd750-million-fund-raise-at-usd40-billion-valuation",
-      "published_at": "Thu, 13 Aug 2026 14:16:06 +0000",
+      "title": "Fear is fading across markets, be it bitcoin, stocks, gold or bonds",
+      "url": "https://www.coindesk.com/daybook-us/2026/08/14/volatility-exits-crypto-tradfi-markets-even-as-u-s-iran-risks-linger-sovereign-debt-rises",
+      "published_at": "Fri, 14 Aug 2026 11:33:50 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Swissquote cuts full-year guidance as 1H crypto income plunges, shares slide",
-      "url": "https://www.coindesk.com/business/2026/08/13/swissquote-cuts-full-year-guidance-as-1h-crypto-income-plunges-shares-slide",
-      "published_at": "Thu, 13 Aug 2026 13:41:32 +0000",
+      "title": "Trump family's World Liberty Financial delay plans to sell Maldives resort token",
+      "url": "https://www.coindesk.com/business/2026/08/14/trump-family-s-world-liberty-financial-delay-plans-to-sell-maldives-resort-token",
+      "published_at": "Fri, 14 Aug 2026 11:07:49 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Crypto platform operator gets 15-year prison sentence in South Korea due to $50 million scam",
-      "url": "https://www.coindesk.com/business/2026/08/13/crypto-platform-operator-gets-15-year-prison-sentence-in-south-korea-due-to-usd50-million-scam",
-      "published_at": "Thu, 13 Aug 2026 13:37:56 +0000",
+      "title": "Bitcoin slips as U.S. inflation fails to spark gains, ETFs see August's first two-day drawdown",
+      "url": "https://www.coindesk.com/markets/2026/08/14/bitcoin-slips-as-u-s-inflation-fails-to-spark-gains-etfs-see-august-s-first-two-day-drawdown",
+      "published_at": "Fri, 14 Aug 2026 11:06:12 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Figure revenue doubles as blockchain loan marketplace volumes surge",
-      "url": "https://www.coindesk.com/business/2026/08/13/figure-revenue-doubles-as-blockchain-loan-marketplace-volumes-surge",
-      "published_at": "Thu, 13 Aug 2026 13:29:28 +0000",
+      "title": "RedotPay said to put $1 billion U.S. IPO plan on hold: Bloomberg",
+      "url": "https://www.coindesk.com/business/2026/08/14/redotpay-said-to-put-usd1-billion-u-s-ipo-plan-on-hold-bloomberg",
+      "published_at": "Fri, 14 Aug 2026 10:35:40 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bullish shares surge 14% as subscription revenue offsets digital asset slowdown",
-      "url": "https://www.coindesk.com/business/2026/08/13/bullish-reports-usd280-million-q2-net-loss-as-crypto-trading-slows",
-      "published_at": "Thu, 13 Aug 2026 12:09:58 +0000",
+      "title": "Live updates: Bitcoin slips below $63,000; MSCI threatens to exclude Strategy from indices",
+      "url": "https://www.coindesk.com/tech/2026/08/14/live-updates-bitcoin-slips-below-usd63-000-as-oil-yields-climb",
+      "published_at": "Fri, 14 Aug 2026 08:51:48 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Strategy, Metaplanet unrealized bitcoin losses highlight risk of concentrating on just one token",
-      "url": "https://www.coindesk.com/daybook-us/2026/08/13/strategy-metaplanet-unrealized-bitcoin-losses-highlight-risk-of-concentrating-on-just-one-token",
-      "published_at": "Thu, 13 Aug 2026 11:35:53 +0000",
+      "title": "Cluster of headwinds weigh on bitcoin. XRP teeters near $1",
+      "url": "https://www.coindesk.com/markets/2026/08/14/cluster-of-headwinds-weigh-on-bitcoin-xrp-teeters-near-usd1",
+      "published_at": "Fri, 14 Aug 2026 07:14:37 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin holds steady near $64,000 as monero, hyperliquid outperform",
-      "url": "https://www.coindesk.com/markets/2026/08/13/bitcoin-holds-steady-near-usd64-000-as-monero-hyperliquid-outperform",
-      "published_at": "Thu, 13 Aug 2026 11:02:43 +0000",
+      "title": "Bitcoin holders Strategy and Metaplanet face stock-index exclusion under MSCI\u2019s new proposal",
+      "url": "https://www.coindesk.com/markets/2026/08/14/bitcoin-holders-strategy-and-metaplanet-face-stock-index-exclusion-under-msci-s-new-proposal",
+      "published_at": "Fri, 14 Aug 2026 06:20:54 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "MUFG to test real-time blockchain settlement for Japanese government bond trades",
-      "url": "https://www.coindesk.com/business/2026/08/13/mufg-to-test-real-time-blockchain-settlement-for-japanese-government-bond-trades",
-      "published_at": "Thu, 13 Aug 2026 10:15:32 +0000",
+      "title": "JPMorgan shuttered its banking relationship with predictions platform Polymarket: FT",
+      "url": "https://www.coindesk.com/markets/2026/08/14/jpmorgan-shuttered-its-banking-relationship-with-predictions-platform-polymarket-ft",
+      "published_at": "Fri, 14 Aug 2026 05:04:52 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
