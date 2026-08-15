@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-14T15:59:01.162358+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-08-14 15:50 UTC_",
+  "generated_at": "2026-08-15T15:27:35.410517+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-08-15 15:18 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,10 +9,10 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 62942.0,
+        "current_usd": 63004.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": -2.98,
-        "change_30d_pct": -2.74
+        "change_7d_pct": -2.95,
+        "change_30d_pct": -1.24
       },
       "indicators": {
         "trend": "DOWNTREND",
@@ -23,9 +23,9 @@
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
         "summary_line": "Fair - Weak growth profile - Elevated regulatory risk.",
-        "score": 51.3
+        "score": 47.5
       },
-      "updated_at": "2026-08-14T15:59:01.159983+00:00",
+      "updated_at": "2026-08-15T15:27:35.408146+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,10 +37,10 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 1880.0,
+        "current_usd": 1882.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": -1.66,
-        "change_30d_pct": -1.89
+        "change_7d_pct": -1.74,
+        "change_30d_pct": 1.02
       },
       "indicators": {
         "trend": "DOWNTREND",
@@ -48,12 +48,12 @@
         "volatility": "NORMAL"
       },
       "valuation": {
-        "verdict": "Neutral / fair-value zone",
-        "band": "fair",
-        "summary_line": "Fair - Weak growth profile - Elevated regulatory risk.",
-        "score": 47.4
+        "verdict": "Caution / risk-reward mixed",
+        "band": "overvalued",
+        "summary_line": "Overvalued - Weak growth profile - Elevated regulatory risk.",
+        "score": 44.3
       },
-      "updated_at": "2026-08-14T15:59:01.160775+00:00",
+      "updated_at": "2026-08-15T15:27:35.408982+00:00",
       "source": {
         "short_term": "live"
       }
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-08-14T15:59:01.161089+00:00",
+      "updated_at": "2026-08-15T15:27:35.409278+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-08-14T15:59:01.161330+00:00",
+      "updated_at": "2026-08-15T15:27:35.409536+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-08-14T15:59:01.161583+00:00",
+      "updated_at": "2026-08-15T15:27:35.409775+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-08-14T15:59:01.161834+00:00",
+      "updated_at": "2026-08-15T15:27:35.410004+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -193,13 +193,69 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-08-14T15:59:01.162110+00:00",
+      "updated_at": "2026-08-15T15:27:35.410242+00:00",
       "source": {
         "short_term": "unavailable"
       }
     }
   ],
   "overview_news": [
+    {
+      "title": "Why the world\u2019s second-largest Bitcoin mining power is shutting down rigs in its capital city",
+      "url": "https://www.coindesk.com/policy/2026/08/15/why-the-world-s-second-largest-bitcoin-mining-power-is-shutting-down-rigs-in-its-capital-city",
+      "published_at": "Sat, 15 Aug 2026 15:21:15 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Paul Tudor Jones\u2019 investment firm increases stake in BlackRock's bitcoin ETF after year of selling",
+      "url": "https://www.coindesk.com/business/2026/08/15/paul-tudor-jones-investment-firm-increases-blackrock-s-bitcoin-etf-stake-after-year-of-selling",
+      "published_at": "Sat, 15 Aug 2026 15:12:29 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "The $11.2 billion in 2026 funding that killed crypto\u2019s permissionless era",
+      "url": "https://www.coindesk.com/business/2026/08/15/the-usd11-2-billion-in-2026-funding-that-killed-crypto-s-permissionless-era",
+      "published_at": "Sat, 15 Aug 2026 14:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Clarity survives (barely), Strategy sells and the untold story of Mastercard's $1.8 billion deal: Crypto's week in 5 stories",
+      "url": "https://www.coindesk.com/business/2026/08/15/clarity-survives-barely-strategy-sells-and-the-untold-story-of-mastercard-s-usd1-8-billion-deal-crypto-s-week-in-5-stories",
+      "published_at": "Sat, 15 Aug 2026 13:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Wall Street's private blockchain obsession is a 'race to the bottom,' Ethereum advocate Raman warns",
+      "url": "https://www.coindesk.com/business/2026/08/15/wall-street-s-private-blockchain-obsession-is-a-race-to-the-bottom-ethereum-advocate-raman-warns",
+      "published_at": "Sat, 15 Aug 2026 12:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Trump expected to attend White House meeting with crypto CEOs, sources say",
+      "url": "https://www.coindesk.com/policy/2026/08/14/trump-expected-to-attend-white-house-meeting-with-crypto-ceos-sources-say",
+      "published_at": "Fri, 14 Aug 2026 23:41:49 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Trump-backed World Liberty wins conditional bank charter from federal regulator",
+      "url": "https://www.coindesk.com/policy/2026/08/14/trump-backed-world-liberty-wins-conditional-bank-charter-from-federal-regulator",
+      "published_at": "Fri, 14 Aug 2026 21:05:23 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Tokenization stocks slip as SEC delay puts 'speed bump' in crypto\u2019s Wall Street push",
+      "url": "https://www.coindesk.com/markets/2026/08/14/tokenization-stocks-slip-as-sec-delay-puts-speed-bump-in-crypto-s-wall-street-push",
+      "published_at": "Fri, 14 Aug 2026 17:48:04 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
     {
       "title": "Strategy says MSCI should measure markets, not dictate corporate assets",
       "url": "https://www.coindesk.com/markets/2026/08/14/strategy-says-msci-should-measure-markets-not-dictate-corporate-assets",
@@ -211,62 +267,6 @@
       "title": "Israel\u2019s largest bank to offer crypto trading with Galaxy",
       "url": "https://www.coindesk.com/markets/2026/08/14/israel-s-largest-bank-partners-with-galaxy-for-crypto-trading",
       "published_at": "Fri, 14 Aug 2026 13:51:37 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Fear is fading across markets, be it bitcoin, stocks, gold or bonds",
-      "url": "https://www.coindesk.com/daybook-us/2026/08/14/volatility-exits-crypto-tradfi-markets-even-as-u-s-iran-risks-linger-sovereign-debt-rises",
-      "published_at": "Fri, 14 Aug 2026 11:33:50 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Trump family's World Liberty Financial delay plans to sell Maldives resort token",
-      "url": "https://www.coindesk.com/business/2026/08/14/trump-family-s-world-liberty-financial-delay-plans-to-sell-maldives-resort-token",
-      "published_at": "Fri, 14 Aug 2026 11:07:49 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitcoin slips as U.S. inflation fails to spark gains, ETFs see August's first two-day drawdown",
-      "url": "https://www.coindesk.com/markets/2026/08/14/bitcoin-slips-as-u-s-inflation-fails-to-spark-gains-etfs-see-august-s-first-two-day-drawdown",
-      "published_at": "Fri, 14 Aug 2026 11:06:12 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "RedotPay said to put $1 billion U.S. IPO plan on hold: Bloomberg",
-      "url": "https://www.coindesk.com/business/2026/08/14/redotpay-said-to-put-usd1-billion-u-s-ipo-plan-on-hold-bloomberg",
-      "published_at": "Fri, 14 Aug 2026 10:35:40 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Live updates: Bitcoin slips below $63,000; MSCI threatens to exclude Strategy from indices",
-      "url": "https://www.coindesk.com/tech/2026/08/14/live-updates-bitcoin-slips-below-usd63-000-as-oil-yields-climb",
-      "published_at": "Fri, 14 Aug 2026 08:51:48 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Cluster of headwinds weigh on bitcoin. XRP teeters near $1",
-      "url": "https://www.coindesk.com/markets/2026/08/14/cluster-of-headwinds-weigh-on-bitcoin-xrp-teeters-near-usd1",
-      "published_at": "Fri, 14 Aug 2026 07:14:37 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitcoin holders Strategy and Metaplanet face stock-index exclusion under MSCI\u2019s new proposal",
-      "url": "https://www.coindesk.com/markets/2026/08/14/bitcoin-holders-strategy-and-metaplanet-face-stock-index-exclusion-under-msci-s-new-proposal",
-      "published_at": "Fri, 14 Aug 2026 06:20:54 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "JPMorgan shuttered its banking relationship with predictions platform Polymarket: FT",
-      "url": "https://www.coindesk.com/markets/2026/08/14/jpmorgan-shuttered-its-banking-relationship-with-predictions-platform-polymarket-ft",
-      "published_at": "Fri, 14 Aug 2026 05:04:52 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }

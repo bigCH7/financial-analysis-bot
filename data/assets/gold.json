@@ -4,7 +4,7 @@
   "symbol": "GC=F",
   "market_type": "traditional",
   "details_page": "asset.html?asset=gold",
-  "updated_at": "2026-08-14T15:59:01.161834+00:00",
+  "updated_at": "2026-08-15T15:27:35.410004+00:00",
   "about": {
     "what_it_is": "GC=F tracks front-month COMEX gold futures pricing.",
     "what_it_represents": "It represents market expectations for gold as a store-of-value and macro hedge.",
@@ -13,7 +13,7 @@
   },
   "source": {
     "short_term": "unavailable",
-    "news_generated_at": "2026-08-14 15:57 UTC"
+    "news_generated_at": "2026-08-15 15:26 UTC"
   },
   "price": {
     "current_usd": null,
