@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-15T15:27:35.410517+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-08-15 15:18 UTC_",
+  "generated_at": "2026-08-16T15:29:04.847555+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-08-16 15:20 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,10 +9,10 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 63004.0,
+        "current_usd": 63054.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": -2.95,
-        "change_30d_pct": -1.24
+        "change_7d_pct": -2.78,
+        "change_30d_pct": -1.33
       },
       "indicators": {
         "trend": "DOWNTREND",
@@ -20,12 +20,12 @@
         "volatility": "NORMAL"
       },
       "valuation": {
-        "verdict": "Neutral / fair-value zone",
-        "band": "fair",
-        "summary_line": "Fair - Weak growth profile - Elevated regulatory risk.",
-        "score": 47.5
+        "verdict": "Caution / risk-reward mixed",
+        "band": "overvalued",
+        "summary_line": "Overvalued - Weak growth profile - Elevated regulatory risk.",
+        "score": 44.3
       },
-      "updated_at": "2026-08-15T15:27:35.408146+00:00",
+      "updated_at": "2026-08-16T15:29:04.845277+00:00",
       "source": {
         "short_term": "live"
       }
@@ -39,11 +39,11 @@
       "price": {
         "current_usd": 1882.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": -1.74,
-        "change_30d_pct": 1.02
+        "change_7d_pct": -1.44,
+        "change_30d_pct": 2.24
       },
       "indicators": {
-        "trend": "DOWNTREND",
+        "trend": "UPTREND",
         "momentum": "WEAK",
         "volatility": "NORMAL"
       },
@@ -51,9 +51,9 @@
         "verdict": "Caution / risk-reward mixed",
         "band": "overvalued",
         "summary_line": "Overvalued - Weak growth profile - Elevated regulatory risk.",
-        "score": 44.3
+        "score": 41.7
       },
-      "updated_at": "2026-08-15T15:27:35.408982+00:00",
+      "updated_at": "2026-08-16T15:29:04.846058+00:00",
       "source": {
         "short_term": "live"
       }
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-08-15T15:27:35.409278+00:00",
+      "updated_at": "2026-08-16T15:29:04.846361+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-08-15T15:27:35.409536+00:00",
+      "updated_at": "2026-08-16T15:29:04.846628+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-08-15T15:27:35.409775+00:00",
+      "updated_at": "2026-08-16T15:29:04.846863+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-08-15T15:27:35.410004+00:00",
+      "updated_at": "2026-08-16T15:29:04.847087+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -193,13 +193,55 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-08-15T15:27:35.410242+00:00",
+      "updated_at": "2026-08-16T15:29:04.847321+00:00",
       "source": {
         "short_term": "unavailable"
       }
     }
   ],
   "overview_news": [
+    {
+      "title": "Crypto wallet SafePal reveals a data breach exposing nearly 40,000 customers' order info",
+      "url": "https://www.coindesk.com/tech/2026/08/16/crypto-wallet-safepal-reveals-a-data-breach-exposing-nearly-40-000-customers-order-info",
+      "published_at": "Sun, 16 Aug 2026 14:02:32 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "MiCA's cleanup is creating a new scam wave across the European Union",
+      "url": "https://www.coindesk.com/business/2026/08/14/mica-s-cleanup-is-creating-a-new-scam-wave-across-the-european-union",
+      "published_at": "Sun, 16 Aug 2026 14:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "The stablecoin yield clash that won't go away has banks, crypto battling over tradition",
+      "url": "https://www.coindesk.com/news-analysis/2026/08/14/the-stablecoin-yield-clash-that-won-t-go-away-has-banks-crypto-battling-over-tradition",
+      "published_at": "Sun, 16 Aug 2026 13:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "The 'long bitcoin, short the bankers' era is officially over as TradFi giants embrace digital assets",
+      "url": "https://www.coindesk.com/business/2026/08/13/the-long-bitcoin-short-the-bankers-era-is-officially-over-as-tradfi-giants-embrace-digital-assets",
+      "published_at": "Sun, 16 Aug 2026 12:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Robot maker Unitree is going public. Hyperliquid traders see 4x upside from IPO price",
+      "url": "https://www.coindesk.com/markets/2026/08/15/robot-maker-unitree-is-going-public-hyperliquid-traders-see-4x-upside-from-ipo-price",
+      "published_at": "Sat, 15 Aug 2026 16:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Swiss mega-bank UBS ramps up its Bitcoin exposure with a massive 24-fold surge in ETF call options",
+      "url": "https://www.coindesk.com/business/2026/08/15/swiss-mega-bank-ubs-ramps-up-its-bitcoin-exposure-with-a-massive-24-fold-surge-in-etf-call-options",
+      "published_at": "Sat, 15 Aug 2026 15:56:05 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
     {
       "title": "Why the world\u2019s second-largest Bitcoin mining power is shutting down rigs in its capital city",
       "url": "https://www.coindesk.com/policy/2026/08/15/why-the-world-s-second-largest-bitcoin-mining-power-is-shutting-down-rigs-in-its-capital-city",
@@ -225,48 +267,6 @@
       "title": "Clarity survives (barely), Strategy sells and the untold story of Mastercard's $1.8 billion deal: Crypto's week in 5 stories",
       "url": "https://www.coindesk.com/business/2026/08/15/clarity-survives-barely-strategy-sells-and-the-untold-story-of-mastercard-s-usd1-8-billion-deal-crypto-s-week-in-5-stories",
       "published_at": "Sat, 15 Aug 2026 13:00:00 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Wall Street's private blockchain obsession is a 'race to the bottom,' Ethereum advocate Raman warns",
-      "url": "https://www.coindesk.com/business/2026/08/15/wall-street-s-private-blockchain-obsession-is-a-race-to-the-bottom-ethereum-advocate-raman-warns",
-      "published_at": "Sat, 15 Aug 2026 12:00:00 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Trump expected to attend White House meeting with crypto CEOs, sources say",
-      "url": "https://www.coindesk.com/policy/2026/08/14/trump-expected-to-attend-white-house-meeting-with-crypto-ceos-sources-say",
-      "published_at": "Fri, 14 Aug 2026 23:41:49 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Trump-backed World Liberty wins conditional bank charter from federal regulator",
-      "url": "https://www.coindesk.com/policy/2026/08/14/trump-backed-world-liberty-wins-conditional-bank-charter-from-federal-regulator",
-      "published_at": "Fri, 14 Aug 2026 21:05:23 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Tokenization stocks slip as SEC delay puts 'speed bump' in crypto\u2019s Wall Street push",
-      "url": "https://www.coindesk.com/markets/2026/08/14/tokenization-stocks-slip-as-sec-delay-puts-speed-bump-in-crypto-s-wall-street-push",
-      "published_at": "Fri, 14 Aug 2026 17:48:04 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Strategy says MSCI should measure markets, not dictate corporate assets",
-      "url": "https://www.coindesk.com/markets/2026/08/14/strategy-says-msci-should-measure-markets-not-dictate-corporate-assets",
-      "published_at": "Fri, 14 Aug 2026 14:12:34 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Israel\u2019s largest bank to offer crypto trading with Galaxy",
-      "url": "https://www.coindesk.com/markets/2026/08/14/israel-s-largest-bank-partners-with-galaxy-for-crypto-trading",
-      "published_at": "Fri, 14 Aug 2026 13:51:37 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }

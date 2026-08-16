@@ -1,7 +1,49 @@
 {
-  "generated_at": "2026-08-15 15:26 UTC",
+  "generated_at": "2026-08-16 15:27 UTC",
   "count": 55,
   "items": [
+    {
+      "title": "Crypto wallet SafePal reveals a data breach exposing nearly 40,000 customers' order info",
+      "link": "https://www.coindesk.com/tech/2026/08/16/crypto-wallet-safepal-reveals-a-data-breach-exposing-nearly-40-000-customers-order-info",
+      "pub_date": "Sun, 16 Aug 2026 14:02:32 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "MiCA's cleanup is creating a new scam wave across the European Union",
+      "link": "https://www.coindesk.com/business/2026/08/14/mica-s-cleanup-is-creating-a-new-scam-wave-across-the-european-union",
+      "pub_date": "Sun, 16 Aug 2026 14:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "The stablecoin yield clash that won't go away has banks, crypto battling over tradition",
+      "link": "https://www.coindesk.com/news-analysis/2026/08/14/the-stablecoin-yield-clash-that-won-t-go-away-has-banks-crypto-battling-over-tradition",
+      "pub_date": "Sun, 16 Aug 2026 13:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "The 'long bitcoin, short the bankers' era is officially over as TradFi giants embrace digital assets",
+      "link": "https://www.coindesk.com/business/2026/08/13/the-long-bitcoin-short-the-bankers-era-is-officially-over-as-tradfi-giants-embrace-digital-assets",
+      "pub_date": "Sun, 16 Aug 2026 12:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Robot maker Unitree is going public. Hyperliquid traders see 4x upside from IPO price",
+      "link": "https://www.coindesk.com/markets/2026/08/15/robot-maker-unitree-is-going-public-hyperliquid-traders-see-4x-upside-from-ipo-price",
+      "pub_date": "Sat, 15 Aug 2026 16:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Swiss mega-bank UBS ramps up its Bitcoin exposure with a massive 24-fold surge in ETF call options",
+      "link": "https://www.coindesk.com/business/2026/08/15/swiss-mega-bank-ubs-ramps-up-its-bitcoin-exposure-with-a-massive-24-fold-surge-in-etf-call-options",
+      "pub_date": "Sat, 15 Aug 2026 15:56:05 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
     {
       "title": "Why the world\u2019s second-largest Bitcoin mining power is shutting down rigs in its capital city",
       "link": "https://www.coindesk.com/policy/2026/08/15/why-the-world-s-second-largest-bitcoin-mining-power-is-shutting-down-rigs-in-its-capital-city",
@@ -136,45 +178,31 @@
       "fetch_source": "live"
     },
     {
-      "title": "SEC cancels long-awaited proposal of Reg Crypto, postponing meeting without new date",
-      "link": "https://www.coindesk.com/policy/2026/08/13/sec-cancels-long-awaited-proposal-of-reg-crypto-postponing-meeting-without-new-date",
-      "pub_date": "Thu, 13 Aug 2026 22:18:07 +0000",
-      "source": "CoinDesk",
+      "title": "DefiLlama delayed mobile launch over phishing apps on Apple Store, founder says",
+      "link": "https://cointelegraph.com/news/defillama-delayed-app-launch-fake-phishing-apps-apple?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sun, 16 Aug 2026 12:48:09 +0000",
+      "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Tether says it completed long-promised 'Big Four' audit of finances behind $180 billion USDT stablecoin",
-      "link": "https://www.coindesk.com/business/2026/08/13/tether-says-it-completed-long-promised-big-four-audit-of-finances-behind-usd180-billion-usdt-stablecoin",
-      "pub_date": "Thu, 13 Aug 2026 18:26:21 +0000",
-      "source": "CoinDesk",
+      "title": "Ethereum devs to narrow 66 proposals tied to Hegot\u00e1 upgrade",
+      "link": "https://cointelegraph.com/news/ethereum-devs-66-proposals-hegota-upgrade?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sun, 16 Aug 2026 11:12:51 +0000",
+      "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Forecasts for $1 million bitcoin price likely look too ambitious, key ratio suggests",
-      "link": "https://www.coindesk.com/markets/2026/08/13/forecasts-for-usd1-million-bitcoin-price-likely-look-too-ambitious-key-ratio-suggests",
-      "pub_date": "Thu, 13 Aug 2026 17:43:25 +0000",
-      "source": "CoinDesk",
+      "title": "Bybit adds Unitree, Moonshot AI to pre-IPO perpetuals lineup",
+      "link": "https://cointelegraph.com/news/bybit-launches-unitree-pre-ipo-perpetual-as-crypto-platforms-push-into-private-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sat, 15 Aug 2026 19:27:29 +0000",
+      "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Trezor warns 14,000 customers after fulfilment partner suffers data breach",
-      "link": "https://www.coindesk.com/tech/2026/08/13/trezor-warns-14-000-users-after-fulfilment-partner-suffers-data-breach",
-      "pub_date": "Thu, 13 Aug 2026 17:10:57 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Crypto for Advisors: The crypto advice gap",
-      "link": "https://www.coindesk.com/coindesk-indices/2026/08/12/crypto-for-advisors-the-crypto-advice-gap",
-      "pub_date": "Thu, 13 Aug 2026 15:00:00 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "B2C2 taps Schroders veteran to chase Asia\u2019s growing crypto wealth",
-      "link": "https://www.coindesk.com/business/2026/08/13/b2c2-taps-schroders-veteran-to-chase-asia-s-growing-crypto-wealth",
-      "pub_date": "Thu, 13 Aug 2026 14:43:38 +0000",
-      "source": "CoinDesk",
+      "title": "Tokenized stock holders more than double as monthly volume surges",
+      "link": "https://cointelegraph.com/news/tokenized-stock-holders-double-to-13m-as-activity-grows?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sat, 15 Aug 2026 17:26:43 +0000",
+      "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
@@ -251,34 +279,6 @@
       "title": "Israel\u2019s largest bank taps Galaxy to offer Bitcoin, Ether, Solana trading",
       "link": "https://cointelegraph.com/news/israels-largest-bank-taps-galaxy-to-offer-bitcoin-ether-and-solana-trading?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "pub_date": "Fri, 14 Aug 2026 15:41:49 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Crypto Biz: Bitcoin\u2019s $116M self-custody wake-up call",
-      "link": "https://cointelegraph.com/news/crypto-biz-bitcoin-self-custody-etf-inflows-strategy-riot-ai?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 14 Aug 2026 15:29:13 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitcoin price drops to $62.5K as trader warns weekly close may spark more losses",
-      "link": "https://cointelegraph.com/markets/bitcoin-price-drops-trader-warns-weekly-close-may-spark-more-losses?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 14 Aug 2026 14:38:27 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Morgan Stanley\u2019s BlackRock Bitcoin ETF holdings rise 23% in Q2",
-      "link": "https://cointelegraph.com/news/morgan-stanley-buys-blackrock-bitcoin-etf-q2?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 14 Aug 2026 14:22:57 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "JPMorgan boosts Bitcoin, Ether ETF positions in Q2 filing",
-      "link": "https://cointelegraph.com/markets/jpmorgan-crypto-etf-moves-risk-not-bullish-bet-analyst?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 14 Aug 2026 14:14:06 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     }
