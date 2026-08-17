@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-16T15:29:04.847555+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-08-16 15:20 UTC_",
+  "generated_at": "2026-08-17T15:32:47.763091+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-08-17 15:23 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,23 +9,23 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 63054.0,
+        "current_usd": 63964.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": -2.78,
-        "change_30d_pct": -1.33
+        "change_7d_pct": 0.08,
+        "change_30d_pct": -1.28
       },
       "indicators": {
-        "trend": "DOWNTREND",
+        "trend": "UPTREND",
         "momentum": "WEAK",
         "volatility": "NORMAL"
       },
       "valuation": {
-        "verdict": "Caution / risk-reward mixed",
-        "band": "overvalued",
-        "summary_line": "Overvalued - Weak growth profile - Elevated regulatory risk.",
-        "score": 44.3
+        "verdict": "Neutral / fair-value zone",
+        "band": "fair",
+        "summary_line": "Fair - Weak growth profile - Elevated regulatory risk.",
+        "score": 49.8
       },
-      "updated_at": "2026-08-16T15:29:04.845277+00:00",
+      "updated_at": "2026-08-17T15:32:47.761297+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,10 +37,10 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 1882.0,
+        "current_usd": 1908.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": -1.44,
-        "change_30d_pct": 2.24
+        "change_7d_pct": 1.93,
+        "change_30d_pct": 2.43
       },
       "indicators": {
         "trend": "UPTREND",
@@ -48,12 +48,12 @@
         "volatility": "NORMAL"
       },
       "valuation": {
-        "verdict": "Caution / risk-reward mixed",
-        "band": "overvalued",
-        "summary_line": "Overvalued - Weak growth profile - Elevated regulatory risk.",
-        "score": 41.7
+        "verdict": "Neutral / fair-value zone",
+        "band": "fair",
+        "summary_line": "Fair - Weak growth profile - Elevated regulatory risk.",
+        "score": 48.7
       },
-      "updated_at": "2026-08-16T15:29:04.846058+00:00",
+      "updated_at": "2026-08-17T15:32:47.761875+00:00",
       "source": {
         "short_term": "live"
       }
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-08-16T15:29:04.846361+00:00",
+      "updated_at": "2026-08-17T15:32:47.762124+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-08-16T15:29:04.846628+00:00",
+      "updated_at": "2026-08-17T15:32:47.762321+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-08-16T15:29:04.846863+00:00",
+      "updated_at": "2026-08-17T15:32:47.762513+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-08-16T15:29:04.847087+00:00",
+      "updated_at": "2026-08-17T15:32:47.762698+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -193,7 +193,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-08-16T15:29:04.847321+00:00",
+      "updated_at": "2026-08-17T15:32:47.762905+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -201,72 +201,72 @@
   ],
   "overview_news": [
     {
-      "title": "Crypto wallet SafePal reveals a data breach exposing nearly 40,000 customers' order info",
-      "url": "https://www.coindesk.com/tech/2026/08/16/crypto-wallet-safepal-reveals-a-data-breach-exposing-nearly-40-000-customers-order-info",
-      "published_at": "Sun, 16 Aug 2026 14:02:32 +0000",
+      "title": "U.S. Treasury Department proposes GENIUS Act stablecoin rule",
+      "url": "https://www.coindesk.com/policy/2026/08/17/u-s-treasury-department-proposes-genius-act-stablecoin-rule",
+      "published_at": "Mon, 17 Aug 2026 14:44:29 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "MiCA's cleanup is creating a new scam wave across the European Union",
-      "url": "https://www.coindesk.com/business/2026/08/14/mica-s-cleanup-is-creating-a-new-scam-wave-across-the-european-union",
-      "published_at": "Sun, 16 Aug 2026 14:00:00 +0000",
+      "title": "The Coldcard hack proves reputation is not a security model",
+      "url": "https://www.coindesk.com/opinion/2026/08/17/the-coldcard-hack-proves-reputation-is-not-a-security-model",
+      "published_at": "Mon, 17 Aug 2026 14:09:46 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "The stablecoin yield clash that won't go away has banks, crypto battling over tradition",
-      "url": "https://www.coindesk.com/news-analysis/2026/08/14/the-stablecoin-yield-clash-that-won-t-go-away-has-banks-crypto-battling-over-tradition",
-      "published_at": "Sun, 16 Aug 2026 13:00:00 +0000",
+      "title": "Tom Lee's Bitmine now owns 4.8% of Ethereum supply after latest ETH purchase",
+      "url": "https://www.coindesk.com/markets/2026/08/17/tom-lee-s-bitmine-now-owns-4-8-of-ethereum-supply-after-latest-eth-purchase",
+      "published_at": "Mon, 17 Aug 2026 14:04:21 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "The 'long bitcoin, short the bankers' era is officially over as TradFi giants embrace digital assets",
-      "url": "https://www.coindesk.com/business/2026/08/13/the-long-bitcoin-short-the-bankers-era-is-officially-over-as-tradfi-giants-embrace-digital-assets",
-      "published_at": "Sun, 16 Aug 2026 12:00:00 +0000",
+      "title": "How a bug in Coldcard\u2019s code went unnoticed for years, leading to $100 million in hacked funds",
+      "url": "https://www.coindesk.com/tech/2026/08/17/how-a-bug-in-coldcard-s-code-went-unnoticed-for-years-leading-to-usd100-million-in-hacked-funds",
+      "published_at": "Mon, 17 Aug 2026 13:57:11 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Robot maker Unitree is going public. Hyperliquid traders see 4x upside from IPO price",
-      "url": "https://www.coindesk.com/markets/2026/08/15/robot-maker-unitree-is-going-public-hyperliquid-traders-see-4x-upside-from-ipo-price",
-      "published_at": "Sat, 15 Aug 2026 16:00:00 +0000",
+      "title": "No change in bitcoin holdings as Strategy boosted dollar reserve, bought back more STRC last week",
+      "url": "https://www.coindesk.com/markets/2026/08/17/no-change-in-bitcoin-holdings-as-strategy-lifted-dollar-reserve-and-bought-back-more-strc-last-week",
+      "published_at": "Mon, 17 Aug 2026 12:19:45 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Swiss mega-bank UBS ramps up its Bitcoin exposure with a massive 24-fold surge in ETF call options",
-      "url": "https://www.coindesk.com/business/2026/08/15/swiss-mega-bank-ubs-ramps-up-its-bitcoin-exposure-with-a-massive-24-fold-surge-in-etf-call-options",
-      "published_at": "Sat, 15 Aug 2026 15:56:05 +0000",
+      "title": "Ethereum\u2019s next big upgrade has 66 proposals, including a major privacy fix",
+      "url": "https://www.coindesk.com/tech/2026/08/17/ethereum-s-next-big-upgrade-has-66-proposals-including-a-major-privacy-fix",
+      "published_at": "Mon, 17 Aug 2026 12:02:10 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Why the world\u2019s second-largest Bitcoin mining power is shutting down rigs in its capital city",
-      "url": "https://www.coindesk.com/policy/2026/08/15/why-the-world-s-second-largest-bitcoin-mining-power-is-shutting-down-rigs-in-its-capital-city",
-      "published_at": "Sat, 15 Aug 2026 15:21:15 +0000",
+      "title": "Israel\u2019s largest crypto broker Bits of Gold hit by data breach affecting 200,000 customers",
+      "url": "https://www.coindesk.com/tech/2026/08/17/israel-s-largest-crypto-broker-bits-of-gold-hit-by-data-breach-affecting-200-000-customers",
+      "published_at": "Mon, 17 Aug 2026 11:59:23 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Paul Tudor Jones\u2019 investment firm increases stake in BlackRock's bitcoin ETF after year of selling",
-      "url": "https://www.coindesk.com/business/2026/08/15/paul-tudor-jones-investment-firm-increases-blackrock-s-bitcoin-etf-stake-after-year-of-selling",
-      "published_at": "Sat, 15 Aug 2026 15:12:29 +0000",
+      "title": "Bitcoin options remain expensive despite summer calm. Here's why it matters",
+      "url": "https://www.coindesk.com/markets/2026/08/17/bitcoin-options-remain-expensive-despite-summer-calm-here-s-why-it-matters",
+      "published_at": "Mon, 17 Aug 2026 11:43:02 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "The $11.2 billion in 2026 funding that killed crypto\u2019s permissionless era",
-      "url": "https://www.coindesk.com/business/2026/08/15/the-usd11-2-billion-in-2026-funding-that-killed-crypto-s-permissionless-era",
-      "published_at": "Sat, 15 Aug 2026 14:00:00 +0000",
+      "title": "Bitcoin's biggest holders, Strategy and Metaplanet, are betting on math, not price",
+      "url": "https://www.coindesk.com/daybook-us/2026/08/17/bitcoin-s-biggest-holders-strategy-and-metaplanet-are-betting-on-math-not-price",
+      "published_at": "Mon, 17 Aug 2026 11:28:41 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Clarity survives (barely), Strategy sells and the untold story of Mastercard's $1.8 billion deal: Crypto's week in 5 stories",
-      "url": "https://www.coindesk.com/business/2026/08/15/clarity-survives-barely-strategy-sells-and-the-untold-story-of-mastercard-s-usd1-8-billion-deal-crypto-s-week-in-5-stories",
-      "published_at": "Sat, 15 Aug 2026 13:00:00 +0000",
+      "title": "Bitpanda fined 70,000 euros in Austria\u2019s first published MiCA enforcement case",
+      "url": "https://www.coindesk.com/business/2026/08/17/bitpanda-fined-eur70-000-in-austria-s-first-published-mica-enforcement-case",
+      "published_at": "Mon, 17 Aug 2026 10:52:31 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
