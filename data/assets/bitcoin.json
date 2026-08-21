@@ -4,7 +4,7 @@
   "symbol": "BTC",
   "market_type": "crypto",
   "details_page": "btc.html",
-  "updated_at": "2026-08-20T15:40:34.284961+00:00",
+  "updated_at": "2026-08-21T15:40:20.073589+00:00",
   "about": {
     "what_it_is": "Bitcoin is a decentralized digital currency with no central issuer.",
     "what_it_represents": "It is often treated as a scarce monetary asset and macro risk barometer.",
@@ -13,13 +13,13 @@
   },
   "source": {
     "short_term": "live",
-    "news_generated_at": "2026-08-20 15:39 UTC"
+    "news_generated_at": "2026-08-21 15:39 UTC"
   },
   "price": {
-    "current_usd": 72270.0,
+    "current_usd": 77548.0,
     "change_24h_pct": 1.39,
-    "change_7d_pct": 13.96,
-    "change_30d_pct": 8.64
+    "change_7d_pct": 23.1,
+    "change_30d_pct": 17.36
   },
   "indicators": {
     "trend": "UPTREND",
@@ -29,12 +29,82 @@
   "valuation": {
     "verdict": "Constructive long-term setup",
     "band": "fair",
-    "summary_line": "Fair - Balanced growth profile - Moderate regulatory risk.",
-    "score": 64.4,
-    "long_term_markdown": "## Bitcoin (BTC)\n\n_Data sources: CoinGecko history (live), CoinGecko fundamentals (live)_\n\n### Status Check (5-Second View)\n\n- **Market mood:** Balanced\n- **Simple action right now:** Add only on pullbacks and keep position sizing moderate around $68,953.\n- **Plain-English read:** Bitcoin is in a balanced phase: no major euphoria, no major panic.\n\n### One-line Summary\n\nLong-term: Fair - Balanced growth profile - Moderate regulatory risk.\n\n### Quick Score Snapshot\n\n- **Pill:** GRAY Fair (64.4)\n- **Composite score:** 64.4/100 | **Confidence:** 100.0/100\n- **Valuation band:** fair\n- **Fast read:** Core structure is stable; watch confirmation from liquidity and macro trends.\n\n### The Three Big Questions\n\n| Big Question | Score | Traffic Light | What It Means |\n|---|---:|---|---|\n| Scarcity & Supply | 82.4 | GREEN - Healthy | Is there too much being created? Current read: Supply discipline and valuation are supportive. |\n| Usage & Popularity | 58.2 | YELLOW - Caution | Are people actually using it? Current read: Network activity is stable but not accelerating. |\n| Safety & Rules | 51.8 | YELLOW - Caution | Could policy or market stress hurt it? Current read: Risk conditions are mixed and require active monitoring. |\n\n### Translation Layer (So-What)\n\n- **Price vs 200-day average:** 1.05x. Translation: **GREEN - Healthy**. Below 1.00 often means a cooling phase and potentially better long-term entries.\n- **NVT proxy:** 23.41. Translation: **GREEN - Healthy**. High NVT can mean price is outrunning real network use.\n- **Turnover (Vol/Cap):** +4.27%. Translation: **YELLOW - Caution**. Higher turnover usually means easier entry/exit liquidity.\n- **Max drawdown (1y):** -53.05%. Translation: **YELLOW - Caution**. This is the historical pain you had to survive to hold long term.\n- **SSR (Fuel Gauge):** 4.78 (stablecoin cap source: live). Translation: **GREEN - Healthy**. Lower SSR usually means more sidelined buying power exists.\n- **Cost Basis Proxy (Price vs Realized Proxy):** +4.93%. Translation: **GREEN - Healthy**. Below 0% often means broader holder pain and potential capitulation zones.\n\n### Advanced Criteria (Tiered)\n\n- **Whale Watch (Beginner):** Are big players buying or selling? **Proxy score: 95.1 (GREEN - Healthy)**.\n  **Intermediate:** Concentration Risk proxy = **100.0** based on circulating/FDV structure.\n  **Technical:** Whale transaction count and true holder concentration need dedicated on-chain feeds (not in this public snapshot).\n  **12M conclusion:** If whale-pressure proxy improves while price is flat, odds of a silent accumulation phase improve.\n\n- **Stablecoin Supply Ratio (Beginner Fuel Gauge):** SSR = **4.78**.\n  **Intermediate:** Lower SSR means more dry powder relative to BTC size.\n  **Technical:** Stablecoin mint velocity and exchange inflow velocity require dedicated flow datasets.\n  **12M conclusion:** Lower-to-mid SSR supports rally potential if risk conditions stabilize.\n\n- **Cost Basis (Beginner):** Current vs realized-price proxy gap = **+4.93%**.\n  **Intermediate:** Positive gap suggests market above aggregate cost basis proxy; negative gap suggests pain/capitulation risk.\n  **Technical:** Full realized cap and MVRV Z-score need realized-cap series from on-chain providers.\n  **12M conclusion:** Deep negative gaps historically improve long-term entry quality, but timing remains volatile.\n\n- **Developer Vitality (Beginner):** Is anyone still building this? **Score: 68.4 (GREEN - Healthy)**.\n  **Intermediate:** 4-week commits = **108**, GitHub stars = **73,168**.\n  **Technical:** Multi-chain developer retention and grant-quality trends require ecosystem-level datasets.\n  **12M conclusion:** Sustained dev activity supports innovation moat and lowers zombie-project risk.\n\n- **HODL Waves / Supply Age (Beginner Conviction Meter):** **Proxy score: 91.5 (GREEN - Healthy)**.\n  **Intermediate:** Lower turnover often aligns with older supply staying locked.\n  **Technical:** True HODL wave bands and RHODL ratio need UTXO-age datasets.\n  **12M conclusion:** Rising conviction proxy supports supply tightening; sharp drops can signal old-holder distribution.\n\n### Warning Check (What Could Go Wrong Fast)\n\n- Hollow network risk: market cap climbs while real activity fades.\n- Security/governance shock: repeated incidents can break confidence.\n- Liquidity stress: if turnover stays weak, downside can accelerate.\n\n### Forecast (Next 6 Months)\n\n| Scenario | Target | Implied Move | Market Narrative |\n|---|---:|---:|---|\n| Bull: Hyper-Institutionalization (Prob 25%) | $107,210 | +48.18% | Global easing + stronger sovereign and ETF demand reduce liquid float. |\n| Base: Cycle Maturity (Prob 50%) | $78,208 | +8.10% | Steady institutional inflows with no retail mania phase. |\n| Bear: Liquidity Vacuum (Prob 25%) | $65,185 | -9.90% | High real rates + tighter regulation + persistent ETF outflows. |\n- Invalidation anchor: if price fails to hold trend near **$68,953**, risk rises.\n\n### Method Notes\n\n- Scores are normalized to 0-100 and combined with fixed lens weights.\n- NVT and MVRV are proxy versions using available public data endpoints.\n- Confidence blends data freshness, sample size, and API coverage.\n\n### Next Step (What To Do Today)\n\n- **For the Conservative Investor:** Add only on pullbacks and keep position sizing moderate around $68,953.\n- **For the Aggressive Investor:** Build in tranches now and increase only when confirmation improves; watch liquidity and turnover.\n\n### Final Verdict\n\nLong-term stance: Constructive long-term setup.\nCombined read: BTC is in a balanced regime with a composite score of 64.4/100 (confidence 100.0/100). Scarcity & Supply is 82.4, Usage & Popularity is 58.2, and Safety & Rules is 51.8. Whale-watch proxy is 95.1, SSR fuel gauge is 4.78, developer vitality is 68.4, and conviction proxy is 91.5. Valuation sits in the fair band, while the key watch item is to watch liquidity and turnover; base-case path points to $78,208 (+8.10%) with upside to $107,210 and downside to $65,185.\n- **Pill check:** GRAY Fair (64.4)"
+    "summary_line": "Fair - Balanced growth profile - Lower regulatory risk.",
+    "score": 66.4,
+    "long_term_markdown": "## Bitcoin (BTC)\n\n_Data sources: CoinGecko history (live), CoinGecko fundamentals (live)_\n\n### Status Check (5-Second View)\n\n- **Market mood:** Balanced\n- **Simple action right now:** Add only on pullbacks and keep position sizing moderate around $68,952.\n- **Plain-English read:** Bitcoin is in a balanced phase: no major euphoria, no major panic.\n\n### One-line Summary\n\nLong-term: Fair - Balanced growth profile - Lower regulatory risk.\n\n### Quick Score Snapshot\n\n- **Pill:** GRAY Fair (66.4)\n- **Composite score:** 66.4/100 | **Confidence:** 100.0/100\n- **Valuation band:** fair\n- **Fast read:** Core structure is stable; watch confirmation from liquidity and macro trends.\n\n### The Three Big Questions\n\n| Big Question | Score | Traffic Light | What It Means |\n|---|---:|---|---|\n| Scarcity & Supply | 68.9 | GREEN - Healthy | Is there too much being created? Current read: Supply discipline and valuation are supportive. |\n| Usage & Popularity | 58.7 | YELLOW - Caution | Are people actually using it? Current read: Network activity is stable but not accelerating. |\n| Safety & Rules | 56.2 | YELLOW - Caution | Could policy or market stress hurt it? Current read: Risk conditions are mixed and require active monitoring. |\n\n### Translation Layer (So-What)\n\n- **Price vs 200-day average:** 1.13x. Translation: **GREEN - Healthy**. Below 1.00 often means a cooling phase and potentially better long-term entries.\n- **NVT proxy:** 22.59. Translation: **GREEN - Healthy**. High NVT can mean price is outrunning real network use.\n- **Turnover (Vol/Cap):** +4.43%. Translation: **YELLOW - Caution**. Higher turnover usually means easier entry/exit liquidity.\n- **Max drawdown (1y):** -53.05%. Translation: **YELLOW - Caution**. This is the historical pain you had to survive to hold long term.\n- **SSR (Fuel Gauge):** 5.13 (stablecoin cap source: live). Translation: **GREEN - Healthy**. Lower SSR usually means more sidelined buying power exists.\n- **Cost Basis Proxy (Price vs Realized Proxy):** +12.58%. Translation: **GREEN - Healthy**. Below 0% often means broader holder pain and potential capitulation zones.\n\n### Advanced Criteria (Tiered)\n\n- **Whale Watch (Beginner):** Are big players buying or selling? **Proxy score: 94.5 (GREEN - Healthy)**.\n  **Intermediate:** Concentration Risk proxy = **100.0** based on circulating/FDV structure.\n  **Technical:** Whale transaction count and true holder concentration need dedicated on-chain feeds (not in this public snapshot).\n  **12M conclusion:** If whale-pressure proxy improves while price is flat, odds of a silent accumulation phase improve.\n\n- **Stablecoin Supply Ratio (Beginner Fuel Gauge):** SSR = **5.13**.\n  **Intermediate:** Lower SSR means more dry powder relative to BTC size.\n  **Technical:** Stablecoin mint velocity and exchange inflow velocity require dedicated flow datasets.\n  **12M conclusion:** Lower-to-mid SSR supports rally potential if risk conditions stabilize.\n\n- **Cost Basis (Beginner):** Current vs realized-price proxy gap = **+12.58%**.\n  **Intermediate:** Positive gap suggests market above aggregate cost basis proxy; negative gap suggests pain/capitulation risk.\n  **Technical:** Full realized cap and MVRV Z-score need realized-cap series from on-chain providers.\n  **12M conclusion:** Deep negative gaps historically improve long-term entry quality, but timing remains volatile.\n\n- **Developer Vitality (Beginner):** Is anyone still building this? **Score: 68.4 (GREEN - Healthy)**.\n  **Intermediate:** 4-week commits = **108**, GitHub stars = **73,168**.\n  **Technical:** Multi-chain developer retention and grant-quality trends require ecosystem-level datasets.\n  **12M conclusion:** Sustained dev activity supports innovation moat and lowers zombie-project risk.\n\n- **HODL Waves / Supply Age (Beginner Conviction Meter):** **Proxy score: 90.5 (GREEN - Healthy)**.\n  **Intermediate:** Lower turnover often aligns with older supply staying locked.\n  **Technical:** True HODL wave bands and RHODL ratio need UTXO-age datasets.\n  **12M conclusion:** Rising conviction proxy supports supply tightening; sharp drops can signal old-holder distribution.\n\n### Warning Check (What Could Go Wrong Fast)\n\n- Hollow network risk: market cap climbs while real activity fades.\n- Security/governance shock: repeated incidents can break confidence.\n- Liquidity stress: if turnover stays weak, downside can accelerate.\n\n### Forecast (Next 6 Months)\n\n| Scenario | Target | Implied Move | Market Narrative |\n|---|---:|---:|---|\n| Bull: Hyper-Institutionalization (Prob 25%) | $106,484 | +37.18% | Global easing + stronger sovereign and ETF demand reduce liquid float. |\n| Base: Cycle Maturity (Prob 50%) | $78,133 | +0.65% | Steady institutional inflows with no retail mania phase. |\n| Bear: Liquidity Vacuum (Prob 25%) | $65,185 | -16.03% | High real rates + tighter regulation + persistent ETF outflows. |\n- Invalidation anchor: if price fails to hold trend near **$68,952**, risk rises.\n\n### Method Notes\n\n- Scores are normalized to 0-100 and combined with fixed lens weights.\n- NVT and MVRV are proxy versions using available public data endpoints.\n- Confidence blends data freshness, sample size, and API coverage.\n\n### Next Step (What To Do Today)\n\n- **For the Conservative Investor:** Add only on pullbacks and keep position sizing moderate around $68,952.\n- **For the Aggressive Investor:** Build in tranches now and increase only when confirmation improves; watch liquidity and turnover.\n\n### Final Verdict\n\nLong-term stance: Constructive long-term setup.\nCombined read: BTC is in a balanced regime with a composite score of 66.4/100 (confidence 100.0/100). Scarcity & Supply is 68.9, Usage & Popularity is 58.7, and Safety & Rules is 56.2. Whale-watch proxy is 94.5, SSR fuel gauge is 5.13, developer vitality is 68.4, and conviction proxy is 90.5. Valuation sits in the fair band, while the key watch item is to watch liquidity and turnover; base-case path points to $78,133 (+0.65%) with upside to $106,484 and downside to $65,185.\n- **Pill check:** GRAY Fair (66.4)"
   },
-  "analysis_markdown": "## Bitcoin (BTC)\n\n_Data sources: CoinGecko history (live), CoinGecko fundamentals (live)_\n\n### Status Check (5-Second View)\n\n- **Market mood:** Balanced\n- **Simple action right now:** Add only on pullbacks and keep position sizing moderate around $68,953.\n- **Plain-English read:** Bitcoin is in a balanced phase: no major euphoria, no major panic.\n\n### One-line Summary\n\nLong-term: Fair - Balanced growth profile - Moderate regulatory risk.\n\n### Quick Score Snapshot\n\n- **Pill:** GRAY Fair (64.4)\n- **Composite score:** 64.4/100 | **Confidence:** 100.0/100\n- **Valuation band:** fair\n- **Fast read:** Core structure is stable; watch confirmation from liquidity and macro trends.\n\n### The Three Big Questions\n\n| Big Question | Score | Traffic Light | What It Means |\n|---|---:|---|---|\n| Scarcity & Supply | 82.4 | GREEN - Healthy | Is there too much being created? Current read: Supply discipline and valuation are supportive. |\n| Usage & Popularity | 58.2 | YELLOW - Caution | Are people actually using it? Current read: Network activity is stable but not accelerating. |\n| Safety & Rules | 51.8 | YELLOW - Caution | Could policy or market stress hurt it? Current read: Risk conditions are mixed and require active monitoring. |\n\n### Translation Layer (So-What)\n\n- **Price vs 200-day average:** 1.05x. Translation: **GREEN - Healthy**. Below 1.00 often means a cooling phase and potentially better long-term entries.\n- **NVT proxy:** 23.41. Translation: **GREEN - Healthy**. High NVT can mean price is outrunning real network use.\n- **Turnover (Vol/Cap):** +4.27%. Translation: **YELLOW - Caution**. Higher turnover usually means easier entry/exit liquidity.\n- **Max drawdown (1y):** -53.05%. Translation: **YELLOW - Caution**. This is the historical pain you had to survive to hold long term.\n- **SSR (Fuel Gauge):** 4.78 (stablecoin cap source: live). Translation: **GREEN - Healthy**. Lower SSR usually means more sidelined buying power exists.\n- **Cost Basis Proxy (Price vs Realized Proxy):** +4.93%. Translation: **GREEN - Healthy**. Below 0% often means broader holder pain and potential capitulation zones.\n\n### Advanced Criteria (Tiered)\n\n- **Whale Watch (Beginner):** Are big players buying or selling? **Proxy score: 95.1 (GREEN - Healthy)**.\n  **Intermediate:** Concentration Risk proxy = **100.0** based on circulating/FDV structure.\n  **Technical:** Whale transaction count and true holder concentration need dedicated on-chain feeds (not in this public snapshot).\n  **12M conclusion:** If whale-pressure proxy improves while price is flat, odds of a silent accumulation phase improve.\n\n- **Stablecoin Supply Ratio (Beginner Fuel Gauge):** SSR = **4.78**.\n  **Intermediate:** Lower SSR means more dry powder relative to BTC size.\n  **Technical:** Stablecoin mint velocity and exchange inflow velocity require dedicated flow datasets.\n  **12M conclusion:** Lower-to-mid SSR supports rally potential if risk conditions stabilize.\n\n- **Cost Basis (Beginner):** Current vs realized-price proxy gap = **+4.93%**.\n  **Intermediate:** Positive gap suggests market above aggregate cost basis proxy; negative gap suggests pain/capitulation risk.\n  **Technical:** Full realized cap and MVRV Z-score need realized-cap series from on-chain providers.\n  **12M conclusion:** Deep negative gaps historically improve long-term entry quality, but timing remains volatile.\n\n- **Developer Vitality (Beginner):** Is anyone still building this? **Score: 68.4 (GREEN - Healthy)**.\n  **Intermediate:** 4-week commits = **108**, GitHub stars = **73,168**.\n  **Technical:** Multi-chain developer retention and grant-quality trends require ecosystem-level datasets.\n  **12M conclusion:** Sustained dev activity supports innovation moat and lowers zombie-project risk.\n\n- **HODL Waves / Supply Age (Beginner Conviction Meter):** **Proxy score: 91.5 (GREEN - Healthy)**.\n  **Intermediate:** Lower turnover often aligns with older supply staying locked.\n  **Technical:** True HODL wave bands and RHODL ratio need UTXO-age datasets.\n  **12M conclusion:** Rising conviction proxy supports supply tightening; sharp drops can signal old-holder distribution.\n\n### Warning Check (What Could Go Wrong Fast)\n\n- Hollow network risk: market cap climbs while real activity fades.\n- Security/governance shock: repeated incidents can break confidence.\n- Liquidity stress: if turnover stays weak, downside can accelerate.\n\n### Forecast (Next 6 Months)\n\n| Scenario | Target | Implied Move | Market Narrative |\n|---|---:|---:|---|\n| Bull: Hyper-Institutionalization (Prob 25%) | $107,210 | +48.18% | Global easing + stronger sovereign and ETF demand reduce liquid float. |\n| Base: Cycle Maturity (Prob 50%) | $78,208 | +8.10% | Steady institutional inflows with no retail mania phase. |\n| Bear: Liquidity Vacuum (Prob 25%) | $65,185 | -9.90% | High real rates + tighter regulation + persistent ETF outflows. |\n- Invalidation anchor: if price fails to hold trend near **$68,953**, risk rises.\n\n### Method Notes\n\n- Scores are normalized to 0-100 and combined with fixed lens weights.\n- NVT and MVRV are proxy versions using available public data endpoints.\n- Confidence blends data freshness, sample size, and API coverage.\n\n### Next Step (What To Do Today)\n\n- **For the Conservative Investor:** Add only on pullbacks and keep position sizing moderate around $68,953.\n- **For the Aggressive Investor:** Build in tranches now and increase only when confirmation improves; watch liquidity and turnover.\n\n### Final Verdict\n\nLong-term stance: Constructive long-term setup.\nCombined read: BTC is in a balanced regime with a composite score of 64.4/100 (confidence 100.0/100). Scarcity & Supply is 82.4, Usage & Popularity is 58.2, and Safety & Rules is 51.8. Whale-watch proxy is 95.1, SSR fuel gauge is 4.78, developer vitality is 68.4, and conviction proxy is 91.5. Valuation sits in the fair band, while the key watch item is to watch liquidity and turnover; base-case path points to $78,208 (+8.10%) with upside to $107,210 and downside to $65,185.\n- **Pill check:** GRAY Fair (64.4)\n\n---\n\n### Short-Term Context\n\n## Bitcoin (BTC)\n\n- **Current price:** $72,270\n- **7D change:** 13.96%\n- **30D change:** 8.64%\n- **Trend:** **UPTREND**\n- **Momentum:** **STRONG**\n- **Volatility:** **NORMAL**\n- **Data source:** live\n\n### Status Pulse (30-Second Context)\n\n- **Tactical regime:** Trend-Following\n- **The vibe:** Aggressive buying detected - trend is currently being respected.\n\n### Momentum Engine\n\n- **Speedometer (EMA20/EMA50):** $70,340 / $68,179.\n- **Velocity (ROC 6h / 24h):** +0.72% / +5.34%.\n- **Stamina meter (RSI 14):** 76.3\n\n### Truth Layer (Order Flow & Volume)\n\n- **CVD proxy:** +350.74%.\n- **Validation:** Volume proxy is broadly aligned with price direction.\n- **Order-book imbalance (OBI):** unavailable.\n- **Depth note:** Order book unavailable.\n\n### Trap Detector (Leverage & Liquidity)\n\n- **Funding rate (Greed Tax):** N/A (source: unavailable).\n- **Leverage risk:** Funding unavailable; leverage trap signal is limited.\n- **Liquidity cluster note:** Nearest large walls are used as tactical zones when available.\n\n### Tactical Levels\n\n- **Battle Zone (Support):** $62,853\n- **Target (Resistance):** $72,270\n- **Stop-loss (ATR proxy):** $62,630\n\n### Final Entry Signal\n\n- **Action:** Buy pullbacks\n- **Validation chain:** Trend -> CVD -> Order Book -> Leverage trap.",
+  "analysis_markdown": "## Bitcoin (BTC)\n\n_Data sources: CoinGecko history (live), CoinGecko fundamentals (live)_\n\n### Status Check (5-Second View)\n\n- **Market mood:** Balanced\n- **Simple action right now:** Add only on pullbacks and keep position sizing moderate around $68,952.\n- **Plain-English read:** Bitcoin is in a balanced phase: no major euphoria, no major panic.\n\n### One-line Summary\n\nLong-term: Fair - Balanced growth profile - Lower regulatory risk.\n\n### Quick Score Snapshot\n\n- **Pill:** GRAY Fair (66.4)\n- **Composite score:** 66.4/100 | **Confidence:** 100.0/100\n- **Valuation band:** fair\n- **Fast read:** Core structure is stable; watch confirmation from liquidity and macro trends.\n\n### The Three Big Questions\n\n| Big Question | Score | Traffic Light | What It Means |\n|---|---:|---|---|\n| Scarcity & Supply | 68.9 | GREEN - Healthy | Is there too much being created? Current read: Supply discipline and valuation are supportive. |\n| Usage & Popularity | 58.7 | YELLOW - Caution | Are people actually using it? Current read: Network activity is stable but not accelerating. |\n| Safety & Rules | 56.2 | YELLOW - Caution | Could policy or market stress hurt it? Current read: Risk conditions are mixed and require active monitoring. |\n\n### Translation Layer (So-What)\n\n- **Price vs 200-day average:** 1.13x. Translation: **GREEN - Healthy**. Below 1.00 often means a cooling phase and potentially better long-term entries.\n- **NVT proxy:** 22.59. Translation: **GREEN - Healthy**. High NVT can mean price is outrunning real network use.\n- **Turnover (Vol/Cap):** +4.43%. Translation: **YELLOW - Caution**. Higher turnover usually means easier entry/exit liquidity.\n- **Max drawdown (1y):** -53.05%. Translation: **YELLOW - Caution**. This is the historical pain you had to survive to hold long term.\n- **SSR (Fuel Gauge):** 5.13 (stablecoin cap source: live). Translation: **GREEN - Healthy**. Lower SSR usually means more sidelined buying power exists.\n- **Cost Basis Proxy (Price vs Realized Proxy):** +12.58%. Translation: **GREEN - Healthy**. Below 0% often means broader holder pain and potential capitulation zones.\n\n### Advanced Criteria (Tiered)\n\n- **Whale Watch (Beginner):** Are big players buying or selling? **Proxy score: 94.5 (GREEN - Healthy)**.\n  **Intermediate:** Concentration Risk proxy = **100.0** based on circulating/FDV structure.\n  **Technical:** Whale transaction count and true holder concentration need dedicated on-chain feeds (not in this public snapshot).\n  **12M conclusion:** If whale-pressure proxy improves while price is flat, odds of a silent accumulation phase improve.\n\n- **Stablecoin Supply Ratio (Beginner Fuel Gauge):** SSR = **5.13**.\n  **Intermediate:** Lower SSR means more dry powder relative to BTC size.\n  **Technical:** Stablecoin mint velocity and exchange inflow velocity require dedicated flow datasets.\n  **12M conclusion:** Lower-to-mid SSR supports rally potential if risk conditions stabilize.\n\n- **Cost Basis (Beginner):** Current vs realized-price proxy gap = **+12.58%**.\n  **Intermediate:** Positive gap suggests market above aggregate cost basis proxy; negative gap suggests pain/capitulation risk.\n  **Technical:** Full realized cap and MVRV Z-score need realized-cap series from on-chain providers.\n  **12M conclusion:** Deep negative gaps historically improve long-term entry quality, but timing remains volatile.\n\n- **Developer Vitality (Beginner):** Is anyone still building this? **Score: 68.4 (GREEN - Healthy)**.\n  **Intermediate:** 4-week commits = **108**, GitHub stars = **73,168**.\n  **Technical:** Multi-chain developer retention and grant-quality trends require ecosystem-level datasets.\n  **12M conclusion:** Sustained dev activity supports innovation moat and lowers zombie-project risk.\n\n- **HODL Waves / Supply Age (Beginner Conviction Meter):** **Proxy score: 90.5 (GREEN - Healthy)**.\n  **Intermediate:** Lower turnover often aligns with older supply staying locked.\n  **Technical:** True HODL wave bands and RHODL ratio need UTXO-age datasets.\n  **12M conclusion:** Rising conviction proxy supports supply tightening; sharp drops can signal old-holder distribution.\n\n### Warning Check (What Could Go Wrong Fast)\n\n- Hollow network risk: market cap climbs while real activity fades.\n- Security/governance shock: repeated incidents can break confidence.\n- Liquidity stress: if turnover stays weak, downside can accelerate.\n\n### Forecast (Next 6 Months)\n\n| Scenario | Target | Implied Move | Market Narrative |\n|---|---:|---:|---|\n| Bull: Hyper-Institutionalization (Prob 25%) | $106,484 | +37.18% | Global easing + stronger sovereign and ETF demand reduce liquid float. |\n| Base: Cycle Maturity (Prob 50%) | $78,133 | +0.65% | Steady institutional inflows with no retail mania phase. |\n| Bear: Liquidity Vacuum (Prob 25%) | $65,185 | -16.03% | High real rates + tighter regulation + persistent ETF outflows. |\n- Invalidation anchor: if price fails to hold trend near **$68,952**, risk rises.\n\n### Method Notes\n\n- Scores are normalized to 0-100 and combined with fixed lens weights.\n- NVT and MVRV are proxy versions using available public data endpoints.\n- Confidence blends data freshness, sample size, and API coverage.\n\n### Next Step (What To Do Today)\n\n- **For the Conservative Investor:** Add only on pullbacks and keep position sizing moderate around $68,952.\n- **For the Aggressive Investor:** Build in tranches now and increase only when confirmation improves; watch liquidity and turnover.\n\n### Final Verdict\n\nLong-term stance: Constructive long-term setup.\nCombined read: BTC is in a balanced regime with a composite score of 66.4/100 (confidence 100.0/100). Scarcity & Supply is 68.9, Usage & Popularity is 58.7, and Safety & Rules is 56.2. Whale-watch proxy is 94.5, SSR fuel gauge is 5.13, developer vitality is 68.4, and conviction proxy is 90.5. Valuation sits in the fair band, while the key watch item is to watch liquidity and turnover; base-case path points to $78,133 (+0.65%) with upside to $106,484 and downside to $65,185.\n- **Pill check:** GRAY Fair (66.4)\n\n---\n\n### Short-Term Context\n\n## Bitcoin (BTC)\n\n- **Current price:** $77,548\n- **7D change:** 23.10%\n- **30D change:** 17.36%\n- **Trend:** **UPTREND**\n- **Momentum:** **STRONG**\n- **Volatility:** **NORMAL**\n- **Data source:** live\n\n### Status Pulse (30-Second Context)\n\n- **Tactical regime:** Trend-Following\n- **The vibe:** Aggressive buying detected - trend is currently being respected.\n\n### Momentum Engine\n\n- **Speedometer (EMA20/EMA50):** $75,711 / $72,787.\n- **Velocity (ROC 6h / 24h):** -0.33% / +7.05%.\n- **Stamina meter (RSI 14):** 70.0\n\n### Truth Layer (Order Flow & Volume)\n\n- **CVD proxy:** +745.82%.\n- **Validation:** Volume proxy is broadly aligned with price direction.\n- **Order-book imbalance (OBI):** unavailable.\n- **Depth note:** Order book unavailable.\n\n### Trap Detector (Leverage & Liquidity)\n\n- **Funding rate (Greed Tax):** N/A (source: unavailable).\n- **Leverage risk:** Funding unavailable; leverage trap signal is limited.\n- **Liquidity cluster note:** Nearest large walls are used as tactical zones when available.\n\n### Tactical Levels\n\n- **Battle Zone (Support):** $62,853\n- **Target (Resistance):** $77,548\n- **Stop-loss (ATR proxy):** $62,530\n\n### Final Entry Signal\n\n- **Action:** Buy pullbacks\n- **Validation chain:** Trend -> CVD -> Order Book -> Leverage trap.",
   "news": [
+    {
+      "title": "Coldcard ships firmware after $114 million bitcoin theft; says AI helped catch more bugs",
+      "url": "https://www.coindesk.com/tech/2026/08/21/coldcard-ships-firmware-after-usd114-million-bitcoin-theft-says-ai-helped-catch-more-bugs",
+      "published_at": "Fri, 21 Aug 2026 12:10:55 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Analysts split on whether Bitcoin's surge past key levels signals a new bull run",
+      "url": "https://www.coindesk.com/markets/2026/08/21/analysts-split-on-whether-bitcoin-s-surge-past-key-levels-signals-a-new-bull-run",
+      "published_at": "Fri, 21 Aug 2026 11:31:30 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Bitcoin faces $80,000 test as thinner weekend liquidity looms",
+      "url": "https://www.coindesk.com/daybook-us/2026/08/21/bitcoin-faces-usd80-000-test-as-thinner-weekend-liquidity-looms",
+      "published_at": "Fri, 21 Aug 2026 11:26:27 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Bitcoin tops $77,000 as best week since 2023 pulls altcoins along for the ride",
+      "url": "https://www.coindesk.com/markets/2026/08/21/bitcoin-tops-usd77-000-as-best-week-since-2023-pulls-altcoins-along-for-the-ride",
+      "published_at": "Fri, 21 Aug 2026 10:15:36 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Treasury's latest measure isn't QE or YCC. Still, bitcoin is skyrocketing. Here's why.",
+      "url": "https://www.coindesk.com/markets/2026/08/21/treasury-s-latest-measure-isn-t-qe-or-ycc-still-bitcoin-is-skyrocketing-here-s-why",
+      "published_at": "Fri, 21 Aug 2026 09:17:15 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Strategy sits on $1.4 billion profit on bitcoin holdings as price surges",
+      "url": "https://www.coindesk.com/markets/2026/08/21/strategy-sits-on-usd1-4-billion-profit-on-bitcoin-holdings-as-price-surges",
+      "published_at": "Fri, 21 Aug 2026 08:24:52 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Live updates: Bitcoin slips back to $77,000 after challenging $80,000 overnight",
+      "url": "https://www.coindesk.com/tech/2026/08/21/live-updates-bitcoin-ether-etfs-pull-in-usd800-million-as-inflows-surge-for-a-second-day",
+      "published_at": "Fri, 21 Aug 2026 06:43:24 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Bitcoin, ether and solana climb as another $1 billion shorts get wiped out",
+      "url": "https://www.coindesk.com/markets/2026/08/21/bitcoin-ether-and-solana-climb-as-another-usd1-billion-shorts-get-wiped-out",
+      "published_at": "Fri, 21 Aug 2026 04:56:30 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Bitcoin pushes past $75,000 as rally continues.",
+      "url": "https://www.coindesk.com/markets/2026/08/20/bitcoin-pushes-past-usd75-000-as-rally-continues",
+      "published_at": "Fri, 21 Aug 2026 01:55:50 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Treasury buybacks could set up bitcoin\u2019s next move toward $180,000, says strategist",
+      "url": "https://www.coindesk.com/markets/2026/08/20/treasury-buybacks-could-set-up-bitcoin-s-next-move-toward-usd180-000",
+      "published_at": "Thu, 20 Aug 2026 16:17:32 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
     {
       "title": "Bitcoin's jump above $71,000 sets up bullish golden cross pattern",
       "url": "https://www.coindesk.com/markets/2026/08/20/bitcoin-s-jump-above-usd71-000-sets-up-bullish-golden-cross-pattern",
@@ -47,76 +117,6 @@
       "url": "https://www.coindesk.com/daybook-us/2026/08/20/fed-liquidity-promises-dollar-weakness-could-determine-bitcoin-s-next-move",
       "published_at": "Thu, 20 Aug 2026 11:31:10 +0000",
       "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitcoin rally sparks debate whether Clarity Act is already priced in",
-      "url": "https://www.coindesk.com/markets/2026/08/20/crypto-s-bottom-is-near-as-ai-hype-fades-okx-europe-ceo-says",
-      "published_at": "Thu, 20 Aug 2026 10:47:35 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitcoin breaks out of six-week range, tops $71,000 as $3 billion in shorts get wiped out",
-      "url": "https://www.coindesk.com/markets/2026/08/20/bitcoin-breaks-out-of-six-week-range-tops-usd71-000-as-usd3-billion-in-shorts-get-wiped-out",
-      "published_at": "Thu, 20 Aug 2026 10:46:21 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitcoin hits $72,000 as Strategy and Coinbase continue rally",
-      "url": "https://www.coindesk.com/markets/2026/08/20/bitcoin-approaches-usd72-000-as-strategy-and-coinbase-continue-rally",
-      "published_at": "Thu, 20 Aug 2026 09:25:03 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Live updates: Bitcoin and gold extend gains as yields climb",
-      "url": "https://www.coindesk.com/tech/2026/08/20/live-updates-bitcoin-etfs-draw-usd517-million-ether-pulls-usd189-million-in-biggest-inflows-in-months",
-      "published_at": "Thu, 20 Aug 2026 06:21:17 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bearish crypto bets lose record $3 billion as bitcoin tops $71,000",
-      "url": "https://www.coindesk.com/markets/2026/08/20/bearish-crypto-bets-lose-record-usd2-7-billion-as-bitcoin-surges-toward-usd70-000",
-      "published_at": "Thu, 20 Aug 2026 04:29:56 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Ether jumps 18% to $2,250 as bitcoin tops $69,000 in broad crypto rally",
-      "url": "https://www.coindesk.com/markets/2026/08/20/ether-jumps-18-to-usd2-250-as-bitcoin-tops-usd69-000-in-broad-crypto-rally",
-      "published_at": "Thu, 20 Aug 2026 04:10:40 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitcoin briefly hits $70,000 for the first time since June. Here is why",
-      "url": "https://www.coindesk.com/markets/2026/08/19/bitcoin-briefly-hits-usd70-000-for-the-first-time-since-june-here-is-why",
-      "published_at": "Wed, 19 Aug 2026 22:26:01 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitcoin surges above $68,000, liquidating $1.4 billion shorts as Treasury buybacks boost risk appetite",
-      "url": "https://www.coindesk.com/markets/2026/08/19/bitcoin-surges-above-usd68-000-liquidating-usd1-4-billion-shorts-as-treasury-buybacks-boost-risk-appetite",
-      "published_at": "Wed, 19 Aug 2026 16:18:04 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitcoin nears key technical breakout that could propel prices to $76,000",
-      "url": "https://www.coindesk.com/markets/2026/08/19/bitcoin-nears-key-technical-breakout-that-could-propel-prices-to-usd76-000",
-      "published_at": "Wed, 19 Aug 2026 15:22:47 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitcoin ETFs draw $517M in largest one-day inflow since early May",
-      "url": "https://cointelegraph.com/markets/bitcoin-etfs-largest-daily-inflow-since-early-may?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "Thu, 20 Aug 2026 11:16:41 +0000",
-      "source": "Cointelegraph",
       "fetch_source": "live"
     }
   ]

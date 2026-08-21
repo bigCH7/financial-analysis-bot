@@ -4,7 +4,7 @@
   "symbol": "GC=F",
   "market_type": "traditional",
   "details_page": "asset.html?asset=gold",
-  "updated_at": "2026-08-20T15:40:34.286714+00:00",
+  "updated_at": "2026-08-21T15:40:20.075353+00:00",
   "about": {
     "what_it_is": "GC=F tracks front-month COMEX gold futures pricing.",
     "what_it_represents": "It represents market expectations for gold as a store-of-value and macro hedge.",
@@ -13,7 +13,7 @@
   },
   "source": {
     "short_term": "unavailable",
-    "news_generated_at": "2026-08-20 15:39 UTC"
+    "news_generated_at": "2026-08-21 15:39 UTC"
   },
   "price": {
     "current_usd": null,
@@ -39,13 +39,6 @@
       "title": "Bitcoin's jump above $71,000 sets up bullish golden cross pattern",
       "url": "https://www.coindesk.com/markets/2026/08/20/bitcoin-s-jump-above-usd71-000-sets-up-bullish-golden-cross-pattern",
       "published_at": "Thu, 20 Aug 2026 15:16:12 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Live updates: Bitcoin and gold extend gains as yields climb",
-      "url": "https://www.coindesk.com/tech/2026/08/20/live-updates-bitcoin-etfs-draw-usd517-million-ether-pulls-usd189-million-in-biggest-inflows-in-months",
-      "published_at": "Thu, 20 Aug 2026 06:21:17 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }

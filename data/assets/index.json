@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-20T15:40:34.287159+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-08-20 15:31 UTC_",
+  "generated_at": "2026-08-21T15:40:20.075828+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-08-21 15:31 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,10 +9,10 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 72270.0,
+        "current_usd": 77548.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": 13.96,
-        "change_30d_pct": 8.64
+        "change_7d_pct": 23.1,
+        "change_30d_pct": 17.36
       },
       "indicators": {
         "trend": "UPTREND",
@@ -22,10 +22,10 @@
       "valuation": {
         "verdict": "Constructive long-term setup",
         "band": "fair",
-        "summary_line": "Fair - Balanced growth profile - Moderate regulatory risk.",
-        "score": 64.4
+        "summary_line": "Fair - Balanced growth profile - Lower regulatory risk.",
+        "score": 66.4
       },
-      "updated_at": "2026-08-20T15:40:34.284961+00:00",
+      "updated_at": "2026-08-21T15:40:20.073589+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,10 +37,10 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 2301.0,
+        "current_usd": 2397.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": 22.07,
-        "change_30d_pct": 19.29
+        "change_7d_pct": 27.48,
+        "change_30d_pct": 23.99
       },
       "indicators": {
         "trend": "UPTREND",
@@ -50,10 +50,10 @@
       "valuation": {
         "verdict": "Constructive long-term setup",
         "band": "fair",
-        "summary_line": "Fair - Strong growth profile - Moderate regulatory risk.",
-        "score": 68.3
+        "summary_line": "Fair - Strong growth profile - Lower regulatory risk.",
+        "score": 69.0
       },
-      "updated_at": "2026-08-20T15:40:34.285708+00:00",
+      "updated_at": "2026-08-21T15:40:20.074370+00:00",
       "source": {
         "short_term": "live"
       }
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-08-20T15:40:34.286007+00:00",
+      "updated_at": "2026-08-21T15:40:20.074677+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-08-20T15:40:34.286242+00:00",
+      "updated_at": "2026-08-21T15:40:20.074910+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-08-20T15:40:34.286466+00:00",
+      "updated_at": "2026-08-21T15:40:20.075145+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-08-20T15:40:34.286714+00:00",
+      "updated_at": "2026-08-21T15:40:20.075353+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -193,7 +193,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-08-20T15:40:34.286960+00:00",
+      "updated_at": "2026-08-21T15:40:20.075612+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -201,72 +201,72 @@
   ],
   "overview_news": [
     {
-      "title": "Bitcoin's jump above $71,000 sets up bullish golden cross pattern",
-      "url": "https://www.coindesk.com/markets/2026/08/20/bitcoin-s-jump-above-usd71-000-sets-up-bullish-golden-cross-pattern",
-      "published_at": "Thu, 20 Aug 2026 15:16:12 +0000",
+      "title": "Coldcard ships firmware after $114 million bitcoin theft; says AI helped catch more bugs",
+      "url": "https://www.coindesk.com/tech/2026/08/21/coldcard-ships-firmware-after-usd114-million-bitcoin-theft-says-ai-helped-catch-more-bugs",
+      "published_at": "Fri, 21 Aug 2026 12:10:55 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Crypto for Advisors: What are tokenized deposits?",
-      "url": "https://www.coindesk.com/coindesk-indices/2026/08/20/crypto-for-advisors-what-are-tokenized-deposits",
-      "published_at": "Thu, 20 Aug 2026 15:01:40 +0000",
+      "title": "Analysts split on whether Bitcoin's surge past key levels signals a new bull run",
+      "url": "https://www.coindesk.com/markets/2026/08/21/analysts-split-on-whether-bitcoin-s-surge-past-key-levels-signals-a-new-bull-run",
+      "published_at": "Fri, 21 Aug 2026 11:31:30 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Optimism-funded team's deciding vote shifts $49 million in OP tokens away from users",
-      "url": "https://www.coindesk.com/web3/2026/08/20/optimism-funded-team-s-deciding-vote-shifts-usd49-million-in-op-tokens-away-from-users",
-      "published_at": "Thu, 20 Aug 2026 12:00:25 +0000",
+      "title": "The hard truth is that the Clarity Act is an anti-crypto bill",
+      "url": "https://www.coindesk.com/opinion/2026/08/21/the-hard-truth-is-that-the-clarity-act-is-an-anti-crypto-bill",
+      "published_at": "Fri, 21 Aug 2026 11:30:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Ripple-linked XRP jumps 15% as data shows 'banker hours' onchain pattern",
-      "url": "https://www.coindesk.com/markets/2026/08/20/ripple-linked-xrp-jumps-15-as-data-shows-banker-hours-onchain-pattern",
-      "published_at": "Thu, 20 Aug 2026 11:35:47 +0000",
+      "title": "Bitcoin faces $80,000 test as thinner weekend liquidity looms",
+      "url": "https://www.coindesk.com/daybook-us/2026/08/21/bitcoin-faces-usd80-000-test-as-thinner-weekend-liquidity-looms",
+      "published_at": "Fri, 21 Aug 2026 11:26:27 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Fed liquidity promises, dollar weakness could determine bitcoin's next move",
-      "url": "https://www.coindesk.com/daybook-us/2026/08/20/fed-liquidity-promises-dollar-weakness-could-determine-bitcoin-s-next-move",
-      "published_at": "Thu, 20 Aug 2026 11:31:10 +0000",
+      "title": "Nomura-backed Laser Digital wins Japan's first crypto approval in four years",
+      "url": "https://www.coindesk.com/policy/2026/08/21/nomura-backed-laser-digital-wins-japan-s-first-crypto-approval-in-four-years",
+      "published_at": "Fri, 21 Aug 2026 10:38:47 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin rally sparks debate whether Clarity Act is already priced in",
-      "url": "https://www.coindesk.com/markets/2026/08/20/crypto-s-bottom-is-near-as-ai-hype-fades-okx-europe-ceo-says",
-      "published_at": "Thu, 20 Aug 2026 10:47:35 +0000",
+      "title": "Bitcoin tops $77,000 as best week since 2023 pulls altcoins along for the ride",
+      "url": "https://www.coindesk.com/markets/2026/08/21/bitcoin-tops-usd77-000-as-best-week-since-2023-pulls-altcoins-along-for-the-ride",
+      "published_at": "Fri, 21 Aug 2026 10:15:36 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin breaks out of six-week range, tops $71,000 as $3 billion in shorts get wiped out",
-      "url": "https://www.coindesk.com/markets/2026/08/20/bitcoin-breaks-out-of-six-week-range-tops-usd71-000-as-usd3-billion-in-shorts-get-wiped-out",
-      "published_at": "Thu, 20 Aug 2026 10:46:21 +0000",
+      "title": "Treasury's latest measure isn't QE or YCC. Still, bitcoin is skyrocketing. Here's why.",
+      "url": "https://www.coindesk.com/markets/2026/08/21/treasury-s-latest-measure-isn-t-qe-or-ycc-still-bitcoin-is-skyrocketing-here-s-why",
+      "published_at": "Fri, 21 Aug 2026 09:17:15 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Elon Musk's X is exploring stablecoins to pay influencers and content providers",
-      "url": "https://www.coindesk.com/business/2026/08/20/elon-musk-s-x-is-exploring-stablecoins-to-pay-influencers-and-content-providers",
-      "published_at": "Thu, 20 Aug 2026 09:40:25 +0000",
+      "title": "Strategy sits on $1.4 billion profit on bitcoin holdings as price surges",
+      "url": "https://www.coindesk.com/markets/2026/08/21/strategy-sits-on-usd1-4-billion-profit-on-bitcoin-holdings-as-price-surges",
+      "published_at": "Fri, 21 Aug 2026 08:24:52 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "BitGo secures South Korea virtual asset license, says it's the first global crypto company to do so",
-      "url": "https://www.coindesk.com/business/2026/08/20/bitgo-secures-south-korea-virtual-asset-license-says-it-s-the-first-global-crypto-company-to-do-so",
-      "published_at": "Thu, 20 Aug 2026 09:25:25 +0000",
+      "title": "Live updates: Bitcoin slips back to $77,000 after challenging $80,000 overnight",
+      "url": "https://www.coindesk.com/tech/2026/08/21/live-updates-bitcoin-ether-etfs-pull-in-usd800-million-as-inflows-surge-for-a-second-day",
+      "published_at": "Fri, 21 Aug 2026 06:43:24 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin hits $72,000 as Strategy and Coinbase continue rally",
-      "url": "https://www.coindesk.com/markets/2026/08/20/bitcoin-approaches-usd72-000-as-strategy-and-coinbase-continue-rally",
-      "published_at": "Thu, 20 Aug 2026 09:25:03 +0000",
+      "title": "MANTRA token plunges 18% to record low as blockchain halts after exploit",
+      "url": "https://www.coindesk.com/tech/2026/08/21/mantra-token-plunges-18-to-record-low-as-blockchain-halts-after-exploit",
+      "published_at": "Fri, 21 Aug 2026 05:52:27 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
