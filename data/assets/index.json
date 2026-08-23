@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-22T15:27:59.576557+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-08-22 15:19 UTC_",
+  "generated_at": "2026-08-23T15:29:04.979830+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-08-23 15:20 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,10 +9,10 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 76976.0,
+        "current_usd": 77197.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": 22.15,
-        "change_30d_pct": 18.37
+        "change_7d_pct": 22.82,
+        "change_30d_pct": 20.43
       },
       "indicators": {
         "trend": "UPTREND",
@@ -20,12 +20,12 @@
         "volatility": "NORMAL"
       },
       "valuation": {
-        "verdict": "Constructive long-term setup",
+        "verdict": "Neutral / fair-value zone",
         "band": "fair",
         "summary_line": "Fair - Weak growth profile - Lower regulatory risk.",
-        "score": 62.9
+        "score": 59.0
       },
-      "updated_at": "2026-08-22T15:27:59.574141+00:00",
+      "updated_at": "2026-08-23T15:29:04.977611+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,10 +37,10 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 2410.0,
+        "current_usd": 2435.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": 28.11,
-        "change_30d_pct": 28.38
+        "change_7d_pct": 29.91,
+        "change_30d_pct": 30.83
       },
       "indicators": {
         "trend": "UPTREND",
@@ -50,10 +50,10 @@
       "valuation": {
         "verdict": "Constructive long-term setup",
         "band": "fair",
-        "summary_line": "Fair - Strong growth profile - Lower regulatory risk.",
-        "score": 68.8
+        "summary_line": "Fair - Balanced growth profile - Lower regulatory risk.",
+        "score": 62.1
       },
-      "updated_at": "2026-08-22T15:27:59.574995+00:00",
+      "updated_at": "2026-08-23T15:29:04.978358+00:00",
       "source": {
         "short_term": "live"
       }
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-08-22T15:27:59.575289+00:00",
+      "updated_at": "2026-08-23T15:29:04.978656+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-08-22T15:27:59.575565+00:00",
+      "updated_at": "2026-08-23T15:29:04.978914+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-08-22T15:27:59.575814+00:00",
+      "updated_at": "2026-08-23T15:29:04.979153+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-08-22T15:27:59.576045+00:00",
+      "updated_at": "2026-08-23T15:29:04.979360+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -193,13 +193,27 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-08-22T15:27:59.576285+00:00",
+      "updated_at": "2026-08-23T15:29:04.979593+00:00",
       "source": {
         "short_term": "unavailable"
       }
     }
   ],
   "overview_news": [
+    {
+      "title": "Crypto card spending tops $1 billion as stablecoins move into everyday purchases",
+      "url": "https://www.coindesk.com/business/2026/08/23/crypto-card-spending-tops-usd1-billion-as-stablecoins-move-into-everyday-purchases",
+      "published_at": "Sun, 23 Aug 2026 15:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Crypto\u2019s next billion users might be AI agents, and they\u2019re paying with stablecoins",
+      "url": "https://www.coindesk.com/business/2026/08/23/crypto-s-next-billion-users-might-be-ai-agents-and-they-re-paying-with-stablecoins",
+      "published_at": "Sun, 23 Aug 2026 13:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
     {
       "title": "Crypto exchange BitMart weighs partial restart and creditor payouts weeks after announcing shutdown",
       "url": "https://www.coindesk.com/business/2026/08/22/crypto-exchange-bitmart-weighs-partial-restart-and-creditor-payouts-weeks-after-announcing-shutdown",
@@ -253,20 +267,6 @@
       "title": "Crypto advocates join in suing Illinois over digital asset tax",
       "url": "https://www.coindesk.com/policy/2026/08/21/crypto-advocates-join-in-suing-illinois-over-digital-asset-tax",
       "published_at": "Fri, 21 Aug 2026 22:10:28 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Pass the Clarity Act",
-      "url": "https://www.coindesk.com/opinion/2026/08/21/pass-the-clarity-act",
-      "published_at": "Fri, 21 Aug 2026 19:00:00 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Ethena's ENA token surges 48%, but altcoin season will have to wait",
-      "url": "https://www.coindesk.com/markets/2026/08/21/ethena-surges-48-as-altcoins-pull-away-from-bitcoin",
-      "published_at": "Fri, 21 Aug 2026 16:10:37 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
