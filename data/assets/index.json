@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-24T15:46:43.221226+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-08-24 15:37 UTC_",
+  "generated_at": "2026-08-25T15:48:05.630672+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-08-25 15:40 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,23 +9,23 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 79580.0,
+        "current_usd": 79361.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": 23.46,
-        "change_30d_pct": 23.73
+        "change_7d_pct": 22.73,
+        "change_30d_pct": 21.51
       },
       "indicators": {
         "trend": "UPTREND",
-        "momentum": "STRONG",
+        "momentum": "WEAK",
         "volatility": "NORMAL"
       },
       "valuation": {
         "verdict": "Constructive long-term setup",
         "band": "fair",
-        "summary_line": "Fair - Weak growth profile - Lower regulatory risk.",
-        "score": 63.6
+        "summary_line": "Fair - Balanced growth profile - Lower regulatory risk.",
+        "score": 65.4
       },
-      "updated_at": "2026-08-24T15:46:43.218971+00:00",
+      "updated_at": "2026-08-25T15:48:05.628978+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,23 +37,23 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 2504.0,
+        "current_usd": 2477.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": 31.02,
-        "change_30d_pct": 33.63
+        "change_7d_pct": 29.35,
+        "change_30d_pct": 26.89
       },
       "indicators": {
         "trend": "UPTREND",
-        "momentum": "STRONG",
+        "momentum": "WEAK",
         "volatility": "NORMAL"
       },
       "valuation": {
         "verdict": "Constructive long-term setup",
         "band": "fair",
         "summary_line": "Fair - Balanced growth profile - Lower regulatory risk.",
-        "score": 64.6
+        "score": 64.2
       },
-      "updated_at": "2026-08-24T15:46:43.219761+00:00",
+      "updated_at": "2026-08-25T15:48:05.629756+00:00",
       "source": {
         "short_term": "live"
       }
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-08-24T15:46:43.220072+00:00",
+      "updated_at": "2026-08-25T15:48:05.629994+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-08-24T15:46:43.220304+00:00",
+      "updated_at": "2026-08-25T15:48:05.630139+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-08-24T15:46:43.220527+00:00",
+      "updated_at": "2026-08-25T15:48:05.630282+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-08-24T15:46:43.220772+00:00",
+      "updated_at": "2026-08-25T15:48:05.630412+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -193,7 +193,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-08-24T15:46:43.221009+00:00",
+      "updated_at": "2026-08-25T15:48:05.630546+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -201,72 +201,72 @@
   ],
   "overview_news": [
     {
-      "title": "Tom Lee's Bitmine buys $81 million of ETH in largest weekly haul since early July",
-      "url": "https://www.coindesk.com/business/2026/08/24/tom-lee-s-bitmine-buys-usd81-million-of-eth-in-largest-weekly-haul-since-early-july",
-      "published_at": "Mon, 24 Aug 2026 12:59:55 +0000",
+      "title": "Bitwise turns Coinbase's tokenized stocks into automated AI, robotics and tech portfolios",
+      "url": "https://www.coindesk.com/business/2026/08/25/bitwise-turns-coinbase-s-tokenized-stocks-into-automated-ai-robotics-and-tech-portfolios",
+      "published_at": "Tue, 25 Aug 2026 14:50:22 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "New Solana vote could ramp daily SOL burns to $800,000 and slow new token creation",
-      "url": "https://www.coindesk.com/tech/2026/08/24/new-solana-vote-could-ramp-daily-sol-burns-to-usd800-000-and-slow-new-token-creation",
-      "published_at": "Mon, 24 Aug 2026 12:52:30 +0000",
+      "title": "Crypto custody firm Copper has potential buyers. But offers are way below its $500 million asking price",
+      "url": "https://www.coindesk.com/business/2026/08/25/crypto-custody-firm-copper-has-potential-buyers-but-offers-are-way-below-its-usd500-million-asking-price",
+      "published_at": "Tue, 25 Aug 2026 13:48:50 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Strategy raises $2 billion through MSTR sales and creates new USD Cash pool",
-      "url": "https://www.coindesk.com/markets/2026/08/24/strategy-raises-usd2-billion-through-mstr-sales-and-creates-new-usd-cash-pool",
-      "published_at": "Mon, 24 Aug 2026 12:24:58 +0000",
+      "title": "MiCA revolutionised European crypto, and left Poland licking its wounds",
+      "url": "https://www.coindesk.com/opinion/2026/08/24/mica-revolutionised-european-crypto-and-left-poland-licking-its-wounds",
+      "published_at": "Tue, 25 Aug 2026 13:00:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Standard Chartered becomes first bank to distribute Hong Kong dollar stablecoin",
-      "url": "https://www.coindesk.com/business/2026/08/24/standard-chartered-first-bank-to-distribute-anchorpoint-s-hong-kong-dollar-stablecoin",
-      "published_at": "Mon, 24 Aug 2026 11:36:55 +0000",
+      "title": "Chainalysis-run sting targets child exploitation networks with aid of Binance, Coinbase",
+      "url": "https://www.coindesk.com/policy/2026/08/24/chainalysis-run-sting-targets-child-exploitation-networks-with-aid-of-binance-coinbase",
+      "published_at": "Tue, 25 Aug 2026 13:00:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Pakistan kicks off crypto licensing regime with Sept. 5 registration deadline",
-      "url": "https://www.coindesk.com/policy/2026/08/24/pakistan-kicks-off-crypto-licensing-regime-with-sept-5-registration-deadline",
-      "published_at": "Mon, 24 Aug 2026 11:19:16 +0000",
+      "title": "A 3% token move just triggered $36 million in Ethereum DeFi liquidations",
+      "url": "https://www.coindesk.com/tech/2026/08/25/a-3-token-move-just-triggered-usd36-million-in-ethereum-defi-liquidations",
+      "published_at": "Tue, 25 Aug 2026 12:03:55 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Financial repression: The new buzzword for bitcoin bulls",
-      "url": "https://www.coindesk.com/daybook-us/2026/08/24/financial-repression-the-new-buzzword-for-bitcoin-bulls",
-      "published_at": "Mon, 24 Aug 2026 11:15:00 +0000",
+      "title": "Las Vegas businessman convicted in $24 million 'AI supercomputer' crypto Ponzi scheme",
+      "url": "https://www.coindesk.com/policy/2026/08/25/crypto-supercomputer-ponzi-schemer-convicted-faces-up-to-280-years-in-prison",
+      "published_at": "Tue, 25 Aug 2026 11:46:18 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Gemini strikes Apex deal to widen prediction markets reach",
-      "url": "https://www.coindesk.com/business/2026/08/24/gemini-strikes-apex-deal-to-widen-prediction-markets-reach",
-      "published_at": "Mon, 24 Aug 2026 10:55:00 +0000",
+      "title": "Bitcoin's surging price faces 1 key level that could signal if the bear market is really over",
+      "url": "https://www.coindesk.com/daybook-us/2026/08/25/bitcoin-s-surging-price-faces-1-key-level-that-could-signal-if-the-bear-market-is-really-over",
+      "published_at": "Tue, 25 Aug 2026 11:15:02 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin steadies near $78,000 as gold rallies, altcoins consolidate after best week in 3 years",
-      "url": "https://www.coindesk.com/markets/2026/08/24/bitcoin-steadies-near-usd78-000-as-gold-rallies-altcoins-consolidate-after-best-week-in-3-years",
-      "published_at": "Mon, 24 Aug 2026 10:41:46 +0000",
+      "title": "A bitcoin short squeeze for the ages as futures open interest collapses",
+      "url": "https://www.coindesk.com/markets/2026/08/25/a-bitcoin-short-squeeze-for-the-ages-as-futures-open-interest-collapses",
+      "published_at": "Tue, 25 Aug 2026 10:57:02 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Fed experiment shows how bitcoin rallies attract new crypto buyers",
-      "url": "https://www.coindesk.com/markets/2026/08/24/fed-experiment-shows-how-bitcoin-rallies-attract-new-crypto-buyers",
-      "published_at": "Mon, 24 Aug 2026 09:56:17 +0000",
+      "title": "Bitcoin extends 7-day advance to roughly 25%",
+      "url": "https://www.coindesk.com/markets/2026/08/25/bitcoin-extends-7-day-advance-to-roughly-25",
+      "published_at": "Tue, 25 Aug 2026 10:52:03 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Crypto roars back as bitcoin posts its second-best week since early 2021",
-      "url": "https://www.coindesk.com/markets/2026/08/24/crypto-roars-back-as-bitcoin-posts-its-second-best-week-since-early-2021",
-      "published_at": "Mon, 24 Aug 2026 08:28:14 +0000",
+      "title": "Solana ETFs extend growth streak to 5 days after year's biggest inflows",
+      "url": "https://www.coindesk.com/markets/2026/08/25/solana-etfs-extend-growth-streak-to-5-days-after-year-s-biggest-inflows",
+      "published_at": "Tue, 25 Aug 2026 10:25:32 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
