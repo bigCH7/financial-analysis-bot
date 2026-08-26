@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-25T15:48:05.630672+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-08-25 15:40 UTC_",
+  "generated_at": "2026-08-26T16:25:19.735322+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-08-26 16:16 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,23 +9,23 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 79361.0,
+        "current_usd": 78100.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": 22.73,
-        "change_30d_pct": 21.51
+        "change_7d_pct": 12.51,
+        "change_30d_pct": 22.66
       },
       "indicators": {
-        "trend": "UPTREND",
+        "trend": "DOWNTREND",
         "momentum": "WEAK",
         "volatility": "NORMAL"
       },
       "valuation": {
         "verdict": "Constructive long-term setup",
         "band": "fair",
-        "summary_line": "Fair - Balanced growth profile - Lower regulatory risk.",
-        "score": 65.4
+        "summary_line": "Fair - Weak growth profile - Lower regulatory risk.",
+        "score": 61.1
       },
-      "updated_at": "2026-08-25T15:48:05.628978+00:00",
+      "updated_at": "2026-08-26T16:25:19.733228+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,23 +37,23 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 2477.0,
+        "current_usd": 2452.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": 29.35,
-        "change_30d_pct": 26.89
+        "change_7d_pct": 8.81,
+        "change_30d_pct": 29.7
       },
       "indicators": {
-        "trend": "UPTREND",
+        "trend": "DOWNTREND",
         "momentum": "WEAK",
         "volatility": "NORMAL"
       },
       "valuation": {
-        "verdict": "Constructive long-term setup",
+        "verdict": "Neutral / fair-value zone",
         "band": "fair",
         "summary_line": "Fair - Balanced growth profile - Lower regulatory risk.",
-        "score": 64.2
+        "score": 59.9
       },
-      "updated_at": "2026-08-25T15:48:05.629756+00:00",
+      "updated_at": "2026-08-26T16:25:19.733989+00:00",
       "source": {
         "short_term": "live"
       }
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-08-25T15:48:05.629994+00:00",
+      "updated_at": "2026-08-26T16:25:19.734267+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-08-25T15:48:05.630139+00:00",
+      "updated_at": "2026-08-26T16:25:19.734488+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-08-25T15:48:05.630282+00:00",
+      "updated_at": "2026-08-26T16:25:19.734697+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-08-25T15:48:05.630412+00:00",
+      "updated_at": "2026-08-26T16:25:19.734921+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -193,7 +193,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-08-25T15:48:05.630546+00:00",
+      "updated_at": "2026-08-26T16:25:19.735129+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -201,72 +201,72 @@
   ],
   "overview_news": [
     {
-      "title": "Bitwise turns Coinbase's tokenized stocks into automated AI, robotics and tech portfolios",
-      "url": "https://www.coindesk.com/business/2026/08/25/bitwise-turns-coinbase-s-tokenized-stocks-into-automated-ai-robotics-and-tech-portfolios",
-      "published_at": "Tue, 25 Aug 2026 14:50:22 +0000",
+      "title": "Shinhan and Visa team up to test stablecoin issuance and B2B settlements in South Korea",
+      "url": "https://www.coindesk.com/business/2026/08/26/south-korea-s-shinhan-financial-joins-visa-to-build-stablecoin-infrastructure",
+      "published_at": "Wed, 26 Aug 2026 15:15:13 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Crypto custody firm Copper has potential buyers. But offers are way below its $500 million asking price",
-      "url": "https://www.coindesk.com/business/2026/08/25/crypto-custody-firm-copper-has-potential-buyers-but-offers-are-way-below-its-usd500-million-asking-price",
-      "published_at": "Tue, 25 Aug 2026 13:48:50 +0000",
+      "title": "Crypto Long & Short: Tokenized equities: the model underneath the trade",
+      "url": "https://www.coindesk.com/coindesk-indices/2026/08/26/crypto-long-and-short-tokenized-equities-the-model-underneath-the-trade",
+      "published_at": "Wed, 26 Aug 2026 15:00:09 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "MiCA revolutionised European crypto, and left Poland licking its wounds",
-      "url": "https://www.coindesk.com/opinion/2026/08/24/mica-revolutionised-european-crypto-and-left-poland-licking-its-wounds",
-      "published_at": "Tue, 25 Aug 2026 13:00:00 +0000",
+      "title": "Ethereum developers propose first step to protect ETH staking from quantum attacks",
+      "url": "https://www.coindesk.com/tech/2026/08/26/ethereum-developers-propose-first-step-to-protect-eth-staking-from-quantum-attacks",
+      "published_at": "Wed, 26 Aug 2026 13:30:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Chainalysis-run sting targets child exploitation networks with aid of Binance, Coinbase",
-      "url": "https://www.coindesk.com/policy/2026/08/24/chainalysis-run-sting-targets-child-exploitation-networks-with-aid-of-binance-coinbase",
-      "published_at": "Tue, 25 Aug 2026 13:00:00 +0000",
+      "title": "The evidence doesn't support the banks' case against stablecoin rewards",
+      "url": "https://www.coindesk.com/opinion/2026/08/25/the-evidence-doesn-t-support-the-banks-case-against-stablecoin-rewards",
+      "published_at": "Wed, 26 Aug 2026 13:00:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "A 3% token move just triggered $36 million in Ethereum DeFi liquidations",
-      "url": "https://www.coindesk.com/tech/2026/08/25/a-3-token-move-just-triggered-usd36-million-in-ethereum-defi-liquidations",
-      "published_at": "Tue, 25 Aug 2026 12:03:55 +0000",
+      "title": "Dallas Fed warns tokenized deposits could strip $700 billion from U.S. banks' lending capacity",
+      "url": "https://www.coindesk.com/business/2026/08/26/dallas-fed-warns-tokenized-deposits-could-strip-usd700-billion-from-u-s-banks-lending-capacity",
+      "published_at": "Wed, 26 Aug 2026 11:46:19 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Las Vegas businessman convicted in $24 million 'AI supercomputer' crypto Ponzi scheme",
-      "url": "https://www.coindesk.com/policy/2026/08/25/crypto-supercomputer-ponzi-schemer-convicted-faces-up-to-280-years-in-prison",
-      "published_at": "Tue, 25 Aug 2026 11:46:18 +0000",
+      "title": "ECB claims digital euro will offer 'maximum level of privacy' amid surveillance fears",
+      "url": "https://www.coindesk.com/policy/2026/08/26/the-digital-euro-will-offer-more-privacy-than-regular-bank-transfers-ecb-says",
+      "published_at": "Wed, 26 Aug 2026 11:14:16 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin's surging price faces 1 key level that could signal if the bear market is really over",
-      "url": "https://www.coindesk.com/daybook-us/2026/08/25/bitcoin-s-surging-price-faces-1-key-level-that-could-signal-if-the-bear-market-is-really-over",
-      "published_at": "Tue, 25 Aug 2026 11:15:02 +0000",
+      "title": "The 3 catalysts that could define bitcoin's next move",
+      "url": "https://www.coindesk.com/daybook-us/2026/08/26/the-3-catalysts-that-could-define-bitcoin-s-next-move",
+      "published_at": "Wed, 26 Aug 2026 11:02:33 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "A bitcoin short squeeze for the ages as futures open interest collapses",
-      "url": "https://www.coindesk.com/markets/2026/08/25/a-bitcoin-short-squeeze-for-the-ages-as-futures-open-interest-collapses",
-      "published_at": "Tue, 25 Aug 2026 10:57:02 +0000",
+      "title": "Bitcoin takes a breather after adding 23% in 7 days as ETF demand holds steady",
+      "url": "https://www.coindesk.com/markets/2026/08/26/bitcoin-takes-a-breather-after-adding-23-in-7-days-as-etf-demand-holds-steady",
+      "published_at": "Wed, 26 Aug 2026 10:45:29 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin extends 7-day advance to roughly 25%",
-      "url": "https://www.coindesk.com/markets/2026/08/25/bitcoin-extends-7-day-advance-to-roughly-25",
-      "published_at": "Tue, 25 Aug 2026 10:52:03 +0000",
+      "title": "Strategy cuts net leverage to near zero as cash nearly matches convertible debt",
+      "url": "https://www.coindesk.com/markets/2026/08/26/strategy-cuts-net-leverage-to-near-zero-as-cash-nearly-matches-convertible-debt",
+      "published_at": "Wed, 26 Aug 2026 10:42:52 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Solana ETFs extend growth streak to 5 days after year's biggest inflows",
-      "url": "https://www.coindesk.com/markets/2026/08/25/solana-etfs-extend-growth-streak-to-5-days-after-year-s-biggest-inflows",
-      "published_at": "Tue, 25 Aug 2026 10:25:32 +0000",
+      "title": "Euro stablecoins get a mainstream push as Revolut begins rolling out EURR in Europe",
+      "url": "https://www.coindesk.com/business/2026/08/26/euro-stablecoins-get-a-mainstream-push-as-revolut-begins-rolling-out-eurr-in-europe",
+      "published_at": "Wed, 26 Aug 2026 10:03:43 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
