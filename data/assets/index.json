@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-26T16:25:19.735322+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-08-26 16:16 UTC_",
+  "generated_at": "2026-08-28T00:23:33.483559+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-08-28 00:14 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,13 +9,13 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 78100.0,
+        "current_usd": 80371.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": 12.51,
-        "change_30d_pct": 22.66
+        "change_7d_pct": 2.62,
+        "change_30d_pct": 25.74
       },
       "indicators": {
-        "trend": "DOWNTREND",
+        "trend": "UPTREND",
         "momentum": "WEAK",
         "volatility": "NORMAL"
       },
@@ -23,9 +23,9 @@
         "verdict": "Constructive long-term setup",
         "band": "fair",
         "summary_line": "Fair - Weak growth profile - Lower regulatory risk.",
-        "score": 61.1
+        "score": 62.8
       },
-      "updated_at": "2026-08-26T16:25:19.733228+00:00",
+      "updated_at": "2026-08-28T00:23:33.481238+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,23 +37,23 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 2452.0,
+        "current_usd": 2512.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": 8.81,
-        "change_30d_pct": 29.7
+        "change_7d_pct": -0.1,
+        "change_30d_pct": 31.63
       },
       "indicators": {
-        "trend": "DOWNTREND",
+        "trend": "UPTREND",
         "momentum": "WEAK",
         "volatility": "NORMAL"
       },
       "valuation": {
-        "verdict": "Neutral / fair-value zone",
+        "verdict": "Constructive long-term setup",
         "band": "fair",
         "summary_line": "Fair - Balanced growth profile - Lower regulatory risk.",
-        "score": 59.9
+        "score": 63.4
       },
-      "updated_at": "2026-08-26T16:25:19.733989+00:00",
+      "updated_at": "2026-08-28T00:23:33.482018+00:00",
       "source": {
         "short_term": "live"
       }
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-08-26T16:25:19.734267+00:00",
+      "updated_at": "2026-08-28T00:23:33.482334+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-08-26T16:25:19.734488+00:00",
+      "updated_at": "2026-08-28T00:23:33.482584+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-08-26T16:25:19.734697+00:00",
+      "updated_at": "2026-08-28T00:23:33.482829+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-08-26T16:25:19.734921+00:00",
+      "updated_at": "2026-08-28T00:23:33.483075+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -193,7 +193,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-08-26T16:25:19.735129+00:00",
+      "updated_at": "2026-08-28T00:23:33.483333+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -201,72 +201,72 @@
   ],
   "overview_news": [
     {
-      "title": "Shinhan and Visa team up to test stablecoin issuance and B2B settlements in South Korea",
-      "url": "https://www.coindesk.com/business/2026/08/26/south-korea-s-shinhan-financial-joins-visa-to-build-stablecoin-infrastructure",
-      "published_at": "Wed, 26 Aug 2026 15:15:13 +0000",
+      "title": "Connecticut's new lawsuit against Kalshi piles on to prediction market legal fight",
+      "url": "https://www.coindesk.com/news-analysis/2026/08/27/connecticut-s-new-lawsuit-against-kalshi-piles-on-to-prediction-market-legal-fight",
+      "published_at": "Thu, 27 Aug 2026 18:28:53 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Crypto Long & Short: Tokenized equities: the model underneath the trade",
-      "url": "https://www.coindesk.com/coindesk-indices/2026/08/26/crypto-long-and-short-tokenized-equities-the-model-underneath-the-trade",
-      "published_at": "Wed, 26 Aug 2026 15:00:09 +0000",
+      "title": "Ethena surges as buyback vote, VC unlock overhaul boost token outlook",
+      "url": "https://www.coindesk.com/markets/2026/08/27/ethena-surges-as-buyback-vote-vc-unlock-overhaul-boost-token-outlook",
+      "published_at": "Thu, 27 Aug 2026 17:32:20 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Ethereum developers propose first step to protect ETH staking from quantum attacks",
-      "url": "https://www.coindesk.com/tech/2026/08/26/ethereum-developers-propose-first-step-to-protect-eth-staking-from-quantum-attacks",
-      "published_at": "Wed, 26 Aug 2026 13:30:00 +0000",
+      "title": "GTA 6 leaker cashes out of his own memecoin hours before Rockstar's gameplay reveal",
+      "url": "https://www.coindesk.com/business/2026/08/27/gta-6-leaker-cashes-out-of-his-own-memecoin-hours-before-rockstar-s-gameplay-reveal",
+      "published_at": "Thu, 27 Aug 2026 16:32:38 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "The evidence doesn't support the banks' case against stablecoin rewards",
-      "url": "https://www.coindesk.com/opinion/2026/08/25/the-evidence-doesn-t-support-the-banks-case-against-stablecoin-rewards",
-      "published_at": "Wed, 26 Aug 2026 13:00:00 +0000",
+      "title": "Polish Olympic chief arrested as prosecutors probe suspected crypto-linked bribe",
+      "url": "https://www.coindesk.com/business/2026/08/27/polish-olympic-chief-arrested-as-prosecutors-probe-suspected-crypto-linked-bribe",
+      "published_at": "Thu, 27 Aug 2026 16:12:10 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Dallas Fed warns tokenized deposits could strip $700 billion from U.S. banks' lending capacity",
-      "url": "https://www.coindesk.com/business/2026/08/26/dallas-fed-warns-tokenized-deposits-could-strip-usd700-billion-from-u-s-banks-lending-capacity",
-      "published_at": "Wed, 26 Aug 2026 11:46:19 +0000",
+      "title": "MoonPay\u2019s newest integration lets AI agents handle crypto lending on Solana",
+      "url": "https://www.coindesk.com/business/2026/08/27/moonpay-s-newest-integration-lets-ai-agents-handle-crypto-lending-on-solana",
+      "published_at": "Thu, 27 Aug 2026 15:52:21 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "ECB claims digital euro will offer 'maximum level of privacy' amid surveillance fears",
-      "url": "https://www.coindesk.com/policy/2026/08/26/the-digital-euro-will-offer-more-privacy-than-regular-bank-transfers-ecb-says",
-      "published_at": "Wed, 26 Aug 2026 11:14:16 +0000",
+      "title": "240 UK taxpayers made more than $1.3 million each from crypto holdings in fiscal 2025",
+      "url": "https://www.coindesk.com/business/2026/08/27/240-uk-taxpayers-made-more-than-usd1-3-million-each-from-crypto-holdings-in-fiscal-2025",
+      "published_at": "Thu, 27 Aug 2026 15:36:25 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "The 3 catalysts that could define bitcoin's next move",
-      "url": "https://www.coindesk.com/daybook-us/2026/08/26/the-3-catalysts-that-could-define-bitcoin-s-next-move",
-      "published_at": "Wed, 26 Aug 2026 11:02:33 +0000",
+      "title": "Crypto for Advisors: How staking on Ethereum is changing in 2026",
+      "url": "https://www.coindesk.com/coindesk-indices/2026/08/27/crypto-for-advisors-how-staking-on-ethereum-is-changing-in-2026",
+      "published_at": "Thu, 27 Aug 2026 15:10:56 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin takes a breather after adding 23% in 7 days as ETF demand holds steady",
-      "url": "https://www.coindesk.com/markets/2026/08/26/bitcoin-takes-a-breather-after-adding-23-in-7-days-as-etf-demand-holds-steady",
-      "published_at": "Wed, 26 Aug 2026 10:45:29 +0000",
+      "title": "Clearing firm RQD* raises $74 million as Wall Street prepares for tokenized markets",
+      "url": "https://www.coindesk.com/business/2026/08/27/clearing-firm-rqd-raises-usd74-million-as-wall-street-prepares-for-tokenized-markets",
+      "published_at": "Thu, 27 Aug 2026 14:32:41 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Strategy cuts net leverage to near zero as cash nearly matches convertible debt",
-      "url": "https://www.coindesk.com/markets/2026/08/26/strategy-cuts-net-leverage-to-near-zero-as-cash-nearly-matches-convertible-debt",
-      "published_at": "Wed, 26 Aug 2026 10:42:52 +0000",
+      "title": "Crypto traders brace for Fed Chair Kevin Warsh\u2019s Jackson Hole speech",
+      "url": "https://www.coindesk.com/markets/2026/08/27/bitcoin-holds-near-usd80-000-as-traders-brace-for-warsh-s-jackson-hole-fed-speech",
+      "published_at": "Thu, 27 Aug 2026 14:01:05 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Euro stablecoins get a mainstream push as Revolut begins rolling out EURR in Europe",
-      "url": "https://www.coindesk.com/business/2026/08/26/euro-stablecoins-get-a-mainstream-push-as-revolut-begins-rolling-out-eurr-in-europe",
-      "published_at": "Wed, 26 Aug 2026 10:03:43 +0000",
+      "title": "The Clarity Act will put Main Street banks at a disadvantage",
+      "url": "https://www.coindesk.com/opinion/2026/08/27/the-clarity-act-will-put-main-street-banks-at-a-disadvantage",
+      "published_at": "Thu, 27 Aug 2026 12:30:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
