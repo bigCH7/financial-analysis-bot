@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-29T00:01:08.801987+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-08-28 23:52 UTC_",
+  "generated_at": "2026-08-29T18:19:52.953719+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-08-29 18:10 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,23 +9,23 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 77794.0,
+        "current_usd": 78071.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": -0.67,
-        "change_30d_pct": 21.71
+        "change_7d_pct": 1.28,
+        "change_30d_pct": 20.59
       },
       "indicators": {
         "trend": "DOWNTREND",
-        "momentum": "STRONG",
+        "momentum": "WEAK",
         "volatility": "NORMAL"
       },
       "valuation": {
-        "verdict": "Constructive long-term setup",
+        "verdict": "Neutral / fair-value zone",
         "band": "fair",
         "summary_line": "Fair - Weak growth profile - Lower regulatory risk.",
-        "score": 61.6
+        "score": 54.6
       },
-      "updated_at": "2026-08-29T00:01:08.800821+00:00",
+      "updated_at": "2026-08-29T18:19:52.951524+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,23 +37,23 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 2442.0,
+        "current_usd": 2448.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": -2.89,
-        "change_30d_pct": 27.95
+        "change_7d_pct": 1.01,
+        "change_30d_pct": 27.66
       },
       "indicators": {
         "trend": "DOWNTREND",
-        "momentum": "STRONG",
+        "momentum": "WEAK",
         "volatility": "NORMAL"
       },
       "valuation": {
-        "verdict": "Constructive long-term setup",
+        "verdict": "Neutral / fair-value zone",
         "band": "fair",
-        "summary_line": "Fair - Balanced growth profile - Lower regulatory risk.",
-        "score": 65.6
+        "summary_line": "Fair - Weak growth profile - Lower regulatory risk.",
+        "score": 56.4
       },
-      "updated_at": "2026-08-29T00:01:08.801298+00:00",
+      "updated_at": "2026-08-29T18:19:52.952287+00:00",
       "source": {
         "short_term": "live"
       }
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-08-29T00:01:08.801468+00:00",
+      "updated_at": "2026-08-29T18:19:52.952625+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-08-29T00:01:08.801579+00:00",
+      "updated_at": "2026-08-29T18:19:52.952840+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-08-29T00:01:08.801682+00:00",
+      "updated_at": "2026-08-29T18:19:52.953052+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-08-29T00:01:08.801779+00:00",
+      "updated_at": "2026-08-29T18:19:52.953262+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -193,13 +193,55 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-08-29T00:01:08.801895+00:00",
+      "updated_at": "2026-08-29T18:19:52.953516+00:00",
       "source": {
         "short_term": "unavailable"
       }
     }
   ],
   "overview_news": [
+    {
+      "title": "Ditching 'digital gold': BPI study suggests everyday Americans prefer control and micro-investing",
+      "url": "https://www.coindesk.com/business/2026/08/28/ditch-digital-gold-bpi-study-suggests-everyday-americans-prefer-control-and-micro-investing",
+      "published_at": "Sat, 29 Aug 2026 15:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Swift\u2019s $1.5 quadrillion network faces a blockchain test",
+      "url": "https://www.coindesk.com/business/2026/08/29/swift-s-usd1-5-quadrillion-network-faces-a-blockchain-test",
+      "published_at": "Sat, 29 Aug 2026 15:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "The next trillion-dollar currency may not be a stablecoin \u2014 it might not even have a name yet",
+      "url": "https://www.coindesk.com/business/2026/08/29/the-next-trillion-dollar-currency-may-not-be-a-stablecoin-it-might-not-even-have-a-name-yet",
+      "published_at": "Sat, 29 Aug 2026 15:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Tokenized assets are busier than the data shows",
+      "url": "https://www.coindesk.com/opinion/2026/08/29/tokenized-assets-are-busier-than-the-data-shows",
+      "published_at": "Sat, 29 Aug 2026 13:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Bitcoin wallets untouched for 10 years moved $40 million. Most avoided exchanges",
+      "url": "https://www.coindesk.com/markets/2026/08/28/bitcoin-wallets-untouched-for-10-years-moved-usd40-million-most-avoided-exchanges",
+      "published_at": "Sat, 29 Aug 2026 04:30:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Ripple is preparing XRP Ledger for quantum computers before \u2018Q-Day\u2019 arrives",
+      "url": "https://www.coindesk.com/tech/2026/08/28/ripple-is-preparing-xrp-ledger-for-quantum-computers-before-q-day-arrives",
+      "published_at": "Sat, 29 Aug 2026 02:30:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
     {
       "title": "Kalshi takes legal blow in court ruling confirming state powers over prediction markets",
       "url": "https://www.coindesk.com/policy/2026/08/28/kalshi-takes-legal-blow-in-court-ruling-confirming-state-powers-over-prediction-markets",
@@ -225,48 +267,6 @@
       "title": "Fed Chair Kevin Warsh at Jackson Hole: 'We have work to do' on inflation",
       "url": "https://www.coindesk.com/markets/2026/08/28/warsh-at-jackson-hole-we-have-work-to-do-on-inflaiton",
       "published_at": "Fri, 28 Aug 2026 14:05:12 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "The Clarity Act slipped to September. Banks are building anyway",
-      "url": "https://www.coindesk.com/opinion/2026/08/28/the-clarity-act-slipped-to-september-banks-are-building-anyway",
-      "published_at": "Fri, 28 Aug 2026 13:00:00 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Ethena looks beyond crypto to squeeze yield from booming equity perpetuals",
-      "url": "https://www.coindesk.com/business/2026/08/28/ethena-looks-beyond-crypto-to-squeeze-yield-from-booming-equity-perpetuals",
-      "published_at": "Fri, 28 Aug 2026 12:30:57 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "SBI buys 20% stake in Indonesia's Ajaib for $270 million to expand yen stablecoin in Southeast Asia",
-      "url": "https://www.coindesk.com/business/2026/08/28/sbi-stakes-usd270-million-in-ajaib-to-expand-yen-stablecoin-in-southeast-asia",
-      "published_at": "Fri, 28 Aug 2026 12:18:31 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitcoin is outperforming stocks and correlating with gold just when it matters most",
-      "url": "https://www.coindesk.com/daybook-us/2026/08/28/bitcoin-is-outperforming-stocks-and-correlating-with-gold-just-when-it-matters-most",
-      "published_at": "Fri, 28 Aug 2026 11:43:19 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Circle's USDC takes over Chelsea's jersey in Premier League first sponsorship deal",
-      "url": "https://www.coindesk.com/business/2026/08/28/circle-s-usdc-takes-over-chelsea-s-jersey-in-premier-league-first",
-      "published_at": "Fri, 28 Aug 2026 11:09:27 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bullish backs USD.AI with $100 million in financing to drive GPU-backed loans",
-      "url": "https://www.coindesk.com/business/2026/08/28/bullish-backs-usd-ai-with-usd100-million-gpu-stablecoin-financing",
-      "published_at": "Fri, 28 Aug 2026 11:03:18 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
