@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-29T18:19:52.953719+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-08-29 18:10 UTC_",
+  "generated_at": "2026-08-30T18:34:05.923995+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-08-30 18:25 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,13 +9,13 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 78071.0,
+        "current_usd": 78991.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": 1.28,
-        "change_30d_pct": 20.59
+        "change_7d_pct": 1.65,
+        "change_30d_pct": 25.74
       },
       "indicators": {
-        "trend": "DOWNTREND",
+        "trend": "UPTREND",
         "momentum": "WEAK",
         "volatility": "NORMAL"
       },
@@ -23,9 +23,9 @@
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
         "summary_line": "Fair - Weak growth profile - Lower regulatory risk.",
-        "score": 54.6
+        "score": 53.5
       },
-      "updated_at": "2026-08-29T18:19:52.951524+00:00",
+      "updated_at": "2026-08-30T18:34:05.921918+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,23 +37,23 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 2448.0,
+        "current_usd": 2510.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": 1.01,
-        "change_30d_pct": 27.66
+        "change_7d_pct": 1.95,
+        "change_30d_pct": 34.93
       },
       "indicators": {
-        "trend": "DOWNTREND",
-        "momentum": "WEAK",
+        "trend": "UPTREND",
+        "momentum": "STRONG",
         "volatility": "NORMAL"
       },
       "valuation": {
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
         "summary_line": "Fair - Weak growth profile - Lower regulatory risk.",
-        "score": 56.4
+        "score": 58.0
       },
-      "updated_at": "2026-08-29T18:19:52.952287+00:00",
+      "updated_at": "2026-08-30T18:34:05.922661+00:00",
       "source": {
         "short_term": "live"
       }
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-08-29T18:19:52.952625+00:00",
+      "updated_at": "2026-08-30T18:34:05.922924+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-08-29T18:19:52.952840+00:00",
+      "updated_at": "2026-08-30T18:34:05.923148+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-08-29T18:19:52.953052+00:00",
+      "updated_at": "2026-08-30T18:34:05.923370+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-08-29T18:19:52.953262+00:00",
+      "updated_at": "2026-08-30T18:34:05.923570+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -193,13 +193,41 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-08-29T18:19:52.953516+00:00",
+      "updated_at": "2026-08-30T18:34:05.923799+00:00",
       "source": {
         "short_term": "unavailable"
       }
     }
   ],
   "overview_news": [
+    {
+      "title": "Michael Saylor hints at first bitcoin purchase in two months as bitcoin nears $79,000",
+      "url": "https://www.coindesk.com/markets/2026/08/30/bitcoin-nears-usd79-000-as-michael-saylor-hints-at-first-bitcoin-purchase-in-two-months",
+      "published_at": "Sun, 30 Aug 2026 15:39:55 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "From Hawala to Swift: Inside the 1,000-year battle to move money safely",
+      "url": "https://www.coindesk.com/business/2026/08/30/from-hawala-to-swift-inside-the-1-000-year-battle-to-move-money-safely",
+      "published_at": "Sun, 30 Aug 2026 15:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Crypto market makers are cashing in on bitcoin's rally - without betting on direction",
+      "url": "https://www.coindesk.com/markets/2026/08/28/crypto-market-makers-are-cashing-in-on-bitcoin-s-rally-without-betting-on-direction",
+      "published_at": "Sun, 30 Aug 2026 12:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "A $1.1 million crypto card hack crashed a neobank's token 49%",
+      "url": "https://www.coindesk.com/web3/2026/08/29/a-usd1-1-million-crypto-card-hack-crashed-a-neobank-s-token-49",
+      "published_at": "Sat, 29 Aug 2026 23:49:17 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
     {
       "title": "Ditching 'digital gold': BPI study suggests everyday Americans prefer control and micro-investing",
       "url": "https://www.coindesk.com/business/2026/08/28/ditch-digital-gold-bpi-study-suggests-everyday-americans-prefer-control-and-micro-investing",
@@ -208,7 +236,7 @@
       "fetch_source": "live"
     },
     {
-      "title": "Swift\u2019s $1.5 quadrillion network faces a blockchain test",
+      "title": "Inside the high-stakes battle between digital dollars and Swift's massive money engine",
       "url": "https://www.coindesk.com/business/2026/08/29/swift-s-usd1-5-quadrillion-network-faces-a-blockchain-test",
       "published_at": "Sat, 29 Aug 2026 15:00:00 +0000",
       "source": "CoinDesk",
@@ -229,7 +257,7 @@
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin wallets untouched for 10 years moved $40 million. Most avoided exchanges",
+      "title": "Bitcoin wallets untouched for 10 years moved $40 million worth of coins",
       "url": "https://www.coindesk.com/markets/2026/08/28/bitcoin-wallets-untouched-for-10-years-moved-usd40-million-most-avoided-exchanges",
       "published_at": "Sat, 29 Aug 2026 04:30:00 +0000",
       "source": "CoinDesk",
@@ -239,34 +267,6 @@
       "title": "Ripple is preparing XRP Ledger for quantum computers before \u2018Q-Day\u2019 arrives",
       "url": "https://www.coindesk.com/tech/2026/08/28/ripple-is-preparing-xrp-ledger-for-quantum-computers-before-q-day-arrives",
       "published_at": "Sat, 29 Aug 2026 02:30:00 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Kalshi takes legal blow in court ruling confirming state powers over prediction markets",
-      "url": "https://www.coindesk.com/policy/2026/08/28/kalshi-takes-legal-blow-in-court-ruling-confirming-state-powers-over-prediction-markets",
-      "published_at": "Fri, 28 Aug 2026 21:28:12 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Solana vote to double disinflation passes by a hair in dramatic finish",
-      "url": "https://www.coindesk.com/tech/2026/08/28/solana-vote-to-double-disinflation-passes-by-a-hair-in-dramatic-finish",
-      "published_at": "Fri, 28 Aug 2026 16:12:45 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "BitGo to buy NYDIG trading arm for $42.5M in cash and stock plus $15M earnout",
-      "url": "https://www.coindesk.com/business/2026/08/28/bitgo-to-buy-nydig-trading-arm-for-usd42-5m-in-cash-and-stock-plus-usd15m-earnout",
-      "published_at": "Fri, 28 Aug 2026 14:37:14 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Fed Chair Kevin Warsh at Jackson Hole: 'We have work to do' on inflation",
-      "url": "https://www.coindesk.com/markets/2026/08/28/warsh-at-jackson-hole-we-have-work-to-do-on-inflaiton",
-      "published_at": "Fri, 28 Aug 2026 14:05:12 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }

@@ -1,7 +1,35 @@
 {
-  "generated_at": "2026-08-29 18:18 UTC",
+  "generated_at": "2026-08-30 18:32 UTC",
   "count": 55,
   "items": [
+    {
+      "title": "Michael Saylor hints at first bitcoin purchase in two months as bitcoin nears $79,000",
+      "link": "https://www.coindesk.com/markets/2026/08/30/bitcoin-nears-usd79-000-as-michael-saylor-hints-at-first-bitcoin-purchase-in-two-months",
+      "pub_date": "Sun, 30 Aug 2026 15:39:55 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "From Hawala to Swift: Inside the 1,000-year battle to move money safely",
+      "link": "https://www.coindesk.com/business/2026/08/30/from-hawala-to-swift-inside-the-1-000-year-battle-to-move-money-safely",
+      "pub_date": "Sun, 30 Aug 2026 15:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Crypto market makers are cashing in on bitcoin's rally - without betting on direction",
+      "link": "https://www.coindesk.com/markets/2026/08/28/crypto-market-makers-are-cashing-in-on-bitcoin-s-rally-without-betting-on-direction",
+      "pub_date": "Sun, 30 Aug 2026 12:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "A $1.1 million crypto card hack crashed a neobank's token 49%",
+      "link": "https://www.coindesk.com/web3/2026/08/29/a-usd1-1-million-crypto-card-hack-crashed-a-neobank-s-token-49",
+      "pub_date": "Sat, 29 Aug 2026 23:49:17 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
     {
       "title": "Ditching 'digital gold': BPI study suggests everyday Americans prefer control and micro-investing",
       "link": "https://www.coindesk.com/business/2026/08/28/ditch-digital-gold-bpi-study-suggests-everyday-americans-prefer-control-and-micro-investing",
@@ -10,7 +38,7 @@
       "fetch_source": "live"
     },
     {
-      "title": "Swift\u2019s $1.5 quadrillion network faces a blockchain test",
+      "title": "Inside the high-stakes battle between digital dollars and Swift's massive money engine",
       "link": "https://www.coindesk.com/business/2026/08/29/swift-s-usd1-5-quadrillion-network-faces-a-blockchain-test",
       "pub_date": "Sat, 29 Aug 2026 15:00:00 +0000",
       "source": "CoinDesk",
@@ -31,7 +59,7 @@
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin wallets untouched for 10 years moved $40 million. Most avoided exchanges",
+      "title": "Bitcoin wallets untouched for 10 years moved $40 million worth of coins",
       "link": "https://www.coindesk.com/markets/2026/08/28/bitcoin-wallets-untouched-for-10-years-moved-usd40-million-most-avoided-exchanges",
       "pub_date": "Sat, 29 Aug 2026 04:30:00 +0000",
       "source": "CoinDesk",
@@ -150,44 +178,51 @@
       "fetch_source": "live"
     },
     {
-      "title": "Here\u2019s why Warsh\u2019s Jackson Hole speech is a major event for bitcoin and gold",
-      "link": "https://www.coindesk.com/markets/2026/08/28/here-s-why-warsh-s-jackson-hole-speech-is-a-major-event-for-bitcoin-and-gold",
-      "pub_date": "Fri, 28 Aug 2026 06:30:10 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Solana\u2019s faster disinflation plan leads vote as $800K burn proposal trails",
-      "link": "https://www.coindesk.com/tech/2026/08/28/solana-s-faster-supply-cuts-lead-vote-while-usd800-000-daily-burn-plan-trails",
-      "pub_date": "Fri, 28 Aug 2026 06:22:10 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitcoin is trading at a premium on Coinbase after a long time. Here's what it means",
-      "link": "https://www.coindesk.com/markets/2026/08/28/bitcoin-is-trading-at-a-premium-on-coinbase-after-a-long-time",
-      "pub_date": "Fri, 28 Aug 2026 05:02:22 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitcoin under $80,000, solana leads majors higher before Warsh's Jackson Hole debut",
-      "link": "https://www.coindesk.com/markets/2026/08/28/bitcoin-holds-usd80-000-solana-leads-majors-higher-before-warsh-s-jackson-hole-debut",
-      "pub_date": "Fri, 28 Aug 2026 04:40:52 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Tokenized stock transfer volume jumps 415% in 30 days to $29.5B",
-      "link": "https://cointelegraph.com/markets/tokenized-stock-transfer-volume-jumps-416-in-30-days-to-295b?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Sat, 29 Aug 2026 16:27:28 +0000",
+      "title": "Saylor signals Strategy is \u2018Back\u2019 to Bitcoin buying",
+      "link": "https://cointelegraph.com/news/saylor-signals-strategy-is-back-to-bitcoin-buying?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sun, 30 Aug 2026 17:59:00 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
       "title": "Here\u2019s what happened in crypto today",
       "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Sat, 29 Aug 2026 12:39:59 +0000",
+      "pub_date": "Sun, 30 Aug 2026 12:49:37 +0000",
+      "source": "Cointelegraph",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Russia\u2019s Sber eyes USDT loans, questions digital ruble demand",
+      "link": "https://cointelegraph.com/news/russia-sber-bank-bitcoin-ether-usdt-crypto-loans?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sun, 30 Aug 2026 09:55:00 +0000",
+      "source": "Cointelegraph",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Real Trump Coins denies launching GOLD token, blames \u2018bad actors\u2019",
+      "link": "https://cointelegraph.com/news/real-trump-coins-denies-gold-token-launch?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sun, 30 Aug 2026 08:04:56 +0000",
+      "source": "Cointelegraph",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Polygon discloses security flaws fixed in recent hard forks",
+      "link": "https://cointelegraph.com/news/polygon-discloses-security-flaws-fixed-in-recent-hard-forks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sat, 29 Aug 2026 20:28:51 +0000",
+      "source": "Cointelegraph",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Stellar tokenized RWA market more than quadruples to nearly $4B",
+      "link": "https://cointelegraph.com/markets/stellar-tokenized-rwa-market-nears-4b-after-fourfold-2026-growth?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sat, 29 Aug 2026 19:12:42 +0000",
+      "source": "Cointelegraph",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Tokenized stock transfer volume jumps 415% in 30 days to $29.5B",
+      "link": "https://cointelegraph.com/markets/tokenized-stock-transfer-volume-jumps-416-in-30-days-to-295b?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sat, 29 Aug 2026 16:27:28 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
@@ -244,41 +279,6 @@
       "title": "Crypto Biz: Bitcoin pumps, Wall Street does the paperwork",
       "link": "https://cointelegraph.com/news/crypto-biz-bitcoin-rally-crypto-stocks-circle-strategy-solana?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "pub_date": "Fri, 28 Aug 2026 14:53:40 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Who is legally liable when an AI agent goes rogue?",
-      "link": "https://cointelegraph.com/magazine/who-is-legally-liable-when-an-ai-agent-goes-rogue?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 28 Aug 2026 13:30:00 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Polish Olympic chief charged in Zondacrypto probe, justice minister says",
-      "link": "https://cointelegraph.com/news/polish-olympic-chief-charged-zondacrypto-probe?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 28 Aug 2026 13:16:37 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "California Senate passes bill to ban memecoin issuance by public officials",
-      "link": "https://cointelegraph.com/news/california-bill-ban-memecoin-issuance-public-officials?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 28 Aug 2026 12:09:48 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Capital B raises $24.5M for its Bitcoin treasury amid market uncertainty with BlockStream\u2019s Adam Back chipping in",
-      "link": "https://cointelegraph.com/news/capital-b-raises-245m-for-its-bitcoin-treasury-amid-market-uncertainty-with-blockstreams-adam-back-chipping-in?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 28 Aug 2026 11:36:43 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitcoin bear market \u2018over\u2019 as price metric copies 2023 recovery: CryptoQuant CEO",
-      "link": "https://cointelegraph.com/markets/bitcoin-bear-market-over-as-price-metric-copies-2023-recovery-cryptoquant-ceo?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 28 Aug 2026 11:22:59 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     }
