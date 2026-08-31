@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-30T18:34:05.923995+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-08-30 18:25 UTC_",
+  "generated_at": "2026-08-31T20:48:45.113792+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-08-31 20:39 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,10 +9,10 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 78991.0,
+        "current_usd": 78875.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": 1.65,
-        "change_30d_pct": 25.74
+        "change_7d_pct": -0.13,
+        "change_30d_pct": 25.65
       },
       "indicators": {
         "trend": "UPTREND",
@@ -20,12 +20,12 @@
         "volatility": "NORMAL"
       },
       "valuation": {
-        "verdict": "Neutral / fair-value zone",
+        "verdict": "Constructive long-term setup",
         "band": "fair",
         "summary_line": "Fair - Weak growth profile - Lower regulatory risk.",
-        "score": 53.5
+        "score": 61.5
       },
-      "updated_at": "2026-08-30T18:34:05.921918+00:00",
+      "updated_at": "2026-08-31T20:48:45.112166+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,23 +37,23 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 2510.0,
+        "current_usd": 2474.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": 1.95,
-        "change_30d_pct": 34.93
+        "change_7d_pct": -0.33,
+        "change_30d_pct": 34.19
       },
       "indicators": {
         "trend": "UPTREND",
-        "momentum": "STRONG",
+        "momentum": "WEAK",
         "volatility": "NORMAL"
       },
       "valuation": {
-        "verdict": "Neutral / fair-value zone",
+        "verdict": "Constructive long-term setup",
         "band": "fair",
-        "summary_line": "Fair - Weak growth profile - Lower regulatory risk.",
-        "score": 58.0
+        "summary_line": "Fair - Balanced growth profile - Lower regulatory risk.",
+        "score": 66.9
       },
-      "updated_at": "2026-08-30T18:34:05.922661+00:00",
+      "updated_at": "2026-08-31T20:48:45.112846+00:00",
       "source": {
         "short_term": "live"
       }
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-08-30T18:34:05.922924+00:00",
+      "updated_at": "2026-08-31T20:48:45.113069+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-08-30T18:34:05.923148+00:00",
+      "updated_at": "2026-08-31T20:48:45.113212+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-08-30T18:34:05.923370+00:00",
+      "updated_at": "2026-08-31T20:48:45.113355+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-08-30T18:34:05.923570+00:00",
+      "updated_at": "2026-08-31T20:48:45.113512+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -193,7 +193,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-08-30T18:34:05.923799+00:00",
+      "updated_at": "2026-08-31T20:48:45.113654+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -201,72 +201,72 @@
   ],
   "overview_news": [
     {
-      "title": "Michael Saylor hints at first bitcoin purchase in two months as bitcoin nears $79,000",
-      "url": "https://www.coindesk.com/markets/2026/08/30/bitcoin-nears-usd79-000-as-michael-saylor-hints-at-first-bitcoin-purchase-in-two-months",
-      "published_at": "Sun, 30 Aug 2026 15:39:55 +0000",
+      "title": "Kalshi lays down first lifetime ban for ex-member of Congress George Santos",
+      "url": "https://www.coindesk.com/policy/2026/08/31/kalshi-lays-down-first-lifetime-ban-for-ex-member-of-congress-george-santos",
+      "published_at": "Mon, 31 Aug 2026 15:33:14 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "From Hawala to Swift: Inside the 1,000-year battle to move money safely",
-      "url": "https://www.coindesk.com/business/2026/08/30/from-hawala-to-swift-inside-the-1-000-year-battle-to-move-money-safely",
-      "published_at": "Sun, 30 Aug 2026 15:00:00 +0000",
+      "title": "NYSE owner ICE taps tZERO for tokenized securities push, takes stake in firm",
+      "url": "https://www.coindesk.com/business/2026/08/31/nyse-owner-ice-taps-tzero-for-tokenized-securities-push-takes-stake-in-firm",
+      "published_at": "Mon, 31 Aug 2026 14:44:26 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Crypto market makers are cashing in on bitcoin's rally - without betting on direction",
-      "url": "https://www.coindesk.com/markets/2026/08/28/crypto-market-makers-are-cashing-in-on-bitcoin-s-rally-without-betting-on-direction",
-      "published_at": "Sun, 30 Aug 2026 12:00:00 +0000",
+      "title": "Ireland bars crypto from new tax-advantaged investment accounts",
+      "url": "https://www.coindesk.com/business/2026/08/31/ireland-bars-crypto-from-new-tax-advantaged-investment-accounts",
+      "published_at": "Mon, 31 Aug 2026 13:29:56 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "A $1.1 million crypto card hack crashed a neobank's token 49%",
-      "url": "https://www.coindesk.com/web3/2026/08/29/a-usd1-1-million-crypto-card-hack-crashed-a-neobank-s-token-49",
-      "published_at": "Sat, 29 Aug 2026 23:49:17 +0000",
+      "title": "Bitmine makes largest ether purchase since June as Tom Lee points to crypto's strong Q3",
+      "url": "https://www.coindesk.com/business/2026/08/31/bitmine-makes-largest-ether-purchase-since-june-as-tom-lee-points-to-crypto-s-strong-q3",
+      "published_at": "Mon, 31 Aug 2026 12:53:17 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Ditching 'digital gold': BPI study suggests everyday Americans prefer control and micro-investing",
-      "url": "https://www.coindesk.com/business/2026/08/28/ditch-digital-gold-bpi-study-suggests-everyday-americans-prefer-control-and-micro-investing",
-      "published_at": "Sat, 29 Aug 2026 15:00:00 +0000",
+      "title": "Strategy returns to bitcoin buys, adding $370 million of BTC last week",
+      "url": "https://www.coindesk.com/markets/2026/08/31/strategy-returns-to-bitcoin-buys-adding-usd370-million-worth-last-week",
+      "published_at": "Mon, 31 Aug 2026 12:11:04 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Inside the high-stakes battle between digital dollars and Swift's massive money engine",
-      "url": "https://www.coindesk.com/business/2026/08/29/swift-s-usd1-5-quadrillion-network-faces-a-blockchain-test",
-      "published_at": "Sat, 29 Aug 2026 15:00:00 +0000",
+      "title": "Robinhood Chain beats Ethereum in daily revenue as memecoin trading takes over",
+      "url": "https://www.coindesk.com/markets/2026/08/31/robinhood-chain-beats-ethereum-in-daily-revenue-as-memecoin-trading-takes-over",
+      "published_at": "Mon, 31 Aug 2026 11:53:56 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "The next trillion-dollar currency may not be a stablecoin \u2014 it might not even have a name yet",
-      "url": "https://www.coindesk.com/business/2026/08/29/the-next-trillion-dollar-currency-may-not-be-a-stablecoin-it-might-not-even-have-a-name-yet",
-      "published_at": "Sat, 29 Aug 2026 15:00:00 +0000",
+      "title": "Sberbank plans to add ether and USDT as collateral for crypto-backed loans: Report",
+      "url": "https://www.coindesk.com/business/2026/08/31/sberbank-plans-to-add-ether-and-usdt-as-collateral-for-crypto-backed-loans",
+      "published_at": "Mon, 31 Aug 2026 11:26:26 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Tokenized assets are busier than the data shows",
-      "url": "https://www.coindesk.com/opinion/2026/08/29/tokenized-assets-are-busier-than-the-data-shows",
-      "published_at": "Sat, 29 Aug 2026 13:00:00 +0000",
+      "title": "Here's 1 metric on U.S. debt that makes bitcoin's bull case look stronger than ever",
+      "url": "https://www.coindesk.com/daybook-us/2026/08/31/here-s-1-metric-on-u-s-debt-that-makes-bitcoin-s-bull-case-look-stronger-than-ever",
+      "published_at": "Mon, 31 Aug 2026 11:25:34 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin wallets untouched for 10 years moved $40 million worth of coins",
-      "url": "https://www.coindesk.com/markets/2026/08/28/bitcoin-wallets-untouched-for-10-years-moved-usd40-million-most-avoided-exchanges",
-      "published_at": "Sat, 29 Aug 2026 04:30:00 +0000",
+      "title": "U.S. strikes on Iran fail to stir bitcoin, on track for best month since November 2024",
+      "url": "https://www.coindesk.com/markets/2026/08/31/u-s-strikes-on-iran-fail-to-stir-bitcoin-on-track-for-best-month-since-november-2024",
+      "published_at": "Mon, 31 Aug 2026 10:44:52 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Ripple is preparing XRP Ledger for quantum computers before \u2018Q-Day\u2019 arrives",
-      "url": "https://www.coindesk.com/tech/2026/08/28/ripple-is-preparing-xrp-ledger-for-quantum-computers-before-q-day-arrives",
-      "published_at": "Sat, 29 Aug 2026 02:30:00 +0000",
+      "title": "U.S. jobs report, Russia\u2019s digital ruble rollout: Crypto Week Ahead",
+      "url": "https://www.coindesk.com/markets/2026/08/31/u-s-jobs-report-russia-s-digital-ruble-rollout-crypto-week-ahead",
+      "published_at": "Mon, 31 Aug 2026 08:22:28 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
