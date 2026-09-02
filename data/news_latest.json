@@ -1,7 +1,133 @@
 {
-  "generated_at": "2026-09-01 18:17 UTC",
+  "generated_at": "2026-09-02 18:33 UTC",
   "count": 55,
   "items": [
+    {
+      "title": "Crypto made new friends in U.S. primaries, but focus now shifts to general election",
+      "link": "https://www.coindesk.com/news-analysis/2026/09/02/crypto-made-new-friends-in-u-s-primaries-but-focus-now-shifts-to-general-election",
+      "pub_date": "Wed, 02 Sep 2026 17:39:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "New Jersey becomes first state to ask Supreme Court to weigh in on prediction markets",
+      "link": "https://www.coindesk.com/policy/2026/09/02/new-jersey-becomes-first-state-to-ask-supreme-court-to-weigh-in-on-prediction-markets",
+      "pub_date": "Wed, 02 Sep 2026 17:23:48 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Crypto Long & Short: Crypto VCs are mistaking consensus for discipline",
+      "link": "https://www.coindesk.com/coindesk-indices/2026/09/02/crypto-long-and-short-crypto-vcs-are-mistaking-consensus-for-discipline",
+      "pub_date": "Wed, 02 Sep 2026 15:15:02 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "CrowdStrike and federal authorities dismantle Russian malware that secretly stole crypto for 8 years",
+      "link": "https://www.coindesk.com/tech/2026/09/02/crowdstrike-and-federal-authorities-dismantle-russian-malware-that-secretly-stole-crypto-for-8-years",
+      "pub_date": "Wed, 02 Sep 2026 13:14:47 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "The token supercycle: everything of value is becoming programmable",
+      "link": "https://www.coindesk.com/opinion/2026/09/02/the-token-supercycle-everything-of-value-is-becoming-programmable",
+      "pub_date": "Wed, 02 Sep 2026 13:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "The bearish 'Bart Simpson' pattern is back as bitcoin and XRP prices pull back",
+      "link": "https://www.coindesk.com/markets/2026/09/02/bitcoin-flashes-the-bart-simpsom-pattern-analyst-debate-whether-it-will-actually-form",
+      "pub_date": "Wed, 02 Sep 2026 12:13:26 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Capital B aims to add 376 BTC to bitcoin treasury following $8.8 million Adam Back investment",
+      "link": "https://www.coindesk.com/business/2026/08/29/capital-b-aims-to-add-376-btc-to-bitcoin-treasury-following-usd8-8-million-adam-back-investment",
+      "pub_date": "Wed, 02 Sep 2026 11:45:16 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "A Fed rate increase would be a mistake, some observers say as bitcoin, gold, stocks fall",
+      "link": "https://www.coindesk.com/daybook-us/2026/09/02/a-fed-rate-increase-would-be-a-mistake-some-observers-say-as-bitcoin-gold-stocks-fall",
+      "pub_date": "Wed, 02 Sep 2026 11:14:58 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Lawsuit challenges Tether for allegedly freezing $42.4 million USDT before U.S. warrant",
+      "link": "https://www.coindesk.com/business/2026/09/02/tether-sued-over-usd42-4-million-usdt-freeze-allegedly-made-months-before-u-s-warrant",
+      "pub_date": "Wed, 02 Sep 2026 11:03:46 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Bitcoin slips below $76,500 as U.S. strikes on Iran send oil above $93",
+      "link": "https://www.coindesk.com/markets/2026/09/02/bitcoin-slips-below-usd77-000-as-u-s-strikes-on-iran-send-oil-above-usd93",
+      "pub_date": "Wed, 02 Sep 2026 10:50:38 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Former UK Prime Minister Liz Truss says bond rout could force emergency spending cuts",
+      "link": "https://www.coindesk.com/markets/2026/09/02/former-uk-prime-minister-liz-truss-says-bond-rout-could-force-emergency-spending-cuts",
+      "pub_date": "Wed, 02 Sep 2026 10:27:30 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Live updates: Bitcoin trades near $77,000, with central bank policy rate decisions taking center stage",
+      "link": "https://www.coindesk.com/business/2026/09/02/live-updates-blackrock-s-ibit-drives-usd236-million-bitcoin-etf-outflow",
+      "pub_date": "Wed, 02 Sep 2026 08:31:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "XRP ETFs pull in $170 million over 11 days. Goldman tops institutional holders",
+      "link": "https://www.coindesk.com/markets/2026/09/02/xrp-etfs-pull-in-usd160-million-over-nine-days-as-goldman-tops-institutional-holders",
+      "pub_date": "Wed, 02 Sep 2026 07:20:03 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "A China indicator that supports risk-taking in stocks and bitcoin is flashing red",
+      "link": "https://www.coindesk.com/markets/2026/09/02/a-china-indicator-that-greases-risk-taking-in-stocks-and-bitcoin-is-flashing-red",
+      "pub_date": "Wed, 02 Sep 2026 06:53:22 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "OpenAI says its new 'Astra' AI can build attacks without human help",
+      "link": "https://www.coindesk.com/tech/2026/09/02/openai-says-its-new-astra-ai-can-build-attacks-without-human-help",
+      "pub_date": "Wed, 02 Sep 2026 05:28:51 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Solana, ether, xrp lead majors slide as Iran strikes drive a broad risk selloff",
+      "link": "https://www.coindesk.com/markets/2026/09/02/solana-ether-xrp-lead-majors-slide-as-iran-strikes-drive-a-broad-risk-selloff",
+      "pub_date": "Wed, 02 Sep 2026 05:01:25 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Bitcoin withstands $90 oil and rising yields while gold slides. A firm dollar is the catch",
+      "link": "https://www.coindesk.com/markets/2026/09/02/bitcoin-withstands-usd90-oil-and-rising-yields-as-gold-slides-a-firm-dollar-is-the-catch",
+      "pub_date": "Wed, 02 Sep 2026 04:40:36 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "SEC proposes transfer agent rule, sets event to figure out round-the-clock U.S. trading",
+      "link": "https://www.coindesk.com/policy/2026/09/01/sec-proposes-transfer-agent-rule-sets-event-to-figure-out-round-the-clock-u-s-trading",
+      "pub_date": "Tue, 01 Sep 2026 23:55:46 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
     {
       "title": "Citi, Goldman, other global banks and asset managers team up on stablecoin venture",
       "link": "https://www.coindesk.com/business/2026/09/01/citi-goldman-other-global-banks-and-asset-managers-team-up-on-stablecoin-venture",
@@ -52,233 +178,107 @@
       "fetch_source": "live"
     },
     {
-      "title": "Hut 8's Texas power site sits inside Anthropic\u2019s $35 billion AI deal",
-      "link": "https://www.coindesk.com/tech/2026/09/01/hut-8-s-texas-power-site-sits-inside-anthropic-s-usd35-billion-ai-deal",
-      "pub_date": "Tue, 01 Sep 2026 12:11:44 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "U.S. looks to influence Japan's monetary policy. It couldn't do that with bitcoin",
-      "link": "https://www.coindesk.com/daybook-us/2026/09/01/u-s-looks-to-influence-japan-s-monetary-policy-it-couldn-t-do-that-with-bitcoin",
-      "pub_date": "Tue, 01 Sep 2026 11:15:00 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Singapore proposes 100% reserves and a ban on yields for stablecoin issuers",
-      "link": "https://www.coindesk.com/policy/2026/09/01/singapore-proposes-100-reserves-and-a-ban-on-yields-for-stablecoin-issuers",
-      "pub_date": "Tue, 01 Sep 2026 10:35:21 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitcoin consolidates near $78,000 as Arbitrum surges 30% on Robinhood Chain revenue",
-      "link": "https://www.coindesk.com/markets/2026/09/01/bitcoin-consolidates-near-usd78-000-as-arbitrum-surges-30-on-robinhood-chain-revenue",
-      "pub_date": "Tue, 01 Sep 2026 10:29:00 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Strategy spends $635M buying back STRC as perpetual preferred stock lags $100 par",
-      "link": "https://www.coindesk.com/markets/2026/09/01/strategy-spends-usd635m-buying-back-strc-as-perpetual-preferred-stock-lags-usd100-par",
-      "pub_date": "Tue, 01 Sep 2026 09:29:33 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Live updates: Bitcoin slumps as oil surges to three-month high on new Iran strikes",
-      "link": "https://www.coindesk.com/business/2026/09/01/live-updates-bitcoin-etfs-resume-buying-as-ether-funds-stretch-streak-to-11-days",
-      "pub_date": "Tue, 01 Sep 2026 08:35:57 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "London Stock Exchange to work with Payward to bring biggest UK stocks onchain",
-      "link": "https://www.coindesk.com/markets/2026/09/01/london-stock-exchange-to-work-with-payward-to-bring-biggest-uk-stocks-onchain",
-      "pub_date": "Tue, 01 Sep 2026 07:49:16 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "OpenAI\u2019s \u2018Trust Us\u2019 TIME cover raises an old warning for AI bulls",
-      "link": "https://www.coindesk.com/markets/2026/09/01/time-is-putting-openai-s-founders-on-its-cover-paul-montgomery-s-contrary-indicator-says-hello",
-      "pub_date": "Tue, 01 Sep 2026 06:52:10 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitcoin steady above $78,000, HYPE leads as majors slip on hawkish Fed bets",
-      "link": "https://www.coindesk.com/markets/2026/09/01/bitcoin-steady-above-usd78-000-hype-leads-as-majors-slip-on-hawkish-fed-bets",
-      "pub_date": "Tue, 01 Sep 2026 04:30:28 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Trump Jr's firm leads $1 billion Polymarket raise at $21 billion value: Report",
-      "link": "https://www.coindesk.com/business/2026/09/01/trump-jr-s-firm-leads-usd1-billion-polymarket-raise-at-usd21-billion-value-report",
-      "pub_date": "Tue, 01 Sep 2026 04:19:54 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "CME\u2019s share of XRP futures jumps as token rallies 40% in a week",
-      "link": "https://www.coindesk.com/markets/2026/09/01/xrp-futures-are-shifting-toward-cme-as-institutional-participation-grows",
-      "pub_date": "Tue, 01 Sep 2026 03:49:39 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "North Korean hackers are moving tens of millions on Hyperliquid as Trump pushes to onshore the crypto platform",
-      "link": "https://www.coindesk.com/business/2026/08/31/north-korean-hackers-are-moving-tens-of-millions-on-hyperliquid-as-trump-pushes-to-onshore-the-crypto-platform",
-      "pub_date": "Mon, 31 Aug 2026 20:48:40 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Kalshi lays down first lifetime ban for ex-member of Congress George Santos",
-      "link": "https://www.coindesk.com/policy/2026/08/31/kalshi-lays-down-first-lifetime-ban-for-ex-member-of-congress-george-santos",
-      "pub_date": "Mon, 31 Aug 2026 15:33:14 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "NYSE owner ICE taps tZERO for tokenized securities push, takes stake in firm",
-      "link": "https://www.coindesk.com/business/2026/08/31/nyse-owner-ice-taps-tzero-for-tokenized-securities-push-takes-stake-in-firm",
-      "pub_date": "Mon, 31 Aug 2026 14:44:26 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Ireland bars crypto from new tax-advantaged investment accounts",
-      "link": "https://www.coindesk.com/business/2026/08/31/ireland-bars-crypto-from-new-tax-advantaged-investment-accounts",
-      "pub_date": "Mon, 31 Aug 2026 13:29:56 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitmine makes largest ether purchase since June as Tom Lee points to crypto's strong Q3",
-      "link": "https://www.coindesk.com/business/2026/08/31/bitmine-makes-largest-ether-purchase-since-june-as-tom-lee-points-to-crypto-s-strong-q3",
-      "pub_date": "Mon, 31 Aug 2026 12:53:17 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Strategy returns to bitcoin buys, adding $370 million of BTC last week",
-      "link": "https://www.coindesk.com/markets/2026/08/31/strategy-returns-to-bitcoin-buys-adding-usd370-million-worth-last-week",
-      "pub_date": "Mon, 31 Aug 2026 12:11:04 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Robinhood Chain beats Ethereum in daily revenue as memecoin trading takes over",
-      "link": "https://www.coindesk.com/markets/2026/08/31/robinhood-chain-beats-ethereum-in-daily-revenue-as-memecoin-trading-takes-over",
-      "pub_date": "Mon, 31 Aug 2026 11:53:56 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "SEC proposes broad update to decades-old transfer agent rules with blockchain nod",
-      "link": "https://cointelegraph.com/news/sec-proposes-transfer-agent-overhaul-as-securities-move-onchain?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Tue, 01 Sep 2026 17:52:51 +0000",
+      "title": "Ondo urges SEC, CFTC to bring US stock perpetuals onshore",
+      "link": "https://cointelegraph.com/news/ondo-urges-sec-cftc-bring-us-stock-perpetuals-onshore?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Wed, 02 Sep 2026 16:39:22 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Kalshi issues first lifetime ban for Republican politician over insider bets",
-      "link": "https://cointelegraph.com/news/kalshi-bans-politicians-insider-trading-bets-manipulation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Tue, 01 Sep 2026 17:39:48 +0000",
+      "title": "Bitcoin\u2019s apparent demand turns negative as price struggles with $77K",
+      "link": "https://cointelegraph.com/markets/bitcoins-apparent-demand-turns-negative-price-struggles-with-77k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Wed, 02 Sep 2026 16:35:56 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "BofA, Citi, Goldman Sachs among 21 institutions planning stablecoin launch",
-      "link": "https://cointelegraph.com/news/21-financial-institutions-g7-stablecoin-venture?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Tue, 01 Sep 2026 16:39:12 +0000",
+      "title": "G20 members tout \u2018clear pathways\u2019 for digital asset innovation",
+      "link": "https://cointelegraph.com/news/g20-members-clear-pathways-digital-asset-innovation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Wed, 02 Sep 2026 15:34:06 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Ethena launches USDe payments app, offers 6% rewards",
-      "link": "https://cointelegraph.com/news/ethena-launches-usde-powered-money-app-across-48-countries?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Tue, 01 Sep 2026 16:06:58 +0000",
+      "title": "Sui DeFi protocol Full Sail to wind down after Switchboard incident",
+      "link": "https://cointelegraph.com/news/full-sail-sui-wind-down-switchboard-incident?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Wed, 02 Sep 2026 13:40:03 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin stays flat as global bond bear market rages on, pushing JGB to high",
-      "link": "https://cointelegraph.com/markets/bitcoin-remains-flat-as-global-bond-bear-market-rages-on?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Tue, 01 Sep 2026 15:34:00 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Fake Claude desktop app spreads crypto-stealing malware",
-      "link": "https://cointelegraph.com/news/fake-claude-desktop-app-spreads-crypto-stealing-malware?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Tue, 01 Sep 2026 14:00:00 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Does the Bitcoin rally mean we haven\u2019t wasted our lives in crypto?",
-      "link": "https://cointelegraph.com/magazine/does-bitcoins-rally-mean-we-havent-wasted-our-lives-in-crypto?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Tue, 01 Sep 2026 13:30:00 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Asia sees digital asset custody infrastructure deals from Ripple, Coincheck",
-      "link": "https://cointelegraph.com/news/asia-digital-asset-custody-deals-ripple-coincheck?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Tue, 01 Sep 2026 13:13:05 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Kast launches stablecoin-powered business platform after $80M raise",
-      "link": "https://cointelegraph.com/news/kast-launches-stablecoin-business-platform-80m-raise?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Tue, 01 Sep 2026 13:00:00 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Lazarus Group-linked addresses move $30M through Hyperliquid",
-      "link": "https://cointelegraph.com/news/lazarus-group-move-30m-hyperliquid?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Tue, 01 Sep 2026 12:01:08 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "London Stock Exchange partners with Kraken parent for tokenized UK stocks: FT",
-      "link": "https://cointelegraph.com/news/london-stock-exchange-partners-kraken-for-tokenized-uk-stocks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Tue, 01 Sep 2026 10:56:41 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitfinex Securities lists tokenized notes tied to Strategy, Metaplanet",
-      "link": "https://cointelegraph.com/news/bitfinex-tokenized-strategy-metaplanet-notes?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Tue, 01 Sep 2026 10:00:00 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Singapore weighs recognizing some foreign-issued stablecoins",
-      "link": "https://cointelegraph.com/news/singapore-weighs-foreign-regulated-stablecoins-mas-framework?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Tue, 01 Sep 2026 09:55:11 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Trump Jr.-linked 1789 Capital leads Polymarket\u2019s $1B raise: Report",
-      "link": "https://cointelegraph.com/news/trump-jr-linked-fund-invest-300m-polymarket-1b-round?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Tue, 01 Sep 2026 07:47:13 +0000",
+      "title": "BTC will hit $1M by 2030... but Arthur Hayes is buying ETH instead",
+      "link": "https://cointelegraph.com/magazine/btc-will-hit-1m-by-2030-but-arthur-hayes-is-buying-eth-instead?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Wed, 02 Sep 2026 13:30:00 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
       "title": "Here\u2019s what happened in crypto today",
       "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Tue, 01 Sep 2026 06:01:00 +0000",
+      "pub_date": "Wed, 02 Sep 2026 13:30:00 +0000",
+      "source": "Cointelegraph",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Hashkey joins DTCC working group as first Asian crypto service provider",
+      "link": "https://cointelegraph.com/news/hashkey-dtcc-first-asian-crypto-service-provider?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Wed, 02 Sep 2026 13:11:25 +0000",
+      "source": "Cointelegraph",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Thai businessmen sue Tether for freezing $42M in $61M pig butchering case",
+      "link": "https://cointelegraph.com/news/thai-sue-tether-freezing-61m-pig-butchering-case?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Wed, 02 Sep 2026 12:00:00 +0000",
+      "source": "Cointelegraph",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Japan\u2019s Remixpoint dumps altcoins, leaves 1,506 BTC as sole crypto bet",
+      "link": "https://cointelegraph.com/news/remixpoint-dumps-altcoins-1506-btc-sole-crypto-bet?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Wed, 02 Sep 2026 12:00:00 +0000",
+      "source": "Cointelegraph",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Thailand adopts crypto Travel Rule with self-custodial wallet checks",
+      "link": "https://cointelegraph.com/news/thailand-crypto-travel-rule-self-custodial-wallet-checks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Wed, 02 Sep 2026 10:56:15 +0000",
+      "source": "Cointelegraph",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Crypto industry urges SEC to avoid blanket novel ETF restrictions",
+      "link": "https://cointelegraph.com/news/crypto-industry-sec-novel-etf-restrictions?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Wed, 02 Sep 2026 09:48:49 +0000",
+      "source": "Cointelegraph",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Bitcoin ETFs notch best month of 2026 as BTC gains 25% in August",
+      "link": "https://cointelegraph.com/markets/bitcoin-etf-best-month-2026-btc-up-25-august?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Wed, 02 Sep 2026 07:59:43 +0000",
+      "source": "Cointelegraph",
+      "fetch_source": "live"
+    },
+    {
+      "title": "HYPE treasury firm Hyperliquid Strategies boosts equity facility to $2.5B",
+      "link": "https://cointelegraph.com/news/hyperliquid-strategies-equity-facility-2-5-billion?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Wed, 02 Sep 2026 05:48:21 +0000",
+      "source": "Cointelegraph",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Core DAO plans emergency hard fork after validators drew excess rewards",
+      "link": "https://cointelegraph.com/news/core-dao-emergency-hard-fork-excess-validator-rewards?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Wed, 02 Sep 2026 04:15:34 +0000",
+      "source": "Cointelegraph",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Crypto-backed PAC scales back ad spending in Massachusetts primary",
+      "link": "https://cointelegraph.com/news/crypto-pac-protect-progress-spending-massachusetts-primary?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Tue, 01 Sep 2026 21:25:27 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     }

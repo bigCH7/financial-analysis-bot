@@ -4,7 +4,7 @@
   "symbol": "NVDA",
   "market_type": "traditional",
   "details_page": "asset.html?asset=nvda",
-  "updated_at": "2026-09-01T18:18:27.675655+00:00",
+  "updated_at": "2026-09-02T18:34:50.335009+00:00",
   "about": {
     "what_it_is": "NVIDIA is a semiconductor and computing company focused on GPUs and AI platforms.",
     "what_it_represents": "It represents demand for AI infrastructure, data center compute, and advanced chips.",
@@ -13,7 +13,7 @@
   },
   "source": {
     "short_term": "unavailable",
-    "news_generated_at": "2026-09-01 18:17 UTC"
+    "news_generated_at": "2026-09-02 18:33 UTC"
   },
   "price": {
     "current_usd": null,

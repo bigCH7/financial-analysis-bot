@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-01T18:18:27.676313+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-09-01 18:09 UTC_",
+  "generated_at": "2026-09-02T18:34:50.335798+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-09-02 18:25 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,23 +9,23 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 77183.0,
+        "current_usd": 77418.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": -1.69,
-        "change_30d_pct": 21.54
+        "change_7d_pct": -2.03,
+        "change_30d_pct": 21.98
       },
       "indicators": {
         "trend": "DOWNTREND",
-        "momentum": "STRONG",
+        "momentum": "WEAK",
         "volatility": "NORMAL"
       },
       "valuation": {
-        "verdict": "Neutral / fair-value zone",
+        "verdict": "Constructive long-term setup",
         "band": "fair",
         "summary_line": "Fair - Weak growth profile - Lower regulatory risk.",
-        "score": 59.6
+        "score": 60.2
       },
-      "updated_at": "2026-09-01T18:18:27.674124+00:00",
+      "updated_at": "2026-09-02T18:34:50.333394+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,23 +37,23 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 2415.0,
+        "current_usd": 2395.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": -1.12,
-        "change_30d_pct": 28.24
+        "change_7d_pct": -4.45,
+        "change_30d_pct": 28.85
       },
       "indicators": {
         "trend": "DOWNTREND",
-        "momentum": "STRONG",
+        "momentum": "WEAK",
         "volatility": "NORMAL"
       },
       "valuation": {
         "verdict": "Constructive long-term setup",
         "band": "fair",
         "summary_line": "Fair - Balanced growth profile - Lower regulatory risk.",
-        "score": 63.4
+        "score": 66.9
       },
-      "updated_at": "2026-09-01T18:18:27.674906+00:00",
+      "updated_at": "2026-09-02T18:34:50.334176+00:00",
       "source": {
         "short_term": "live"
       }
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-09-01T18:18:27.675217+00:00",
+      "updated_at": "2026-09-02T18:34:50.334488+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-09-01T18:18:27.675442+00:00",
+      "updated_at": "2026-09-02T18:34:50.334764+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-09-01T18:18:27.675655+00:00",
+      "updated_at": "2026-09-02T18:34:50.335009+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-09-01T18:18:27.675883+00:00",
+      "updated_at": "2026-09-02T18:34:50.335253+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -193,7 +193,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-09-01T18:18:27.676106+00:00",
+      "updated_at": "2026-09-02T18:34:50.335550+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -201,72 +201,72 @@
   ],
   "overview_news": [
     {
-      "title": "Citi, Goldman, other global banks and asset managers team up on stablecoin venture",
-      "url": "https://www.coindesk.com/business/2026/09/01/citi-goldman-other-global-banks-and-asset-managers-team-up-on-stablecoin-venture",
-      "published_at": "Tue, 01 Sep 2026 15:36:27 +0000",
+      "title": "Crypto made new friends in U.S. primaries, but focus now shifts to general election",
+      "url": "https://www.coindesk.com/news-analysis/2026/09/02/crypto-made-new-friends-in-u-s-primaries-but-focus-now-shifts-to-general-election",
+      "published_at": "Wed, 02 Sep 2026 17:39:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Robinhood's new crypto network is printing cash, and it's sending Arbitrum's token soaring",
-      "url": "https://www.coindesk.com/markets/2026/09/01/robinhood-s-new-crypto-network-is-printing-cash-and-it-s-sending-arbitrum-s-token-soaring",
-      "published_at": "Tue, 01 Sep 2026 15:28:29 +0000",
+      "title": "New Jersey becomes first state to ask Supreme Court to weigh in on prediction markets",
+      "url": "https://www.coindesk.com/policy/2026/09/02/new-jersey-becomes-first-state-to-ask-supreme-court-to-weigh-in-on-prediction-markets",
+      "published_at": "Wed, 02 Sep 2026 17:23:48 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Musk\u2019s X hit by wave of unsolicited password reset emails",
-      "url": "https://www.coindesk.com/tech/2026/09/01/musk-s-x-hit-by-wave-of-unsolicited-password-reset-emails",
-      "published_at": "Tue, 01 Sep 2026 14:59:12 +0000",
+      "title": "Crypto Long & Short: Crypto VCs are mistaking consensus for discipline",
+      "url": "https://www.coindesk.com/coindesk-indices/2026/09/02/crypto-long-and-short-crypto-vcs-are-mistaking-consensus-for-discipline",
+      "published_at": "Wed, 02 Sep 2026 15:15:02 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Firelight raises $8 million, expands beyond XRP as it aims to make DeFi less scary for fintechs",
-      "url": "https://www.coindesk.com/business/2026/08/31/firelight-raises-usd8-million-expands-beyond-xrp-as-it-aims-to-make-defi-less-scary-for-fintechs",
-      "published_at": "Tue, 01 Sep 2026 13:56:44 +0000",
+      "title": "CrowdStrike and federal authorities dismantle Russian malware that secretly stole crypto for 8 years",
+      "url": "https://www.coindesk.com/tech/2026/09/02/crowdstrike-and-federal-authorities-dismantle-russian-malware-that-secretly-stole-crypto-for-8-years",
+      "published_at": "Wed, 02 Sep 2026 13:14:47 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin enters \u2018Rektember\u2019 as rate-hike risk combines with seasonality to threaten rally",
-      "url": "https://www.coindesk.com/markets/2026/09/01/bitcoin-enters-rektember-as-rate-hike-risks-threaten-its-august-rally",
-      "published_at": "Tue, 01 Sep 2026 13:55:26 +0000",
+      "title": "The token supercycle: everything of value is becoming programmable",
+      "url": "https://www.coindesk.com/opinion/2026/09/02/the-token-supercycle-everything-of-value-is-becoming-programmable",
+      "published_at": "Wed, 02 Sep 2026 13:00:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Ethena pushes stablecoins into everyday banking with high-yield savings, cards and payments",
-      "url": "https://www.coindesk.com/business/2026/09/01/ethena-pushes-stablecoins-into-everyday-banking-with-high-yield-savings-cards-and-payments",
-      "published_at": "Tue, 01 Sep 2026 13:15:35 +0000",
+      "title": "The bearish 'Bart Simpson' pattern is back as bitcoin and XRP prices pull back",
+      "url": "https://www.coindesk.com/markets/2026/09/02/bitcoin-flashes-the-bart-simpsom-pattern-analyst-debate-whether-it-will-actually-form",
+      "published_at": "Wed, 02 Sep 2026 12:13:26 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "UK\u2019s crime agency freezes Premier League $13.5 million account in crypto crime probe",
-      "url": "https://www.coindesk.com/business/2026/09/01/uk-s-crime-agency-freezes-premier-league-usd13-5-million-account-in-crypto-crime-probe",
-      "published_at": "Tue, 01 Sep 2026 12:37:10 +0000",
+      "title": "Capital B aims to add 376 BTC to bitcoin treasury following $8.8 million Adam Back investment",
+      "url": "https://www.coindesk.com/business/2026/08/29/capital-b-aims-to-add-376-btc-to-bitcoin-treasury-following-usd8-8-million-adam-back-investment",
+      "published_at": "Wed, 02 Sep 2026 11:45:16 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Hut 8's Texas power site sits inside Anthropic\u2019s $35 billion AI deal",
-      "url": "https://www.coindesk.com/tech/2026/09/01/hut-8-s-texas-power-site-sits-inside-anthropic-s-usd35-billion-ai-deal",
-      "published_at": "Tue, 01 Sep 2026 12:11:44 +0000",
+      "title": "A Fed rate increase would be a mistake, some observers say as bitcoin, gold, stocks fall",
+      "url": "https://www.coindesk.com/daybook-us/2026/09/02/a-fed-rate-increase-would-be-a-mistake-some-observers-say-as-bitcoin-gold-stocks-fall",
+      "published_at": "Wed, 02 Sep 2026 11:14:58 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "U.S. looks to influence Japan's monetary policy. It couldn't do that with bitcoin",
-      "url": "https://www.coindesk.com/daybook-us/2026/09/01/u-s-looks-to-influence-japan-s-monetary-policy-it-couldn-t-do-that-with-bitcoin",
-      "published_at": "Tue, 01 Sep 2026 11:15:00 +0000",
+      "title": "Lawsuit challenges Tether for allegedly freezing $42.4 million USDT before U.S. warrant",
+      "url": "https://www.coindesk.com/business/2026/09/02/tether-sued-over-usd42-4-million-usdt-freeze-allegedly-made-months-before-u-s-warrant",
+      "published_at": "Wed, 02 Sep 2026 11:03:46 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Singapore proposes 100% reserves and a ban on yields for stablecoin issuers",
-      "url": "https://www.coindesk.com/policy/2026/09/01/singapore-proposes-100-reserves-and-a-ban-on-yields-for-stablecoin-issuers",
-      "published_at": "Tue, 01 Sep 2026 10:35:21 +0000",
+      "title": "Bitcoin slips below $76,500 as U.S. strikes on Iran send oil above $93",
+      "url": "https://www.coindesk.com/markets/2026/09/02/bitcoin-slips-below-usd77-000-as-u-s-strikes-on-iran-send-oil-above-usd93",
+      "published_at": "Wed, 02 Sep 2026 10:50:38 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
