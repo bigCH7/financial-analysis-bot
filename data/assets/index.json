@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-04T18:16:06.958921+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-09-04 18:07 UTC_",
+  "generated_at": "2026-09-05T17:18:29.341632+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-09-05 17:09 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,23 +9,23 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 79572.0,
+        "current_usd": 80104.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": 2.25,
-        "change_30d_pct": 23.16
+        "change_7d_pct": 2.4,
+        "change_30d_pct": 24.65
       },
       "indicators": {
         "trend": "UPTREND",
-        "momentum": "STRONG",
+        "momentum": "WEAK",
         "volatility": "NORMAL"
       },
       "valuation": {
-        "verdict": "Constructive long-term setup",
+        "verdict": "Neutral / fair-value zone",
         "band": "fair",
-        "summary_line": "Fair - Balanced growth profile - Lower regulatory risk.",
-        "score": 65.3
+        "summary_line": "Fair - Weak growth profile - Lower regulatory risk.",
+        "score": 57.6
       },
-      "updated_at": "2026-09-04T18:16:06.956702+00:00",
+      "updated_at": "2026-09-05T17:18:29.339215+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,23 +37,23 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 2447.0,
+        "current_usd": 2480.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": 0.2,
-        "change_30d_pct": 28.3
+        "change_7d_pct": 0.94,
+        "change_30d_pct": 30.39
       },
       "indicators": {
         "trend": "UPTREND",
-        "momentum": "STRONG",
+        "momentum": "WEAK",
         "volatility": "NORMAL"
       },
       "valuation": {
-        "verdict": "Constructive long-term setup",
+        "verdict": "Neutral / fair-value zone",
         "band": "fair",
-        "summary_line": "Fair - Strong growth profile - Lower regulatory risk.",
-        "score": 71.6
+        "summary_line": "Fair - Balanced growth profile - Lower regulatory risk.",
+        "score": 59.9
       },
-      "updated_at": "2026-09-04T18:16:06.957494+00:00",
+      "updated_at": "2026-09-05T17:18:29.340096+00:00",
       "source": {
         "short_term": "live"
       }
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-09-04T18:16:06.957794+00:00",
+      "updated_at": "2026-09-05T17:18:29.340403+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-09-04T18:16:06.958023+00:00",
+      "updated_at": "2026-09-05T17:18:29.340684+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-09-04T18:16:06.958243+00:00",
+      "updated_at": "2026-09-05T17:18:29.340919+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-09-04T18:16:06.958453+00:00",
+      "updated_at": "2026-09-05T17:18:29.341144+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -193,7 +193,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-09-04T18:16:06.958666+00:00",
+      "updated_at": "2026-09-05T17:18:29.341376+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -201,7 +201,35 @@
   ],
   "overview_news": [
     {
-      "title": "AMC CEO tells Robinhood to stop issuing stock token as industry executives weigh in",
+      "title": "Dollar-backed stablecoins can push local currencies lower, Bank of Korea study finds",
+      "url": "https://www.coindesk.com/business/2026/09/05/dollar-backed-stablecoins-can-push-local-currencies-lower-bank-of-korea-study-finds",
+      "published_at": "Sat, 05 Sep 2026 16:43:13 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "British investor thought he lost $2,000 in bitcoin in 2012. He just recovered $4.5 million",
+      "url": "https://www.coindesk.com/business/2026/09/02/british-investor-thought-he-lost-usd2-000-in-bitcoin-in-2012-he-just-recovered-usd4-5-million",
+      "published_at": "Sat, 05 Sep 2026 12:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "XRP Ledger has fewer active accounts than last year, but bigger trades and more value",
+      "url": "https://www.coindesk.com/markets/2026/09/05/xrp-ledger-has-fewer-active-accounts-but-bigger-trades-and-more-value",
+      "published_at": "Sat, 05 Sep 2026 05:30:45 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Southeast Asia\u2019s crypto funding rebounds to $680 million as investors focus on mature firms",
+      "url": "https://www.coindesk.com/business/2026/09/05/southeast-asia-s-crypto-funding-rebounds-to-usd680-million-as-investors-focus-on-mature-firms",
+      "published_at": "Sat, 05 Sep 2026 05:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Robinhood isn't backing down after AMC CEO demands halt to stock tokens",
       "url": "https://www.coindesk.com/business/2026/09/04/amc-ceo-tells-robinhood-to-stop-issuing-stock-token-as-industry-executives-weigh-in",
       "published_at": "Fri, 04 Sep 2026 14:56:00 +0000",
       "source": "CoinDesk",
@@ -239,34 +267,6 @@
       "title": "Zcash jumps 20% to landmark $1,000 level as short sellers lose $34 million",
       "url": "https://www.coindesk.com/markets/2026/09/04/zcash-jumps-20-to-landmark-usd1-000-level-as-short-sellers-lose-usd34-million",
       "published_at": "Fri, 04 Sep 2026 10:40:14 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitcoin clears $81,000 as privacy coins lead a broad crypto rally",
-      "url": "https://www.coindesk.com/markets/2026/09/04/bitcoin-clears-usd81-000-as-privacy-coins-lead-a-broad-crypto-rally",
-      "published_at": "Fri, 04 Sep 2026 09:57:01 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "IMF confirms El Salvador\u2019s bitcoin growth was funded by private donations, not public money",
-      "url": "https://www.coindesk.com/business/2026/09/04/imf-confirms-el-salvador-s-bitcoin-growth-was-funded-by-private-donations-not-public-money",
-      "published_at": "Fri, 04 Sep 2026 09:47:15 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "South Korea targets February 2027 rollout for full tokenized securities market",
-      "url": "https://www.coindesk.com/business/2026/09/04/south-korea-targets-february-2027-rollout-for-full-tokenized-securities-market",
-      "published_at": "Fri, 04 Sep 2026 09:41:31 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Live updates: Bitcoin tumbles after blowout August jobs print",
-      "url": "https://www.coindesk.com/business/2026/09/04/live-updates-bitcoin-etfs-take-usd731-million-their-biggest-day-since-january",
-      "published_at": "Fri, 04 Sep 2026 07:34:07 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
