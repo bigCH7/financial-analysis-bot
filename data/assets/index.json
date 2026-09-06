@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-05T17:18:29.341632+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-09-05 17:09 UTC_",
+  "generated_at": "2026-09-06T17:39:17.284635+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-09-06 17:30 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,13 +9,13 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 80104.0,
+        "current_usd": 79711.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": 2.4,
-        "change_30d_pct": 24.65
+        "change_7d_pct": 2.64,
+        "change_30d_pct": 22.86
       },
       "indicators": {
-        "trend": "UPTREND",
+        "trend": "DOWNTREND",
         "momentum": "WEAK",
         "volatility": "NORMAL"
       },
@@ -23,9 +23,9 @@
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
         "summary_line": "Fair - Weak growth profile - Lower regulatory risk.",
-        "score": 57.6
+        "score": 58.3
       },
-      "updated_at": "2026-09-05T17:18:29.339215+00:00",
+      "updated_at": "2026-09-06T17:39:17.282849+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,10 +37,10 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 2480.0,
+        "current_usd": 2490.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": 0.94,
-        "change_30d_pct": 30.39
+        "change_7d_pct": 3.07,
+        "change_30d_pct": 30.19
       },
       "indicators": {
         "trend": "UPTREND",
@@ -48,12 +48,12 @@
         "volatility": "NORMAL"
       },
       "valuation": {
-        "verdict": "Neutral / fair-value zone",
+        "verdict": "Constructive long-term setup",
         "band": "fair",
         "summary_line": "Fair - Balanced growth profile - Lower regulatory risk.",
-        "score": 59.9
+        "score": 63.1
       },
-      "updated_at": "2026-09-05T17:18:29.340096+00:00",
+      "updated_at": "2026-09-06T17:39:17.283425+00:00",
       "source": {
         "short_term": "live"
       }
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-09-05T17:18:29.340403+00:00",
+      "updated_at": "2026-09-06T17:39:17.283690+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-09-05T17:18:29.340684+00:00",
+      "updated_at": "2026-09-06T17:39:17.283892+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-09-05T17:18:29.340919+00:00",
+      "updated_at": "2026-09-06T17:39:17.284082+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-09-05T17:18:29.341144+00:00",
+      "updated_at": "2026-09-06T17:39:17.284259+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -193,13 +193,34 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-09-05T17:18:29.341376+00:00",
+      "updated_at": "2026-09-06T17:39:17.284459+00:00",
       "source": {
         "short_term": "unavailable"
       }
     }
   ],
   "overview_news": [
+    {
+      "title": "Ukrainian police took down a crypto scam that stole up to $1 million a month",
+      "url": "https://www.coindesk.com/business/2026/09/06/ukrainian-police-took-down-a-crypto-scam-that-stole-up-to-usd1-million-a-month",
+      "published_at": "Sun, 06 Sep 2026 16:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Better and Coinbase\u2019s bitcoin-backed mortgages can reuse borrowers\u2019 collateral",
+      "url": "https://www.coindesk.com/business/2026/09/06/better-and-coinbase-s-bitcoin-backed-mortgages-can-reuse-borrowers-collateral",
+      "published_at": "Sun, 06 Sep 2026 14:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Timing the bitcoin market is exciting but nearly impossible. Here's why",
+      "url": "https://www.coindesk.com/markets/2026/09/05/why-crypto-experts-say-buying-and-holding-bitcoin-easily-beats-trying-to-time-the-market",
+      "published_at": "Sat, 05 Sep 2026 18:05:11 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
     {
       "title": "Dollar-backed stablecoins can push local currencies lower, Bank of Korea study finds",
       "url": "https://www.coindesk.com/business/2026/09/05/dollar-backed-stablecoins-can-push-local-currencies-lower-bank-of-korea-study-finds",
@@ -246,27 +267,6 @@
       "title": "U.S. Sheriff\u2019s association shifts opposition stance to Clarity Act to 'neutral'",
       "url": "https://www.coindesk.com/policy/2026/09/04/u-s-sheriff-s-association-shifts-opposition-stance-to-clarity-act-to-neutral",
       "published_at": "Fri, 04 Sep 2026 14:12:34 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "U.S. added stronger than expected 162,000 jobs in August as labor market bounced back",
-      "url": "https://www.coindesk.com/markets/2026/09/04/u-s-added-stronger-than-expected-162-000-jobs-in-august-as-labor-market-bounced-back",
-      "published_at": "Fri, 04 Sep 2026 12:31:47 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "We checked 6 years of bitcoin data. The NFP report isn't big price mover",
-      "url": "https://www.coindesk.com/daybook-us/2026/09/04/we-checked-6-years-of-bitcoin-data-the-nfp-report-isn-t-big-price-mover",
-      "published_at": "Fri, 04 Sep 2026 11:29:05 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Zcash jumps 20% to landmark $1,000 level as short sellers lose $34 million",
-      "url": "https://www.coindesk.com/markets/2026/09/04/zcash-jumps-20-to-landmark-usd1-000-level-as-short-sellers-lose-usd34-million",
-      "published_at": "Fri, 04 Sep 2026 10:40:14 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }

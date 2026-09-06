@@ -1,7 +1,28 @@
 {
-  "generated_at": "2026-09-05 17:17 UTC",
+  "generated_at": "2026-09-06 17:38 UTC",
   "count": 55,
   "items": [
+    {
+      "title": "Ukrainian police took down a crypto scam that stole up to $1 million a month",
+      "link": "https://www.coindesk.com/business/2026/09/06/ukrainian-police-took-down-a-crypto-scam-that-stole-up-to-usd1-million-a-month",
+      "pub_date": "Sun, 06 Sep 2026 16:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Better and Coinbase\u2019s bitcoin-backed mortgages can reuse borrowers\u2019 collateral",
+      "link": "https://www.coindesk.com/business/2026/09/06/better-and-coinbase-s-bitcoin-backed-mortgages-can-reuse-borrowers-collateral",
+      "pub_date": "Sun, 06 Sep 2026 14:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Timing the bitcoin market is exciting but nearly impossible. Here's why",
+      "link": "https://www.coindesk.com/markets/2026/09/05/why-crypto-experts-say-buying-and-holding-bitcoin-easily-beats-trying-to-time-the-market",
+      "pub_date": "Sat, 05 Sep 2026 18:05:11 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
     {
       "title": "Dollar-backed stablecoins can push local currencies lower, Bank of Korea study finds",
       "link": "https://www.coindesk.com/business/2026/09/05/dollar-backed-stablecoins-can-push-local-currencies-lower-bank-of-korea-study-finds",
@@ -157,37 +178,30 @@
       "fetch_source": "live"
     },
     {
-      "title": "Bitget in talks with Wall Street giants including BlackRock to fuel Asian distribution",
-      "link": "https://www.coindesk.com/business/2026/09/03/bitget-in-talks-with-wall-street-giants-including-blackrock-for-asian-distribution",
-      "pub_date": "Thu, 03 Sep 2026 14:41:25 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "SoFi, Kraken tie up as crypto and banking push into each other's turf",
-      "link": "https://www.coindesk.com/business/2026/09/03/sofi-kraken-tie-up-as-crypto-and-banking-push-into-each-other-s-turf",
-      "pub_date": "Thu, 03 Sep 2026 12:00:00 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "FX has stopped reading bond yields the old way. Bitcoin should too.",
-      "link": "https://www.coindesk.com/daybook-us/2026/09/03/fx-has-stopped-reading-bond-yields-the-old-way-bitcoin-should-too",
-      "pub_date": "Thu, 03 Sep 2026 11:26:00 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
       "title": "Here\u2019s what happened in crypto today",
       "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Sat, 05 Sep 2026 11:16:19 +0000",
+      "pub_date": "Sun, 06 Sep 2026 13:24:43 +0000",
+      "source": "Cointelegraph",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Satoshi-era Bitcoin wakes after 16 years of dormancy as 600 BTC moves",
+      "link": "https://cointelegraph.com/news/satoshi-era-bitcoin-wakes-16-years-600-btc-moves?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sun, 06 Sep 2026 13:03:00 +0000",
+      "source": "Cointelegraph",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Tether-backed Orionx to shut down after audit flags $7M custody gap",
+      "link": "https://cointelegraph.com/news/orionx-shut-down-7-million-move-outside-wallets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sun, 06 Sep 2026 09:07:08 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
       "title": "Poland upholds crypto bill veto as Zondacrypto scandal widens",
       "link": "https://cointelegraph.com/news/poland-upholds-crypto-bill-veto-zondacrypto-scandal-widens?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Sat, 05 Sep 2026 10:44:29 +0000",
+      "pub_date": "Sat, 05 Sep 2026 10:46:00 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
@@ -265,20 +279,6 @@
       "title": "Trezor says data breach affects another 67K US customers",
       "link": "https://cointelegraph.com/news/trezor-data-breach-affects-67k-us-customers?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "pub_date": "Fri, 04 Sep 2026 11:19:19 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "South Korean regulators introduce tokenized securities roadmap",
-      "link": "https://cointelegraph.com/news/south-korean-regulators-tokenized-securities-roadmap?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 04 Sep 2026 10:42:10 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "AMC chief criticizes Robinhood\u2019s tokenized stock plan",
-      "link": "https://cointelegraph.com/news/amc-ceo-criticizes-robinhoods-tokenized-stock?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 04 Sep 2026 09:56:52 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     }
