@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-07T19:09:15.225415+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-09-07 19:00 UTC_",
+  "generated_at": "2026-09-08T18:28:50.060318+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-09-08 18:19 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,10 +9,10 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 79172.0,
+        "current_usd": 78777.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": 0.79,
-        "change_30d_pct": 21.96
+        "change_7d_pct": 1.76,
+        "change_30d_pct": 21.46
       },
       "indicators": {
         "trend": "DOWNTREND",
@@ -22,10 +22,10 @@
       "valuation": {
         "verdict": "Constructive long-term setup",
         "band": "fair",
-        "summary_line": "Fair - Weak growth profile - Lower regulatory risk.",
-        "score": 60.7
+        "summary_line": "Fair - Balanced growth profile - Lower regulatory risk.",
+        "score": 64.4
       },
-      "updated_at": "2026-09-07T19:09:15.224193+00:00",
+      "updated_at": "2026-09-08T18:28:50.058021+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,13 +37,13 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 2491.0,
+        "current_usd": 2503.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": 0.98,
-        "change_30d_pct": 30.04
+        "change_7d_pct": 3.55,
+        "change_30d_pct": 31.14
       },
       "indicators": {
-        "trend": "UPTREND",
+        "trend": "DOWNTREND",
         "momentum": "WEAK",
         "volatility": "NORMAL"
       },
@@ -51,9 +51,9 @@
         "verdict": "Constructive long-term setup",
         "band": "fair",
         "summary_line": "Fair - Balanced growth profile - Lower regulatory risk.",
-        "score": 66.8
+        "score": 67.3
       },
-      "updated_at": "2026-09-07T19:09:15.224712+00:00",
+      "updated_at": "2026-09-08T18:28:50.058832+00:00",
       "source": {
         "short_term": "live"
       }
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-09-07T19:09:15.224868+00:00",
+      "updated_at": "2026-09-08T18:28:50.059137+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-09-07T19:09:15.224974+00:00",
+      "updated_at": "2026-09-08T18:28:50.059378+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-09-07T19:09:15.225070+00:00",
+      "updated_at": "2026-09-08T18:28:50.059633+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-09-07T19:09:15.225165+00:00",
+      "updated_at": "2026-09-08T18:28:50.059859+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -193,7 +193,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-09-07T19:09:15.225260+00:00",
+      "updated_at": "2026-09-08T18:28:50.060088+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -201,72 +201,72 @@
   ],
   "overview_news": [
     {
-      "title": "Hunter Biden debuts 'LAPTOP' memecoin targeting TRUMP holders",
-      "url": "https://www.coindesk.com/business/2026/09/07/hunter-biden-is-launching-a-memecoin-named-after-his-laptop",
-      "published_at": "Mon, 07 Sep 2026 15:44:30 +0000",
+      "title": "Copper CEO Amar Kuchinad departs as search for a buyer enters a fourth month",
+      "url": "https://www.coindesk.com/business/2026/09/08/copper-ceo-amar-kuchinad-departs-as-search-for-a-buyer-enters-a-fourth-month",
+      "published_at": "Tue, 08 Sep 2026 15:23:46 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Polish prosecutors charge fifth suspect in a massive crypto probe",
-      "url": "https://www.coindesk.com/policy/2026/09/07/polish-prosecutors-charge-fifth-suspect-in-a-massive-crypto-probe",
-      "published_at": "Mon, 07 Sep 2026 15:28:43 +0000",
+      "title": "Circle agrees to buy cross-border payments firm Tazapay for $400 million",
+      "url": "https://www.coindesk.com/business/2026/09/08/circle-agrees-to-buy-cross-border-payments-firm-tazapay-for-usd400-million",
+      "published_at": "Tue, 08 Sep 2026 14:40:46 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Stablecoin wallets challenge traditional bank accounts as main consumer money hub",
-      "url": "https://www.coindesk.com/business/2026/09/07/stablecoin-wallets-challenge-traditional-bank-accounts-as-main-consumer-money-hub",
-      "published_at": "Mon, 07 Sep 2026 14:12:15 +0000",
+      "title": "Strive\u2019s SATA nears $1 billion market cap as Strategy\u2019s STRC continues to underperform",
+      "url": "https://www.coindesk.com/markets/2026/09/08/strive-s-sata-nears-usd1-billion-market-cap-as-strategy-s-strc-continues-to-underperform",
+      "published_at": "Tue, 08 Sep 2026 14:33:32 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Ethereum commits to letting users pay gas fees without having to hold ETH",
-      "url": "https://www.coindesk.com/tech/2026/09/07/ethereum-commits-to-letting-users-pay-gas-fees-without-having-to-hold-eth",
-      "published_at": "Mon, 07 Sep 2026 13:54:07 +0000",
+      "title": "Visa combines VisaNet data with onchain lending to power stablecoin card working capital",
+      "url": "https://www.coindesk.com/business/2026/09/08/visa-opens-settlement-data-to-help-blockchain-lenders-finance-crypto-cards-as-volume-surges",
+      "published_at": "Tue, 08 Sep 2026 14:29:14 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Solana to triple transaction size as apps get room for more complex trades",
-      "url": "https://www.coindesk.com/tech/2026/09/07/solana-to-triple-transaction-size-as-apps-get-room-for-more-complex-trades",
-      "published_at": "Mon, 07 Sep 2026 12:08:11 +0000",
+      "title": "Ethereum makes quantum resistance a top priority with a 2029 deadline",
+      "url": "https://www.coindesk.com/tech/2026/09/08/ethereum-makes-quantum-resistance-a-top-priority-with-a-2029-deadline",
+      "published_at": "Tue, 08 Sep 2026 13:18:24 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "DBS and Citi complete weekend USD payment via Swift\u2019s Digital Ledger using tokenized deposits",
-      "url": "https://www.coindesk.com/business/2026/09/07/dbs-and-citi-enable-instant-24-7-cross-border-tokenised-deposit-payments-on-the-swift-ledger",
-      "published_at": "Mon, 07 Sep 2026 12:05:32 +0000",
+      "title": "Bitcoin rally has more room as volatility shorts unwind, Two Prime CEO says",
+      "url": "https://www.coindesk.com/markets/2026/09/03/bitcoin-rally-has-more-room-as-volatility-shorts-unwind-two-prime-ceo-says",
+      "published_at": "Tue, 08 Sep 2026 13:18:21 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin blinks less than gold when Treasury yields move",
-      "url": "https://www.coindesk.com/daybook-us/2026/09/07/bitcoin-blinks-less-than-gold-when-treasury-yields-move",
-      "published_at": "Mon, 07 Sep 2026 11:15:00 +0000",
+      "title": "Bitmine purchased another $69 million of ETH, with Tom DeMark expecting price uptrend to soon resume",
+      "url": "https://www.coindesk.com/business/2026/09/08/bitmine-purchased-another-usd69-million-of-eth-with-tom-demark-expecting-price-uptrend-to-soon-resume",
+      "published_at": "Tue, 08 Sep 2026 13:06:34 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "UK regulator weighs easing financial prediction market ban: Times",
-      "url": "https://www.coindesk.com/policy/2026/09/07/uk-regulator-weighs-easing-financial-prediction-market-ban-times",
-      "published_at": "Mon, 07 Sep 2026 10:42:58 +0000",
+      "title": "Bitcoin\u2019s complexity paradox: How layer-2 scalers became AI's main target",
+      "url": "https://www.coindesk.com/markets/2026/09/08/bitcoin-security-risks-grow-as-ai-uncovers-hidden-vulnerabilities",
+      "published_at": "Tue, 08 Sep 2026 12:09:26 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "A two-key breach could hand control of $91 billion in USDT to hackers, report finds",
-      "url": "https://www.coindesk.com/tech/2026/09/04/tether-receives-bluechip-rating-upgrade-but-hacken-finds-major-key-security-gaps",
-      "published_at": "Mon, 07 Sep 2026 10:35:23 +0000",
+      "title": "Bitcoin ETFs are still $1 billion shy of breaking even in 2026",
+      "url": "https://www.coindesk.com/daybook-us/2026/09/08/bitcoin-etfs-are-still-usd1-billion-shy-of-breaking-even-in-2026",
+      "published_at": "Tue, 08 Sep 2026 11:26:27 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Weekend altcoin rally runs out of road as bitcoin slips",
-      "url": "https://www.coindesk.com/markets/2026/09/07/weekend-altcoin-rally-runs-out-of-road-as-bitcoin-slips",
-      "published_at": "Mon, 07 Sep 2026 10:26:33 +0000",
+      "title": "How Curve's soft liquidation model lets borrowers survive market drawdowns",
+      "url": "https://www.coindesk.com/tech/2026/09/08/hundreds-of-defi-loans-on-curve-stayed-in-liquidation-for-weeks-without-dying",
+      "published_at": "Tue, 08 Sep 2026 11:06:31 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
