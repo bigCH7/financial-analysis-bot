@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-09T18:27:48.845541+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-09-09 18:18 UTC_",
+  "generated_at": "2026-09-10T18:16:04.631493+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-09-10 18:07 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,23 +9,23 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 78580.0,
+        "current_usd": 77027.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": 1.66,
-        "change_30d_pct": 22.94
+        "change_7d_pct": -5.22,
+        "change_30d_pct": 21.23
       },
       "indicators": {
         "trend": "DOWNTREND",
-        "momentum": "WEAK",
+        "momentum": "STRONG",
         "volatility": "NORMAL"
       },
       "valuation": {
         "verdict": "Constructive long-term setup",
         "band": "fair",
         "summary_line": "Fair - Balanced growth profile - Lower regulatory risk.",
-        "score": 64.8
+        "score": 63.6
       },
-      "updated_at": "2026-09-09T18:27:48.843094+00:00",
+      "updated_at": "2026-09-10T18:16:04.629201+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,13 +37,13 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 2489.0,
+        "current_usd": 2457.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": 4.12,
-        "change_30d_pct": 33.02
+        "change_7d_pct": -2.03,
+        "change_30d_pct": 30.65
       },
       "indicators": {
-        "trend": "UPTREND",
+        "trend": "DOWNTREND",
         "momentum": "WEAK",
         "volatility": "NORMAL"
       },
@@ -51,9 +51,9 @@
         "verdict": "Constructive long-term setup",
         "band": "fair",
         "summary_line": "Fair - Strong growth profile - Lower regulatory risk.",
-        "score": 68.2
+        "score": 72.3
       },
-      "updated_at": "2026-09-09T18:27:48.843882+00:00",
+      "updated_at": "2026-09-10T18:16:04.629974+00:00",
       "source": {
         "short_term": "live"
       }
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-09-09T18:27:48.844210+00:00",
+      "updated_at": "2026-09-10T18:16:04.630290+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-09-09T18:27:48.844505+00:00",
+      "updated_at": "2026-09-10T18:16:04.630523+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-09-09T18:27:48.844834+00:00",
+      "updated_at": "2026-09-10T18:16:04.630782+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-09-09T18:27:48.845082+00:00",
+      "updated_at": "2026-09-10T18:16:04.631008+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -193,7 +193,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-09-09T18:27:48.845308+00:00",
+      "updated_at": "2026-09-10T18:16:04.631268+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -201,72 +201,72 @@
   ],
   "overview_news": [
     {
-      "title": "Robinhood\u2019s CEO Vlad Tenev fires back at AMC CEO in escalating fight over stock tokens",
-      "url": "https://www.coindesk.com/markets/2026/09/09/robinhood-s-ceo-vlad-tenev-defends-stock-tokens-in-escalating-fight-with-amc-ceo",
-      "published_at": "Wed, 09 Sep 2026 16:11:07 +0000",
+      "title": "OKX brings OpenAI and Anthropic bets to Europe as pre-IPO trading grows",
+      "url": "https://www.coindesk.com/markets/2026/09/10/okx-brings-openai-and-anthropic-bets-to-europe-as-pre-ipo-trading-grows",
+      "published_at": "Thu, 10 Sep 2026 17:07:59 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "U.S. Treasury sanctions another widespread cyber-scam hub, Xinbi Guarantee",
-      "url": "https://www.coindesk.com/policy/2026/09/09/u-s-treasury-sanctions-another-widespread-cyber-scam-hub-xinbi-guarantee",
-      "published_at": "Wed, 09 Sep 2026 16:05:11 +0000",
+      "title": "Europe\u2019s top regulator questions Polymarket and Kalshi\u2019s EU access, warns of authorization gaps",
+      "url": "https://www.coindesk.com/business/2026/09/10/europe-s-top-regulator-questions-polymarket-and-kalshi-s-eu-access-warns-of-authorization-gaps",
+      "published_at": "Thu, 10 Sep 2026 17:03:34 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Tether pushes into private credit with $400 million fund with Fasanara",
-      "url": "https://www.coindesk.com/business/2026/09/09/tether-pushes-into-private-credit-with-usd400-million-fund-with-fasanara",
-      "published_at": "Wed, 09 Sep 2026 15:51:25 +0000",
+      "title": "Polymarket names former Amazon finance chief Warren Jenson as its first CFO",
+      "url": "https://www.coindesk.com/markets/2026/09/10/polymarket-names-former-amazon-finance-chief-warren-jenson-as-its-first-cfo",
+      "published_at": "Thu, 10 Sep 2026 16:10:03 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin and Ethereum race quantum clock as U.S. backs $300 million hardware push",
-      "url": "https://www.coindesk.com/tech/2026/09/09/bitcoin-and-ethereum-race-quantum-clock-as-u-s-backs-usd300-million-hardware-push",
-      "published_at": "Wed, 09 Sep 2026 15:30:00 +0000",
+      "title": "Monument Bank delays retail tokenized deposits, cites regulatory issues in the UK",
+      "url": "https://www.coindesk.com/business/2026/09/10/monument-bank-delays-retail-tokenized-deposits-cites-regulatory-issues-in-the-uk",
+      "published_at": "Thu, 10 Sep 2026 15:53:24 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Consensys to split MetaMask into its own firm while staying silent on IPO",
-      "url": "https://www.coindesk.com/business/2026/09/09/consensys-to-split-metamask-into-its-own-firm-while-staying-silent-on-ipo",
-      "published_at": "Wed, 09 Sep 2026 15:24:01 +0000",
+      "title": "Bitcoin Bancorp snaps up thousands of defunct Bitcoin Depot ATMs for $620,000",
+      "url": "https://www.coindesk.com/business/2026/09/10/a-quarter-of-bankrupt-bitcoin-depot-s-atms-snapped-up-for-less-than-usd1-million",
+      "published_at": "Thu, 10 Sep 2026 15:14:49 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Crypto Long & Short:  Inside the 300-to-1 onchain gap between the dollar and euro",
-      "url": "https://www.coindesk.com/coindesk-indices/2026/09/08/crypto-long-and-short-inside-the-300-to-1-onchain-gap-between-the-dollar-and-euro",
-      "published_at": "Wed, 09 Sep 2026 14:58:07 +0000",
+      "title": "Crypto for Advisors: Hyperliquid and the future of finance",
+      "url": "https://www.coindesk.com/coindesk-indices/2026/09/10/crypto-for-advisors",
+      "published_at": "Thu, 10 Sep 2026 15:00:16 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Kalshi election data goes live on DoubleZero ahead of U.S. midterms",
-      "url": "https://www.coindesk.com/tech/2026/09/09/kalshi-election-data-goes-live-on-doublezero-ahead-of-u-s-midterms",
-      "published_at": "Wed, 09 Sep 2026 14:00:00 +0000",
+      "title": "MoneyGram unveils stablecoin-backed card as digital dollars move into everyday spending",
+      "url": "https://www.coindesk.com/business/2026/09/08/moneygram-unveils-stablecoin-backed-card-as-digital-dollars-move-into-everyday-spending",
+      "published_at": "Thu, 10 Sep 2026 14:30:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "PayPal expands stablecoin rails with custom token issuance platform",
-      "url": "https://www.coindesk.com/business/2026/09/09/paypal-expands-stablecoin-rails-with-launch-of-custom-token-issuance-platform",
-      "published_at": "Wed, 09 Sep 2026 14:00:00 +0000",
+      "title": "Nasdaq, Boerse Stuttgart, others ask EU to remove or increase cap in tokenization trial",
+      "url": "https://www.coindesk.com/business/2026/09/10/nasdaq-boerse-stuttgart-others-ask-eu-to-remove-or-increase-cap-in-tokenization-trial",
+      "published_at": "Thu, 10 Sep 2026 13:56:54 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Hunter Biden's new LAPTOP token lost 98% of its value in under an hour after $1.6 billion debut",
-      "url": "https://www.coindesk.com/business/2026/09/09/hunter-biden-s-laptop-memecoin-debuts-at-usd1-6-billion-market-cap",
-      "published_at": "Wed, 09 Sep 2026 13:57:57 +0000",
+      "title": "Threatened with arrest online? Recognizing a law enforcement impersonation scam",
+      "url": "https://www.coindesk.com/opinion/2026/09/10/threatened-with-arrest-online-recognizing-a-law-enforcement-impersonation-scam",
+      "published_at": "Thu, 10 Sep 2026 13:00:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "KYC data is an irresistible honeypot for hackers, and we must change how it is collected",
-      "url": "https://www.coindesk.com/opinion/2026/09/09/kyc-data-is-an-irresistible-honeypot-for-hackers-and-we-must-change-how-it-is-collected",
-      "published_at": "Wed, 09 Sep 2026 13:02:49 +0000",
+      "title": "Crypto researchers cut Bitcoin and Ethereum quantum attack estimate by 50%",
+      "url": "https://www.coindesk.com/tech/2026/09/10/crypto-researchers-cut-bitcoin-and-ethereum-quantum-attack-estimate-by-50",
+      "published_at": "Thu, 10 Sep 2026 13:00:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
