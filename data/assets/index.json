@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-10T18:16:04.631493+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-09-10 18:07 UTC_",
+  "generated_at": "2026-09-11T18:19:40.652307+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-09-11 18:10 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,23 +9,23 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 77027.0,
+        "current_usd": 77067.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": -5.22,
-        "change_30d_pct": 21.23
+        "change_7d_pct": -3.27,
+        "change_30d_pct": 21.54
       },
       "indicators": {
         "trend": "DOWNTREND",
-        "momentum": "STRONG",
+        "momentum": "WEAK",
         "volatility": "NORMAL"
       },
       "valuation": {
         "verdict": "Constructive long-term setup",
         "band": "fair",
         "summary_line": "Fair - Balanced growth profile - Lower regulatory risk.",
-        "score": 63.6
+        "score": 64.4
       },
-      "updated_at": "2026-09-10T18:16:04.629201+00:00",
+      "updated_at": "2026-09-11T18:19:40.651002+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,23 +37,23 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 2457.0,
+        "current_usd": 2538.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": -2.03,
-        "change_30d_pct": 30.65
+        "change_7d_pct": 3.32,
+        "change_30d_pct": 35.14
       },
       "indicators": {
-        "trend": "DOWNTREND",
-        "momentum": "WEAK",
+        "trend": "UPTREND",
+        "momentum": "STRONG",
         "volatility": "NORMAL"
       },
       "valuation": {
-        "verdict": "Constructive long-term setup",
-        "band": "fair",
-        "summary_line": "Fair - Strong growth profile - Lower regulatory risk.",
-        "score": 72.3
+        "verdict": "Undervalued / High-conviction zone",
+        "band": "undervalued",
+        "summary_line": "Undervalued - Strong growth profile - Lower regulatory risk.",
+        "score": 79.6
       },
-      "updated_at": "2026-09-10T18:16:04.629974+00:00",
+      "updated_at": "2026-09-11T18:19:40.651457+00:00",
       "source": {
         "short_term": "live"
       }
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-09-10T18:16:04.630290+00:00",
+      "updated_at": "2026-09-11T18:19:40.651653+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-09-10T18:16:04.630523+00:00",
+      "updated_at": "2026-09-11T18:19:40.651793+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-09-10T18:16:04.630782+00:00",
+      "updated_at": "2026-09-11T18:19:40.651931+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-09-10T18:16:04.631008+00:00",
+      "updated_at": "2026-09-11T18:19:40.652061+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -193,7 +193,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-09-10T18:16:04.631268+00:00",
+      "updated_at": "2026-09-11T18:19:40.652187+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -201,72 +201,72 @@
   ],
   "overview_news": [
     {
-      "title": "OKX brings OpenAI and Anthropic bets to Europe as pre-IPO trading grows",
-      "url": "https://www.coindesk.com/markets/2026/09/10/okx-brings-openai-and-anthropic-bets-to-europe-as-pre-ipo-trading-grows",
-      "published_at": "Thu, 10 Sep 2026 17:07:59 +0000",
+      "title": "The legal drama of imprisoned Sam Bankman-Fried is waiting on its last act",
+      "url": "https://www.coindesk.com/news-analysis/2026/09/11/the-legal-drama-of-imprisoned-sam-bankman-fried-is-waiting-on-its-last-act",
+      "published_at": "Fri, 11 Sep 2026 17:12:45 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Europe\u2019s top regulator questions Polymarket and Kalshi\u2019s EU access, warns of authorization gaps",
-      "url": "https://www.coindesk.com/business/2026/09/10/europe-s-top-regulator-questions-polymarket-and-kalshi-s-eu-access-warns-of-authorization-gaps",
-      "published_at": "Thu, 10 Sep 2026 17:03:34 +0000",
+      "title": "With Fed rate hike all but assured, here's how markets might react",
+      "url": "https://www.coindesk.com/markets/2026/09/11/hotter-cpi-complicates-fed-hold-as-warsh-s-preferred-inflation-gauge-tells-different-story",
+      "published_at": "Fri, 11 Sep 2026 15:45:56 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Polymarket names former Amazon finance chief Warren Jenson as its first CFO",
-      "url": "https://www.coindesk.com/markets/2026/09/10/polymarket-names-former-amazon-finance-chief-warren-jenson-as-its-first-cfo",
-      "published_at": "Thu, 10 Sep 2026 16:10:03 +0000",
+      "title": "India's richest state is exploring tokenizing its own assets to fund new infrastructure",
+      "url": "https://www.coindesk.com/markets/2026/09/11/india-s-richest-state-is-exploring-tokenizing-its-own-assets-to-fund-new-infrastructure",
+      "published_at": "Fri, 11 Sep 2026 15:17:08 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Monument Bank delays retail tokenized deposits, cites regulatory issues in the UK",
-      "url": "https://www.coindesk.com/business/2026/09/10/monument-bank-delays-retail-tokenized-deposits-cites-regulatory-issues-in-the-uk",
-      "published_at": "Thu, 10 Sep 2026 15:53:24 +0000",
+      "title": "Metaplanet cuts executive reward pool by 41%, extinguishes $220 million in value",
+      "url": "https://www.coindesk.com/business/2026/09/11/metaplanet-cuts-executive-reward-pool-by-41-extinguishes-usd220-million-in-value",
+      "published_at": "Fri, 11 Sep 2026 13:46:51 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin Bancorp snaps up thousands of defunct Bitcoin Depot ATMs for $620,000",
-      "url": "https://www.coindesk.com/business/2026/09/10/a-quarter-of-bankrupt-bitcoin-depot-s-atms-snapped-up-for-less-than-usd1-million",
-      "published_at": "Thu, 10 Sep 2026 15:14:49 +0000",
+      "title": "Zodia Custody CEO Julian Sawyer steps down, becomes adviser",
+      "url": "https://www.coindesk.com/business/2026/09/11/zodia-custody-ceo-julian-sawyer-steps-down-becomes-adviser",
+      "published_at": "Fri, 11 Sep 2026 13:32:52 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Crypto for Advisors: Hyperliquid and the future of finance",
-      "url": "https://www.coindesk.com/coindesk-indices/2026/09/10/crypto-for-advisors",
-      "published_at": "Thu, 10 Sep 2026 15:00:16 +0000",
+      "title": "Core CPI rose a faster-than-forecast 0.3% in August, setting up possible Fed rate hike",
+      "url": "https://www.coindesk.com/markets/2026/09/11/core-cpi-rose-a-faster-than-forecast-0-3-in-august-setting-up-fed-rate-hike",
+      "published_at": "Fri, 11 Sep 2026 12:32:25 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "MoneyGram unveils stablecoin-backed card as digital dollars move into everyday spending",
-      "url": "https://www.coindesk.com/business/2026/09/08/moneygram-unveils-stablecoin-backed-card-as-digital-dollars-move-into-everyday-spending",
-      "published_at": "Thu, 10 Sep 2026 14:30:00 +0000",
+      "title": "Rising yields, oil prices leave bitcoin vulnerable ahead of U.S. inflation report",
+      "url": "https://www.coindesk.com/daybook-us/2026/09/11/rising-yields-oil-prices-leave-bitcoin-vulnerable-ahead-of-u-s-inflation-report",
+      "published_at": "Fri, 11 Sep 2026 11:20:26 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Nasdaq, Boerse Stuttgart, others ask EU to remove or increase cap in tokenization trial",
-      "url": "https://www.coindesk.com/business/2026/09/10/nasdaq-boerse-stuttgart-others-ask-eu-to-remove-or-increase-cap-in-tokenization-trial",
-      "published_at": "Thu, 10 Sep 2026 13:56:54 +0000",
+      "title": "Live updates: Bitcoin gives up early gains as markets fully price in Fed rate hike",
+      "url": "https://www.coindesk.com/business/2026/09/11/live-updates-bitcoin-sinks-to-usd77-000-as-cpi-lands-with-hike-odds-near-70",
+      "published_at": "Fri, 11 Sep 2026 11:04:12 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Threatened with arrest online? Recognizing a law enforcement impersonation scam",
-      "url": "https://www.coindesk.com/opinion/2026/09/10/threatened-with-arrest-online-recognizing-a-law-enforcement-impersonation-scam",
-      "published_at": "Thu, 10 Sep 2026 13:00:00 +0000",
+      "title": "Bitcoin recovers toward $77,300 as zcash leverage unwinds",
+      "url": "https://www.coindesk.com/markets/2026/09/11/bitcoin-recovers-toward-usd77-300-as-zcash-leverage-unwinds",
+      "published_at": "Fri, 11 Sep 2026 10:50:47 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Crypto researchers cut Bitcoin and Ethereum quantum attack estimate by 50%",
-      "url": "https://www.coindesk.com/tech/2026/09/10/crypto-researchers-cut-bitcoin-and-ethereum-quantum-attack-estimate-by-50",
-      "published_at": "Thu, 10 Sep 2026 13:00:00 +0000",
+      "title": "Bitcoin pulls back as another golden cross fails to deliver",
+      "url": "https://www.coindesk.com/markets/2026/09/11/bitcoin-pulls-back-as-another-golden-cross-fails-to-deliver",
+      "published_at": "Fri, 11 Sep 2026 10:13:44 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
