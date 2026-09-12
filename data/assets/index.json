@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-11T18:19:40.652307+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-09-11 18:10 UTC_",
+  "generated_at": "2026-09-12T17:49:54.276010+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-09-12 17:40 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,10 +9,10 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 77067.0,
+        "current_usd": 77217.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": -3.27,
-        "change_30d_pct": 21.54
+        "change_7d_pct": -3.26,
+        "change_30d_pct": 21.74
       },
       "indicators": {
         "trend": "DOWNTREND",
@@ -20,12 +20,12 @@
         "volatility": "NORMAL"
       },
       "valuation": {
-        "verdict": "Constructive long-term setup",
+        "verdict": "Neutral / fair-value zone",
         "band": "fair",
-        "summary_line": "Fair - Balanced growth profile - Lower regulatory risk.",
-        "score": 64.4
+        "summary_line": "Fair - Weak growth profile - Lower regulatory risk.",
+        "score": 58.5
       },
-      "updated_at": "2026-09-11T18:19:40.651002+00:00",
+      "updated_at": "2026-09-12T17:49:54.274146+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,23 +37,23 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 2538.0,
+        "current_usd": 2526.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": 3.32,
-        "change_30d_pct": 35.14
+        "change_7d_pct": 1.84,
+        "change_30d_pct": 34.03
       },
       "indicators": {
         "trend": "UPTREND",
-        "momentum": "STRONG",
+        "momentum": "WEAK",
         "volatility": "NORMAL"
       },
       "valuation": {
-        "verdict": "Undervalued / High-conviction zone",
-        "band": "undervalued",
-        "summary_line": "Undervalued - Strong growth profile - Lower regulatory risk.",
-        "score": 79.6
+        "verdict": "Constructive long-term setup",
+        "band": "fair",
+        "summary_line": "Fair - Strong growth profile - Lower regulatory risk.",
+        "score": 69.0
       },
-      "updated_at": "2026-09-11T18:19:40.651457+00:00",
+      "updated_at": "2026-09-12T17:49:54.274899+00:00",
       "source": {
         "short_term": "live"
       }
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-09-11T18:19:40.651653+00:00",
+      "updated_at": "2026-09-12T17:49:54.275216+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-09-11T18:19:40.651793+00:00",
+      "updated_at": "2026-09-12T17:49:54.275391+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-09-11T18:19:40.651931+00:00",
+      "updated_at": "2026-09-12T17:49:54.275540+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-09-11T18:19:40.652061+00:00",
+      "updated_at": "2026-09-12T17:49:54.275696+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -193,13 +193,48 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-09-11T18:19:40.652187+00:00",
+      "updated_at": "2026-09-12T17:49:54.275871+00:00",
       "source": {
         "short_term": "unavailable"
       }
     }
   ],
   "overview_news": [
+    {
+      "title": "Ripple stablecoin chief sees $13 trillion corporate treasury opportunity for RLUSD",
+      "url": "https://www.coindesk.com/business/2026/09/12/ripple-stablecoin-chief-sees-usd13-trillion-corporate-treasury-opportunity-for-rlusd",
+      "published_at": "Sat, 12 Sep 2026 16:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Ditching bonds for bitcoin: How crypto can tackle the AI-heavy portfolio dilemma",
+      "url": "https://www.coindesk.com/business/2026/09/12/ditching-bonds-for-bitcoin-how-crypto-can-tackle-the-ai-heavy-portfolio-dilemma",
+      "published_at": "Sat, 12 Sep 2026 16:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Staked ether should be seen as the benchmark of the decentralized economy",
+      "url": "https://www.coindesk.com/opinion/2026/09/12/staked-ether-should-be-seen-as-the-benchmark-of-the-decentralized-economy",
+      "published_at": "Sat, 12 Sep 2026 14:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Bitcoin activity, passports exposed after Revolut falls for fake government request",
+      "url": "https://www.coindesk.com/tech/2026/09/12/bitcoin-activity-passports-exposed-after-revolut-falls-for-fake-government-request",
+      "published_at": "Sat, 12 Sep 2026 10:11:01 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Robinhood CEO says companies shouldn't get veto over stock tokens in AMC feud",
+      "url": "https://www.coindesk.com/markets/2026/09/11/robinhood-ceo-says-companies-shouldn-t-get-veto-over-stock-tokens-in-amc-feud",
+      "published_at": "Fri, 11 Sep 2026 23:47:51 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
     {
       "title": "The legal drama of imprisoned Sam Bankman-Fried is waiting on its last act",
       "url": "https://www.coindesk.com/news-analysis/2026/09/11/the-legal-drama-of-imprisoned-sam-bankman-fried-is-waiting-on-its-last-act",
@@ -232,41 +267,6 @@
       "title": "Zodia Custody CEO Julian Sawyer steps down, becomes adviser",
       "url": "https://www.coindesk.com/business/2026/09/11/zodia-custody-ceo-julian-sawyer-steps-down-becomes-adviser",
       "published_at": "Fri, 11 Sep 2026 13:32:52 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Core CPI rose a faster-than-forecast 0.3% in August, setting up possible Fed rate hike",
-      "url": "https://www.coindesk.com/markets/2026/09/11/core-cpi-rose-a-faster-than-forecast-0-3-in-august-setting-up-fed-rate-hike",
-      "published_at": "Fri, 11 Sep 2026 12:32:25 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Rising yields, oil prices leave bitcoin vulnerable ahead of U.S. inflation report",
-      "url": "https://www.coindesk.com/daybook-us/2026/09/11/rising-yields-oil-prices-leave-bitcoin-vulnerable-ahead-of-u-s-inflation-report",
-      "published_at": "Fri, 11 Sep 2026 11:20:26 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Live updates: Bitcoin gives up early gains as markets fully price in Fed rate hike",
-      "url": "https://www.coindesk.com/business/2026/09/11/live-updates-bitcoin-sinks-to-usd77-000-as-cpi-lands-with-hike-odds-near-70",
-      "published_at": "Fri, 11 Sep 2026 11:04:12 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitcoin recovers toward $77,300 as zcash leverage unwinds",
-      "url": "https://www.coindesk.com/markets/2026/09/11/bitcoin-recovers-toward-usd77-300-as-zcash-leverage-unwinds",
-      "published_at": "Fri, 11 Sep 2026 10:50:47 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitcoin pulls back as another golden cross fails to deliver",
-      "url": "https://www.coindesk.com/markets/2026/09/11/bitcoin-pulls-back-as-another-golden-cross-fails-to-deliver",
-      "published_at": "Fri, 11 Sep 2026 10:13:44 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
