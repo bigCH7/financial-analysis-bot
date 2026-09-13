@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-12T17:49:54.276010+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-09-12 17:40 UTC_",
+  "generated_at": "2026-09-13T18:03:44.574282+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-09-13 17:54 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,10 +9,10 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 77217.0,
+        "current_usd": 77307.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": -3.26,
-        "change_30d_pct": 21.74
+        "change_7d_pct": -3.76,
+        "change_30d_pct": 22.74
       },
       "indicators": {
         "trend": "DOWNTREND",
@@ -23,9 +23,9 @@
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
         "summary_line": "Fair - Weak growth profile - Lower regulatory risk.",
-        "score": 58.5
+        "score": 57.2
       },
-      "updated_at": "2026-09-12T17:49:54.274146+00:00",
+      "updated_at": "2026-09-13T18:03:44.571868+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,13 +37,13 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 2526.0,
+        "current_usd": 2504.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": 1.84,
-        "change_30d_pct": 34.03
+        "change_7d_pct": -0.39,
+        "change_30d_pct": 33.17
       },
       "indicators": {
-        "trend": "UPTREND",
+        "trend": "DOWNTREND",
         "momentum": "WEAK",
         "volatility": "NORMAL"
       },
@@ -51,9 +51,9 @@
         "verdict": "Constructive long-term setup",
         "band": "fair",
         "summary_line": "Fair - Strong growth profile - Lower regulatory risk.",
-        "score": 69.0
+        "score": 67.3
       },
-      "updated_at": "2026-09-12T17:49:54.274899+00:00",
+      "updated_at": "2026-09-13T18:03:44.572677+00:00",
       "source": {
         "short_term": "live"
       }
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-09-12T17:49:54.275216+00:00",
+      "updated_at": "2026-09-13T18:03:44.572993+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-09-12T17:49:54.275391+00:00",
+      "updated_at": "2026-09-13T18:03:44.573251+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-09-12T17:49:54.275540+00:00",
+      "updated_at": "2026-09-13T18:03:44.573509+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-09-12T17:49:54.275696+00:00",
+      "updated_at": "2026-09-13T18:03:44.573781+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -193,13 +193,69 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-09-12T17:49:54.275871+00:00",
+      "updated_at": "2026-09-13T18:03:44.574033+00:00",
       "source": {
         "short_term": "unavailable"
       }
     }
   ],
   "overview_news": [
+    {
+      "title": "Quantum-proof blockchain: why math, not machines, holds the key",
+      "url": "https://www.coindesk.com/opinion/2026/09/13/quantum-proof-blockchain-why-math-not-machines-holds-the-key",
+      "published_at": "Sun, 13 Sep 2026 17:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Fed rate hike is about Wall Street, not inflation, says economist",
+      "url": "https://www.coindesk.com/markets/2026/09/13/fed-rate-hike-is-about-wall-street-not-inflation-says-economist",
+      "published_at": "Sun, 13 Sep 2026 13:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Circle's $400M Tazapay deal buys emerging market links that take \u2018years to build\u2019",
+      "url": "https://www.coindesk.com/business/2026/09/13/circle-s-usd400m-tazapay-deal-buys-emerging-market-links-that-take-years-to-build",
+      "published_at": "Sun, 13 Sep 2026 13:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Crypto's Clarity Act is a Schr\u00f6dinger's cat in life-death limbo as U.S. Senate returns",
+      "url": "https://www.coindesk.com/news-analysis/2026/09/11/crypto-s-clarity-act-is-a-schroedinger-s-cat-in-life-death-limbo-as-u-s-senate-returns",
+      "published_at": "Sun, 13 Sep 2026 12:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "OpenAI IPO won't happen this year, says Sam Altman",
+      "url": "https://www.coindesk.com/markets/2026/09/12/openai-ipo-won-t-happen-this-year-says-sam-altman",
+      "published_at": "Sat, 12 Sep 2026 21:09:31 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Bitcoin Suisse plans to cut up to half its Swiss jobs as it shifts work abroad",
+      "url": "https://www.coindesk.com/business/2026/09/12/bitcoin-suisse-plans-to-cut-up-to-half-its-swiss-jobs-as-it-shifts-work-abroad",
+      "published_at": "Sat, 12 Sep 2026 21:09:06 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Nigel Farage\u2019s Reform UK lands $97 million donations from two crypto billionaires in 24 hours",
+      "url": "https://www.coindesk.com/business/2026/09/12/nigel-farage-s-reform-uk-lands-usd97-million-donations-from-two-crypto-billionaires-in-24-hours",
+      "published_at": "Sat, 12 Sep 2026 18:51:04 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Anthropic CEO calls for AI race to slow down citing safety. Musk and OpenAI's Altman agrees",
+      "url": "https://www.coindesk.com/tech/2026/09/12/anthropic-ceo-calls-for-ai-race-to-slow-down-musk-and-openai-s-altman-agrees",
+      "published_at": "Sat, 12 Sep 2026 18:43:33 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
     {
       "title": "Ripple stablecoin chief sees $13 trillion corporate treasury opportunity for RLUSD",
       "url": "https://www.coindesk.com/business/2026/09/12/ripple-stablecoin-chief-sees-usd13-trillion-corporate-treasury-opportunity-for-rlusd",
@@ -211,62 +267,6 @@
       "title": "Ditching bonds for bitcoin: How crypto can tackle the AI-heavy portfolio dilemma",
       "url": "https://www.coindesk.com/business/2026/09/12/ditching-bonds-for-bitcoin-how-crypto-can-tackle-the-ai-heavy-portfolio-dilemma",
       "published_at": "Sat, 12 Sep 2026 16:00:00 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Staked ether should be seen as the benchmark of the decentralized economy",
-      "url": "https://www.coindesk.com/opinion/2026/09/12/staked-ether-should-be-seen-as-the-benchmark-of-the-decentralized-economy",
-      "published_at": "Sat, 12 Sep 2026 14:00:00 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitcoin activity, passports exposed after Revolut falls for fake government request",
-      "url": "https://www.coindesk.com/tech/2026/09/12/bitcoin-activity-passports-exposed-after-revolut-falls-for-fake-government-request",
-      "published_at": "Sat, 12 Sep 2026 10:11:01 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Robinhood CEO says companies shouldn't get veto over stock tokens in AMC feud",
-      "url": "https://www.coindesk.com/markets/2026/09/11/robinhood-ceo-says-companies-shouldn-t-get-veto-over-stock-tokens-in-amc-feud",
-      "published_at": "Fri, 11 Sep 2026 23:47:51 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "The legal drama of imprisoned Sam Bankman-Fried is waiting on its last act",
-      "url": "https://www.coindesk.com/news-analysis/2026/09/11/the-legal-drama-of-imprisoned-sam-bankman-fried-is-waiting-on-its-last-act",
-      "published_at": "Fri, 11 Sep 2026 17:12:45 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "With Fed rate hike all but assured, here's how markets might react",
-      "url": "https://www.coindesk.com/markets/2026/09/11/hotter-cpi-complicates-fed-hold-as-warsh-s-preferred-inflation-gauge-tells-different-story",
-      "published_at": "Fri, 11 Sep 2026 15:45:56 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "India's richest state is exploring tokenizing its own assets to fund new infrastructure",
-      "url": "https://www.coindesk.com/markets/2026/09/11/india-s-richest-state-is-exploring-tokenizing-its-own-assets-to-fund-new-infrastructure",
-      "published_at": "Fri, 11 Sep 2026 15:17:08 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Metaplanet cuts executive reward pool by 41%, extinguishes $220 million in value",
-      "url": "https://www.coindesk.com/business/2026/09/11/metaplanet-cuts-executive-reward-pool-by-41-extinguishes-usd220-million-in-value",
-      "published_at": "Fri, 11 Sep 2026 13:46:51 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Zodia Custody CEO Julian Sawyer steps down, becomes adviser",
-      "url": "https://www.coindesk.com/business/2026/09/11/zodia-custody-ceo-julian-sawyer-steps-down-becomes-adviser",
-      "published_at": "Fri, 11 Sep 2026 13:32:52 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
