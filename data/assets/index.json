@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-13T18:03:44.574282+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-09-13 17:54 UTC_",
+  "generated_at": "2026-09-14T19:52:41.581716+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-09-14 19:43 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,23 +9,23 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 77307.0,
+        "current_usd": 79094.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": -3.76,
-        "change_30d_pct": 22.74
+        "change_7d_pct": 0.0,
+        "change_30d_pct": 25.48
       },
       "indicators": {
-        "trend": "DOWNTREND",
-        "momentum": "WEAK",
+        "trend": "UPTREND",
+        "momentum": "STRONG",
         "volatility": "NORMAL"
       },
       "valuation": {
-        "verdict": "Neutral / fair-value zone",
+        "verdict": "Constructive long-term setup",
         "band": "fair",
-        "summary_line": "Fair - Weak growth profile - Lower regulatory risk.",
-        "score": 57.2
+        "summary_line": "Fair - Balanced growth profile - Lower regulatory risk.",
+        "score": 65.4
       },
-      "updated_at": "2026-09-13T18:03:44.571868+00:00",
+      "updated_at": "2026-09-14T19:52:41.579349+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,13 +37,13 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 2504.0,
+        "current_usd": 2544.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": -0.39,
-        "change_30d_pct": 33.17
+        "change_7d_pct": 2.19,
+        "change_30d_pct": 35.25
       },
       "indicators": {
-        "trend": "DOWNTREND",
+        "trend": "UPTREND",
         "momentum": "WEAK",
         "volatility": "NORMAL"
       },
@@ -51,9 +51,9 @@
         "verdict": "Constructive long-term setup",
         "band": "fair",
         "summary_line": "Fair - Strong growth profile - Lower regulatory risk.",
-        "score": 67.3
+        "score": 73.7
       },
-      "updated_at": "2026-09-13T18:03:44.572677+00:00",
+      "updated_at": "2026-09-14T19:52:41.580178+00:00",
       "source": {
         "short_term": "live"
       }
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-09-13T18:03:44.572993+00:00",
+      "updated_at": "2026-09-14T19:52:41.580474+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-09-13T18:03:44.573251+00:00",
+      "updated_at": "2026-09-14T19:52:41.580765+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-09-13T18:03:44.573509+00:00",
+      "updated_at": "2026-09-14T19:52:41.580995+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-09-13T18:03:44.573781+00:00",
+      "updated_at": "2026-09-14T19:52:41.581249+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -193,7 +193,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-09-13T18:03:44.574033+00:00",
+      "updated_at": "2026-09-14T19:52:41.581494+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -201,72 +201,72 @@
   ],
   "overview_news": [
     {
-      "title": "Quantum-proof blockchain: why math, not machines, holds the key",
-      "url": "https://www.coindesk.com/opinion/2026/09/13/quantum-proof-blockchain-why-math-not-machines-holds-the-key",
-      "published_at": "Sun, 13 Sep 2026 17:00:00 +0000",
+      "title": "Trump's $800 million stake into World Liberty Financial's token now has a timeline to becoming sellable",
+      "url": "https://www.coindesk.com/business/2026/09/14/trump-s-usd800-million-stake-into-world-liberty-financial-s-token-now-has-a-timeline-to-becoming-sellable",
+      "published_at": "Mon, 14 Sep 2026 19:21:58 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Fed rate hike is about Wall Street, not inflation, says economist",
-      "url": "https://www.coindesk.com/markets/2026/09/13/fed-rate-hike-is-about-wall-street-not-inflation-says-economist",
-      "published_at": "Sun, 13 Sep 2026 13:00:00 +0000",
+      "title": "White House crypto adviser says Trump gave up 'historic' ethics powers in compromise",
+      "url": "https://www.coindesk.com/policy/2026/09/14/white-house-crypto-adviser-says-trump-gave-up-historic-ethics-powers-in-compromise",
+      "published_at": "Mon, 14 Sep 2026 18:34:09 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Circle's $400M Tazapay deal buys emerging market links that take \u2018years to build\u2019",
-      "url": "https://www.coindesk.com/business/2026/09/13/circle-s-usd400m-tazapay-deal-buys-emerging-market-links-that-take-years-to-build",
-      "published_at": "Sun, 13 Sep 2026 13:00:00 +0000",
+      "title": "Banks escalate stablecoin rewards fight as Senate prepares for a Clarity Act vote",
+      "url": "https://www.coindesk.com/policy/2026/09/14/banks-escalate-stablecoin-rewards-fight-as-senate-prepares-for-a-clarity-act-vote",
+      "published_at": "Mon, 14 Sep 2026 17:51:20 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Crypto's Clarity Act is a Schr\u00f6dinger's cat in life-death limbo as U.S. Senate returns",
-      "url": "https://www.coindesk.com/news-analysis/2026/09/11/crypto-s-clarity-act-is-a-schroedinger-s-cat-in-life-death-limbo-as-u-s-senate-returns",
-      "published_at": "Sun, 13 Sep 2026 12:00:00 +0000",
+      "title": "A bipartisan coalition of 17 state attorneys generals urge Senate to reject Clarity Act",
+      "url": "https://www.coindesk.com/policy/2026/09/14/bipartisan-group-of-state-attorneys-general-oppose-clarity-act-over-federal-preemption-worry",
+      "published_at": "Mon, 14 Sep 2026 15:57:01 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "OpenAI IPO won't happen this year, says Sam Altman",
-      "url": "https://www.coindesk.com/markets/2026/09/12/openai-ipo-won-t-happen-this-year-says-sam-altman",
-      "published_at": "Sat, 12 Sep 2026 21:09:31 +0000",
+      "title": "Clarity Act odds surge on prediction markets, but crypto bill still faces long road",
+      "url": "https://www.coindesk.com/policy/2026/09/14/clarity-act-odds-surge-on-prediction-markets-but-crypto-bill-still-faces-long-road",
+      "published_at": "Mon, 14 Sep 2026 15:10:29 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin Suisse plans to cut up to half its Swiss jobs as it shifts work abroad",
-      "url": "https://www.coindesk.com/business/2026/09/12/bitcoin-suisse-plans-to-cut-up-to-half-its-swiss-jobs-as-it-shifts-work-abroad",
-      "published_at": "Sat, 12 Sep 2026 21:09:06 +0000",
+      "title": "Consensus heads to Hong Kong for third year with expanded focus on AI",
+      "url": "https://www.coindesk.com/business/2026/09/14/consensus-heads-to-hong-kong-for-third-straight-year-with-expanded-focus-on-ai",
+      "published_at": "Mon, 14 Sep 2026 14:37:56 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Nigel Farage\u2019s Reform UK lands $97 million donations from two crypto billionaires in 24 hours",
-      "url": "https://www.coindesk.com/business/2026/09/12/nigel-farage-s-reform-uk-lands-usd97-million-donations-from-two-crypto-billionaires-in-24-hours",
-      "published_at": "Sat, 12 Sep 2026 18:51:04 +0000",
+      "title": "Don\u2019t let perfect be the enemy of Clarity",
+      "url": "https://www.coindesk.com/opinion/2026/09/14/don-t-let-perfect-be-the-enemy-of-clarity",
+      "published_at": "Mon, 14 Sep 2026 14:34:56 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Anthropic CEO calls for AI race to slow down citing safety. Musk and OpenAI's Altman agrees",
-      "url": "https://www.coindesk.com/tech/2026/09/12/anthropic-ceo-calls-for-ai-race-to-slow-down-musk-and-openai-s-altman-agrees",
-      "published_at": "Sat, 12 Sep 2026 18:43:33 +0000",
+      "title": "Here is the revised Clarity Act ethics provision Donald Trump has agreed to",
+      "url": "https://www.coindesk.com/policy/2026/09/14/here-is-the-revised-clarity-act-ethics-provision-donald-trump-has-agreed-to",
+      "published_at": "Mon, 14 Sep 2026 14:27:48 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Ripple stablecoin chief sees $13 trillion corporate treasury opportunity for RLUSD",
-      "url": "https://www.coindesk.com/business/2026/09/12/ripple-stablecoin-chief-sees-usd13-trillion-corporate-treasury-opportunity-for-rlusd",
-      "published_at": "Sat, 12 Sep 2026 16:00:00 +0000",
+      "title": "Kaiko extends Series B funding round to $110 million with S&P Global, BNP Paribas",
+      "url": "https://www.coindesk.com/business/2026/09/14/kaiko-extends-series-b-funding-round-to-usd110-million-with-s-and-p-global-bnp-paribas",
+      "published_at": "Mon, 14 Sep 2026 14:06:28 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Ditching bonds for bitcoin: How crypto can tackle the AI-heavy portfolio dilemma",
-      "url": "https://www.coindesk.com/business/2026/09/12/ditching-bonds-for-bitcoin-how-crypto-can-tackle-the-ai-heavy-portfolio-dilemma",
-      "published_at": "Sat, 12 Sep 2026 16:00:00 +0000",
+      "title": "Bitmine adds $68 million in ether as Tom Lee sees more upside catalysts ahead",
+      "url": "https://www.coindesk.com/business/2026/09/14/bitmine-adds-usd68-million-in-ether-as-tom-lee-sees-more-upside-catalysts-ahead",
+      "published_at": "Mon, 14 Sep 2026 12:58:42 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
