@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-14T19:52:41.581716+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-09-14 19:43 UTC_",
+  "generated_at": "2026-09-15T18:51:54.300030+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-09-15 18:42 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,13 +9,13 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 79094.0,
+        "current_usd": 75243.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": 0.0,
-        "change_30d_pct": 25.48
+        "change_7d_pct": -4.09,
+        "change_30d_pct": 19.73
       },
       "indicators": {
-        "trend": "UPTREND",
+        "trend": "DOWNTREND",
         "momentum": "STRONG",
         "volatility": "NORMAL"
       },
@@ -23,9 +23,9 @@
         "verdict": "Constructive long-term setup",
         "band": "fair",
         "summary_line": "Fair - Balanced growth profile - Lower regulatory risk.",
-        "score": 65.4
+        "score": 64.9
       },
-      "updated_at": "2026-09-14T19:52:41.579349+00:00",
+      "updated_at": "2026-09-15T18:51:54.298493+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,23 +37,23 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 2544.0,
+        "current_usd": 2373.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": 2.19,
-        "change_30d_pct": 35.25
+        "change_7d_pct": -4.51,
+        "change_30d_pct": 26.6
       },
       "indicators": {
-        "trend": "UPTREND",
-        "momentum": "WEAK",
+        "trend": "DOWNTREND",
+        "momentum": "STRONG",
         "volatility": "NORMAL"
       },
       "valuation": {
-        "verdict": "Constructive long-term setup",
-        "band": "fair",
-        "summary_line": "Fair - Strong growth profile - Lower regulatory risk.",
-        "score": 73.7
+        "verdict": "Undervalued / High-conviction zone",
+        "band": "undervalued",
+        "summary_line": "Undervalued - Strong growth profile - Lower regulatory risk.",
+        "score": 77.5
       },
-      "updated_at": "2026-09-14T19:52:41.580178+00:00",
+      "updated_at": "2026-09-15T18:51:54.299116+00:00",
       "source": {
         "short_term": "live"
       }
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-09-14T19:52:41.580474+00:00",
+      "updated_at": "2026-09-15T18:51:54.299344+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-09-14T19:52:41.580765+00:00",
+      "updated_at": "2026-09-15T18:51:54.299486+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-09-14T19:52:41.580995+00:00",
+      "updated_at": "2026-09-15T18:51:54.299615+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-09-14T19:52:41.581249+00:00",
+      "updated_at": "2026-09-15T18:51:54.299740+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -193,7 +193,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-09-14T19:52:41.581494+00:00",
+      "updated_at": "2026-09-15T18:51:54.299894+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -201,72 +201,72 @@
   ],
   "overview_news": [
     {
-      "title": "Trump's $800 million stake into World Liberty Financial's token now has a timeline to becoming sellable",
-      "url": "https://www.coindesk.com/business/2026/09/14/trump-s-usd800-million-stake-into-world-liberty-financial-s-token-now-has-a-timeline-to-becoming-sellable",
-      "published_at": "Mon, 14 Sep 2026 19:21:58 +0000",
+      "title": "Solana lender Kamino taps fintech veteran Michael Weisz as CEO for massive U.S. expansion",
+      "url": "https://www.coindesk.com/business/2026/09/15/solana-lender-kamino-taps-yieldstreet-co-founder-as-ceo-in-wall-street-expansion",
+      "published_at": "Tue, 15 Sep 2026 18:02:05 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "White House crypto adviser says Trump gave up 'historic' ethics powers in compromise",
-      "url": "https://www.coindesk.com/policy/2026/09/14/white-house-crypto-adviser-says-trump-gave-up-historic-ethics-powers-in-compromise",
-      "published_at": "Mon, 14 Sep 2026 18:34:09 +0000",
+      "title": "Crypto Clarity Act barrels toward disappointment barring last-minute Senate turnaround",
+      "url": "https://www.coindesk.com/policy/2026/09/15/crypto-clarity-act-barrels-toward-disappointment-barring-last-minute-senate-turnaround",
+      "published_at": "Tue, 15 Sep 2026 15:50:23 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Banks escalate stablecoin rewards fight as Senate prepares for a Clarity Act vote",
-      "url": "https://www.coindesk.com/policy/2026/09/14/banks-escalate-stablecoin-rewards-fight-as-senate-prepares-for-a-clarity-act-vote",
-      "published_at": "Mon, 14 Sep 2026 17:51:20 +0000",
+      "title": "European Central Bank calls for merchants to participate in digital euro pilot",
+      "url": "https://www.coindesk.com/policy/2026/09/15/european-central-bank-calls-for-merchants-to-participate-in-digital-euro-pilot",
+      "published_at": "Tue, 15 Sep 2026 14:15:06 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "A bipartisan coalition of 17 state attorneys generals urge Senate to reject Clarity Act",
-      "url": "https://www.coindesk.com/policy/2026/09/14/bipartisan-group-of-state-attorneys-general-oppose-clarity-act-over-federal-preemption-worry",
-      "published_at": "Mon, 14 Sep 2026 15:57:01 +0000",
+      "title": "Clarity Act's odds of passing plunge as Republicans reject Democrats' counter-proposal",
+      "url": "https://www.coindesk.com/policy/2026/09/15/clarity-act-s-odds-of-passing-plunge-as-republicans-reject-democrats-counter-proposal",
+      "published_at": "Tue, 15 Sep 2026 14:13:44 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Clarity Act odds surge on prediction markets, but crypto bill still faces long road",
-      "url": "https://www.coindesk.com/policy/2026/09/14/clarity-act-odds-surge-on-prediction-markets-but-crypto-bill-still-faces-long-road",
-      "published_at": "Mon, 14 Sep 2026 15:10:29 +0000",
+      "title": "A hacker turned 25 cents of bitcoin into 46 billion fake BTC tokens on a DeFi bridge",
+      "url": "https://www.coindesk.com/tech/2026/09/15/a-hacker-turned-25-cents-of-bitcoin-into-46-billion-fake-btc-tokens-on-a-defi-bridge",
+      "published_at": "Tue, 15 Sep 2026 13:43:50 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Consensus heads to Hong Kong for third year with expanded focus on AI",
-      "url": "https://www.coindesk.com/business/2026/09/14/consensus-heads-to-hong-kong-for-third-straight-year-with-expanded-focus-on-ai",
-      "published_at": "Mon, 14 Sep 2026 14:37:56 +0000",
+      "title": "Standard Chartered predicts Arbitrum's ARB to rise 70-fold to $10, citing Robinhood Chain revenue",
+      "url": "https://www.coindesk.com/markets/2026/09/15/standard-chartered-expects-arbitrum-s-arb-rising-70-fold-to-usd10-as-robinhood-boosts-its-revenue",
+      "published_at": "Tue, 15 Sep 2026 13:25:52 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Don\u2019t let perfect be the enemy of Clarity",
-      "url": "https://www.coindesk.com/opinion/2026/09/14/don-t-let-perfect-be-the-enemy-of-clarity",
-      "published_at": "Mon, 14 Sep 2026 14:34:56 +0000",
+      "title": "To ensure permanent economic innovation, we must pass the Clarity Act now",
+      "url": "https://www.coindesk.com/opinion/2026/09/15/to-ensure-permanent-economic-innovation-we-must-pass-the-clarity-act-now",
+      "published_at": "Tue, 15 Sep 2026 12:00:06 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Here is the revised Clarity Act ethics provision Donald Trump has agreed to",
-      "url": "https://www.coindesk.com/policy/2026/09/14/here-is-the-revised-clarity-act-ethics-provision-donald-trump-has-agreed-to",
-      "published_at": "Mon, 14 Sep 2026 14:27:48 +0000",
+      "title": "Ether, solana, XRP likely to gain if Clarity Act progresses",
+      "url": "https://www.coindesk.com/daybook-us/2026/09/15/ether-solana-xrp-likely-to-gain-if-clarity-act-progresses",
+      "published_at": "Tue, 15 Sep 2026 11:15:44 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Kaiko extends Series B funding round to $110 million with S&P Global, BNP Paribas",
-      "url": "https://www.coindesk.com/business/2026/09/14/kaiko-extends-series-b-funding-round-to-usd110-million-with-s-and-p-global-bnp-paribas",
-      "published_at": "Mon, 14 Sep 2026 14:06:28 +0000",
+      "title": "Why banks should stop worrying and learn to love the Clarity Act",
+      "url": "https://www.coindesk.com/opinion/2026/09/15/why-banks-should-stop-worrying-and-learn-to-love-the-clarity-act",
+      "published_at": "Tue, 15 Sep 2026 11:00:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bitmine adds $68 million in ether as Tom Lee sees more upside catalysts ahead",
-      "url": "https://www.coindesk.com/business/2026/09/14/bitmine-adds-usd68-million-in-ether-as-tom-lee-sees-more-upside-catalysts-ahead",
-      "published_at": "Mon, 14 Sep 2026 12:58:42 +0000",
+      "title": "Velocity extends Series A to $48M at $200M valuation with backing from Visa, Circle, and Ripple",
+      "url": "https://www.coindesk.com/business/2026/09/10/velocity-extends-series-a-to-usd48m-at-usd200m-valuation-with-backing-from-visa-circle-and-ripple",
+      "published_at": "Tue, 15 Sep 2026 11:00:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
