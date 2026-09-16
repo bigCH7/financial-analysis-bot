@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-15T18:51:54.300030+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-09-15 18:42 UTC_",
+  "generated_at": "2026-09-16T18:47:38.393178+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-09-16 18:39 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,23 +9,23 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 75243.0,
+        "current_usd": 76154.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": -4.09,
-        "change_30d_pct": 19.73
+        "change_7d_pct": -2.72,
+        "change_30d_pct": 18.08
       },
       "indicators": {
         "trend": "DOWNTREND",
-        "momentum": "STRONG",
+        "momentum": "WEAK",
         "volatility": "NORMAL"
       },
       "valuation": {
         "verdict": "Constructive long-term setup",
         "band": "fair",
         "summary_line": "Fair - Balanced growth profile - Lower regulatory risk.",
-        "score": 64.9
+        "score": 65.7
       },
-      "updated_at": "2026-09-15T18:51:54.298493+00:00",
+      "updated_at": "2026-09-16T18:47:38.391923+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,23 +37,23 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 2373.0,
+        "current_usd": 2416.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": -4.51,
-        "change_30d_pct": 26.6
+        "change_7d_pct": -2.08,
+        "change_30d_pct": 26.35
       },
       "indicators": {
         "trend": "DOWNTREND",
-        "momentum": "STRONG",
+        "momentum": "WEAK",
         "volatility": "NORMAL"
       },
       "valuation": {
         "verdict": "Undervalued / High-conviction zone",
         "band": "undervalued",
         "summary_line": "Undervalued - Strong growth profile - Lower regulatory risk.",
-        "score": 77.5
+        "score": 76.9
       },
-      "updated_at": "2026-09-15T18:51:54.299116+00:00",
+      "updated_at": "2026-09-16T18:47:38.392433+00:00",
       "source": {
         "short_term": "live"
       }
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-09-15T18:51:54.299344+00:00",
+      "updated_at": "2026-09-16T18:47:38.392601+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-09-15T18:51:54.299486+00:00",
+      "updated_at": "2026-09-16T18:47:38.392711+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-09-15T18:51:54.299615+00:00",
+      "updated_at": "2026-09-16T18:47:38.392859+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-09-15T18:51:54.299740+00:00",
+      "updated_at": "2026-09-16T18:47:38.392977+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -193,7 +193,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-09-15T18:51:54.299894+00:00",
+      "updated_at": "2026-09-16T18:47:38.393089+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -201,72 +201,72 @@
   ],
   "overview_news": [
     {
-      "title": "Solana lender Kamino taps fintech veteran Michael Weisz as CEO for massive U.S. expansion",
-      "url": "https://www.coindesk.com/business/2026/09/15/solana-lender-kamino-taps-yieldstreet-co-founder-as-ceo-in-wall-street-expansion",
-      "published_at": "Tue, 15 Sep 2026 18:02:05 +0000",
+      "title": "Fed raises rates by 25 basis points in first hike since July 2023",
+      "url": "https://www.coindesk.com/markets/2026/09/16/fed-raises-rates-by-25-basis-points-in-first-hike-since-july-2023",
+      "published_at": "Wed, 16 Sep 2026 17:54:55 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Crypto Clarity Act barrels toward disappointment barring last-minute Senate turnaround",
-      "url": "https://www.coindesk.com/policy/2026/09/15/crypto-clarity-act-barrels-toward-disappointment-barring-last-minute-senate-turnaround",
-      "published_at": "Tue, 15 Sep 2026 15:50:23 +0000",
+      "title": "Celsius sues BitMEX for $495 million over 2020 crash liquidations",
+      "url": "https://www.coindesk.com/business/2026/09/16/celsius-sues-bitmex-for-usd495-million-over-2020-crash-liquidations",
+      "published_at": "Wed, 16 Sep 2026 17:34:04 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "European Central Bank calls for merchants to participate in digital euro pilot",
-      "url": "https://www.coindesk.com/policy/2026/09/15/european-central-bank-calls-for-merchants-to-participate-in-digital-euro-pilot",
-      "published_at": "Tue, 15 Sep 2026 14:15:06 +0000",
+      "title": "U.S. House's tax committee advances crypto tax bill in wake of Clarity Act loss",
+      "url": "https://www.coindesk.com/policy/2026/09/16/u-s-house-s-tax-committee-advances-crypto-tax-bill-in-wake-of-clarity-act-loss",
+      "published_at": "Wed, 16 Sep 2026 16:21:44 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Clarity Act's odds of passing plunge as Republicans reject Democrats' counter-proposal",
-      "url": "https://www.coindesk.com/policy/2026/09/15/clarity-act-s-odds-of-passing-plunge-as-republicans-reject-democrats-counter-proposal",
-      "published_at": "Tue, 15 Sep 2026 14:13:44 +0000",
+      "title": "Hamas\u2019 military wing told donors to avoid Binance. Use Bybit, OKX and others instead",
+      "url": "https://www.coindesk.com/policy/2026/09/16/hamas-military-wing-told-donors-to-avoid-binance-use-bybit-okx-and-others-instead",
+      "published_at": "Wed, 16 Sep 2026 15:25:41 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "A hacker turned 25 cents of bitcoin into 46 billion fake BTC tokens on a DeFi bridge",
-      "url": "https://www.coindesk.com/tech/2026/09/15/a-hacker-turned-25-cents-of-bitcoin-into-46-billion-fake-btc-tokens-on-a-defi-bridge",
-      "published_at": "Tue, 15 Sep 2026 13:43:50 +0000",
+      "title": "Crypto Long & Short: Six signs a crypto winter is ending",
+      "url": "https://www.coindesk.com/coindesk-indices/2026/09/15/crypto-long-and-short-six-signs-a-crypto-winter-is-ending",
+      "published_at": "Wed, 16 Sep 2026 14:59:34 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Standard Chartered predicts Arbitrum's ARB to rise 70-fold to $10, citing Robinhood Chain revenue",
-      "url": "https://www.coindesk.com/markets/2026/09/15/standard-chartered-expects-arbitrum-s-arb-rising-70-fold-to-usd10-as-robinhood-boosts-its-revenue",
-      "published_at": "Tue, 15 Sep 2026 13:25:52 +0000",
+      "title": "Payward plans to offer U.S. clients onchain perpetual futures on Hyperliquid",
+      "url": "https://www.coindesk.com/markets/2026/09/16/payward-plans-to-offer-u-s-clients-onchain-perpetual-futures-on-hyperliquid",
+      "published_at": "Wed, 16 Sep 2026 14:35:43 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "To ensure permanent economic innovation, we must pass the Clarity Act now",
-      "url": "https://www.coindesk.com/opinion/2026/09/15/to-ensure-permanent-economic-innovation-we-must-pass-the-clarity-act-now",
-      "published_at": "Tue, 15 Sep 2026 12:00:06 +0000",
+      "title": "Blockchain finance platform Theo launches tokenized silver backed by $40 million in active leases",
+      "url": "https://www.coindesk.com/business/2026/09/16/blockchain-finance-platform-theo-launches-tokenized-silver-backed-by-usd40-million-in-active-leases",
+      "published_at": "Wed, 16 Sep 2026 14:00:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Ether, solana, XRP likely to gain if Clarity Act progresses",
-      "url": "https://www.coindesk.com/daybook-us/2026/09/15/ether-solana-xrp-likely-to-gain-if-clarity-act-progresses",
-      "published_at": "Tue, 15 Sep 2026 11:15:44 +0000",
+      "title": "A LatAm telecom operator is putting part of its finances on Avalanche",
+      "url": "https://www.coindesk.com/business/2026/09/15/a-latam-telecom-operator-is-putting-part-of-its-finances-on-avalanche",
+      "published_at": "Wed, 16 Sep 2026 14:00:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Why banks should stop worrying and learn to love the Clarity Act",
-      "url": "https://www.coindesk.com/opinion/2026/09/15/why-banks-should-stop-worrying-and-learn-to-love-the-clarity-act",
-      "published_at": "Tue, 15 Sep 2026 11:00:00 +0000",
+      "title": "A stolen coin can be returned. A leaked identity cannot.",
+      "url": "https://www.coindesk.com/opinion/2026/09/16/a-stolen-coin-can-be-returned-a-leaked-identity-cannot",
+      "published_at": "Wed, 16 Sep 2026 13:00:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Velocity extends Series A to $48M at $200M valuation with backing from Visa, Circle, and Ripple",
-      "url": "https://www.coindesk.com/business/2026/09/10/velocity-extends-series-a-to-usd48m-at-usd200m-valuation-with-backing-from-visa-circle-and-ripple",
-      "published_at": "Tue, 15 Sep 2026 11:00:00 +0000",
+      "title": "Bitcoin Core 32 enters final testing with faster validation, fee changes and security fixes",
+      "url": "https://www.coindesk.com/tech/2026/09/16/bitcoin-core-32-enters-final-testing-with-faster-validation-fee-changes-and-security-fixes",
+      "published_at": "Wed, 16 Sep 2026 12:00:41 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
