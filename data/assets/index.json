@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-16T18:47:38.393178+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-09-16 18:39 UTC_",
+  "generated_at": "2026-09-17T18:58:03.344834+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-09-17 18:48 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,10 +9,10 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 76154.0,
+        "current_usd": 76552.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": -2.72,
-        "change_30d_pct": 18.08
+        "change_7d_pct": -0.0,
+        "change_30d_pct": 18.34
       },
       "indicators": {
         "trend": "DOWNTREND",
@@ -23,9 +23,9 @@
         "verdict": "Constructive long-term setup",
         "band": "fair",
         "summary_line": "Fair - Balanced growth profile - Lower regulatory risk.",
-        "score": 65.7
+        "score": 64.1
       },
-      "updated_at": "2026-09-16T18:47:38.391923+00:00",
+      "updated_at": "2026-09-17T18:58:03.342698+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,23 +37,23 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 2416.0,
+        "current_usd": 2453.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": -2.08,
-        "change_30d_pct": 26.35
+        "change_7d_pct": 0.63,
+        "change_30d_pct": 28.0
       },
       "indicators": {
-        "trend": "DOWNTREND",
-        "momentum": "WEAK",
+        "trend": "UPTREND",
+        "momentum": "STRONG",
         "volatility": "NORMAL"
       },
       "valuation": {
-        "verdict": "Undervalued / High-conviction zone",
-        "band": "undervalued",
-        "summary_line": "Undervalued - Strong growth profile - Lower regulatory risk.",
-        "score": 76.9
+        "verdict": "Constructive long-term setup",
+        "band": "fair",
+        "summary_line": "Fair - Strong growth profile - Lower regulatory risk.",
+        "score": 73.8
       },
-      "updated_at": "2026-09-16T18:47:38.392433+00:00",
+      "updated_at": "2026-09-17T18:58:03.343457+00:00",
       "source": {
         "short_term": "live"
       }
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-09-16T18:47:38.392601+00:00",
+      "updated_at": "2026-09-17T18:58:03.343734+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-09-16T18:47:38.392711+00:00",
+      "updated_at": "2026-09-17T18:58:03.343950+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-09-16T18:47:38.392859+00:00",
+      "updated_at": "2026-09-17T18:58:03.344168+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-09-16T18:47:38.392977+00:00",
+      "updated_at": "2026-09-17T18:58:03.344401+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -193,7 +193,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-09-16T18:47:38.393089+00:00",
+      "updated_at": "2026-09-17T18:58:03.344626+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -201,72 +201,72 @@
   ],
   "overview_news": [
     {
-      "title": "Fed raises rates by 25 basis points in first hike since July 2023",
-      "url": "https://www.coindesk.com/markets/2026/09/16/fed-raises-rates-by-25-basis-points-in-first-hike-since-july-2023",
-      "published_at": "Wed, 16 Sep 2026 17:54:55 +0000",
+      "title": "Kevin O\u2019Leary says Congress will revisit CLARITY early next year as crypto tax bill advances",
+      "url": "https://www.coindesk.com/policy/2026/09/17/kevin-o-leary-says-congress-will-revisit-clarity-by-second-quarter-as-crypto-tax-bill-advances",
+      "published_at": "Thu, 17 Sep 2026 18:40:38 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Celsius sues BitMEX for $495 million over 2020 crash liquidations",
-      "url": "https://www.coindesk.com/business/2026/09/16/celsius-sues-bitmex-for-usd495-million-over-2020-crash-liquidations",
-      "published_at": "Wed, 16 Sep 2026 17:34:04 +0000",
+      "title": "SEC opens door to tokenized U.S. stock trading. Here\u2019s who could benefit",
+      "url": "https://www.coindesk.com/business/2026/09/17/sec-opens-door-to-tokenized-u-s-stock-trading-here-s-who-could-benefit",
+      "published_at": "Thu, 17 Sep 2026 18:38:10 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "U.S. House's tax committee advances crypto tax bill in wake of Clarity Act loss",
-      "url": "https://www.coindesk.com/policy/2026/09/16/u-s-house-s-tax-committee-advances-crypto-tax-bill-in-wake-of-clarity-act-loss",
-      "published_at": "Wed, 16 Sep 2026 16:21:44 +0000",
+      "title": "UK signals end of 'light-touch' era with multi-agency raid on peer-to-peer crypto hubs",
+      "url": "https://www.coindesk.com/policy/2026/09/17/uk-signals-end-of-light-touch-era-with-multi-agency-raid-on-peer-to-peer-crypto-hubs",
+      "published_at": "Thu, 17 Sep 2026 15:08:24 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Hamas\u2019 military wing told donors to avoid Binance. Use Bybit, OKX and others instead",
-      "url": "https://www.coindesk.com/policy/2026/09/16/hamas-military-wing-told-donors-to-avoid-binance-use-bybit-okx-and-others-instead",
-      "published_at": "Wed, 16 Sep 2026 15:25:41 +0000",
+      "title": "U.S. SEC begins prepping for around-the-clock trading that crypto treats as the norm",
+      "url": "https://www.coindesk.com/policy/2026/09/17/u-s-sec-begins-prepping-for-round-the-clock-trading-that-crypto-treats-as-the-norm",
+      "published_at": "Thu, 17 Sep 2026 15:03:19 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Crypto Long & Short: Six signs a crypto winter is ending",
-      "url": "https://www.coindesk.com/coindesk-indices/2026/09/15/crypto-long-and-short-six-signs-a-crypto-winter-is-ending",
-      "published_at": "Wed, 16 Sep 2026 14:59:34 +0000",
+      "title": "Crypto for Advisors: Beyond bitcoin and ether",
+      "url": "https://www.coindesk.com/coindesk-indices/2026/09/17/crypto-for-advisors-beyond-bitcoin-and-ether",
+      "published_at": "Thu, 17 Sep 2026 14:57:11 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Payward plans to offer U.S. clients onchain perpetual futures on Hyperliquid",
-      "url": "https://www.coindesk.com/markets/2026/09/16/payward-plans-to-offer-u-s-clients-onchain-perpetual-futures-on-hyperliquid",
-      "published_at": "Wed, 16 Sep 2026 14:35:43 +0000",
+      "title": "Clarity Act failure may hamper U.S. crypto as industry seeks legal clarity elsewhere",
+      "url": "https://www.coindesk.com/policy/2026/09/17/crypto-industry-leaders-debate-who-the-winners-and-losers-of-the-clarity-act-vote-failure-are",
+      "published_at": "Thu, 17 Sep 2026 14:50:58 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Blockchain finance platform Theo launches tokenized silver backed by $40 million in active leases",
-      "url": "https://www.coindesk.com/business/2026/09/16/blockchain-finance-platform-theo-launches-tokenized-silver-backed-by-usd40-million-in-active-leases",
-      "published_at": "Wed, 16 Sep 2026 14:00:00 +0000",
+      "title": "Ratings giant S&P Global acquires OpenZeppelin in tokenized finance risk push",
+      "url": "https://www.coindesk.com/business/2026/09/17/ratings-giant-s-and-p-global-acquires-openzeppelin-in-tokenized-finance-risk-push",
+      "published_at": "Thu, 17 Sep 2026 13:15:21 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "A LatAm telecom operator is putting part of its finances on Avalanche",
-      "url": "https://www.coindesk.com/business/2026/09/15/a-latam-telecom-operator-is-putting-part-of-its-finances-on-avalanche",
-      "published_at": "Wed, 16 Sep 2026 14:00:00 +0000",
+      "title": "SEC rolls out long-awaited 'innovation exemption' for tokenized securities venues",
+      "url": "https://www.coindesk.com/policy/2026/09/17/sec-rolls-out-long-awaited-innovation-exemption-for-tokenized-securities-venues",
+      "published_at": "Thu, 17 Sep 2026 13:00:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "A stolen coin can be returned. A leaked identity cannot.",
-      "url": "https://www.coindesk.com/opinion/2026/09/16/a-stolen-coin-can-be-returned-a-leaked-identity-cannot",
-      "published_at": "Wed, 16 Sep 2026 13:00:00 +0000",
+      "title": "Ethereum\u2019s upcoming Glamsterdam upgrade clears rehearsal for a big jump in capacity",
+      "url": "https://www.coindesk.com/tech/2026/09/17/ethereum-s-upcoming-glamsterdam-upgrade-clears-rehearsal-for-a-big-jump-in-capacity",
+      "published_at": "Thu, 17 Sep 2026 12:37:21 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin Core 32 enters final testing with faster validation, fee changes and security fixes",
-      "url": "https://www.coindesk.com/tech/2026/09/16/bitcoin-core-32-enters-final-testing-with-faster-validation-fee-changes-and-security-fixes",
-      "published_at": "Wed, 16 Sep 2026 12:00:41 +0000",
+      "title": "Zcash miner Fortitude names former Hut 8 chief Jaime Leverton CEO ahead of Nasdaq deal",
+      "url": "https://www.coindesk.com/business/2026/09/17/zcash-miner-fortitude-names-former-hut-8-chief-jaime-leverton-ceo-ahead-of-nasdaq-deal",
+      "published_at": "Thu, 17 Sep 2026 12:00:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
