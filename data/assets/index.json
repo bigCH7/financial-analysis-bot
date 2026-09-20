@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-19T17:56:44.782551+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-09-19 17:47 UTC_",
+  "generated_at": "2026-09-20T18:07:23.549318+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-09-20 17:58 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,10 +9,10 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 81452.0,
+        "current_usd": 81090.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": 5.42,
-        "change_30d_pct": 11.55
+        "change_7d_pct": 5.56,
+        "change_30d_pct": 3.54
       },
       "indicators": {
         "trend": "UPTREND",
@@ -22,10 +22,10 @@
       "valuation": {
         "verdict": "Constructive long-term setup",
         "band": "fair",
-        "summary_line": "Fair - Balanced growth profile - Lower regulatory risk.",
-        "score": 65.7
+        "summary_line": "Fair - Weak growth profile - Lower regulatory risk.",
+        "score": 63.1
       },
-      "updated_at": "2026-09-19T17:56:44.780761+00:00",
+      "updated_at": "2026-09-20T18:07:23.547149+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,10 +37,10 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 2645.0,
+        "current_usd": 2626.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": 4.75,
-        "change_30d_pct": 13.7
+        "change_7d_pct": 6.03,
+        "change_30d_pct": 4.41
       },
       "indicators": {
         "trend": "UPTREND",
@@ -51,9 +51,9 @@
         "verdict": "Constructive long-term setup",
         "band": "fair",
         "summary_line": "Fair - Strong growth profile - Lower regulatory risk.",
-        "score": 74.5
+        "score": 70.1
       },
-      "updated_at": "2026-09-19T17:56:44.781472+00:00",
+      "updated_at": "2026-09-20T18:07:23.547913+00:00",
       "source": {
         "short_term": "live"
       }
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-09-19T17:56:44.781813+00:00",
+      "updated_at": "2026-09-20T18:07:23.548240+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-09-19T17:56:44.781978+00:00",
+      "updated_at": "2026-09-20T18:07:23.548460+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-09-19T17:56:44.782128+00:00",
+      "updated_at": "2026-09-20T18:07:23.548688+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-09-19T17:56:44.782271+00:00",
+      "updated_at": "2026-09-20T18:07:23.548886+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -193,13 +193,34 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-09-19T17:56:44.782418+00:00",
+      "updated_at": "2026-09-20T18:07:23.549100+00:00",
       "source": {
         "short_term": "unavailable"
       }
     }
   ],
   "overview_news": [
+    {
+      "title": "Crypto platform Gemini\u2019s stock is down 80% from its IPO. That\u2019s reviving takeover speculation",
+      "url": "https://www.coindesk.com/business/2026/09/20/gemini-s-stock-is-down-80-from-its-ipo-that-s-reviving-takeover-speculation",
+      "published_at": "Sun, 20 Sep 2026 14:54:48 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Coinbase, Robinhood, Circle could be early winners of SEC's tokenized-stock push, analysts say",
+      "url": "https://www.coindesk.com/business/2026/09/20/coinbase-robinhood-circle-could-be-early-winners-of-sec-s-tokenized-stock-push-analysts-say",
+      "published_at": "Sun, 20 Sep 2026 12:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Crypto traders braced for a total wipeout this week but Bitcoin had other plans",
+      "url": "https://www.coindesk.com/markets/2026/09/18/crypto-traders-braced-for-a-total-wipeout-this-week-but-bitcoin-had-other-plans",
+      "published_at": "Sun, 20 Sep 2026 12:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
     {
       "title": "Clarity Act, we hardly knew ye: We look at what was in the bill and what's replacing it",
       "url": "https://www.coindesk.com/news-analysis/2026/09/18/clarity-act-we-hardly-knew-ye-we-look-at-what-was-in-the-bill-and-what-s-replacing-it",
@@ -246,27 +267,6 @@
       "title": "CFTC sends crypto rules to White House to review as Congress stalls on Clarity Act",
       "url": "https://www.coindesk.com/policy/2026/09/18/cftc-sends-crypto-rules-to-white-house-to-review-as-congress-stalls-on-clarity-act",
       "published_at": "Fri, 18 Sep 2026 15:16:37 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Crypto tech provider Haruko hit by cyberattack affecting 15 clients, some funds lost",
-      "url": "https://www.coindesk.com/business/2026/09/18/crypto-tech-provider-haruko-hit-by-cyberattack-affecting-15-clients-some-funds-lost",
-      "published_at": "Fri, 18 Sep 2026 15:06:31 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "DHS\u2019s predictive policing is unconstitutional, un-American and should be stopped",
-      "url": "https://www.coindesk.com/opinion/2026/09/18/dhs-s-predictive-policing-is-unconstitutional-un-american-and-should-be-stopped",
-      "published_at": "Fri, 18 Sep 2026 13:00:00 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "ECB President Christine Lagarde intervened to block Binance\u2019s EU MiCA license: WSJ",
-      "url": "https://www.coindesk.com/policy/2026/09/18/ecb-president-christine-lagarde-intervened-to-block-binance-s-eu-mica-license-wsj",
-      "published_at": "Fri, 18 Sep 2026 12:57:06 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
