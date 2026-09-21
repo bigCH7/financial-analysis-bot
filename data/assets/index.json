@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-20T18:07:23.549318+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-09-20 17:58 UTC_",
+  "generated_at": "2026-09-21T20:01:02.859904+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-09-21 19:52 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,23 +9,23 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 81090.0,
+        "current_usd": 86608.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": 5.56,
-        "change_30d_pct": 3.54
+        "change_7d_pct": 10.79,
+        "change_30d_pct": 12.36
       },
       "indicators": {
         "trend": "UPTREND",
-        "momentum": "WEAK",
+        "momentum": "STRONG",
         "volatility": "NORMAL"
       },
       "valuation": {
         "verdict": "Constructive long-term setup",
         "band": "fair",
-        "summary_line": "Fair - Weak growth profile - Lower regulatory risk.",
-        "score": 63.1
+        "summary_line": "Fair - Balanced growth profile - Lower regulatory risk.",
+        "score": 71.8
       },
-      "updated_at": "2026-09-20T18:07:23.547149+00:00",
+      "updated_at": "2026-09-21T20:01:02.857667+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,23 +37,23 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 2626.0,
+        "current_usd": 2762.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": 6.03,
-        "change_30d_pct": 4.41
+        "change_7d_pct": 9.83,
+        "change_30d_pct": 13.97
       },
       "indicators": {
         "trend": "UPTREND",
-        "momentum": "WEAK",
+        "momentum": "STRONG",
         "volatility": "NORMAL"
       },
       "valuation": {
-        "verdict": "Constructive long-term setup",
-        "band": "fair",
-        "summary_line": "Fair - Strong growth profile - Lower regulatory risk.",
-        "score": 70.1
+        "verdict": "Undervalued / High-conviction zone",
+        "band": "undervalued",
+        "summary_line": "Undervalued - Strong growth profile - Lower regulatory risk.",
+        "score": 82.1
       },
-      "updated_at": "2026-09-20T18:07:23.547913+00:00",
+      "updated_at": "2026-09-21T20:01:02.858529+00:00",
       "source": {
         "short_term": "live"
       }
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-09-20T18:07:23.548240+00:00",
+      "updated_at": "2026-09-21T20:01:02.858840+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-09-20T18:07:23.548460+00:00",
+      "updated_at": "2026-09-21T20:01:02.859060+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-09-20T18:07:23.548688+00:00",
+      "updated_at": "2026-09-21T20:01:02.859276+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-09-20T18:07:23.548886+00:00",
+      "updated_at": "2026-09-21T20:01:02.859478+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -193,7 +193,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-09-20T18:07:23.549100+00:00",
+      "updated_at": "2026-09-21T20:01:02.859679+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -201,72 +201,72 @@
   ],
   "overview_news": [
     {
-      "title": "Crypto platform Gemini\u2019s stock is down 80% from its IPO. That\u2019s reviving takeover speculation",
-      "url": "https://www.coindesk.com/business/2026/09/20/gemini-s-stock-is-down-80-from-its-ipo-that-s-reviving-takeover-speculation",
-      "published_at": "Sun, 20 Sep 2026 14:54:48 +0000",
+      "title": "Why this investment bank expects little demand for tokenized stocks despite SEC\u2019s new trading rules",
+      "url": "https://www.coindesk.com/markets/2026/09/21/why-this-investment-bank-sees-little-demand-for-tokenized-stocks-despite-sec-s-new-trading-rules",
+      "published_at": "Mon, 21 Sep 2026 19:08:40 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Coinbase, Robinhood, Circle could be early winners of SEC's tokenized-stock push, analysts say",
-      "url": "https://www.coindesk.com/business/2026/09/20/coinbase-robinhood-circle-could-be-early-winners-of-sec-s-tokenized-stock-push-analysts-say",
-      "published_at": "Sun, 20 Sep 2026 12:00:00 +0000",
+      "title": "Crypto political group plans to spend $30 million against Sherrod Brown's Senate bid",
+      "url": "https://www.coindesk.com/news-analysis/2026/09/21/crypto-s-fairshake-repeats-history-with-usd30-million-to-oppose-sherrod-brown-senate-bid",
+      "published_at": "Mon, 21 Sep 2026 16:01:36 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Crypto traders braced for a total wipeout this week but Bitcoin had other plans",
-      "url": "https://www.coindesk.com/markets/2026/09/18/crypto-traders-braced-for-a-total-wipeout-this-week-but-bitcoin-had-other-plans",
-      "published_at": "Sun, 20 Sep 2026 12:00:00 +0000",
+      "title": "ECB plans to buy tokenized bonds with its own funds",
+      "url": "https://www.coindesk.com/policy/2026/09/21/ecb-announces-it-will-invest-in-tokenized-securities-via-new-pontes-platform",
+      "published_at": "Mon, 21 Sep 2026 15:00:47 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Clarity Act, we hardly knew ye: We look at what was in the bill and what's replacing it",
-      "url": "https://www.coindesk.com/news-analysis/2026/09/18/clarity-act-we-hardly-knew-ye-we-look-at-what-was-in-the-bill-and-what-s-replacing-it",
-      "published_at": "Sat, 19 Sep 2026 16:00:00 +0000",
+      "title": "Why banks and offshore hubs like Dubai are winners of the Senate killing the Clarity Act",
+      "url": "https://www.coindesk.com/policy/2026/09/21/banks-overseas-crypto-hubs-gain-from-clarity-act-s-senate-defeat-critics-say",
+      "published_at": "Mon, 21 Sep 2026 14:53:52 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "'We have lost control': Crypto pioneer warns AI could trigger systemic banking and infrastructure shocks",
-      "url": "https://www.coindesk.com/markets/2026/09/17/we-have-lost-control-crypto-pioneer-warns-ai-could-trigger-systemic-banking-and-infrastructure-shocks",
-      "published_at": "Sat, 19 Sep 2026 14:00:00 +0000",
+      "title": "Bitmine bought $75 million ether as Tom Lee says institutions are still underweight crypto",
+      "url": "https://www.coindesk.com/business/2026/09/21/bitmine-bought-usd75-million-ether-as-tom-lee-says-institutions-are-still-underweight-crypto",
+      "published_at": "Mon, 21 Sep 2026 13:11:15 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Ripple says asset managers are preparing for XRP Ledger\u2019s next payments upgrade",
-      "url": "https://www.coindesk.com/tech/2026/09/19/ripple-says-asset-managers-are-preparing-for-xrp-ledger-s-next-payments-upgrade",
-      "published_at": "Sat, 19 Sep 2026 13:39:15 +0000",
+      "title": "Treasury Secretary Scott Bessent champions dollar dominance across global markets and stablecoins",
+      "url": "https://www.coindesk.com/markets/2026/09/21/scott-bessent-champions-dollar-dominance-across-global-markets-and-stablecoins",
+      "published_at": "Mon, 21 Sep 2026 12:44:33 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "'The orange tie stays': Michael Saylor responds to venture capitalist's bitcoin obituary",
-      "url": "https://www.coindesk.com/markets/2026/09/19/the-orange-tie-stays-michael-saylor-responds-to-venture-capitalist-s-bitcoin-obituary",
-      "published_at": "Sat, 19 Sep 2026 12:13:57 +0000",
+      "title": "Google and Apple seek crypto talent as Big Tech eyes stablecoin and tokenization rails",
+      "url": "https://www.coindesk.com/business/2026/09/21/google-and-apple-seek-crypto-talent-as-big-tech-eyes-stablecoin-and-tokenization-rails",
+      "published_at": "Mon, 21 Sep 2026 12:17:48 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Robinhood Chain fees collapse 97% even as transactions stay near record highs",
-      "url": "https://www.coindesk.com/business/2026/09/19/robinhood-chain-fees-collapse-97-even-as-transactions-stay-near-record-highs",
-      "published_at": "Sat, 19 Sep 2026 12:00:00 +0000",
+      "title": "Strategy returns to bitcoin buys, adding $75 million of BTC last week",
+      "url": "https://www.coindesk.com/markets/2026/09/21/strategy-returns-to-bitcoin-buys-adding-usd75-million-of-btc-last-week",
+      "published_at": "Mon, 21 Sep 2026 12:08:02 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Why Wall Street giants build tokenization money for institutions, not regular consumers",
-      "url": "https://www.coindesk.com/business/2026/09/15/why-wall-street-giants-build-tokenization-money-for-institutions-not-regular-consumers",
-      "published_at": "Sat, 19 Sep 2026 12:00:00 +0000",
+      "title": "Bitcoin's 44% gain in third quarter teases full-blown crypto bull run",
+      "url": "https://www.coindesk.com/daybook-us/2026/09/21/bitcoin-s-44-gain-in-third-quarter-teases-full-blown-crypto-bull-run",
+      "published_at": "Mon, 21 Sep 2026 11:36:11 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "CFTC sends crypto rules to White House to review as Congress stalls on Clarity Act",
-      "url": "https://www.coindesk.com/policy/2026/09/18/cftc-sends-crypto-rules-to-white-house-to-review-as-congress-stalls-on-clarity-act",
-      "published_at": "Fri, 18 Sep 2026 15:16:37 +0000",
+      "title": "Perp futures linked to 'bitcoin VIX' debut on Hyperliquid",
+      "url": "https://www.coindesk.com/markets/2026/09/21/perp-futures-linked-to-bitcoin-vix-debut-on-hyperliquid",
+      "published_at": "Mon, 21 Sep 2026 11:30:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
