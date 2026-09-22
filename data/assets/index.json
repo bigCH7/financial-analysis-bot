@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-21T20:01:02.859904+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-09-21 19:52 UTC_",
+  "generated_at": "2026-09-22T18:39:58.176474+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-09-22 18:30 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,23 +9,23 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 86608.0,
+        "current_usd": 86315.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": 10.79,
-        "change_30d_pct": 12.36
+        "change_7d_pct": 14.19,
+        "change_30d_pct": 11.07
       },
       "indicators": {
         "trend": "UPTREND",
-        "momentum": "STRONG",
+        "momentum": "WEAK",
         "volatility": "NORMAL"
       },
       "valuation": {
         "verdict": "Constructive long-term setup",
         "band": "fair",
         "summary_line": "Fair - Balanced growth profile - Lower regulatory risk.",
-        "score": 71.8
+        "score": 70.3
       },
-      "updated_at": "2026-09-21T20:01:02.857667+00:00",
+      "updated_at": "2026-09-22T18:39:58.174342+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,23 +37,23 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 2762.0,
+        "current_usd": 2748.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": 9.83,
-        "change_30d_pct": 13.97
+        "change_7d_pct": 14.62,
+        "change_30d_pct": 11.6
       },
       "indicators": {
         "trend": "UPTREND",
-        "momentum": "STRONG",
+        "momentum": "WEAK",
         "volatility": "NORMAL"
       },
       "valuation": {
         "verdict": "Undervalued / High-conviction zone",
         "band": "undervalued",
         "summary_line": "Undervalued - Strong growth profile - Lower regulatory risk.",
-        "score": 82.1
+        "score": 76.0
       },
-      "updated_at": "2026-09-21T20:01:02.858529+00:00",
+      "updated_at": "2026-09-22T18:39:58.175190+00:00",
       "source": {
         "short_term": "live"
       }
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-09-21T20:01:02.858840+00:00",
+      "updated_at": "2026-09-22T18:39:58.175513+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-09-21T20:01:02.859060+00:00",
+      "updated_at": "2026-09-22T18:39:58.175765+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-09-21T20:01:02.859276+00:00",
+      "updated_at": "2026-09-22T18:39:58.175992+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-09-21T20:01:02.859478+00:00",
+      "updated_at": "2026-09-22T18:39:58.176185+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -193,7 +193,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-09-21T20:01:02.859679+00:00",
+      "updated_at": "2026-09-22T18:39:58.176335+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -201,72 +201,72 @@
   ],
   "overview_news": [
     {
-      "title": "Why this investment bank expects little demand for tokenized stocks despite SEC\u2019s new trading rules",
-      "url": "https://www.coindesk.com/markets/2026/09/21/why-this-investment-bank-sees-little-demand-for-tokenized-stocks-despite-sec-s-new-trading-rules",
-      "published_at": "Mon, 21 Sep 2026 19:08:40 +0000",
+      "title": "Canada's 'Big Six' banks to launch interbank tokenized deposit initiative",
+      "url": "https://www.coindesk.com/business/2026/09/22/canada-s-big-six-banks-unite-to-launch-interbank-tokenized-deposit-initiative",
+      "published_at": "Tue, 22 Sep 2026 17:34:03 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Crypto political group plans to spend $30 million against Sherrod Brown's Senate bid",
-      "url": "https://www.coindesk.com/news-analysis/2026/09/21/crypto-s-fairshake-repeats-history-with-usd30-million-to-oppose-sherrod-brown-senate-bid",
-      "published_at": "Mon, 21 Sep 2026 16:01:36 +0000",
+      "title": "Next for the U.S. SEC: Agency's chief crypto counsel illuminates path for custody",
+      "url": "https://www.coindesk.com/policy/2026/09/22/next-for-the-u-s-sec-agency-s-chief-crypto-counsel-illuminates-path-for-custody",
+      "published_at": "Tue, 22 Sep 2026 15:21:28 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "ECB plans to buy tokenized bonds with its own funds",
-      "url": "https://www.coindesk.com/policy/2026/09/21/ecb-announces-it-will-invest-in-tokenized-securities-via-new-pontes-platform",
-      "published_at": "Mon, 21 Sep 2026 15:00:47 +0000",
+      "title": "European central banks push to expand stablecoin yield ban to crypto lending and staking",
+      "url": "https://www.coindesk.com/policy/2026/09/22/european-central-banks-push-to-expand-stablecoin-yield-ban-to-crypto-lending-and-staking",
+      "published_at": "Tue, 22 Sep 2026 14:32:59 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Why banks and offshore hubs like Dubai are winners of the Senate killing the Clarity Act",
-      "url": "https://www.coindesk.com/policy/2026/09/21/banks-overseas-crypto-hubs-gain-from-clarity-act-s-senate-defeat-critics-say",
-      "published_at": "Mon, 21 Sep 2026 14:53:52 +0000",
+      "title": "Bitcoin, ether perpetual volumes on Kalshi are dominated by an unusual, repetitive trade, data shows",
+      "url": "https://www.coindesk.com/markets/2026/09/21/bitcoin-ether-perpetual-volumes-on-kalshi-are-dominated-by-an-unusual-repetitive-trade-data-shows",
+      "published_at": "Tue, 22 Sep 2026 12:32:15 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bitmine bought $75 million ether as Tom Lee says institutions are still underweight crypto",
-      "url": "https://www.coindesk.com/business/2026/09/21/bitmine-bought-usd75-million-ether-as-tom-lee-says-institutions-are-still-underweight-crypto",
-      "published_at": "Mon, 21 Sep 2026 13:11:15 +0000",
+      "title": "Why Payward-backed Reap is betting on non-USD stablecoins for 24/7 cross-border FX settlement",
+      "url": "https://www.coindesk.com/business/2026/09/22/visa-partner-reap-eyes-local-currency-stablecoins-in-several-countries-for-24-7-onchain-fx",
+      "published_at": "Tue, 22 Sep 2026 12:05:55 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Treasury Secretary Scott Bessent champions dollar dominance across global markets and stablecoins",
-      "url": "https://www.coindesk.com/markets/2026/09/21/scott-bessent-champions-dollar-dominance-across-global-markets-and-stablecoins",
-      "published_at": "Mon, 21 Sep 2026 12:44:33 +0000",
+      "title": "A $3.2 million 'bitcoin butterfly' option trade bets on $95,000 by the end of October",
+      "url": "https://www.coindesk.com/daybook-us/2026/09/22/a-usd3-2-million-bitcoin-butterfly-option-trade-bets-on-usd95-000-by-the-end-of-october",
+      "published_at": "Tue, 22 Sep 2026 11:35:43 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Google and Apple seek crypto talent as Big Tech eyes stablecoin and tokenization rails",
-      "url": "https://www.coindesk.com/business/2026/09/21/google-and-apple-seek-crypto-talent-as-big-tech-eyes-stablecoin-and-tokenization-rails",
-      "published_at": "Mon, 21 Sep 2026 12:17:48 +0000",
+      "title": "Binance buys $100 million Circle stake in five-year USDC promotion deal",
+      "url": "https://www.coindesk.com/policy/2026/09/22/binance-buys-usd100-million-circle-stake-in-five-year-usdc-promotion-deal",
+      "published_at": "Tue, 22 Sep 2026 11:07:23 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Strategy returns to bitcoin buys, adding $75 million of BTC last week",
-      "url": "https://www.coindesk.com/markets/2026/09/21/strategy-returns-to-bitcoin-buys-adding-usd75-million-of-btc-last-week",
-      "published_at": "Mon, 21 Sep 2026 12:08:02 +0000",
+      "title": "Bitcoin recovers from Asian-session lows as falling oil price supports risk appetite",
+      "url": "https://www.coindesk.com/markets/2026/09/22/bitcoin-recovers-from-asian-session-lows-as-falling-oil-price-supports-risk-appetite",
+      "published_at": "Tue, 22 Sep 2026 10:59:03 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin's 44% gain in third quarter teases full-blown crypto bull run",
-      "url": "https://www.coindesk.com/daybook-us/2026/09/21/bitcoin-s-44-gain-in-third-quarter-teases-full-blown-crypto-bull-run",
-      "published_at": "Mon, 21 Sep 2026 11:36:11 +0000",
+      "title": "Live updates: Bitcoin trades near $86,000 as U.S. stocks post small gains",
+      "url": "https://www.coindesk.com/markets/2026/09/22/live-updates-oil-falls-as-iran-signals-possible-hormuz-reopening-bitcoin-holds-near-usd86-000",
+      "published_at": "Tue, 22 Sep 2026 10:20:12 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Perp futures linked to 'bitcoin VIX' debut on Hyperliquid",
-      "url": "https://www.coindesk.com/markets/2026/09/21/perp-futures-linked-to-bitcoin-vix-debut-on-hyperliquid",
-      "published_at": "Mon, 21 Sep 2026 11:30:00 +0000",
+      "title": "Binance probed by U.S. federal prosecutors for sanctions violations: Bloomberg",
+      "url": "https://www.coindesk.com/policy/2026/09/22/binance-probed-by-u-s-federal-prosecutors-for-sanctions-violations-bloomberg",
+      "published_at": "Tue, 22 Sep 2026 10:07:52 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
