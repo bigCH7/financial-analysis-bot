@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-22T18:39:58.176474+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-09-22 18:30 UTC_",
+  "generated_at": "2026-09-23T19:00:43.782188+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-09-23 18:51 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,23 +9,23 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 86315.0,
+        "current_usd": 84386.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": 14.19,
-        "change_30d_pct": 11.07
+        "change_7d_pct": 10.82,
+        "change_30d_pct": 6.85
       },
       "indicators": {
         "trend": "UPTREND",
-        "momentum": "WEAK",
+        "momentum": "STRONG",
         "volatility": "NORMAL"
       },
       "valuation": {
         "verdict": "Constructive long-term setup",
         "band": "fair",
         "summary_line": "Fair - Balanced growth profile - Lower regulatory risk.",
-        "score": 70.3
+        "score": 69.9
       },
-      "updated_at": "2026-09-22T18:39:58.174342+00:00",
+      "updated_at": "2026-09-23T19:00:43.779525+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,23 +37,23 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 2748.0,
+        "current_usd": 2672.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": 14.62,
-        "change_30d_pct": 11.6
+        "change_7d_pct": 10.58,
+        "change_30d_pct": 7.64
       },
       "indicators": {
-        "trend": "UPTREND",
-        "momentum": "WEAK",
+        "trend": "DOWNTREND",
+        "momentum": "STRONG",
         "volatility": "NORMAL"
       },
       "valuation": {
         "verdict": "Undervalued / High-conviction zone",
         "band": "undervalued",
         "summary_line": "Undervalued - Strong growth profile - Lower regulatory risk.",
-        "score": 76.0
+        "score": 77.2
       },
-      "updated_at": "2026-09-22T18:39:58.175190+00:00",
+      "updated_at": "2026-09-23T19:00:43.780419+00:00",
       "source": {
         "short_term": "live"
       }
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-09-22T18:39:58.175513+00:00",
+      "updated_at": "2026-09-23T19:00:43.780764+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-09-22T18:39:58.175765+00:00",
+      "updated_at": "2026-09-23T19:00:43.781056+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-09-22T18:39:58.175992+00:00",
+      "updated_at": "2026-09-23T19:00:43.781342+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-09-22T18:39:58.176185+00:00",
+      "updated_at": "2026-09-23T19:00:43.781646+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -193,7 +193,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-09-22T18:39:58.176335+00:00",
+      "updated_at": "2026-09-23T19:00:43.781916+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -201,72 +201,72 @@
   ],
   "overview_news": [
     {
-      "title": "Canada's 'Big Six' banks to launch interbank tokenized deposit initiative",
-      "url": "https://www.coindesk.com/business/2026/09/22/canada-s-big-six-banks-unite-to-launch-interbank-tokenized-deposit-initiative",
-      "published_at": "Tue, 22 Sep 2026 17:34:03 +0000",
+      "title": "White House adviser defends President Trump's crypto ties in wake of Clarity Act defeat",
+      "url": "https://www.coindesk.com/policy/2026/09/23/white-house-adviser-defends-president-trump-s-crypto-ties-in-wake-of-clarity-act-defeat",
+      "published_at": "Wed, 23 Sep 2026 18:04:11 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Next for the U.S. SEC: Agency's chief crypto counsel illuminates path for custody",
-      "url": "https://www.coindesk.com/policy/2026/09/22/next-for-the-u-s-sec-agency-s-chief-crypto-counsel-illuminates-path-for-custody",
-      "published_at": "Tue, 22 Sep 2026 15:21:28 +0000",
+      "title": "Inside the FBI\u2019s little-known annual crypto crime gathering",
+      "url": "https://www.coindesk.com/business/2026/09/23/inside-the-fbi-s-little-known-annual-crypto-crime-gathering",
+      "published_at": "Wed, 23 Sep 2026 15:26:35 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "European central banks push to expand stablecoin yield ban to crypto lending and staking",
-      "url": "https://www.coindesk.com/policy/2026/09/22/european-central-banks-push-to-expand-stablecoin-yield-ban-to-crypto-lending-and-staking",
-      "published_at": "Tue, 22 Sep 2026 14:32:59 +0000",
+      "title": "Crypto Long & Short: Inside the chain settling $150 billion of stablecoins a week",
+      "url": "https://www.coindesk.com/coindesk-indices/2026/09/23/crypto-long-and-short-inside-the-chain-settling-usd150-billion-of-stablecoins-a-week",
+      "published_at": "Wed, 23 Sep 2026 15:07:21 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin, ether perpetual volumes on Kalshi are dominated by an unusual, repetitive trade, data shows",
-      "url": "https://www.coindesk.com/markets/2026/09/21/bitcoin-ether-perpetual-volumes-on-kalshi-are-dominated-by-an-unusual-repetitive-trade-data-shows",
-      "published_at": "Tue, 22 Sep 2026 12:32:15 +0000",
+      "title": "Bitcoin's $16 billion quarterly options settlement arrives with a 'call-heavy' book",
+      "url": "https://www.coindesk.com/markets/2026/09/23/bitcoin-s-usd16-billion-quarterly-options-settlement-arrives-with-a-call-heavy-book",
+      "published_at": "Wed, 23 Sep 2026 13:02:43 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Why Payward-backed Reap is betting on non-USD stablecoins for 24/7 cross-border FX settlement",
-      "url": "https://www.coindesk.com/business/2026/09/22/visa-partner-reap-eyes-local-currency-stablecoins-in-several-countries-for-24-7-onchain-fx",
-      "published_at": "Tue, 22 Sep 2026 12:05:55 +0000",
+      "title": "MoonPay to acquire SEC-registered North Capital in $60 million all-stock deal",
+      "url": "https://www.coindesk.com/business/2026/09/23/moonpay-to-acquire-sec-registered-north-capital-in-usd60-million-all-stock-deal",
+      "published_at": "Wed, 23 Sep 2026 13:00:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "A $3.2 million 'bitcoin butterfly' option trade bets on $95,000 by the end of October",
-      "url": "https://www.coindesk.com/daybook-us/2026/09/22/a-usd3-2-million-bitcoin-butterfly-option-trade-bets-on-usd95-000-by-the-end-of-october",
-      "published_at": "Tue, 22 Sep 2026 11:35:43 +0000",
+      "title": "Live updates: Bitcoin pulls back to $84,000 as bond yields fly higher",
+      "url": "https://www.coindesk.com/business/2026/09/23/live-updates-bitcoin-slips-under-usd86-000-as-money-rotates-into-bch-and-zec",
+      "published_at": "Wed, 23 Sep 2026 11:29:30 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Binance buys $100 million Circle stake in five-year USDC promotion deal",
-      "url": "https://www.coindesk.com/policy/2026/09/22/binance-buys-usd100-million-circle-stake-in-five-year-usdc-promotion-deal",
-      "published_at": "Tue, 22 Sep 2026 11:07:23 +0000",
+      "title": "The S&P 500 has a 'breadth' problem. Crypto doesn\u2019t.",
+      "url": "https://www.coindesk.com/daybook-us/2026/09/23/the-s-and-p-500-has-a-breadth-problem-crypto-doesn-t",
+      "published_at": "Wed, 23 Sep 2026 11:28:50 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin recovers from Asian-session lows as falling oil price supports risk appetite",
-      "url": "https://www.coindesk.com/markets/2026/09/22/bitcoin-recovers-from-asian-session-lows-as-falling-oil-price-supports-risk-appetite",
-      "published_at": "Tue, 22 Sep 2026 10:59:03 +0000",
+      "title": "Bitcoin consolidates near $86,000 as rally narrows and Brent slips below $100",
+      "url": "https://www.coindesk.com/markets/2026/09/23/bitcoin-consolidates-near-usd86-000-as-rally-narrows-and-brent-slips-below-usd100",
+      "published_at": "Wed, 23 Sep 2026 10:28:11 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Live updates: Bitcoin trades near $86,000 as U.S. stocks post small gains",
-      "url": "https://www.coindesk.com/markets/2026/09/22/live-updates-oil-falls-as-iran-signals-possible-hormuz-reopening-bitcoin-holds-near-usd86-000",
-      "published_at": "Tue, 22 Sep 2026 10:20:12 +0000",
+      "title": "BitMEX shuts down: perpetuals pioneer officially closes it doors after 11 years",
+      "url": "https://www.coindesk.com/business/2026/09/23/bitmex-shuts-down-trading-after-11-years-leaves-withdrawals-open",
+      "published_at": "Wed, 23 Sep 2026 10:24:44 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Binance probed by U.S. federal prosecutors for sanctions violations: Bloomberg",
-      "url": "https://www.coindesk.com/policy/2026/09/22/binance-probed-by-u-s-federal-prosecutors-for-sanctions-violations-bloomberg",
-      "published_at": "Tue, 22 Sep 2026 10:07:52 +0000",
+      "title": "FTX, Alameda-linked wallets send $75 million in ether to Wintermute, onchain data shows",
+      "url": "https://www.coindesk.com/business/2026/09/23/ftx-alameda-linked-wallets-send-usd75-million-in-ether-to-wintermute-onchain-data-shows",
+      "published_at": "Wed, 23 Sep 2026 09:57:24 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
