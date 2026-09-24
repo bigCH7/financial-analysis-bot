@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-23T19:00:43.782188+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-09-23 18:51 UTC_",
+  "generated_at": "2026-09-24T18:58:45.624051+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-09-24 18:49 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,23 +9,23 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 84386.0,
+        "current_usd": 84437.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": 10.82,
-        "change_30d_pct": 6.85
+        "change_7d_pct": 10.56,
+        "change_30d_pct": 7.55
       },
       "indicators": {
-        "trend": "UPTREND",
-        "momentum": "STRONG",
+        "trend": "DOWNTREND",
+        "momentum": "WEAK",
         "volatility": "NORMAL"
       },
       "valuation": {
         "verdict": "Constructive long-term setup",
         "band": "fair",
         "summary_line": "Fair - Balanced growth profile - Lower regulatory risk.",
-        "score": 69.9
+        "score": 67.9
       },
-      "updated_at": "2026-09-23T19:00:43.779525+00:00",
+      "updated_at": "2026-09-24T18:58:45.621166+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,23 +37,23 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 2672.0,
+        "current_usd": 2691.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": 10.58,
-        "change_30d_pct": 7.64
+        "change_7d_pct": 10.01,
+        "change_30d_pct": 10.19
       },
       "indicators": {
         "trend": "DOWNTREND",
-        "momentum": "STRONG",
+        "momentum": "WEAK",
         "volatility": "NORMAL"
       },
       "valuation": {
-        "verdict": "Undervalued / High-conviction zone",
-        "band": "undervalued",
-        "summary_line": "Undervalued - Strong growth profile - Lower regulatory risk.",
-        "score": 77.2
+        "verdict": "Constructive long-term setup",
+        "band": "fair",
+        "summary_line": "Fair - Strong growth profile - Lower regulatory risk.",
+        "score": 73.0
       },
-      "updated_at": "2026-09-23T19:00:43.780419+00:00",
+      "updated_at": "2026-09-24T18:58:45.622084+00:00",
       "source": {
         "short_term": "live"
       }
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-09-23T19:00:43.780764+00:00",
+      "updated_at": "2026-09-24T18:58:45.622467+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-09-23T19:00:43.781056+00:00",
+      "updated_at": "2026-09-24T18:58:45.622778+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-09-23T19:00:43.781342+00:00",
+      "updated_at": "2026-09-24T18:58:45.623127+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-09-23T19:00:43.781646+00:00",
+      "updated_at": "2026-09-24T18:58:45.623432+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -193,7 +193,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-09-23T19:00:43.781916+00:00",
+      "updated_at": "2026-09-24T18:58:45.623736+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -201,72 +201,72 @@
   ],
   "overview_news": [
     {
-      "title": "White House adviser defends President Trump's crypto ties in wake of Clarity Act defeat",
-      "url": "https://www.coindesk.com/policy/2026/09/23/white-house-adviser-defends-president-trump-s-crypto-ties-in-wake-of-clarity-act-defeat",
-      "published_at": "Wed, 23 Sep 2026 18:04:11 +0000",
+      "title": "Bitcoin just topped a key long-term moving average. Here's what it might mean",
+      "url": "https://www.coindesk.com/markets/2026/09/24/bitcoin-just-topped-a-key-long-term-moving-average-here-s-what-it-might-mean",
+      "published_at": "Thu, 24 Sep 2026 18:46:58 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Inside the FBI\u2019s little-known annual crypto crime gathering",
-      "url": "https://www.coindesk.com/business/2026/09/23/inside-the-fbi-s-little-known-annual-crypto-crime-gathering",
-      "published_at": "Wed, 23 Sep 2026 15:26:35 +0000",
+      "title": "Crypto casino Duelbits goes offline after $7 million hot wallet hack",
+      "url": "https://www.coindesk.com/business/2026/09/24/crypto-casino-duelbits-goes-offline-after-usd7m-hot-wallet-hack",
+      "published_at": "Thu, 24 Sep 2026 15:48:20 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Crypto Long & Short: Inside the chain settling $150 billion of stablecoins a week",
-      "url": "https://www.coindesk.com/coindesk-indices/2026/09/23/crypto-long-and-short-inside-the-chain-settling-usd150-billion-of-stablecoins-a-week",
-      "published_at": "Wed, 23 Sep 2026 15:07:21 +0000",
+      "title": "Bitcoin\u2019s bear markets are getting milder. Bull markets may be next",
+      "url": "https://www.coindesk.com/markets/2026/09/24/bitcoin-s-bear-markets-are-getting-milder-the-bull-markets-may-be-next",
+      "published_at": "Thu, 24 Sep 2026 15:26:34 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin's $16 billion quarterly options settlement arrives with a 'call-heavy' book",
-      "url": "https://www.coindesk.com/markets/2026/09/23/bitcoin-s-usd16-billion-quarterly-options-settlement-arrives-with-a-call-heavy-book",
-      "published_at": "Wed, 23 Sep 2026 13:02:43 +0000",
+      "title": "UK\u2019s largest banks complete world\u2019s first interbank transactions using tokenized deposits",
+      "url": "https://www.coindesk.com/business/2026/09/24/uk-s-largest-banks-complete-world-s-first-interbank-transactions-using-tokenized-deposits",
+      "published_at": "Thu, 24 Sep 2026 15:07:18 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "MoonPay to acquire SEC-registered North Capital in $60 million all-stock deal",
-      "url": "https://www.coindesk.com/business/2026/09/23/moonpay-to-acquire-sec-registered-north-capital-in-usd60-million-all-stock-deal",
-      "published_at": "Wed, 23 Sep 2026 13:00:00 +0000",
+      "title": "Crypto for Advisors:The hidden costs of holding your own bitcoin",
+      "url": "https://www.coindesk.com/coindesk-indices/2026/09/24/crypto-for-advisors-the-hidden-costs-of-holding-your-own-bitcoin",
+      "published_at": "Thu, 24 Sep 2026 14:49:28 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Live updates: Bitcoin pulls back to $84,000 as bond yields fly higher",
-      "url": "https://www.coindesk.com/business/2026/09/23/live-updates-bitcoin-slips-under-usd86-000-as-money-rotates-into-bch-and-zec",
-      "published_at": "Wed, 23 Sep 2026 11:29:30 +0000",
+      "title": "European stablecoin issuer Qivalis sees transformation of global trade finance",
+      "url": "https://www.coindesk.com/business/2026/09/24/european-stablecoin-issuer-qivalis-sees-transformation-of-global-trade-finance",
+      "published_at": "Thu, 24 Sep 2026 14:41:05 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "The S&P 500 has a 'breadth' problem. Crypto doesn\u2019t.",
-      "url": "https://www.coindesk.com/daybook-us/2026/09/23/the-s-and-p-500-has-a-breadth-problem-crypto-doesn-t",
-      "published_at": "Wed, 23 Sep 2026 11:28:50 +0000",
+      "title": "Cathie Wood's ARK teams with Securitize to tokenize venture fund with OpenAI, Anthropic stakes",
+      "url": "https://www.coindesk.com/business/2026/09/24/cathie-wood-s-ark-teams-with-securitize-to-tokenize-venture-fund-with-openai-anthropic-stakes",
+      "published_at": "Thu, 24 Sep 2026 13:00:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin consolidates near $86,000 as rally narrows and Brent slips below $100",
-      "url": "https://www.coindesk.com/markets/2026/09/23/bitcoin-consolidates-near-usd86-000-as-rally-narrows-and-brent-slips-below-usd100",
-      "published_at": "Wed, 23 Sep 2026 10:28:11 +0000",
+      "title": "Solana Foundation hires Binance, Polygon veterans as it ramps up tokenized finance push",
+      "url": "https://www.coindesk.com/business/2026/09/24/solana-foundation-hires-binance-polygon-veterans-as-it-ramps-up-tokenized-finance-push",
+      "published_at": "Thu, 24 Sep 2026 13:00:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "BitMEX shuts down: perpetuals pioneer officially closes it doors after 11 years",
-      "url": "https://www.coindesk.com/business/2026/09/23/bitmex-shuts-down-trading-after-11-years-leaves-withdrawals-open",
-      "published_at": "Wed, 23 Sep 2026 10:24:44 +0000",
+      "title": "Crypto investment firm RockawayX is betting $150 million on yield becoming next big use case",
+      "url": "https://www.coindesk.com/business/2026/09/23/rockawayx-is-betting-usd150-million-on-yield-becoming-crypto-s-next-big-use-case",
+      "published_at": "Thu, 24 Sep 2026 12:31:53 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "FTX, Alameda-linked wallets send $75 million in ether to Wintermute, onchain data shows",
-      "url": "https://www.coindesk.com/business/2026/09/23/ftx-alameda-linked-wallets-send-usd75-million-in-ether-to-wintermute-onchain-data-shows",
-      "published_at": "Wed, 23 Sep 2026 09:57:24 +0000",
+      "title": "EU's financial regulator to make AI and tokenization a supervisory priority in 2027",
+      "url": "https://www.coindesk.com/policy/2026/09/24/eu-s-financial-regulator-to-make-ai-and-tokenization-a-supervisory-priority-in-2027",
+      "published_at": "Thu, 24 Sep 2026 12:26:43 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
