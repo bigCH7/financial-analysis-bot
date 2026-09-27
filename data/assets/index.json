@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-26T18:29:47.666399+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-09-26 18:20 UTC_",
+  "generated_at": "2026-09-27T19:02:57.252385+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-09-27 18:54 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,13 +9,13 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 84058.0,
+        "current_usd": 84787.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": 3.47,
-        "change_30d_pct": 4.72
+        "change_7d_pct": 4.46,
+        "change_30d_pct": 8.95
       },
       "indicators": {
-        "trend": "DOWNTREND",
+        "trend": "UPTREND",
         "momentum": "WEAK",
         "volatility": "NORMAL"
       },
@@ -23,9 +23,9 @@
         "verdict": "Constructive long-term setup",
         "band": "fair",
         "summary_line": "Fair - Weak growth profile - Lower regulatory risk.",
-        "score": 60.5
+        "score": 62.2
       },
-      "updated_at": "2026-09-26T18:29:47.663296+00:00",
+      "updated_at": "2026-09-27T19:02:57.249482+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,10 +37,10 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 2688.0,
+        "current_usd": 2697.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": 2.11,
-        "change_30d_pct": 7.02
+        "change_7d_pct": 1.99,
+        "change_30d_pct": 10.44
       },
       "indicators": {
         "trend": "UPTREND",
@@ -51,9 +51,9 @@
         "verdict": "Constructive long-term setup",
         "band": "fair",
         "summary_line": "Fair - Balanced growth profile - Lower regulatory risk.",
-        "score": 63.4
+        "score": 66.4
       },
-      "updated_at": "2026-09-26T18:29:47.664148+00:00",
+      "updated_at": "2026-09-27T19:02:57.250346+00:00",
       "source": {
         "short_term": "live"
       }
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-09-26T18:29:47.664489+00:00",
+      "updated_at": "2026-09-27T19:02:57.250771+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-09-26T18:29:47.664787+00:00",
+      "updated_at": "2026-09-27T19:02:57.251090+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-09-26T18:29:47.665257+00:00",
+      "updated_at": "2026-09-27T19:02:57.251444+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-09-26T18:29:47.665619+00:00",
+      "updated_at": "2026-09-27T19:02:57.251755+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -193,13 +193,27 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-09-26T18:29:47.666071+00:00",
+      "updated_at": "2026-09-27T19:02:57.252055+00:00",
       "source": {
         "short_term": "unavailable"
       }
     }
   ],
   "overview_news": [
+    {
+      "title": "Vitalik Buterin maps Ethereum\u2019s shift beyond a blockchain in sweeping 2030 vision",
+      "url": "https://www.coindesk.com/tech/2026/09/27/vitalik-buterin-maps-ethereum-s-shift-beyond-a-blockchain-in-sweeping-2030-vision",
+      "published_at": "Sun, 27 Sep 2026 14:29:13 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "How months of work on the Clarity Act all fell apart",
+      "url": "https://www.coindesk.com/news-analysis/2026/09/27/how-months-of-work-on-the-clarity-act-all-fell-apart",
+      "published_at": "Sun, 27 Sep 2026 12:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
     {
       "title": "Kraken\u2019s parent Payward is betting billions on becoming financial infrastructure, not just a crypto exchange",
       "url": "https://www.coindesk.com/business/2026/09/26/kraken-s-parent-payward-is-betting-billions-on-becoming-financial-infrastructure-not-just-a-crypto-exchange",
@@ -253,20 +267,6 @@
       "title": "Another appeals court rules against prediction market provider Kalshi, says sports contracts are subject to state regulations",
       "url": "https://www.coindesk.com/policy/2026/09/25/another-appeals-court-rules-against-prediction-market-provider-kalshi-says-sports-contracts-are-subject-to-state-regulations",
       "published_at": "Fri, 25 Sep 2026 21:17:30 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Blockchain Association sees leadership shift shortly after crypto Clarity Act fizzles",
-      "url": "https://www.coindesk.com/policy/2026/09/25/blockchain-association-sees-leadership-shift-shortly-after-crypto-clarity-act-fizzles",
-      "published_at": "Fri, 25 Sep 2026 20:01:05 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Circle and Tether step in to freeze hacker wallet after massive Bitget crypto heist",
-      "url": "https://www.coindesk.com/markets/2026/09/25/circle-and-tether-step-in-to-freeze-hacker-wallet-after-massive-bitget-crypto-heist",
-      "published_at": "Fri, 25 Sep 2026 14:41:53 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
