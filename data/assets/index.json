@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-29T19:57:27.100481+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-09-29 19:47 UTC_",
+  "generated_at": "2026-09-30T20:00:00.380292+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-09-30 19:50 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,13 +9,13 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 83546.0,
+        "current_usd": 83533.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": -3.06,
-        "change_30d_pct": 7.58
+        "change_7d_pct": -1.01,
+        "change_30d_pct": 6.34
       },
       "indicators": {
-        "trend": "DOWNTREND",
+        "trend": "UPTREND",
         "momentum": "WEAK",
         "volatility": "NORMAL"
       },
@@ -23,9 +23,9 @@
         "verdict": "Constructive long-term setup",
         "band": "fair",
         "summary_line": "Fair - Balanced growth profile - Lower regulatory risk.",
-        "score": 66.1
+        "score": 67.8
       },
-      "updated_at": "2026-09-29T19:57:27.097795+00:00",
+      "updated_at": "2026-09-30T20:00:00.377586+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,13 +37,13 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 2690.0,
+        "current_usd": 2669.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": -2.26,
-        "change_30d_pct": 11.35
+        "change_7d_pct": -0.57,
+        "change_30d_pct": 8.21
       },
       "indicators": {
-        "trend": "UPTREND",
+        "trend": "DOWNTREND",
         "momentum": "WEAK",
         "volatility": "NORMAL"
       },
@@ -51,9 +51,9 @@
         "verdict": "Constructive long-term setup",
         "band": "fair",
         "summary_line": "Fair - Strong growth profile - Lower regulatory risk.",
-        "score": 74.8
+        "score": 73.5
       },
-      "updated_at": "2026-09-29T19:57:27.098562+00:00",
+      "updated_at": "2026-09-30T20:00:00.378299+00:00",
       "source": {
         "short_term": "live"
       }
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-09-29T19:57:27.098935+00:00",
+      "updated_at": "2026-09-30T20:00:00.378704+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-09-29T19:57:27.099233+00:00",
+      "updated_at": "2026-09-30T20:00:00.379005+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-09-29T19:57:27.099541+00:00",
+      "updated_at": "2026-09-30T20:00:00.379328+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-09-29T19:57:27.099855+00:00",
+      "updated_at": "2026-09-30T20:00:00.379669+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -193,7 +193,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-09-29T19:57:27.100167+00:00",
+      "updated_at": "2026-09-30T20:00:00.379987+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -201,72 +201,72 @@
   ],
   "overview_news": [
     {
-      "title": "Cboe, S&P Dow Jones may explore tokenized options contracts under extended licensing deal",
-      "url": "https://www.coindesk.com/business/2026/09/29/cboe-s-and-p-dow-jones-may-explore-tokenized-options-contracts-under-extended-licensing-deal",
-      "published_at": "Tue, 29 Sep 2026 18:21:07 +0000",
+      "title": "Crypto industry gave $8 million to Clarity Act lobbyists who didn't close the deal",
+      "url": "https://www.coindesk.com/news-analysis/2026/09/30/crypto-industry-gave-usd8-million-to-clarity-act-lobbyists-who-didn-t-close-the-deal",
+      "published_at": "Wed, 30 Sep 2026 17:16:31 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Ethereum users get another way to pay privately as zk.money returns after three years",
-      "url": "https://www.coindesk.com/tech/2026/09/29/embargo-12-et-ethereum-users-get-another-way-to-pay-privately-as-zk-money-returns-after-three-years",
-      "published_at": "Tue, 29 Sep 2026 16:00:00 +0000",
+      "title": "Open USD takes on Tether, Circle with a different stablecoin model that's 'building money'",
+      "url": "https://www.coindesk.com/business/2026/09/24/open-usd-takes-on-tether-circle-with-a-different-stablecoin-model-that-s-building-money",
+      "published_at": "Wed, 30 Sep 2026 15:34:50 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Democrats killed the Clarity Act",
-      "url": "https://www.coindesk.com/opinion/2026/09/29/democrats-killed-the-clarity-act",
-      "published_at": "Tue, 29 Sep 2026 14:08:18 +0000",
+      "title": "U.S. CFTC  seeks event contract definitions that may defy states' gambling claims",
+      "url": "https://www.coindesk.com/policy/2026/09/30/u-s-cftc-seeks-event-contract-definitions-that-may-defy-states-gambling-claims",
+      "published_at": "Wed, 30 Sep 2026 15:19:36 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin surging to $100,000 may be in play, after outperforming gold",
-      "url": "https://www.coindesk.com/daybook-us/2026/09/29/bitcoin-outperforms-gold-usd100-000-surge-in-play",
-      "published_at": "Tue, 29 Sep 2026 11:34:55 +0000",
+      "title": "Crypto Long & Short: What will the AI agents run on?",
+      "url": "https://www.coindesk.com/coindesk-indices/2026/09/30/crypto-long-and-short-what-will-the-ai-agents-run-on",
+      "published_at": "Wed, 30 Sep 2026 14:56:07 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Zcash developers begin moving Tachyon code into faster private-payment software",
-      "url": "https://www.coindesk.com/tech/2026/09/29/zcash-s-faster-private-payment-code-is-being-rebuilt-for-its-bigger-scaling-plan",
-      "published_at": "Tue, 29 Sep 2026 11:15:30 +0000",
+      "title": "Clock's ticking: UK's crypto regulatory application window opens with February deadline",
+      "url": "https://www.coindesk.com/policy/2026/09/30/the-clock-s-ticking-uk-s-crypto-regulatory-application-window-opens-with-february-deadline",
+      "published_at": "Wed, 30 Sep 2026 14:04:19 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Aave leads DeFi higher as crypto shrugs off surging bond market",
-      "url": "https://www.coindesk.com/markets/2026/09/29/aave-leads-defi-higher-as-crypto-shrugs-off-surging-treasury-yields",
-      "published_at": "Tue, 29 Sep 2026 10:28:51 +0000",
+      "title": "Cardano tapped by Brazil\u2019s state oil giant to track cleaner jet fuel and diesel",
+      "url": "https://www.coindesk.com/tech/2026/09/30/embargo-1-pm-utc-cardano-tapped-by-brazil-s-state-oil-giant-to-track-cleaner-jet-fuel-and-diesel",
+      "published_at": "Wed, 30 Sep 2026 13:00:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Live updates: Bitcoin turns lower as rates rise, consumer confidence plunges",
-      "url": "https://www.coindesk.com/markets/2026/09/29/live-updates-bitcoin-rebounds-above-usd84-000-as-treasury-yields-steady",
-      "published_at": "Tue, 29 Sep 2026 10:14:41 +0000",
+      "title": "A stronger dollar is a weaker threat to bitcoin than traders think",
+      "url": "https://www.coindesk.com/daybook-us/2026/09/30/a-stronger-dollar-is-a-weaker-threat-to-bitcoin-than-traders-think",
+      "published_at": "Wed, 30 Sep 2026 11:20:09 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Blockchain.com targets $500 million IPO this year at up to $6 billion valuation",
-      "url": "https://www.coindesk.com/business/2026/09/29/blockchain-com-targets-usd500-million-ipo-at-up-to-usd6-billion-valuation",
-      "published_at": "Tue, 29 Sep 2026 10:13:40 +0000",
+      "title": "Bitget hackers move $4 million into Zcash\u2019s private pool, making funds harder to trace",
+      "url": "https://www.coindesk.com/markets/2026/09/30/bitget-hackers-move-usd4-million-into-zcash-s-private-pool-making-funds-harder-to-trace",
+      "published_at": "Wed, 30 Sep 2026 11:04:09 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin is on track to shatter a major decade-long streak as September gains surge",
-      "url": "https://www.coindesk.com/markets/2026/09/29/bitcoin-is-on-track-to-shatter-a-major-decade-long-streak-as-september-gains-surge",
-      "published_at": "Tue, 29 Sep 2026 09:45:31 +0000",
+      "title": "The SEC Is finally modernizing transfer-agent rules. Wall Street must not repeat the \u2018paperwork crisis\u2019",
+      "url": "https://www.coindesk.com/opinion/2026/09/30/the-sec-is-finally-modernizing-transfer-agent-rules-wall-street-must-not-repeat-the-paperwork-crisis",
+      "published_at": "Wed, 30 Sep 2026 11:00:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Analysts see 10-year Treasury yield hitting 6%. Bitcoin bulls shouldn't panic",
-      "url": "https://www.coindesk.com/markets/2026/09/29/analysts-see-10-year-treasury-yield-hitting-6-bitcoin-bulls-shouldn-t-panic",
-      "published_at": "Tue, 29 Sep 2026 09:06:11 +0000",
+      "title": "OpenAI, Google and Meta pledge independent AI safety audits under voluntary White House deal",
+      "url": "https://www.coindesk.com/tech/2026/09/30/openai-google-and-meta-pledge-outside-ai-audits-under-voluntary-white-house-deal",
+      "published_at": "Wed, 30 Sep 2026 10:43:43 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }

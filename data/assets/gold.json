@@ -4,7 +4,7 @@
   "symbol": "GC=F",
   "market_type": "traditional",
   "details_page": "asset.html?asset=gold",
-  "updated_at": "2026-09-29T19:57:27.099855+00:00",
+  "updated_at": "2026-09-30T20:00:00.379669+00:00",
   "about": {
     "what_it_is": "GC=F tracks front-month COMEX gold futures pricing.",
     "what_it_represents": "It represents market expectations for gold as a store-of-value and macro hedge.",
@@ -13,7 +13,7 @@
   },
   "source": {
     "short_term": "unavailable",
-    "news_generated_at": "2026-09-29 19:56 UTC"
+    "news_generated_at": "2026-09-30 19:58 UTC"
   },
   "price": {
     "current_usd": null,
@@ -39,20 +39,6 @@
       "title": "Bitcoin surging to $100,000 may be in play, after outperforming gold",
       "url": "https://www.coindesk.com/daybook-us/2026/09/29/bitcoin-outperforms-gold-usd100-000-surge-in-play",
       "published_at": "Tue, 29 Sep 2026 11:34:55 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Goldman Sachs brings $100 billion Treasury fund into crypto\u2019s institutional plumbing",
-      "url": "https://www.coindesk.com/markets/2026/09/28/goldman-sachs-brings-usd100-billion-treasury-fund-into-crypto-s-institutional-plumbing",
-      "published_at": "Mon, 28 Sep 2026 18:00:00 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "The restaking gold rush is over, and top protocols are barely making a profit",
-      "url": "https://www.coindesk.com/business/2026/09/28/the-restaking-gold-rush-is-over-and-top-protocols-are-barely-making-a-profit",
-      "published_at": "Mon, 28 Sep 2026 16:24:51 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
