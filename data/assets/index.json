@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-30T20:00:00.380292+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-09-30 19:50 UTC_",
+  "generated_at": "2026-10-01T20:16:38.629317+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-10-01 20:07 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,10 +9,10 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 83533.0,
+        "current_usd": 84742.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": -1.01,
-        "change_30d_pct": 6.34
+        "change_7d_pct": 0.43,
+        "change_30d_pct": 9.46
       },
       "indicators": {
         "trend": "UPTREND",
@@ -23,9 +23,9 @@
         "verdict": "Constructive long-term setup",
         "band": "fair",
         "summary_line": "Fair - Balanced growth profile - Lower regulatory risk.",
-        "score": 67.8
+        "score": 67.6
       },
-      "updated_at": "2026-09-30T20:00:00.377586+00:00",
+      "updated_at": "2026-10-01T20:16:38.626554+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,13 +37,13 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 2669.0,
+        "current_usd": 2700.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": -0.57,
-        "change_30d_pct": 8.21
+        "change_7d_pct": 0.46,
+        "change_30d_pct": 11.66
       },
       "indicators": {
-        "trend": "DOWNTREND",
+        "trend": "UPTREND",
         "momentum": "WEAK",
         "volatility": "NORMAL"
       },
@@ -51,9 +51,9 @@
         "verdict": "Constructive long-term setup",
         "band": "fair",
         "summary_line": "Fair - Strong growth profile - Lower regulatory risk.",
-        "score": 73.5
+        "score": 73.2
       },
-      "updated_at": "2026-09-30T20:00:00.378299+00:00",
+      "updated_at": "2026-10-01T20:16:38.627415+00:00",
       "source": {
         "short_term": "live"
       }
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-09-30T20:00:00.378704+00:00",
+      "updated_at": "2026-10-01T20:16:38.627789+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-09-30T20:00:00.379005+00:00",
+      "updated_at": "2026-10-01T20:16:38.628097+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-09-30T20:00:00.379328+00:00",
+      "updated_at": "2026-10-01T20:16:38.628398+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-09-30T20:00:00.379669+00:00",
+      "updated_at": "2026-10-01T20:16:38.628724+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -193,7 +193,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-09-30T20:00:00.379987+00:00",
+      "updated_at": "2026-10-01T20:16:38.629033+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -201,72 +201,72 @@
   ],
   "overview_news": [
     {
-      "title": "Crypto industry gave $8 million to Clarity Act lobbyists who didn't close the deal",
-      "url": "https://www.coindesk.com/news-analysis/2026/09/30/crypto-industry-gave-usd8-million-to-clarity-act-lobbyists-who-didn-t-close-the-deal",
-      "published_at": "Wed, 30 Sep 2026 17:16:31 +0000",
+      "title": "Another Trump memecoin dinner advertised for token's top investors",
+      "url": "https://www.coindesk.com/policy/2026/10/01/another-trump-memecoin-dinner-advertised-for-token-s-top-investors",
+      "published_at": "Thu, 01 Oct 2026 18:45:29 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Open USD takes on Tether, Circle with a different stablecoin model that's 'building money'",
-      "url": "https://www.coindesk.com/business/2026/09/24/open-usd-takes-on-tether-circle-with-a-different-stablecoin-model-that-s-building-money",
-      "published_at": "Wed, 30 Sep 2026 15:34:50 +0000",
+      "title": "Crypto for Advisors: The CLARITY Act failed, but the rules came anyway",
+      "url": "https://www.coindesk.com/coindesk-indices/2026/10/01/crypto-for-advisors-the-clarity-act-failed-but-the-rules-came-anyway",
+      "published_at": "Thu, 01 Oct 2026 15:00:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "U.S. CFTC  seeks event contract definitions that may defy states' gambling claims",
-      "url": "https://www.coindesk.com/policy/2026/09/30/u-s-cftc-seeks-event-contract-definitions-that-may-defy-states-gambling-claims",
-      "published_at": "Wed, 30 Sep 2026 15:19:36 +0000",
+      "title": "NEAR Intents hit by $3.8 million exploit as crypto's rough year of hacks continues",
+      "url": "https://www.coindesk.com/tech/2026/10/01/near-intents-hit-by-usd3-8-million-exploit-as-crypto-s-rough-year-of-hacks-continues",
+      "published_at": "Thu, 01 Oct 2026 14:18:14 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Crypto Long & Short: What will the AI agents run on?",
-      "url": "https://www.coindesk.com/coindesk-indices/2026/09/30/crypto-long-and-short-what-will-the-ai-agents-run-on",
-      "published_at": "Wed, 30 Sep 2026 14:56:07 +0000",
+      "title": "Live updates: Bitcoin posts tentative gains as rates drop ahead of Friday's jobs report",
+      "url": "https://www.coindesk.com/tech/2026/10/01/live-updates-bitcoin-flat-near-usd84-000-after-best-quarter-since-2024",
+      "published_at": "Thu, 01 Oct 2026 11:59:17 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Clock's ticking: UK's crypto regulatory application window opens with February deadline",
-      "url": "https://www.coindesk.com/policy/2026/09/30/the-clock-s-ticking-uk-s-crypto-regulatory-application-window-opens-with-february-deadline",
-      "published_at": "Wed, 30 Sep 2026 14:04:19 +0000",
+      "title": "Illinois agrees to six-month delay of crypto tax as industry continues court battle",
+      "url": "https://www.coindesk.com/policy/2026/09/30/illinois-agrees-to-six-month-delay-of-crypto-tax-as-industry-continues-court-battle",
+      "published_at": "Thu, 01 Oct 2026 11:58:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Cardano tapped by Brazil\u2019s state oil giant to track cleaner jet fuel and diesel",
-      "url": "https://www.coindesk.com/tech/2026/09/30/embargo-1-pm-utc-cardano-tapped-by-brazil-s-state-oil-giant-to-track-cleaner-jet-fuel-and-diesel",
-      "published_at": "Wed, 30 Sep 2026 13:00:00 +0000",
+      "title": "Crypto lost $1.26 billion in hacks while bitcoin bulls enjoyed a monster quarter",
+      "url": "https://www.coindesk.com/daybook-us/2026/10/01/crypto-lost-usd1-26-billion-in-hacks-while-bitcoin-bulls-enjoyed-a-monster-quarter",
+      "published_at": "Thu, 01 Oct 2026 11:30:38 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "A stronger dollar is a weaker threat to bitcoin than traders think",
-      "url": "https://www.coindesk.com/daybook-us/2026/09/30/a-stronger-dollar-is-a-weaker-threat-to-bitcoin-than-traders-think",
-      "published_at": "Wed, 30 Sep 2026 11:20:09 +0000",
+      "title": "Synthetic tokenized stocks are bad for American investors",
+      "url": "https://www.coindesk.com/opinion/2026/10/01/synthetic-tokenized-stocks-are-bad-for-american-investors",
+      "published_at": "Thu, 01 Oct 2026 11:00:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bitget hackers move $4 million into Zcash\u2019s private pool, making funds harder to trace",
-      "url": "https://www.coindesk.com/markets/2026/09/30/bitget-hackers-move-usd4-million-into-zcash-s-private-pool-making-funds-harder-to-trace",
-      "published_at": "Wed, 30 Sep 2026 11:04:09 +0000",
+      "title": "Bitcoin kicks off new quarter in the old $82,000-$85,000 price range",
+      "url": "https://www.coindesk.com/markets/2026/10/01/bitcoin-kicks-off-new-quarter-in-the-old-usd82-000-usd85-000-price-range",
+      "published_at": "Thu, 01 Oct 2026 10:38:04 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "The SEC Is finally modernizing transfer-agent rules. Wall Street must not repeat the \u2018paperwork crisis\u2019",
-      "url": "https://www.coindesk.com/opinion/2026/09/30/the-sec-is-finally-modernizing-transfer-agent-rules-wall-street-must-not-repeat-the-paperwork-crisis",
-      "published_at": "Wed, 30 Sep 2026 11:00:00 +0000",
+      "title": "Citigroup raises 12-month bitcoin target to $113,000 as ETF inflows resume",
+      "url": "https://www.coindesk.com/markets/2026/10/01/citigroup-raises-12-month-bitcoin-target-to-usd113-000-as-etf-inflows-resume",
+      "published_at": "Thu, 01 Oct 2026 09:59:30 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "OpenAI, Google and Meta pledge independent AI safety audits under voluntary White House deal",
-      "url": "https://www.coindesk.com/tech/2026/09/30/openai-google-and-meta-pledge-outside-ai-audits-under-voluntary-white-house-deal",
-      "published_at": "Wed, 30 Sep 2026 10:43:43 +0000",
+      "title": "MetaMask security incident forces Ethereum staking exits, no funds at risk",
+      "url": "https://www.coindesk.com/tech/2026/10/01/metamask-security-incident-forces-ethereum-staking-exits-with-lido-warning-of-lost-rewards",
+      "published_at": "Thu, 01 Oct 2026 07:06:30 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }

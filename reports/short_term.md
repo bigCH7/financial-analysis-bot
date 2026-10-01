@@ -1,12 +1,12 @@
 # Short-Term Crypto Tactical Brief
 
-_Generated automatically - 2026-09-30 19:58 UTC_
+_Generated automatically - 2026-10-01 20:14 UTC_
 
 ## Bitcoin (BTC)
 
-- **Current price:** $83,533
-- **7D change:** -1.01%
-- **30D change:** 6.34%
+- **Current price:** $84,742
+- **7D change:** 0.43%
+- **30D change:** 9.46%
 - **Trend:** **UPTREND**
 - **Momentum:** **WEAK**
 - **Volatility:** **NORMAL**
@@ -15,18 +15,18 @@ _Generated automatically - 2026-09-30 19:58 UTC_
 ### Status Pulse (30-Second Context)
 
 - **Tactical regime:** Trend-Following
-- **The vibe:** Mixed tape - wait for confirmation before sizing up.
+- **The vibe:** Aggressive buying detected - trend is currently being respected.
 
 ### Momentum Engine
 
-- **Speedometer (EMA20/EMA50):** $83,822 / $83,745.
-- **Velocity (ROC 6h / 24h):** -1.23% / -0.04%.
-- **Stamina meter (RSI 14):** 51.6
+- **Speedometer (EMA20/EMA50):** $84,095 / $83,865.
+- **Velocity (ROC 6h / 24h):** +1.07% / +1.41%.
+- **Stamina meter (RSI 14):** 59.2
 
 ### Truth Layer (Order Flow & Volume)
 
-- **CVD proxy:** -299.58%.
-- **Validation:** Volume proxy is broadly aligned with price direction.
+- **CVD proxy:** -113.10%.
+- **Fakeout warning:** Price is rising but CVD proxy is not confirming (low-liquidity pump risk).
 - **Order-book imbalance (OBI):** unavailable.
 - **Depth note:** Order book unavailable.
 
@@ -39,22 +39,22 @@ _Generated automatically - 2026-09-30 19:58 UTC_
 ### Tactical Levels
 
 - **Battle Zone (Support):** $83,479
-- **Target (Resistance):** $84,449
-- **Stop-loss (ATR proxy):** $83,218
+- **Target (Resistance):** $84,742
+- **Stop-loss (ATR proxy):** $83,254
 
 ### Final Entry Signal
 
-- **Action:** Buy pullbacks
+- **Action:** Fakeout warning
 - **Validation chain:** Trend -> CVD -> Order Book -> Leverage trap.
 
 ---
 
 ## Ethereum (ETH)
 
-- **Current price:** $2,669
-- **7D change:** -0.57%
-- **30D change:** 8.21%
-- **Trend:** **DOWNTREND**
+- **Current price:** $2,700
+- **7D change:** 0.46%
+- **30D change:** 11.66%
+- **Trend:** **UPTREND**
 - **Momentum:** **WEAK**
 - **Volatility:** **NORMAL**
 - **Data source:** live
@@ -62,17 +62,17 @@ _Generated automatically - 2026-09-30 19:58 UTC_
 ### Status Pulse (30-Second Context)
 
 - **Tactical regime:** Trend-Following
-- **The vibe:** Persistent sell pressure - avoid fighting momentum.
+- **The vibe:** Aggressive buying detected - trend is currently being respected.
 
 ### Momentum Engine
 
-- **Speedometer (EMA20/EMA50):** $2,685 / $2,685.
-- **Velocity (ROC 6h / 24h):** -1.44% / -0.75%.
-- **Stamina meter (RSI 14):** 49.0
+- **Speedometer (EMA20/EMA50):** $2,693 / $2,689.
+- **Velocity (ROC 6h / 24h):** +0.22% / +1.16%.
+- **Stamina meter (RSI 14):** 42.8
 
 ### Truth Layer (Order Flow & Volume)
 
-- **CVD proxy:** +407.93%.
+- **CVD proxy:** +836.61%.
 - **Validation:** Volume proxy is broadly aligned with price direction.
 - **Order-book imbalance (OBI):** unavailable.
 - **Depth note:** Order book unavailable.
@@ -85,13 +85,13 @@ _Generated automatically - 2026-09-30 19:58 UTC_
 
 ### Tactical Levels
 
-- **Battle Zone (Support):** $2,669
-- **Target (Resistance):** $2,696
-- **Stop-loss (ATR proxy):** $2,659
+- **Battle Zone (Support):** $2,677
+- **Target (Resistance):** $2,700
+- **Stop-loss (ATR proxy):** $2,668
 
 ### Final Entry Signal
 
-- **Action:** Neutral / wait
+- **Action:** Buy pullbacks
 - **Validation chain:** Trend -> CVD -> Order Book -> Leverage trap.
 
 ---
