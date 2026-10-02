@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-01T20:16:38.629317+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-10-01 20:07 UTC_",
+  "generated_at": "2026-10-02T19:54:11.554862+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-10-02 19:45 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,10 +9,10 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 84742.0,
+        "current_usd": 84197.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": 0.43,
-        "change_30d_pct": 9.46
+        "change_7d_pct": 0.14,
+        "change_30d_pct": 8.93
       },
       "indicators": {
         "trend": "UPTREND",
@@ -23,9 +23,9 @@
         "verdict": "Constructive long-term setup",
         "band": "fair",
         "summary_line": "Fair - Balanced growth profile - Lower regulatory risk.",
-        "score": 67.6
+        "score": 70.8
       },
-      "updated_at": "2026-10-01T20:16:38.626554+00:00",
+      "updated_at": "2026-10-02T19:54:11.551717+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,10 +37,10 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 2700.0,
+        "current_usd": 2665.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": 0.46,
-        "change_30d_pct": 11.66
+        "change_7d_pct": -0.96,
+        "change_30d_pct": 11.47
       },
       "indicators": {
         "trend": "UPTREND",
@@ -48,12 +48,12 @@
         "volatility": "NORMAL"
       },
       "valuation": {
-        "verdict": "Constructive long-term setup",
-        "band": "fair",
-        "summary_line": "Fair - Strong growth profile - Lower regulatory risk.",
-        "score": 73.2
+        "verdict": "Undervalued / High-conviction zone",
+        "band": "undervalued",
+        "summary_line": "Undervalued - Strong growth profile - Lower regulatory risk.",
+        "score": 77.3
       },
-      "updated_at": "2026-10-01T20:16:38.627415+00:00",
+      "updated_at": "2026-10-02T19:54:11.552694+00:00",
       "source": {
         "short_term": "live"
       }
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-10-01T20:16:38.627789+00:00",
+      "updated_at": "2026-10-02T19:54:11.553157+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-10-01T20:16:38.628097+00:00",
+      "updated_at": "2026-10-02T19:54:11.553512+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-10-01T20:16:38.628398+00:00",
+      "updated_at": "2026-10-02T19:54:11.553920+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-10-01T20:16:38.628724+00:00",
+      "updated_at": "2026-10-02T19:54:11.554279+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -193,7 +193,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-10-01T20:16:38.629033+00:00",
+      "updated_at": "2026-10-02T19:54:11.554581+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -201,72 +201,72 @@
   ],
   "overview_news": [
     {
-      "title": "Another Trump memecoin dinner advertised for token's top investors",
-      "url": "https://www.coindesk.com/policy/2026/10/01/another-trump-memecoin-dinner-advertised-for-token-s-top-investors",
-      "published_at": "Thu, 01 Oct 2026 18:45:29 +0000",
+      "title": "BNY in talks with Kraken parent Payward over infrastructure partnership",
+      "url": "https://www.coindesk.com/business/2026/09/30/bny-in-talks-with-kraken-parent-payward-over-infrastructure-partnership",
+      "published_at": "Fri, 02 Oct 2026 17:34:40 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Crypto for Advisors: The CLARITY Act failed, but the rules came anyway",
-      "url": "https://www.coindesk.com/coindesk-indices/2026/10/01/crypto-for-advisors-the-clarity-act-failed-but-the-rules-came-anyway",
-      "published_at": "Thu, 01 Oct 2026 15:00:00 +0000",
+      "title": "Once a $2 billion Ethereum layer-2, Blast is shutting down after assets plunge 98%",
+      "url": "https://www.coindesk.com/tech/2026/10/02/once-a-usd2-billion-ethereum-layer-2-blast-is-shutting-down-after-assets-plunge-98",
+      "published_at": "Fri, 02 Oct 2026 17:15:35 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "NEAR Intents hit by $3.8 million exploit as crypto's rough year of hacks continues",
-      "url": "https://www.coindesk.com/tech/2026/10/01/near-intents-hit-by-usd3-8-million-exploit-as-crypto-s-rough-year-of-hacks-continues",
-      "published_at": "Thu, 01 Oct 2026 14:18:14 +0000",
+      "title": "Trump\u2019s potential AI czar, Jay Clayton, helped pioneer the SEC\u2019s crypto crackdown",
+      "url": "https://www.coindesk.com/news-analysis/2026/10/02/possible-next-crypto-czar-jay-clayton-began-crypto-s-regulation-by-enforcement-at-sec",
+      "published_at": "Fri, 02 Oct 2026 17:12:48 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Live updates: Bitcoin posts tentative gains as rates drop ahead of Friday's jobs report",
-      "url": "https://www.coindesk.com/tech/2026/10/01/live-updates-bitcoin-flat-near-usd84-000-after-best-quarter-since-2024",
-      "published_at": "Thu, 01 Oct 2026 11:59:17 +0000",
+      "title": "America at a crossroads: Commissioner Peirce\u2019s parting challenge",
+      "url": "https://www.coindesk.com/opinion/2026/10/01/america-at-a-crossroads-commissioner-peirce-s-parting-challenge",
+      "published_at": "Fri, 02 Oct 2026 13:22:19 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Illinois agrees to six-month delay of crypto tax as industry continues court battle",
-      "url": "https://www.coindesk.com/policy/2026/09/30/illinois-agrees-to-six-month-delay-of-crypto-tax-as-industry-continues-court-battle",
-      "published_at": "Thu, 01 Oct 2026 11:58:00 +0000",
+      "title": "U.S. added just 29,000 jobs in September, with unemployment rate rising to 4.2%",
+      "url": "https://www.coindesk.com/markets/2026/10/02/u-s-added-just-29-000-jobs-in-september-with-unemployment-rate-rising-to-4-2",
+      "published_at": "Fri, 02 Oct 2026 12:31:53 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Crypto lost $1.26 billion in hacks while bitcoin bulls enjoyed a monster quarter",
-      "url": "https://www.coindesk.com/daybook-us/2026/10/01/crypto-lost-usd1-26-billion-in-hacks-while-bitcoin-bulls-enjoyed-a-monster-quarter",
-      "published_at": "Thu, 01 Oct 2026 11:30:38 +0000",
+      "title": "Cboe wants to turn VIX into a never-ending trade",
+      "url": "https://www.coindesk.com/daybook-us/2026/10/02/wall-street-s-fear-gauge-vix-could-get-a-crypto-style-makeover",
+      "published_at": "Fri, 02 Oct 2026 11:30:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Synthetic tokenized stocks are bad for American investors",
-      "url": "https://www.coindesk.com/opinion/2026/10/01/synthetic-tokenized-stocks-are-bad-for-american-investors",
-      "published_at": "Thu, 01 Oct 2026 11:00:00 +0000",
+      "title": "Live updates: Bitcoin reverses big early gains following soft U.S. jobs data",
+      "url": "https://www.coindesk.com/tech/2026/10/02/live-updates-bitcoin-gold-and-tech-futures-edge-higher-as-markets-await-u-s-jobs-report",
+      "published_at": "Fri, 02 Oct 2026 11:22:40 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin kicks off new quarter in the old $82,000-$85,000 price range",
-      "url": "https://www.coindesk.com/markets/2026/10/01/bitcoin-kicks-off-new-quarter-in-the-old-usd82-000-usd85-000-price-range",
-      "published_at": "Thu, 01 Oct 2026 10:38:04 +0000",
+      "title": "Crypto traders are in risk-on mode as bitcoin dominance nears return to 60%",
+      "url": "https://www.coindesk.com/markets/2026/10/02/crypto-traders-are-in-risk-on-mode-as-bitcoin-dominance-nears-return-to-60",
+      "published_at": "Fri, 02 Oct 2026 10:31:16 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Citigroup raises 12-month bitcoin target to $113,000 as ETF inflows resume",
-      "url": "https://www.coindesk.com/markets/2026/10/01/citigroup-raises-12-month-bitcoin-target-to-usd113-000-as-etf-inflows-resume",
-      "published_at": "Thu, 01 Oct 2026 09:59:30 +0000",
+      "title": "Bitcoin open interest jumps $2.3 billion as traders pay more for bullish positions",
+      "url": "https://www.coindesk.com/markets/2026/10/02/why-rising-perpetual-funding-rates-signal-growing-bullish-leverage-as-bitcoin-crosses-usd86-500",
+      "published_at": "Fri, 02 Oct 2026 09:14:21 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "MetaMask security incident forces Ethereum staking exits, no funds at risk",
-      "url": "https://www.coindesk.com/tech/2026/10/01/metamask-security-incident-forces-ethereum-staking-exits-with-lido-warning-of-lost-rewards",
-      "published_at": "Thu, 01 Oct 2026 07:06:30 +0000",
+      "title": "Tether's USDT is 'coming home' to Bitcoin after more than a decade",
+      "url": "https://www.coindesk.com/tech/2026/09/29/tether-s-usdt-is-coming-home-to-bitcoin-this-month-after-more-than-a-decade",
+      "published_at": "Fri, 02 Oct 2026 08:28:19 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
