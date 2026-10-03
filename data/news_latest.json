@@ -1,7 +1,49 @@
 {
-  "generated_at": "2026-10-02 19:52 UTC",
+  "generated_at": "2026-10-03 18:39 UTC",
   "count": 55,
   "items": [
+    {
+      "title": "Payments firm OpenPayd targets year-end Nasdaq listing to fund U.S. expansion and acquisitions",
+      "link": "https://www.coindesk.com/business/2026/10/03/openpayd-targets-year-end-nasdaq-listing-to-fund-u-s-expansion-and-acquisitions",
+      "pub_date": "Sat, 03 Oct 2026 16:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Crypto job postings triple to over 1,200 in September, but applications fall",
+      "link": "https://www.coindesk.com/business/2026/10/03/crypto-job-postings-triple-to-over-1-200-in-september-but-applications-fall",
+      "pub_date": "Sat, 03 Oct 2026 16:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Cathie Wood says smart investors need to start watching where AI agents spend money",
+      "link": "https://www.coindesk.com/markets/2026/10/01/cathie-wood-says-smart-investors-need-to-start-watching-where-ai-agents-spend-money",
+      "pub_date": "Sat, 03 Oct 2026 15:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Crypto's Sisyphean struggle",
+      "link": "https://www.coindesk.com/opinion/2026/10/03/crypto-s-sisyphean-struggle",
+      "pub_date": "Sat, 03 Oct 2026 13:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "BlackRock offers a glimpse of how tokenization may change your investment portfolio",
+      "link": "https://www.coindesk.com/business/2026/10/03/blackrock-offers-a-glimpse-of-how-tokenization-may-change-your-investment-portfolio",
+      "pub_date": "Sat, 03 Oct 2026 13:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Bank group sues U.S. regulator over granting crypto trust charters",
+      "link": "https://www.coindesk.com/policy/2026/10/02/bank-group-sues-u-s-regulator-over-granting-crypto-trust-charters",
+      "pub_date": "Fri, 02 Oct 2026 21:23:20 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
     {
       "title": "BNY in talks with Kraken parent Payward over infrastructure partnership",
       "link": "https://www.coindesk.com/business/2026/09/30/bny-in-talks-with-kraken-parent-payward-over-infrastructure-partnership",
@@ -136,45 +178,38 @@
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin kicks off new quarter in the old $82,000-$85,000 price range",
-      "link": "https://www.coindesk.com/markets/2026/10/01/bitcoin-kicks-off-new-quarter-in-the-old-usd82-000-usd85-000-price-range",
-      "pub_date": "Thu, 01 Oct 2026 10:38:04 +0000",
-      "source": "CoinDesk",
+      "title": "Here\u2019s what happened in crypto today",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sat, 03 Oct 2026 12:20:00 +0000",
+      "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Citigroup raises 12-month bitcoin target to $113,000 as ETF inflows resume",
-      "link": "https://www.coindesk.com/markets/2026/10/01/citigroup-raises-12-month-bitcoin-target-to-usd113-000-as-etf-inflows-resume",
-      "pub_date": "Thu, 01 Oct 2026 09:59:30 +0000",
-      "source": "CoinDesk",
+      "title": "NEAR Intents recovers entire stolen $3.8M after ultimatum to exploiter",
+      "link": "https://cointelegraph.com/news/near-intents-recovers-entire-stolen-38m-after-ultimatum-to-exploiter?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sat, 03 Oct 2026 11:59:10 +0000",
+      "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "MetaMask security incident forces Ethereum staking exits, no funds at risk",
-      "link": "https://www.coindesk.com/tech/2026/10/01/metamask-security-incident-forces-ethereum-staking-exits-with-lido-warning-of-lost-rewards",
-      "pub_date": "Thu, 01 Oct 2026 07:06:30 +0000",
-      "source": "CoinDesk",
+      "title": "Community banks sue OCC over trust bank charters of crypto firms",
+      "link": "https://cointelegraph.com/news/community-banks-sue-occ-over-trust-bank-charters-of-crypto-firms?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sat, 03 Oct 2026 09:25:01 +0000",
+      "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Dogecoin gets DeFi testnet as DogeOS bets miners will eventually secure its apps",
-      "link": "https://www.coindesk.com/tech/2026/10/01/dogecoin-gets-defi-testnet-as-dogeos-bets-miners-will-eventually-secure-its-apps",
-      "pub_date": "Thu, 01 Oct 2026 04:58:52 +0000",
-      "source": "CoinDesk",
+      "title": "Trump is expected to appoint Jay Clayton as new AI czar: Reports",
+      "link": "https://cointelegraph.com/news/trump-is-expected-to-appoint-jay-clayton-as-new-ai-czar-reports?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sat, 03 Oct 2026 07:06:08 +0000",
+      "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin's soft-inflation pop to $85,500 fades as bond yields refuse to fall",
-      "link": "https://www.coindesk.com/markets/2026/10/01/bitcoin-s-soft-inflation-pop-to-usd85-500-fades-as-bond-yields-refuse-to-fall",
-      "pub_date": "Thu, 01 Oct 2026 04:15:20 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Crypto industry gave $8 million to Clarity Act lobbyists who didn't close the deal",
-      "link": "https://www.coindesk.com/news-analysis/2026/09/30/crypto-industry-gave-usd8-million-to-clarity-act-lobbyists-who-didn-t-close-the-deal",
-      "pub_date": "Wed, 30 Sep 2026 17:16:31 +0000",
-      "source": "CoinDesk",
+      "title": "European crypto users have \u2018more faith\u2019 in regulated firms under MiCA: Bitpanda co-CEO",
+      "link": "https://cointelegraph.com/news/mica-strengthened-retail-trust-regulated-crypto-exchanges-bitpanda-ceo-says?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Fri, 02 Oct 2026 20:40:47 +0000",
+      "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
@@ -227,13 +262,6 @@
       "fetch_source": "live"
     },
     {
-      "title": "Here\u2019s what happened in crypto today",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 02 Oct 2026 13:00:00 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
       "title": "Circle urges EU to revise stablecoin reserve rules in MiCA review",
       "link": "https://cointelegraph.com/news/circle-eu-stablecoin-reserve-rules-mica-review?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "pub_date": "Fri, 02 Oct 2026 12:25:56 +0000",
@@ -251,34 +279,6 @@
       "title": "Bitcoin treasuries may struggle to match Strategy, says Ammous",
       "link": "https://cointelegraph.com/news/bitcoin-treasuries-struggle-strategy-says-ammous?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "pub_date": "Fri, 02 Oct 2026 10:54:33 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "CONNECT recap: Arthur Hayes on money printing, Wall Street moves onchain",
-      "link": "https://cointelegraph.com/news/connect-recap-arthur-hayes-money-printing-wall-street-onchain?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 02 Oct 2026 10:29:35 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitcoin reaches for $87K as short liquidations top $120M",
-      "link": "https://cointelegraph.com/markets/bitcoin-87k-order-book-liquidity-wall-shifts-higher?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 02 Oct 2026 09:37:06 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Aave founder says V3 unaffected after third-party adapter exploit drains $305K",
-      "link": "https://cointelegraph.com/news/aave-v3-third-party-adapter-exploit-305k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 02 Oct 2026 09:30:49 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Porsche\u2019s \u2018long haul\u2019 Web3 project ends in less than four years",
-      "link": "https://cointelegraph.com/news/porsche-shuts-down-web3-project-911-nft?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 02 Oct 2026 09:18:52 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     }
