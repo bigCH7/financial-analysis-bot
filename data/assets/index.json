@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-03T18:40:42.598492+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-10-03 18:32 UTC_",
+  "generated_at": "2026-10-04T18:40:34.710636+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-10-04 18:31 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,10 +9,10 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 84941.0,
+        "current_usd": 85305.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": 0.62,
-        "change_30d_pct": 4.52
+        "change_7d_pct": 1.01,
+        "change_30d_pct": 7.07
       },
       "indicators": {
         "trend": "UPTREND",
@@ -20,12 +20,12 @@
         "volatility": "NORMAL"
       },
       "valuation": {
-        "verdict": "Constructive long-term setup",
+        "verdict": "Neutral / fair-value zone",
         "band": "fair",
         "summary_line": "Fair - Weak growth profile - Lower regulatory risk.",
-        "score": 61.8
+        "score": 58.7
       },
-      "updated_at": "2026-10-03T18:40:42.596413+00:00",
+      "updated_at": "2026-10-04T18:40:34.708175+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,13 +37,13 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 2685.0,
+        "current_usd": 2701.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": -0.39,
-        "change_30d_pct": 7.08
+        "change_7d_pct": 0.49,
+        "change_30d_pct": 9.96
       },
       "indicators": {
-        "trend": "DOWNTREND",
+        "trend": "UPTREND",
         "momentum": "WEAK",
         "volatility": "NORMAL"
       },
@@ -51,9 +51,9 @@
         "verdict": "Constructive long-term setup",
         "band": "fair",
         "summary_line": "Fair - Balanced growth profile - Lower regulatory risk.",
-        "score": 66.0
+        "score": 61.0
       },
-      "updated_at": "2026-10-03T18:40:42.597067+00:00",
+      "updated_at": "2026-10-04T18:40:34.709073+00:00",
       "source": {
         "short_term": "live"
       }
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-10-03T18:40:42.597364+00:00",
+      "updated_at": "2026-10-04T18:40:34.709413+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-10-03T18:40:42.597613+00:00",
+      "updated_at": "2026-10-04T18:40:34.709654+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-10-03T18:40:42.597844+00:00",
+      "updated_at": "2026-10-04T18:40:34.709882+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-10-03T18:40:42.598066+00:00",
+      "updated_at": "2026-10-04T18:40:34.710101+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -193,13 +193,34 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-10-03T18:40:42.598287+00:00",
+      "updated_at": "2026-10-04T18:40:34.710349+00:00",
       "source": {
         "short_term": "unavailable"
       }
     }
   ],
   "overview_news": [
+    {
+      "title": "There's an election next month: State of Crypto",
+      "url": "https://www.coindesk.com/policy/2026/10/04/there-s-an-election-next-month-state-of-crypto",
+      "published_at": "Sun, 04 Oct 2026 18:30:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Crypto poured years into new products. The next challenge is keeping users",
+      "url": "https://www.coindesk.com/business/2026/10/04/crypto-poured-years-into-new-products-the-next-challenge-is-keeping-users",
+      "published_at": "Sun, 04 Oct 2026 14:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "The Clarity Act stalled. Bankers aren\u2019t hitting the brakes yet on crypto dealmaking",
+      "url": "https://www.coindesk.com/business/2026/10/04/the-clarity-act-stalled-crypto-dealmakers-aren-t-hitting-the-brakes-yet",
+      "published_at": "Sun, 04 Oct 2026 13:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
     {
       "title": "Payments firm OpenPayd targets year-end Nasdaq listing to fund U.S. expansion and acquisitions",
       "url": "https://www.coindesk.com/business/2026/10/03/openpayd-targets-year-end-nasdaq-listing-to-fund-u-s-expansion-and-acquisitions",
@@ -246,27 +267,6 @@
       "title": "BNY in talks with Kraken parent Payward over infrastructure partnership",
       "url": "https://www.coindesk.com/business/2026/09/30/bny-in-talks-with-kraken-parent-payward-over-infrastructure-partnership",
       "published_at": "Fri, 02 Oct 2026 17:34:40 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Once a $2 billion Ethereum layer-2, Blast is shutting down after assets plunge 98%",
-      "url": "https://www.coindesk.com/tech/2026/10/02/once-a-usd2-billion-ethereum-layer-2-blast-is-shutting-down-after-assets-plunge-98",
-      "published_at": "Fri, 02 Oct 2026 17:15:35 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Trump\u2019s potential AI czar, Jay Clayton, helped pioneer the SEC\u2019s crypto crackdown",
-      "url": "https://www.coindesk.com/news-analysis/2026/10/02/possible-next-crypto-czar-jay-clayton-began-crypto-s-regulation-by-enforcement-at-sec",
-      "published_at": "Fri, 02 Oct 2026 17:12:48 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "America at a crossroads: Commissioner Peirce\u2019s parting challenge",
-      "url": "https://www.coindesk.com/opinion/2026/10/01/america-at-a-crossroads-commissioner-peirce-s-parting-challenge",
-      "published_at": "Fri, 02 Oct 2026 13:22:19 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }

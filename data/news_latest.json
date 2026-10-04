@@ -1,7 +1,28 @@
 {
-  "generated_at": "2026-10-03 18:39 UTC",
+  "generated_at": "2026-10-04 18:39 UTC",
   "count": 55,
   "items": [
+    {
+      "title": "There's an election next month: State of Crypto",
+      "link": "https://www.coindesk.com/policy/2026/10/04/there-s-an-election-next-month-state-of-crypto",
+      "pub_date": "Sun, 04 Oct 2026 18:30:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Crypto poured years into new products. The next challenge is keeping users",
+      "link": "https://www.coindesk.com/business/2026/10/04/crypto-poured-years-into-new-products-the-next-challenge-is-keeping-users",
+      "pub_date": "Sun, 04 Oct 2026 14:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "The Clarity Act stalled. Bankers aren\u2019t hitting the brakes yet on crypto dealmaking",
+      "link": "https://www.coindesk.com/business/2026/10/04/the-clarity-act-stalled-crypto-dealmakers-aren-t-hitting-the-brakes-yet",
+      "pub_date": "Sun, 04 Oct 2026 13:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
     {
       "title": "Payments firm OpenPayd targets year-end Nasdaq listing to fund U.S. expansion and acquisitions",
       "link": "https://www.coindesk.com/business/2026/10/03/openpayd-targets-year-end-nasdaq-listing-to-fund-u-s-expansion-and-acquisitions",
@@ -157,24 +178,31 @@
       "fetch_source": "live"
     },
     {
-      "title": "Illinois agrees to six-month delay of crypto tax as industry continues court battle",
-      "link": "https://www.coindesk.com/policy/2026/09/30/illinois-agrees-to-six-month-delay-of-crypto-tax-as-industry-continues-court-battle",
-      "pub_date": "Thu, 01 Oct 2026 11:58:00 +0000",
-      "source": "CoinDesk",
+      "title": "Trump taps intel chief Jay Clayton to lead new Super Intelligence Force",
+      "link": "https://cointelegraph.com/news/trump-taps-jay-clayton-to-lead-new-super-intelligence-force?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sun, 04 Oct 2026 13:48:48 +0000",
+      "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Crypto lost $1.26 billion in hacks while bitcoin bulls enjoyed a monster quarter",
-      "link": "https://www.coindesk.com/daybook-us/2026/10/01/crypto-lost-usd1-26-billion-in-hacks-while-bitcoin-bulls-enjoyed-a-monster-quarter",
-      "pub_date": "Thu, 01 Oct 2026 11:30:38 +0000",
-      "source": "CoinDesk",
+      "title": "Japan adds Garantex to list of Russia sanctions over Ukraine war",
+      "link": "https://cointelegraph.com/news/japan-adds-garantex-to-list-of-russia-sanctions-over-ukraine-war?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sun, 04 Oct 2026 12:42:00 +0000",
+      "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Synthetic tokenized stocks are bad for American investors",
-      "link": "https://www.coindesk.com/opinion/2026/10/01/synthetic-tokenized-stocks-are-bad-for-american-investors",
-      "pub_date": "Thu, 01 Oct 2026 11:00:00 +0000",
-      "source": "CoinDesk",
+      "title": "El Salvador receives $138 million from IMF after Bitcoin waivers granted",
+      "link": "https://cointelegraph.com/news/el-salvador-receives-138-million-from-imf-after-bitcoin-waivers-granted?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sun, 04 Oct 2026 09:40:00 +0000",
+      "source": "Cointelegraph",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Russia\u2019s Finance Ministry pays wages in digital rubles for first time",
+      "link": "https://cointelegraph.com/news/russias-finance-ministry-pays-wages-in-digital-rubles-for-first-time?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sun, 04 Oct 2026 07:18:00 +0000",
+      "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
@@ -194,14 +222,14 @@
     {
       "title": "Community banks sue OCC over trust bank charters of crypto firms",
       "link": "https://cointelegraph.com/news/community-banks-sue-occ-over-trust-bank-charters-of-crypto-firms?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Sat, 03 Oct 2026 09:25:01 +0000",
+      "pub_date": "Sat, 03 Oct 2026 09:28:00 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Trump is expected to appoint Jay Clayton as new AI czar: Reports",
+      "title": "Trump expected to appoint Jay Clayton as new AI czar: Reports",
       "link": "https://cointelegraph.com/news/trump-is-expected-to-appoint-jay-clayton-as-new-ai-czar-reports?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Sat, 03 Oct 2026 07:06:08 +0000",
+      "pub_date": "Sat, 03 Oct 2026 07:09:00 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
@@ -251,34 +279,6 @@
       "title": "\u2018Euro stablecoin isn\u2019t enough\u2019: EU issuers make case for USD tokens",
       "link": "https://cointelegraph.com/news/euro-stablecoin-not-enough-eu-case-usd-tokens?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "pub_date": "Fri, 02 Oct 2026 14:12:48 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Furious debate about THORChain vs NEAR shows idealism has limits",
-      "link": "https://cointelegraph.com/magazine/furious-debate-about-thorchain-vs-near-shows-idealism-has-limits?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 02 Oct 2026 13:30:00 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Circle urges EU to revise stablecoin reserve rules in MiCA review",
-      "link": "https://cointelegraph.com/news/circle-eu-stablecoin-reserve-rules-mica-review?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 02 Oct 2026 12:25:56 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "BNB Chain crosses $1B in tokenized stocks, ETFs as market hits $3.7B",
-      "link": "https://cointelegraph.com/markets/bnb-chain-1-billion-tokenized-assets-market-3-7-billion?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 02 Oct 2026 11:40:21 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitcoin treasuries may struggle to match Strategy, says Ammous",
-      "link": "https://cointelegraph.com/news/bitcoin-treasuries-struggle-strategy-says-ammous?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 02 Oct 2026 10:54:33 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     }
