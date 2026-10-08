@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-07T20:33:40.963955+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-10-07 20:24 UTC_",
+  "generated_at": "2026-10-08T20:39:11.719429+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-10-08 20:30 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,10 +9,10 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 83522.0,
+        "current_usd": 81674.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": -0.06,
-        "change_30d_pct": 5.6
+        "change_7d_pct": -2.28,
+        "change_30d_pct": 4.11
       },
       "indicators": {
         "trend": "DOWNTREND",
@@ -23,9 +23,9 @@
         "verdict": "Constructive long-term setup",
         "band": "fair",
         "summary_line": "Fair - Balanced growth profile - Lower regulatory risk.",
-        "score": 69.9
+        "score": 70.9
       },
-      "updated_at": "2026-10-07T20:33:40.961543+00:00",
+      "updated_at": "2026-10-08T20:39:11.716566+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,10 +37,10 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 2576.0,
+        "current_usd": 2467.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": -4.03,
-        "change_30d_pct": 3.5
+        "change_7d_pct": -8.12,
+        "change_30d_pct": -0.74
       },
       "indicators": {
         "trend": "DOWNTREND",
@@ -51,9 +51,9 @@
         "verdict": "Undervalued / High-conviction zone",
         "band": "undervalued",
         "summary_line": "Undervalued - Strong growth profile - Lower regulatory risk.",
-        "score": 78.1
+        "score": 78.0
       },
-      "updated_at": "2026-10-07T20:33:40.962377+00:00",
+      "updated_at": "2026-10-08T20:39:11.717442+00:00",
       "source": {
         "short_term": "live"
       }
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-10-07T20:33:40.962697+00:00",
+      "updated_at": "2026-10-08T20:39:11.717856+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-10-07T20:33:40.962963+00:00",
+      "updated_at": "2026-10-08T20:39:11.718152+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-10-07T20:33:40.963205+00:00",
+      "updated_at": "2026-10-08T20:39:11.718474+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-10-07T20:33:40.963463+00:00",
+      "updated_at": "2026-10-08T20:39:11.718806+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -193,7 +193,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-10-07T20:33:40.963708+00:00",
+      "updated_at": "2026-10-08T20:39:11.719114+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -201,72 +201,72 @@
   ],
   "overview_news": [
     {
-      "title": "Wells Fargo in talks with Kraken parent Payward for crypto trading liquidity",
-      "url": "https://www.coindesk.com/business/2026/10/05/wells-fargo-in-talks-with-kraken-parent-payward-for-crypto-trading-liquidity",
-      "published_at": "Wed, 07 Oct 2026 18:59:32 +0000",
+      "title": "Wall Street's tokenization boom could have bigger winners than bitcoin and ether, Citrini says",
+      "url": "https://www.coindesk.com/markets/2026/10/08/wall-street-s-tokenization-boom-could-have-bigger-winners-than-bitcoin-and-ether-citrini-says",
+      "published_at": "Thu, 08 Oct 2026 19:46:15 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Polygon taps TRON\u2019s $94 billion stablecoin supply for seamless cross-border transfers",
-      "url": "https://www.coindesk.com/business/2026/10/07/polygon-and-tron-partner-to-bridge-usd94-billion-usdt-ecosystem-with-u-s-banking-rails",
-      "published_at": "Wed, 07 Oct 2026 16:30:00 +0000",
+      "title": "Crypto crumbles as anniversary of flash crash nears",
+      "url": "https://www.coindesk.com/markets/2026/10/08/crypto-crumbles-as-anniversary-of-flash-crash-nears",
+      "published_at": "Thu, 08 Oct 2026 18:14:39 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Gate bets all-in-one money app is crypto\u2019s biggest consumer trend this year and next",
-      "url": "https://www.coindesk.com/business/2026/10/07/gate-bets-all-in-one-money-app-is-crypto-s-biggest-consumer-trend-this-year-and-next",
-      "published_at": "Wed, 07 Oct 2026 15:13:15 +0000",
+      "title": "NFL joins pushback against prediction markets as U.S. Supreme Court asked to act",
+      "url": "https://www.coindesk.com/policy/2026/10/08/nfl-joins-pushback-against-prediction-markets-as-u-s-supreme-court-asked-to-act",
+      "published_at": "Thu, 08 Oct 2026 18:06:41 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Crypto Long & Short: Zcash and the case for privacy in the age of AI",
-      "url": "https://www.coindesk.com/coindesk-indices/2026/10/07/crypto-long-and-short-zcash-and-the-case-for-privacy-in-the-age-of-ai",
-      "published_at": "Wed, 07 Oct 2026 15:03:54 +0000",
+      "title": "U.S. government moves $1 billion in bitcoin tied to Bitfinex hack, with no sign of sale",
+      "url": "https://www.coindesk.com/business/2026/10/08/u-s-government-moves-usd1-billion-in-bitcoin-from-bitfinex-hack-wallet-no-sale-indicated",
+      "published_at": "Thu, 08 Oct 2026 15:43:04 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Tether tapped by Kazakhstan\u2019s central bank to explore stablecoin and tokenization",
-      "url": "https://www.coindesk.com/business/2026/10/07/tether-tapped-by-kazakhstan-s-central-bank-to-explore-stablecoin-and-tokenization",
-      "published_at": "Wed, 07 Oct 2026 14:27:37 +0000",
+      "title": "EU securities regulator gives crypto platforms 3 months to remove unauthorized stablecoins",
+      "url": "https://www.coindesk.com/policy/2026/10/08/eu-securities-regulator-gives-crypto-platforms-3-months-to-remove-unauthorized-stablecoins",
+      "published_at": "Thu, 08 Oct 2026 15:23:26 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Quantum computers threaten exposed private keys rather than blockchains, Europol warns",
-      "url": "https://www.coindesk.com/tech/2026/10/07/quantum-computers-threaten-exposed-private-keys-rather-than-blockchains-europol-warns",
-      "published_at": "Wed, 07 Oct 2026 13:20:54 +0000",
+      "title": "Crypto for Advisors: Digital assets outran stocks and gold in Q3",
+      "url": "https://www.coindesk.com/coindesk-indices/2026/10/08/crypto-for-advisors-digital-assets-outran-stocks-and-gold-in-q3",
+      "published_at": "Thu, 08 Oct 2026 15:11:15 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Ether is about to lose a steady buyer as Tom Lee says Bitmine will stop token purchases",
-      "url": "https://www.coindesk.com/markets/2026/10/07/ether-is-about-to-lose-a-steady-buyer-as-tom-lee-says-bitmine-will-stop-token-purchases",
-      "published_at": "Wed, 07 Oct 2026 12:40:31 +0000",
+      "title": "\u2018Bunker mode\u2019 is a far greater challenge for institutions than individual crypto holders",
+      "url": "https://www.coindesk.com/tech/2026/10/08/bunker-mode-is-a-far-greater-challenge-for-institutions-than-individual-crypto-holders",
+      "published_at": "Thu, 08 Oct 2026 14:39:48 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Crypto trading giant GSR's new vault business is a $100M bet on onchain credit",
-      "url": "https://www.coindesk.com/business/2026/10/07/crypto-trading-giant-gsr-s-new-vault-business-is-a-usd100m-bet-on-onchain-credit",
-      "published_at": "Wed, 07 Oct 2026 12:34:13 +0000",
+      "title": "Cardano Foundation spins out Veridian, tokenizes its shares on new standard",
+      "url": "https://www.coindesk.com/business/2026/10/08/cardano-foundation-spins-out-veridian-tokenizes-its-shares-on-new-standard",
+      "published_at": "Thu, 08 Oct 2026 14:24:24 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Swift blockchain ledger requires key internal layers, Taurus co-founder warns",
-      "url": "https://www.coindesk.com/business/2026/10/07/swift-blockchain-ledger-requires-key-internal-layers-taurus-co-founder-warns",
-      "published_at": "Wed, 07 Oct 2026 11:59:24 +0000",
+      "title": "Over 6 million bitcoin sit behind exposed public keys as AI warnings mount",
+      "url": "https://www.coindesk.com/markets/2026/10/08/over-6-million-bitcoin-sit-behind-exposed-public-keys-as-ai-warnings-mount",
+      "published_at": "Thu, 08 Oct 2026 14:03:20 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Here\u2019s what bitcoin needs to break above $87,000",
-      "url": "https://www.coindesk.com/daybook-us/2026/10/07/here-s-what-bitcoin-needs-to-break-above-usd87-000",
-      "published_at": "Wed, 07 Oct 2026 11:30:00 +0000",
+      "title": "Securitize brings Apple, Nvidia and Tesla to Solana, with NYSE trading in the works",
+      "url": "https://www.coindesk.com/business/2026/10/08/securitize-brings-apple-nvidia-and-tesla-to-solana-with-nyse-trading-in-the-works",
+      "published_at": "Thu, 08 Oct 2026 13:06:24 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
