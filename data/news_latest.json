@@ -1,7 +1,35 @@
 {
-  "generated_at": "2026-10-10 19:15 UTC",
+  "generated_at": "2026-10-11 19:28 UTC",
   "count": 55,
   "items": [
+    {
+      "title": "Everyone wants SCOTUS to take up prediction markets: State of Crypto",
+      "link": "https://www.coindesk.com/policy/2026/10/11/everyone-wants-scotus-to-take-up-prediction-markets-state-of-crypto",
+      "pub_date": "Sun, 11 Oct 2026 18:30:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Clarity's failure could speed crypto innovation while shielding incumbents",
+      "link": "https://www.coindesk.com/policy/2026/10/11/clarity-s-failure-could-speed-crypto-innovation-while-shielding-incumbents",
+      "pub_date": "Sun, 11 Oct 2026 16:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "President Trump declares 'energy ceasefire' between Russia and Ukraine",
+      "link": "https://www.coindesk.com/markets/2026/10/11/president-trump-declares-energy-ceasefire-between-russia-and-ukraine",
+      "pub_date": "Sun, 11 Oct 2026 15:40:47 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "IMF finds demand for tokenized stocks, says the market is still volatile, illiquid",
+      "link": "https://www.coindesk.com/business/2026/10/11/imf-finds-demand-for-tokenized-stocks-says-the-market-is-still-volatile-illiquid",
+      "pub_date": "Sun, 11 Oct 2026 13:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
     {
       "title": "One year after 10/10 flash crash, bitcoin and ether liquidity have rebuilt, but altcoins still face risks",
       "link": "https://www.coindesk.com/markets/2026/10/10/one-year-after-10-10-bitcoin-and-ether-liquidity-have-rebuilt-but-other-altcoins-still-face-risks",
@@ -150,37 +178,37 @@
       "fetch_source": "live"
     },
     {
-      "title": "New tech to power bitcoin lending is set to debut with $500 million in commitments",
-      "link": "https://www.coindesk.com/markets/2026/10/09/new-tech-to-power-bitcoin-lending-is-set-to-debut-with-usd500-million-in-commitments",
-      "pub_date": "Fri, 09 Oct 2026 06:40:54 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Solana is about to halve its block times as final 200-millisecond upgrade nears",
-      "link": "https://www.coindesk.com/tech/2026/10/09/solana-is-about-to-halve-its-block-times-as-final-200-millisecond-upgrade-nears",
-      "pub_date": "Fri, 09 Oct 2026 05:00:52 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "XRP Ledger adds new controls for banks, stablecoins and tokenized funds",
-      "link": "https://www.coindesk.com/tech/2026/10/09/xrp-ledger-adds-new-controls-for-banks-stablecoins-and-tokenized-funds",
-      "pub_date": "Fri, 09 Oct 2026 04:21:36 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Ether bets were wiped out at six times bitcoin\u2019s rate in crypto\u2019s $1 billion flush",
-      "link": "https://www.coindesk.com/markets/2026/10/09/ether-bets-were-wiped-out-at-six-times-bitcoin-s-rate-in-crypto-s-usd1-billion-flush",
-      "pub_date": "Fri, 09 Oct 2026 04:04:36 +0000",
-      "source": "CoinDesk",
+      "title": "Saylor teases Strategy Bitcoin buying after ending September with STRC buybacks",
+      "link": "https://cointelegraph.com/news/saylors-teases-strategy-bitcoin-buying-after-ending-september-with-strc-buybacks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sun, 11 Oct 2026 17:11:00 +0000",
+      "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
       "title": "Here\u2019s what happened in crypto today",
       "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Sat, 10 Oct 2026 12:30:00 +0000",
+      "pub_date": "Sun, 11 Oct 2026 12:59:00 +0000",
+      "source": "Cointelegraph",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Coldcard says it\u2019s investigating how phishing link appeared on its X account",
+      "link": "https://cointelegraph.com/news/coldcard-says-its-investigating-how-phishing-link-appeared-on-its-x-account?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sun, 11 Oct 2026 10:40:00 +0000",
+      "source": "Cointelegraph",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Ledger confirms unauthorized hardware implant, says losses may exceed $86M",
+      "link": "https://cointelegraph.com/news/ledger-confirms-unauthorized-hardware-implant-losses-may-exceed-86m?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sun, 11 Oct 2026 09:05:00 +0000",
+      "source": "Cointelegraph",
+      "fetch_source": "live"
+    },
+    {
+      "title": "CFTC proposals aimed at separating prediction markets from casino gambling",
+      "link": "https://cointelegraph.com/news/cftc-proposals-aimed-at-separating-prediction-markets-from-casino-gambling?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sun, 11 Oct 2026 07:50:00 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
@@ -194,7 +222,7 @@
     {
       "title": "Tech chief says EU can fend off rogue AI risk: Report",
       "link": "https://cointelegraph.com/news/tech-chief-says-eu-can-fend-off-rogue-ai-risk-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Sat, 10 Oct 2026 08:41:06 +0000",
+      "pub_date": "Sat, 10 Oct 2026 08:45:00 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
@@ -251,34 +279,6 @@
       "title": "Crypto Biz: Wealthy investors are buying crypto, but their advisers aren\u2019t sold",
       "link": "https://cointelegraph.com/news/wealthy-investors-crypto-advisers-okx-strategy-buybacks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "pub_date": "Fri, 09 Oct 2026 15:51:53 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitcoin consolidates near $82.5K as crypto weathers Ledger theft reports",
-      "link": "https://cointelegraph.com/markets/bitcoin-consolidates-crypto-weathers-ledger-theft-reports?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 09 Oct 2026 15:20:36 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Dragonfly partner rejects \u2018bunker mode\u2019 doomerism, calls for proactive blockchain measures",
-      "link": "https://cointelegraph.com/news/dragonfly-bunker-mode-doomerism-proactive-blockchain-measures?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 09 Oct 2026 13:49:22 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "France is world\u2019s most dangerous place for Bitcoiners: 90 attacks in 7 months",
-      "link": "https://cointelegraph.com/magazine/france-is-worlds-most-dangerous-place-for-bitcoiners-90-attacks-in-7-months?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 09 Oct 2026 13:30:00 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "ESMA seeks evidence tokenized collateral can be cashed out in crisis",
-      "link": "https://cointelegraph.com/news/esma-tokenized-collateral-eu-clearinghouses?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 09 Oct 2026 10:49:24 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     }

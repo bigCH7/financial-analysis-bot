@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-10T19:16:23.335574+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-10-10 19:07 UTC_",
+  "generated_at": "2026-10-11T19:30:02.029616+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-10-11 19:21 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,10 +9,10 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 82963.0,
+        "current_usd": 83616.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": -2.1,
-        "change_30d_pct": 8.37
+        "change_7d_pct": -3.32,
+        "change_30d_pct": 8.31
       },
       "indicators": {
         "trend": "UPTREND",
@@ -23,9 +23,9 @@
         "verdict": "Constructive long-term setup",
         "band": "fair",
         "summary_line": "Fair - Weak growth profile - Lower regulatory risk.",
-        "score": 62.1
+        "score": 60.9
       },
-      "updated_at": "2026-10-10T19:16:23.332824+00:00",
+      "updated_at": "2026-10-11T19:30:01.959092+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,23 +37,23 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 2511.0,
+        "current_usd": 2533.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": -6.55,
-        "change_30d_pct": 3.01
+        "change_7d_pct": -7.06,
+        "change_30d_pct": 0.74
       },
       "indicators": {
-        "trend": "DOWNTREND",
+        "trend": "UPTREND",
         "momentum": "WEAK",
         "volatility": "NORMAL"
       },
       "valuation": {
         "verdict": "Constructive long-term setup",
         "band": "fair",
-        "summary_line": "Fair - Balanced growth profile - Lower regulatory risk.",
-        "score": 64.7
+        "summary_line": "Fair - Strong growth profile - Lower regulatory risk.",
+        "score": 68.5
       },
-      "updated_at": "2026-10-10T19:16:23.333635+00:00",
+      "updated_at": "2026-10-11T19:30:01.994313+00:00",
       "source": {
         "short_term": "live"
       }
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-10-10T19:16:23.334024+00:00",
+      "updated_at": "2026-10-11T19:30:02.013068+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-10-10T19:16:23.334347+00:00",
+      "updated_at": "2026-10-11T19:30:02.017925+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-10-10T19:16:23.334660+00:00",
+      "updated_at": "2026-10-11T19:30:02.025084+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-10-10T19:16:23.334976+00:00",
+      "updated_at": "2026-10-11T19:30:02.025396+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -193,13 +193,41 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-10-10T19:16:23.335287+00:00",
+      "updated_at": "2026-10-11T19:30:02.029268+00:00",
       "source": {
         "short_term": "unavailable"
       }
     }
   ],
   "overview_news": [
+    {
+      "title": "Everyone wants SCOTUS to take up prediction markets: State of Crypto",
+      "url": "https://www.coindesk.com/policy/2026/10/11/everyone-wants-scotus-to-take-up-prediction-markets-state-of-crypto",
+      "published_at": "Sun, 11 Oct 2026 18:30:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Clarity's failure could speed crypto innovation while shielding incumbents",
+      "url": "https://www.coindesk.com/policy/2026/10/11/clarity-s-failure-could-speed-crypto-innovation-while-shielding-incumbents",
+      "published_at": "Sun, 11 Oct 2026 16:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "President Trump declares 'energy ceasefire' between Russia and Ukraine",
+      "url": "https://www.coindesk.com/markets/2026/10/11/president-trump-declares-energy-ceasefire-between-russia-and-ukraine",
+      "published_at": "Sun, 11 Oct 2026 15:40:47 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "IMF finds demand for tokenized stocks, says the market is still volatile, illiquid",
+      "url": "https://www.coindesk.com/business/2026/10/11/imf-finds-demand-for-tokenized-stocks-says-the-market-is-still-volatile-illiquid",
+      "published_at": "Sun, 11 Oct 2026 13:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
     {
       "title": "One year after 10/10 flash crash, bitcoin and ether liquidity have rebuilt, but altcoins still face risks",
       "url": "https://www.coindesk.com/markets/2026/10/10/one-year-after-10-10-bitcoin-and-ether-liquidity-have-rebuilt-but-other-altcoins-still-face-risks",
@@ -239,34 +267,6 @@
       "title": "XRP Ledger patched decade-old bug that could create billions of dollars in XRP from nothing",
       "url": "https://www.coindesk.com/tech/2026/10/10/xrp-ledger-patched-decade-old-bug-that-could-create-billions-of-dollars-in-xrp-from-nothing",
       "published_at": "Sat, 10 Oct 2026 04:20:07 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Visa survey says nearly half of APAC consumers open to using stablecoins by 2031",
-      "url": "https://www.coindesk.com/business/2026/10/05/1-2-billion-apac-consumers-could-adopt-stablecoins-by-2031-according-to-visa",
-      "published_at": "Sat, 10 Oct 2026 03:00:00 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "U.S. CFTC moves to fold event contracts into swaps regulations as legal fight rages",
-      "url": "https://www.coindesk.com/policy/2026/10/09/u-s-cftc-moves-to-fold-event-contracts-into-swaps-regulations-as-legal-fight-rages",
-      "published_at": "Fri, 09 Oct 2026 21:21:54 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Robinhood Chain considers technology that gives paying traders priority",
-      "url": "https://www.coindesk.com/business/2026/10/09/robinhood-chain-considers-technology-that-gives-paying-traders-priority",
-      "published_at": "Fri, 09 Oct 2026 18:11:00 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "New York AG secures up to $35 million and lifetime crypto ban from Celsius\u2019 Alex Mashinsky",
-      "url": "https://www.coindesk.com/policy/2026/10/09/new-york-ag-secures-up-to-usd35-million-and-lifetime-crypto-ban-from-celsius-alex-mashinsky",
-      "published_at": "Fri, 09 Oct 2026 14:55:23 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
