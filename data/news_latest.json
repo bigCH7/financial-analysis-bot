@@ -1,7 +1,112 @@
 {
-  "generated_at": "2026-10-12 22:30 UTC",
+  "generated_at": "2026-10-13 20:37 UTC",
   "count": 55,
   "items": [
+    {
+      "title": "Crypto exchange MNX takes on OKX, Bitget offering pre-IPO futures for AI giants",
+      "link": "https://www.coindesk.com/business/2026/10/13/new-crypto-exchange-takes-on-okx-bitget-with-unique-way-to-trade-ai-giants",
+      "pub_date": "Tue, 13 Oct 2026 15:52:09 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "UK crypto trader says almost $800,000 lost in knife assault as wrench attacks proliferate",
+      "link": "https://www.coindesk.com/policy/2026/10/13/why-self-custody-and-hardware-wallets-cannot-prevent-physical-crypto-extortion",
+      "pub_date": "Tue, 13 Oct 2026 15:24:52 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "South Korea blocks 27 crypto exchanges, including Bitmart and Kucoin",
+      "link": "https://www.coindesk.com/policy/2026/10/13/south-korea-blocks-27-crypto-exchanges-including-bitmart-and-kucoin",
+      "pub_date": "Tue, 13 Oct 2026 11:58:04 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Federated Hermes joins Wall Street's tokenization push with plans for first onchain fund shares",
+      "link": "https://www.coindesk.com/business/2026/10/13/federated-hermes-joins-wall-street-s-tokenization-push-with-plans-for-first-onchain-fund-shares",
+      "pub_date": "Tue, 13 Oct 2026 11:56:04 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Stacks' STX, a Bitcoin layer-2 token, has surged by 50% in four weeks",
+      "link": "https://www.coindesk.com/daybook-us/2026/10/13/stacks-stx-a-bitcoin-layer-2-token-has-surged-by-50-in-four-weeks",
+      "pub_date": "Tue, 13 Oct 2026 11:26:45 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Bitcoin, ether slip and rebound as South Korean stocks slide on AI-related concerns",
+      "link": "https://www.coindesk.com/markets/2026/10/13/bitcoin-ether-slip-and-rebound-as-south-korean-stocks-slide-on-ai-related-concerns",
+      "pub_date": "Tue, 13 Oct 2026 11:06:39 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Russia\u2019s largest bank Sberbank secures approval to trade crypto",
+      "link": "https://www.coindesk.com/business/2026/10/13/russia-s-largest-bank-sberbank-secures-approval-to-trade-crypto",
+      "pub_date": "Tue, 13 Oct 2026 11:02:47 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Live updates: Bitcoin trading in tight range near $83,000 ahead of key U.S. inflation data",
+      "link": "https://www.coindesk.com/markets/2026/10/13/live-updates-bitcoin-whipsaws-between-usd81-000-and-usd84-000-as-altcoins-slide",
+      "pub_date": "Tue, 13 Oct 2026 10:46:57 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Bitcoin diverges from South Korean stocks as AI concerns deepen the Kospi selloff",
+      "link": "https://www.coindesk.com/markets/2026/10/13/bitcoin-diverges-from-south-korean-stocks-as-ai-concerns-deepen-the-kospi-selloff",
+      "pub_date": "Tue, 13 Oct 2026 10:38:51 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Ledger says 'spy' chip inside CryptoBilis Ledger devices transmitted wallet keys over mobile network",
+      "link": "https://www.coindesk.com/tech/2026/10/13/ledger-says-spy-chip-inside-cryptobilis-ledger-devices-transmitted-wallet-keys-over-mobile-network",
+      "pub_date": "Tue, 13 Oct 2026 09:27:47 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "UK court ruling boosts government\u2019s chances of keeping $5 billion in seized bitcoin",
+      "link": "https://www.coindesk.com/policy/2026/10/13/u-k-court-ruling-boosts-government-s-chances-of-keeping-gbp3-8-billion-seized-bitcoin",
+      "pub_date": "Tue, 13 Oct 2026 09:25:03 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Bitcoin whale that sat through the March 2020 crash moves $378 million",
+      "link": "https://www.coindesk.com/markets/2026/10/13/bitcoin-whale-that-sat-through-the-march-2020-crash-moves-usd378-million",
+      "pub_date": "Tue, 13 Oct 2026 05:45:10 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Tokenized SanDisk bets saw more liquidations than XRP as Asia\u2019s chip rout wipes out $800 million",
+      "link": "https://www.coindesk.com/markets/2026/10/13/tokenized-sandisk-bets-saw-more-liquidations-than-xrp-as-asia-s-chip-rout-wipes-out-usd800-million",
+      "pub_date": "Tue, 13 Oct 2026 05:27:17 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Once-largest Ethereum NFT marketplace Blur is shutting down after volumes collapse 99%",
+      "link": "https://www.coindesk.com/tech/2026/10/13/once-largest-ethereum-nft-marketplace-blur-is-shutting-down-after-volumes-collapse-99",
+      "pub_date": "Tue, 13 Oct 2026 04:43:18 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Bitcoin rebounds above $83,000, decoupling from tumbling Korean stocks",
+      "link": "https://www.coindesk.com/markets/2026/10/13/bitcoin-rebounds-above-usd83-000-as-it-decouples-from-tumbling-korean-stocks-and-nasdaq-futures",
+      "pub_date": "Tue, 13 Oct 2026 04:18:20 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
     {
       "title": "Palantir's Europe head warns the region is 'missing the boat' on AI just as it did with the internet",
       "link": "https://www.coindesk.com/policy/2026/10/12/palantir-executive-warns-europe-is-missing-the-boat-on-ai-just-like-it-did-with-the-internet",
@@ -73,212 +178,107 @@
       "fetch_source": "live"
     },
     {
-      "title": "U.S. inflation, Ethereum upgrade talks: Crypto Week Ahead",
-      "link": "https://www.coindesk.com/markets/2026/10/12/u-s-inflation-ethereum-upgrade-talks-crypto-week-ahead",
-      "pub_date": "Mon, 12 Oct 2026 08:58:24 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Why a bug that could have threatened XRP's 100 billion supply cap stayed hidden for years",
-      "link": "https://www.coindesk.com/tech/2026/10/12/why-a-bug-that-could-have-threatened-xrp-s-100-billion-supply-cap-stayed-hidden-for-years",
-      "pub_date": "Mon, 12 Oct 2026 08:32:17 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Ledger says unauthorized implant found in at least one device sold by CryptoBilis",
-      "link": "https://www.coindesk.com/tech/2026/10/12/ledger-says-unauthorized-implant-found-in-at-least-one-device-sold-by-cryptobilis",
-      "pub_date": "Mon, 12 Oct 2026 07:49:40 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitcoin pulls back from $84,000 as oil recovers, ETFs bleed over $600 million",
-      "link": "https://www.coindesk.com/markets/2026/10/12/bitcoin-shrugs-off-etf-outflows-to-trade-above-usd84-000-as-oil-falls",
-      "pub_date": "Mon, 12 Oct 2026 04:49:30 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Everyone wants SCOTUS to take up prediction markets: State of Crypto",
-      "link": "https://www.coindesk.com/policy/2026/10/11/everyone-wants-scotus-to-take-up-prediction-markets-state-of-crypto",
-      "pub_date": "Sun, 11 Oct 2026 18:30:00 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Clarity's failure could speed crypto innovation while shielding incumbents",
-      "link": "https://www.coindesk.com/policy/2026/10/11/clarity-s-failure-could-speed-crypto-innovation-while-shielding-incumbents",
-      "pub_date": "Sun, 11 Oct 2026 16:00:00 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "President Trump declares 'energy ceasefire' between Russia and Ukraine",
-      "link": "https://www.coindesk.com/markets/2026/10/11/president-trump-declares-energy-ceasefire-between-russia-and-ukraine",
-      "pub_date": "Sun, 11 Oct 2026 15:40:47 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "IMF finds demand for tokenized stocks, says the market is still volatile, illiquid",
-      "link": "https://www.coindesk.com/business/2026/10/11/imf-finds-demand-for-tokenized-stocks-says-the-market-is-still-volatile-illiquid",
-      "pub_date": "Sun, 11 Oct 2026 13:00:00 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "One year after 10/10 flash crash, bitcoin and ether liquidity have rebuilt, but altcoins still face risks",
-      "link": "https://www.coindesk.com/markets/2026/10/10/one-year-after-10-10-bitcoin-and-ether-liquidity-have-rebuilt-but-other-altcoins-still-face-risks",
-      "pub_date": "Sat, 10 Oct 2026 12:00:00 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Tokenized commodities look beyond gold as lending and oil open new markets",
-      "link": "https://www.coindesk.com/business/2026/10/05/tokenized-commodities-look-beyond-gold-as-lending-and-oil-open-new-markets",
-      "pub_date": "Sat, 10 Oct 2026 12:00:00 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitcoin's $19 billion wake-up call: One-year after flash crash, has crypto learned anything?",
-      "link": "https://www.coindesk.com/markets/2026/10/10/bitcoin-s-usd19-billion-wake-up-call-one-year-later-has-crypto-learned-anything",
-      "pub_date": "Sat, 10 Oct 2026 11:00:00 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitcoin's volatility has plunged, but extreme price swings are more frequent than in 2018",
-      "link": "https://www.coindesk.com/markets/2026/10/09/bitcoin-s-volatility-has-plunged-but-extreme-price-swings-are-more-frequent-than-in-2018",
-      "pub_date": "Sat, 10 Oct 2026 05:43:00 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Robinhood Chain slowdown spreads from fees to trading as transactions fall more than 40%",
-      "link": "https://www.coindesk.com/markets/2026/10/10/robinhood-chain-slowdown-spreads-from-fees-to-trading-as-transactions-fall-more-than-40",
-      "pub_date": "Sat, 10 Oct 2026 04:44:35 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "XRP Ledger patched decade-old bug that could create billions of dollars in XRP from nothing",
-      "link": "https://www.coindesk.com/tech/2026/10/10/xrp-ledger-patched-decade-old-bug-that-could-create-billions-of-dollars-in-xrp-from-nothing",
-      "pub_date": "Sat, 10 Oct 2026 04:20:07 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Visa survey says nearly half of APAC consumers open to using stablecoins by 2031",
-      "link": "https://www.coindesk.com/business/2026/10/05/1-2-billion-apac-consumers-could-adopt-stablecoins-by-2031-according-to-visa",
-      "pub_date": "Sat, 10 Oct 2026 03:00:00 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "FTX\u2019s crypto mining venture is now used to advance AI",
-      "link": "https://cointelegraph.com/news/ftx-crypto-mining-ai-data-center?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Mon, 12 Oct 2026 21:11:26 +0000",
+      "title": "Most tokenized stock trading on Solana, BNB Chain occurs outside US market hours",
+      "link": "https://cointelegraph.com/news/tokenized-stocks-after-hours-trading-solana-bnb-chain?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Tue, 13 Oct 2026 19:48:06 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
       "title": "Here\u2019s what happened in crypto today",
       "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Mon, 12 Oct 2026 19:26:13 +0000",
+      "pub_date": "Tue, 13 Oct 2026 19:33:57 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Crypto PACs report $2.7M spending blitz on House races as midterms loom",
-      "link": "https://cointelegraph.com/news/crypto-pac-spending-house-races-2026-midterms?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Mon, 12 Oct 2026 18:55:49 +0000",
+      "title": "Trezor reduces resellers as a \u2018preventative step\u2019 amid Ledger tampering reports",
+      "link": "https://cointelegraph.com/news/trezor-preventative-steps-wallet-tampering-reports?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Tue, 13 Oct 2026 19:07:04 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "US accounting overhaul could make stablecoins more attractive to corporations: Tempo",
-      "link": "https://cointelegraph.com/news/fasb-stablecoin-accounting-rules-corporate-adoption?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Mon, 12 Oct 2026 18:38:14 +0000",
+      "title": "How the SEC\u2019s lack of leadership could facilitate crypto rulemaking",
+      "link": "https://cointelegraph.com/news/sec-leadership-facilitate-crypto-rulemaking?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Tue, 13 Oct 2026 16:51:25 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin miners face widening AI financing costs as lenders scrutinize deals",
-      "link": "https://cointelegraph.com/news/bitcoin-miners-ai-financing-costs-debt-funding-gap?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Mon, 12 Oct 2026 16:51:05 +0000",
+      "title": "Strive reports $208M in warrant exercises as Bitcoin holdings jump 11%",
+      "link": "https://cointelegraph.com/news/strive-bitcoin-holdings-32773-btc-warrant-exercises?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Tue, 13 Oct 2026 15:57:55 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin drops 2.2% as Ukraine, Iran strikes send oil toward one-month high",
-      "link": "https://cointelegraph.com/markets/bitcoin-drops-22-as-ukraine-iran-strikes-send-oil-toward-one-month-high?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Mon, 12 Oct 2026 16:30:21 +0000",
+      "title": "Bitcoin keeps up pressure on $84K as US stocks skirt Korea tech sell-off",
+      "link": "https://cointelegraph.com/markets/bitcoin-keeps-up-pressure-on-84k-as-us-stocks-sidestep-korea-tech-sell-off?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Tue, 13 Oct 2026 15:27:32 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "XRP treasury Evernorth\u2019s shares rise 5% at Nasdaq opening print",
-      "link": "https://cointelegraph.com/news/xrp-treasury-evernorth-rise-nasdaq-opening?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Mon, 12 Oct 2026 14:18:49 +0000",
+      "title": "Anthropic warns \u2018AI worms\u2019 may autonomously spread across devices like a virus",
+      "link": "https://cointelegraph.com/news/anthropic-ai-worms-autonomously-spread-devices-virus?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Tue, 13 Oct 2026 13:55:09 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Ledger implant tests Bitcoin ETFs as safer custodial solutions than hardware wallets",
-      "link": "https://cointelegraph.com/news/ledger-implant-bitcoin-etfs-hardware-wallets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Mon, 12 Oct 2026 14:07:00 +0000",
+      "title": "Is Bitcoin kidding itself about the Lightning Network?",
+      "link": "https://cointelegraph.com/magazine/is-bitcoin-kidding-itself-about-the-lightning-network?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Tue, 13 Oct 2026 13:30:00 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Strategy adds 250 Bitcoin as holdings reach 848,250 BTC",
-      "link": "https://cointelegraph.com/news/michael-saylor-strategy-250-btc-buy?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Mon, 12 Oct 2026 12:31:51 +0000",
+      "title": "Digital cash offers \u2018cash-like privacy,\u2019 but bank data breaches threaten users: BIS",
+      "link": "https://cointelegraph.com/news/bis-digital-cash-privacy-bank-data-breaches?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Tue, 13 Oct 2026 13:17:17 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Australia proposes leverage caps for crypto-settled derivatives",
-      "link": "https://cointelegraph.com/news/australia-asic-crypto-settled-cfd-protections?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Mon, 12 Oct 2026 11:41:58 +0000",
+      "title": "Russia clears Sberbank for crypto trading ahead of December launch",
+      "link": "https://cointelegraph.com/news/sberbank-russia-crypto-trading-approval?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Tue, 13 Oct 2026 12:22:24 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "BTC price support holds ahead of US CPI data: Three things Bitcoin traders need to know this week",
-      "link": "https://cointelegraph.com/markets/btc-price-support-holds-ahead-of-us-cpi-data-three-things-to-know-in-bitcoin-this-week?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Mon, 12 Oct 2026 11:14:10 +0000",
+      "title": "ENS seeks DAO approval to activate upgraded Ethereum naming system",
+      "link": "https://cointelegraph.com/news/ens-dao-ensv2-upgrade-eth-domain-registrations?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Tue, 13 Oct 2026 11:11:27 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Kraken parent clears Dubai\u2019s final hurdle for dirham trading rollout",
-      "link": "https://cointelegraph.com/news/kraken-receives-vara-approval-uae-expansion?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Mon, 12 Oct 2026 09:41:17 +0000",
+      "title": "Metaplanet to issue $329M convertible bonds to pay debt, fund share buybacks",
+      "link": "https://cointelegraph.com/news/metaplanet-329m-convertible-bonds-pay-debt-share-buybacks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Tue, 13 Oct 2026 10:23:07 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Standard Chartered adds Ripple USD custody, eyes LMAX collateral deal",
-      "link": "https://cointelegraph.com/news/standard-chartered-rlusd-custody-lmax-deal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Mon, 12 Oct 2026 09:30:57 +0000",
+      "title": "MediaMarktSaturn pulls Ledger products amid tampering reports",
+      "link": "https://cointelegraph.com/news/mediamarkt-pulls-ledger-wallet-security-incident?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Tue, 13 Oct 2026 10:09:01 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "South Korean bank launches Bitcoin-backed business loans: Report",
-      "link": "https://cointelegraph.com/news/south-korea-jeonbuk-bank-bitcoin-backed-business-loans?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Mon, 12 Oct 2026 08:45:58 +0000",
+      "title": "Bitcoin hits $84K resistance as Korean tech rout deepens KOSPI losses",
+      "link": "https://cointelegraph.com/markets/bitcoin-hits-84k-resistance-as-korea-tech-sell-off-sends-kospi-down-74?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Tue, 13 Oct 2026 09:42:00 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Global watchdog flags stablecoin risks, AI threats ahead of G20",
-      "link": "https://cointelegraph.com/news/fsb-stablecoin-ai-risks-g20-finance-meeting?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Mon, 12 Oct 2026 06:30:21 +0000",
+      "title": "Chinese fraud victims lose key court battle over 61,000 Bitcoin",
+      "link": "https://cointelegraph.com/news/uk-court-chinese-law-61k-bitcoin-fraud-victims?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Tue, 13 Oct 2026 09:03:06 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     }

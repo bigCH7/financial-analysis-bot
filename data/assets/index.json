@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-12T22:31:26.493812+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-10-12 22:23 UTC_",
+  "generated_at": "2026-10-13T20:39:01.826326+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-10-13 20:29 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,13 +9,13 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 82515.0,
+        "current_usd": 83120.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": -3.8,
-        "change_30d_pct": 6.8
+        "change_7d_pct": -2.83,
+        "change_30d_pct": 8.2
       },
       "indicators": {
-        "trend": "DOWNTREND",
+        "trend": "UPTREND",
         "momentum": "WEAK",
         "volatility": "NORMAL"
       },
@@ -23,9 +23,9 @@
         "verdict": "Constructive long-term setup",
         "band": "fair",
         "summary_line": "Fair - Balanced growth profile - Lower regulatory risk.",
-        "score": 66.9
+        "score": 69.5
       },
-      "updated_at": "2026-10-12T22:31:26.490942+00:00",
+      "updated_at": "2026-10-13T20:39:01.823543+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,23 +37,23 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 2486.0,
+        "current_usd": 2504.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": -8.27,
-        "change_30d_pct": -1.55
+        "change_7d_pct": -7.14,
+        "change_30d_pct": 1.12
       },
       "indicators": {
-        "trend": "UPTREND",
+        "trend": "DOWNTREND",
         "momentum": "WEAK",
         "volatility": "NORMAL"
       },
       "valuation": {
-        "verdict": "Constructive long-term setup",
-        "band": "fair",
-        "summary_line": "Fair - Strong growth profile - Lower regulatory risk.",
-        "score": 72.5
+        "verdict": "Undervalued / High-conviction zone",
+        "band": "undervalued",
+        "summary_line": "Undervalued - Strong growth profile - Lower regulatory risk.",
+        "score": 75.1
       },
-      "updated_at": "2026-10-12T22:31:26.491816+00:00",
+      "updated_at": "2026-10-13T20:39:01.824430+00:00",
       "source": {
         "short_term": "live"
       }
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-10-12T22:31:26.492190+00:00",
+      "updated_at": "2026-10-13T20:39:01.824785+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-10-12T22:31:26.492509+00:00",
+      "updated_at": "2026-10-13T20:39:01.825109+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-10-12T22:31:26.492869+00:00",
+      "updated_at": "2026-10-13T20:39:01.825414+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-10-12T22:31:26.493180+00:00",
+      "updated_at": "2026-10-13T20:39:01.825714+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -193,7 +193,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-10-12T22:31:26.493474+00:00",
+      "updated_at": "2026-10-13T20:39:01.826028+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -201,72 +201,72 @@
   ],
   "overview_news": [
     {
-      "title": "Palantir's Europe head warns the region is 'missing the boat' on AI just as it did with the internet",
-      "url": "https://www.coindesk.com/policy/2026/10/12/palantir-executive-warns-europe-is-missing-the-boat-on-ai-just-like-it-did-with-the-internet",
-      "published_at": "Mon, 12 Oct 2026 16:18:03 +0000",
+      "title": "Crypto exchange MNX takes on OKX, Bitget offering pre-IPO futures for AI giants",
+      "url": "https://www.coindesk.com/business/2026/10/13/new-crypto-exchange-takes-on-okx-bitget-with-unique-way-to-trade-ai-giants",
+      "published_at": "Tue, 13 Oct 2026 15:52:09 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Tom Lee sees $2 trillion wealth transfer fueling crypto demand as Bitmine buys more ether",
-      "url": "https://www.coindesk.com/business/2026/10/12/tom-lee-sees-usd2-trillion-wealth-transfer-fueling-crypto-demand-as-bitmine-buys-more-ether",
-      "published_at": "Mon, 12 Oct 2026 15:27:09 +0000",
+      "title": "UK crypto trader says almost $800,000 lost in knife assault as wrench attacks proliferate",
+      "url": "https://www.coindesk.com/policy/2026/10/13/why-self-custody-and-hardware-wallets-cannot-prevent-physical-crypto-extortion",
+      "published_at": "Tue, 13 Oct 2026 15:24:52 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Tokenized catastrophe bonds target the disaster-insurance gap",
-      "url": "https://www.coindesk.com/business/2026/10/12/tokenized-catastrophe-bonds-target-the-disaster-insurance-gap",
-      "published_at": "Mon, 12 Oct 2026 15:00:00 +0000",
+      "title": "South Korea blocks 27 crypto exchanges, including Bitmart and Kucoin",
+      "url": "https://www.coindesk.com/policy/2026/10/13/south-korea-blocks-27-crypto-exchanges-including-bitmart-and-kucoin",
+      "published_at": "Tue, 13 Oct 2026 11:58:04 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Standard Chartered offers RLUSD custody in Dubai and plans LMAX collateral link",
-      "url": "https://www.coindesk.com/business/2026/10/12/standard-chartered-offers-rlusd-custody-in-dubai-and-plans-lmax-collateral-link",
-      "published_at": "Mon, 12 Oct 2026 12:09:09 +0000",
+      "title": "Federated Hermes joins Wall Street's tokenization push with plans for first onchain fund shares",
+      "url": "https://www.coindesk.com/business/2026/10/13/federated-hermes-joins-wall-street-s-tokenization-push-with-plans-for-first-onchain-fund-shares",
+      "published_at": "Tue, 13 Oct 2026 11:56:04 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Ledger claims CryptoBilis cases are limited as up to $93 million is traced, $10 million frozen",
-      "url": "https://www.coindesk.com/tech/2026/10/12/ledger-claims-cryptobilis-cases-are-limited-as-up-to-usd93m-is-traced-usd10m-frozen",
-      "published_at": "Mon, 12 Oct 2026 12:01:53 +0000",
+      "title": "Stacks' STX, a Bitcoin layer-2 token, has surged by 50% in four weeks",
+      "url": "https://www.coindesk.com/daybook-us/2026/10/13/stacks-stx-a-bitcoin-layer-2-token-has-surged-by-50-in-four-weeks",
+      "published_at": "Tue, 13 Oct 2026 11:26:45 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin falls below $83,000 as dollar strength keeps markets on edge",
-      "url": "https://www.coindesk.com/markets/2026/10/12/bitcoin-holds-usd83-000-as-dollar-strength-keeps-markets-on-edge",
-      "published_at": "Mon, 12 Oct 2026 11:21:11 +0000",
+      "title": "Bitcoin, ether slip and rebound as South Korean stocks slide on AI-related concerns",
+      "url": "https://www.coindesk.com/markets/2026/10/13/bitcoin-ether-slip-and-rebound-as-south-korean-stocks-slide-on-ai-related-concerns",
+      "published_at": "Tue, 13 Oct 2026 11:06:39 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Global financial watchdog calls for cross-border information sharing, planning for stablecoin crisis",
-      "url": "https://www.coindesk.com/policy/2026/10/12/global-financial-watchdog-calls-for-cross-border-information-sharing-planning-for-stablecoin-crisis",
-      "published_at": "Mon, 12 Oct 2026 11:02:38 +0000",
+      "title": "Russia\u2019s largest bank Sberbank secures approval to trade crypto",
+      "url": "https://www.coindesk.com/business/2026/10/13/russia-s-largest-bank-sberbank-secures-approval-to-trade-crypto",
+      "published_at": "Tue, 13 Oct 2026 11:02:47 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "South Korea just got its first traditional bank loans backed by bitcoin",
-      "url": "https://www.coindesk.com/business/2026/10/12/south-korea-just-got-its-first-traditional-bank-loans-backed-by-bitcoin",
-      "published_at": "Mon, 12 Oct 2026 10:57:37 +0000",
+      "title": "Live updates: Bitcoin trading in tight range near $83,000 ahead of key U.S. inflation data",
+      "url": "https://www.coindesk.com/markets/2026/10/13/live-updates-bitcoin-whipsaws-between-usd81-000-and-usd84-000-as-altcoins-slide",
+      "published_at": "Tue, 13 Oct 2026 10:46:57 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "SWI raises $894 million to repurpose former FTX bitcoin miner Genesis Digital to AI",
-      "url": "https://www.coindesk.com/business/2026/10/12/swi-raises-usd894-million-to-repurpose-former-ftx-bitcoin-miner-genesis-digital-to-ai",
-      "published_at": "Mon, 12 Oct 2026 10:27:00 +0000",
+      "title": "Bitcoin diverges from South Korean stocks as AI concerns deepen the Kospi selloff",
+      "url": "https://www.coindesk.com/markets/2026/10/13/bitcoin-diverges-from-south-korean-stocks-as-ai-concerns-deepen-the-kospi-selloff",
+      "published_at": "Tue, 13 Oct 2026 10:38:51 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Altcoins rally on thin trading as bitcoin holds below $83,500",
-      "url": "https://www.coindesk.com/markets/2026/10/12/altcoins-rally-on-thin-trading-as-bitcoin-holds-near-usd84-000",
-      "published_at": "Mon, 12 Oct 2026 10:20:54 +0000",
+      "title": "Ledger says 'spy' chip inside CryptoBilis Ledger devices transmitted wallet keys over mobile network",
+      "url": "https://www.coindesk.com/tech/2026/10/13/ledger-says-spy-chip-inside-cryptobilis-ledger-devices-transmitted-wallet-keys-over-mobile-network",
+      "published_at": "Tue, 13 Oct 2026 09:27:47 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
