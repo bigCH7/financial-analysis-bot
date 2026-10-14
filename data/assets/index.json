@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-13T20:39:01.826326+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-10-13 20:29 UTC_",
+  "generated_at": "2026-10-14T19:19:23.566317+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-10-14 19:10 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,13 +9,13 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 83120.0,
+        "current_usd": 81731.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": -2.83,
-        "change_30d_pct": 8.2
+        "change_7d_pct": -1.86,
+        "change_30d_pct": 4.55
       },
       "indicators": {
-        "trend": "UPTREND",
+        "trend": "DOWNTREND",
         "momentum": "WEAK",
         "volatility": "NORMAL"
       },
@@ -23,9 +23,9 @@
         "verdict": "Constructive long-term setup",
         "band": "fair",
         "summary_line": "Fair - Balanced growth profile - Lower regulatory risk.",
-        "score": 69.5
+        "score": 69.6
       },
-      "updated_at": "2026-10-13T20:39:01.823543+00:00",
+      "updated_at": "2026-10-14T19:19:23.563511+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,23 +37,23 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 2504.0,
+        "current_usd": 2429.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": -7.14,
-        "change_30d_pct": 1.12
+        "change_7d_pct": -5.59,
+        "change_30d_pct": -3.39
       },
       "indicators": {
         "trend": "DOWNTREND",
-        "momentum": "WEAK",
+        "momentum": "STRONG",
         "volatility": "NORMAL"
       },
       "valuation": {
-        "verdict": "Undervalued / High-conviction zone",
-        "band": "undervalued",
-        "summary_line": "Undervalued - Strong growth profile - Lower regulatory risk.",
-        "score": 75.1
+        "verdict": "Constructive long-term setup",
+        "band": "fair",
+        "summary_line": "Fair - Strong growth profile - Lower regulatory risk.",
+        "score": 72.0
       },
-      "updated_at": "2026-10-13T20:39:01.824430+00:00",
+      "updated_at": "2026-10-14T19:19:23.564383+00:00",
       "source": {
         "short_term": "live"
       }
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-10-13T20:39:01.824785+00:00",
+      "updated_at": "2026-10-14T19:19:23.564732+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-10-13T20:39:01.825109+00:00",
+      "updated_at": "2026-10-14T19:19:23.565058+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-10-13T20:39:01.825414+00:00",
+      "updated_at": "2026-10-14T19:19:23.565384+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-10-13T20:39:01.825714+00:00",
+      "updated_at": "2026-10-14T19:19:23.565687+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -193,7 +193,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-10-13T20:39:01.826028+00:00",
+      "updated_at": "2026-10-14T19:19:23.565995+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -201,72 +201,72 @@
   ],
   "overview_news": [
     {
-      "title": "Crypto exchange MNX takes on OKX, Bitget offering pre-IPO futures for AI giants",
-      "url": "https://www.coindesk.com/business/2026/10/13/new-crypto-exchange-takes-on-okx-bitget-with-unique-way-to-trade-ai-giants",
-      "published_at": "Tue, 13 Oct 2026 15:52:09 +0000",
+      "title": "Kalshi CEO says state-led oversight of U.S. prediction markets would push them out",
+      "url": "https://www.coindesk.com/policy/2026/10/14/kalshi-ceo-says-state-led-oversight-of-u-s-prediction-markets-would-push-them-out",
+      "published_at": "Wed, 14 Oct 2026 16:34:53 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "UK crypto trader says almost $800,000 lost in knife assault as wrench attacks proliferate",
-      "url": "https://www.coindesk.com/policy/2026/10/13/why-self-custody-and-hardware-wallets-cannot-prevent-physical-crypto-extortion",
-      "published_at": "Tue, 13 Oct 2026 15:24:52 +0000",
+      "title": "AI agents make 138 million crypto payments as U.S. dominates spending on AI models",
+      "url": "https://www.coindesk.com/business/2026/10/14/ai-agents-make-138-million-crypto-payments-as-u-s-dominates-spending-on-ai-models",
+      "published_at": "Wed, 14 Oct 2026 15:35:36 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "South Korea blocks 27 crypto exchanges, including Bitmart and Kucoin",
-      "url": "https://www.coindesk.com/policy/2026/10/13/south-korea-blocks-27-crypto-exchanges-including-bitmart-and-kucoin",
-      "published_at": "Tue, 13 Oct 2026 11:58:04 +0000",
+      "title": "Crypto Long & Short: Why gold and bitcoin belong in the same portfolio",
+      "url": "https://www.coindesk.com/coindesk-indices/2026/10/14/crypto-long-and-short-why-gold-and-bitcoin-belong-in-the-same-portfolio",
+      "published_at": "Wed, 14 Oct 2026 15:05:15 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Federated Hermes joins Wall Street's tokenization push with plans for first onchain fund shares",
-      "url": "https://www.coindesk.com/business/2026/10/13/federated-hermes-joins-wall-street-s-tokenization-push-with-plans-for-first-onchain-fund-shares",
-      "published_at": "Tue, 13 Oct 2026 11:56:04 +0000",
+      "title": "EasyA hits $1.1 billion valuation, targets 2027 public listing and tokenized shares",
+      "url": "https://www.coindesk.com/business/2026/10/14/easya-hits-usd1-1-billion-valuation-targets-2027-public-listing-and-tokenized-shares",
+      "published_at": "Wed, 14 Oct 2026 14:49:32 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Stacks' STX, a Bitcoin layer-2 token, has surged by 50% in four weeks",
-      "url": "https://www.coindesk.com/daybook-us/2026/10/13/stacks-stx-a-bitcoin-layer-2-token-has-surged-by-50-in-four-weeks",
-      "published_at": "Tue, 13 Oct 2026 11:26:45 +0000",
+      "title": "BlackRock's crypto ETF assets surge 63% but remain far below 2025 peak",
+      "url": "https://www.coindesk.com/markets/2026/10/14/blackrock-s-crypto-etf-assets-surge-63-but-remain-far-below-2025-peak",
+      "published_at": "Wed, 14 Oct 2026 14:31:14 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin, ether slip and rebound as South Korean stocks slide on AI-related concerns",
-      "url": "https://www.coindesk.com/markets/2026/10/13/bitcoin-ether-slip-and-rebound-as-south-korean-stocks-slide-on-ai-related-concerns",
-      "published_at": "Tue, 13 Oct 2026 11:06:39 +0000",
+      "title": "Former FTX Europe chief targets U.S. tokenized stock trading with new SEC exemption",
+      "url": "https://www.coindesk.com/business/2026/10/14/former-ftx-europe-chief-targets-u-s-stock-tokenization-with-new-sec-exemption",
+      "published_at": "Wed, 14 Oct 2026 14:08:43 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Russia\u2019s largest bank Sberbank secures approval to trade crypto",
-      "url": "https://www.coindesk.com/business/2026/10/13/russia-s-largest-bank-sberbank-secures-approval-to-trade-crypto",
-      "published_at": "Tue, 13 Oct 2026 11:02:47 +0000",
+      "title": "America's growing digital economy requires power grid updates. Who will foot the bill?",
+      "url": "https://www.coindesk.com/opinion/2026/10/14/the-battle-over-the-ratepayer-protection-act-is-just-getting-started",
+      "published_at": "Wed, 14 Oct 2026 13:51:12 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Live updates: Bitcoin trading in tight range near $83,000 ahead of key U.S. inflation data",
-      "url": "https://www.coindesk.com/markets/2026/10/13/live-updates-bitcoin-whipsaws-between-usd81-000-and-usd84-000-as-altcoins-slide",
-      "published_at": "Tue, 13 Oct 2026 10:46:57 +0000",
+      "title": "Kraken parent Payward to become first crypto firm to buy a EU bank as it expands into deposits, lending",
+      "url": "https://www.coindesk.com/business/2026/10/14/kraken-parent-payward-to-become-first-crypto-firm-to-buy-a-eu-bank-as-it-expands-into-deposits-lending",
+      "published_at": "Wed, 14 Oct 2026 13:07:45 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin diverges from South Korean stocks as AI concerns deepen the Kospi selloff",
-      "url": "https://www.coindesk.com/markets/2026/10/13/bitcoin-diverges-from-south-korean-stocks-as-ai-concerns-deepen-the-kospi-selloff",
-      "published_at": "Tue, 13 Oct 2026 10:38:51 +0000",
+      "title": "U.S. September CPI comes in hot, sending bitcoin sharply lower",
+      "url": "https://www.coindesk.com/markets/2026/10/14/u-s-september-cpi-comes-in-hot-sending-bitcoin-sharply-lower",
+      "published_at": "Wed, 14 Oct 2026 12:33:56 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Ledger says 'spy' chip inside CryptoBilis Ledger devices transmitted wallet keys over mobile network",
-      "url": "https://www.coindesk.com/tech/2026/10/13/ledger-says-spy-chip-inside-cryptobilis-ledger-devices-transmitted-wallet-keys-over-mobile-network",
-      "published_at": "Tue, 13 Oct 2026 09:27:47 +0000",
+      "title": "Here's how analysts see U.S. inflation influencing bitcoin",
+      "url": "https://www.coindesk.com/daybook-us/2026/10/14/here-s-how-analysts-see-u-s-inflation-influencing-bitcoin",
+      "published_at": "Wed, 14 Oct 2026 11:15:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
