@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-15T19:01:46.255752+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-10-15 18:52 UTC_",
+  "generated_at": "2026-10-16T18:46:22.281027+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-10-16 18:37 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,10 +9,10 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 82305.0,
+        "current_usd": 81221.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": 0.76,
-        "change_30d_pct": 8.88
+        "change_7d_pct": -1.63,
+        "change_30d_pct": 6.66
       },
       "indicators": {
         "trend": "DOWNTREND",
@@ -23,9 +23,9 @@
         "verdict": "Constructive long-term setup",
         "band": "fair",
         "summary_line": "Fair - Balanced growth profile - Lower regulatory risk.",
-        "score": 72.1
+        "score": 68.4
       },
-      "updated_at": "2026-10-15T19:01:46.252502+00:00",
+      "updated_at": "2026-10-16T18:46:22.278350+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,10 +37,10 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 2447.0,
+        "current_usd": 2411.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": -1.02,
-        "change_30d_pct": 2.08
+        "change_7d_pct": -3.0,
+        "change_30d_pct": -0.2
       },
       "indicators": {
         "trend": "DOWNTREND",
@@ -48,12 +48,12 @@
         "volatility": "NORMAL"
       },
       "valuation": {
-        "verdict": "Undervalued / High-conviction zone",
-        "band": "undervalued",
-        "summary_line": "Undervalued - Strong growth profile - Lower regulatory risk.",
-        "score": 79.0
+        "verdict": "Constructive long-term setup",
+        "band": "fair",
+        "summary_line": "Fair - Strong growth profile - Lower regulatory risk.",
+        "score": 71.8
       },
-      "updated_at": "2026-10-15T19:01:46.253533+00:00",
+      "updated_at": "2026-10-16T18:46:22.279103+00:00",
       "source": {
         "short_term": "live"
       }
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-10-15T19:01:46.253939+00:00",
+      "updated_at": "2026-10-16T18:46:22.279463+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-10-15T19:01:46.254307+00:00",
+      "updated_at": "2026-10-16T18:46:22.279795+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-10-15T19:01:46.254705+00:00",
+      "updated_at": "2026-10-16T18:46:22.280123+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-10-15T19:01:46.255051+00:00",
+      "updated_at": "2026-10-16T18:46:22.280432+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -193,7 +193,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-10-15T19:01:46.255417+00:00",
+      "updated_at": "2026-10-16T18:46:22.280730+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -201,72 +201,72 @@
   ],
   "overview_news": [
     {
-      "title": "At the White House, crypto policy vacancy looms large",
-      "url": "https://www.coindesk.com/news-analysis/2026/10/15/at-the-white-house-crypto-policy-vacancy-looms-large",
-      "published_at": "Thu, 15 Oct 2026 18:48:02 +0000",
+      "title": "Big Tech's AI auditors will only see what they're shown",
+      "url": "https://www.coindesk.com/opinion/2026/10/16/big-tech-s-ai-auditors-will-only-see-what-they-re-shown",
+      "published_at": "Fri, 16 Oct 2026 14:58:22 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Crypto for Advisors: Wall Street is done waiting on Congress for crypto rules",
-      "url": "https://www.coindesk.com/coindesk-indices/2026/10/15/crypto-for-advisors-wall-street-is-done-waiting-on-congress-for-crypto-rules",
-      "published_at": "Thu, 15 Oct 2026 15:00:00 +0000",
+      "title": "Traders will soon be able to bet on whether Coinbase, Robinhood and Marathon will hit their targets",
+      "url": "https://www.coindesk.com/daybook-us/2026/10/16/traders-will-soon-be-able-to-bet-on-whether-coinbase-robinhood-and-marathon-will-hit-their-targets",
+      "published_at": "Fri, 16 Oct 2026 11:15:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "How Brooklyn prosecutors and the FBI took down a massive crypto fraud network targeting Russian speakers",
-      "url": "https://www.coindesk.com/business/2026/10/15/how-brooklyn-prosecutors-and-the-fbi-took-down-a-massive-crypto-fraud-network-targeting-russian-speakers",
-      "published_at": "Thu, 15 Oct 2026 12:35:24 +0000",
+      "title": "Circle targets 40 new markets as stablecoin demand grows globally",
+      "url": "https://www.coindesk.com/business/2026/10/16/circle-targets-40-new-markets-as-stablecoin-demand-grows-globally",
+      "published_at": "Fri, 16 Oct 2026 10:54:35 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Under pressure, Ledger unveils plan to turn its crypto hardware wallet into a smartphone",
-      "url": "https://www.coindesk.com/tech/2026/10/15/under-pressure-ledger-unveils-plan-to-turn-its-crypto-hardware-wallet-into-a-smartphone",
-      "published_at": "Thu, 15 Oct 2026 12:00:00 +0000",
+      "title": "Quantum Alliance forms amid warnings 6.4 million bitcoin face future quantum threat",
+      "url": "https://www.coindesk.com/tech/2026/10/16/experts-agree-quantum-computers-could-put-satoshi-s-bitcoin-at-risk-but-not-on-what-s-next",
+      "published_at": "Fri, 16 Oct 2026 10:52:26 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin, copper, stocks, yields all fall; gold rises",
-      "url": "https://www.coindesk.com/daybook-us/2026/10/15/bitcoin-copper-stocks-yields-all-fall-gold-rises",
-      "published_at": "Thu, 15 Oct 2026 11:15:00 +0000",
+      "title": "Tokenized Tesla surges as Elon Musk unveils SpaceX-powered flying Roadster prototype",
+      "url": "https://www.coindesk.com/business/2026/10/16/elon-musk-s-flying-roadster-reveal-sent-tesla-crypto-trading-into-overdrive-while-stock-markets-were-closed",
+      "published_at": "Fri, 16 Oct 2026 10:48:49 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Altcoins lead crypto declines as Asian stocks drop; bitcoin little changed since midnight",
-      "url": "https://www.coindesk.com/markets/2026/10/15/bitcoin-holds-above-usd80-000-as-an-asian-stock-rout-drags-altcoins-lower",
-      "published_at": "Thu, 15 Oct 2026 10:52:11 +0000",
+      "title": "Altcoins outpace bitcoin as celestia jumps 16%, Warsh silent on interest-rate plans",
+      "url": "https://www.coindesk.com/markets/2026/10/16/altcoins-outpace-bitcoin-as-celestia-jumps-16-warsh-silent-on-interest-rate-plans",
+      "published_at": "Fri, 16 Oct 2026 10:41:03 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Live updates: Bitcoin bounces after first fall below $80,000 in one month",
-      "url": "https://www.coindesk.com/business/2026/10/15/live-updates-bitcoin-back-under-usd81-000-as-ai-selloff-worsens",
-      "published_at": "Thu, 15 Oct 2026 10:16:15 +0000",
+      "title": "Scammer gets scammed in Ledger spy-chip exploit, loses almost $5 million in bitcoin",
+      "url": "https://www.coindesk.com/business/2026/10/16/scammer-gets-scammed-in-ledger-spy-chip-exploit-loses-almost-usd5-million-in-bitcoin",
+      "published_at": "Fri, 16 Oct 2026 10:24:30 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Hyperliquid founder wants U.S. oversight of trading platforms, not his blockchain",
-      "url": "https://www.coindesk.com/policy/2026/10/15/hyperliquid-founder-wants-u-s-oversight-of-trading-platforms-not-his-blockchain",
-      "published_at": "Thu, 15 Oct 2026 10:00:56 +0000",
+      "title": "Live updates: Crypto gives up some ground as AI selloff picks up steam",
+      "url": "https://www.coindesk.com/markets/2026/10/16/live-updates-bitcoin-back-above-usd82-000-zec-jumps-11-as-etf-outflows-continue",
+      "published_at": "Fri, 16 Oct 2026 09:48:14 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Australia\u2019s financial watchdog seeks stiffer rules for crypto exchanges ahead of licensing deadline",
-      "url": "https://www.coindesk.com/policy/2026/10/15/australia-s-financial-watchdog-seeks-stiffer-rules-for-crypto-exchanges-ahead-of-licensing-deadline",
-      "published_at": "Thu, 15 Oct 2026 09:53:37 +0000",
+      "title": "U.S. judge rejects Gemini\u2019s appeal to void $5 million settlement despite CFTC backing",
+      "url": "https://www.coindesk.com/policy/2026/10/16/u-s-judge-rejects-gemini-s-appeal-to-void-usd5-million-settlement-despite-cftc-backing",
+      "published_at": "Fri, 16 Oct 2026 09:36:21 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Hex founder Richard Heart arrested in Istanbul, Turkish media report",
-      "url": "https://www.coindesk.com/policy/2026/10/15/hex-founder-richard-heart-arrested-in-istanbul-turkish-media-report",
-      "published_at": "Thu, 15 Oct 2026 09:20:57 +0000",
+      "title": "MSCI approves rules that could eject Strategy, Metaplanet from equity indexes",
+      "url": "https://www.coindesk.com/markets/2026/10/16/msci-approves-rules-that-could-eject-strategy-metaplanet-from-equity-indexes",
+      "published_at": "Fri, 16 Oct 2026 08:34:48 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }

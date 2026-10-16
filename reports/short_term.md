@@ -1,12 +1,12 @@
 # Short-Term Crypto Tactical Brief
 
-_Generated automatically - 2026-10-15 19:00 UTC_
+_Generated automatically - 2026-10-16 18:44 UTC_
 
 ## Bitcoin (BTC)
 
-- **Current price:** $82,305
-- **7D change:** 0.76%
-- **30D change:** 8.88%
+- **Current price:** $81,221
+- **7D change:** -1.63%
+- **30D change:** 6.66%
 - **Trend:** **DOWNTREND**
 - **Momentum:** **WEAK**
 - **Volatility:** **NORMAL**
@@ -15,64 +15,17 @@ _Generated automatically - 2026-10-15 19:00 UTC_
 ### Status Pulse (30-Second Context)
 
 - **Tactical regime:** Trend-Following
-- **The vibe:** Mixed tape - wait for confirmation before sizing up.
+- **The vibe:** Persistent sell pressure - avoid fighting momentum.
 
 ### Momentum Engine
 
-- **Speedometer (EMA20/EMA50):** $81,618 / $81,966.
-- **Velocity (ROC 6h / 24h):** +2.24% / +0.80%.
-- **Stamina meter (RSI 14):** 56.1
+- **Speedometer (EMA20/EMA50):** $81,776 / $81,946.
+- **Velocity (ROC 6h / 24h):** -0.92% / -1.35%.
+- **Stamina meter (RSI 14):** 34.0
 
 ### Truth Layer (Order Flow & Volume)
 
-- **CVD proxy:** -300.45%.
-- **Fakeout warning:** Price is rising but CVD proxy is not confirming (low-liquidity pump risk).
-- **Order-book imbalance (OBI):** unavailable.
-- **Depth note:** Order book unavailable.
-
-### Trap Detector (Leverage & Liquidity)
-
-- **Funding rate (Greed Tax):** N/A (source: unavailable).
-- **Leverage risk:** Funding unavailable; leverage trap signal is limited.
-- **Liquidity cluster note:** Nearest large walls are used as tactical zones when available.
-
-### Tactical Levels
-
-- **Battle Zone (Support):** $81,604
-- **Target (Resistance):** $83,691
-- **Stop-loss (ATR proxy):** $81,333
-
-### Final Entry Signal
-
-- **Action:** Fakeout warning
-- **Validation chain:** Trend -> CVD -> Order Book -> Leverage trap.
-
----
-
-## Ethereum (ETH)
-
-- **Current price:** $2,447
-- **7D change:** -1.02%
-- **30D change:** 2.08%
-- **Trend:** **DOWNTREND**
-- **Momentum:** **WEAK**
-- **Volatility:** **NORMAL**
-- **Data source:** live
-
-### Status Pulse (30-Second Context)
-
-- **Tactical regime:** Trend-Following
-- **The vibe:** Mixed tape - wait for confirmation before sizing up.
-
-### Momentum Engine
-
-- **Speedometer (EMA20/EMA50):** $2,405 / $2,431.
-- **Velocity (ROC 6h / 24h):** +4.24% / +0.74%.
-- **Stamina meter (RSI 14):** 64.4
-
-### Truth Layer (Order Flow & Volume)
-
-- **CVD proxy:** +415.34%.
+- **CVD proxy:** -613.05%.
 - **Validation:** Volume proxy is broadly aligned with price direction.
 - **Order-book imbalance (OBI):** unavailable.
 - **Depth note:** Order book unavailable.
@@ -85,9 +38,56 @@ _Generated automatically - 2026-10-15 19:00 UTC_
 
 ### Tactical Levels
 
-- **Battle Zone (Support):** $2,420
+- **Battle Zone (Support):** $81,221
+- **Target (Resistance):** $83,691
+- **Stop-loss (ATR proxy):** $80,981
+
+### Final Entry Signal
+
+- **Action:** Neutral / wait
+- **Validation chain:** Trend -> CVD -> Order Book -> Leverage trap.
+
+---
+
+## Ethereum (ETH)
+
+- **Current price:** $2,411
+- **7D change:** -3.00%
+- **30D change:** -0.20%
+- **Trend:** **DOWNTREND**
+- **Momentum:** **WEAK**
+- **Volatility:** **NORMAL**
+- **Data source:** live
+
+### Status Pulse (30-Second Context)
+
+- **Tactical regime:** Trend-Following
+- **The vibe:** Persistent sell pressure - avoid fighting momentum.
+
+### Momentum Engine
+
+- **Speedometer (EMA20/EMA50):** $2,438 / $2,439.
+- **Velocity (ROC 6h / 24h):** -2.02% / -1.55%.
+- **Stamina meter (RSI 14):** 36.9
+
+### Truth Layer (Order Flow & Volume)
+
+- **CVD proxy:** +333.74%.
+- **Validation:** Volume proxy is broadly aligned with price direction.
+- **Order-book imbalance (OBI):** unavailable.
+- **Depth note:** Order book unavailable.
+
+### Trap Detector (Leverage & Liquidity)
+
+- **Funding rate (Greed Tax):** N/A (source: unavailable).
+- **Leverage risk:** Funding unavailable; leverage trap signal is limited.
+- **Liquidity cluster note:** Nearest large walls are used as tactical zones when available.
+
+### Tactical Levels
+
+- **Battle Zone (Support):** $2,411
 - **Target (Resistance):** $2,535
-- **Stop-loss (ATR proxy):** $2,408
+- **Stop-loss (ATR proxy):** $2,401
 
 ### Final Entry Signal
 
