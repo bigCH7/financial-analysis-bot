@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-16T18:46:22.281027+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-10-16 18:37 UTC_",
+  "generated_at": "2026-10-17T17:54:47.941212+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-10-17 17:45 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,10 +9,10 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 81221.0,
+        "current_usd": 81247.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": -1.63,
-        "change_30d_pct": 6.66
+        "change_7d_pct": -2.01,
+        "change_30d_pct": 6.38
       },
       "indicators": {
         "trend": "DOWNTREND",
@@ -22,10 +22,10 @@
       "valuation": {
         "verdict": "Constructive long-term setup",
         "band": "fair",
-        "summary_line": "Fair - Balanced growth profile - Lower regulatory risk.",
-        "score": 68.4
+        "summary_line": "Fair - Weak growth profile - Lower regulatory risk.",
+        "score": 62.7
       },
-      "updated_at": "2026-10-16T18:46:22.278350+00:00",
+      "updated_at": "2026-10-17T17:54:47.938620+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,10 +37,10 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 2411.0,
+        "current_usd": 2406.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": -3.0,
-        "change_30d_pct": -0.2
+        "change_7d_pct": -3.91,
+        "change_30d_pct": -1.63
       },
       "indicators": {
         "trend": "DOWNTREND",
@@ -50,10 +50,10 @@
       "valuation": {
         "verdict": "Constructive long-term setup",
         "band": "fair",
-        "summary_line": "Fair - Strong growth profile - Lower regulatory risk.",
-        "score": 71.8
+        "summary_line": "Fair - Balanced growth profile - Lower regulatory risk.",
+        "score": 64.5
       },
-      "updated_at": "2026-10-16T18:46:22.279103+00:00",
+      "updated_at": "2026-10-17T17:54:47.939480+00:00",
       "source": {
         "short_term": "live"
       }
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-10-16T18:46:22.279463+00:00",
+      "updated_at": "2026-10-17T17:54:47.939843+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-10-16T18:46:22.279795+00:00",
+      "updated_at": "2026-10-17T17:54:47.940125+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-10-16T18:46:22.280123+00:00",
+      "updated_at": "2026-10-17T17:54:47.940398+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-10-16T18:46:22.280432+00:00",
+      "updated_at": "2026-10-17T17:54:47.940681+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -193,13 +193,55 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-10-16T18:46:22.280730+00:00",
+      "updated_at": "2026-10-17T17:54:47.940958+00:00",
       "source": {
         "short_term": "unavailable"
       }
     }
   ],
   "overview_news": [
+    {
+      "title": "Goldman, Wells Fargo, Morgan Stanley see tokenization as a growth play, not a threat",
+      "url": "https://www.coindesk.com/business/2026/10/17/goldman-wells-fargo-morgan-stanley-see-tokenization-as-a-growth-play-not-a-threat",
+      "published_at": "Sat, 17 Oct 2026 17:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Citrini sees a tokenization boom. The harder question is who profits",
+      "url": "https://www.coindesk.com/business/2026/10/17/citrini-sees-a-tokenization-boom-the-harder-question-is-who-profits",
+      "published_at": "Sat, 17 Oct 2026 15:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Polygon sees Coinme acquisition as entry to payments sector dominated by Visa, Stripe",
+      "url": "https://www.coindesk.com/business/2026/10/17/polygon-sees-coinme-acquisition-as-entry-to-payments-sector-dominated-by-visa-stripe",
+      "published_at": "Sat, 17 Oct 2026 14:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Banks could slow stablecoin growth by paying savers more, BIS paper finds",
+      "url": "https://www.coindesk.com/business/2026/10/14/banks-could-slow-stablecoin-growth-by-paying-savers-more-bis-paper-finds",
+      "published_at": "Sat, 17 Oct 2026 12:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "\u2018Wow, it\u2019s a real discovery\u2019: Claude cracks a 25-year NSA number mystery",
+      "url": "https://www.coindesk.com/tech/2026/10/17/wow-it-s-a-real-discovery-claude-cracks-a-25-year-nsa-number-mystery",
+      "published_at": "Sat, 17 Oct 2026 06:39:48 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Satoshi-era bitcoin faces a bigger quantum threat after Google\u2019s new Willow breakthrough",
+      "url": "https://www.coindesk.com/tech/2026/10/16/satoshi-era-bitcoin-faces-a-bigger-quantum-threat-after-google-s-new-willow-breakthrough",
+      "published_at": "Sat, 17 Oct 2026 02:30:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
     {
       "title": "Big Tech's AI auditors will only see what they're shown",
       "url": "https://www.coindesk.com/opinion/2026/10/16/big-tech-s-ai-auditors-will-only-see-what-they-re-shown",
@@ -225,48 +267,6 @@
       "title": "Quantum Alliance forms amid warnings 6.4 million bitcoin face future quantum threat",
       "url": "https://www.coindesk.com/tech/2026/10/16/experts-agree-quantum-computers-could-put-satoshi-s-bitcoin-at-risk-but-not-on-what-s-next",
       "published_at": "Fri, 16 Oct 2026 10:52:26 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Tokenized Tesla surges as Elon Musk unveils SpaceX-powered flying Roadster prototype",
-      "url": "https://www.coindesk.com/business/2026/10/16/elon-musk-s-flying-roadster-reveal-sent-tesla-crypto-trading-into-overdrive-while-stock-markets-were-closed",
-      "published_at": "Fri, 16 Oct 2026 10:48:49 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Altcoins outpace bitcoin as celestia jumps 16%, Warsh silent on interest-rate plans",
-      "url": "https://www.coindesk.com/markets/2026/10/16/altcoins-outpace-bitcoin-as-celestia-jumps-16-warsh-silent-on-interest-rate-plans",
-      "published_at": "Fri, 16 Oct 2026 10:41:03 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Scammer gets scammed in Ledger spy-chip exploit, loses almost $5 million in bitcoin",
-      "url": "https://www.coindesk.com/business/2026/10/16/scammer-gets-scammed-in-ledger-spy-chip-exploit-loses-almost-usd5-million-in-bitcoin",
-      "published_at": "Fri, 16 Oct 2026 10:24:30 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Live updates: Crypto gives up some ground as AI selloff picks up steam",
-      "url": "https://www.coindesk.com/markets/2026/10/16/live-updates-bitcoin-back-above-usd82-000-zec-jumps-11-as-etf-outflows-continue",
-      "published_at": "Fri, 16 Oct 2026 09:48:14 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "U.S. judge rejects Gemini\u2019s appeal to void $5 million settlement despite CFTC backing",
-      "url": "https://www.coindesk.com/policy/2026/10/16/u-s-judge-rejects-gemini-s-appeal-to-void-usd5-million-settlement-despite-cftc-backing",
-      "published_at": "Fri, 16 Oct 2026 09:36:21 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "MSCI approves rules that could eject Strategy, Metaplanet from equity indexes",
-      "url": "https://www.coindesk.com/markets/2026/10/16/msci-approves-rules-that-could-eject-strategy-metaplanet-from-equity-indexes",
-      "published_at": "Fri, 16 Oct 2026 08:34:48 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
