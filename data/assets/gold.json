@@ -4,7 +4,7 @@
   "symbol": "GC=F",
   "market_type": "traditional",
   "details_page": "asset.html?asset=gold",
-  "updated_at": "2026-10-17T17:54:47.940681+00:00",
+  "updated_at": "2026-10-18T17:59:43.305639+00:00",
   "about": {
     "what_it_is": "GC=F tracks front-month COMEX gold futures pricing.",
     "what_it_represents": "It represents market expectations for gold as a store-of-value and macro hedge.",
@@ -13,7 +13,7 @@
   },
   "source": {
     "short_term": "unavailable",
-    "news_generated_at": "2026-10-17 17:53 UTC"
+    "news_generated_at": "2026-10-18 17:58 UTC"
   },
   "price": {
     "current_usd": null,
@@ -39,13 +39,6 @@
       "title": "Goldman, Wells Fargo, Morgan Stanley see tokenization as a growth play, not a threat",
       "url": "https://www.coindesk.com/business/2026/10/17/goldman-wells-fargo-morgan-stanley-see-tokenization-as-a-growth-play-not-a-threat",
       "published_at": "Sat, 17 Oct 2026 17:00:00 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitcoin, copper, stocks, yields all fall; gold rises",
-      "url": "https://www.coindesk.com/daybook-us/2026/10/15/bitcoin-copper-stocks-yields-all-fall-gold-rises",
-      "published_at": "Thu, 15 Oct 2026 11:15:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }

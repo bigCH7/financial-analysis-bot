@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-17T17:54:47.941212+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-10-17 17:45 UTC_",
+  "generated_at": "2026-10-18T17:59:43.306282+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-10-18 17:50 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,10 +9,10 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 81247.0,
+        "current_usd": 81105.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": -2.01,
-        "change_30d_pct": 6.38
+        "change_7d_pct": -3.09,
+        "change_30d_pct": 0.29
       },
       "indicators": {
         "trend": "DOWNTREND",
@@ -23,9 +23,9 @@
         "verdict": "Constructive long-term setup",
         "band": "fair",
         "summary_line": "Fair - Weak growth profile - Lower regulatory risk.",
-        "score": 62.7
+        "score": 62.9
       },
-      "updated_at": "2026-10-17T17:54:47.938620+00:00",
+      "updated_at": "2026-10-18T17:59:43.303598+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,10 +37,10 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 2406.0,
+        "current_usd": 2367.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": -3.91,
-        "change_30d_pct": -1.63
+        "change_7d_pct": -6.6,
+        "change_30d_pct": -9.35
       },
       "indicators": {
         "trend": "DOWNTREND",
@@ -51,9 +51,9 @@
         "verdict": "Constructive long-term setup",
         "band": "fair",
         "summary_line": "Fair - Balanced growth profile - Lower regulatory risk.",
-        "score": 64.5
+        "score": 64.8
       },
-      "updated_at": "2026-10-17T17:54:47.939480+00:00",
+      "updated_at": "2026-10-18T17:59:43.304300+00:00",
       "source": {
         "short_term": "live"
       }
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-10-17T17:54:47.939843+00:00",
+      "updated_at": "2026-10-18T17:59:43.304693+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-10-17T17:54:47.940125+00:00",
+      "updated_at": "2026-10-18T17:59:43.305024+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-10-17T17:54:47.940398+00:00",
+      "updated_at": "2026-10-18T17:59:43.305323+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-10-17T17:54:47.940681+00:00",
+      "updated_at": "2026-10-18T17:59:43.305639+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -193,13 +193,69 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-10-17T17:54:47.940958+00:00",
+      "updated_at": "2026-10-18T17:59:43.305948+00:00",
       "source": {
         "short_term": "unavailable"
       }
     }
   ],
   "overview_news": [
+    {
+      "title": "Wall Street freaked out Friday. VIX and bitcoin say the fear may fade Monday.",
+      "url": "https://www.coindesk.com/markets/2026/10/18/wall-street-freaked-out-friday-vix-and-bitcoin-say-it-may-not-last",
+      "published_at": "Sun, 18 Oct 2026 16:33:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Latvia eyes crypto tax payments in 2027 as parliament overhauls crypto taxation",
+      "url": "https://www.coindesk.com/policy/2026/10/18/latvia-eyes-crypto-tax-payments-in-2027-as-parliament-overhauls-crypto-taxation",
+      "published_at": "Sun, 18 Oct 2026 16:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Stablecoin supply stalls, but payments jump 45% as Visa, Mastercard and Stripe connect crypto to cash",
+      "url": "https://www.coindesk.com/business/2026/10/18/stablecoin-supply-stalls-but-payments-jump-45-as-visa-mastercard-and-stripe-connect-crypto-to-cash",
+      "published_at": "Sun, 18 Oct 2026 14:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Bitcoin\u2019s $100,000 year-end hope divides analysts as inflation clouds outlook",
+      "url": "https://www.coindesk.com/markets/2026/10/18/bitcoin-s-usd100-000-year-end-hope-divides-analysts-as-inflation-clouds-outlook",
+      "published_at": "Sun, 18 Oct 2026 13:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Crypto audits give investors false sense of security as Q3 hacks cost $1.18 billion, Hacken says",
+      "url": "https://www.coindesk.com/tech/2026/10/18/crypto-audits-give-investors-false-sense-of-security-as-q3-hacks-cost-usd1-18-billion-hacken-says",
+      "published_at": "Sun, 18 Oct 2026 13:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Crypto exchanges Binance, Coinbase join West Africa scam sweep that flagged $11 million",
+      "url": "https://www.coindesk.com/business/2026/10/14/crypto-exchanges-binance-coinbase-join-west-africa-scam-sweep-that-flagged-usd11-million",
+      "published_at": "Sun, 18 Oct 2026 12:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Chip-stock bets lost $52 million in 10 minutes with Wall Street shut",
+      "url": "https://www.coindesk.com/markets/2026/10/18/chip-stock-bets-lost-usd52-million-in-10-minutes-with-wall-street-shut",
+      "published_at": "Sun, 18 Oct 2026 07:13:32 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Circle defends USDC economics as stablecoin rivals court its partners with bigger cut",
+      "url": "https://www.coindesk.com/business/2026/10/17/circle-defends-usdc-economics-as-stablecoin-rivals-court-its-partners-with-bigger-cut",
+      "published_at": "Sun, 18 Oct 2026 01:06:35 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
     {
       "title": "Goldman, Wells Fargo, Morgan Stanley see tokenization as a growth play, not a threat",
       "url": "https://www.coindesk.com/business/2026/10/17/goldman-wells-fargo-morgan-stanley-see-tokenization-as-a-growth-play-not-a-threat",
@@ -211,62 +267,6 @@
       "title": "Citrini sees a tokenization boom. The harder question is who profits",
       "url": "https://www.coindesk.com/business/2026/10/17/citrini-sees-a-tokenization-boom-the-harder-question-is-who-profits",
       "published_at": "Sat, 17 Oct 2026 15:00:00 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Polygon sees Coinme acquisition as entry to payments sector dominated by Visa, Stripe",
-      "url": "https://www.coindesk.com/business/2026/10/17/polygon-sees-coinme-acquisition-as-entry-to-payments-sector-dominated-by-visa-stripe",
-      "published_at": "Sat, 17 Oct 2026 14:00:00 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Banks could slow stablecoin growth by paying savers more, BIS paper finds",
-      "url": "https://www.coindesk.com/business/2026/10/14/banks-could-slow-stablecoin-growth-by-paying-savers-more-bis-paper-finds",
-      "published_at": "Sat, 17 Oct 2026 12:00:00 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "\u2018Wow, it\u2019s a real discovery\u2019: Claude cracks a 25-year NSA number mystery",
-      "url": "https://www.coindesk.com/tech/2026/10/17/wow-it-s-a-real-discovery-claude-cracks-a-25-year-nsa-number-mystery",
-      "published_at": "Sat, 17 Oct 2026 06:39:48 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Satoshi-era bitcoin faces a bigger quantum threat after Google\u2019s new Willow breakthrough",
-      "url": "https://www.coindesk.com/tech/2026/10/16/satoshi-era-bitcoin-faces-a-bigger-quantum-threat-after-google-s-new-willow-breakthrough",
-      "published_at": "Sat, 17 Oct 2026 02:30:00 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Big Tech's AI auditors will only see what they're shown",
-      "url": "https://www.coindesk.com/opinion/2026/10/16/big-tech-s-ai-auditors-will-only-see-what-they-re-shown",
-      "published_at": "Fri, 16 Oct 2026 14:58:22 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Traders will soon be able to bet on whether Coinbase, Robinhood and Marathon will hit their targets",
-      "url": "https://www.coindesk.com/daybook-us/2026/10/16/traders-will-soon-be-able-to-bet-on-whether-coinbase-robinhood-and-marathon-will-hit-their-targets",
-      "published_at": "Fri, 16 Oct 2026 11:15:00 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Circle targets 40 new markets as stablecoin demand grows globally",
-      "url": "https://www.coindesk.com/business/2026/10/16/circle-targets-40-new-markets-as-stablecoin-demand-grows-globally",
-      "published_at": "Fri, 16 Oct 2026 10:54:35 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Quantum Alliance forms amid warnings 6.4 million bitcoin face future quantum threat",
-      "url": "https://www.coindesk.com/tech/2026/10/16/experts-agree-quantum-computers-could-put-satoshi-s-bitcoin-at-risk-but-not-on-what-s-next",
-      "published_at": "Fri, 16 Oct 2026 10:52:26 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
