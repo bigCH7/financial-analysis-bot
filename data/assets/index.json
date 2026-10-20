@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-19T20:31:13.207765+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-10-19 20:22 UTC_",
+  "generated_at": "2026-10-20T19:04:12.537934+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-10-20 18:55 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,10 +9,10 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 81948.0,
+        "current_usd": 82471.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": 0.19,
-        "change_30d_pct": 0.88
+        "change_7d_pct": -0.78,
+        "change_30d_pct": 1.6
       },
       "indicators": {
         "trend": "UPTREND",
@@ -23,9 +23,9 @@
         "verdict": "Constructive long-term setup",
         "band": "fair",
         "summary_line": "Fair - Balanced growth profile - Lower regulatory risk.",
-        "score": 68.1
+        "score": 67.8
       },
-      "updated_at": "2026-10-19T20:31:13.204819+00:00",
+      "updated_at": "2026-10-20T19:04:12.534926+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,23 +37,23 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 2399.0,
+        "current_usd": 2437.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": -1.9,
-        "change_30d_pct": -8.84
+        "change_7d_pct": -2.4,
+        "change_30d_pct": -7.87
       },
       "indicators": {
-        "trend": "DOWNTREND",
-        "momentum": "STRONG",
+        "trend": "UPTREND",
+        "momentum": "WEAK",
         "volatility": "NORMAL"
       },
       "valuation": {
         "verdict": "Constructive long-term setup",
         "band": "fair",
         "summary_line": "Fair - Strong growth profile - Lower regulatory risk.",
-        "score": 68.2
+        "score": 69.2
       },
-      "updated_at": "2026-10-19T20:31:13.205766+00:00",
+      "updated_at": "2026-10-20T19:04:12.535829+00:00",
       "source": {
         "short_term": "live"
       }
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-10-19T20:31:13.206130+00:00",
+      "updated_at": "2026-10-20T19:04:12.536195+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-10-19T20:31:13.206467+00:00",
+      "updated_at": "2026-10-20T19:04:12.536671+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-10-19T20:31:13.206769+00:00",
+      "updated_at": "2026-10-20T19:04:12.537031+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-10-19T20:31:13.207061+00:00",
+      "updated_at": "2026-10-20T19:04:12.537315+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -193,7 +193,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-10-19T20:31:13.207376+00:00",
+      "updated_at": "2026-10-20T19:04:12.537651+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -201,72 +201,72 @@
   ],
   "overview_news": [
     {
-      "title": "Tether: Senator's investigation misses positive work that's led to lower Iran volumes",
-      "url": "https://www.coindesk.com/policy/2026/10/19/tether-senator-s-investigation-misses-positive-work-that-s-led-to-lower-iran-volumes",
-      "published_at": "Mon, 19 Oct 2026 20:21:13 +0000",
+      "title": "OKX-ICE\u2019s Andrew Cuomo calls issuer objections a \u2018natural response\u2019 to tokenized stock plans",
+      "url": "https://www.coindesk.com/business/2026/10/20/okx-ice-s-andrew-cuomo-calls-issuer-objections-a-natural-response-to-tokenized-stock-plans",
+      "published_at": "Tue, 20 Oct 2026 18:26:29 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "U.S. CFTC rebuffs CME legal stance in consequential fight over perpetual futures",
-      "url": "https://www.coindesk.com/policy/2026/10/19/u-s-cftc-rebuffs-cme-legal-stance-in-consequential-fight-over-perpetual-futures",
-      "published_at": "Mon, 19 Oct 2026 16:47:00 +0000",
+      "title": "The Coinbase allegations expose Bitcoin's corporate governance gap",
+      "url": "https://www.coindesk.com/opinion/2026/10/20/the-coinbase-allegations-expose-bitcoin-s-corporate-governance-gap",
+      "published_at": "Tue, 20 Oct 2026 17:02:31 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Zerohash rolls out a new tool to move crypto without copying wallet addresses",
-      "url": "https://www.coindesk.com/business/2026/10/19/zerohash-rolls-out-a-new-tool-to-move-crypto-without-copying-wallet-addresses",
-      "published_at": "Mon, 19 Oct 2026 14:58:40 +0000",
+      "title": "BlackRock seeks to shield bitcoin investors from losses after rival fund weathers 50% crash",
+      "url": "https://www.coindesk.com/markets/2026/10/20/blackrock-seeks-to-shield-bitcoin-investors-from-losses-after-rival-fund-weathers-50-crash",
+      "published_at": "Tue, 20 Oct 2026 14:28:39 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Cardano founder Charles Hoskinson is building a new programming language for the network",
-      "url": "https://www.coindesk.com/tech/2026/10/19/cardano-founder-charles-hoskinson-is-building-a-new-programming-language-for-the-network",
-      "published_at": "Mon, 19 Oct 2026 12:16:58 +0000",
+      "title": "Kazakhstan court bars Coinbase, five others from unlicensed crypto services in Astana International Financial Centre",
+      "url": "https://www.coindesk.com/business/2026/10/20/kazakhstan-court-bars-coinbase-five-others-from-unlicensed-crypto-services-in-astana-international-financial-centre",
+      "published_at": "Tue, 20 Oct 2026 13:35:08 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Strategy's price chart is about to flash a major bullish signal weeks after bitcoin did",
-      "url": "https://www.coindesk.com/daybook-us/2026/10/19/strategy-on-verge-of-golden-cross-just-weeks-after-bitcoin-flashed-same-bullish-signal",
-      "published_at": "Mon, 19 Oct 2026 11:15:00 +0000",
+      "title": "Microsoft, Alphabet and Goldman Sachs join objections to OKX-ICE tokenized stock trading",
+      "url": "https://www.coindesk.com/business/2026/10/19/microsoft-alphabet-and-goldman-sachs-join-objections-to-okx-ice-tokenized-stock-trading",
+      "published_at": "Tue, 20 Oct 2026 12:40:17 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Live updates: Bitcoin holds near $82,000 as Nasdaq rebounds more than 1%",
-      "url": "https://www.coindesk.com/markets/2026/10/19/live-updates-bitcoin-tags-usd83-000-and-slips-back-as-chip-stocks-lead-a-rebound",
-      "published_at": "Mon, 19 Oct 2026 11:05:54 +0000",
+      "title": "France's parliament approves vote to hit stablecoin trades with 31% capital gains tax",
+      "url": "https://www.coindesk.com/policy/2026/10/20/france-s-parliament-approves-vote-to-hit-crypto-to-stablecoin-trades-with-31-levy",
+      "published_at": "Tue, 20 Oct 2026 11:25:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin extends bounce above $82,000 as stocks rebound, DeFi tokens lead altcoin gains",
-      "url": "https://www.coindesk.com/markets/2026/10/19/bitcoin-extends-bounce-above-usd82-000-as-stocks-rebound-defi-tokens-lead-altcoin-gains",
-      "published_at": "Mon, 19 Oct 2026 10:26:33 +0000",
+      "title": "Equity weakness could damp demand for bitcoin after biggest ETF inflows in a month",
+      "url": "https://www.coindesk.com/daybook-us/2026/10/20/equity-weakness-could-damp-demand-for-bitcoin-after-biggest-etf-inflows-in-a-month",
+      "published_at": "Tue, 20 Oct 2026 11:14:21 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "JPMorgan brings JPM Coin, representing dollar deposits, to Ethereum",
-      "url": "https://www.coindesk.com/markets/2026/10/19/jpmorgan-s-jpm-coin-representing-dollar-deposits-is-coming-to-ethereum-bloomberg",
-      "published_at": "Mon, 19 Oct 2026 10:03:47 +0000",
+      "title": "JPMorgan sees 10% annual bitcoin returns, topping stocks, bonds and gold over next decade",
+      "url": "https://www.coindesk.com/markets/2026/10/20/jpmorgan-sees-10-annual-bitcoin-returns-topping-stocks-bonds-and-gold-over-next-decade",
+      "published_at": "Tue, 20 Oct 2026 11:10:40 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Crypto vault deposits top $10 billion as lending risks draw regulatory scrutiny",
-      "url": "https://www.coindesk.com/markets/2026/10/19/crypto-vault-deposits-top-usd10-billion-as-lending-risks-draw-regulatory-scrutiny",
-      "published_at": "Mon, 19 Oct 2026 09:32:38 +0000",
+      "title": "Bitcoin drops to $81,400 as Asian chip stocks tumble, options traders seek downside protection",
+      "url": "https://www.coindesk.com/markets/2026/10/20/bitcoin-drops-to-usd81-400-as-asian-chip-stocks-tumble-options-traders-seek-downside-protection",
+      "published_at": "Tue, 20 Oct 2026 10:22:55 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin mining offshoot Nscale loses Microsoft AI deal as power delay stretches into 2030s",
-      "url": "https://www.coindesk.com/tech/2026/10/19/bitcoin-mining-offshoot-nscale-loses-microsoft-ai-deal-as-power-delay-stretches-into-2030s",
-      "published_at": "Mon, 19 Oct 2026 09:15:00 +0000",
+      "title": "Live updates: Bitcoin cuts losses as stocks edge higher",
+      "url": "https://www.coindesk.com/markets/2026/10/20/live-updates-market-jitters-persist-as-the-ai-selloff-deepens",
+      "published_at": "Tue, 20 Oct 2026 10:14:19 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
