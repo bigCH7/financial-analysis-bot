@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-22T19:11:48.307236+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-10-22 19:02 UTC_",
+  "generated_at": "2026-10-23T19:01:12.258703+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-10-23 18:53 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,23 +9,23 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 81270.0,
+        "current_usd": 81431.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": -1.08,
-        "change_30d_pct": -5.7
+        "change_7d_pct": -0.11,
+        "change_30d_pct": -3.5
       },
       "indicators": {
         "trend": "DOWNTREND",
-        "momentum": "STRONG",
+        "momentum": "WEAK",
         "volatility": "NORMAL"
       },
       "valuation": {
         "verdict": "Constructive long-term setup",
         "band": "fair",
-        "summary_line": "Fair - Balanced growth profile - Lower regulatory risk.",
-        "score": 68.8
+        "summary_line": "Fair - Weak growth profile - Lower regulatory risk.",
+        "score": 64.1
       },
-      "updated_at": "2026-10-22T19:11:48.304619+00:00",
+      "updated_at": "2026-10-23T19:01:12.256399+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,23 +37,23 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 2379.0,
+        "current_usd": 2402.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": -2.51,
-        "change_30d_pct": -13.58
+        "change_7d_pct": -0.78,
+        "change_30d_pct": -10.53
       },
       "indicators": {
         "trend": "DOWNTREND",
-        "momentum": "STRONG",
+        "momentum": "WEAK",
         "volatility": "NORMAL"
       },
       "valuation": {
         "verdict": "Constructive long-term setup",
         "band": "fair",
-        "summary_line": "Fair - Strong growth profile - Lower regulatory risk.",
-        "score": 68.6
+        "summary_line": "Fair - Balanced growth profile - Lower regulatory risk.",
+        "score": 67.3
       },
-      "updated_at": "2026-10-22T19:11:48.305464+00:00",
+      "updated_at": "2026-10-23T19:01:12.257099+00:00",
       "source": {
         "short_term": "live"
       }
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-10-22T19:11:48.305830+00:00",
+      "updated_at": "2026-10-23T19:01:12.257439+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-10-22T19:11:48.306135+00:00",
+      "updated_at": "2026-10-23T19:01:12.257697+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-10-22T19:11:48.306414+00:00",
+      "updated_at": "2026-10-23T19:01:12.257978+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-10-22T19:11:48.306704+00:00",
+      "updated_at": "2026-10-23T19:01:12.258221+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -193,7 +193,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-10-22T19:11:48.306977+00:00",
+      "updated_at": "2026-10-23T19:01:12.258465+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -201,72 +201,72 @@
   ],
   "overview_news": [
     {
-      "title": "A16z is the latest VC giant to widen bets beyond crypto and into AI and emerging tech",
-      "url": "https://www.coindesk.com/business/2026/10/22/a16z-is-the-latest-vc-giant-to-widen-bets-beyond-crypto-and-into-ai-and-emerging-tech",
-      "published_at": "Thu, 22 Oct 2026 18:30:57 +0000",
+      "title": "Robinhood sees surge in bitcoin, gold prediction markets as traders move beyond sports",
+      "url": "https://www.coindesk.com/markets/2026/10/23/robinhood-sees-surge-in-bitcoin-gold-prediction-markets-as-traders-move-beyond-sports",
+      "published_at": "Fri, 23 Oct 2026 13:58:56 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Irish central bank fines Coinbase Ireland $3.6 million over fund safeguarding failures",
-      "url": "https://www.coindesk.com/policy/2026/10/22/irish-central-bank-fines-coinbase-ireland-usd3-6-million-over-fund-safeguarding-failures",
-      "published_at": "Thu, 22 Oct 2026 15:40:25 +0000",
+      "title": "Bitcoin Core changes security rules as AI makes finding code bugs dangerously easy",
+      "url": "https://www.coindesk.com/tech/2026/10/23/bitcoin-will-now-stop-hiding-bugs-an-ai-can-find-in-one-prompt",
+      "published_at": "Fri, 23 Oct 2026 12:03:53 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Crypto for Advisors: Stablecoins are ready for prime time",
-      "url": "https://www.coindesk.com/coindesk-indices/2026/10/22/crypto-for-advisors-stablecoins-are-ready-for-prime-time",
-      "published_at": "Thu, 22 Oct 2026 14:58:31 +0000",
+      "title": "Bitcoin's price is as jumpy as Nvidia's and eight times more turbulent than the euro",
+      "url": "https://www.coindesk.com/daybook-us/2026/10/23/bitcoin-s-volatility-is-well-above-euro-dollar-gyrations-though-it-has-calmed-to-rival-nvidia-s",
+      "published_at": "Fri, 23 Oct 2026 11:22:33 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Crypto custody specialist Fireblocks denies it's in talks to be acquired by Visa",
-      "url": "https://www.coindesk.com/business/2026/10/22/crypto-custody-specialist-fireblocks-denies-its-in-talks-to-be-acquired-by-visa",
-      "published_at": "Thu, 22 Oct 2026 14:37:12 +0000",
+      "title": "Live updates: Bitcoin holds above $81,000 as oil prices hit six-month high",
+      "url": "https://www.coindesk.com/markets/2026/10/23/live-updates-bitcoin-holds-above-usd81-000-as-the-ai-rout-fades-and-oil-climbs",
+      "published_at": "Fri, 23 Oct 2026 11:13:01 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Crypto is making a splash in U.S. elections \u2014 but chiefly in jabs about industry influence",
-      "url": "https://www.coindesk.com/news-analysis/2026/10/21/crypto-is-making-a-splash-in-u-s-elections-but-chiefly-in-jabs-about-industry-influence",
-      "published_at": "Thu, 22 Oct 2026 13:00:00 +0000",
+      "title": "Bitcoin steadies near $81,700 as altcoins rebound, pepe climbs 13%",
+      "url": "https://www.coindesk.com/markets/2026/10/23/bitcoin-steadies-near-usd81-700-as-altcoins-rebound-pepe-climbs-13",
+      "published_at": "Fri, 23 Oct 2026 10:54:41 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Ethereum\u2019s four-minute settlement plan could lower the cost of moving crypto",
-      "url": "https://www.coindesk.com/tech/2026/10/22/ethereum-s-four-minute-settlement-plan-could-lower-the-cost-of-moving-crypto",
-      "published_at": "Thu, 22 Oct 2026 12:14:29 +0000",
+      "title": "Bitcoin appears to have decoupled from midterm cycle bottom history",
+      "url": "https://www.coindesk.com/markets/2026/10/23/bitcoin-approaches-midterms-as-july-low-challenges-historical-cycle-pattern",
+      "published_at": "Fri, 23 Oct 2026 10:53:09 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Crypto traders seek shelter in bitcoin as altcoins slide and ETF flows wobble",
-      "url": "https://www.coindesk.com/daybook-us/2026/10/22/crypto-traders-seek-shelter-in-bitcoin-as-altcoins-slide-and-etf-flows-wobble",
-      "published_at": "Thu, 22 Oct 2026 11:20:04 +0000",
+      "title": "HSBC rolls out its first stablecoin to over 3 million everyday app users",
+      "url": "https://www.coindesk.com/business/2026/10/23/hsbc-rolls-out-its-first-stablecoin-to-over-3-million-everyday-app-users",
+      "published_at": "Fri, 23 Oct 2026 10:22:56 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin slides below $82,000 as AI doubts return, with DeFi tokens leading declines",
-      "url": "https://www.coindesk.com/markets/2026/10/22/bitcoin-slides-below-usd82-000-as-ai-doubts-return-with-defi-tokens-leading-declines",
-      "published_at": "Thu, 22 Oct 2026 10:50:04 +0000",
+      "title": "Sweden\u2019s central bank revives e-krona debate as stablecoins and digital euro loom",
+      "url": "https://www.coindesk.com/business/2026/10/23/sweden-s-central-bank-revives-e-krona-debate-as-stablecoins-and-digital-euro-loom",
+      "published_at": "Fri, 23 Oct 2026 08:57:34 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Crypto traders price India telecoms company Reliance Jio's IPO at about $110 billion",
-      "url": "https://www.coindesk.com/markets/2026/10/22/crypto-traders-price-india-telecoms-company-reliance-jio-s-ipo-at-about-usd110-billion",
-      "published_at": "Thu, 22 Oct 2026 10:18:28 +0000",
+      "title": "India's largest exchange denies hack after sleuths pointed to $16 million in suspicious outflows",
+      "url": "https://www.coindesk.com/markets/2026/10/23/india-s-largest-exchange-denies-hack-after-blockchain-sleuths-pointed-to-usd16-million-in-suspicious-outflows",
+      "published_at": "Fri, 23 Oct 2026 08:02:35 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Live updates: Bitcoin falls back to $81,000, with interest rates tumbling as stocks crack",
-      "url": "https://www.coindesk.com/business/2026/10/22/live-updates-bitcoin-s-round-trip-to-usd85-000-burns-traders-on-both-sides",
-      "published_at": "Thu, 22 Oct 2026 09:54:26 +0000",
+      "title": "Polymarket has reportedly fired its marketing chief, also a close friend of the CEO",
+      "url": "https://www.coindesk.com/markets/2026/10/23/polymarket-has-reportedly-fired-its-marketing-chief-also-a-close-friend-of-the-ceo",
+      "published_at": "Fri, 23 Oct 2026 05:01:19 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
