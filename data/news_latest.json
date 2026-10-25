@@ -1,7 +1,21 @@
 {
-  "generated_at": "2026-10-24 17:58 UTC",
+  "generated_at": "2026-10-25 18:16 UTC",
   "count": 55,
   "items": [
+    {
+      "title": "Latvia targets tokenization rules in 2027 with commercial property in focus",
+      "link": "https://www.coindesk.com/business/2026/10/25/latvia-targets-tokenization-rules-in-2027-with-commercial-property-in-focus",
+      "pub_date": "Sun, 25 Oct 2026 15:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "UK banks face 10,000 complaints in 3 months over crypto restrictions",
+      "link": "https://www.coindesk.com/policy/2026/10/22/uk-banks-face-10-000-complaints-in-3-months-over-crypto-restrictions",
+      "pub_date": "Sun, 25 Oct 2026 13:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
     {
       "title": "Strategy, Strive face balancing act between bitcoin buying and preferred stock dividends",
       "link": "https://www.coindesk.com/business/2026/10/24/strategy-strive-face-balancing-act-between-bitcoin-buying-and-preferred-stock-dividends",
@@ -164,17 +178,17 @@
       "fetch_source": "live"
     },
     {
-      "title": "A16z is the latest VC giant to widen bets beyond crypto and into AI and emerging tech",
-      "link": "https://www.coindesk.com/business/2026/10/22/a16z-is-the-latest-vc-giant-to-widen-bets-beyond-crypto-and-into-ai-and-emerging-tech",
-      "pub_date": "Thu, 22 Oct 2026 18:30:57 +0000",
-      "source": "CoinDesk",
+      "title": "ECB official sees digital euro as key to protecting EU \u2018sovereignty\u2019",
+      "link": "https://cointelegraph.com/news/ecb-official-sees-digital-euro-tool-to-protect-eu-sovereignty?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sun, 25 Oct 2026 15:11:00 +0000",
+      "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
-      "title": "Irish central bank fines Coinbase Ireland $3.6 million over fund safeguarding failures",
-      "link": "https://www.coindesk.com/policy/2026/10/22/irish-central-bank-fines-coinbase-ireland-usd3-6-million-over-fund-safeguarding-failures",
-      "pub_date": "Thu, 22 Oct 2026 15:40:25 +0000",
-      "source": "CoinDesk",
+      "title": "Netanyahu floats use of blockchain as solution to potential financial sanctions",
+      "link": "https://cointelegraph.com/news/netanyahu-floats-use-of-blockchain-as-solution-to-potential-financial-sanctions?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "pub_date": "Sun, 25 Oct 2026 11:42:00 +0000",
+      "source": "Cointelegraph",
       "fetch_source": "live"
     },
     {
@@ -265,20 +279,6 @@
       "title": "Bybit secures first full Dubai license for spot trading services",
       "link": "https://cointelegraph.com/news/bybit-first-full-dubai-spot-trading-license?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "pub_date": "Fri, 23 Oct 2026 09:50:04 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "HSBC launches Hong Kong dollar stablecoin for retail payments",
-      "link": "https://cointelegraph.com/news/hsbc-launches-redcoin-hong-kong-dollar-stablecoin-payme?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 23 Oct 2026 08:47:34 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Malaysia, Thailand join Singapore\u2019s cross-border stablecoin push",
-      "link": "https://cointelegraph.com/news/malaysia-thailand-join-singapores-cross-border-stablecoin-push?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "pub_date": "Fri, 23 Oct 2026 07:15:53 +0000",
       "source": "Cointelegraph",
       "fetch_source": "live"
     }

@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-24T18:00:06.482117+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-10-24 17:51 UTC_",
+  "generated_at": "2026-10-25T18:18:11.358474+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-10-25 18:09 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,10 +9,10 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 80207.0,
+        "current_usd": 80622.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": -1.48,
-        "change_30d_pct": -4.94
+        "change_7d_pct": -1.7,
+        "change_30d_pct": -4.11
       },
       "indicators": {
         "trend": "DOWNTREND",
@@ -20,12 +20,12 @@
         "volatility": "NORMAL"
       },
       "valuation": {
-        "verdict": "Constructive long-term setup",
+        "verdict": "Neutral / fair-value zone",
         "band": "fair",
         "summary_line": "Fair - Weak growth profile - Lower regulatory risk.",
-        "score": 63.7
+        "score": 57.5
       },
-      "updated_at": "2026-10-24T18:00:06.479177+00:00",
+      "updated_at": "2026-10-25T18:18:11.354355+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,23 +37,23 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 2321.0,
+        "current_usd": 2353.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": -3.28,
-        "change_30d_pct": -13.61
+        "change_7d_pct": -2.29,
+        "change_30d_pct": -12.56
       },
       "indicators": {
         "trend": "DOWNTREND",
-        "momentum": "STRONG",
+        "momentum": "WEAK",
         "volatility": "NORMAL"
       },
       "valuation": {
         "verdict": "Constructive long-term setup",
         "band": "fair",
         "summary_line": "Fair - Balanced growth profile - Lower regulatory risk.",
-        "score": 65.0
+        "score": 60.2
       },
-      "updated_at": "2026-10-24T18:00:06.480175+00:00",
+      "updated_at": "2026-10-25T18:18:11.355480+00:00",
       "source": {
         "short_term": "live"
       }
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-10-24T18:00:06.480542+00:00",
+      "updated_at": "2026-10-25T18:18:11.356246+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-10-24T18:00:06.480853+00:00",
+      "updated_at": "2026-10-25T18:18:11.356965+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-10-24T18:00:06.481185+00:00",
+      "updated_at": "2026-10-25T18:18:11.357393+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-10-24T18:00:06.481485+00:00",
+      "updated_at": "2026-10-25T18:18:11.357776+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -193,13 +193,27 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-10-24T18:00:06.481806+00:00",
+      "updated_at": "2026-10-25T18:18:11.358098+00:00",
       "source": {
         "short_term": "unavailable"
       }
     }
   ],
   "overview_news": [
+    {
+      "title": "Latvia targets tokenization rules in 2027 with commercial property in focus",
+      "url": "https://www.coindesk.com/business/2026/10/25/latvia-targets-tokenization-rules-in-2027-with-commercial-property-in-focus",
+      "published_at": "Sun, 25 Oct 2026 15:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "UK banks face 10,000 complaints in 3 months over crypto restrictions",
+      "url": "https://www.coindesk.com/policy/2026/10/22/uk-banks-face-10-000-complaints-in-3-months-over-crypto-restrictions",
+      "published_at": "Sun, 25 Oct 2026 13:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
     {
       "title": "Strategy, Strive face balancing act between bitcoin buying and preferred stock dividends",
       "url": "https://www.coindesk.com/business/2026/10/24/strategy-strive-face-balancing-act-between-bitcoin-buying-and-preferred-stock-dividends",
@@ -253,20 +267,6 @@
       "title": "U.S. Clarity Act failure gives Asia and Middle East a competitive edge, says Apex Group CEO",
       "url": "https://www.coindesk.com/policy/2026/10/24/u-s-clarity-act-failure-gives-asia-and-middle-east-a-competitive-edge-says-apex-group-ceo",
       "published_at": "Sat, 24 Oct 2026 12:00:00 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Franklin Templeton adds $150 million in fund shares to XRP Ledger, all in one wallet",
-      "url": "https://www.coindesk.com/markets/2026/10/24/franklin-templeton-adds-usd150-million-in-fund-shares-to-xrp-ledger-all-in-one-wallet",
-      "published_at": "Sat, 24 Oct 2026 04:45:43 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Robinhood sees surge in bitcoin, gold prediction markets as traders move beyond sports",
-      "url": "https://www.coindesk.com/markets/2026/10/23/robinhood-sees-surge-in-bitcoin-gold-prediction-markets-as-traders-move-beyond-sports",
-      "published_at": "Fri, 23 Oct 2026 13:58:56 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
