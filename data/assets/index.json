@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-29T20:12:59.720844+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-10-29 20:03 UTC_",
+  "generated_at": "2026-10-30T19:59:46.662063+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-10-30 19:50 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,23 +9,23 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 80257.0,
+        "current_usd": 76841.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": -1.32,
-        "change_30d_pct": -4.04
+        "change_7d_pct": -5.25,
+        "change_30d_pct": -8.06
       },
       "indicators": {
-        "trend": "UPTREND",
-        "momentum": "WEAK",
+        "trend": "DOWNTREND",
+        "momentum": "STRONG",
         "volatility": "NORMAL"
       },
       "valuation": {
-        "verdict": "Constructive long-term setup",
-        "band": "fair",
-        "summary_line": "Fair - Weak growth profile - Lower regulatory risk.",
-        "score": 66.0
+        "verdict": "Undervalued / High-conviction zone",
+        "band": "undervalued",
+        "summary_line": "Undervalued - Strong growth profile - Lower regulatory risk.",
+        "score": 88.1
       },
-      "updated_at": "2026-10-29T20:12:59.718257+00:00",
+      "updated_at": "2026-10-30T19:59:46.659196+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,10 +37,10 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 2309.0,
+        "current_usd": 2238.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": -3.24,
-        "change_30d_pct": -13.75
+        "change_7d_pct": -6.16,
+        "change_30d_pct": -16.64
       },
       "indicators": {
         "trend": "DOWNTREND",
@@ -48,12 +48,12 @@
         "volatility": "NORMAL"
       },
       "valuation": {
-        "verdict": "Constructive long-term setup",
-        "band": "fair",
-        "summary_line": "Fair - Balanced growth profile - Lower regulatory risk.",
-        "score": 67.1
+        "verdict": "Undervalued / High-conviction zone",
+        "band": "undervalued",
+        "summary_line": "Undervalued - Strong growth profile - Moderate regulatory risk.",
+        "score": 79.2
       },
-      "updated_at": "2026-10-29T20:12:59.719084+00:00",
+      "updated_at": "2026-10-30T19:59:46.660103+00:00",
       "source": {
         "short_term": "live"
       }
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-10-29T20:12:59.719397+00:00",
+      "updated_at": "2026-10-30T19:59:46.660498+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-10-29T20:12:59.719709+00:00",
+      "updated_at": "2026-10-30T19:59:46.660790+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-10-29T20:12:59.720004+00:00",
+      "updated_at": "2026-10-30T19:59:46.661090+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-10-29T20:12:59.720310+00:00",
+      "updated_at": "2026-10-30T19:59:46.661421+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -193,7 +193,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-10-29T20:12:59.720594+00:00",
+      "updated_at": "2026-10-30T19:59:46.661795+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -201,72 +201,72 @@
   ],
   "overview_news": [
     {
-      "title": "Polymarket suspends trading after third-party breach leads to user losses",
-      "url": "https://www.coindesk.com/markets/2026/10/29/polymarket-suspends-trading-after-third-party-breach-leads-to-user-losses",
-      "published_at": "Thu, 29 Oct 2026 18:55:35 +0000",
+      "title": "Experts divided over Binance hack asset freezes, warn recovery is another matter",
+      "url": "https://www.coindesk.com/business/2026/10/30/experts-divided-over-binance-hack-asset-freezes-warn-recovery-is-another-matter",
+      "published_at": "Fri, 30 Oct 2026 19:55:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Stanley Druckenmiller's first X post backs Hyperliquid venture after $23 million indirect investment",
-      "url": "https://www.coindesk.com/business/2026/10/29/stanley-druckenmiller-s-first-x-post-backs-hyperliquid-venture-after-usd23-million-indirect-investment",
-      "published_at": "Thu, 29 Oct 2026 17:04:19 +0000",
+      "title": "Binance uncovers wider breach in $6.3 billion exploit, targets Sunday withdrawal restart",
+      "url": "https://www.coindesk.com/tech/2026/10/30/binance-uncovers-wider-breach-in-usd6-3-billion-exploit-targets-sunday-withdrawal-restart",
+      "published_at": "Fri, 30 Oct 2026 16:31:17 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "KuCoin exits Russia and Belarus as crypto exchanges withdraw from Western-sanctioned markets",
-      "url": "https://www.coindesk.com/policy/2026/10/29/kucoin-exits-russia-and-belarus-as-crypto-exchanges-withdraw-from-western-sanctioned-markets",
-      "published_at": "Thu, 29 Oct 2026 16:51:18 +0000",
+      "title": "Wall Street analysts urge investors to buy crypto stocks after $6.3 billion Binance hack",
+      "url": "https://www.coindesk.com/markets/2026/10/30/wall-street-analysts-urge-investors-to-buy-crypto-stocks-on-weakness-after-usd6-3-billion-binance-hack",
+      "published_at": "Fri, 30 Oct 2026 14:13:34 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "From rivals to partners: Polygon and Solana team to bring stablecoin payments to banks",
-      "url": "https://www.coindesk.com/business/2026/10/29/from-rivals-to-partners-polygon-and-solana-team-to-bring-stablecoin-payments-to-banks",
-      "published_at": "Thu, 29 Oct 2026 16:35:43 +0000",
+      "title": "Binance arranges $6.34 billion to cover losses from record crypto hack",
+      "url": "https://www.coindesk.com/business/2026/10/30/binance-arranges-usd6-34-billion-to-cover-losses-from-record-crypto-hack",
+      "published_at": "Fri, 30 Oct 2026 12:13:02 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Crypto exchange HTX exits the UK after settling with the FCA",
-      "url": "https://www.coindesk.com/policy/2026/10/29/crypto-exchange-htx-exits-the-uk-after-settling-with-the-fca",
-      "published_at": "Thu, 29 Oct 2026 16:11:18 +0000",
+      "title": "Here's how big bitcoin traders responded after the Binance hack hit",
+      "url": "https://www.coindesk.com/daybook-us/2026/10/30/here-s-how-big-bitcoin-traders-responded-after-the-binance-hack-hit",
+      "published_at": "Fri, 30 Oct 2026 11:51:26 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Polymarket brings ultra-short crypto prediction markets to U.S. platform",
-      "url": "https://www.coindesk.com/markets/2026/10/29/polymarket-brings-ultra-short-crypto-prediction-markets-to-u-s-platform",
-      "published_at": "Thu, 29 Oct 2026 14:55:47 +0000",
+      "title": "Here\u2019s how an Ethereum upgrade helped drain part of Binance\u2019s $6 billion loss",
+      "url": "https://www.coindesk.com/tech/2026/10/30/here-s-how-one-ethereum-permission-let-an-attacker-drain-usd2-5-billion-from-binance",
+      "published_at": "Fri, 30 Oct 2026 11:35:16 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Crypto for Advisors: Only 1 in 5 Americans say the financial system is secure",
-      "url": "https://www.coindesk.com/coindesk-indices/2026/10/29/crypto-for-advisors-only-1-in-5-americans-say-the-financial-system-is-secure",
-      "published_at": "Thu, 29 Oct 2026 14:39:01 +0000",
+      "title": "Crypto liquidations jump to $1.57 billion as Binance hack sends bitcoin, ether lower",
+      "url": "https://www.coindesk.com/markets/2026/10/30/crypto-liquidations-jump-to-usd1-57-billion-as-binance-hack-sends-bitcoin-ether-lower",
+      "published_at": "Fri, 30 Oct 2026 11:09:24 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Why Switzerland\u2019s first genuine spot bitcoin ETF could soon attract overseas banks and brokers",
-      "url": "https://www.coindesk.com/business/2026/10/29/switzerland-s-first-bitcoin-etf-gets-rare-exemption-will-open-to-overseas-brokers",
-      "published_at": "Thu, 29 Oct 2026 14:15:46 +0000",
+      "title": "Strategy CFO Andrew Kang resigns as company posts record operating profit",
+      "url": "https://www.coindesk.com/markets/2026/10/30/strategy-cfo-resigns-as-company-posts-record-quarterly-profit-mstr-stock-falls-6",
+      "published_at": "Fri, 30 Oct 2026 09:41:07 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Chainlink adds weekend pricing for tokenized assets, with Aave as launch partner",
-      "url": "https://www.coindesk.com/tech/2026/10/28/chainlink-adds-weekend-pricing-for-tokenized-assets-with-aave-as-launch-partner",
-      "published_at": "Thu, 29 Oct 2026 14:15:00 +0000",
+      "title": "Live updates: Bitcoin falls below $77,000 as Binance exploit combines with tech woes",
+      "url": "https://www.coindesk.com/markets/2026/10/30/live-news-binance-hack-rattles-crypto-as-intel-plunges-and-ai-spending-fears-hit-tech",
+      "published_at": "Fri, 30 Oct 2026 08:36:52 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "New quantum model slashes hardware needed to break bitcoin keys by 17 times",
-      "url": "https://www.coindesk.com/tech/2026/10/29/new-quantum-model-slashes-hardware-needed-to-break-bitcoin-keys-by-17-times",
-      "published_at": "Thu, 29 Oct 2026 13:55:42 +0000",
+      "title": "Binance hacker dumps a little-known 2017 token and it crashes 90%",
+      "url": "https://www.coindesk.com/markets/2026/10/30/binance-hacker-dumps-a-little-known-2017-token-and-it-crashes-90",
+      "published_at": "Fri, 30 Oct 2026 07:54:07 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
