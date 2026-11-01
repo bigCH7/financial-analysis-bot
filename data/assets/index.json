@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-31T19:15:31.216127+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-10-31 19:06 UTC_",
+  "generated_at": "2026-11-01T19:31:52.245011+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-11-01 19:22 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,10 +9,10 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 77565.0,
+        "current_usd": 77740.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": -4.02,
-        "change_30d_pct": -8.58
+        "change_7d_pct": -2.88,
+        "change_30d_pct": -8.01
       },
       "indicators": {
         "trend": "DOWNTREND",
@@ -23,9 +23,9 @@
         "verdict": "Undervalued / High-conviction zone",
         "band": "undervalued",
         "summary_line": "Undervalued - Strong growth profile - Lower regulatory risk.",
-        "score": 78.1
+        "score": 76.6
       },
-      "updated_at": "2026-10-31T19:15:31.213875+00:00",
+      "updated_at": "2026-11-01T19:31:52.242033+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,13 +37,13 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 2256.0,
+        "current_usd": 2258.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": -4.28,
-        "change_30d_pct": -16.62
+        "change_7d_pct": -2.95,
+        "change_30d_pct": -15.36
       },
       "indicators": {
-        "trend": "DOWNTREND",
+        "trend": "UPTREND",
         "momentum": "WEAK",
         "volatility": "NORMAL"
       },
@@ -51,9 +51,9 @@
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
         "summary_line": "Fair - Weak growth profile - Moderate regulatory risk.",
-        "score": 58.5
+        "score": 56.6
       },
-      "updated_at": "2026-10-31T19:15:31.214606+00:00",
+      "updated_at": "2026-11-01T19:31:52.242966+00:00",
       "source": {
         "short_term": "live"
       }
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-10-31T19:15:31.214934+00:00",
+      "updated_at": "2026-11-01T19:31:52.243341+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-10-31T19:15:31.215188+00:00",
+      "updated_at": "2026-11-01T19:31:52.243668+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-10-31T19:15:31.215440+00:00",
+      "updated_at": "2026-11-01T19:31:52.244019+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-10-31T19:15:31.215682+00:00",
+      "updated_at": "2026-11-01T19:31:52.244337+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -193,13 +193,69 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-10-31T19:15:31.215918+00:00",
+      "updated_at": "2026-11-01T19:31:52.244681+00:00",
       "source": {
         "short_term": "unavailable"
       }
     }
   ],
   "overview_news": [
+    {
+      "title": "The crypto reader's guide to the 2026 midterm election: State of Crypto",
+      "url": "https://www.coindesk.com/policy/2026/11/01/the-crypto-reader-s-guide-to-the-2026-midterm-election-state-of-crypto",
+      "published_at": "Sun, 01 Nov 2026 19:30:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "AI agents bypassed crypto spending limits without human approval, researchers find in a new test",
+      "url": "https://www.coindesk.com/tech/2026/11/01/ai-agents-bypassed-crypto-spending-limits-without-human-approval-researchers-find-in-a-new-test",
+      "published_at": "Sun, 01 Nov 2026 17:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "The key races to watch for the 2026 election",
+      "url": "https://www.coindesk.com/policy/2026/11/01/the-key-races-to-watch-for-the-2026-election",
+      "published_at": "Sun, 01 Nov 2026 15:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Crypto card startups are racking up losses just to buy your loyalty with big rewards",
+      "url": "https://www.coindesk.com/business/2026/11/01/crypto-card-startups-are-racking-up-losses-just-to-buy-your-loyalty-with-big-rewards",
+      "published_at": "Sun, 01 Nov 2026 15:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Crypto PACs made big Republican push in final weeks before November 3 election",
+      "url": "https://www.coindesk.com/policy/2026/11/01/crypto-pacs-made-big-republican-push-in-final-weeks-before-november-3-election",
+      "published_at": "Sun, 01 Nov 2026 14:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Sherrod Brown's Ohio edge threatens a rough go for crypto next year",
+      "url": "https://www.coindesk.com/news-analysis/2026/11/01/sherrod-brown-s-ohio-edge-threatens-a-rough-go-for-crypto-next-year",
+      "published_at": "Sun, 01 Nov 2026 13:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Binance opens crypto withdrawals in phases starting with bitcoin following $6.3 billion hack",
+      "url": "https://www.coindesk.com/markets/2026/11/01/binance-opens-crypto-withdrawals-in-phases-starting-with-bitcoin-following-usd6-3-billion-hack",
+      "published_at": "Sun, 01 Nov 2026 10:35:42 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "FBI confirms North Korea's role in $6 billion Binance hack, asks DeFi community to block BTC, ETH, SOL addresses",
+      "url": "https://www.coindesk.com/policy/2026/10/31/fbi-confirms-north-korea-s-role-in-usd6-billion-binance-hack-asks-defi-community-to-block-btc-eth-sol-addresses",
+      "published_at": "Sun, 01 Nov 2026 01:10:05 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
     {
       "title": "Bitcoin's white paper turns 18, and small businesses are still paying for the bailouts it answered",
       "url": "https://www.coindesk.com/opinion/2026/10/31/bitcoin-s-white-paper-turns-18-and-small-businesses-are-still-paying-for-the-bailouts-it-answered",
@@ -211,62 +267,6 @@
       "title": "A stolen iPhone, $14,000 in losses and London's crypto theft problem",
       "url": "https://www.coindesk.com/business/2026/11/01/a-stolen-iphone-usd14-000-in-losses-and-london-s-crypto-theft-problem",
       "published_at": "Sat, 31 Oct 2026 16:09:30 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Traders are already placing leveraged bets on Anthropic\u2019s IPO using crypto contracts",
-      "url": "https://www.coindesk.com/business/2026/10/31/traders-are-already-placing-leveraged-bets-on-anthropic-s-ipo-using-crypto-contracts",
-      "published_at": "Sat, 31 Oct 2026 16:00:00 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Binance says it has replaced 90% of stolen crypto after massive $6.3 billion breach",
-      "url": "https://www.coindesk.com/business/2026/10/31/binance-says-it-has-replaced-90-of-stolen-crypto-after-massive-usd6-3-billion-breach",
-      "published_at": "Sat, 31 Oct 2026 15:24:10 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Institutions embrace crypto staking despite shrinking yields",
-      "url": "https://www.coindesk.com/business/2026/10/26/institutions-embrace-crypto-staking-despite-shrinking-yields",
-      "published_at": "Sat, 31 Oct 2026 15:00:00 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Uber tests how tokenization can put idle cash to work with HSBC, Franklin Templeton",
-      "url": "https://www.coindesk.com/business/2026/10/31/uber-tests-how-tokenization-can-put-idle-cash-to-work-with-hsbc-franklin-templeton",
-      "published_at": "Sat, 31 Oct 2026 14:40:29 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "As big bitcoin miners chase AI profits, individuals get another shot at the rewards",
-      "url": "https://www.coindesk.com/tech/2026/10/31/as-big-bitcoin-miners-chase-ai-profits-individuals-get-another-shot-at-the-rewards",
-      "published_at": "Sat, 31 Oct 2026 14:00:00 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "18 years in, what has Bitcoin truly done?",
-      "url": "https://www.coindesk.com/opinion/2026/10/31/18-years-in-what-has-bitcoin-truly-done",
-      "published_at": "Sat, 31 Oct 2026 13:00:00 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "A Nasdaq-listed company may sell $450 million bitcoin, citing Binance hack and quantum fears",
-      "url": "https://www.coindesk.com/markets/2026/10/31/a-nasdaq-listed-company-may-sell-usd450-million-bitcoin-citing-binance-hack-and-quantum-fears",
-      "published_at": "Sat, 31 Oct 2026 12:49:47 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "The $6.3 billion Binance hack paradox: Centralization made the hack possible, but also saved $3 billion",
-      "url": "https://www.coindesk.com/business/2026/10/31/the-usd6-3-billion-binance-hack-paradox-centralization-made-the-hack-possible-but-also-saved-usd3-billion",
-      "published_at": "Sat, 31 Oct 2026 12:00:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
