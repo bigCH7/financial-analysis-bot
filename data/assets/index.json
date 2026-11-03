@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-02T23:08:08.800268+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-11-02 22:59 UTC_",
+  "generated_at": "2026-11-03T21:15:32.629162+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-11-03 20:46 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,10 +9,10 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 76687.0,
+        "current_usd": 77783.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": -4.18,
-        "change_30d_pct": -9.51
+        "change_7d_pct": -3.73,
+        "change_30d_pct": -10.07
       },
       "indicators": {
         "trend": "DOWNTREND",
@@ -23,9 +23,9 @@
         "verdict": "Constructive long-term setup",
         "band": "fair",
         "summary_line": "Fair - Weak growth profile - Lower regulatory risk.",
-        "score": 62.4
+        "score": 64.4
       },
-      "updated_at": "2026-11-02T23:08:08.798100+00:00",
+      "updated_at": "2026-11-03T21:15:32.625933+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,23 +37,23 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 2248.0,
+        "current_usd": 2289.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": -3.13,
-        "change_30d_pct": -16.33
+        "change_7d_pct": -2.47,
+        "change_30d_pct": -16.01
       },
       "indicators": {
-        "trend": "DOWNTREND",
+        "trend": "UPTREND",
         "momentum": "WEAK",
         "volatility": "NORMAL"
       },
       "valuation": {
         "verdict": "Constructive long-term setup",
         "band": "fair",
-        "summary_line": "Fair - Balanced growth profile - Moderate regulatory risk.",
-        "score": 66.3
+        "summary_line": "Fair - Balanced growth profile - Lower regulatory risk.",
+        "score": 64.2
       },
-      "updated_at": "2026-11-02T23:08:08.798730+00:00",
+      "updated_at": "2026-11-03T21:15:32.627052+00:00",
       "source": {
         "short_term": "live"
       }
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-11-02T23:08:08.799040+00:00",
+      "updated_at": "2026-11-03T21:15:32.627572+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-11-02T23:08:08.799311+00:00",
+      "updated_at": "2026-11-03T21:15:32.627950+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-11-02T23:08:08.799574+00:00",
+      "updated_at": "2026-11-03T21:15:32.628263+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-11-02T23:08:08.799793+00:00",
+      "updated_at": "2026-11-03T21:15:32.628558+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -193,7 +193,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-11-02T23:08:08.800021+00:00",
+      "updated_at": "2026-11-03T21:15:32.628863+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -201,72 +201,72 @@
   ],
   "overview_news": [
     {
-      "title": "Big crypto wants the one thing it can\u2019t buy: your vote",
-      "url": "https://www.coindesk.com/opinion/2026/11/02/big-crypto-wants-the-one-thing-it-can-t-buy-your-vote",
-      "published_at": "Mon, 02 Nov 2026 21:38:53 +0000",
+      "title": "Justin Sun seeks sanctions against Trump-linked World Liberty Financial over UAE ties",
+      "url": "https://www.coindesk.com/policy/2026/11/03/justin-sun-seeks-sanctions-against-trump-linked-world-liberty-financial-over-uae-ties",
+      "published_at": "Tue, 03 Nov 2026 16:55:10 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin traders eye post-election rally as exchange outflows point to supply squeeze",
-      "url": "https://www.coindesk.com/markets/2026/11/02/bitcoin-traders-eye-post-election-rally-as-exchange-outflows-point-to-supply-squeeze",
-      "published_at": "Mon, 02 Nov 2026 18:13:57 +0000",
+      "title": "South Korea's president says country needs a \u2018cybersecurity czar\u2019 following $6.3 billion Binance hack",
+      "url": "https://www.coindesk.com/tech/2026/11/03/south-korea-s-president-says-country-needs-a-cybersecurity-czar-following-usd6-3-billion-binance-hack",
+      "published_at": "Tue, 03 Nov 2026 16:49:56 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "EU entity suspected of losing $106 million from crypto exchange accounts, ZachXBT says",
-      "url": "https://www.coindesk.com/tech/2026/11/02/eu-entity-suspected-of-losing-usd106-million-from-crypto-exchange-accounts-zachxbt-says",
-      "published_at": "Mon, 02 Nov 2026 17:21:04 +0000",
+      "title": "Amazon, Tesla and SpaceX join OKX\u2013ICE tokenized stock objections as deadline looms",
+      "url": "https://www.coindesk.com/business/2026/11/03/amazon-tesla-and-spacex-join-okx-ice-tokenized-stock-objections-as-deadline-looms",
+      "published_at": "Tue, 03 Nov 2026 16:17:51 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "NYSE tokenized stock plans take shape as four more transfer agents join",
-      "url": "https://www.coindesk.com/business/2026/11/02/nyse-taps-wall-street-giant-broadridge-to-bring-shareholder-voting-onto-blockchain-rails",
-      "published_at": "Mon, 02 Nov 2026 16:41:46 +0000",
+      "title": "Stablecoin governance group behind OUSD sets out management fee, offers equity earning pool",
+      "url": "https://www.coindesk.com/business/2026/11/03/stablecoin-governance-group-behind-ousd-sets-out-management-fee-offers-equity-earning-pool",
+      "published_at": "Tue, 03 Nov 2026 16:12:35 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Brazil\u2019s Mercado Bitcoin halts withdrawals after $40 million drained across 10 chains",
-      "url": "https://www.coindesk.com/business/2026/11/02/brazil-s-mercado-bitcoin-halts-withdrawals-after-usd40-million-drained-across-10-chains",
-      "published_at": "Mon, 02 Nov 2026 15:53:29 +0000",
+      "title": "CFTC clears perpetual futures on stocks, bringing crypto trading model to Wall Street",
+      "url": "https://www.coindesk.com/policy/2026/11/03/cftc-clears-perpetual-futures-on-stocks-bringing-crypto-trading-model-to-wall-street",
+      "published_at": "Tue, 03 Nov 2026 15:02:13 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Nvidia, Costco and Nike join pushback against OKX\u2013ICE tokenized stock plans",
-      "url": "https://www.coindesk.com/business/2026/11/02/nvidia-costco-and-nike-join-pushback-against-okx-ice-tokenized-stock-plans",
-      "published_at": "Mon, 02 Nov 2026 15:26:43 +0000",
+      "title": "Binance's $6.3 billion hack began with a fake job interview, and a campaign 'built over many months'",
+      "url": "https://www.coindesk.com/business/2026/11/03/binance-s-usd6-3-billion-hack-began-with-a-fake-job-interview-exchange-says",
+      "published_at": "Tue, 03 Nov 2026 14:53:19 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Anthropic swings to third quarter operating loss as compute costs surge ahead of IPO",
-      "url": "https://www.coindesk.com/markets/2026/11/02/anthropic-swings-to-third-quarter-operating-loss-as-compute-costs-surge-ahead-of-ipo",
-      "published_at": "Mon, 02 Nov 2026 15:18:55 +0000",
+      "title": "South Korea asks its biggest banks how a major crypto hack would hit them",
+      "url": "https://www.coindesk.com/business/2026/11/03/south-korea-asks-its-biggest-banks-how-a-major-crypto-hack-would-hit-them",
+      "published_at": "Tue, 03 Nov 2026 14:42:30 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Standard Chartered debuts tokenized deposits in Hong Kong for corporate clients",
-      "url": "https://www.coindesk.com/business/2026/11/02/standard-chartered-debuts-tokenized-deposits-in-hong-kong-for-corporate-clients",
-      "published_at": "Mon, 02 Nov 2026 15:05:24 +0000",
+      "title": "CZ warns of more AI-driven hacks following Binance\u2019s historic $6.3 billion heist",
+      "url": "https://www.coindesk.com/business/2026/11/03/cz-warns-of-more-ai-driven-hacks-following-binance-s-historic-usd6-4-billion-heist",
+      "published_at": "Tue, 03 Nov 2026 14:22:09 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Crypto's Washington playbook is working. Don't abandon it now.",
-      "url": "https://www.coindesk.com/opinion/2026/11/02/crypto-s-washington-playbook-is-working-don-t-abandon-it-now",
-      "published_at": "Mon, 02 Nov 2026 15:00:09 +0000",
+      "title": "LO:TECH raises $12 million to expand crypto trading into U.S. and Asia",
+      "url": "https://www.coindesk.com/business/2026/11/03/lo-tech-raises-usd12-million-to-expand-crypto-trading-into-u-s-and-asia",
+      "published_at": "Tue, 03 Nov 2026 14:00:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Coinbase downgraded at Morgan Stanley; price target slashed 53% on weak earnings outlook",
-      "url": "https://www.coindesk.com/markets/2026/11/02/morgan-stanley-downgrades-coinbase-slashes-price-target-53-on-weak-earnings-outlook",
-      "published_at": "Mon, 02 Nov 2026 14:29:33 +0000",
+      "title": "Binance net outflows reach $5.3 billion after record hack. CEO says recovery underway",
+      "url": "https://www.coindesk.com/business/2026/11/03/binance-net-outflows-reach-usd5-3b-after-record-hack-though-ceo-cites-recovery",
+      "published_at": "Tue, 03 Nov 2026 12:57:28 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
