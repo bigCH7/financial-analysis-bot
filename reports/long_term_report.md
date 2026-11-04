@@ -1,6 +1,6 @@
 # Long-Term Multi-Asset Analysis Report
 
-_Updated: 2026-11-03 20:46 UTC_
+_Updated: 2026-11-04 21:03 UTC_
 
 ## Framework
 
@@ -31,37 +31,37 @@ _Data sources: CoinGecko history (live), CoinGecko fundamentals (live)_
 
 ### Status Check (5-Second View)
 
-- **Market mood:** Balanced
-- **Simple action right now:** Add only on pullbacks and keep position sizing moderate around $73,165.
-- **Plain-English read:** Bitcoin is in a balanced phase: no major euphoria, no major panic.
+- **Market mood:** Overheated
+- **Simple action right now:** Add only on pullbacks and keep position sizing moderate around $73,185.
+- **Plain-English read:** Bitcoin is running hot: upside can continue, but pullback risk is higher than usual.
 
 ### One-line Summary
 
-Long-term: Fair - Weak growth profile - Lower regulatory risk.
+Long-term: Fair - Balanced growth profile - Lower regulatory risk.
 
 ### Quick Score Snapshot
 
-- **Pill:** GRAY Fair (64.4)
-- **Composite score:** 64.4/100 | **Confidence:** 91.0/100
+- **Pill:** GRAY Fair (70.2)
+- **Composite score:** 70.2/100 | **Confidence:** 91.0/100
 - **Valuation band:** fair
-- **Fast read:** Valuation may look reasonable, but network activity is not strong enough yet.
+- **Fast read:** Core structure is stable; watch confirmation from liquidity and macro trends.
 
 ### The Three Big Questions
 
 | Big Question | Score | Traffic Light | What It Means |
 |---|---:|---|---|
-| Scarcity & Supply | 70.3 | GREEN - Healthy | Is there too much being created? Current read: Supply discipline and valuation are supportive. |
-| Usage & Popularity | 42.2 | RED - Warning | Are people actually using it? Current read: Activity is weak versus price, reducing conviction. |
-| Safety & Rules | 56.6 | YELLOW - Caution | Could policy or market stress hurt it? Current read: Risk conditions are mixed and require active monitoring. |
+| Scarcity & Supply | 61.7 | YELLOW - Caution | Is there too much being created? Current read: Scarcity is intact, but valuation is near fair value. |
+| Usage & Popularity | 52.8 | YELLOW - Caution | Are people actually using it? Current read: Network activity is stable but not accelerating. |
+| Safety & Rules | 62.3 | YELLOW - Caution | Could policy or market stress hurt it? Current read: Risk conditions are mixed and require active monitoring. |
 
 ### Translation Layer (So-What)
 
-- **Price vs 200-day average:** 1.06x. Translation: **GREEN - Healthy**. Below 1.00 often means a cooling phase and potentially better long-term entries.
-- **NVT proxy:** 61.14. Translation: **YELLOW - Caution**. High NVT can mean price is outrunning real network use.
-- **Turnover (Vol/Cap):** +1.64%. Translation: **RED - Warning**. Higher turnover usually means easier entry/exit liquidity.
-- **Max drawdown (1y):** -44.98%. Translation: **YELLOW - Caution**. This is the historical pain you had to survive to hold long term.
-- **SSR (Fuel Gauge):** 5.23 (stablecoin cap source: live). Translation: **GREEN - Healthy**. Lower SSR usually means more sidelined buying power exists.
-- **Cost Basis Proxy (Price vs Realized Proxy):** +6.27%. Translation: **GREEN - Healthy**. Below 0% often means broader holder pain and potential capitulation zones.
+- **Price vs 200-day average:** 1.09x. Translation: **GREEN - Healthy**. Below 1.00 often means a cooling phase and potentially better long-term entries.
+- **NVT proxy:** 40.25. Translation: **GREEN - Healthy**. High NVT can mean price is outrunning real network use.
+- **Turnover (Vol/Cap):** +2.48%. Translation: **RED - Warning**. Higher turnover usually means easier entry/exit liquidity.
+- **Max drawdown (1y):** -44.72%. Translation: **YELLOW - Caution**. This is the historical pain you had to survive to hold long term.
+- **SSR (Fuel Gauge):** 5.39 (stablecoin cap source: live). Translation: **GREEN - Healthy**. Lower SSR usually means more sidelined buying power exists.
+- **Cost Basis Proxy (Price vs Realized Proxy):** +9.45%. Translation: **GREEN - Healthy**. Below 0% often means broader holder pain and potential capitulation zones.
 
 ### Advanced Criteria (Tiered)
 
@@ -70,12 +70,12 @@ Long-term: Fair - Weak growth profile - Lower regulatory risk.
   **Technical:** Whale transaction count and true holder concentration need dedicated on-chain feeds (not in this public snapshot).
   **12M conclusion:** If whale-pressure proxy improves while price is flat, odds of a silent accumulation phase improve.
 
-- **Stablecoin Supply Ratio (Beginner Fuel Gauge):** SSR = **5.23**.
+- **Stablecoin Supply Ratio (Beginner Fuel Gauge):** SSR = **5.39**.
   **Intermediate:** Lower SSR means more dry powder relative to BTC size.
   **Technical:** Stablecoin mint velocity and exchange inflow velocity require dedicated flow datasets.
   **12M conclusion:** Lower-to-mid SSR supports rally potential if risk conditions stabilize.
 
-- **Cost Basis (Beginner):** Current vs realized-price proxy gap = **+6.27%**.
+- **Cost Basis (Beginner):** Current vs realized-price proxy gap = **+9.45%**.
   **Intermediate:** Positive gap suggests market above aggregate cost basis proxy; negative gap suggests pain/capitulation risk.
   **Technical:** Full realized cap and MVRV Z-score need realized-cap series from on-chain providers.
   **12M conclusion:** Deep negative gaps historically improve long-term entry quality, but timing remains volatile.
@@ -100,10 +100,10 @@ Long-term: Fair - Weak growth profile - Lower regulatory risk.
 
 | Scenario | Target | Implied Move | Market Narrative |
 |---|---:|---:|---|
-| Bull: Hyper-Institutionalization (Prob 25%) | $87,496 | +12.54% | Global easing + stronger sovereign and ETF demand reduce liquid float. |
-| Base: Cycle Maturity (Prob 50%) | $77,258 | -0.63% | Steady institutional inflows with no retail mania phase. |
-| Bear: Liquidity Vacuum (Prob 25%) | $65,185 | -16.16% | High real rates + tighter regulation + persistent ETF outflows. |
-- Invalidation anchor: if price fails to hold trend near **$73,165**, risk rises.
+| Bull: Hyper-Institutionalization (Prob 25%) | $87,317 | +9.00% | Global easing + stronger sovereign and ETF demand reduce liquid float. |
+| Base: Cycle Maturity (Prob 50%) | $77,258 | -3.55% | Steady institutional inflows with no retail mania phase. |
+| Bear: Liquidity Vacuum (Prob 25%) | $65,185 | -18.62% | High real rates + tighter regulation + persistent ETF outflows. |
+- Invalidation anchor: if price fails to hold trend near **$73,185**, risk rises.
 
 ### Method Notes
 
@@ -113,14 +113,14 @@ Long-term: Fair - Weak growth profile - Lower regulatory risk.
 
 ### Next Step (What To Do Today)
 
-- **For the Conservative Investor:** Add only on pullbacks and keep position sizing moderate around $73,165.
-- **For the Aggressive Investor:** Build in tranches now and increase only when confirmation improves; watch liquidity and turnover.
+- **For the Conservative Investor:** Add only on pullbacks and keep position sizing moderate around $73,185.
+- **For the Aggressive Investor:** Trade momentum tactically, but keep tight risk controls and actively watch liquidity and turnover.
 
 ### Final Verdict
 
 Long-term stance: Constructive long-term setup.
-Combined read: BTC is in a balanced regime with a composite score of 64.4/100 (confidence 91.0/100). Scarcity & Supply is 70.3, Usage & Popularity is 42.2, and Safety & Rules is 56.6. Whale-watch proxy is 100.0, SSR fuel gauge is 5.23, developer vitality is N/A, and conviction proxy is 100.0. Valuation sits in the fair band, while the key watch item is to watch liquidity and turnover; base-case path points to $77,258 (-0.63%) with upside to $87,496 and downside to $65,185.
-- **Pill check:** GRAY Fair (64.4)
+Combined read: BTC is in a overheated regime with a composite score of 70.2/100 (confidence 91.0/100). Scarcity & Supply is 61.7, Usage & Popularity is 52.8, and Safety & Rules is 62.3. Whale-watch proxy is 100.0, SSR fuel gauge is 5.39, developer vitality is N/A, and conviction proxy is 100.0. Valuation sits in the fair band, while the key watch item is to watch liquidity and turnover; base-case path points to $77,258 (-3.55%) with upside to $87,317 and downside to $65,185.
+- **Pill check:** GRAY Fair (70.2)
 
 ---
 ## Ethereum (ETH)
@@ -129,51 +129,51 @@ _Data sources: CoinGecko history (live), CoinGecko fundamentals (live)_
 
 ### Status Check (5-Second View)
 
-- **Market mood:** Balanced
+- **Market mood:** Overheated
 - **Simple action right now:** Add only on pullbacks and keep position sizing moderate around $2,157.
-- **Plain-English read:** Ethereum is in a balanced phase: no major euphoria, no major panic.
+- **Plain-English read:** Ethereum is running hot: upside can continue, but pullback risk is higher than usual.
 
 ### One-line Summary
 
-Long-term: Fair - Balanced growth profile - Lower regulatory risk.
+Long-term: Undervalued - Strong growth profile - Lower regulatory risk.
 
 ### Quick Score Snapshot
 
-- **Pill:** GRAY Fair (64.2)
-- **Composite score:** 64.2/100 | **Confidence:** 91.0/100
-- **Valuation band:** fair
+- **Pill:** GREEN Undervalued (75.6)
+- **Composite score:** 75.6/100 | **Confidence:** 91.0/100
+- **Valuation band:** undervalued
 - **Fast read:** Core structure is stable; watch confirmation from liquidity and macro trends.
 
 ### The Three Big Questions
 
 | Big Question | Score | Traffic Light | What It Means |
 |---|---:|---|---|
-| Scarcity & Supply | 74.5 | GREEN - Healthy | Is there too much being created? Current read: Supply discipline and valuation are supportive. |
-| Usage & Popularity | 53.2 | YELLOW - Caution | Are people actually using it? Current read: Network activity is stable but not accelerating. |
-| Safety & Rules | 48.8 | YELLOW - Caution | Could policy or market stress hurt it? Current read: Risk conditions are mixed and require active monitoring. |
+| Scarcity & Supply | 60.4 | YELLOW - Caution | Is there too much being created? Current read: Scarcity is intact, but valuation is near fair value. |
+| Usage & Popularity | 72.0 | GREEN - Healthy | Are people actually using it? Current read: Usage and developer activity support the long-term case. |
+| Safety & Rules | 61.8 | YELLOW - Caution | Could policy or market stress hurt it? Current read: Risk conditions are mixed and require active monitoring. |
 
 ### Translation Layer (So-What)
 
-- **Price vs 200-day average:** 1.06x. Translation: **GREEN - Healthy**. Below 1.00 often means a cooling phase and potentially better long-term entries.
-- **NVT proxy:** 34.47. Translation: **GREEN - Healthy**. High NVT can mean price is outrunning real network use.
-- **Turnover (Vol/Cap):** +2.90%. Translation: **RED - Warning**. Higher turnover usually means easier entry/exit liquidity.
-- **Max drawdown (1y):** -56.50%. Translation: **RED - Warning**. This is the historical pain you had to survive to hold long term.
-- **SSR (Fuel Gauge):** 0.93 (stablecoin cap source: live). Translation: **GREEN - Healthy**. Lower SSR usually means more sidelined buying power exists.
-- **Cost Basis Proxy (Price vs Realized Proxy):** +6.05%. Translation: **GREEN - Healthy**. Below 0% often means broader holder pain and potential capitulation zones.
+- **Price vs 200-day average:** 1.12x. Translation: **GREEN - Healthy**. Below 1.00 often means a cooling phase and potentially better long-term entries.
+- **NVT proxy:** 17.33. Translation: **GREEN - Healthy**. High NVT can mean price is outrunning real network use.
+- **Turnover (Vol/Cap):** +5.77%. Translation: **GREEN - Healthy**. Higher turnover usually means easier entry/exit liquidity.
+- **Max drawdown (1y):** -56.24%. Translation: **RED - Warning**. This is the historical pain you had to survive to hold long term.
+- **SSR (Fuel Gauge):** 0.99 (stablecoin cap source: live). Translation: **GREEN - Healthy**. Lower SSR usually means more sidelined buying power exists.
+- **Cost Basis Proxy (Price vs Realized Proxy):** +12.23%. Translation: **GREEN - Healthy**. Below 0% often means broader holder pain and potential capitulation zones.
 
 ### Advanced Criteria (Tiered)
 
-- **Whale Watch (Beginner):** Are big players buying or selling? **Proxy score: 100.0 (GREEN - Healthy)**.
+- **Whale Watch (Beginner):** Are big players buying or selling? **Proxy score: 89.3 (GREEN - Healthy)**.
   **Intermediate:** Concentration Risk proxy = **100.0** based on circulating/FDV structure.
   **Technical:** Whale transaction count and true holder concentration need dedicated on-chain feeds (not in this public snapshot).
   **12M conclusion:** If whale-pressure proxy improves while price is flat, odds of a silent accumulation phase improve.
 
-- **Stablecoin Supply Ratio (Beginner Fuel Gauge):** SSR = **0.93**.
+- **Stablecoin Supply Ratio (Beginner Fuel Gauge):** SSR = **0.99**.
   **Intermediate:** Lower SSR means more dry powder relative to BTC size.
   **Technical:** Stablecoin mint velocity and exchange inflow velocity require dedicated flow datasets.
   **12M conclusion:** Lower-to-mid SSR supports rally potential if risk conditions stabilize.
 
-- **Cost Basis (Beginner):** Current vs realized-price proxy gap = **+6.05%**.
+- **Cost Basis (Beginner):** Current vs realized-price proxy gap = **+12.23%**.
   **Intermediate:** Positive gap suggests market above aggregate cost basis proxy; negative gap suggests pain/capitulation risk.
   **Technical:** Full realized cap and MVRV Z-score need realized-cap series from on-chain providers.
   **12M conclusion:** Deep negative gaps historically improve long-term entry quality, but timing remains volatile.
@@ -183,7 +183,7 @@ Long-term: Fair - Balanced growth profile - Lower regulatory risk.
   **Technical:** Multi-chain developer retention and grant-quality trends require ecosystem-level datasets.
   **12M conclusion:** Sustained dev activity supports innovation moat and lowers zombie-project risk.
 
-- **HODL Waves / Supply Age (Beginner Conviction Meter):** **Proxy score: 100.0 (GREEN - Healthy)**.
+- **HODL Waves / Supply Age (Beginner Conviction Meter):** **Proxy score: 81.5 (GREEN - Healthy)**.
   **Intermediate:** Lower turnover often aligns with older supply staying locked.
   **Technical:** True HODL wave bands and RHODL ratio need UTXO-age datasets.
   **12M conclusion:** Rising conviction proxy supports supply tightening; sharp drops can signal old-holder distribution.
@@ -198,9 +198,9 @@ Long-term: Fair - Balanced growth profile - Lower regulatory risk.
 
 | Scenario | Target | Implied Move | Market Narrative |
 |---|---:|---:|---|
-| Bull: Utility Expansion (Prob 25%) | $2,945 | +28.77% | On-chain adoption accelerates while macro stays supportive. |
-| Base: Adoption Grind (Prob 50%) | $2,315 | +1.20% | Usage growth continues gradually without euphoric leverage. |
-| Bear: Risk-Off Deleveraging (Prob 25%) | $1,913 | -16.36% | Risk-off regime reduces activity and compresses multiples. |
+| Bull: Utility Expansion (Prob 25%) | $2,942 | +21.53% | On-chain adoption accelerates while macro stays supportive. |
+| Base: Adoption Grind (Prob 50%) | $2,315 | -4.38% | Usage growth continues gradually without euphoric leverage. |
+| Bear: Risk-Off Deleveraging (Prob 25%) | $1,913 | -20.97% | Risk-off regime reduces activity and compresses multiples. |
 - Invalidation anchor: if price fails to hold trend near **$2,157**, risk rises.
 
 ### Method Notes
@@ -212,13 +212,13 @@ Long-term: Fair - Balanced growth profile - Lower regulatory risk.
 ### Next Step (What To Do Today)
 
 - **For the Conservative Investor:** Add only on pullbacks and keep position sizing moderate around $2,157.
-- **For the Aggressive Investor:** Build in tranches now and increase only when confirmation improves; watch liquidity and turnover.
+- **For the Aggressive Investor:** Trade momentum tactically, but keep tight risk controls and actively watch liquidity and turnover.
 
 ### Final Verdict
 
-Long-term stance: Constructive long-term setup.
-Combined read: ETH is in a balanced regime with a composite score of 64.2/100 (confidence 91.0/100). Scarcity & Supply is 74.5, Usage & Popularity is 53.2, and Safety & Rules is 48.8. Whale-watch proxy is 100.0, SSR fuel gauge is 0.93, developer vitality is N/A, and conviction proxy is 100.0. Valuation sits in the fair band, while the key watch item is to watch liquidity and turnover; base-case path points to $2,315 (+1.20%) with upside to $2,945 and downside to $1,913.
-- **Pill check:** GRAY Fair (64.2)
+Long-term stance: Undervalued / High-conviction zone.
+Combined read: ETH is in a overheated regime with a composite score of 75.6/100 (confidence 91.0/100). Scarcity & Supply is 60.4, Usage & Popularity is 72.0, and Safety & Rules is 61.8. Whale-watch proxy is 89.3, SSR fuel gauge is 0.99, developer vitality is N/A, and conviction proxy is 81.5. Valuation sits in the undervalued band, while the key watch item is to watch liquidity and turnover; base-case path points to $2,315 (-4.38%) with upside to $2,942 and downside to $1,913.
+- **Pill check:** GREEN Undervalued (75.6)
 
 ---
 ## S&P 500 ETF (SPY)
