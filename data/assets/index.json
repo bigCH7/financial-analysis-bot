@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-05T21:28:56.852629+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-11-05 21:19 UTC_",
+  "generated_at": "2026-11-06T20:50:26.686797+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-11-06 20:41 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,23 +9,23 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 75759.0,
+        "current_usd": 75829.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": -2.67,
-        "change_30d_pct": -11.43
+        "change_7d_pct": -1.87,
+        "change_30d_pct": -8.95
       },
       "indicators": {
         "trend": "DOWNTREND",
-        "momentum": "STRONG",
+        "momentum": "WEAK",
         "volatility": "NORMAL"
       },
       "valuation": {
         "verdict": "Constructive long-term setup",
         "band": "fair",
         "summary_line": "Fair - Balanced growth profile - Lower regulatory risk.",
-        "score": 68.0
+        "score": 65.3
       },
-      "updated_at": "2026-11-05T21:28:56.850587+00:00",
+      "updated_at": "2026-11-06T20:50:26.684011+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,23 +37,23 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 2224.0,
+        "current_usd": 2231.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": -1.11,
-        "change_30d_pct": -17.53
+        "change_7d_pct": -0.52,
+        "change_30d_pct": -13.3
       },
       "indicators": {
         "trend": "DOWNTREND",
-        "momentum": "STRONG",
+        "momentum": "WEAK",
         "volatility": "NORMAL"
       },
       "valuation": {
         "verdict": "Constructive long-term setup",
         "band": "fair",
         "summary_line": "Fair - Strong growth profile - Moderate regulatory risk.",
-        "score": 72.6
+        "score": 68.7
       },
-      "updated_at": "2026-11-05T21:28:56.851191+00:00",
+      "updated_at": "2026-11-06T20:50:26.684793+00:00",
       "source": {
         "short_term": "live"
       }
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-11-05T21:28:56.851458+00:00",
+      "updated_at": "2026-11-06T20:50:26.685198+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-11-05T21:28:56.851727+00:00",
+      "updated_at": "2026-11-06T20:50:26.685507+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-11-05T21:28:56.851962+00:00",
+      "updated_at": "2026-11-06T20:50:26.685859+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-11-05T21:28:56.852195+00:00",
+      "updated_at": "2026-11-06T20:50:26.686171+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -193,7 +193,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-11-05T21:28:56.852416+00:00",
+      "updated_at": "2026-11-06T20:50:26.686497+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -201,72 +201,72 @@
   ],
   "overview_news": [
     {
-      "title": "U.S. Justice Department assembles force to shield against foreign AI threats",
-      "url": "https://www.coindesk.com/policy/2026/11/05/u-s-justice-department-assembles-force-to-shield-against-foreign-ai-threats",
-      "published_at": "Thu, 05 Nov 2026 18:59:45 +0000",
+      "title": "Apple, Meta reject OKX\u2013ICE tokenized stock plans, leaving crypto firms as the ones to watch",
+      "url": "https://www.coindesk.com/policy/2026/11/06/apple-meta-reject-okx-ice-tokenized-stock-plans-leaving-crypto-firms-as-the-ones-to-watch",
+      "published_at": "Fri, 06 Nov 2026 20:09:18 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin, crypto stocks caught in AI trade meltdown, but traders spot bargains",
-      "url": "https://www.coindesk.com/markets/2026/11/05/bitcoin-crypto-stocks-caught-in-ai-trade-meltdown-but-wintermute-trader-sees-glass-half-full",
-      "published_at": "Thu, 05 Nov 2026 18:48:40 +0000",
+      "title": "U.S. prediction markets regulator issues demand that clashes directly with courts",
+      "url": "https://www.coindesk.com/policy/2026/11/06/u-s-prediction-markets-regulator-issues-demand-that-clashes-directly-with-courts",
+      "published_at": "Fri, 06 Nov 2026 17:42:28 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "What is TraderTraitor, the hacking squad behind the $6.3 billion Binance heist?",
-      "url": "https://www.coindesk.com/business/2026/11/05/what-is-tradertraitor-the-hacking-squad-behind-the-usd6-3-billion-binance-heist",
-      "published_at": "Thu, 05 Nov 2026 16:58:21 +0000",
+      "title": "The crypto industry has found new ways to grow. Making money from them is another story",
+      "url": "https://www.coindesk.com/markets/2026/11/05/the-crypto-industry-has-found-new-ways-to-grow-making-money-from-them-is-another-story",
+      "published_at": "Fri, 06 Nov 2026 15:26:38 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Standard Chartered and SBI back crypto insurer Soter as funding reaches $23.5 million",
-      "url": "https://www.coindesk.com/business/2026/11/05/soter-raises-usd23-5m-plus-btc-and-eth-as-banks-demand-theft-protection",
-      "published_at": "Thu, 05 Nov 2026 16:49:08 +0000",
+      "title": "Thailand moves to block Bitget as crypto exchange's local acquisition faces uncertainty",
+      "url": "https://www.coindesk.com/business/2026/11/05/thailand-moves-to-block-bitget-as-crypto-exchange-s-local-acquisition-faces-uncertainty",
+      "published_at": "Fri, 06 Nov 2026 14:33:49 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Crypto for Advisors: Where investors stake crypto shapes how much of the reward they keep",
-      "url": "https://www.coindesk.com/coindesk-indices/2026/11/05/crypto-for-advisors-where-investors-stake-crypto-shapes-how-much-of-the-reward-they-keep",
-      "published_at": "Thu, 05 Nov 2026 16:13:32 +0000",
+      "title": "U.S. added 165,000 jobs in October, blowing past 65,000 estimate",
+      "url": "https://www.coindesk.com/markets/2026/11/06/u-s-added-165-000-jobs-in-october-blowing-past-65-000-estimate",
+      "published_at": "Fri, 06 Nov 2026 13:31:54 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Gate CEO says crypto exchanges must prove they can survive a hack like Binance\u2019s",
-      "url": "https://www.coindesk.com/business/2026/11/05/gate-ceo-says-crypto-exchanges-must-prove-they-can-survive-a-hack-like-binance-s",
-      "published_at": "Thu, 05 Nov 2026 14:21:50 +0000",
+      "title": "Over $1 billion in bullish bets liquidated while ETF flows suggest no help in spot market",
+      "url": "https://www.coindesk.com/daybook-us/2026/11/06/over-usd1-billion-in-bullish-bets-liquidated-while-etf-flows-suggest-no-help-in-spot-market",
+      "published_at": "Fri, 06 Nov 2026 12:30:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Kraken parent Payward and its clients buy AAVE tokens in DeFi investment push",
-      "url": "https://www.coindesk.com/business/2026/11/05/kraken-parent-payward-and-its-clients-buy-aave-tokens-in-defi-investment-push",
-      "published_at": "Thu, 05 Nov 2026 14:00:00 +0000",
+      "title": "Live updates: Bitcoin holds in narrow range, stocks bounce after strong October jobs report",
+      "url": "https://www.coindesk.com/tech/2026/11/06/live-updates-nasdaq-100-futures-rally-points-to-stock-market-respite",
+      "published_at": "Fri, 06 Nov 2026 11:58:40 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Google could take stake in bitcoin miner TeraWulf\u2019s $19 billion AI project if Anthropic defaults",
-      "url": "https://www.coindesk.com/tech/2026/11/05/google-could-take-ownership-stake-in-bitcoin-miner-terawulf-s-ai-project-if-anthropic-defaults",
-      "published_at": "Thu, 05 Nov 2026 13:29:40 +0000",
+      "title": "Bitcoin steadies after AI-led selloff as eyes turn to latest U.S. jobs figures",
+      "url": "https://www.coindesk.com/markets/2026/11/06/bitcoin-steadies-near-usd76-000-after-ai-led-selloff",
+      "published_at": "Fri, 06 Nov 2026 11:49:35 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Binance cuts SignalPlus access after security warning, urges users to check accounts",
-      "url": "https://www.coindesk.com/tech/2026/11/05/binance-cuts-signalplus-access-after-security-warning-urges-users-to-check-accounts",
-      "published_at": "Thu, 05 Nov 2026 12:55:03 +0000",
+      "title": "Bitcoin recovers $76,000 level as ETFs shed $430 million after tech rout",
+      "url": "https://www.coindesk.com/markets/2026/11/06/bitcoin-recovers-usd76-000-level-as-etfs-shed-usd430-million-after-tech-rout",
+      "published_at": "Fri, 06 Nov 2026 09:53:27 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Ukraine\u2019s central bank opposes crypto bill, citing monetary sovereignty concerns",
-      "url": "https://www.coindesk.com/business/2026/11/05/ukraine-s-central-bank-opposes-crypto-bill-citing-monetary-sovereignty-concerns",
-      "published_at": "Thu, 05 Nov 2026 12:50:57 +0000",
+      "title": "Greece approves 10% tax on crypto gains and 15% levy on DeFi income",
+      "url": "https://www.coindesk.com/policy/2026/11/06/greece-approves-10-tax-on-crypto-gains-and-15-levy-on-defi-income",
+      "published_at": "Fri, 06 Nov 2026 08:47:42 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
