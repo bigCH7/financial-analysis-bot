@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-07T19:24:13.423096+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-11-07 19:15 UTC_",
+  "generated_at": "2026-11-08T19:29:18.267674+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-11-08 19:20 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,10 +9,10 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 75739.0,
+        "current_usd": 75801.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": -2.3,
-        "change_30d_pct": -7.28
+        "change_7d_pct": -3.18,
+        "change_30d_pct": -8.19
       },
       "indicators": {
         "trend": "DOWNTREND",
@@ -23,9 +23,9 @@
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
         "summary_line": "Fair - Weak growth profile - Lower regulatory risk.",
-        "score": 55.1
+        "score": 53.2
       },
-      "updated_at": "2026-11-07T19:24:13.421020+00:00",
+      "updated_at": "2026-11-08T19:29:18.265060+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,10 +37,10 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 2232.0,
+        "current_usd": 2231.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": -0.97,
-        "change_30d_pct": -9.72
+        "change_7d_pct": -1.89,
+        "change_30d_pct": -10.25
       },
       "indicators": {
         "trend": "DOWNTREND",
@@ -51,9 +51,9 @@
         "verdict": "Neutral / fair-value zone",
         "band": "fair",
         "summary_line": "Fair - Weak growth profile - Moderate regulatory risk.",
-        "score": 57.1
+        "score": 55.1
       },
-      "updated_at": "2026-11-07T19:24:13.421662+00:00",
+      "updated_at": "2026-11-08T19:29:18.265757+00:00",
       "source": {
         "short_term": "live"
       }
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-11-07T19:24:13.421948+00:00",
+      "updated_at": "2026-11-08T19:29:18.266111+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-11-07T19:24:13.422189+00:00",
+      "updated_at": "2026-11-08T19:29:18.266454+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-11-07T19:24:13.422425+00:00",
+      "updated_at": "2026-11-08T19:29:18.266751+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-11-07T19:24:13.422663+00:00",
+      "updated_at": "2026-11-08T19:29:18.267059+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -193,13 +193,27 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-11-07T19:24:13.422881+00:00",
+      "updated_at": "2026-11-08T19:29:18.267384+00:00",
       "source": {
         "short_term": "unavailable"
       }
     }
   ],
   "overview_news": [
+    {
+      "title": "Stablecoin growth has stalled. The payments boom hasn't",
+      "url": "https://www.coindesk.com/business/2026/11/08/stablecoin-growth-has-stalled-the-payments-boom-hasn-t",
+      "published_at": "Sun, 08 Nov 2026 19:16:42 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "These Finland homes get free heat from bitcoin miners (as long as BTC stays above $70,000)",
+      "url": "https://www.coindesk.com/markets/2026/11/08/these-finland-homes-get-free-heat-from-bitcoin-miners-as-long-as-btc-stays-above-usd70-000",
+      "published_at": "Sun, 08 Nov 2026 12:55:59 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
     {
       "title": "Binance users in some European countries told to pull crypto before fees kick in, with accounts closing by year end",
       "url": "https://www.coindesk.com/business/2026/11/07/binance-users-in-some-european-countries-told-to-pull-crypto-before-fees-kick-in-with-accounts-closing-by-year-end",
@@ -253,20 +267,6 @@
       "title": "U.S. added 165,000 jobs in October, blowing past 65,000 estimate",
       "url": "https://www.coindesk.com/markets/2026/11/06/u-s-added-165-000-jobs-in-october-blowing-past-65-000-estimate",
       "published_at": "Fri, 06 Nov 2026 13:31:54 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Over $1 billion in bullish bets liquidated while ETF flows suggest no help in spot market",
-      "url": "https://www.coindesk.com/daybook-us/2026/11/06/over-usd1-billion-in-bullish-bets-liquidated-while-etf-flows-suggest-no-help-in-spot-market",
-      "published_at": "Fri, 06 Nov 2026 12:30:00 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Live updates: Bitcoin flatlines under $76,000 as stock bounce loses steam into the close",
-      "url": "https://www.coindesk.com/tech/2026/11/06/live-updates-nasdaq-100-futures-rally-points-to-stock-market-respite",
-      "published_at": "Fri, 06 Nov 2026 11:58:40 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
