@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-08T19:29:18.267674+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-11-08 19:20 UTC_",
+  "generated_at": "2026-11-09T23:50:27.288097+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-11-09 23:41 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,10 +9,10 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 75801.0,
+        "current_usd": 75154.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": -3.18,
-        "change_30d_pct": -8.19
+        "change_7d_pct": -2.03,
+        "change_30d_pct": -9.36
       },
       "indicators": {
         "trend": "DOWNTREND",
@@ -20,12 +20,12 @@
         "volatility": "NORMAL"
       },
       "valuation": {
-        "verdict": "Neutral / fair-value zone",
+        "verdict": "Constructive long-term setup",
         "band": "fair",
-        "summary_line": "Fair - Weak growth profile - Lower regulatory risk.",
-        "score": 53.2
+        "summary_line": "Fair - Balanced growth profile - Lower regulatory risk.",
+        "score": 64.0
       },
-      "updated_at": "2026-11-08T19:29:18.265060+00:00",
+      "updated_at": "2026-11-09T23:50:27.285190+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,10 +37,10 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 2231.0,
+        "current_usd": 2131.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": -1.89,
-        "change_30d_pct": -10.25
+        "change_7d_pct": -5.31,
+        "change_30d_pct": -14.92
       },
       "indicators": {
         "trend": "DOWNTREND",
@@ -48,12 +48,12 @@
         "volatility": "NORMAL"
       },
       "valuation": {
-        "verdict": "Neutral / fair-value zone",
+        "verdict": "Constructive long-term setup",
         "band": "fair",
-        "summary_line": "Fair - Weak growth profile - Moderate regulatory risk.",
-        "score": 55.1
+        "summary_line": "Fair - Strong growth profile - Moderate regulatory risk.",
+        "score": 68.5
       },
-      "updated_at": "2026-11-08T19:29:18.265757+00:00",
+      "updated_at": "2026-11-09T23:50:27.286362+00:00",
       "source": {
         "short_term": "live"
       }
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-11-08T19:29:18.266111+00:00",
+      "updated_at": "2026-11-09T23:50:27.286671+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-11-08T19:29:18.266454+00:00",
+      "updated_at": "2026-11-09T23:50:27.287001+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-11-08T19:29:18.266751+00:00",
+      "updated_at": "2026-11-09T23:50:27.287306+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-11-08T19:29:18.267059+00:00",
+      "updated_at": "2026-11-09T23:50:27.287590+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -193,7 +193,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-11-08T19:29:18.267384+00:00",
+      "updated_at": "2026-11-09T23:50:27.287878+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -201,72 +201,72 @@
   ],
   "overview_news": [
     {
-      "title": "Stablecoin growth has stalled. The payments boom hasn't",
-      "url": "https://www.coindesk.com/business/2026/11/08/stablecoin-growth-has-stalled-the-payments-boom-hasn-t",
-      "published_at": "Sun, 08 Nov 2026 19:16:42 +0000",
+      "title": "Securitize pushes into $6 trillion asset-backed finance market with River One acquisition",
+      "url": "https://www.coindesk.com/business/2026/11/09/securitize-pushes-into-usd6-trillion-asset-backed-finance-market-with-river-one-acquisition",
+      "published_at": "Mon, 09 Nov 2026 22:56:27 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "These Finland homes get free heat from bitcoin miners (as long as BTC stays above $70,000)",
-      "url": "https://www.coindesk.com/markets/2026/11/08/these-finland-homes-get-free-heat-from-bitcoin-miners-as-long-as-btc-stays-above-usd70-000",
-      "published_at": "Sun, 08 Nov 2026 12:55:59 +0000",
+      "title": "Robinhood backs tokenization of its stock on OKX\u2013ICE platform even as most companies opt out",
+      "url": "https://www.coindesk.com/business/2026/11/09/robinhood-backs-tokenization-of-its-stock-on-okx-ice-platform-even-as-most-companies-opt-out",
+      "published_at": "Mon, 09 Nov 2026 19:36:15 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Binance users in some European countries told to pull crypto before fees kick in, with accounts closing by year end",
-      "url": "https://www.coindesk.com/business/2026/11/07/binance-users-in-some-european-countries-told-to-pull-crypto-before-fees-kick-in-with-accounts-closing-by-year-end",
-      "published_at": "Sat, 07 Nov 2026 19:13:16 +0000",
+      "title": "A Bitcoin block just neared a 2015 transaction record, but paid only $180 in fees",
+      "url": "https://www.coindesk.com/tech/2026/11/09/a-bitcoin-block-just-neared-a-2015-transaction-record-but-paid-only-usd180-in-fees",
+      "published_at": "Mon, 09 Nov 2026 16:19:45 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "U.S. Treasury moves to cut off crypto exchange MEXC over $16 billion in alleged illicit flows",
-      "url": "https://www.coindesk.com/business/2026/11/07/u-s-treasury-moves-to-cut-off-crypto-exchange-mexc-over-usd16-billion-in-alleged-illicit-flows",
-      "published_at": "Sat, 07 Nov 2026 17:36:46 +0000",
+      "title": "Google\u2019s AI chip push adds more pressure on Nvidia",
+      "url": "https://www.coindesk.com/markets/2026/11/09/google-s-ai-chip-push-adds-more-pressure-on-nvidia",
+      "published_at": "Mon, 09 Nov 2026 15:20:05 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Gnosis Pay breach exposes card numbers, home addresses and linked crypto wallets",
-      "url": "https://www.coindesk.com/business/2026/11/07/gnosis-pay-breach-exposes-card-numbers-home-addresses-and-linked-crypto-wallets",
-      "published_at": "Sat, 07 Nov 2026 16:51:00 +0000",
+      "title": "North Korean hackers are creating memecoins to wash loot from $6.3 billion Binance hack",
+      "url": "https://www.coindesk.com/business/2026/11/09/north-korean-hackers-are-creating-memecoins-to-wash-loot-from-usd6-3-billion-binance-hack",
+      "published_at": "Mon, 09 Nov 2026 15:00:44 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Apple, Meta reject OKX\u2013ICE tokenized stock plans, leaving crypto firms as the ones to watch",
-      "url": "https://www.coindesk.com/policy/2026/11/06/apple-meta-reject-okx-ice-tokenized-stock-plans-leaving-crypto-firms-as-the-ones-to-watch",
-      "published_at": "Fri, 06 Nov 2026 20:09:18 +0000",
+      "title": "NYSE picks Avalanche to settle tokenized stocks amid Wall Street's blockchain race",
+      "url": "https://www.coindesk.com/business/2026/11/09/nyse-picks-avalanche-to-settle-tokenized-stocks-amid-wall-street-s-blockchain-race",
+      "published_at": "Mon, 09 Nov 2026 13:40:06 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "U.S. prediction markets regulator issues demand that clashes directly with courts",
-      "url": "https://www.coindesk.com/policy/2026/11/06/u-s-prediction-markets-regulator-issues-demand-that-clashes-directly-with-courts",
-      "published_at": "Fri, 06 Nov 2026 17:42:28 +0000",
+      "title": "Solana set for its first tokenized stock venue under SEC framework, listing Galaxy",
+      "url": "https://www.coindesk.com/business/2026/11/06/solana-lset-for-its-first-tokenized-stock-venue-under-sec-framework-listing-galaxy",
+      "published_at": "Mon, 09 Nov 2026 12:41:35 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "The crypto industry has found new ways to grow. Making money from them is another story",
-      "url": "https://www.coindesk.com/markets/2026/11/05/the-crypto-industry-has-found-new-ways-to-grow-making-money-from-them-is-another-story",
-      "published_at": "Fri, 06 Nov 2026 15:26:38 +0000",
+      "title": "Trump says he knows \u2018nothing\u2019 about World Liberty\u2019s UAE ties as Justin Sun challenges filings",
+      "url": "https://www.coindesk.com/business/2026/11/09/trump-says-he-knows-nothing-about-world-liberty-s-uae-ties-as-justin-sun-challenges-filings",
+      "published_at": "Mon, 09 Nov 2026 12:37:13 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Thailand moves to block Bitget as crypto exchange's local acquisition faces uncertainty",
-      "url": "https://www.coindesk.com/business/2026/11/05/thailand-moves-to-block-bitget-as-crypto-exchange-s-local-acquisition-faces-uncertainty",
-      "published_at": "Fri, 06 Nov 2026 14:33:49 +0000",
+      "title": "Bitcoin bulls can't rely on ETF flows",
+      "url": "https://www.coindesk.com/daybook-us/2026/11/09/bitcoin-bulls-can-t-rely-on-etf-flows",
+      "published_at": "Mon, 09 Nov 2026 12:30:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "U.S. added 165,000 jobs in October, blowing past 65,000 estimate",
-      "url": "https://www.coindesk.com/markets/2026/11/06/u-s-added-165-000-jobs-in-october-blowing-past-65-000-estimate",
-      "published_at": "Fri, 06 Nov 2026 13:31:54 +0000",
+      "title": "Nvidia-led tech selloff weighs on crypto majors",
+      "url": "https://www.coindesk.com/markets/2026/11/09/tech-selloff-weighs-on-crypto-majors",
+      "published_at": "Mon, 09 Nov 2026 11:42:04 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
