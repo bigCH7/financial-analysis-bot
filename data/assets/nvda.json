@@ -4,7 +4,7 @@
   "symbol": "NVDA",
   "market_type": "traditional",
   "details_page": "asset.html?asset=nvda",
-  "updated_at": "2026-11-09T23:50:27.287306+00:00",
+  "updated_at": "2026-11-10T21:20:42.040544+00:00",
   "about": {
     "what_it_is": "NVIDIA is a semiconductor and computing company focused on GPUs and AI platforms.",
     "what_it_represents": "It represents demand for AI infrastructure, data center compute, and advanced chips.",
@@ -13,7 +13,7 @@
   },
   "source": {
     "short_term": "unavailable",
-    "news_generated_at": "2026-11-09 23:49 UTC"
+    "news_generated_at": "2026-11-10 21:19 UTC"
   },
   "price": {
     "current_usd": null,
@@ -40,34 +40,6 @@
       "url": "https://www.coindesk.com/markets/2026/11/09/google-s-ai-chip-push-adds-more-pressure-on-nvidia",
       "published_at": "Mon, 09 Nov 2026 15:20:05 +0000",
       "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Nvidia-led tech selloff weighs on crypto majors",
-      "url": "https://www.coindesk.com/markets/2026/11/09/tech-selloff-weighs-on-crypto-majors",
-      "published_at": "Mon, 09 Nov 2026 11:42:04 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitcoin drops as Nvidia cheating scandal and failed Iran talks trigger volatility",
-      "url": "https://www.coindesk.com/markets/2026/11/09/bitcoin-drops-then-pops-as-nvidia-cheating-scandal-and-failed-iran-talks-trigger-volatility",
-      "published_at": "Mon, 09 Nov 2026 03:21:49 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitcoin, tech stocks brush off Nvidia nerves as analyst mulls $68K target",
-      "url": "https://cointelegraph.com/markets/bitcoin-stocks-nvidia-analyst-68k-target?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "Mon, 09 Nov 2026 17:13:25 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "BTC price eyes $73K amid Nvidia volatility: Three things to know in Bitcoin this week",
-      "url": "https://cointelegraph.com/markets/btc-price-nvidia-volatility-three-things-bitcoin-this-week?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "Mon, 09 Nov 2026 10:03:40 +0000",
-      "source": "Cointelegraph",
       "fetch_source": "live"
     }
   ]
