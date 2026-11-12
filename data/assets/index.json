@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-11T21:53:56.538961+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-11-11 21:44 UTC_",
+  "generated_at": "2026-11-12T21:53:10.121655+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-11-12 21:44 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,23 +9,23 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 74422.0,
+        "current_usd": 71547.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": -7.48,
-        "change_30d_pct": -9.01
+        "change_7d_pct": -5.87,
+        "change_30d_pct": -13.92
       },
       "indicators": {
-        "trend": "UPTREND",
-        "momentum": "WEAK",
+        "trend": "DOWNTREND",
+        "momentum": "STRONG",
         "volatility": "NORMAL"
       },
       "valuation": {
         "verdict": "Constructive long-term setup",
         "band": "fair",
-        "summary_line": "Fair - Weak growth profile - Lower regulatory risk.",
-        "score": 63.0
+        "summary_line": "Fair - Balanced growth profile - Moderate regulatory risk.",
+        "score": 62.5
       },
-      "updated_at": "2026-11-11T21:53:56.536152+00:00",
+      "updated_at": "2026-11-12T21:53:10.118827+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,23 +37,23 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 2074.0,
+        "current_usd": 2019.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": -14.42,
-        "change_30d_pct": -15.22
+        "change_7d_pct": -9.69,
+        "change_30d_pct": -19.12
       },
       "indicators": {
         "trend": "DOWNTREND",
-        "momentum": "WEAK",
+        "momentum": "STRONG",
         "volatility": "NORMAL"
       },
       "valuation": {
         "verdict": "Constructive long-term setup",
-        "band": "fair",
-        "summary_line": "Fair - Balanced growth profile - Moderate regulatory risk.",
-        "score": 62.5
+        "band": "undervalued",
+        "summary_line": "Undervalued - Balanced growth profile - Moderate regulatory risk.",
+        "score": 63.3
       },
-      "updated_at": "2026-11-11T21:53:56.537139+00:00",
+      "updated_at": "2026-11-12T21:53:10.119955+00:00",
       "source": {
         "short_term": "live"
       }
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-11-11T21:53:56.537492+00:00",
+      "updated_at": "2026-11-12T21:53:10.120312+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-11-11T21:53:56.537804+00:00",
+      "updated_at": "2026-11-12T21:53:10.120608+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-11-11T21:53:56.538117+00:00",
+      "updated_at": "2026-11-12T21:53:10.120883+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-11-11T21:53:56.538408+00:00",
+      "updated_at": "2026-11-12T21:53:10.121158+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -193,7 +193,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-11-11T21:53:56.538693+00:00",
+      "updated_at": "2026-11-12T21:53:10.121431+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -201,72 +201,72 @@
   ],
   "overview_news": [
     {
-      "title": "Crypto Long & Short: The GENIUS Act\u2019s guarantees don\u2019t cover DeFi lending",
-      "url": "https://www.coindesk.com/coindesk-indices/2026/11/11/crypto-long-and-short-the-genius-act-s-guarantees-don-t-cover-defi-lending",
-      "published_at": "Wed, 11 Nov 2026 16:00:45 +0000",
+      "title": "Kalshi ends Donald Trump Jr.\u2019s advisory contract over 1789 Capital\u2019s Polymarket investment",
+      "url": "https://www.coindesk.com/policy/2026/11/12/kalshi-ends-donald-trump-jr-s-advisory-contract-over-1789-capital-s-polymarket-investment",
+      "published_at": "Thu, 12 Nov 2026 21:07:49 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "OKXICE to debut tokenized stock trading with Strategy, Coinbase, Circle this month",
-      "url": "https://www.coindesk.com/business/2026/11/10/okxice-to-debut-tokenized-stock-trading-with-strategy-coinbase-circle-this-month",
-      "published_at": "Wed, 11 Nov 2026 13:00:00 +0000",
+      "title": "Illinois crypto tax is impossible to enforce as written, crypto industry tells court",
+      "url": "https://www.coindesk.com/policy/2026/11/12/illinois-crypto-tax-is-impossible-to-enforce-as-written-crypto-industry-tells-court",
+      "published_at": "Thu, 12 Nov 2026 16:45:52 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Meet Spiko, the largest tokenized fund in the world you\u2019ve probably never heard about",
-      "url": "https://www.coindesk.com/business/2026/11/11/meet-spiko-the-largest-tokenized-fund-in-the-world-you-ve-probably-never-heard-about",
-      "published_at": "Wed, 11 Nov 2026 12:57:36 +0000",
+      "title": "DTCC adds Solana to Wall Street tokenization plans, targeting 2027 rollout",
+      "url": "https://www.coindesk.com/business/2026/11/12/dtcc-adds-solana-to-wall-street-tokenization-plans-targeting-2027-rollout",
+      "published_at": "Thu, 12 Nov 2026 15:45:48 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Live news: Bitcoin remains under pressure as CoreWeave, Nvidia lead AI rebound",
-      "url": "https://www.coindesk.com/tech/2026/11/11/live-news-coreweave-jumps-14-as-earnings-fuel-rebound-across-battered-ai-stocks",
-      "published_at": "Wed, 11 Nov 2026 12:21:24 +0000",
+      "title": "Crypto for Advisors: The blockchain built to run financial markets",
+      "url": "https://www.coindesk.com/coindesk-indices/2026/11/12/crypto-for-advisors-the-blockchain-built-to-run-financial-markets",
+      "published_at": "Thu, 12 Nov 2026 15:34:29 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin barely flinches at hot CPI as ETF selling slows",
-      "url": "https://www.coindesk.com/daybook-us/2026/11/11/bitcoin-barely-flinches-at-hot-cpi-as-etf-selling-slows",
-      "published_at": "Wed, 11 Nov 2026 12:19:30 +0000",
+      "title": "Jupiter adds Anchorage-backed USDGO to its $1 billion Solana lending platform",
+      "url": "https://www.coindesk.com/business/2026/11/12/jupiter-adds-anchorage-backed-usdgo-to-its-usd1-billion-solana-lending-platform",
+      "published_at": "Thu, 12 Nov 2026 14:45:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin sits out stock rebound as ETF outflows extend to fourth day",
-      "url": "https://www.coindesk.com/markets/2026/11/11/bitcoin-sits-out-stock-rebound-as-etf-outflows-extend-to-fourth-day",
-      "published_at": "Wed, 11 Nov 2026 11:37:04 +0000",
+      "title": "The next Congress will write rules for AI and emerging tech. They should use the stuff first.",
+      "url": "https://www.coindesk.com/opinion/2026/11/12/the-next-congress-will-write-rules-for-ai-and-emerging-tech-they-should-use-the-stuff-first",
+      "published_at": "Thu, 12 Nov 2026 14:24:51 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Kraken's xStocks adds 200 UK and EU shares as its assets top $1.1 billion",
-      "url": "https://www.coindesk.com/business/2026/11/11/kraken-s-xstocks-adds-200-uk-and-eu-shares-as-its-assets-top-usd1-1-billion",
-      "published_at": "Wed, 11 Nov 2026 10:51:34 +0000",
+      "title": "Nvidia CEO Huang quits company he co-founded, led for 3 decades. Shares slump",
+      "url": "https://www.coindesk.com/markets/2026/11/12/nvidia-shares-plunge-10-as-jensen-huang-resigns",
+      "published_at": "Thu, 12 Nov 2026 13:57:53 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin stuck under $74,000 as CoreWeave earnings revive AI outlook, Anthropic said to raise IPO valuation",
-      "url": "https://www.coindesk.com/markets/2026/11/11/coreweave-earnings-revive-ai-outlook-as-anthropic-weighs-higher-ipo-valuation",
-      "published_at": "Wed, 11 Nov 2026 10:45:49 +0000",
+      "title": "Bitcoin weakness erases September's bullish signal",
+      "url": "https://www.coindesk.com/daybook-us/2026/11/12/bitcoin-weakness-erases-september-s-bullish-signal",
+      "published_at": "Thu, 12 Nov 2026 12:15:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Warren: What is White House doing to prevent a repeat of teleprompter's Trump bets?",
-      "url": "https://www.coindesk.com/policy/2026/11/10/warren-what-is-white-house-doing-to-prevent-a-repeat-of-teleprompter-s-trump-bets",
-      "published_at": "Tue, 10 Nov 2026 20:36:33 +0000",
+      "title": "UK bank Griffin raises $20 million to expand into stablecoin payments",
+      "url": "https://www.coindesk.com/business/2026/11/12/uk-bank-griffin-raises-usd20-million-to-expand-into-stablecoin-payments",
+      "published_at": "Thu, 12 Nov 2026 12:04:42 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Former NYSE president says stock issuers hold the key to tokenization as Bullish builds its platform",
-      "url": "https://www.coindesk.com/business/2026/11/10/former-nyse-president-says-stock-issuers-hold-the-key-to-tokenization-as-bullish-builds-its-platform",
-      "published_at": "Tue, 10 Nov 2026 20:15:08 +0000",
+      "title": "Ethereum researchers drop faster blocks to race toward quantum defenses in 2027",
+      "url": "https://www.coindesk.com/tech/2026/11/12/ethereum-researchers-drop-faster-blocks-to-race-toward-quantum-defenses-in-2027",
+      "published_at": "Thu, 12 Nov 2026 11:43:41 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
