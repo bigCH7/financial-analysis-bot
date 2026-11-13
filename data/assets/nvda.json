@@ -4,7 +4,7 @@
   "symbol": "NVDA",
   "market_type": "traditional",
   "details_page": "asset.html?asset=nvda",
-  "updated_at": "2026-11-12T21:53:10.120883+00:00",
+  "updated_at": "2026-11-13T21:19:19.298432+00:00",
   "about": {
     "what_it_is": "NVIDIA is a semiconductor and computing company focused on GPUs and AI platforms.",
     "what_it_represents": "It represents demand for AI infrastructure, data center compute, and advanced chips.",
@@ -13,7 +13,7 @@
   },
   "source": {
     "short_term": "unavailable",
-    "news_generated_at": "2026-11-12 21:51 UTC"
+    "news_generated_at": "2026-11-13 21:18 UTC"
   },
   "price": {
     "current_usd": null,
@@ -47,34 +47,6 @@
       "url": "https://www.coindesk.com/markets/2026/11/12/bitcoin-dips-with-nvidia-as-etf-outflows-reach-day-five",
       "published_at": "Thu, 12 Nov 2026 11:30:00 +0000",
       "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Live updates: Bitcoin slumps below $72,000 as Nvidia's Huang resigns, interest rates surge",
-      "url": "https://www.coindesk.com/tech/2026/11/12/live-news-strategy-kicked-out-of-msci-indexes-as-nvidia-slump-rattles-markets",
-      "published_at": "Thu, 12 Nov 2026 09:15:04 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Nvidia perps crash 7% as CEO Jensen Huang reportedly faces the axe",
-      "url": "https://www.coindesk.com/markets/2026/11/12/bitcoin-listless-nvidia-perps-crash-7-as-ceo-jensen-huang-reportedly-faces-the-axe",
-      "published_at": "Thu, 12 Nov 2026 04:03:47 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitcoin slides toward $71K as Nvidia stock tumbles after Huang steps down",
-      "url": "https://cointelegraph.com/markets/bitcoin-price-drops-71k-stocks-nvidia-huang-resignation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "Thu, 12 Nov 2026 15:46:06 +0000",
-      "source": "Cointelegraph",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Jensen Huang resigns as Nvidia CEO, exits board; shares plunge",
-      "url": "https://cointelegraph.com/news/jensen-huang-resigns-nvidia-ceo-board-member?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "Thu, 12 Nov 2026 13:59:02 +0000",
-      "source": "Cointelegraph",
       "fetch_source": "live"
     }
   ]

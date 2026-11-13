@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-12T21:53:10.121655+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-11-12 21:44 UTC_",
+  "generated_at": "2026-11-13T21:19:19.299245+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-11-13 21:11 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,10 +9,10 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 71547.0,
+        "current_usd": 68477.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": -5.87,
-        "change_30d_pct": -13.92
+        "change_7d_pct": -9.63,
+        "change_30d_pct": -16.09
       },
       "indicators": {
         "trend": "DOWNTREND",
@@ -21,11 +21,11 @@
       },
       "valuation": {
         "verdict": "Constructive long-term setup",
-        "band": "fair",
-        "summary_line": "Fair - Balanced growth profile - Moderate regulatory risk.",
-        "score": 62.5
+        "band": "undervalued",
+        "summary_line": "Undervalued - Balanced growth profile - Moderate regulatory risk.",
+        "score": 65.1
       },
-      "updated_at": "2026-11-12T21:53:10.118827+00:00",
+      "updated_at": "2026-11-13T21:19:19.296679+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,10 +37,10 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 2019.0,
+        "current_usd": 1935.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": -9.69,
-        "change_30d_pct": -19.12
+        "change_7d_pct": -13.48,
+        "change_30d_pct": -20.04
       },
       "indicators": {
         "trend": "DOWNTREND",
@@ -50,10 +50,10 @@
       "valuation": {
         "verdict": "Constructive long-term setup",
         "band": "undervalued",
-        "summary_line": "Undervalued - Balanced growth profile - Moderate regulatory risk.",
-        "score": 63.3
+        "summary_line": "Undervalued - Strong growth profile - Elevated regulatory risk.",
+        "score": 66.3
       },
-      "updated_at": "2026-11-12T21:53:10.119955+00:00",
+      "updated_at": "2026-11-13T21:19:19.297522+00:00",
       "source": {
         "short_term": "live"
       }
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-11-12T21:53:10.120312+00:00",
+      "updated_at": "2026-11-13T21:19:19.297857+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-11-12T21:53:10.120608+00:00",
+      "updated_at": "2026-11-13T21:19:19.298153+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-11-12T21:53:10.120883+00:00",
+      "updated_at": "2026-11-13T21:19:19.298432+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-11-12T21:53:10.121158+00:00",
+      "updated_at": "2026-11-13T21:19:19.298712+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -193,7 +193,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-11-12T21:53:10.121431+00:00",
+      "updated_at": "2026-11-13T21:19:19.298982+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -201,72 +201,72 @@
   ],
   "overview_news": [
     {
-      "title": "Kalshi ends Donald Trump Jr.\u2019s advisory contract over 1789 Capital\u2019s Polymarket investment",
-      "url": "https://www.coindesk.com/policy/2026/11/12/kalshi-ends-donald-trump-jr-s-advisory-contract-over-1789-capital-s-polymarket-investment",
-      "published_at": "Thu, 12 Nov 2026 21:07:49 +0000",
+      "title": "Bitcoin plunges to $68,000 as Anthropic IPO frenzy adds to market jitters",
+      "url": "https://www.coindesk.com/markets/2026/11/13/bitcoin-slides-to-usd68k-as-nvidia-turmoil-anthropic-ipo-fuel-broader-market-sell-off",
+      "published_at": "Fri, 13 Nov 2026 18:39:58 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Illinois crypto tax is impossible to enforce as written, crypto industry tells court",
-      "url": "https://www.coindesk.com/policy/2026/11/12/illinois-crypto-tax-is-impossible-to-enforce-as-written-crypto-industry-tells-court",
-      "published_at": "Thu, 12 Nov 2026 16:45:52 +0000",
+      "title": "U.S. Senate Banking Committee races toward hearing on new SEC nominations",
+      "url": "https://www.coindesk.com/policy/2026/11/13/u-s-senate-banking-committee-races-toward-hearing-on-new-sec-nominations",
+      "published_at": "Fri, 13 Nov 2026 17:05:43 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "DTCC adds Solana to Wall Street tokenization plans, targeting 2027 rollout",
-      "url": "https://www.coindesk.com/business/2026/11/12/dtcc-adds-solana-to-wall-street-tokenization-plans-targeting-2027-rollout",
-      "published_at": "Thu, 12 Nov 2026 15:45:48 +0000",
+      "title": "Bitcoin heads for sixth weekly loss as Anthropic\u2019s blockbuster IPO looms",
+      "url": "https://www.coindesk.com/markets/2026/11/13/bitcoin-heads-for-sixth-weekly-loss-as-anthropic-s-blockbuster-ipo-looms",
+      "published_at": "Fri, 13 Nov 2026 16:01:27 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Crypto for Advisors: The blockchain built to run financial markets",
-      "url": "https://www.coindesk.com/coindesk-indices/2026/11/12/crypto-for-advisors-the-blockchain-built-to-run-financial-markets",
-      "published_at": "Thu, 12 Nov 2026 15:34:29 +0000",
+      "title": "Kraken parent Payward says expansion outside crypto trading helps cushion revenue decline",
+      "url": "https://www.coindesk.com/business/2026/11/13/kraken-parent-payward-says-expansion-outside-crypto-trading-helps-cushion-revenue-decline",
+      "published_at": "Fri, 13 Nov 2026 14:02:00 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Jupiter adds Anchorage-backed USDGO to its $1 billion Solana lending platform",
-      "url": "https://www.coindesk.com/business/2026/11/12/jupiter-adds-anchorage-backed-usdgo-to-its-usd1-billion-solana-lending-platform",
-      "published_at": "Thu, 12 Nov 2026 14:45:00 +0000",
+      "title": "Bitcoin's momentum gauge is turning red, could send prices back below $60,000",
+      "url": "https://www.coindesk.com/daybook-us/2026/11/13/bitcoin-s-momentum-gauge-is-turning-red-could-send-prices-back-below-usd60-000",
+      "published_at": "Fri, 13 Nov 2026 12:14:22 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "The next Congress will write rules for AI and emerging tech. They should use the stuff first.",
-      "url": "https://www.coindesk.com/opinion/2026/11/12/the-next-congress-will-write-rules-for-ai-and-emerging-tech-they-should-use-the-stuff-first",
-      "published_at": "Thu, 12 Nov 2026 14:24:51 +0000",
+      "title": "Bitcoin hits 12-week low as dollar rallies on interest-rate outlook, liquidations top $1.6 billion",
+      "url": "https://www.coindesk.com/markets/2026/11/13/bitcoin-hits-12-week-low-as-dollar-rallies-on-interest-rate-outlook-liquidations-top-usd1-6-billion",
+      "published_at": "Fri, 13 Nov 2026 11:52:25 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Nvidia CEO Huang quits company he co-founded, led for 3 decades. Shares slump",
-      "url": "https://www.coindesk.com/markets/2026/11/12/nvidia-shares-plunge-10-as-jensen-huang-resigns",
-      "published_at": "Thu, 12 Nov 2026 13:57:53 +0000",
+      "title": "Live updates: Bitcoin eyes bear market lows as late summer rally mostly wiped out",
+      "url": "https://www.coindesk.com/tech/2026/11/13/live-news-bitcoin-drops-below-200-week-moving-average-as-dollar-strength-pressures-risk-assets",
+      "published_at": "Fri, 13 Nov 2026 09:16:58 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin weakness erases September's bullish signal",
-      "url": "https://www.coindesk.com/daybook-us/2026/11/12/bitcoin-weakness-erases-september-s-bullish-signal",
-      "published_at": "Thu, 12 Nov 2026 12:15:00 +0000",
+      "title": "Ethereum treasury firm BTCS sold ether at a loss to keep $64 million Aave loan healthy",
+      "url": "https://www.coindesk.com/markets/2026/11/13/ethereum-treasury-firm-btcs-sold-ether-at-a-loss-to-keep-usd64-million-aave-loan-healthy",
+      "published_at": "Fri, 13 Nov 2026 07:05:29 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "UK bank Griffin raises $20 million to expand into stablecoin payments",
-      "url": "https://www.coindesk.com/business/2026/11/12/uk-bank-griffin-raises-usd20-million-to-expand-into-stablecoin-payments",
-      "published_at": "Thu, 12 Nov 2026 12:04:42 +0000",
+      "title": "Bitcoin firm Nakamoto owes Kraken $165 million, more than its entire market value",
+      "url": "https://www.coindesk.com/markets/2026/11/13/bitcoin-firm-nakamoto-owes-kraken-usd165-million-more-than-its-entire-market-value",
+      "published_at": "Fri, 13 Nov 2026 06:03:41 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Ethereum researchers drop faster blocks to race toward quantum defenses in 2027",
-      "url": "https://www.coindesk.com/tech/2026/11/12/ethereum-researchers-drop-faster-blocks-to-race-toward-quantum-defenses-in-2027",
-      "published_at": "Thu, 12 Nov 2026 11:43:41 +0000",
+      "title": "Bitcoin ETFs are now down over $1.5 billion in net outflows for the year",
+      "url": "https://www.coindesk.com/markets/2026/11/13/bitcoin-etfs-are-now-down-over-usd1-5-billion-in-net-outflows-for-the-year",
+      "published_at": "Fri, 13 Nov 2026 05:45:26 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
