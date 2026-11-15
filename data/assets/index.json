@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-14T19:51:44.535758+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-11-14 19:42 UTC_",
+  "generated_at": "2026-11-15T20:18:52.824051+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-11-15 20:09 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,23 +9,23 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 65625.0,
+        "current_usd": 64690.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": -13.4,
-        "change_30d_pct": -20.12
+        "change_7d_pct": -13.45,
+        "change_30d_pct": -20.65
       },
       "indicators": {
         "trend": "DOWNTREND",
-        "momentum": "STRONG",
+        "momentum": "WEAK",
         "volatility": "NORMAL"
       },
       "valuation": {
         "verdict": "Constructive long-term setup",
         "band": "undervalued",
         "summary_line": "Undervalued - Balanced growth profile - Elevated regulatory risk.",
-        "score": 61.7
+        "score": 65.3
       },
-      "updated_at": "2026-11-14T19:51:44.533773+00:00",
+      "updated_at": "2026-11-15T20:18:52.821511+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,23 +37,23 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 1831.0,
+        "current_usd": 1817.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": -18.14,
-        "change_30d_pct": -24.95
+        "change_7d_pct": -14.48,
+        "change_30d_pct": -24.94
       },
       "indicators": {
         "trend": "DOWNTREND",
-        "momentum": "STRONG",
+        "momentum": "WEAK",
         "volatility": "NORMAL"
       },
       "valuation": {
         "verdict": "Constructive long-term setup",
         "band": "undervalued",
         "summary_line": "Undervalued - Strong growth profile - Elevated regulatory risk.",
-        "score": 64.5
+        "score": 70.2
       },
-      "updated_at": "2026-11-14T19:51:44.534371+00:00",
+      "updated_at": "2026-11-15T20:18:52.822253+00:00",
       "source": {
         "short_term": "live"
       }
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-11-14T19:51:44.534666+00:00",
+      "updated_at": "2026-11-15T20:18:52.822599+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-11-14T19:51:44.534893+00:00",
+      "updated_at": "2026-11-15T20:18:52.822912+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-11-14T19:51:44.535112+00:00",
+      "updated_at": "2026-11-15T20:18:52.823203+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-11-14T19:51:44.535336+00:00",
+      "updated_at": "2026-11-15T20:18:52.823507+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -193,7 +193,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-11-14T19:51:44.535548+00:00",
+      "updated_at": "2026-11-15T20:18:52.823780+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -201,7 +201,28 @@
   ],
   "overview_news": [
     {
-      "title": "Bitcoin slides to 3-month low of $65,000 as analyst flags fourth capitulation wave",
+      "title": "Did prediction markets call the U.S. midterm election?: State of Crypto",
+      "url": "https://www.coindesk.com/policy/2026/11/15/did-prediction-markets-call-the-u-s-midterm-election-state-of-crypto",
+      "published_at": "Sun, 15 Nov 2026 19:30:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Crypto insiders aren't counting on silver linings in Congress' 'lame duck' session",
+      "url": "https://www.coindesk.com/news-analysis/2026/11/13/crypto-insiders-aren-t-counting-on-silver-linings-in-congress-lame-duck-session",
+      "published_at": "Sun, 15 Nov 2026 14:00:00 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "XRP crashes to its lowest since November 2024 as money leaves crypto",
+      "url": "https://www.coindesk.com/markets/2026/11/15/xrp-crashes-to-its-lowest-since-november-2024-as-money-leaves-crypto",
+      "published_at": "Sun, 15 Nov 2026 02:50:57 +0000",
+      "source": "CoinDesk",
+      "fetch_source": "live"
+    },
+    {
+      "title": "Bitcoin crashes to 3-month low below $63,000 as analyst flags fourth capitulation wave",
       "url": "https://www.coindesk.com/markets/2026/11/14/bitcoin-drifts-back-to-usd65-000-deep-value-zone-says-analyst",
       "published_at": "Sat, 14 Nov 2026 16:33:29 +0000",
       "source": "CoinDesk",
@@ -246,27 +267,6 @@
       "title": "Satoshi-era wallet served in a $260 billion lawsuit moves 75 BTC it held since 2011",
       "url": "https://www.coindesk.com/markets/2026/11/13/satoshi-era-wallet-served-in-a-usd260-billion-lawsuit-moves-75-btc-it-held-since-2011",
       "published_at": "Sat, 14 Nov 2026 04:30:00 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitcoin miners pay Paraguay $350 million a year, but AI is pushing them out",
-      "url": "https://www.coindesk.com/tech/2026/11/13/bitcoin-miners-pay-paraguay-usd350-million-a-year-but-ai-is-pushing-them-out",
-      "published_at": "Fri, 13 Nov 2026 23:30:00 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "Bitcoin plunges to $68,000 as Anthropic IPO frenzy adds to market jitters",
-      "url": "https://www.coindesk.com/markets/2026/11/13/bitcoin-slides-to-usd68k-as-nvidia-turmoil-anthropic-ipo-fuel-broader-market-sell-off",
-      "published_at": "Fri, 13 Nov 2026 18:39:58 +0000",
-      "source": "CoinDesk",
-      "fetch_source": "live"
-    },
-    {
-      "title": "U.S. Senate Banking Committee races toward hearing on new SEC nominations",
-      "url": "https://www.coindesk.com/policy/2026/11/13/u-s-senate-banking-committee-races-toward-hearing-on-new-sec-nominations",
-      "published_at": "Fri, 13 Nov 2026 17:05:43 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
