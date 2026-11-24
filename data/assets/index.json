@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-22T21:04:26.849124+00:00",
-  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-11-22 20:55 UTC_",
+  "generated_at": "2026-11-24T02:08:30.632057+00:00",
+  "macro_markdown": "# Long-Term Multi-Asset Analysis Report\n\n_Updated: 2026-11-24 01:59 UTC_",
   "assets": [
     {
       "asset": "bitcoin",
@@ -9,10 +9,10 @@
       "market_type": "crypto",
       "details_page": "btc.html",
       "price": {
-        "current_usd": 60837.0,
+        "current_usd": 60717.0,
         "change_24h_pct": 1.39,
-        "change_7d_pct": -6.84,
-        "change_30d_pct": -24.99
+        "change_7d_pct": -6.43,
+        "change_30d_pct": -24.15
       },
       "indicators": {
         "trend": "UPTREND",
@@ -22,10 +22,10 @@
       "valuation": {
         "verdict": "Constructive long-term setup",
         "band": "undervalued",
-        "summary_line": "Undervalued - Balanced growth profile - Elevated regulatory risk.",
-        "score": 61.3
+        "summary_line": "Undervalued - Strong growth profile - Elevated regulatory risk.",
+        "score": 65.6
       },
-      "updated_at": "2026-11-22T21:04:26.845119+00:00",
+      "updated_at": "2026-11-24T02:08:30.629861+00:00",
       "source": {
         "short_term": "live"
       }
@@ -37,23 +37,23 @@
       "market_type": "crypto",
       "details_page": "eth.html",
       "price": {
-        "current_usd": 1718.0,
+        "current_usd": 1697.0,
         "change_24h_pct": 1.37,
-        "change_7d_pct": -6.33,
-        "change_30d_pct": -27.94
+        "change_7d_pct": -6.89,
+        "change_30d_pct": -27.05
       },
       "indicators": {
         "trend": "UPTREND",
-        "momentum": "STRONG",
+        "momentum": "WEAK",
         "volatility": "NORMAL"
       },
       "valuation": {
-        "verdict": "Neutral / fair-value zone",
-        "band": "fair",
-        "summary_line": "Fair - Balanced growth profile - Elevated regulatory risk.",
-        "score": 58.0
+        "verdict": "Constructive long-term setup",
+        "band": "undervalued",
+        "summary_line": "Undervalued - Strong growth profile - Elevated regulatory risk.",
+        "score": 68.1
       },
-      "updated_at": "2026-11-22T21:04:26.846191+00:00",
+      "updated_at": "2026-11-24T02:08:30.630506+00:00",
       "source": {
         "short_term": "live"
       }
@@ -81,7 +81,7 @@
         "summary_line": "Undervalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 82.9
       },
-      "updated_at": "2026-11-22T21:04:26.847036+00:00",
+      "updated_at": "2026-11-24T02:08:30.630836+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -109,7 +109,7 @@
         "summary_line": "Overvalued - Mixed growth profile - Moderate regulatory risk.",
         "score": 22.9
       },
-      "updated_at": "2026-11-22T21:04:26.847501+00:00",
+      "updated_at": "2026-11-24T02:08:30.631098+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -137,7 +137,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-11-22T21:04:26.847883+00:00",
+      "updated_at": "2026-11-24T02:08:30.631352+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -165,7 +165,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-11-22T21:04:26.848266+00:00",
+      "updated_at": "2026-11-24T02:08:30.631610+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -193,7 +193,7 @@
         "summary_line": "Fair - Mixed growth profile - Moderate regulatory risk.",
         "score": null
       },
-      "updated_at": "2026-11-22T21:04:26.848650+00:00",
+      "updated_at": "2026-11-24T02:08:30.631841+00:00",
       "source": {
         "short_term": "unavailable"
       }
@@ -201,72 +201,72 @@
   ],
   "overview_news": [
     {
-      "title": "More on the pending oversight hearings: State of Crypto",
-      "url": "https://www.coindesk.com/",
-      "published_at": "Sun, 22 Nov 2026 19:30:00 +0000",
+      "title": "U.S. CFTC sets policies on event contract data, using crypto to check financial boxes",
+      "url": "https://www.coindesk.com/policy/2026/11/23/u-s-cftc-sets-policies-on-event-contract-data-using-crypto-to-check-financial-boxes",
+      "published_at": "Tue, 24 Nov 2026 00:25:04 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin's quantum security challenge extends to bridges, custodians and millions of coins",
-      "url": "https://www.coindesk.com/tech/2026/11/22/bitcoin-s-quantum-security-challenge-extends-to-bridges-custodians-and-millions-of-coins",
-      "published_at": "Sun, 22 Nov 2026 14:00:00 +0000",
+      "title": "New York judge declines to block Kalshi from operating in the state for now",
+      "url": "https://www.coindesk.com/policy/2026/11/23/new-york-judge-declines-to-block-kalshi-from-operating-in-the-state-for-now",
+      "published_at": "Mon, 23 Nov 2026 18:22:03 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin rebounds above $60,000 after $1.8 billion crypto liquidation wave",
-      "url": "https://www.coindesk.com/markets/2026/11/21/bitcoin-bounces-9-from-two-year-low-to-retake-usd60-000-as-traders-eye-monday-s-stock-open",
-      "published_at": "Sat, 21 Nov 2026 17:50:00 +0000",
+      "title": "Nvidia's Jensen Huang faces Senate scrutiny despite Trump-backed return as CEO",
+      "url": "https://www.coindesk.com/business/2026/11/23/nvidia-s-jensen-huang-faces-senate-scrutiny-despite-trump-backed-return-as-ceo",
+      "published_at": "Mon, 23 Nov 2026 18:12:05 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Cross-chain protocol Chainflip's FLIP tanks 30% after suspected $4.86 million vault drain",
-      "url": "https://www.coindesk.com/business/2026/11/21/cross-chain-protocol-chainflip-s-flip-tanks-30-after-suspected-usd4-86-million-vault-drain",
-      "published_at": "Sat, 21 Nov 2026 16:41:00 +0000",
+      "title": "Bitcoin rebound already losing steam as AI trade returns with a bang",
+      "url": "https://www.coindesk.com/markets/2026/11/23/bitcoin-rebound-already-losing-steam-as-ai-trade-returns-with-a-bank",
+      "published_at": "Mon, 23 Nov 2026 17:31:27 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "OpenAI, Anthropic and rivals seek AI agent rules to prevent commerce chaos",
-      "url": "https://www.coindesk.com/tech/2026/11/21/openai-anthropic-and-rivals-seek-ai-agent-rules-to-prevent-commerce-chaos",
-      "published_at": "Sat, 21 Nov 2026 14:00:00 +0000",
+      "title": "Cathie Wood's ARK Invest pulls the plug on two planned crypto ETFs",
+      "url": "https://www.coindesk.com/business/2026/11/23/cathie-wood-s-ark-invest-pulls-the-plug-on-two-planned-crypto-etfs",
+      "published_at": "Mon, 23 Nov 2026 16:39:03 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Ether treasury firm BTCS warns SEC its $54 million Aave loan could be liquidated",
-      "url": "https://www.coindesk.com/markets/2026/11/21/ether-treasury-firm-btcs-warns-sec-its-usd54-million-aave-loan-could-be-liquidated",
-      "published_at": "Sat, 21 Nov 2026 12:30:00 +0000",
+      "title": "Binance hackers push $247 million through transactions designed to cloud the source",
+      "url": "https://www.coindesk.com/business/2026/11/23/binance-hackers-push-usd247-million-through-transactions-designed-to-cloud-the-source",
+      "published_at": "Mon, 23 Nov 2026 15:29:01 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin nodes could be stalled by repeating one ID 50,000 times. AI found the bug",
-      "url": "https://www.coindesk.com/markets/2026/11/21/bitcoin-nodes-could-be-stalled-by-repeating-one-id-50-000-times-ai-found-the-bug",
-      "published_at": "Sat, 21 Nov 2026 06:16:42 +0000",
+      "title": "Eric Trump-backed American Bitcoin secures $150 million loan against its bitcoin",
+      "url": "https://www.coindesk.com/business/2026/11/23/eric-trump-backed-american-bitcoin-secures-usd150-million-loan-against-its-bitcoin",
+      "published_at": "Mon, 23 Nov 2026 15:02:32 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "XRP falls 10% as long bets unwind and ETF assets slip below $1 billion",
-      "url": "https://www.coindesk.com/markets/2026/11/21/xrp-falls-10-as-long-bets-unwind-and-etf-assets-slip-below-usd1-billion",
-      "published_at": "Sat, 21 Nov 2026 05:59:19 +0000",
+      "title": "Bitcoin's 5-year return is nearly zero, great narratives are fading and what's left is the Fed",
+      "url": "https://www.coindesk.com/opinion/2026/11/23/bitcoin-s-5-year-return-is-nearly-zero-great-narratives-are-fading-and-what-s-left-is-the-fed",
+      "published_at": "Mon, 23 Nov 2026 14:43:18 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Bitcoin tanks below $57,000 for the first time in two years, and its not alone",
-      "url": "https://www.coindesk.com/markets/2026/11/21/bitcoin-tanks-below-usd57-000-for-the-first-time-in-two-years-and-its-not-alone",
-      "published_at": "Sat, 21 Nov 2026 04:10:07 +0000",
+      "title": "Nvidia soars as Jensen Huang returns to lead company",
+      "url": "https://www.coindesk.com/markets/2026/11/23/jensen-huang-returns-as-nvidia-ceo-as-shares-jump-27",
+      "published_at": "Mon, 23 Nov 2026 14:13:44 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     },
     {
-      "title": "Kalshi races to get ahead of New York order that could shut down exchange",
-      "url": "https://www.coindesk.com/policy/2026/11/20/kalshi-races-to-get-ahead-of-new-york-order-that-could-shut-down-exchange",
-      "published_at": "Fri, 20 Nov 2026 22:51:14 +0000",
+      "title": "Fidelity Investments, Strive, Etoro join OKX-ICE tokenized securities venue",
+      "url": "https://www.coindesk.com/business/2026/11/23/fidelity-investments-strive-etoro-join-okx-ice-tokenized-securities-venue",
+      "published_at": "Mon, 23 Nov 2026 13:49:44 +0000",
       "source": "CoinDesk",
       "fetch_source": "live"
     }
